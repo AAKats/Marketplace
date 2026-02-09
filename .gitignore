@@ -1,0 +1,29 @@
+# Ignore all files in the venv directory
+venv/
+
+# Ignore temporary files and build artifacts
+*.pyc
+__pycache__/
+*.log
+
+# Ignore editor-specific files
+.idea/
+.vscode/
+
+# Ignore test reports and coverage data
+report.html
+coverage/
+
+# Ignore any files or directories that are not necessary for version control
+*.tmp
+*.bak
+*.swp
+
+# Ignore specific file types
+*.DS_Store
+Thumbs.db
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+*.dockerignore
