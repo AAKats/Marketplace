@@ -1,16 +1,17 @@
 import pytest
 from selenium import webdriver
-from api.services.user_api import UserApi
+from ..api.services.user_api import UserApi
 
 @pytest.fixture(scope="function")
-def driver():
+def browser():
+    '''Фикстура запуска браузера для UI тестов'''
     # Настройка драйвера
     options = webdriver.ChromeOptions()
     # options.add_argument("--headless") 
-    driver = webdriver.Chrome(options=options)
-    driver.maximize_window()
-    yield driver
-    driver.quit()
+    browser = webdriver.Chrome(options=options)
+    browser.maximize_window()
+    yield browser
+    browser.quit()
 
 @pytest.fixture(scope="session")
 def api_client():
