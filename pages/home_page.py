@@ -8,10 +8,13 @@ class HomePage(BasePage):
     def __init__(self, *args, **kwargs):
         super(HomePage, self).__init__(*args, **kwargs)
 
-    def check_username(self):
+    def check_username(self,login = False):
         '''Проверка корректности отображения
         авторизованного пользователя в панели навигации'''
-        expected_name = DataGenerator.get_registration_data('first_name')
+        if login:
+            expected_name = DataGenerator.get_login_data('first_name')
+        else:
+            expected_name = DataGenerator.get_registration_data('first_name')
         logged_as = self.find(BasePageLocators.LOGGED_AS_TEXT).text
         assert f'Logged in as {expected_name}' in logged_as, f'Logged in text is incorrect {logged_as}'
         print(f'Username is correct {logged_as}')
@@ -32,3 +35,9 @@ class HomePage(BasePage):
         print(f'Delete message 2 is correct {message_2}')
         continue_button.click()
         print('Continue button clicked')
+
+    def logout(self):
+        self.find(BasePageLocators.LOGOUT_BUTTON).click()
+        self.is_link_correct('login')
+        self.is_not_element_present(BasePageLocators.LOGOUT_BUTTON)
+        self.is_not_element_present(BasePageLocators.DELETE_ACCOUNT_BUTTON)

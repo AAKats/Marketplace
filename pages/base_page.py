@@ -6,18 +6,18 @@ from ..locators import BasePageLocators
 
 class BasePage:
     def __init__(self, browser):
-        self.driver = browser
+        self.browser = browser
         self.base_url = "https://automationexercise.com"
 
     '''Основные методы для ui'''
     def find(self, locator, time=10):
-        return WebDriverWait(self.driver, time).until(
+        return WebDriverWait(self.browser, time).until(
             EC.presence_of_element_located(locator),
             message=f"Element not found: {locator}"
         )
 
     def open(self, url):
-        self.driver.get(f"{self.base_url}{url}")
+        self.browser.get(f"{self.base_url}{url}")
 
     '''Методы для перехода по страницам сайта через панель навигации'''
     def go_to_login_page(self):
@@ -58,7 +58,7 @@ class BasePage:
     # Метод для проверки корректности ссылки в поисковой строке
     def is_link_correct(self, value):
         try:
-            WebDriverWait(self.driver, 10).until(
+            WebDriverWait(self.browser, 10).until(
                 EC.url_contains(value))
             print(f'{value.capitalize()} link is correct')
         except TimeoutException:

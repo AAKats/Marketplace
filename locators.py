@@ -11,6 +11,7 @@ class LoginPageLocators:
     SIGN_UP_BUTTON = (By.CSS_SELECTOR,'[data-qa="signup-button"]')
     
     # Локаторы для авторизации
+    LOGIN_TITLE = (By.CSS_SELECTOR, '.login-form > h2')
     EMAIL_LOGIN_FIELD = (By.CSS_SELECTOR,'[data-qa="login-email"]')
     PASSWORD_LOGIN_FIELD = (By.CSS_SELECTOR,'[data-qa="login-password"]')
     LOGIN_BUTTON = (By.CSS_SELECTOR,'[data-qa="login-button"]')

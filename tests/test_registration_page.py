@@ -6,9 +6,11 @@ from ..pages.registration_page import RegistrationPage
 from ..utils.data_generator import DataGenerator
 
 
-class TestRegistrationNewUser():
+class TestRegistrationAuthorisation():
     
     @pytest.mark.register_user
+    @pytest.mark.smoke
+    @pytest.mark.ui
     def test_signup_user(self, browser):
         page = LoginPage(browser)
         page.open('')
@@ -60,7 +62,26 @@ class TestRegistrationNewUser():
         page.delete_account() # Проверка удаления зарегистрированного пользователя по нажатию на кнопку
         page.is_link_correct('')
 
+    @pytest.mark.login_user
+    @pytest.mark.smoke
+    @pytest.mark.ui
+    def test_login_user(self, browser):
+            page = LoginPage(browser)
+            page.open('')
+            page.go_to_login_page() # Переход на страницу логина по нажатию на кнопку в навигации
+            # Проверки начальной страницы авторизации
+            page.should_be_login_url()
+            page.should_be_correct_login_title()
+            page.should_be_login_fields()
+            page.fill_in_email()
+            page.fill_in_password()
+            page.click_login_button()
 
+            page = HomePage(browser)
+            page.is_link_correct('')
+            page.check_username(True)
+            page.logout()
+            
 
 
 

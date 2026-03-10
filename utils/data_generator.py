@@ -37,3 +37,7 @@ class DataGenerator:
     def get_registration_data(field):
         with open('registration_data.json', 'r', encoding='utf-8') as f:
             return json.load(f)[field]
+        
+    def get_login_data(field):
+        with open('login_data.json', 'r', encoding='utf-8') as f:
+            return json.load(f)[field]
