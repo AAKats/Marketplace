@@ -9,12 +9,14 @@ class LoginPageLocators:
     NAME_SIGN_UP_FIELD = (By.CSS_SELECTOR,'[data-qa="signup-name"]')
     EMAIL_SIGN_UP_FIELD = (By.CSS_SELECTOR,'[data-qa="signup-email"]')
     SIGN_UP_BUTTON = (By.CSS_SELECTOR,'[data-qa="signup-button"]')
+    SIGN_UP_ERROR = (By.CSS_SELECTOR, '[action="/signup"] p')
     
     # Локаторы для авторизации
     LOGIN_TITLE = (By.CSS_SELECTOR, '.login-form > h2')
     EMAIL_LOGIN_FIELD = (By.CSS_SELECTOR,'[data-qa="login-email"]')
     PASSWORD_LOGIN_FIELD = (By.CSS_SELECTOR,'[data-qa="login-password"]')
     LOGIN_BUTTON = (By.CSS_SELECTOR,'[data-qa="login-button"]')
+    LOGIN_ERROR = (By.CSS_SELECTOR,'[action="/login"] p')
 
 
 class BasePageLocators:

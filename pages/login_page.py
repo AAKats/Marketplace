@@ -1,14 +1,10 @@
 from .base_page import BasePage
+from .home_page import HomePage
 from ..locators import LoginPageLocators
 from ..utils.data_generator import DataGenerator
 
 class LoginPage(BasePage):
-    
-    def should_be_login_url(self) -> None:
-        # Проверка корректности ссылки страницы авторизации и регистрации
-        assert "login" in self.browser.current_url, 'Current link is not login link'
-        print('Login link is correct')
-    
+
     def should_be_login_fields(self):
         # Проверка наличия полей для авторизации
         assert self.is_element_present(LoginPageLocators.EMAIL_LOGIN_FIELD), 'Login email area is not presented'
@@ -23,12 +19,17 @@ class LoginPage(BasePage):
         assert self.is_element_present(LoginPageLocators.NAME_SIGN_UP_FIELD), 'Signup name area is not presented'
         print('Signup name area is not presented')
     
-    def fill_signup_fields(self):
+    def fill_signup_email(self):
         # Заполнение полей для регистрации
         email = DataGenerator.get_registration_data('email')
         self.find(LoginPageLocators.EMAIL_SIGN_UP_FIELD).send_keys(email)
         print('Email signup field filled')
-        name = DataGenerator.get_registration_data('first_name')
+
+    def fill_signup_name(self):
+        try:
+            name = DataGenerator.get_registration_data('first_name')
+        except:
+            name = 'Bob'
         self.find(LoginPageLocators.NAME_SIGN_UP_FIELD).send_keys(name)
         print('Name signup field filled')
         
@@ -51,10 +52,14 @@ class LoginPage(BasePage):
         assert 'Login to your account' in self.find(LoginPageLocators.LOGIN_TITLE).text, f'Login title text is not correct {self.find(LoginPageLocators.LOGIN_TITLE).text}'
         print('Login title text is correct')
 
-    def fill_in_email(self):
-        email = DataGenerator.get_login_data('email')
-        self.find(LoginPageLocators.EMAIL_LOGIN_FIELD).send_keys(email)
-        print('Email filled in')
+    def fill_in_email(self, email= None):
+        if email != None:
+            self.find(LoginPageLocators.EMAIL_LOGIN_FIELD).send_keys(email)
+            print('Email filled in')
+        else:
+            email = DataGenerator.get_login_data('email')
+            self.find(LoginPageLocators.EMAIL_LOGIN_FIELD).send_keys(email)
+            print('Email filled in')
     
     def fill_in_password(self):
         password = DataGenerator.get_login_data('password')
@@ -65,4 +70,27 @@ class LoginPage(BasePage):
         assert self.is_element_present(LoginPageLocators.LOGIN_BUTTON),'Login button is not presented'
         print('Login button is presented')
         self.find(LoginPageLocators.LOGIN_BUTTON).click()
-        print('Login button is clicked')    
+        print('Login button is clicked')
+
+    def should_be_correct_login_error_message(self):
+        self.is_element_present(LoginPageLocators.LOGIN_ERROR)
+        print('Error is presented')
+        error_message = self.find(LoginPageLocators.LOGIN_ERROR).text
+        assert 'Your email or password is incorrect!' in error_message, f'Error message should be "Your email or password is incorrect!" got {error_message}'
+        print(f'Error message is correct: {error_message}')
+
+    def should_be_correct_signup_error_message(self):
+        self.is_element_present(LoginPageLocators.SIGN_UP_ERROR)
+        print('Error is presented')
+        error_message = self.find(LoginPageLocators.SIGN_UP_ERROR).text
+        assert 'Email Address already exist!' in error_message, f'Error message should be "Email Address already exist!" got {error_message}'
+        print(f'Error message is correct: {error_message}')
+
+    def fill_in_existing_email(self, email= None):
+        if email != None:
+            self.find(LoginPageLocators.EMAIL_SIGN_UP_FIELD).send_keys(email)
+            print('Email filled in')
+        else:
+            email = DataGenerator.get_login_data('email')
+            self.find(LoginPageLocators.EMAIL_SIGN_UP_FIELD).send_keys(email)
+            print('Existing email filled in')

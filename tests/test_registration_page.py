@@ -6,9 +6,10 @@ from ..pages.registration_page import RegistrationPage
 from ..utils.data_generator import DataGenerator
 
 
-class TestRegistrationAuthorisation():
+class TestRegistration():
     
     @pytest.mark.register_user
+    @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
     def test_signup_user(self, browser):
@@ -16,14 +17,15 @@ class TestRegistrationAuthorisation():
         page.open('')
         page.go_to_login_page() # Переход на страницу логина по нажатию на кнопку в навигации
         # Проверки начальной страницы регистрации
-        page.should_be_login_url()
+        page.is_link_correct('login')
         page.should_be_new_user_text()
         page.should_be_signup_fields()
         # Генерация данных для регистрации
         datagen = DataGenerator()
         datagen.generate_data_for_registration()
         # Заполнение первичных данных для регистрации
-        page.fill_signup_fields()
+        page.fill_signup_email()
+        page.fill_signup_name()
         page.click_signup_button()
 
         page = RegistrationPage(browser)
@@ -56,31 +58,29 @@ class TestRegistrationAuthorisation():
         page.should_be_correct_congratilations()
         #Завершение регистрации, переход на домашнюю страницу по кнопке
         page.finish_signup()
-        #Проверка на наличи кнопок для зарегестрированного пользователя
+        #Проверка на наличие кнопок для зарегестрированного пользователя
         page = HomePage(browser)
         page.check_username()
         page.delete_account() # Проверка удаления зарегистрированного пользователя по нажатию на кнопку
         page.is_link_correct('')
 
-    @pytest.mark.login_user
+    @pytest.mark.register_exist_email
+    @pytest.mark.negative
     @pytest.mark.smoke
     @pytest.mark.ui
-    def test_login_user(self, browser):
-            page = LoginPage(browser)
-            page.open('')
-            page.go_to_login_page() # Переход на страницу логина по нажатию на кнопку в навигации
-            # Проверки начальной страницы авторизации
-            page.should_be_login_url()
-            page.should_be_correct_login_title()
-            page.should_be_login_fields()
-            page.fill_in_email()
-            page.fill_in_password()
-            page.click_login_button()
-
-            page = HomePage(browser)
-            page.is_link_correct('')
-            page.check_username(True)
-            page.logout()
+    def test_signup_user(self, browser):
+        page = LoginPage(browser)
+        page.open('')
+        page.go_to_login_page() # Переход на страницу логина по нажатию на кнопку в навигации
+        # Проверки начальной страницы регистрации
+        page.is_link_correct('login')
+        page.should_be_new_user_text()
+        page.should_be_signup_fields()
+        page.fill_in_existing_email()
+        page.fill_signup_name()
+        page.click_signup_button()
+        page.should_be_correct_signup_error_message()
+        page.is_link_correct('signup')
             
 
 

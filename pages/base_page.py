@@ -1,13 +1,15 @@
 from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
+
+from ..config.config import Config
 from ..locators import BasePageLocators
 
 
 class BasePage:
     def __init__(self, browser):
         self.browser = browser
-        self.base_url = "https://automationexercise.com"
+        self.base_url = Config.BASE_URL
 
     '''Основные методы для ui'''
     def find(self, locator, time=10):
@@ -63,3 +65,7 @@ class BasePage:
             print(f'{value.capitalize()} link is correct')
         except TimeoutException:
             raise AssertionError(f'Current link is not {value} link')
+
+    #Метод проверки отсутствия активной сессии пользователя
+    def should_not_be_username(self):
+        username = self.is_not_element_present(BasePageLocators.LOGGED_AS_TEXT)
