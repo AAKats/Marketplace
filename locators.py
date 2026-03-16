@@ -30,8 +30,9 @@ class BasePageLocators:
     LOGGED_AS_TEXT = (By.XPATH, '//i[@class="fa fa-user"]/parent::*')
     LOGOUT_BUTTON = (By.CSS_SELECTOR, 'a[href="/logout"]')
     DELETE_ACCOUNT_BUTTON = (By.CSS_SELECTOR, 'a[href="/delete_account"]')
+    CONTACT_US_BUTTON = (By.CSS_SELECTOR, 'a[href="/contact_us"]')
 
-    #Локаторы для страницы удаления аккаунта
+    # Локаторы для страницы удаления аккаунта
     DELETE_TITLE = (By.CSS_SELECTOR,'.title > b')
     DELETE_TEXT_1 = (By.CSS_SELECTOR, '.col-sm-9 p')
     DELETE_TEXT_2 = (By.CSS_SELECTOR, '.col-sm-9 > p:nth-child(3)')
@@ -42,7 +43,7 @@ class BasePageLocators:
 class RegistrationPageLocators:
     '''Локаторы страницы регистрации'''
 
-    #Локаторы для страницы после успешной регистрации
+    # Локаторы для страницы после успешной регистрации
     ACCOUNT_CREATED_TITLE = (By.CSS_SELECTOR, '.title > b')
     CONTINUE_AFTER_SIGNUP_BUTTON = (By.CSS_SELECTOR, '[data-qa="continue-button"]')
     CONGRATILATIONS_TEXT = (By.CSS_SELECTOR, '.col-sm-9 p')
@@ -75,3 +76,27 @@ class RegistrationPageLocators:
 
     #Локатор кнопки завершения регистрации
     CREATE_ACCOUNT_BUTTON = (By.CSS_SELECTOR, '[data-qa="create-account"]')
+
+class ContactUsPageLocators:
+    '''Локаторы страницы обратной связи'''
+
+    CONTACT_US_TITLE = (By.CSS_SELECTOR, '.col-sm-12 > .title')
+    CONTACT_US_TITLE_2 = (By.CSS_SELECTOR, '.col-sm-8 > .contact-form > .title')
+    NOTE = (By.CSS_SELECTOR, '.col-sm-8 > .contact-form > div')
+    CONTACT_US_TITLE_3 = (By.CSS_SELECTOR, '.col-sm-4 .title')
+    SUCCESS_MESSAGE = (By.CLASS_NAME, 'alert-success')
+
+    # Локаторы заполняемых полей
+    NAME_FIELD = (By.CSS_SELECTOR, '[data-qa="name"]')
+    EMAIL_FIELD = (By.CSS_SELECTOR, '[data-qa="email"]')
+    SUBJECT_FIELD = (By.CSS_SELECTOR, '[data-qa="subject"]')
+    MESSAGE_FIELD = (By.CSS_SELECTOR, '[data-qa="message"]')
+    UPLOAD_FILE = (By.NAME, 'upload_file')
+
+    # Локаторы кнопок
+    SUBMIT_BUTTON = (By.NAME, 'submit')
+    HOME_BUTTON = (By.CLASS_NAME, 'fa-angle-double-left')
+
+
+
+

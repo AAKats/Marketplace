@@ -41,3 +41,9 @@ class HomePage(BasePage):
         self.is_link_correct('login')
         self.is_not_element_present(BasePageLocators.LOGOUT_BUTTON)
         self.is_not_element_present(BasePageLocators.DELETE_ACCOUNT_BUTTON)
+
+    def should_be_contact_us_button(self):
+        assert self.is_element_present(BasePageLocators.CONTACT_US_BUTTON), 'Contact us button is not presented'
+        print('Contact us button is presented')
+
+

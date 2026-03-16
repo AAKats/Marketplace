@@ -14,7 +14,7 @@ class TestRegistration():
     @pytest.mark.ui
     def test_signup_user(self, browser):
         page = LoginPage(browser)
-        page.open('')
+        page.open()
         page.go_to_login_page() # Переход на страницу логина по нажатию на кнопку в навигации
         # Проверки начальной страницы регистрации
         page.is_link_correct('login')
@@ -70,7 +70,7 @@ class TestRegistration():
     @pytest.mark.ui
     def test_signup_user(self, browser):
         page = LoginPage(browser)
-        page.open('')
+        page.open()
         page.go_to_login_page() # Переход на страницу логина по нажатию на кнопку в навигации
         # Проверки начальной страницы регистрации
         page.is_link_correct('login')

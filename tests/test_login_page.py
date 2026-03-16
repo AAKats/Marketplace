@@ -10,7 +10,7 @@ class TestLogin():
     @pytest.mark.ui
     def test_login_user(self, browser):
             page = LoginPage(browser)
-            page.open('')
+            page.open()
             page.go_to_login_page() # Переход на страницу логина по нажатию на кнопку в навигации
             # Проверки начальной страницы авторизации
             page.is_link_correct('login')
@@ -21,7 +21,7 @@ class TestLogin():
             page.click_login_button()
 
             page = HomePage(browser)
-            page.is_link_correct('')
+            page.is_link_correct()
             page.check_username(True)
             page.logout()
             page.should_not_be_username()
@@ -32,7 +32,7 @@ class TestLogin():
     @pytest.mark.ui
     def test_incorrect_login_user(self, browser):
         page = LoginPage(browser)
-        page.open('')
+        page.open()
         page.go_to_login_page()  # Переход на страницу логина по нажатию на кнопку в навигации
         # Проверки начальной страницы авторизации
         page.is_link_correct('login')
