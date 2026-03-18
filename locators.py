@@ -97,6 +97,24 @@ class ContactUsPageLocators:
     SUBMIT_BUTTON = (By.NAME, 'submit')
     HOME_BUTTON = (By.CLASS_NAME, 'fa-angle-double-left')
 
+class ProductsPageLocators:
+    PRODUCTS_LIST = (By.CLASS_NAME, 'features_items')
+    PRODUCT_NAMES = (By.CSS_SELECTOR, '.productinfo p')
+    VIEW_PRODUCT_BUTTONS = (By.CSS_SELECTOR, '.choose a')
+    SEARCH_FIELD = (By.ID, 'search_product')
+    SEARCH_BUTTON = (By.ID, 'submit_search')
+    TITLE = (By.CSS_SELECTOR, '.title')
+
+
+class ProductPageLocators:
+    PRODUCT_NAME = (By.CSS_SELECTOR, '.product-information h2 ')
+    CATEGORY = (By.XPATH, '//p[contains(text(), "Category:")]')
+    PRICE = (By.CSS_SELECTOR, '.product-information > span > span')
+    AVAILABILITY = (By.XPATH, '//b[contains(text(), "Availability:")]')
+    CONDITION = (By.XPATH, '//b[contains(text(), "Condition:")]')
+    BRAND = (By.XPATH, '//b[contains(text(), "Brand:")]')
+
+
 
 
 

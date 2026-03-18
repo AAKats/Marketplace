@@ -18,6 +18,12 @@ class BasePage:
             message=f"Element not found: {locator}"
         )
 
+    def find_elements(self,locator,time=10):
+        return WebDriverWait(self.browser, time).until(
+            EC.presence_of_all_elements_located(locator),
+            message=f"Element not found: {locator}"
+        )
+
     def open(self, url=None):
         self.browser.get(self.base_url + (url or ''))
 
