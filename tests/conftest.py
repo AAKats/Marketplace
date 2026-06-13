@@ -11,6 +11,8 @@ def browser():
     # options.add_argument("--headless")
 
     browser = webdriver.Chrome(options=options)
+
+    '''Удаление GDPR cookie popup '''
     browser.execute_cdp_cmd('Network.setBlockedURLs', {
         'urls': ['*fundingchoicesmessages.google.com*', '*pagead2.googlesyndication.com*']
     })
