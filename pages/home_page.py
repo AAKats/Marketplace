@@ -46,4 +46,26 @@ class HomePage(BasePage):
         assert self.is_element_present(BasePageLocators.CONTACT_US_BUTTON), 'Contact us button is not presented'
         print('Contact us button is presented')
 
+    def should_be_correct_subscription_text(self):
+        self.should_be_correct_text(BasePageLocators.SUBSCRIPTION,'SUBSCRIPTION')
+
+    def input_subscribe_email(self):
+        email_form = BasePageLocators.SUBSCRIBE_EMAIL_FORM
+        email = DataGenerator.get_login_data('email')
+        self.is_element_present(email_form)
+        self.find(email_form).send_keys(email)
+        print(f'Email filled in with "{email}"')
+
+    def click_subscribe(self):
+        button = BasePageLocators.SUBSCRIBE_BUTTON
+        self.is_element_present(button)
+        self.find(button).click()
+        print('Subscribe button is clicked')
+
+    def should_be_success_subscribe_alert(self):
+        alert = BasePageLocators.SUCCESS_SUBSCRIBE_ALERT
+        self.is_element_present(alert)
+        self.should_be_correct_text(alert,'You have been successfully subscribed!')
+
+
 

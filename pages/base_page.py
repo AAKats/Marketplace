@@ -111,3 +111,10 @@ class BasePage:
             self.find(locator).send_keys('F:/Marketplace/requirements.txt')
         else:
             self.find(locator).send_keys(file_path)
+
+    def should_be_correct_text(self,locator,text):
+        self.is_element_present(locator)
+        element = self.find(locator)
+        assert text == element.text, f'Text is not correct: {element.text}, should be: {text}'
+        print(f'Text is correct: {element.text}')
+

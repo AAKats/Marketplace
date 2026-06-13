@@ -94,3 +94,5 @@ pytest -m negative           # Негативные тесты
 | `contact_us` | Форма обратной связи |
 | `view_product` | Просмотр карточки товара |
 | `search_product` | Поиск товаров |
+| `subscribe` | Подписка на рассылку |
+| `subscribe_from_home` | Подписка на рассылку с главной страницы |
