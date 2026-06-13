@@ -1,0 +1,4 @@
+
+
+class CartPage(BasePage):
+    pass
