@@ -29,7 +29,8 @@ class TestProductsPage:
         page.open()
         page.go_to_products_page()
         page.search_random_product('Sleeveless')
-        page.check_found_product_name()
         page.should_be_correct_title()
+        page.check_found_product_name()
+
 
 

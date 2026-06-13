@@ -59,7 +59,7 @@ class ProductsPage(BasePage):
         for name in product_names:
             product_name = name.text
             assert self.found_name in product_name, f'{self.found_name} is not in {product_name}'
-            print(f'"{product_name}" product found')
+            print(f'"{product_name}" product found, and contains "{self.found_name}"')
 
     def should_be_correct_title(self):
         title = ProductsPageLocators.TITLE
@@ -68,6 +68,7 @@ class ProductsPage(BasePage):
         print('Title is presented')
         assert 'SEARCHED PRODUCTS' in title_text, f'Title should be "SEARCHED PRODUCTS" got: {title_text}'
         print(f'Title {title_text} correct')
+
 
 
 
