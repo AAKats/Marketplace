@@ -2,6 +2,7 @@ from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, NoAlertPresentException
 
+from utils.data_generator import DataGenerator
 from ..config.config import Config
 from ..locators import BasePageLocators
 
@@ -118,3 +119,23 @@ class BasePage:
         assert text == element.text, f'Text is not correct: {element.text}, should be: {text}'
         print(f'Text is correct: {element.text}')
 
+    def should_be_correct_subscription_text(self):
+        self.should_be_correct_text(BasePageLocators.SUBSCRIPTION,'SUBSCRIPTION')
+
+    def input_subscribe_email(self):
+        email_form = BasePageLocators.SUBSCRIBE_EMAIL_FORM
+        email = DataGenerator.get_login_data('email')
+        self.is_element_present(email_form)
+        self.find(email_form).send_keys(email)
+        print(f'Email filled in with "{email}"')
+
+    def click_subscribe(self):
+        button = BasePageLocators.SUBSCRIBE_BUTTON
+        self.is_element_present(button)
+        self.find(button).click()
+        print('Subscribe button is clicked')
+
+    def should_be_success_subscribe_alert(self):
+        alert = BasePageLocators.SUCCESS_SUBSCRIBE_ALERT
+        self.is_element_present(alert)
+        self.should_be_correct_text(alert,'You have been successfully subscribed!')

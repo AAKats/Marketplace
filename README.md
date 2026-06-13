@@ -34,7 +34,8 @@ Marketplace/
 │   ├── test_registration_page.py
 │   ├── test_home_page.py
 │   ├── test_contact_us_page.py
-│   └── test_products_page.py # Тесты страницы продуктов
+│   ├── test_products_page.py # Тесты страницы продуктов
+│   └── test_cart_page.py    # Тесты корзины
 ├── utils/                    # Утилиты
 │   └── data_generator.py    # Генератор тестовых данных
 ├── locators.py               # Все локаторы элементов
@@ -96,3 +97,4 @@ pytest -m negative           # Негативные тесты
 | `search_product` | Поиск товаров |
 | `subscribe` | Подписка на рассылку |
 | `subscribe_from_home` | Подписка на рассылку с главной страницы |
+| `subscribe_from_cart` | Подписка на рассылку со страницы корзины |

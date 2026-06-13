@@ -10,10 +10,10 @@ class TestHomePage():
     @pytest.mark.ui
     @pytest.mark.subscribe
     @pytest.mark.subscribe_from_home
-    def test_contact_us_form(self, browser):
+    def test_subscribe_from_home(self, browser):
         page = HomePage(browser)
         page.open()
-        page.is_link_correct('')
+        page.is_link_correct()
         page.should_be_correct_subscription_text()
         page.input_subscribe_email()
         page.click_subscribe()
