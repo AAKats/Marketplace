@@ -1,5 +1,57 @@
+from locators import CartPageLocators
+from .products_page import ProductsPage
 from ..pages.base_page import BasePage
 
 
 class CartPage(BasePage):
-    pass
+
+    def __init__(self, browser, added_products=None):
+        super().__init__(browser)
+        self.added_products = added_products or []
+
+    '''Методы для страницы корзины товаров'''
+
+    def cart_should_contain_correct_count_of_products(self):
+        self.is_element_present(CartPageLocators.PRODUCTS_IN_CART)
+        products_count_in_cart = len(self.find_elements(CartPageLocators.PRODUCTS_IN_CART))
+        assert products_count_in_cart == len(self.added_products), f'Count of products in cart {products_count_in_cart} is not equal to count of added products {len(self.added_products)}'
+        print(f'Count of products in cart {products_count_in_cart} is equal to count of added products {len(self.added_products)}')
+
+    def check_product_price(self):
+        products_prices = self.find_elements(CartPageLocators.PRODUCT_PRICE_IN_CART)
+        products_names = self.find_elements(CartPageLocators.PRODUCT_NAME_IN_CART)
+        for _ in range(len(self.added_products)):
+            product_price = self.added_products[_]['price']
+            product_price_in_cart = products_prices[_].text[4:]
+            assert product_price == product_price_in_cart, f'Цена товара в корзине: {product_price_in_cart} не равна цене добавленного товара: {product_price}'
+            print(f'Цена товара {products_names[_].text} в корзине: {product_price_in_cart} равна цене добавленного товара {product_price}')
+
+    def check_product_name(self):
+        names_in_cart = []
+        products_names = self.find_elements(CartPageLocators.PRODUCT_NAME_IN_CART)
+        for name in products_names:
+            names_in_cart.append(name.text)
+        for _ in range(len(self.added_products)):
+            product_name = self.added_products[_]['name']
+            assert product_name in names_in_cart, f'Имя товара: {product_name} отсутствует в корзине: {', '.join(names_in_cart)}'
+            print(f'Имя товара: {product_name} Найдено в корзине: {', '.join(names_in_cart)}')
+
+    def check_product_quantity(self):
+        products_quantities = self.find_elements(CartPageLocators.PRODUCT_QUANTITY_IN_CART)
+        products_names = self.find_elements(CartPageLocators.PRODUCT_NAME_IN_CART)
+        for _ in range(len(self.added_products)):
+            if self.added_products[_]['name'] == products_names[_].text:
+                product_quantity = self.added_products[_]['quantity']
+                product_quantity_in_cart = int(products_quantities[_].text)
+                assert product_quantity == product_quantity_in_cart, f'Количество товара {products_names[_].text} в корзине: {product_quantity_in_cart} не равно количеству добавленного товара: {product_quantity}'
+                print(f'Количество товара {products_names[_].text} в корзине: {product_quantity_in_cart} равно количеству добавленного товара: {product_quantity}')
+
+    def check_product_total_price(self):
+        products_total_prices = self.find_elements(CartPageLocators.PRODUCT_TOTAL_PRICE_IN_CART)
+        products_names = self.find_elements(CartPageLocators.PRODUCT_NAME_IN_CART)
+        for _ in range(len(self.added_products)):
+            if self.added_products[_]['name'] == products_names[_].text:
+                product_total_price = int(self.added_products[_]['price']) * int(self.added_products[_]['quantity'])
+                product_total_price_in_cart = int(products_total_prices[_].text[4:])
+                assert product_total_price == product_total_price_in_cart, f'Общая цена товара в корзине: {product_total_price_in_cart} не равна общей цене добавленного товара: {product_total_price}'
+                print(f'Общая цена товара в корзине: {product_total_price_in_cart} не равна общей цене добавленного товара: {product_total_price}')

@@ -105,10 +105,14 @@ class ContactUsPageLocators:
 class ProductsPageLocators:
     PRODUCTS_LIST = (By.CLASS_NAME, 'features_items')
     PRODUCT_NAMES = (By.CSS_SELECTOR, '.productinfo p')
+    PRODUCT_PRICES = (By.CSS_SELECTOR, '.productinfo h2')
     VIEW_PRODUCT_BUTTONS = (By.CSS_SELECTOR, '.choose a')
     SEARCH_FIELD = (By.ID, 'search_product')
     SEARCH_BUTTON = (By.ID, 'submit_search')
     TITLE = (By.CSS_SELECTOR, '.title')
+    ADD_TO_CART_BUTTONS = (By.CLASS_NAME, 'add-to-cart')
+    CONTINUE_SHOPPING_BUTTON = (By.CLASS_NAME, 'close-modal')
+    VIEW_CART_VIA_MODAL = (By.CSS_SELECTOR, 'a[href="/view_cart"]')
 
 
 class ProductPageLocators:
@@ -120,6 +124,11 @@ class ProductPageLocators:
     BRAND = (By.XPATH, '//b[contains(text(), "Brand:")]')
 
 
-
-
+class CartPageLocators:
+    PRODUCTS_IN_CART = (By.CSS_SELECTOR, '[id*="product-"]')
+    PRODUCT_NAME_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_description a')
+    PRODUCT_PRICE_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_price p')
+    PRODUCT_QUANTITY_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_quantity button')
+    PRODUCT_TOTAL_PRICE_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_total p')
+    DELETE_PRODUCT_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_delete a')
 

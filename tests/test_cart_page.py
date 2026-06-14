@@ -1,5 +1,8 @@
+from time import sleep
+
 import pytest
 
+from ..pages.products_page import ProductsPage
 from ..pages.cart_page import CartPage
 
 
@@ -20,4 +23,25 @@ class TestCartPage():
         page.input_subscribe_email()
         page.click_subscribe()
         page.should_be_success_subscribe_alert()
+
+    @pytest.mark.positive
+    @pytest.mark.ui
+    @pytest.mark.purchase
+    @pytest.mark.add_products_in_cart
+    def test_add_products_in_cart(self,browser):
+        page = ProductsPage(browser)
+        page.open()
+        page.is_link_correct()
+        page.go_to_products_page()
+        added_products = page.add_products_to_cart(False,3,25)
+        page = CartPage(browser,added_products)
+        page.cart_should_contain_correct_count_of_products()
+        page.check_product_price()
+        page.check_product_name()
+        page.check_product_quantity()
+        page.check_product_total_price()
+
+
+
+
 
