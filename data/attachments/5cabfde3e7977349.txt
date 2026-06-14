@@ -1,0 +1,14 @@
+Home page link is correct
+Main title is presented
+Main title is correct: CONTACT US
+Second title is presented
+Second title is correct: GET IN TOUCH
+Name field is presented
+Name field filled in with: Lisa
+Email field is presented
+Email field filled in with: johnsonkevin@example.org
+Subject field is presented
+Subject field filled in with: One.
+Message field is presented
+Message field filled in with: Think few cup model safe statement system. Serve spend strategy consumer movie weight well.
+Upload field is presented

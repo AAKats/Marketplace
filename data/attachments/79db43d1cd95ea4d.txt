@@ -1,0 +1,5 @@
+Login link is correct
+New user Signup title is presented
+New user Signup title text is correct
+Signup email area is presented
+Signup name area is not presented

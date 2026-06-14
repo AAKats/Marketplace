@@ -1,0 +1,6 @@
+Login link is correct
+Login title is presented
+Login title text is correct
+Login email area is presented
+Password area is presented
+Email filled in
