@@ -1,0 +1,16 @@
+Home page link is correct
+Product Blue Top added, quantity 1
+Product Blue Top added, quantity 2
+Product Blue Top added, quantity 3
+Product Men Tshirt added, quantity 1
+Product Men Tshirt added, quantity 2
+Product Men Tshirt added, quantity 3
+Count of products in cart 2 is equal to count of added products 2
+Product Blue Top price in cart: 500 matches added price: 500
+Product Men Tshirt price in cart: 400 matches added price: 400
+Product: Blue Top found in cart: Blue Top, Men Tshirt
+Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+Product Blue Top quantity in cart: 3 3 matches added quantity: 3
+Product Men Tshirt quantity in cart: 3 3 matches added quantity: 3
+Product Blue Top total in cart: 1500 matches expected total: 1500
+Product Men Tshirt total in cart: 1200 matches expected total: 1200

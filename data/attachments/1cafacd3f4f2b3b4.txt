@@ -1,0 +1,3 @@
+Home page link is correct
+View_cart link is correct
+Text is correct: SUBSCRIPTION
