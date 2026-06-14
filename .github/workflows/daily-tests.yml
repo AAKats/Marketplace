@@ -32,6 +32,9 @@ jobs:
         run: pytest --alluredir=allure-results -v
         env:
           HEADLESS: 'true'
+          LOGIN_EMAIL: ${{ secrets.LOGIN_EMAIL }}
+          LOGIN_PASSWORD: ${{ secrets.LOGIN_PASSWORD }}
+          LOGIN_FIRST_NAME: ${{ secrets.LOGIN_FIRST_NAME }}
         continue-on-error: true
 
       - name: Load Allure history
