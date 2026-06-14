@@ -22,6 +22,11 @@ class LoginPageLocators:
 class BasePageLocators:
     '''Локаторы основной страницы сайта'''
 
+    SUBSCRIPTION = (By.CSS_SELECTOR, '#footer h2')
+    SUBSCRIBE_EMAIL_FORM = (By.ID, 'susbscribe_email')
+    SUBSCRIBE_BUTTON = (By.ID, 'subscribe')
+    SUCCESS_SUBSCRIBE_ALERT = (By.CLASS_NAME, 'alert-success')
+
     # Локаторы для навигационной панели
     HOME_BUTTON = (By.XPATH, '//i[@class="fa fa-home"]/parent::*')
     PRODUCTS_BUTTON = (By.XPATH, '//i[@class="material-icons card_travel"]/parent::*')
