@@ -72,11 +72,6 @@ class ProductsPage(BasePage):
         assert 'SEARCHED PRODUCTS' in title_text, f'Title should be "SEARCHED PRODUCTS" got: {title_text}'
         print(f'Title {title_text} correct')
 
-    def continue_shoping(self):
-        continue_button = ProductsPageLocators.CONTINUE_SHOPPING_BUTTON
-        self.is_element_clickable(continue_button)
-        self.find(continue_button).click()
-
 
     def add_products_to_cart(self, all : bool = False, quantity: int = 1, count : int = 1, first_number : int = 0):
         buttons = self.find_elements(ProductsPageLocators.ADD_TO_CART_BUTTONS)
@@ -125,9 +120,7 @@ class ProductsPage(BasePage):
                     print(f'Product {self.added_products[product_index]['name']} added, quantity {self.added_products[product_index]['quantity']}')
         return self.added_products
 
-    def go_to_cart_via_modal(self):
-        self.is_element_visible(ProductsPageLocators.VIEW_CART_VIA_MODAL)
-        self.find(ProductsPageLocators.VIEW_CART_VIA_MODAL).click()
+
 
 
 

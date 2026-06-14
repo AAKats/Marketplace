@@ -1,5 +1,4 @@
-from time import sleep
-
+import allure
 import pytest
 
 from ..pages.products_page import ProductsPage
@@ -9,6 +8,9 @@ from ..pages.cart_page import CartPage
 class TestCartPage():
     '''Тесты страницы корзины товаров'''
 
+    @allure.feature('Cart')
+    @allure.story('Подписка на рассылку со страницы корзины')
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.positive
     @pytest.mark.ui
     @pytest.mark.subscribe
@@ -24,6 +26,9 @@ class TestCartPage():
         page.click_subscribe()
         page.should_be_success_subscribe_alert()
 
+    @allure.feature('Cart')
+    @allure.story('Добавление товаров в корзину и проверка')
+    @allure.severity(allure.severity_level.CRITICAL)
     @pytest.mark.positive
     @pytest.mark.ui
     @pytest.mark.purchase
@@ -33,7 +38,7 @@ class TestCartPage():
         page.open()
         page.is_link_correct()
         page.go_to_products_page()
-        added_products = page.add_products_to_cart(False,3,25)
+        added_products = page.add_products_to_cart(False,3,2)
         page = CartPage(browser,added_products)
         page.cart_should_contain_correct_count_of_products()
         page.check_product_price()

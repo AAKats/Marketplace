@@ -1,5 +1,4 @@
-from tabnanny import check
-
+import allure
 import pytest
 
 from ..pages.products_page import ProductsPage
@@ -7,6 +6,9 @@ from ..pages.products_page import ProductsPage
 
 class TestProductsPage:
 
+    @allure.feature('Products')
+    @allure.story('Просмотр карточки товара')
+    @allure.severity(allure.severity_level.CRITICAL)
     @pytest.mark.view_product
     @pytest.mark.positive
     @pytest.mark.smoke
@@ -20,6 +22,9 @@ class TestProductsPage:
         page.click_view_product_by_number(1)
         page.should_be_product_info_fields()
 
+    @allure.feature('Products')
+    @allure.story('Поиск товара')
+    @allure.severity(allure.severity_level.CRITICAL)
     @pytest.mark.search_product
     @pytest.mark.positive
     @pytest.mark.smoke

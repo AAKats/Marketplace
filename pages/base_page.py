@@ -5,7 +5,7 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException,
 
 from utils.data_generator import DataGenerator
 from ..config.config import Config
-from ..locators import BasePageLocators
+from ..locators import BasePageLocators, ProductsPageLocators
 
 
 class BasePage:
@@ -165,3 +165,12 @@ class BasePage:
             )
         except TimeoutException:
             raise AssertionError(f"Element not visible after {timeout}s: {element}")
+
+    def go_to_cart_via_modal(self):
+        self.is_element_visible(ProductsPageLocators.VIEW_CART_VIA_MODAL)
+        self.find(ProductsPageLocators.VIEW_CART_VIA_MODAL).click()
+
+    def continue_shoping(self):
+        continue_button = ProductsPageLocators.CONTINUE_SHOPPING_BUTTON
+        self.is_element_clickable(continue_button)
+        self.find(continue_button).click()
