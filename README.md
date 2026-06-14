@@ -68,7 +68,29 @@ pytest -m smoke              # Только дымовые тесты
 pytest -m ui                 # Только UI тесты
 pytest -m positive           # Позитивные тесты
 pytest -m negative           # Негативные тесты
+
+# Параллельный запуск (требуется pytest-xdist)
+pytest -n auto               # Автоопределение числа потоков
+pytest -n 4                  # Явно 4 потока
+pytest -n 8 -v               # 8 потоков с детальным выводом
+
+## Allure-отчёты
+
+```bash
+# Запуск тестов с сохранением результатов Allure
+pytest --alluredir=allure-results
+
+# Просмотр отчёта в браузере
+allure serve allure-results
+
+# Генерация статического HTML-отчёта
+allure generate allure-results -o allure-report --clean
+
+# Открыть сгенерированный отчёт
+allure open allure-report
 ```
+
+> **Примечание:** Для работы Allure-отчётов требуется установленный [Allure CLI](https://allurereport.org/docs/install/).
 
 ## Переменные окружения
 
@@ -98,3 +120,5 @@ pytest -m negative           # Негативные тесты
 | `subscribe` | Подписка на рассылку |
 | `subscribe_from_home` | Подписка на рассылку с главной страницы |
 | `subscribe_from_cart` | Подписка на рассылку со страницы корзины |
+| `purchase` | Оформление заказа |
+| `add_products_in_cart` | Добавление товаров в корзину |

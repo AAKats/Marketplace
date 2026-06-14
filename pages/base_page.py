@@ -1,10 +1,11 @@
 from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoSuchElementException, TimeoutException, NoAlertPresentException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, NoAlertPresentException, \
+    ElementNotInteractableException
 
 from utils.data_generator import DataGenerator
 from ..config.config import Config
-from ..locators import BasePageLocators
+from ..locators import BasePageLocators, ProductsPageLocators
 
 
 class BasePage:
@@ -139,3 +140,37 @@ class BasePage:
         alert = BasePageLocators.SUCCESS_SUBSCRIBE_ALERT
         self.is_element_present(alert)
         self.should_be_correct_text(alert,'You have been successfully subscribed!')
+
+    def is_element_clickable(self,locator):
+        """ Проверяет кликабельность элемента.
+        Работает только с локатором
+        """
+        try:
+            WebDriverWait(self.browser, 5).until(EC.element_to_be_clickable(locator))
+            return True
+        except ElementNotInteractableException:
+            return False
+
+    def is_element_visible(self, element, timeout=5):
+        """Ожидает видимости элемента.
+        Принимает как locator (tuple), так и WebElement.
+        """
+        try:
+            if isinstance(element, tuple):
+                return WebDriverWait(self.browser, timeout).until(
+                    EC.visibility_of_element_located(element)
+                )
+            return WebDriverWait(self.browser, timeout).until(
+                EC.visibility_of(element)
+            )
+        except TimeoutException:
+            raise AssertionError(f"Element not visible after {timeout}s: {element}")
+
+    def go_to_cart_via_modal(self):
+        self.is_element_visible(ProductsPageLocators.VIEW_CART_VIA_MODAL)
+        self.find(ProductsPageLocators.VIEW_CART_VIA_MODAL).click()
+
+    def continue_shoping(self):
+        continue_button = ProductsPageLocators.CONTINUE_SHOPPING_BUTTON
+        self.is_element_clickable(continue_button)
+        self.find(continue_button).click()

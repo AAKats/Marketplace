@@ -29,3 +29,5 @@ docker-compose.yml
 *.dockerignore
 structure.txt
 registration_data.*
+allure-results/
+allure-report/

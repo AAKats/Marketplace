@@ -1,3 +1,4 @@
+import allure
 import pytest
 
 from ..pages.home_page import HomePage
@@ -8,6 +9,9 @@ from ..utils.data_generator import DataGenerator
 
 class TestRegistration():
     
+    @allure.feature('Registration')
+    @allure.story('Регистрация нового пользователя')
+    @allure.severity(allure.severity_level.BLOCKER)
     @pytest.mark.register_user
     @pytest.mark.positive
     @pytest.mark.smoke
@@ -64,11 +68,14 @@ class TestRegistration():
         page.delete_account() # Проверка удаления зарегистрированного пользователя по нажатию на кнопку
         page.is_link_correct('')
 
+    @allure.feature('Registration')
+    @allure.story('Регистрация с существующим email')
+    @allure.severity(allure.severity_level.NORMAL)
     @pytest.mark.register_exist_email
     @pytest.mark.negative
     @pytest.mark.smoke
     @pytest.mark.ui
-    def test_signup_user(self, browser):
+    def test_signup_exist_email_user(self, browser):
         page = LoginPage(browser)
         page.open()
         page.go_to_login_page() # Переход на страницу логина по нажатию на кнопку в навигации

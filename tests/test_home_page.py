@@ -1,3 +1,4 @@
+import allure
 import pytest
 
 from ..pages.home_page import HomePage
@@ -6,6 +7,9 @@ from ..pages.home_page import HomePage
 class TestHomePage():
     '''Тесты главной страницы сайта'''
 
+    @allure.feature('Home Page')
+    @allure.story('Подписка на рассылку с главной страницы')
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.positive
     @pytest.mark.ui
     @pytest.mark.subscribe
