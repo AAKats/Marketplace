@@ -1,3 +1,4 @@
+import allure
 from ..utils.data_generator import DataGenerator
 
 from ..locators import BasePageLocators
@@ -8,6 +9,7 @@ class HomePage(BasePage):
     def __init__(self, *args, **kwargs):
         super(HomePage, self).__init__(*args, **kwargs)
 
+    @allure.step("Проверка имени пользователя")
     def check_username(self,login = False):
         '''Проверка корректности отображения
         авторизованного пользователя в панели навигации'''
@@ -19,6 +21,7 @@ class HomePage(BasePage):
         assert f'Logged in as {expected_name}' in logged_as, f'Logged in text is incorrect {logged_as}'
         print(f'Username is correct {logged_as}')
 
+    @allure.step("Удаление аккаунта")
     def delete_account(self):
         # Проверка корректности отображения информации при удалении пользователя
         self.find(BasePageLocators.DELETE_ACCOUNT_BUTTON).click()
@@ -36,12 +39,14 @@ class HomePage(BasePage):
         continue_button.click()
         print('Continue button clicked')
 
+    @allure.step("Выход из аккаунта")
     def logout(self):
         self.find(BasePageLocators.LOGOUT_BUTTON).click()
         self.is_link_correct('login')
         self.is_not_element_present(BasePageLocators.LOGOUT_BUTTON)
         self.is_not_element_present(BasePageLocators.DELETE_ACCOUNT_BUTTON)
 
+    @allure.step("Проверка кнопки Contact Us")
     def should_be_contact_us_button(self):
         assert self.is_element_present(BasePageLocators.CONTACT_US_BUTTON), 'Contact us button is not presented'
         print('Contact us button is presented')

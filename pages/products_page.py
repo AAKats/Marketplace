@@ -1,6 +1,6 @@
 import random
-from encodings import search_function
 
+import allure
 from selenium.webdriver import ActionChains
 
 from ..locators import ProductsPageLocators, ProductPageLocators
@@ -15,16 +15,19 @@ class ProductsPage(BasePage):
         self.found_name = None
         self.added_products = []
 
+    @allure.step("Проверка списка товаров")
     def should_be_products_list(self):
         assert self.is_element_present(ProductsPageLocators.PRODUCTS_LIST), 'Products list is not presented'
         print('Products list is presented')
 
+    @allure.step("Открытие товара {number}")
     def click_view_product_by_number(self, number):
         products_list = self.find_elements(ProductsPageLocators.VIEW_PRODUCT_BUTTONS)
         products_list[number - 1].click()
         print(f'View button for {number} is clicked')
         self.is_link_correct(f'product_details/{number}')
 
+    @allure.step("Проверка полей товара")
     def should_be_product_info_fields(self):
         assert self.is_element_present(ProductPageLocators.PRODUCT_NAME), 'Product name field is not presented'
         print('Product name field is presented')
@@ -39,6 +42,7 @@ class ProductsPage(BasePage):
         assert self.is_element_present(ProductPageLocators.BRAND), 'Brand field is not presented'
         print('Brand field is presented')
 
+    @allure.step("Поиск товара")
     def search_random_product(self,product_name = None):
         if product_name is None:
             product_names = self.find_elements(ProductsPageLocators.PRODUCT_NAMES)
@@ -55,6 +59,7 @@ class ProductsPage(BasePage):
         self.find(search_button).click()
         print('Search button is clicked')
 
+    @allure.step("Проверка найденного товара")
     def check_found_product_name(self):
         product_names = self.find_elements(ProductsPageLocators.PRODUCT_NAMES)
         assert len(product_names) >= 1, 'Products not found'
@@ -64,6 +69,7 @@ class ProductsPage(BasePage):
             assert self.found_name in product_name, f'{self.found_name} is not in {product_name}'
             print(f'"{product_name}" product found, and contains "{self.found_name}"')
 
+    @allure.step("Проверка заголовка товаров")
     def should_be_correct_title(self):
         title = ProductsPageLocators.TITLE
         title_text = self.find(title).text
@@ -73,6 +79,7 @@ class ProductsPage(BasePage):
         print(f'Title {title_text} correct')
 
 
+    @allure.step("Добавление товаров в корзину")
     def add_products_to_cart(self, all : bool = False, quantity: int = 1, count : int = 1, first_number : int = 0):
         buttons = self.find_elements(ProductsPageLocators.ADD_TO_CART_BUTTONS)
         product_names = self.find_elements(ProductsPageLocators.PRODUCT_NAMES)
