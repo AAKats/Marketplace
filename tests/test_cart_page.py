@@ -47,6 +47,8 @@ class TestCartPage():
         page.check_product_quantity()
         page.check_product_total_price()
 
+    @allure.feature('Cart')
+    @allure.story('Добавление товара в корзину со страницы товара и проверка')
     @pytest.mark.positive
     @pytest.mark.ui
     @pytest.mark.purchase
