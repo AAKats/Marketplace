@@ -1,4 +1,6 @@
 import random
+from encodings import search_function
+from random import Random
 
 import allure
 from selenium.webdriver import ActionChains
@@ -13,7 +15,7 @@ class ProductsPage(BasePage):
     def __init__(self, browser):
         super().__init__(browser)
         self.found_name = None
-        self.added_products = []
+        self.selected_product = []
 
     @allure.step("Проверка списка товаров")
     def should_be_products_list(self):
@@ -78,6 +80,10 @@ class ProductsPage(BasePage):
         assert 'SEARCHED PRODUCTS' in title_text, f'Title should be "SEARCHED PRODUCTS" got: {title_text}'
         print(f'Title {title_text} correct')
 
+    def continue_shoping(self):
+        continue_button = ProductsPageLocators.CONTINUE_SHOPPING_BUTTON
+        self.is_element_clickable(continue_button)
+        self.find(continue_button).click()
 
     @allure.step("Добавление товаров в корзину")
     def add_products_to_cart(self, all : bool = False, quantity: int = 1, count : int = 1, first_number : int = 0):
@@ -89,7 +95,7 @@ class ProductsPage(BasePage):
             for index in range(0, len(buttons) - 1, 2):
                 overlay_index = index + 1
                 product_index = index // 2
-                self.added_products.append({
+                self.selected_product.append({
                     'name': product_names[product_index].text,
                     'price': product_prices[product_index].text[4:],
                     'quantity': 0
@@ -98,19 +104,19 @@ class ProductsPage(BasePage):
                     ActionChains(self.browser).move_to_element(buttons[index]).perform()
                     self.is_element_visible(buttons[overlay_index])
                     buttons[overlay_index].click()
-                    self.added_products[-1]['quantity'] += 1
+                    self.selected_product[-1]['quantity'] += 1
                     if index == len(buttons) - 2 and _ == quantity - 1:
                         self.go_to_cart_via_modal()
                     else:
                         self.continue_shoping()
-                    print(f'Product {self.added_products[product_index]['name']} added, quantity {self.added_products[product_index]['quantity']}')
+                    print(f'Product {self.selected_product[product_index]['name']} added, quantity {self.selected_product[product_index]['quantity']}')
 
         elif count >= 2:
             assert first_number + count * 2 <= len(buttons) - 1, f'Указанное количество товаров для добавления в корзину недоступно, максимальное количество {len(buttons)//2}'
             for index in range(first_number, first_number + count * 2, 2):
                 overlay_index = index + 1
                 product_index = index // 2
-                self.added_products.append({
+                self.selected_product.append({
                     'name': product_names[product_index].text,
                     'price': product_prices[product_index].text[4:],
                     'quantity': 0
@@ -119,17 +125,30 @@ class ProductsPage(BasePage):
                     ActionChains(self.browser).move_to_element(buttons[index]).perform()
                     self.is_element_visible(buttons[overlay_index])
                     buttons[overlay_index].click()
-                    self.added_products[-1]['quantity'] += 1
+                    self.selected_product[-1]['quantity'] += 1
                     if index == first_number + (count - 1) * 2 and _ == quantity - 1:
                         self.go_to_cart_via_modal()
                     else:
                         self.continue_shoping()
-                    print(f'Product {self.added_products[product_index]['name']} added, quantity {self.added_products[product_index]['quantity']}')
-        return self.added_products
+                    print(f'Product {self.selected_product[product_index]['name']} added, quantity {self.selected_product[product_index]['quantity']}')
+        return self.selected_product
 
+    def open_random_product(self):
+        products = self.find_elements(ProductsPageLocators.VIEW_PRODUCT_BUTTON)
+        product_prices = self.find_elements(ProductsPageLocators.PRODUCT_PRICES)
+        product_names = self.find_elements(ProductsPageLocators.PRODUCT_NAMES)
+        index = random.randrange(0, len(products) - 1)
+        product = products[index]
+        product_id = product.get_attribute('href').split('/product_details/')[-1]
 
-
-
+        self.selected_product = {
+            'name': product_names[index].text,
+            'price': product_prices[index].text[4:],
+            'id': product_id
+        }
+        product.click()
+        print(f'Product "{self.selected_product["name"]}" (ID: {product_id}) opened')
+        return self.selected_product
 
 
 

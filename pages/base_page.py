@@ -1,3 +1,5 @@
+import os
+
 import allure
 from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
@@ -128,7 +130,8 @@ class BasePage:
     @allure.step("Загрузка файла")
     def upload_file(self,locator,file_path=None):
         if file_path is None:
-            self.find(locator).send_keys('F:/Marketplace/requirements.txt')
+            path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'requirements.txt')
+            self.find(locator).send_keys(path)
         else:
             self.find(locator).send_keys(file_path)
 
@@ -195,9 +198,3 @@ class BasePage:
     def go_to_cart_via_modal(self):
         self.is_element_visible(ProductsPageLocators.VIEW_CART_VIA_MODAL)
         self.find(ProductsPageLocators.VIEW_CART_VIA_MODAL).click()
-
-    @allure.step("Продолжение покупок")
-    def continue_shoping(self):
-        continue_button = ProductsPageLocators.CONTINUE_SHOPPING_BUTTON
-        self.is_element_clickable(continue_button)
-        self.find(continue_button).click()
