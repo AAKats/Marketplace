@@ -1,7 +1,6 @@
-from time import sleep
-
 import pytest
 
+from ..pages.product_page import ProductPage
 from ..pages.products_page import ProductsPage
 from ..pages.cart_page import CartPage
 
@@ -40,6 +39,28 @@ class TestCartPage():
         page.check_product_name()
         page.check_product_quantity()
         page.check_product_total_price()
+
+    @pytest.mark.positive
+    @pytest.mark.ui
+    @pytest.mark.purchase
+    @pytest.mark.add_product_in_cart_from_product_page
+    def test_add_product_in_cart_from_product_page(self,browser):
+        page = ProductsPage(browser)
+        page.open()
+        page.is_link_correct()
+        page.go_to_products_page()
+        product_details = page.open_random_product()
+        page.is_link_correct(f'product_details/{product_details["id"]}')
+        page = ProductPage(browser)
+        quantity = page.select_quantity_of_product()
+        page.add_product_to_cart()
+        page.go_to_cart_via_modal()
+        page = CartPage(browser,product_details,quantity)
+        page.cart_should_contain_correct_count_of_products(1)
+        page.check_product_name()
+        page.check_product_price()
+        page.check_product_quantity()
+
 
 
 

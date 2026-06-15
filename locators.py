@@ -113,6 +113,7 @@ class ProductsPageLocators:
     ADD_TO_CART_BUTTONS = (By.CLASS_NAME, 'add-to-cart')
     CONTINUE_SHOPPING_BUTTON = (By.CLASS_NAME, 'close-modal')
     VIEW_CART_VIA_MODAL = (By.CSS_SELECTOR, 'a[href="/view_cart"]')
+    VIEW_PRODUCT_BUTTON = (By.CSS_SELECTOR, 'a[href*="/product_details"]')
 
 
 class ProductPageLocators:
@@ -122,6 +123,8 @@ class ProductPageLocators:
     AVAILABILITY = (By.XPATH, '//b[contains(text(), "Availability:")]')
     CONDITION = (By.XPATH, '//b[contains(text(), "Condition:")]')
     BRAND = (By.XPATH, '//b[contains(text(), "Brand:")]')
+    QUANTITY_FIELD = (By.ID, 'quantity')
+    ADD_TO_CART_BUTTON = (By.CLASS_NAME, 'cart')
 
 
 class CartPageLocators:
