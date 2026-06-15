@@ -15,6 +15,7 @@ class RegistrationPage(BasePage):
     
     @allure.step("Проверка заголовка Account Information")
     def should_be_account_information_text(self):
+        # Проверка корректности заголовка основной информации при регистрации
         assert self.is_element_present(RegistrationPageLocators.ACCOUNT_INFORMATION_TITLE), 'Account information title is not presented'
         print('Account information title is not presented')
         assert 'ENTER ACCOUNT INFORMATION' in self.find(RegistrationPageLocators.ACCOUNT_INFORMATION_TITLE).text,\
@@ -23,6 +24,7 @@ class RegistrationPage(BasePage):
 
     @allure.step("Выбор пола")
     def select_sex_checkbox(self, autogen = False, sex: Literal["f - female", "m - male"] | None = None):
+        # Выбор пола при регистрации, доступны выбор из сгенерированного файла или по указанному ключу
         assert self.is_element_present(RegistrationPageLocators.MR_RADIOBUTTON), 'Mr radiobutton is not presented'
         print('Mr radiobutton is presented')
         assert self.is_element_present(RegistrationPageLocators.MRS_RADIOBUTTON), 'Mrs radiobutton is not presented'
@@ -36,6 +38,7 @@ class RegistrationPage(BasePage):
             self.find(RegistrationPageLocators.MRS_RADIOBUTTON).click()
             print('Selected MRS title')
 
+    '''Методы для проверки введенной информации в окне авторизации и регистрации'''
     @allure.step("Проверка поля email")
     def check_email_field(self):
         expected_email = DataGenerator.get_registration_data('email')
@@ -48,6 +51,7 @@ class RegistrationPage(BasePage):
         fact_name = self.find(RegistrationPageLocators.NAME_FIELD).get_attribute('value')
         assert expected_name in fact_name, f'Name is not correct {fact_name} not equal expected {expected_name}'
 
+    '''Методы для заполнения основных полей страницы регистрации'''
     @allure.step("Заполнение пароля")
     def fill_in_password(self):
         password = DataGenerator.get_registration_data('password')
@@ -78,6 +82,7 @@ class RegistrationPage(BasePage):
 
     @allure.step("Выбор подписки на новости")
     def select_newsletter_checkbox(self,should_be_random = False, select= False):
+        # Выбор подписки на новости, рандомный из сгенерированных данных или указать select
         newsletter = DataGenerator.get_registration_data('newsletter')
         if should_be_random and not select:
             if newsletter == True:
@@ -94,6 +99,7 @@ class RegistrationPage(BasePage):
     @allure.step("Выбор подписки на спецпредложения")
     def select_special_offers_checkbox(self,should_be_random = False, select= False):
         special_offers = DataGenerator.get_registration_data('offers')
+        # Выбор подписки на спецпредложения, рандомный из сгенерированных данных или указать select
         if should_be_random and not select:
             if special_offers == True:
                 self.find(RegistrationPageLocators.OFFERS_CHECKBOX).click()
@@ -164,6 +170,7 @@ class RegistrationPage(BasePage):
 
     @allure.step("Выбор страны")
     def select_country(self, country_name = None):
+        # Выбор страны, рандомный из сгенерированных данных или указать название
         country = DataGenerator.get_registration_data('country')
         if country_name == None:
             self.select_by_value(RegistrationPageLocators.COUTNRY_LIST,country)
@@ -191,6 +198,7 @@ class RegistrationPage(BasePage):
         self.find(RegistrationPageLocators.CREATE_ACCOUNT_BUTTON).click()
         self.is_link_correct('account_created')
 
+    '''Методы для проверки завершающего этапа регистрации'''
     @allure.step("Проверка заголовка Account Created")
     def should_be_correct_title(self):
         title = self.find(RegistrationPageLocators.ACCOUNT_CREATED_TITLE).text

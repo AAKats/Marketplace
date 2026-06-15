@@ -11,6 +11,8 @@ class HomePage(BasePage):
 
     @allure.step("Проверка имени пользователя")
     def check_username(self,login = False):
+        '''Проверка корректности отображения
+        авторизованного пользователя в панели навигации'''
         if login:
             expected_name = DataGenerator.get_login_data('first_name')
         else:
@@ -21,6 +23,7 @@ class HomePage(BasePage):
 
     @allure.step("Удаление аккаунта")
     def delete_account(self):
+        # Проверка корректности отображения информации при удалении пользователя
         self.find(BasePageLocators.DELETE_ACCOUNT_BUTTON).click()
         title = self.find(BasePageLocators.DELETE_TITLE).text
         message_1 = self.find(BasePageLocators.DELETE_TEXT_1).text

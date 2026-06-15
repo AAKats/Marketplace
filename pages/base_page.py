@@ -14,6 +14,7 @@ class BasePage:
         self.browser = browser
         self.base_url = Config.BASE_URL
 
+    '''Основные методы для ui'''
     @allure.step("Поиск элемента {locator}")
     def find(self, locator, time=10):
         return WebDriverWait(self.browser, time).until(
@@ -32,6 +33,7 @@ class BasePage:
     def open(self, url=None):
         self.browser.get(self.base_url + (url or ''))
 
+    # Метод для проверки корректности ссылки в поисковой строке
     @allure.step("Проверка URL")
     def is_link_correct(self, value = None):
         try:
@@ -46,10 +48,12 @@ class BasePage:
         except TimeoutException:
             raise AssertionError(f'Current link is not {value} link')
 
+    #Метод проверки отсутствия активной сессии пользователя
     @allure.step("Проверка отсутствия авторизации")
     def should_not_be_username(self):
         username = self.is_not_element_present(BasePageLocators.LOGGED_AS_TEXT)
 
+    '''Методы для перехода по страницам сайта через панель навигации'''
     @allure.step("Переход на страницу входа")
     def go_to_login_page(self):
         self.find(BasePageLocators.SIGNUP_LOGIN_BUTTON).click()
@@ -70,6 +74,7 @@ class BasePage:
     def go_to_contact_us_page(self):
         self.find(BasePageLocators.CONTACT_US_BUTTON).click()
 
+    '''Методы для проверки наличия или отсутствия элемента на странице'''
     @allure.step("Проверка наличия элемента")
     def is_element_present(self, locator):
         try:
@@ -87,12 +92,15 @@ class BasePage:
             return True
         return False
     
+    '''Методы для выпадающих списков'''
     @allure.step("Выбор значения из списка")
     def select_by_value(self, locator, value):
         try:
             Select(self.find(locator)).select_by_value(value)
         except NoSuchElementException as element:
             print(f"Элемент не найден в выпадающем списке: {element}")
+
+    '''Методы для алертов'''
 
     @allure.step("Проверка наличия алерта")
     def is_alert_present(self):
@@ -114,6 +122,8 @@ class BasePage:
         print("Alert is presented")
         alert = self.browser.switch_to.alert
         alert.accept()
+
+    '''Методы работы с файлами'''
 
     @allure.step("Загрузка файла")
     def upload_file(self,locator,file_path=None):
@@ -156,6 +166,9 @@ class BasePage:
 
     @allure.step("Проверка кликабельности элемента")
     def is_element_clickable(self,locator):
+        """ Проверяет кликабельность элемента.
+        Работает только с локатором
+        """
         try:
             WebDriverWait(self.browser, 5).until(EC.element_to_be_clickable(locator))
             return True
@@ -164,6 +177,9 @@ class BasePage:
 
     @allure.step("Проверка видимости элемента")
     def is_element_visible(self, element, timeout=5):
+        """Ожидает видимости элемента.
+        Принимает как locator (tuple), так и WebElement.
+        """
         try:
             if isinstance(element, tuple):
                 return WebDriverWait(self.browser, timeout).until(
