@@ -1,4 +1,5 @@
 import json
+import os
 import random
 from faker import Faker
 
@@ -48,6 +49,9 @@ class DataGenerator:
     
     @staticmethod
     def get_login_data(field):
+        env_var = os.getenv(f'LOGIN_{field.upper()}')
+        if env_var:
+            return env_var
         with open('login_data.json', 'r', encoding='utf-8') as f:
             return json.load(f)[field]
 

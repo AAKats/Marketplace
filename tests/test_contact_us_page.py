@@ -1,3 +1,4 @@
+import allure
 import pytest
 
 from utils.data_generator import DataGenerator
@@ -7,6 +8,9 @@ from ..pages.contact_us_page import ContactUsPage
 class TestContacUsPage():
     '''Тесты страницы обратной связи'''
 
+    @allure.feature('Contact Us')
+    @allure.story('Отправка формы обратной связи')
+    @allure.severity(allure.severity_level.NORMAL)
     @pytest.mark.contact_us
     @pytest.mark.positive
     @pytest.mark.smoke

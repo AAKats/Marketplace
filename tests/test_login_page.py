@@ -1,9 +1,14 @@
+import allure
 import pytest
 
 from ..pages.home_page import HomePage
 from ..pages.login_page import LoginPage
 
+
 class TestLogin():
+    @allure.feature('Login')
+    @allure.story('Успешный вход')
+    @allure.severity(allure.severity_level.BLOCKER)
     @pytest.mark.login_user
     @pytest.mark.positive
     @pytest.mark.smoke
@@ -26,6 +31,9 @@ class TestLogin():
             page.logout()
             page.should_not_be_username()
 
+    @allure.feature('Login')
+    @allure.story('Вход с неверными данными')
+    @allure.severity(allure.severity_level.NORMAL)
     @pytest.mark.incorrect_login_user
     @pytest.mark.negative
     @pytest.mark.smoke
