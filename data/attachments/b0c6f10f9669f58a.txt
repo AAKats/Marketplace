@@ -1,0 +1,9 @@
+Home page link is correct
+Product "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi" (ID: 23) opened
+Product_details/23 link is correct
+Quantity = 6 selected
+Product was added to cart
+Count of products in cart 1 is equal to count of added products 1
+Имя товара: Sleeveless Unicorn Print Fit & Flare Net Dress - Multi Найдено в корзине: Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+Product Sleeveless Unicorn Print Fit & Flare Net Dress - Multi price in cart: 1100 matches added price: 1100
+Количество товара Sleeveless Unicorn Print Fit & Flare Net Dress - Multi в корзине: 6 равно количеству добавленного товара: 6
