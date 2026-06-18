@@ -1,0 +1,9 @@
+Home page link is correct
+Product "Green Side Placket Detail T-Shirt" (ID: 29) opened
+Product_details/29 link is correct
+Quantity = 9 selected
+Product was added to cart
+Count of products in cart 1 is equal to count of added products 1
+Имя товара: Green Side Placket Detail T-Shirt Найдено в корзине: Green Side Placket Detail T-Shirt
+Product Green Side Placket Detail T-Shirt price in cart: 1000 matches added price: 1000
+Количество товара Green Side Placket Detail T-Shirt в корзине: 9 равно количеству добавленного товара: 9
