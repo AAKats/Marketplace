@@ -1,0 +1,9 @@
+Home page link is correct
+Product "Summer White Top" (ID: 6) opened
+Product_details/6 link is correct
+Quantity = 5 selected
+Product was added to cart
+Count of products in cart 1 is equal to count of added products 1
+Имя товара: Summer White Top Найдено в корзине: Summer White Top
+Product Summer White Top price in cart: 400 matches added price: 400
+Количество товара Summer White Top в корзине: 5 равно количеству добавленного товара: 5
