@@ -1,9 +1,0 @@
-Home page link is correct
-Product "Frozen Tops For Kids" (ID: 13) opened
-Product_details/13 link is correct
-Quantity = 4 selected
-Product was added to cart
-Count of products in cart 1 is equal to count of added products 1
-Имя товара: Frozen Tops For Kids Найдено в корзине: Frozen Tops For Kids
-Product Frozen Tops For Kids price in cart: 278 matches added price: 278
-Количество товара Frozen Tops For Kids в корзине: 4 равно количеству добавленного товара: 4
