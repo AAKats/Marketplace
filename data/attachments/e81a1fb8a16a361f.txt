@@ -1,5 +1,0 @@
-Home page link is correct
-Product "Half Sleeves Top Schiffli Detailing - Pink" (ID: 12) opened
-Product_details/12 link is correct
-Quantity = 8 selected
-Product was added to cart
