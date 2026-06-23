@@ -1,0 +1,9 @@
+Home page link is correct
+Product "Blue Cotton Indie Mickey Dress" (ID: 21) opened
+Product_details/21 link is correct
+Quantity = 5 selected
+Product was added to cart
+Count of products in cart 1 is equal to count of added products 1
+Имя товара: Blue Cotton Indie Mickey Dress Найдено в корзине: Blue Cotton Indie Mickey Dress
+Product Blue Cotton Indie Mickey Dress price in cart: 1530 matches added price: 1530
+Количество товара Blue Cotton Indie Mickey Dress в корзине: 5 равно количеству добавленного товара: 5
