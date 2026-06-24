@@ -81,7 +81,7 @@ class BasePage:
     def is_element_present(self, locator):
         try:
             self.find(locator)
-        except NoSuchElementException:
+        except (NoSuchElementException, TimeoutException):
             return False
         return True
 

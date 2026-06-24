@@ -86,7 +86,7 @@ class ProductsPage(BasePage):
         self.find(continue_button).click()
 
     @allure.step("Добавление товаров в корзину")
-    def add_products_to_cart(self, all : bool = False, quantity: int = 1, count : int = 1, first_number : int = 0):
+    def add_products_to_cart(self, short: bool = False, all : bool = False, quantity: int = 1, count : int = 1, first_number : int = 0):
         buttons = self.find_elements(ProductsPageLocators.ADD_TO_CART_BUTTONS)
         product_names = self.find_elements(ProductsPageLocators.PRODUCT_NAMES)
         product_prices = self.find_elements(ProductsPageLocators.PRODUCT_PRICES)
@@ -126,13 +126,14 @@ class ProductsPage(BasePage):
                     self.is_element_visible(buttons[overlay_index])
                     buttons[overlay_index].click()
                     self.selected_product[-1]['quantity'] += 1
-                    if index == first_number + (count - 1) * 2 and _ == quantity - 1:
+                    if index == first_number + (count - 1) * 2 and _ == quantity - 1 and not short:
                         self.go_to_cart_via_modal()
-                    else:
+                    elif not short:
                         self.continue_shoping()
                     print(f'Product {self.selected_product[product_index]['name']} added, quantity {self.selected_product[product_index]['quantity']}')
         return self.selected_product
 
+    @allure.step("Открытие случайной карточки товара")
     def open_random_product(self):
         products = self.find_elements(ProductsPageLocators.VIEW_PRODUCT_BUTTON)
         product_prices = self.find_elements(ProductsPageLocators.PRODUCT_PRICES)

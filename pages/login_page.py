@@ -9,40 +9,47 @@ class LoginPage(BasePage):
     @allure.step("Проверка полей авторизации")
     def should_be_login_fields(self):
         # Проверка наличия полей для авторизации
-        assert self.is_element_present(LoginPageLocators.EMAIL_LOGIN_FIELD), 'Login email area is not presented'
-        print('Login email area is presented')
-        assert self.is_element_present(LoginPageLocators.PASSWORD_LOGIN_FIELD),'Password area is not presented'
-        print('Password area is presented')
+        assert self.is_element_present(LoginPageLocators.EMAIL_LOGIN_FIELD), 'Login email field is not presented'
+        print('Login email field is presented')
+        assert self.is_element_present(LoginPageLocators.PASSWORD_LOGIN_FIELD),'Password field is not presented'
+        print('Password field is presented')
     
     @allure.step("Проверка полей регистрации")
     def should_be_signup_fields(self):
         # Проверка наличия полей для регистрации
-        assert self.is_element_present(LoginPageLocators.EMAIL_SIGN_UP_FIELD), 'Signup email area is not presented'
-        print('Signup email area is presented')
-        assert self.is_element_present(LoginPageLocators.NAME_SIGN_UP_FIELD), 'Signup name area is not presented'
-        print('Signup name area is not presented')
+        assert self.is_element_present(LoginPageLocators.EMAIL_SIGN_UP_FIELD), 'Signup email field is not presented'
+        print('Signup email field is presented')
+        assert self.is_element_present(LoginPageLocators.NAME_SIGN_UP_FIELD), 'Signup name field is not presented'
+        print('Signup name field is presented')
     
     @allure.step("Заполнение email для регистрации")
     def fill_signup_email(self):
         # Заполнение полей для регистрации
+        print(f'>>> fill_signup_email, URL: {self.browser.current_url}')  # diagnostic
         email = DataGenerator.get_registration_data('email')
         self.find(LoginPageLocators.EMAIL_SIGN_UP_FIELD).send_keys(email)
         print('Email signup field filled')
 
     @allure.step("Заполнение имени для регистрации")
     def fill_signup_name(self):
-        try:
-            name = DataGenerator.get_registration_data('first_name')
-        except:
-            name = 'Bob'
+        name = DataGenerator.get_registration_data('first_name')
         self.find(LoginPageLocators.NAME_SIGN_UP_FIELD).send_keys(name)
         print('Name signup field filled')
         
     @allure.step("Нажатие кнопки регистрации")
     def click_signup_button(self):
         # Переход на основную страницу регистрации
-        self.find(LoginPageLocators.SIGN_UP_BUTTON).click()
-        print('Signup button is clicked')
+        for attempt in range(3):
+            self.find(LoginPageLocators.SIGN_UP_BUTTON).click()
+            print('Signup button is clicked')
+            if not self.is_signup_error_present():
+                break
+            else:
+                DataGenerator.generate_data_for_registration()
+                self.clear_signup_fields()
+                self.fill_signup_email()
+                self.fill_signup_name()
+
     
     @allure.step("Проверка заголовка New User")
     def should_be_new_user_text(self):
@@ -108,3 +115,22 @@ class LoginPage(BasePage):
             email = DataGenerator.get_login_data('email')
             self.find(LoginPageLocators.EMAIL_SIGN_UP_FIELD).send_keys(email)
             print('Existing email filled in')
+
+    @allure.step("Очистка заполненных Signup fields")
+    def clear_signup_fields(self):
+        print(f'>>> clear_signup_fields, URL: {self.browser.current_url}')  # diagnostic
+        print('User already exist')
+        self.find(LoginPageLocators.EMAIL_SIGN_UP_FIELD).clear()
+        print('Signup email field cleared')
+        self.find(LoginPageLocators.NAME_SIGN_UP_FIELD).clear()
+        print('Signup name field cleared')
+
+    @allure.step("Проверка наличия ошибки повторной регистрации")
+    def is_signup_error_present(self):
+        if '/signup' in self.browser.current_url:
+            return False
+        if not self.is_element_present(LoginPageLocators.SIGN_UP_ERROR):
+            return False
+        error_text = self.find(LoginPageLocators.SIGN_UP_ERROR).text
+        return 'already exist' in error_text.lower()
+

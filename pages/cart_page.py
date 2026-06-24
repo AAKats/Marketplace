@@ -20,7 +20,7 @@ class CartPage(BasePage):
 
     @allure.step("Проверка количества товаров в корзине")
     def cart_should_contain_correct_count_of_products(self, count : int = None):
-        if count == None:
+        if count is None:
             self.is_element_present(CartPageLocators.PRODUCTS_IN_CART)
             products_count_in_cart = len(self.find_elements(CartPageLocators.PRODUCTS_IN_CART))
             assert products_count_in_cart == len(self.added_products), f'Count of products in cart {products_count_in_cart} is not equal to count of added products {len(self.added_products)}'
@@ -53,8 +53,8 @@ class CartPage(BasePage):
             names_in_cart.append(name.text)
         for _ in range(len(self.added_products)):
             product_name = self.added_products[_]['name']
-            assert product_name in names_in_cart, f'Имя товара: {product_name} отсутствует в корзине: {', '.join(names_in_cart)}'
-            print(f'Имя товара: {product_name} Найдено в корзине: {', '.join(names_in_cart)}')
+            assert product_name in names_in_cart, f'Product: {product_name} not found in cart: {', '.join(names_in_cart)}'
+            print(f'Product: {product_name} found in cart: {', '.join(names_in_cart)}')
 
     @allure.step("Проверка количества каждого товара в корзине")
     def check_product_quantity(self):
@@ -65,15 +65,17 @@ class CartPage(BasePage):
                 if self.added_products[_]['name'] == products_names[_].text:
                     product_quantity = self.added_products[_]['quantity']
                     product_quantity_in_cart = int(products_quantities[_].text)
-                    assert product_quantity == product_quantity_in_cart, f'Количество товара {products_names[_].text} в корзине: {product_quantity_in_cart} не равно количеству добавленного товара: {product_quantity}'
-                    print(f'Количество товара {products_names[_].text} в корзине: {product_quantity_in_cart} равно количеству добавленного товара: {product_quantity}')
+                    assert product_quantity == product_quantity_in_cart, f'Product {products_names[_].text} quantity in cart: {product_quantity_in_cart} does not match added quantity: {product_quantity}'
+                    print(
+                        f'Product {products_names[_].text} quantity in cart: {product_quantity_in_cart} matches added quantity: {product_quantity}')
         else:
             for _ in range(len(self.added_products)):
                 if self.added_products[_]['name'] == products_names[_].text:
                     product_quantity = self.quantity
                     product_quantity_in_cart = int(products_quantities[_].text)
-                    assert product_quantity == product_quantity_in_cart, f'Количество товара {products_names[_].text} в корзине: {product_quantity_in_cart} не равно количеству добавленного товара: {product_quantity}'
-                    print(f'Количество товара {products_names[_].text} в корзине: {product_quantity_in_cart} равно количеству добавленного товара: {product_quantity}')
+                    assert product_quantity == product_quantity_in_cart, f'Product {products_names[_].text} quantity in cart: {product_quantity_in_cart} does not match added quantity: {product_quantity}'
+                    print(
+                        f'Product {products_names[_].text} quantity in cart: {product_quantity_in_cart}matches added quantity: {product_quantity}')
 
     @allure.step("Проверка общей стоимости товаров в корзине")
     def check_product_total_price(self):
@@ -83,5 +85,22 @@ class CartPage(BasePage):
             if self.added_products[_]['name'] == products_names[_].text:
                 product_total_price = int(self.added_products[_]['price']) * int(self.added_products[_]['quantity'])
                 product_total_price_in_cart = int(products_total_prices[_].text[4:])
-                assert product_total_price == product_total_price_in_cart, f'Общая цена товара в корзине: {product_total_price_in_cart} не равна общей цене добавленного товара: {product_total_price}'
-                print(f'Общая цена товара в корзине: {product_total_price_in_cart} не равна общей цене добавленного товара: {product_total_price}')
+                assert product_total_price == product_total_price_in_cart, f'Product {products_names[_].text} total in cart: {product_total_price_in_cart} does not match expected total: {product_total_price}'
+                print(
+                    f'Product {products_names[_].text} total in cart: {product_total_price_in_cart} matches expected total: {product_total_price}')
+
+    @allure.step("Продолжение оформления заказа")
+    def click_proceed_to_checkout(self):
+        button = CartPageLocators.PROCEED_TO_CHECKOUT_BUTTON
+        self.is_element_present(button)
+        self.find(button).click()
+        print('Proceed to checkout button clicked')
+
+    @allure.step("Переход на страницу регистрации при оформлении заказа")
+    def register_via_modal(self):
+        register_button = CartPageLocators.REGISTER_LOGIN_BUTTON
+        self.is_element_present(register_button)
+        self.is_element_visible(register_button)
+        self.find(register_button).click()
+        print('Register via modal button clicked')
+

@@ -134,4 +134,39 @@ class CartPageLocators:
     PRODUCT_QUANTITY_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_quantity button')
     PRODUCT_TOTAL_PRICE_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_total p')
     DELETE_PRODUCT_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_delete a')
+    PROCEED_TO_CHECKOUT_BUTTON = (By.CLASS_NAME, 'check_out')
+    CONTINUE_ON_CART_BUTTON = (By.CLASS_NAME, 'btn-success')
+    REGISTER_LOGIN_BUTTON = (By.CSS_SELECTOR, 'a[href="/login"]>u')
+
+class CheckoutPageLocators:
+    TITLE_1 = (By.CSS_SELECTOR, '.step-one > h2')
+    DELIVERY_ADDRESS_TITLE = (By.CSS_SELECTOR, '#address_delivery h3')
+    DELIVERY_FULL_NAME = (By.CSS_SELECTOR, '#address_delivery .address_firstname')
+    DELIVERY_COMPANY = (By.CSS_SELECTOR, '#address_delivery > li:nth-child(3)')
+    DELIVERY_ADDRESS_1 = (By.CSS_SELECTOR, '#address_delivery > li:nth-child(4)')
+    DELIVERY_ADDRESS_2 = (By.CSS_SELECTOR, '#address_delivery > li:nth-child(5)')
+    DELIVERY_CITY_STATE_AND_CODE = (By.CSS_SELECTOR, '#address_delivery > .address_city')
+    DELIVERY_COUNTRY = (By.CSS_SELECTOR, '#address_delivery > .address_country_name')
+    DELIVERY_PHONE = (By.CSS_SELECTOR, '#address_delivery > .address_phone')
+
+    BILLING_ADDRESS_TITLE = (By.CSS_SELECTOR, '#address_invoice  h3')
+    BILLING_FULL_NAME = (By.CSS_SELECTOR, '#address_invoice  .address_firstname')
+    BILLING_COMPANY = (By.CSS_SELECTOR, '#address_invoice  > li:nth-child(3)')
+    BILLING_ADDRESS_1 = (By.CSS_SELECTOR, '#address_invoice  > li:nth-child(4)')
+    BILLING_ADDRESS_2 = (By.CSS_SELECTOR, '#address_invoice  > li:nth-child(5)')
+    BILLING_CITY_STATE_AND_CODE = (By.CSS_SELECTOR, '#address_invoice  > .address_city')
+    BILLING_COUNTRY = (By.CSS_SELECTOR, '#address_invoice  > .address_country_name')
+    BILLING_PHONE = (By.CSS_SELECTOR, '#address_invoice  > .address_phone')
+
+    COMMENT_FIELD = (By.CSS_SELECTOR, '[name="message"]')
+    PLACE_ORDER_BUTTON = (By.CSS_SELECTOR, 'a[href="/payment"]')
+
+class PaymentPageLocators:
+    NAME_ON_CARD = (By.NAME, 'name_on_card')
+    CARD_NUMBER =(By.NAME, 'card_number')
+    CVC = (By.NAME, 'cvc')
+    EXPIRATION_M = (By.NAME, 'expiry_month')
+    EXPIRATION_Y = (By.NAME, 'expiry_year')
+    PAY_AND_CONFIRM_BUTTON = (By.ID, 'submit')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, '#success_message .alert-success')
 

@@ -18,10 +18,10 @@ def browser():
     browser = webdriver.Chrome(options=options)
 
     '''Удаление GDPR cookie popup '''
+    browser.execute_cdp_cmd('Network.enable', {})
     browser.execute_cdp_cmd('Network.setBlockedURLs', {
         'urls': ['*fundingchoicesmessages.google.com*', '*pagead2.googlesyndication.com*']
     })
-    browser.execute_cdp_cmd('Network.enable', {})
 
     browser.maximize_window()
     yield browser
