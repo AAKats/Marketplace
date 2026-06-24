@@ -22,20 +22,23 @@ Marketplace/
 │   └── config.py            # Настройки приложения
 ├── pages/                    # Page Object Model
 │   ├── base_page.py         # Базовый класс страницы
+│   ├── cart_page.py         # Корзина
+│   ├── checkout_page.py     # Оформление заказа
+│   ├── contact_us_page.py   # Страница контактов
 │   ├── home_page.py         # Главная страница
 │   ├── login_page.py        # Страница входа
-│   ├── registration_page.py # Страница регистрации
-│   ├── contact_us_page.py   # Страница контактов
-│   ├── products_page.py     # Страница товаров
-│   └── cart_page.py         # Корзина
+│   ├── payment_page.py      # Оплата
+│   ├── product_page.py      # Карточка товара
+│   ├── products_page.py     # Список товаров
+│   └── registration_page.py # Страница регистрации
 ├── tests/                    # Тесты
 │   ├── conftest.py          # pytest фикстуры
-│   ├── test_login_page.py   # Тесты входа
-│   ├── test_registration_page.py
-│   ├── test_home_page.py
+│   ├── test_cart_page.py    # Тесты корзины и checkout
 │   ├── test_contact_us_page.py
-│   ├── test_products_page.py # Тесты страницы продуктов
-│   └── test_cart_page.py    # Тесты корзины
+│   ├── test_home_page.py
+│   ├── test_login_page.py   # Тесты входа
+│   ├── test_products_page.py
+│   └── test_registration_page.py
 ├── utils/                    # Утилиты
 │   └── data_generator.py    # Генератор тестовых данных
 ├── locators.py               # Все локаторы элементов
@@ -122,3 +125,6 @@ allure open allure-report
 | `subscribe_from_cart` | Подписка на рассылку со страницы корзины |
 | `purchase` | Оформление заказа |
 | `add_products_in_cart` | Добавление товаров в корзину |
+| `add_product_in_cart_from_product_page` | Добавление товара со страницы товара |
+| `register_before_checkout` | Регистрация перед оформлением заказа |
+| `register_while_checkout` | Регистрация со страницы корзины |
