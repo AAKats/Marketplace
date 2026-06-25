@@ -1,0 +1,9 @@
+Home page link is correct
+Product "Premium Polo T-Shirts" (ID: 30) opened
+Product_details/30 link is correct
+Quantity = 4 selected
+Product was added to cart
+Count of products in cart 1 is equal to count of added products 1
+Имя товара: Premium Polo T-Shirts Найдено в корзине: Premium Polo T-Shirts
+Product Premium Polo T-Shirts price in cart: 1500 matches added price: 1500
+Количество товара Premium Polo T-Shirts в корзине: 4 равно количеству добавленного товара: 4

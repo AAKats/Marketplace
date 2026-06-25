@@ -1,0 +1,10 @@
+Search field is presented
+Search field is filled in with: "Sleeveless"
+Search button is presented
+Search button is clicked
+Title is presented
+Title SEARCHED PRODUCTS correct
+3 products found
+"Sleeveless Dress" product found, and contains "Sleeveless"
+"Sleeveless Unicorn Patch Gown - Pink" product found, and contains "Sleeveless"
+"Sleeveless Unicorn Print Fit & Flare Net Dress - Multi" product found, and contains "Sleeveless"
