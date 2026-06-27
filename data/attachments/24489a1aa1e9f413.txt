@@ -20,7 +20,7 @@ Month of birth list is presented
 Month of birth selected
 Year of birth list is presented
 Year of birth selected
-Sign up for our newsletter! checkbox is selected
+Sign up for our newsletter! checkbox is not selected
 Receive special offers from our partners! checkbox is not selected
 First name field is presented
 First name is filled in
@@ -45,7 +45,7 @@ Title is correct ACCOUNT CREATED!
 Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
 Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
 Continue button is presented
-Username is correct Logged in as Stacey
+Username is correct Logged in as Tom
 Delete title is correct ACCOUNT DELETED!
 Delete message 1 is correct Your account has been permanently deleted!
 Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.

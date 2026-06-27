@@ -1,9 +1,0 @@
-Home page link is correct
-Product "Pure Cotton V-Neck T-Shirt" (ID: 28) opened
-Product_details/28 link is correct
-Quantity = 1 selected
-Product was added to cart
-Count of products in cart 1 is equal to count of added products 1
-Имя товара: Pure Cotton V-Neck T-Shirt Найдено в корзине: Pure Cotton V-Neck T-Shirt
-Product Pure Cotton V-Neck T-Shirt price in cart: 1299 matches added price: 1299
-Количество товара Pure Cotton V-Neck T-Shirt в корзине: 1 равно количеству добавленного товара: 1
