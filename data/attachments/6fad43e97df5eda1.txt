@@ -1,0 +1,10 @@
+Products link is correct
+Products list is presented
+View button for 1 is clicked
+Product_details/1 link is correct
+Product name field is presented
+Category field is presented
+Price field is presented
+Availability field is presented
+Condition field is presented
+Brand field is presented

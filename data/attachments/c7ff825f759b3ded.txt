@@ -1,0 +1,22 @@
+Home page link is correct
+Main title is presented
+Main title is correct: CONTACT US
+Second title is presented
+Second title is correct: GET IN TOUCH
+Name field is presented
+Name field filled in with: Gerald
+Email field is presented
+Email field filled in with: paul54@example.org
+Subject field is presented
+Subject field filled in with: Guess.
+Message field is presented
+Message field filled in with: Car enjoy impact level himself price organization. Inside loss soldier less picture once better.
+Upload field is presented
+File uploaded
+Submit button is presented
+Alert is presented
+Success message is presented
+Success message is correct
+Home button is presented
+Home button is clicked
+Home page link is correct

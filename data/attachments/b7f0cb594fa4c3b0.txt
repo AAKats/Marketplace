@@ -1,0 +1,13 @@
+Home page link is correct
+Product Blue Top added, quantity 1
+Product Blue Top added, quantity 2
+Product Blue Top added, quantity 3
+Product Men Tshirt added, quantity 1
+Product Men Tshirt added, quantity 2
+Product Men Tshirt added, quantity 3
+Count of products in cart 2 is equal to count of added products 2
+Product Blue Top price in cart: 500 matches added price: 500
+Product Men Tshirt price in cart: 400 matches added price: 400
+Имя товара: Blue Top Найдено в корзине: Blue Top, Men Tshirt
+Имя товара: Men Tshirt Найдено в корзине: Blue Top, Men Tshirt
+Количество товара Blue Top в корзине: 3 равно количеству добавленного товара: 3
