@@ -1,9 +1,0 @@
-Home page link is correct
-Product "Colour Blocked Shirt – Sky Blue" (ID: 24) opened
-Product_details/24 link is correct
-Quantity = 5 selected
-Product was added to cart
-Count of products in cart 1 is equal to count of added products 1
-Имя товара: Colour Blocked Shirt – Sky Blue Найдено в корзине: Colour Blocked Shirt – Sky Blue
-Product Colour Blocked Shirt – Sky Blue price in cart: 849 matches added price: 849
-Количество товара Colour Blocked Shirt – Sky Blue в корзине: 5 равно количеству добавленного товара: 5
