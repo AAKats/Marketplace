@@ -1,0 +1,5 @@
+Home page link is correct
+Product "Cotton Silk Hand Block Print Saree" (ID: 39) opened
+Product_details/39 link is correct
+Quantity = 6 selected
+Product was added to cart
