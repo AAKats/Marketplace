@@ -1,9 +1,0 @@
-Home page link is correct
-Product "Pure Cotton Neon Green Tshirt" (ID: 31) opened
-Product_details/31 link is correct
-Quantity = 2 selected
-Product was added to cart
-Count of products in cart 1 is equal to count of added products 1
-Имя товара: Pure Cotton Neon Green Tshirt Найдено в корзине: Pure Cotton Neon Green Tshirt
-Product Pure Cotton Neon Green Tshirt price in cart: 850 matches added price: 850
-Количество товара Pure Cotton Neon Green Tshirt в корзине: 2 равно количеству добавленного товара: 2
