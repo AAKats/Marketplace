@@ -1,0 +1,12 @@
+Login link is correct
+Login title is presented
+Login title text is correct
+Login email area is presented
+Password area is presented
+Email filled in
+Password filled in
+Login button is presented
+Login button is clicked
+Home page link is correct
+Username is correct Logged in as James
+Login link is correct
