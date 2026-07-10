@@ -1,0 +1,5 @@
+Home page link is correct
+Product "Sleeves Top and Short - Blue & Pink" (ID: 16) opened
+Product_details/16 link is correct
+Quantity = 5 selected
+Product was added to cart
