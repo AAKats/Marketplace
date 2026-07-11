@@ -1,6 +1,0 @@
-Home page link is correct
-Product Blue Top added, quantity 1
-Product Blue Top added, quantity 2
-Product Blue Top added, quantity 3
-Product Men Tshirt added, quantity 1
-Product Men Tshirt added, quantity 2
