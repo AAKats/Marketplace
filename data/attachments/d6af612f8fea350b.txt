@@ -1,9 +1,0 @@
-Home page link is correct
-Product "Sleeves Top and Short - Blue & Pink" (ID: 16) opened
-Product_details/16 link is correct
-Quantity = 8 selected
-Product was added to cart
-Count of products in cart 1 is equal to count of added products 1
-Имя товара: Sleeves Top and Short - Blue & Pink Найдено в корзине: Sleeves Top and Short - Blue & Pink
-Product Sleeves Top and Short - Blue & Pink price in cart: 478 matches added price: 478
-Количество товара Sleeves Top and Short - Blue & Pink в корзине: 8 равно количеству добавленного товара: 8
