@@ -4,13 +4,13 @@ Main title is correct: CONTACT US
 Second title is presented
 Second title is correct: GET IN TOUCH
 Name field is presented
-Name field filled in with: Tanya
+Name field filled in with: Tyler
 Email field is presented
-Email field filled in with: along@example.net
+Email field filled in with: katelyn85@example.net
 Subject field is presented
-Subject field filled in with: Language.
+Subject field filled in with: Artist.
 Message field is presented
-Message field filled in with: Follow leader left control effect which. No low local pressure glass.
+Message field filled in with: Professor among whatever half night. Local professional company wonder position scientist little.
 Upload field is presented
 File uploaded
 Submit button is presented
