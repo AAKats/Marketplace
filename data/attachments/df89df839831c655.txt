@@ -1,0 +1,5 @@
+Home page link is correct
+Product "Sleeveless Dress" (ID: 3) opened
+Product_details/3 link is correct
+Quantity = 2 selected
+Product was added to cart
