@@ -1,0 +1,5 @@
+Home page link is correct
+Product "Colour Blocked Shirt – Sky Blue" (ID: 24) opened
+Product_details/24 link is correct
+Quantity = 8 selected
+Product was added to cart

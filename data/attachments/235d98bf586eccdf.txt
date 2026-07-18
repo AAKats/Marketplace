@@ -1,5 +1,0 @@
-Home page link is correct
-Product "Long Maxi Tulle Fancy Dress Up Outfits -Pink" (ID: 22) opened
-Product_details/22 link is correct
-Quantity = 5 selected
-Product was added to cart
