@@ -1,6 +1,7 @@
 import random
 from encodings import search_function
 from random import Random
+from turtledemo.sorting_animate import enable_keys
 
 import allure
 from selenium.webdriver import ActionChains
@@ -114,6 +115,25 @@ class ProductsPage(BasePage):
         elif count >= 2:
             assert first_number + count * 2 <= len(buttons) - 1, f'Указанное количество товаров для добавления в корзину недоступно, максимальное количество {len(buttons)//2}'
             for index in range(first_number, first_number + count * 2, 2):
+                overlay_index = index + 1
+                product_index = index // 2
+                self.selected_product.append({
+                    'name': product_names[product_index].text,
+                    'price': product_prices[product_index].text[4:],
+                    'quantity': 0
+                })
+                for _ in range(quantity):
+                    ActionChains(self.browser).move_to_element(buttons[index]).perform()
+                    self.is_element_visible(buttons[overlay_index])
+                    buttons[overlay_index].click()
+                    self.selected_product[-1]['quantity'] += 1
+                    if index == first_number + (count - 1) * 2 and _ == quantity - 1 and not short:
+                        self.go_to_cart_via_modal()
+                    elif not short:
+                        self.continue_shoping()
+                    print(f'Product {self.selected_product[product_index]['name']} added, quantity {self.selected_product[product_index]['quantity']}')
+        else:
+            for index in range(first_number, first_number + 2, 2):
                 overlay_index = index + 1
                 product_index = index // 2
                 self.selected_product.append({
