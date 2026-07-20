@@ -1,0 +1,9 @@
+Home page link is correct
+Product "Rose Pink Embroidered Maxi Dress" (ID: 38) opened
+Product_details/38 link is correct
+Quantity = 2 selected
+Product was added to cart
+Count of products in cart 1 is equal to count of added products 1
+Имя товара: Rose Pink Embroidered Maxi Dress Найдено в корзине: Rose Pink Embroidered Maxi Dress
+Product Rose Pink Embroidered Maxi Dress price in cart: 2300 matches added price: 2300
+Количество товара Rose Pink Embroidered Maxi Dress в корзине: 2 равно количеству добавленного товара: 2
