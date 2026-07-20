@@ -133,10 +133,11 @@ class CartPageLocators:
     PRODUCT_PRICE_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_price p')
     PRODUCT_QUANTITY_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_quantity button')
     PRODUCT_TOTAL_PRICE_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_total p')
-    DELETE_PRODUCT_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_delete a')
+    DELETE_PRODUCT_FROM_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_delete a')
     PROCEED_TO_CHECKOUT_BUTTON = (By.CLASS_NAME, 'check_out')
     CONTINUE_ON_CART_BUTTON = (By.CLASS_NAME, 'btn-success')
     REGISTER_LOGIN_BUTTON = (By.CSS_SELECTOR, 'a[href="/login"]>u')
+    EMPTY_CART_TEXT = (By.CSS_SELECTOR, '#empty_cart b')
 
 class CheckoutPageLocators:
     TITLE_1 = (By.CSS_SELECTOR, '.step-one > h2')

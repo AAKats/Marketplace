@@ -163,6 +163,29 @@ class TestCartPage():
         page.delete_account()  # Проверка удаления зарегистрированного пользователя по нажатию на кнопку
         page.is_link_correct('')
 
+    @allure.feature('Cart')
+    @allure.story('Удаление товаров из корзины')
+    @allure.severity(allure.severity_level.NORMAL)
+    @pytest.mark.positive
+    @pytest.mark.ui
+    @pytest.mark.subscribe
+    @pytest.mark.remove_from_cart
+    def test_remove_from_cart(self, browser):
+        page = ProductsPage(browser)
+        page.open()
+        page.is_link_correct()
+        added_products = page.add_products_to_cart(False, False, 2, 2)
+        page.go_to_cart_page()
+        page.is_link_correct('view_cart')
+        page = CartPage(browser,added_products)
+        page.check_product_name()
+        page.check_product_price()
+        page.check_product_quantity()
+        page.check_product_total_price()
+        page.remove_all_products_from_cart()
+
+
+
 
 
 

@@ -1,3 +1,5 @@
+from time import sleep
+
 import allure
 
 from selenium.common import TimeoutException
@@ -103,4 +105,18 @@ class CartPage(BasePage):
         self.is_element_visible(register_button)
         self.find(register_button).click()
         print('Register via modal button clicked')
+
+    @allure.step("Удаление всех продуктов из корзины")
+    def remove_all_products_from_cart(self):
+        remove_buttons = self.find_elements(CartPageLocators.DELETE_PRODUCT_FROM_CART)
+        for button in remove_buttons:
+            button.click()
+        self.is_not_element_present(CartPageLocators.PRODUCT_NAME_IN_CART)
+        print('All products deleted')
+        self.is_element_visible(CartPageLocators.EMPTY_CART_TEXT)
+        empty_cart_text = self.find(CartPageLocators.EMPTY_CART_TEXT).text
+        assert 'Cart is empty!' in empty_cart_text, f'Incorrect Empty cart message: "{empty_cart_text}"'
+        print(f'Empty cart text correct: {empty_cart_text}')
+
+
 

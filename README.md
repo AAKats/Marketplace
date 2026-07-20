@@ -128,3 +128,5 @@ allure open allure-report
 | `add_product_in_cart_from_product_page` | Добавление товара со страницы товара |
 | `register_before_checkout` | Регистрация перед оформлением заказа |
 | `register_while_checkout` | Регистрация со страницы корзины |
+| `login_before_checkout` | Авторизация перед покупкой |
+| `remove_from_cart` | Удаление товаров из корзины |
