@@ -1,10 +1,12 @@
 import random
 from encodings import search_function
 from random import Random
+from time import sleep
 from turtledemo.sorting_animate import enable_keys
 
 import allure
 from selenium.webdriver import ActionChains
+from selenium.webdriver.common.by import By
 
 from ..locators import ProductsPageLocators, ProductPageLocators
 from ..pages.base_page import BasePage
@@ -171,6 +173,35 @@ class ProductsPage(BasePage):
         print(f'Product "{self.selected_product["name"]}" (ID: {product_id}) opened')
         return self.selected_product
 
+    @allure.step("Выбор категории товара")
+    def select_category(self, category_name: str = None):
+        css = ProductsPageLocators.CATEGORY_BUTTON_CSS.format(category_name)
+        locator = (By.CSS_SELECTOR, css)
+        self.is_element_present(locator)
+        category_button = self.find(locator)
+        category_button.click()
+        print(f'{category_button.text.capitalize()} category selected')
+        return category_name
+
+    @allure.step("Выбор подкатегории товара")
+    def select_subcategory(self, category: str, subcategory_name: str):
+        css = ProductsPageLocators.SUBCATEGORY_BUTTON_CSS.format(category)
+        elements = self.find_elements((By.CSS_SELECTOR, css))
+        self.is_element_visible(elements[1])
+        for el in elements:
+            if subcategory_name.strip().lower() in el.text.strip().lower():
+                category_text = el.text.strip()
+                el.click()
+                print(f'{category_text} subcategory selected')
+                return category_text
+        raise AssertionError(f'Subcategory "{subcategory_name}" not found in {category}')
+
+    @allure.step("Проверка заголовка выбранной категории и подкатегории")
+    def should_be_correct_category_title(self, category, subcategory):
+        self.is_element_present(ProductsPageLocators.FILTERED_CATEGORY_TITLE)
+        title = self.find(ProductsPageLocators.FILTERED_CATEGORY_TITLE)
+        assert category.upper() in title.text and subcategory.upper() in title.text, f'Incorrect title text: "{title.text}" should be: "{category.upper()} - {subcategory.upper()} PRODUCTS"'
+        print(f'Category title is correct: "{title.text}"')
 
 
 

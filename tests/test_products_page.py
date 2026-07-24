@@ -1,5 +1,6 @@
 import allure
 import pytest
+from unicodedata import category
 
 from ..pages.products_page import ProductsPage
 
@@ -37,5 +38,22 @@ class TestProductsPage:
         page.should_be_correct_title()
         page.check_found_product_name()
 
+    @allure.feature('Products')
+    @allure.story('Фильтрация товаров')
+    @allure.severity(allure.severity_level.NORMAL)
+    @pytest.mark.filter_product
+    @pytest.mark.positive
+    @pytest.mark.smoke
+    @pytest.mark.ui
+    def test_filter_product(self, browser):
+        page = ProductsPage(browser)
+        page.open()
+        page.go_to_products_page()
+        category = page.select_category('Women')
+        subcategory = page.select_subcategory(category, 'Dress')
+        page.should_be_correct_category_title(category, subcategory)
+        category = page.select_category('Men')
+        subcategory = page.select_subcategory(category, 'Jeans')
+        page.should_be_correct_category_title(category, subcategory)
 
 

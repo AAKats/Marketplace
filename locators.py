@@ -114,6 +114,14 @@ class ProductsPageLocators:
     CONTINUE_SHOPPING_BUTTON = (By.CLASS_NAME, 'close-modal')
     VIEW_CART_VIA_MODAL = (By.CSS_SELECTOR, 'a[href="/view_cart"]')
     VIEW_PRODUCT_BUTTON = (By.CSS_SELECTOR, 'a[href*="/product_details"]')
+    # Категории (в ProductsPageLocators)
+    CATEGORY_PANELS = (By.CSS_SELECTOR, '.category-products .panel')
+    FILTERED_CATEGORY_TITLE = (By.CSS_SELECTOR, '.title.text-center')
+    BREADCRUMB = (By.CSS_SELECTOR, '.breadcrumb .active')
+    LEFT_SIDEBAR = (By.CSS_SELECTOR, '.left-sidebar')
+    CATEGORY_TITLE = (By.CSS_SELECTOR, '.left-sidebar h2')
+    CATEGORY_BUTTON_CSS = 'a[href*="#{}"]'
+    SUBCATEGORY_BUTTON_CSS = '#{} .panel-body a'
 
 
 class ProductPageLocators:
