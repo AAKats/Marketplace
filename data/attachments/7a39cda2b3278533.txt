@@ -1,0 +1,5 @@
+Home page link is correct
+Product "Printed Off Shoulder Top - White" (ID: 15) opened
+Product_details/15 link is correct
+Quantity = 3 selected
+Product was added to cart
