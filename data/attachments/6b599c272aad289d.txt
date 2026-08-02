@@ -1,0 +1,5 @@
+Home page link is correct
+Product "Soft Stretch Jeans" (ID: 33) opened
+Product_details/33 link is correct
+Quantity = 2 selected
+Product was added to cart
