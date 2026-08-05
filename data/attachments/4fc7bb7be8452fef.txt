@@ -1,0 +1,9 @@
+Home page link is correct
+Product "Fancy Green Top" (ID: 8) opened
+Product_details/8 link is correct
+Quantity = 8 selected
+Product was added to cart
+Count of products in cart 1 is equal to count of added products 1
+Имя товара: Fancy Green Top Найдено в корзине: Fancy Green Top
+Product Fancy Green Top price in cart: 700 matches added price: 700
+Количество товара Fancy Green Top в корзине: 8 равно количеству добавленного товара: 8
