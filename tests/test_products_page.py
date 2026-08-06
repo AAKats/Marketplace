@@ -34,7 +34,7 @@ class TestProductsPage:
         page = ProductsPage(browser)
         page.open()
         page.go_to_products_page()
-        page.search_random_product('Sleeveless')
+        page.search_product('Sleeveless')
         page.should_be_correct_title()
         page.check_found_product_name()
 
@@ -45,7 +45,8 @@ class TestProductsPage:
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
-    def test_filter_product(self, browser):
+    @pytest.mark.filter_product_by_category
+    def test_filter_product_by_category(self, browser):
         page = ProductsPage(browser)
         page.open()
         page.go_to_products_page()
@@ -63,7 +64,8 @@ class TestProductsPage:
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
-    def test_filter_brand(self, browser):
+    @pytest.mark.filter_product_by_brand
+    def test_filter_product_by_brand(self, browser):
         page = ProductsPage(browser)
         page.open()
         page.go_to_products_page()
@@ -71,4 +73,6 @@ class TestProductsPage:
         page.should_be_correct_brand_title(brand)
         brand = page.select_brand('H&M')
         page.should_be_correct_brand_title(brand)
+
+
 

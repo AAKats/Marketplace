@@ -48,7 +48,7 @@ class ProductsPage(BasePage):
         print('Brand field is presented')
 
     @allure.step("Поиск товара")
-    def search_random_product(self,product_name = None):
+    def search_product(self, product_name = None):
         if product_name is None:
             product_names = self.find_elements(ProductsPageLocators.PRODUCT_NAMES)
             product_name = random.choice(product_names).text
@@ -63,6 +63,7 @@ class ProductsPage(BasePage):
         print('Search button is presented')
         self.find(search_button).click()
         print('Search button is clicked')
+        return product_name
 
     @allure.step("Проверка найденного товара")
     def check_found_product_name(self):
@@ -89,7 +90,8 @@ class ProductsPage(BasePage):
         self.find(continue_button).click()
 
     @allure.step("Добавление товаров в корзину")
-    def add_products_to_cart(self, short: bool = False, all : bool = False, quantity: int = 1, count : int = 1, first_number : int = 0):
+    def add_products_to_cart(self, short: bool = False, all : bool = False, quantity: int = 1, count : int = 1,
+                             first_number : int = 0):
         buttons = self.find_elements(ProductsPageLocators.ADD_TO_CART_BUTTONS)
         product_names = self.find_elements(ProductsPageLocators.PRODUCT_NAMES)
         product_prices = self.find_elements(ProductsPageLocators.PRODUCT_PRICES)
@@ -112,10 +114,13 @@ class ProductsPage(BasePage):
                         self.go_to_cart_via_modal()
                     else:
                         self.continue_shoping()
-                    print(f'Product {self.selected_product[product_index]['name']} added, quantity {self.selected_product[product_index]['quantity']}')
+                    print(f'Product {self.selected_product[product_index]['name']} added, quantity '
+                          f'{self.selected_product[product_index]['quantity']}')
 
         elif count >= 2:
-            assert first_number + count * 2 <= len(buttons) - 1, f'Указанное количество товаров для добавления в корзину недоступно, максимальное количество {len(buttons)//2}'
+            assert first_number + count * 2 <= len(buttons) - 1, (f'Указанное количество товаров для добавления в '
+                                                                  f'корзину недоступно, максимальное количество '
+                                                                  f'{len(buttons)//2}')
             for index in range(first_number, first_number + count * 2, 2):
                 overlay_index = index + 1
                 product_index = index // 2
@@ -133,7 +138,8 @@ class ProductsPage(BasePage):
                         self.go_to_cart_via_modal()
                     elif not short:
                         self.continue_shoping()
-                    print(f'Product {self.selected_product[product_index]['name']} added, quantity {self.selected_product[product_index]['quantity']}')
+                    print(f'Product {self.selected_product[product_index]['name']} added, quantity '
+                          f'{self.selected_product[product_index]['quantity']}')
         else:
             for index in range(first_number, first_number + 2, 2):
                 overlay_index = index + 1
@@ -152,7 +158,8 @@ class ProductsPage(BasePage):
                         self.go_to_cart_via_modal()
                     elif not short:
                         self.continue_shoping()
-                    print(f'Product {self.selected_product[product_index]['name']} added, quantity {self.selected_product[product_index]['quantity']}')
+                    print(f'Product {self.selected_product[product_index]['name']} added, quantity '
+                          f'{self.selected_product[product_index]['quantity']}')
         return self.selected_product
 
     @allure.step("Открытие случайной карточки товара")
@@ -200,7 +207,11 @@ class ProductsPage(BasePage):
     def should_be_correct_category_title(self, category, subcategory):
         self.is_element_present(ProductsPageLocators.FILTERED_CATEGORY_TITLE)
         title = self.find(ProductsPageLocators.FILTERED_CATEGORY_TITLE)
-        assert category.upper() in title.text and subcategory.upper() in title.text, f'Incorrect title text: "{title.text}" should be: "{category.upper()} - {subcategory.upper()} PRODUCTS"'
+        assert category.upper() in title.text and subcategory.upper() in title.text, (f'Incorrect title text: '
+                                                                                      f'"{title.text}" should be: '
+                                                                                      f'"{category.upper()} - '
+                                                                                      f'{subcategory.upper()} '
+                                                                                      f'PRODUCTS"')
         print(f'Category title is correct: "{title.text}"')
 
     @allure.step("Выбор бренда товара")
@@ -218,7 +229,8 @@ class ProductsPage(BasePage):
     def should_be_correct_brand_title(self, brand):
         self.is_element_present(ProductsPageLocators.FILTERED_BRAND_TITLE)
         title = self.find(ProductsPageLocators.FILTERED_BRAND_TITLE)
-        assert brand.upper() in title.text.upper(), f'Incorrect title text: "{title.text}" should be: "BRAND - {brand.upper()} PRODUCTS"'
+        assert brand.upper() in title.text.upper(), (f'Incorrect title text: "{title.text}" should be: '
+                                                     f'"BRAND - {brand.upper()} PRODUCTS"')
         print(f'Category title is correct: "{title.text}"')
 
 

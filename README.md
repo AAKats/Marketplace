@@ -130,4 +130,7 @@ allure open allure-report
 | `register_while_checkout` | Регистрация со страницы корзины |
 | `login_before_checkout` | Авторизация перед покупкой |
 | `remove_from_cart` | Удаление товаров из корзины |
-| `filter_product` | Фильтрация товаров по категории |
+| `filter_product` | Фильтрация товаров |
+| `filter_product_by_category` | Фильтрация товаров по категории |
+| `filter_product_by_brand` | Фильтрация товаров по бренду |
+| `search_product_and_verify_cart` | Поиск товара и проверка корзины до и после логина |
