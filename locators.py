@@ -122,7 +122,11 @@ class ProductsPageLocators:
     CATEGORY_TITLE = (By.CSS_SELECTOR, '.left-sidebar h2')
     CATEGORY_BUTTON_CSS = 'a[href*="#{}"]'
     SUBCATEGORY_BUTTON_CSS = '#{} .panel-body a'
-
+    #Бренды
+    BRANDS_PANEL = (By.CLASS_NAME, 'brands_products')
+    BRANDS_TITLE = (By.CSS_SELECTOR, '.brands_products h2')
+    BRANDS_BUTTON_CSS = 'a[href*="/brand_products/{}"]'
+    FILTERED_BRAND_TITLE = (By.CSS_SELECTOR, 'h2.text-center')
 
 class ProductPageLocators:
     PRODUCT_NAME = (By.CSS_SELECTOR, '.product-information h2 ')

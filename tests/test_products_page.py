@@ -56,4 +56,19 @@ class TestProductsPage:
         subcategory = page.select_subcategory(category, 'Jeans')
         page.should_be_correct_category_title(category, subcategory)
 
+    @allure.feature('Products')
+    @allure.story('Фильтрация товаров')
+    @allure.severity(allure.severity_level.NORMAL)
+    @pytest.mark.filter_product
+    @pytest.mark.positive
+    @pytest.mark.smoke
+    @pytest.mark.ui
+    def test_filter_brand(self, browser):
+        page = ProductsPage(browser)
+        page.open()
+        page.go_to_products_page()
+        brand = page.select_brand('Polo')
+        page.should_be_correct_brand_title(brand)
+        brand = page.select_brand('H&M')
+        page.should_be_correct_brand_title(brand)
 

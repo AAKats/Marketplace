@@ -203,5 +203,23 @@ class ProductsPage(BasePage):
         assert category.upper() in title.text and subcategory.upper() in title.text, f'Incorrect title text: "{title.text}" should be: "{category.upper()} - {subcategory.upper()} PRODUCTS"'
         print(f'Category title is correct: "{title.text}"')
 
+    @allure.step("Выбор бренда товара")
+    def select_brand(self, brand_name: str = None):
+        css = ProductsPageLocators.BRANDS_BUTTON_CSS.format(brand_name)
+        locator = (By.CSS_SELECTOR, css)
+        self.is_element_present(locator)
+        brand_button = self.find(locator)
+        brand_text = brand_button.text
+        brand_button.click()
+        print(f'{brand_text.capitalize()} brand selected')
+        return brand_name
+
+    @allure.step("Проверка заголовка выбранного бренда")
+    def should_be_correct_brand_title(self, brand):
+        self.is_element_present(ProductsPageLocators.FILTERED_BRAND_TITLE)
+        title = self.find(ProductsPageLocators.FILTERED_BRAND_TITLE)
+        assert brand.upper() in title.text.upper(), f'Incorrect title text: "{title.text}" should be: "BRAND - {brand.upper()} PRODUCTS"'
+        print(f'Category title is correct: "{title.text}"')
+
 
 
