@@ -208,7 +208,8 @@ class TestCartPage():
         page.check_product_total_price()
         page.go_to_login_page()
         page = LoginPage(browser)
-        page.fill_in_existing_email()
+        page.should_be_login_fields()
+        page.fill_in_email()
         page.fill_in_password()
         page.click_login_button()
         page.is_link_correct()
@@ -218,6 +219,7 @@ class TestCartPage():
         page.check_product_price()
         page.check_product_quantity()
         page.check_product_total_price()
+        page.remove_all_products_from_cart()
 
 
 
