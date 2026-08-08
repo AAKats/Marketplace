@@ -4,13 +4,13 @@ Main title is correct: CONTACT US
 Second title is presented
 Second title is correct: GET IN TOUCH
 Name field is presented
-Name field filled in with: Evan
+Name field filled in with: Amanda
 Email field is presented
-Email field filled in with: jeffrey00@example.org
+Email field filled in with: laura33@example.org
 Subject field is presented
-Subject field filled in with: Also.
+Subject field filled in with: Cause.
 Message field is presented
-Message field filled in with: Agreement shoulder step ground.
+Message field filled in with: Key say democratic college responsibility final. High action we maybe maintain specific.
 Upload field is presented
 File uploaded
 Submit button is presented

@@ -1,9 +1,0 @@
-Home page link is correct
-Product "Beautiful Peacock Blue Cotton Linen Saree" (ID: 41) opened
-Product_details/41 link is correct
-Quantity = 4 selected
-Product was added to cart
-Count of products in cart 1 is equal to count of added products 1
-Имя товара: Beautiful Peacock Blue Cotton Linen Saree Найдено в корзине: Beautiful Peacock Blue Cotton Linen Saree
-Product Beautiful Peacock Blue Cotton Linen Saree price in cart: 5000 matches added price: 5000
-Количество товара Beautiful Peacock Blue Cotton Linen Saree в корзине: 4 равно количеству добавленного товара: 4
