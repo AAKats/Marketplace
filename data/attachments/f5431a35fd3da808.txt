@@ -1,0 +1,22 @@
+Home page link is correct
+Main title is presented
+Main title is correct: CONTACT US
+Second title is presented
+Second title is correct: GET IN TOUCH
+Name field is presented
+Name field filled in with: Edwin
+Email field is presented
+Email field filled in with: tiffany91@example.net
+Subject field is presented
+Subject field filled in with: Research.
+Message field is presented
+Message field filled in with: Face fish southern expert yeah Congress dark. Turn company popular particular walk where.
+Upload field is presented
+File uploaded
+Submit button is presented
+Alert is presented
+Success message is presented
+Success message is correct
+Home button is presented
+Home button is clicked
+Home page link is correct
