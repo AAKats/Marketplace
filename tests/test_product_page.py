@@ -9,7 +9,7 @@ class TestProductPage:
     @allure.feature('Products')
     @allure.story('Отправка отзыва на товар')
     @allure.severity(allure.severity_level.NORMAL)
-    @pytest.mark.view_product
+    @pytest.mark.review_product
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
@@ -24,3 +24,4 @@ class TestProductPage:
         page.fill_in_review_message_field()
         page.click_submit_review_button()
         page.should_be_correct_success_review_message()
+

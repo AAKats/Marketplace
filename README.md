@@ -38,6 +38,7 @@ Marketplace/
 │   ├── test_home_page.py
 │   ├── test_login_page.py   # Тесты входа
 │   ├── test_products_page.py
+│   ├── test_product_page.py    # Тесты карточки товара
 │   └── test_registration_page.py
 ├── utils/                    # Утилиты
 │   └── data_generator.py    # Генератор тестовых данных
@@ -130,6 +131,8 @@ allure open allure-report
 | `register_while_checkout` | Регистрация со страницы корзины |
 | `login_before_checkout` | Авторизация перед покупкой |
 | `remove_from_cart` | Удаление товаров из корзины |
+| `review_product` | Просмотр отзыва на товар |
+| `add_recommended_product` | Добавление рекомендованного товара в корзину |
 | `filter_product` | Фильтрация товаров |
 | `filter_product_by_category` | Фильтрация товаров по категории |
 | `filter_product_by_brand` | Фильтрация товаров по бренду |

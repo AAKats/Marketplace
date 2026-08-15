@@ -1,6 +1,7 @@
 import allure
 import pytest
 
+from ..pages.cart_page import CartPage
 from ..pages.products_page import ProductsPage
 
 
@@ -72,6 +73,29 @@ class TestProductsPage:
         page.should_be_correct_brand_title(brand)
         brand = page.select_brand('H&M')
         page.should_be_correct_brand_title(brand)
+
+    @allure.feature('Products')
+    @allure.story('Добавление рекомендованных товаров в корзину')
+    @allure.severity(allure.severity_level.MINOR)
+    @pytest.mark.add_recommended_product
+    @pytest.mark.positive
+    @pytest.mark.smoke
+    @pytest.mark.ui
+    def test_add_recommended_products_to_cart(self, browser):
+        page = ProductsPage(browser)
+        page.open()
+        page.is_link_correct()
+        page.scroll_to_recommended_items()
+        page.should_be_correct_recommended_title()
+        products = page.get_recommended_products_info()
+        added_products = page.add_recommended_product_to_cart(1, products)
+        page.go_to_cart_via_modal()
+        cart = CartPage(browser, added_products)
+        cart.cart_should_contain_correct_count_of_products(1)
+        cart.check_product_name()
+        cart.check_product_price()
+        cart.check_product_quantity()
+
 
 
 

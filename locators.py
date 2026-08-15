@@ -127,6 +127,14 @@ class ProductsPageLocators:
     BRANDS_TITLE = (By.CSS_SELECTOR, '.brands_products h2')
     BRANDS_BUTTON_CSS = 'a[href*="/brand_products/{}"]'
     FILTERED_BRAND_TITLE = (By.CSS_SELECTOR, 'h2.text-center')
+    #Рекомендованные товары
+    RECOMMENDED_ITEMS_TITLE = (By.CSS_SELECTOR, '.recommended_items>h2')
+    RECOMMENDED_SECTION = (By.CSS_SELECTOR, '.recommended_items')
+    RECOMMENDED_PRODUCT_CARDS = (By.CSS_SELECTOR, '.recommended_items .productinfo.text-center')
+    RECOMMENDED_PRODUCT_NAME = (By.CSS_SELECTOR, 'p')
+    RECOMMENDED_PRODUCT_PRICE = (By.CSS_SELECTOR, 'h2')
+    RECOMMENDED_ADD_TO_CART = (By.CSS_SELECTOR, 'a.add-to-cart')
+
 
 class ProductPageLocators:
     PRODUCT_NAME = (By.CSS_SELECTOR, '.product-information h2 ')

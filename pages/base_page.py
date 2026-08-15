@@ -198,3 +198,11 @@ class BasePage:
     def go_to_cart_via_modal(self):
         self.is_element_visible(ProductsPageLocators.VIEW_CART_VIA_MODAL)
         self.find(ProductsPageLocators.VIEW_CART_VIA_MODAL).click()
+
+    @allure.step("Прокрутка до элемента")
+    def scroll_to_element(self, locator):
+        self.is_element_present(locator)
+        self.browser.execute_script(
+            "arguments[0].scrollIntoView({block: 'center'});",
+            self.find(locator)
+        )

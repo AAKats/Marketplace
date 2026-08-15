@@ -237,3 +237,80 @@ class ProductsPage(BasePage):
         assert brand.upper() in title.text.upper(), (f'Incorrect title text: "{title.text}" should be: '
                                                      f'"BRAND - {brand.upper()} PRODUCTS"')
         print(f'Category title is correct: "{title.text}"')
+
+    @allure.step("Прокрутка до рекомендованных товаров")
+    def scroll_to_recommended_items(self):
+        self.scroll_to_element(ProductsPageLocators.RECOMMENDED_SECTION)
+        print('Scrolled to recommended items')
+
+    @allure.step("Проверка заголовка рекомендуемых товаров")
+    def should_be_correct_recommended_title(self):
+        self.is_element_present(ProductsPageLocators.RECOMMENDED_ITEMS_TITLE)
+        self.is_element_visible(ProductsPageLocators.RECOMMENDED_ITEMS_TITLE)
+        title = self.find(ProductsPageLocators.RECOMMENDED_ITEMS_TITLE)
+        assert 'RECOMMENDED ITEMS' in title.text.upper(), (f'Incorrect title text: "{title.text}" should be: '
+                                                     'RECOMMENDED ITEMS')
+        print(f'Recommended items title is correct: "{title.text}"')
+
+    @allure.step("Переключение слайда карусели рекомендованных товаров")
+    def click_next_recommended_slide(self):
+        next_btn = self.browser.find_element(
+            By.CSS_SELECTOR, '.recommended-item-control.right'
+        )
+        next_btn.click()
+        import time;
+        time.sleep(0.5)
+        print('Switched to next recommended items slide')
+
+    def _extract_product_info(self, card):
+        name = card.find_element(*ProductsPageLocators.RECOMMENDED_PRODUCT_NAME).get_attribute('textContent')
+        price_text = card.find_element(*ProductsPageLocators.RECOMMENDED_PRODUCT_PRICE).get_attribute('textContent')
+        price = price_text.replace('Rs. ', '')
+        add_btn = card.find_element(*ProductsPageLocators.RECOMMENDED_ADD_TO_CART)
+        product_id = add_btn.get_attribute('data-product-id')
+        return {'id': product_id, 'name': name, 'price': price}
+
+    @allure.step("Получение информации о рекомендованных товарах")
+    def get_recommended_products_info(self):
+        products = []
+        seen_ids = set()
+
+        # Собираем товары с видимого слайда
+        cards = self.find_elements(ProductsPageLocators.RECOMMENDED_PRODUCT_CARDS)
+        for card in cards:
+            product = self._extract_product_info(card)
+            if product['id'] not in seen_ids:
+                seen_ids.add(product['id'])
+                products.append(product)
+
+        # Переключаем слайды и собираем оставшиеся
+        for _ in range(5):
+            prev_count = len(products)
+            self.click_next_recommended_slide()
+            cards = self.find_elements(ProductsPageLocators.RECOMMENDED_PRODUCT_CARDS)
+            for card in cards:
+                product = self._extract_product_info(card)
+                if product['id'] not in seen_ids:
+                    seen_ids.add(product['id'])
+                    products.append(product)
+            # Если новые товары не появились — все слайды пройдены
+            if len(products) == prev_count:
+                break
+
+        print(f'Found {len(products)} recommended products')
+        return products
+
+    @allure.step("Добавление рекомендованного товара в корзину (id={product_id})")
+    def add_recommended_product_to_cart(self, product_id, products, quantity=1):
+        product = [p for p in products if p['id'] == str(product_id)][0]
+        for _ in range(quantity):
+            add_button = self.browser.find_element(
+                By.CSS_SELECTOR,
+                f'.recommended_items a[data-product-id="{product_id}"]'
+            )
+            add_button.click()
+            if _ < quantity - 1:
+                self.continue_shoping()
+            print(f'Recommended product "{product["name"]}" added to cart, quantity {_ + 1}')
+        product['quantity'] = quantity
+        return product
