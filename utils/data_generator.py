@@ -4,6 +4,8 @@ import random
 from faker import Faker
 
 class DataGenerator:
+    _login_data_cache = None
+
     @staticmethod
     def generate_data_for_registration(fields=None):
         fake = Faker('en_US')
@@ -46,14 +48,26 @@ class DataGenerator:
     def get_registration_data(field):
         with open('registration_data.json', 'r', encoding='utf-8') as f:
             return json.load(f)[field]
-    
+
     @staticmethod
-    def get_login_data(field):
-        env_var = os.getenv(f'LOGIN_{field.upper()}')
-        if env_var:
-            return env_var
-        with open('login_data.json', 'r', encoding='utf-8') as f:
-            return json.load(f)[field]
+    def _load_login_data():
+        if DataGenerator._login_data_cache is None:
+            with open('login_data.json', 'r', encoding='utf-8') as f:
+                DataGenerator._login_data_cache = json.load(f)
+        return DataGenerator._login_data_cache
+
+    @staticmethod
+    def get_login_data(*fields):
+        if not fields:
+            return DataGenerator._load_login_data()
+
+        env_values = [os.getenv(f'LOGIN_{f.upper()}') for f in fields]
+        if all(env_values):
+            return env_values[0] if len(fields) == 1 else tuple(env_values)
+
+        data = DataGenerator._load_login_data()
+        values = [data[f] for f in fields]
+        return values[0] if len(fields) == 1 else tuple(values)
 
     @staticmethod
     def get_generated_data(fields):

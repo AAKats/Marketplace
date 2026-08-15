@@ -1,6 +1,5 @@
 import allure
 import pytest
-from unicodedata import category
 
 from ..pages.products_page import ProductsPage
 

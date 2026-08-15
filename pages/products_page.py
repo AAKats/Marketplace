@@ -8,6 +8,7 @@ import allure
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 
+from utils.data_generator import DataGenerator
 from ..locators import ProductsPageLocators, ProductPageLocators
 from ..pages.base_page import BasePage
 
@@ -25,12 +26,16 @@ class ProductsPage(BasePage):
         assert self.is_element_present(ProductsPageLocators.PRODUCTS_LIST), 'Products list is not presented'
         print('Products list is presented')
 
-    @allure.step("Открытие товара {number}")
-    def click_view_product_by_number(self, number):
+    @allure.step(f"Открытие товара")
+    def click_view_product_by_number(self, number: int = None):
         products_list = self.find_elements(ProductsPageLocators.VIEW_PRODUCT_BUTTONS)
-        products_list[number - 1].click()
-        print(f'View button for {number} is clicked')
-        self.is_link_correct(f'product_details/{number}')
+        if not number:
+            number = random.randint(1, len(products_list) - 1)
+        product = products_list[number]
+        product_id = product.get_attribute('href').split('/product_details/')[-1]
+        product.click()
+        print(f'View button for the {number} product from the start (id = {product_id}) clicked')
+        self.is_link_correct(f'product_details/{product_id}')
 
     @allure.step("Проверка полей товара")
     def should_be_product_info_fields(self):
@@ -232,6 +237,3 @@ class ProductsPage(BasePage):
         assert brand.upper() in title.text.upper(), (f'Incorrect title text: "{title.text}" should be: '
                                                      f'"BRAND - {brand.upper()} PRODUCTS"')
         print(f'Category title is correct: "{title.text}"')
-
-
-

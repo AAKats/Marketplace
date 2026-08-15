@@ -137,7 +137,11 @@ class ProductPageLocators:
     BRAND = (By.XPATH, '//b[contains(text(), "Brand:")]')
     QUANTITY_FIELD = (By.ID, 'quantity')
     ADD_TO_CART_BUTTON = (By.CLASS_NAME, 'cart')
-
+    REVIEW_NAME_FIELD = (By.ID, 'name')
+    REVIEW_EMAIL_FIELD = (By.ID, 'email')
+    REVIEW_MESSAGE_FIELD = (By.NAME, 'review')
+    SUBMIT_REVIEW_BUTTON = (By.ID, 'button-review')
+    SUCCESS_REVIEW_MESSAGE = (By.CSS_SELECTOR, '#review-section .alert-success')
 
 class CartPageLocators:
     PRODUCTS_IN_CART = (By.CSS_SELECTOR, '[id*="product-"]')
