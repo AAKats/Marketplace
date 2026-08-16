@@ -138,3 +138,4 @@ allure open allure-report
 | `filter_product_by_brand` | Фильтрация товаров по бренду |
 | `search_product_and_verify_cart` | Поиск товара и проверка корзины до и после логина |
 | `verify_address_in_checkout` | Проверка адреса доставки при оформлении заказа |
+| `download_invoice_after_purchase` | Скачивание инвойса после покупки |

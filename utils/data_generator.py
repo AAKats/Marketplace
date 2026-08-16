@@ -5,6 +5,7 @@ from faker import Faker
 
 class DataGenerator:
     _login_data_cache = None
+    _registration_data_cache = None
 
     @staticmethod
     def generate_data_for_registration(fields=None):
@@ -43,11 +44,25 @@ class DataGenerator:
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
+    @staticmethod
+    def _load_registration_data():
+        if DataGenerator._registration_data_cache is None:
+            with open('registration_data.json', 'r', encoding='utf-8') as f:
+                DataGenerator._registration_data_cache = json.load(f)
+        return DataGenerator._registration_data_cache
 
     @staticmethod
-    def get_registration_data(field):
-        with open('registration_data.json', 'r', encoding='utf-8') as f:
-            return json.load(f)[field]
+    def get_registration_data(*fields):
+        if not fields:
+            return DataGenerator._load_registration_data()
+
+        env_values = [os.getenv(f'REGISTRATION_{f.upper()}') for f in fields]
+        if all(env_values):
+            return env_values[0] if len(fields) == 1 else tuple(env_values)
+
+        data = DataGenerator._load_registration_data()
+        values = [data[f] for f in fields]
+        return values[0] if len(fields) == 1 else tuple(values)
 
     @staticmethod
     def _load_login_data():

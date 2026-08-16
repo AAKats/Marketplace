@@ -81,6 +81,7 @@ class CartPage(BasePage):
 
     @allure.step("Проверка общей стоимости товаров в корзине")
     def check_product_total_price(self):
+        products_total_price = 0
         products_total_prices = self.find_elements(CartPageLocators.PRODUCT_TOTAL_PRICE_IN_CART)
         products_names = self.find_elements(CartPageLocators.PRODUCT_NAME_IN_CART)
         for _ in range(len(self.added_products)):
@@ -90,6 +91,8 @@ class CartPage(BasePage):
                 assert product_total_price == product_total_price_in_cart, f'Product {products_names[_].text} total in cart: {product_total_price_in_cart} does not match expected total: {product_total_price}'
                 print(
                     f'Product {products_names[_].text} total in cart: {product_total_price_in_cart} matches expected total: {product_total_price}')
+                products_total_price += product_total_price
+        return products_total_price
 
     @allure.step("Продолжение оформления заказа")
     def click_proceed_to_checkout(self):

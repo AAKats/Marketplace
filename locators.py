@@ -194,4 +194,6 @@ class PaymentPageLocators:
     EXPIRATION_Y = (By.NAME, 'expiry_year')
     PAY_AND_CONFIRM_BUTTON = (By.ID, 'submit')
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, '#success_message .alert-success')
+    DOWNLOAD_INVOICE_BUTTON = (By.CLASS_NAME, 'check_out')
+    CONTINUE_BUTTON = (By.CSS_SELECTOR, '[data-qa=continue-button]')
 

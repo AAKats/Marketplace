@@ -1,7 +1,6 @@
+import os
+
 import allure
-from selenium.common import StaleElementReferenceException, TimeoutException
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from utils.data_generator import DataGenerator
 from ..locators import PaymentPageLocators
 from ..pages.base_page import BasePage
@@ -57,3 +56,47 @@ class PaymentPage(BasePage):
         assert 'Your order has been placed successfully!' in self.find(PaymentPageLocators.SUCCESS_MESSAGE).text, f'Incorrect success message: "{self.find(PaymentPageLocators.SUCCESS_MESSAGE).text}", should be "Your order has been placed successfully!"'
         print(f'Success message is correct: "{self.find(PaymentPageLocators.SUCCESS_MESSAGE).text}"')
         self.browser.forward()
+
+    @allure.step('Скачивание файла с инвойсом')
+    def download_invoice(self, download_dir):
+        self.is_element_present(PaymentPageLocators.DOWNLOAD_INVOICE_BUTTON)
+        self.find(PaymentPageLocators.DOWNLOAD_INVOICE_BUTTON).click()
+        print('Download invoice button clicked')
+        file_path = self.wait_for_download(download_dir)
+        print(f'File downloaded: {file_path}')
+        return file_path
+
+    @allure.step("Ожидание завершения скачивания файла")
+    def wait_for_download(self, download_dir, timeout=30):
+        """Ожидает завершения скачивания файла"""
+        import time
+        end_time = time.time() + timeout
+        while time.time() < end_time:
+            files = os.listdir(download_dir)
+            # Исключаем незавершённые файлы (.crdownload)
+            completed = [f for f in files if not f.endswith('.crdownload')]
+            if completed:
+                return os.path.join(download_dir, completed[0])
+            time.sleep(0.5)
+        raise TimeoutError(f"Файл не скачался за {timeout} секунд")
+
+    @allure.step("Проверка содержимого инвойса")
+    def check_invoice_content(self, file_path, login: bool = False, total_price: int = 0):
+        with open(file_path, 'r') as f:
+            content = f.read()
+            if login:
+                first_name, last_name = DataGenerator.get_login_data('first_name', 'last_name')
+            else:
+                first_name, last_name = DataGenerator.get_registration_data('first_name', 'last_name')
+        full_name = f'{first_name} {last_name}'
+        assert f'Hi {full_name}, Your total purchase amount is {total_price}. Thank you' in content,\
+            (f'Incorrect invoice content: "{content[:200]}" Should be: "Hi {full_name}, Your total purchase amount is '
+             f'{total_price}. Thank you"')
+        print(f'Invoice content is valid')
+
+    @allure.step('Завершение покупки')
+    def finish_purchase(self):
+        self.is_element_present(PaymentPageLocators.DOWNLOAD_INVOICE_BUTTON)
+        continue_button = self.find(PaymentPageLocators.DOWNLOAD_INVOICE_BUTTON)
+        continue_button.click()
+        print('Continue button clicked')
