@@ -1,14 +1,9 @@
 import random
-from encodings import search_function
-from random import Random
-from time import sleep
-from turtledemo.sorting_animate import enable_keys
-
 import allure
+
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 
-from utils.data_generator import DataGenerator
 from ..locators import ProductsPageLocators, ProductPageLocators
 from ..pages.base_page import BasePage
 

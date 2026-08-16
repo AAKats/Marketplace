@@ -25,7 +25,6 @@ Marketplace/
 │   ├── cart_page.py         # Корзина
 │   ├── checkout_page.py     # Оформление заказа
 │   ├── contact_us_page.py   # Страница контактов
-│   ├── home_page.py         # Главная страница
 │   ├── login_page.py        # Страница входа
 │   ├── payment_page.py      # Оплата
 │   ├── product_page.py      # Карточка товара
@@ -35,7 +34,6 @@ Marketplace/
 │   ├── conftest.py          # pytest фикстуры
 │   ├── test_cart_page.py    # Тесты корзины и checkout
 │   ├── test_contact_us_page.py
-│   ├── test_home_page.py
 │   ├── test_login_page.py   # Тесты входа
 │   ├── test_products_page.py
 │   ├── test_product_page.py    # Тесты карточки товара

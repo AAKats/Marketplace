@@ -1,11 +1,8 @@
-from time import sleep
-
 import allure
 
 from selenium.common import TimeoutException
 
 from locators import CartPageLocators
-from .products_page import ProductsPage
 from ..pages.base_page import BasePage
 
 

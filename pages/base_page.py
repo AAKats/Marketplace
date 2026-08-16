@@ -288,3 +288,8 @@ class BasePage:
         except AssertionError:
             self.is_element_in_viewport(BasePageLocators.TOP_TITLE)
         print('Page scrolled up with angle up')
+
+    @allure.step("Проверка кнопки Contact Us")
+    def should_be_contact_us_button(self):
+        assert self.is_element_present(BasePageLocators.CONTACT_US_BUTTON), 'Contact us button is not presented'
+        print('Contact us button is presented')

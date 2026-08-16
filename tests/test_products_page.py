@@ -7,6 +7,22 @@ from ..pages.products_page import ProductsPage
 
 class TestProductsPage:
 
+    @allure.feature('Products Page')
+    @allure.story('Подписка на рассылку с главной страницы')
+    @allure.severity(allure.severity_level.MINOR)
+    @pytest.mark.positive
+    @pytest.mark.ui
+    @pytest.mark.subscribe
+    @pytest.mark.subscribe_from_home
+    def test_subscribe_from_home(self, browser):
+        page = ProductsPage(browser)
+        page.open()
+        page.is_link_correct()
+        page.should_be_correct_subscription_text()
+        page.input_subscribe_email()
+        page.click_subscribe()
+        page.should_be_success_subscribe_alert()
+
     @allure.feature('Products')
     @allure.story('Просмотр карточки товара')
     @allure.severity(allure.severity_level.CRITICAL)

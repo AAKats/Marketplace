@@ -4,8 +4,6 @@ import allure
 
 from locators import ProductPageLocators
 from ..utils.data_generator import DataGenerator
-
-from ..locators import BasePageLocators
 from ..pages.base_page import BasePage
 
 

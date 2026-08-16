@@ -4,7 +4,6 @@ import pytest
 from ..pages.payment_page import PaymentPage
 from ..pages.checkout_page import CheckoutPage
 from ..pages.products_page import ProductsPage
-from ..pages.home_page import HomePage
 from ..pages.login_page import LoginPage
 
 
@@ -28,7 +27,6 @@ class TestLogin():
             page.fill_in_password()
             page.click_login_button()
 
-            page = HomePage(browser)
             page.is_link_correct()
             page.check_username(True)
             page.logout()
@@ -72,7 +70,7 @@ class TestLogin():
         page.fill_in_email()
         page.fill_in_password()
         page.click_login_button()
-        page = HomePage(browser)
+
         page.is_link_correct()
         page.check_username(True)
         page = ProductsPage(browser)

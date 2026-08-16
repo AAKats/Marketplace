@@ -5,7 +5,6 @@ from ..pages.cart_page import CartPage
 from ..pages.checkout_page import CheckoutPage
 from ..pages.payment_page import PaymentPage
 from ..pages.products_page import ProductsPage
-from ..pages.home_page import HomePage
 from ..pages.login_page import LoginPage
 from ..pages.registration_page import RegistrationPage
 from ..utils.data_generator import DataGenerator
@@ -67,7 +66,6 @@ class TestRegistration():
         #Завершение регистрации, переход на домашнюю страницу по кнопке
         page.finish_signup()
         #Проверка на наличие кнопок для зарегистрированного пользователя
-        page = HomePage(browser)
         page.check_username()
         page.delete_account() # Проверка удаления зарегистрированного пользователя по нажатию на кнопку
         page.is_link_correct('')
@@ -101,11 +99,10 @@ class TestRegistration():
     @pytest.mark.purchase
     @pytest.mark.register_before_checkout
     def test_register_before_checkout(self,browser):
-        page = HomePage(browser)
+        page = LoginPage(browser)
         page.open()
         page.is_link_correct()
         page.go_to_login_page()
-        page = LoginPage(browser)
         # Проверки начальной страницы регистрации
         page.is_link_correct('login')
         page.should_be_new_user_text()
@@ -149,7 +146,6 @@ class TestRegistration():
         # Завершение регистрации, переход на домашнюю страницу по кнопке
         page.finish_signup()
         # Проверка на наличие кнопок для зарегистрированного пользователя
-        page = HomePage(browser)
         page.check_username()
         page.go_to_products_page()
         page = ProductsPage(browser)
@@ -172,7 +168,6 @@ class TestRegistration():
         page.fill_in_card_info()
         page.pay_and_confirm()
         page.should_be_correct_payment_success_message()
-        page = HomePage(browser)
         page.delete_account()  # Проверка удаления зарегистрированного пользователя по нажатию на кнопку
         page.is_link_correct('')
 
