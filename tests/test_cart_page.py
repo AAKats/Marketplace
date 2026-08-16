@@ -5,7 +5,6 @@ import pytest
 
 from ..pages.payment_page import PaymentPage
 from ..pages.checkout_page import CheckoutPage
-from ..pages.home_page import HomePage
 from ..pages.login_page import LoginPage
 from ..pages.registration_page import RegistrationPage
 from ..utils.data_generator import DataGenerator
@@ -140,7 +139,6 @@ class TestCartPage():
         # Завершение регистрации, переход на домашнюю страницу по кнопке
         page.finish_signup()
         # Проверка на наличие кнопок для зарегистрированного пользователя
-        page = HomePage(browser)
         page.check_username()
         page.go_to_cart_page()
         page.is_link_correct('/view_cart')
@@ -159,7 +157,6 @@ class TestCartPage():
         page.fill_in_card_info()
         page.pay_and_confirm()
         page.should_be_correct_payment_success_message()
-        page = HomePage(browser)
         page.delete_account()  # Проверка удаления зарегистрированного пользователя по нажатию на кнопку
         page.is_link_correct('')
 
@@ -221,13 +218,75 @@ class TestCartPage():
         page.check_product_total_price()
         page.remove_all_products_from_cart()
 
+    @allure.feature('Cart')
+    @allure.feature('Register')
+    @allure.story('Регистрация со страницы корзины')
+    @pytest.mark.positive
+    @pytest.mark.ui
+    @pytest.mark.purchase
+    @pytest.mark.verify_address_in_checkout
+    def test_verify_address_in_checkout(self, browser):
+        page = LoginPage(browser)
+        page.open()
+        page.is_link_correct()
+        page.go_to_login_page()
+        page.is_link_correct('login')
+        page.should_be_new_user_text()
+        page.should_be_signup_fields()
+        # Генерация данных для регистрации
+        datagen = DataGenerator()
+        datagen.generate_data_for_registration()
+        # Заполнение первичных данных для регистрации
+        page.fill_signup_email()
+        page.fill_signup_name()
+        page.click_signup_button()
 
+        page = RegistrationPage(browser)
+        page.should_be_signup_url()
+        page.should_be_account_information_text()
+        # Проверка корректности введенных первичных данных при регистрации
+        page.check_email_field()
+        page.check_name_field()
+        # Заполнение основных данных пользователя
+        page.select_sex_checkbox(True)
+        page.fill_in_password()
+        page.fill_in_date_of_birth()
+        page.select_newsletter_checkbox(True)
+        page.select_special_offers_checkbox(True)
+        # Заполнение дополнительных данных о пользователе
+        page.fill_in_first_name()
+        page.fill_in_last_name()
+        page.fill_in_company()
+        page.fill_in_address_1()
+        page.fill_in_address_2()
+        page.select_country()
+        page.fill_in_state()
+        page.fill_in_city()
+        page.fill_in_zipcode()
+        page.fill_in_mobile_number()
+        # Нажатие на кнопку завершения регистрации и проверка корректности перехода на страницу с сообщением об успешной регистрации
+        page.finish_account_creation()
+        # Проверка темы и сообщения об успешной регистрации
+        page.should_be_correct_title()
+        page.should_be_correct_congratilations()
+        # Завершение регистрации, переход на домашнюю страницу по кнопке
+        page.finish_signup()
 
+        page = ProductsPage(browser)
+        page.check_username()
+        added_products = page.add_products_to_cart(quantity=2,count=3)
+        page.go_to_cart_page()
 
-
-
-
-
+        page = CartPage(browser, added_products)
+        page.check_product_name()
+        page.check_product_price()
+        page.check_product_quantity()
+        page.check_product_total_price()
+        page.click_proceed_to_checkout()
+        page = CheckoutPage(browser)
+        page.check_delivery_details()
+        page.check_billing_details()
+        page.delete_account()
 
 
 
