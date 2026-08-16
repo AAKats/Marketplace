@@ -139,3 +139,6 @@ allure open allure-report
 | `search_product_and_verify_cart` | Поиск товара и проверка корзины до и после логина |
 | `verify_address_in_checkout` | Проверка адреса доставки при оформлении заказа |
 | `download_invoice_after_purchase` | Скачивание инвойса после покупки |
+| `scrolling` | Прокрутка страницы |
+| `scrolling_with_angle_up` | Прокрутка вверх кнопкой angle-up |
+| `scrolling_down_and_back` | Прокрутка вниз и обратно|

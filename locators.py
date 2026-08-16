@@ -26,6 +26,8 @@ class BasePageLocators:
     SUBSCRIBE_EMAIL_FORM = (By.ID, 'susbscribe_email')
     SUBSCRIBE_BUTTON = (By.ID, 'subscribe')
     SUCCESS_SUBSCRIBE_ALERT = (By.CLASS_NAME, 'alert-success')
+    ANGLE_UP = (By.CLASS_NAME, 'fa-angle-up')
+    TOP_TITLE = (By.CSS_SELECTOR, '#slider-carousel .active h2')
 
     # Локаторы для навигационной панели
     HOME_BUTTON = (By.XPATH, '//i[@class="fa fa-home"]/parent::*')

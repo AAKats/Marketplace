@@ -96,6 +96,32 @@ class TestProductsPage:
         cart.check_product_price()
         cart.check_product_quantity()
 
+    @allure.feature('Products')
+    @allure.story('Прокрутка страницы')
+    @allure.severity(allure.severity_level.MINOR)
+    @pytest.mark.scrolling
+    @pytest.mark.positive
+    @pytest.mark.smoke
+    @pytest.mark.ui
+    @pytest.mark.scrolling_with_angle_up
+    def test_scrolling_with_angle_up(self, browser):
+        page = ProductsPage(browser)
+        page.open()
+        page.is_link_correct()
+        page.scroll_to_the_bottom()
+        page.scroll_to_the_top_by_angle()
 
-
-
+    @allure.feature('Products')
+    @allure.story('Прокрутка страницы')
+    @allure.severity(allure.severity_level.MINOR)
+    @pytest.mark.scrolling
+    @pytest.mark.positive
+    @pytest.mark.smoke
+    @pytest.mark.ui
+    @pytest.mark.scrolling_down_and_back
+    def test_scrolling(self, browser):
+        page = ProductsPage(browser)
+        page.open()
+        page.is_link_correct()
+        page.scroll_to_the_bottom()
+        page.scroll_to_the_top()
