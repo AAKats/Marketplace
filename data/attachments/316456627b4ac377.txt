@@ -1,9 +1,0 @@
-Home page link is correct
-Product "Rust Red Linen Saree" (ID: 40) opened
-Product_details/40 link is correct
-Quantity = 5 selected
-Product was added to cart
-Count of products in cart 1 is equal to count of added products 1
-Имя товара: Rust Red Linen Saree Найдено в корзине: Rust Red Linen Saree
-Product Rust Red Linen Saree price in cart: 3500 matches added price: 3500
-Количество товара Rust Red Linen Saree в корзине: 5 равно количеству добавленного товара: 5
