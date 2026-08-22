@@ -1,0 +1,9 @@
+Home page link is correct
+Product "Half Sleeves Top Schiffli Detailing - Pink" (ID: 12) opened
+Product_details/12 link is correct
+Quantity = 1 selected
+Product was added to cart
+Count of products in cart 1 is equal to count of added products 1
+Имя товара: Half Sleeves Top Schiffli Detailing - Pink Найдено в корзине: Half Sleeves Top Schiffli Detailing - Pink
+Product Half Sleeves Top Schiffli Detailing - Pink price in cart: 359 matches added price: 359
+Количество товара Half Sleeves Top Schiffli Detailing - Pink в корзине: 1 равно количеству добавленного товара: 1

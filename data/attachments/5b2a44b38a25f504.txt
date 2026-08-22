@@ -1,9 +1,0 @@
-Home page link is correct
-Product "Full Sleeves Top Cherry - Pink" (ID: 14) opened
-Product_details/14 link is correct
-Quantity = 2 selected
-Product was added to cart
-Count of products in cart 1 is equal to count of added products 1
-Имя товара: Full Sleeves Top Cherry - Pink Найдено в корзине: Full Sleeves Top Cherry - Pink
-Product Full Sleeves Top Cherry - Pink price in cart: 679 matches added price: 679
-Количество товара Full Sleeves Top Cherry - Pink в корзине: 2 равно количеству добавленного товара: 2
