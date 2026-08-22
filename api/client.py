@@ -13,3 +13,11 @@ class ApiClient:
     def get(self, endpoint, params=None):
         url = f"{self.base_url}{endpoint}"
         return self.session.get(url, params=params)
+
+    def put(self, endpoint, data=None, json=None):
+        url = f"{self.base_url}{endpoint}"
+        return self.session.put(url, data=data, json=json)
+
+    def delete(self, endpoint, params=None):
+        url = f"{self.base_url}{endpoint}"
+        return self.session.delete(url, params=params)

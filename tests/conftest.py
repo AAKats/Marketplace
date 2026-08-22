@@ -4,6 +4,7 @@ import allure
 import pytest
 from selenium import webdriver
 from ..api.services.user_api import UserApi
+from ..api.services.products_api import ProductsApi
 
 
 @pytest.fixture(scope="function")
@@ -90,3 +91,8 @@ def browser_download():
     # Очистка папки после теста
     for f in os.listdir(download_dir):
         os.remove(os.path.join(download_dir, f))
+
+@pytest.fixture(scope="session")
+def products_api():
+    """Фикстура для API запросов к продуктам"""
+    return ProductsApi(base_url="https://automationexercise.com")

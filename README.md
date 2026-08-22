@@ -16,8 +16,10 @@
 Marketplace/
 ├── api/                      # API клиенты и сервисы
 │   ├── client.py            # Базовый API клиент
+│   ├── assertions.py        # Переиспользуемые функции проверок API
 │   └── services/
-│       └── user_api.py      # API эндпоинты пользователей
+│       ├── user_api.py      # API эндпоинты пользователей
+│       └── products_api.py  # API эндпоинты продуктов
 ├── config/                   # Конфигурация
 │   └── config.py            # Настройки приложения
 ├── pages/                    # Page Object Model
@@ -32,6 +34,7 @@ Marketplace/
 │   └── registration_page.py # Страница регистрации
 ├── tests/                    # Тесты
 │   ├── conftest.py          # pytest фикстуры
+│   ├── test_api_products.py # API тесты продуктов
 │   ├── test_cart_page.py    # Тесты корзины и checkout
 │   ├── test_contact_us_page.py
 │   ├── test_login_page.py   # Тесты входа
@@ -139,4 +142,11 @@ allure open allure-report
 | `download_invoice_after_purchase` | Скачивание инвойса после покупки |
 | `scrolling` | Прокрутка страницы |
 | `scrolling_with_angle_up` | Прокрутка вверх кнопкой angle-up |
-| `scrolling_down_and_back` | Прокрутка вниз и обратно|
+| `scrolling_down_and_back` | Прокрутка вниз и обратно |
+| `api` | API тесты |
+| `api_products` | API тесты продуктов |
+| `get_all_products` | Получение всех товаров (GET) |
+| `post_all_products` | POST запрос к списку товаров |
+| `get_all_brands` | Получение всех брендов (GET) |
+| `put_all_brands` | PUT запрос к списку брендов |
+| `blank_search_product` | Пустой поисковый запрос |
