@@ -1,0 +1,9 @@
+Home page link is correct
+Product "Stylish Dress" (ID: 4) opened
+Product_details/4 link is correct
+Quantity = 2 selected
+Product was added to cart
+Count of products in cart 1 is equal to count of added products 1
+Имя товара: Stylish Dress Найдено в корзине: Stylish Dress
+Product Stylish Dress price in cart: 1500 matches added price: 1500
+Количество товара Stylish Dress в корзине: 2 равно количеству добавленного товара: 2
