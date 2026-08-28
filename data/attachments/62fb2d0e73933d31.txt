@@ -1,9 +1,0 @@
-Home page link is correct
-Product "Sleeves Printed Top - White" (ID: 11) opened
-Product_details/11 link is correct
-Quantity = 5 selected
-Product was added to cart
-Count of products in cart 1 is equal to count of added products 1
-Имя товара: Sleeves Printed Top - White Найдено в корзине: Sleeves Printed Top - White
-Product Sleeves Printed Top - White price in cart: 499 matches added price: 499
-Количество товара Sleeves Printed Top - White в корзине: 5 равно количеству добавленного товара: 5
