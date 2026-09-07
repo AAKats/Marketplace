@@ -34,7 +34,8 @@ Marketplace/
 │   └── registration_page.py # Страница регистрации
 ├── tests/                    # Тесты
 │   ├── conftest.py          # pytest фикстуры
-│   ├── test_api_products.py # API тесты продуктов
+│   ├── test_products_api.py # API тесты продуктов
+│   ├── test_user_api.py     # API тесты пользователей
 │   ├── test_cart_page.py    # Тесты корзины и checkout
 │   ├── test_contact_us_page.py
 │   ├── test_login_page.py   # Тесты входа
@@ -150,3 +151,12 @@ allure open allure-report
 | `get_all_brands` | Получение всех брендов (GET) |
 | `put_all_brands` | PUT запрос к списку брендов |
 | `blank_search_product` | Пустой поисковый запрос |
+| `user_api` | API тесты пользователей |
+| `verify_login_with_valid_details` | Проверка логина с валидными данными |
+| `verify_login_without_email` | Проверка логина без email |
+| `verify_login_via_delete` | Проверка логина через DELETE запрос |
+| `verify_login_with_invalid_details` | Проверка логина с невалидными данными |
+| `create_user_account` | Создание пользователя через API |
+| `delete_user_account` | Удаление пользователя через API |
+| `update_user_account` | Обновление данных пользователя через API |
+| `get_user_details` | Получение данных пользователя через API |

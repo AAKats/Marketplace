@@ -1,7 +1,7 @@
 import allure
 from .base_page import BasePage
 from ..locators import LoginPageLocators
-from ..utils.data_generator import DataGenerator
+from utils.data_generator import DataGenerator
 
 class LoginPage(BasePage):
 

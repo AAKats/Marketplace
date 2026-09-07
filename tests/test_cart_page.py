@@ -5,7 +5,7 @@ from ..pages.payment_page import PaymentPage
 from ..pages.checkout_page import CheckoutPage
 from ..pages.login_page import LoginPage
 from ..pages.registration_page import RegistrationPage
-from ..utils.data_generator import DataGenerator
+from utils.data_generator import DataGenerator
 from ..pages.product_page import ProductPage
 from ..pages.products_page import ProductsPage
 from ..pages.cart_page import CartPage

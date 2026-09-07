@@ -7,7 +7,7 @@ from ..pages.payment_page import PaymentPage
 from ..pages.products_page import ProductsPage
 from ..pages.login_page import LoginPage
 from ..pages.registration_page import RegistrationPage
-from ..utils.data_generator import DataGenerator
+from utils.data_generator import DataGenerator
 
 
 class TestRegistration():

@@ -9,7 +9,7 @@ class LoginPageLocators:
     NAME_SIGN_UP_FIELD = (By.CSS_SELECTOR,'[data-qa="signup-name"]')
     EMAIL_SIGN_UP_FIELD = (By.CSS_SELECTOR,'[data-qa="signup-email"]')
     SIGN_UP_BUTTON = (By.CSS_SELECTOR,'[data-qa="signup-button"]')
-    SIGN_UP_ERROR = (By.CSS_SELECTOR, '[action="/signup"] p')
+    SIGN_UP_ERROR = (By.CSS_SELECTOR, '[action="/signup"] > p')
     
     # Локаторы для авторизации
     LOGIN_TITLE = (By.CSS_SELECTOR, '.login-form > h2')
@@ -114,7 +114,7 @@ class ProductsPageLocators:
     TITLE = (By.CSS_SELECTOR, '.title')
     ADD_TO_CART_BUTTONS = (By.CLASS_NAME, 'add-to-cart')
     CONTINUE_SHOPPING_BUTTON = (By.CLASS_NAME, 'close-modal')
-    VIEW_CART_VIA_MODAL = (By.CSS_SELECTOR, 'a[href="/view_cart"]')
+    VIEW_CART_VIA_MODAL = (By.CSS_SELECTOR, '#cartModal a[href="/view_cart"]')
     VIEW_PRODUCT_BUTTON = (By.CSS_SELECTOR, 'a[href*="/product_details"]')
     # Категории (в ProductsPageLocators)
     CATEGORY_PANELS = (By.CSS_SELECTOR, '.category-products .panel')

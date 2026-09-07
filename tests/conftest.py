@@ -34,6 +34,10 @@ def api_client():
     """Фикстура для API запросов"""
     return UserApi(base_url="https://automationexercise.com")
 
+@pytest.fixture(scope="session")
+def products_api():
+    """Фикстура для API запросов к продуктам"""
+    return ProductsApi(base_url="https://automationexercise.com")
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
 def pytest_runtest_makereport(item, call):
@@ -91,8 +95,3 @@ def browser_download():
     # Очистка папки после теста
     for f in os.listdir(download_dir):
         os.remove(os.path.join(download_dir, f))
-
-@pytest.fixture(scope="session")
-def products_api():
-    """Фикстура для API запросов к продуктам"""
-    return ProductsApi(base_url="https://automationexercise.com")

@@ -3,7 +3,7 @@ import random
 import allure
 
 from locators import ProductPageLocators
-from ..utils.data_generator import DataGenerator
+from utils.data_generator import DataGenerator
 from ..pages.base_page import BasePage
 
 

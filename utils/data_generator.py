@@ -1,6 +1,8 @@
 import json
 import os
 import random
+import uuid
+
 from faker import Faker
 
 class DataGenerator:
@@ -9,12 +11,14 @@ class DataGenerator:
 
     @staticmethod
     def generate_data_for_registration(fields=None):
+        DataGenerator._registration_data_cache = None
+        DataGenerator._login_data_cache = None
         fake = Faker('en_US')
         data = {
             'title': lambda: random.choice(['Mr.', 'Mrs.']),
             'first_name': fake.first_name,
             'last_name': fake.last_name,
-            'email': fake.email,
+            'email': lambda: f"{uuid.uuid4().hex[:8]}_{fake.email()}",
             'password': lambda: fake.password(length=8, special_chars=True),
             'day_of_birth': lambda: str(random.randint(1, 28)),
             'month_of_birth': lambda: str(random.randint(1, 12)),
