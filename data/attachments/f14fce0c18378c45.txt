@@ -1,0 +1,14 @@
+Home page link is correct
+Main title is presented
+Main title is correct: CONTACT US
+Second title is presented
+Second title is correct: GET IN TOUCH
+Name field is presented
+Name field filled in with: Brandy
+Email field is presented
+Email field filled in with: juliemartinez@example.com
+Subject field is presented
+Subject field filled in with: New bill.
+Message field is presented
+Message field filled in with: Senior indeed sister international.
+Card light hold write lay. Team high result represent.
