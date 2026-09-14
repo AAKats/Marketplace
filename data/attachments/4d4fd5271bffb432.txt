@@ -1,0 +1,22 @@
+Home page link is correct
+Main title is presented
+Main title is correct: CONTACT US
+Second title is presented
+Second title is correct: GET IN TOUCH
+Name field is presented
+Name field filled in with: John
+Email field is presented
+Email field filled in with: ian42@example.com
+Subject field is presented
+Subject field filled in with: Oil idea.
+Message field is presented
+Message field filled in with: Simply lot do. Factor space world exist. Area impact any total public.
+Upload field is presented
+File uploaded
+Submit button is presented
+Alert is presented
+Success message is presented
+Success message is correct
+Home button is presented
+Home button is clicked
+Home page link is correct

@@ -1,9 +1,0 @@
-Home page link is correct
-Product "Blue Top" (ID: 1) opened
-Product_details/1 link is correct
-Quantity = 7 selected
-Product was added to cart
-Count of products in cart 1 is equal to count of added products 1
-Имя товара: Blue Top Найдено в корзине: Blue Top
-Product Blue Top price in cart: 500 matches added price: 500
-Количество товара Blue Top в корзине: 7 равно количеству добавленного товара: 7
