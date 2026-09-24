@@ -1,9 +1,0 @@
-Home page link is correct
-Product "Regular Fit Straight Jeans" (ID: 35) opened
-Product_details/35 link is correct
-Quantity = 8 selected
-Product was added to cart
-Count of products in cart 1 is equal to count of added products 1
-Имя товара: Regular Fit Straight Jeans Найдено в корзине: Regular Fit Straight Jeans
-Product Regular Fit Straight Jeans price in cart: 1200 matches added price: 1200
-Количество товара Regular Fit Straight Jeans в корзине: 8 равно количеству добавленного товара: 8
