@@ -1,0 +1,9 @@
+Home page link is correct
+Product "Lace Top For Women" (ID: 42) opened
+Product_details/42 link is correct
+Quantity = 4 selected
+Product was added to cart
+Count of products in cart 1 is equal to count of added products 1
+Имя товара: Lace Top For Women Найдено в корзине: Lace Top For Women
+Product Lace Top For Women price in cart: 1400 matches added price: 1400
+Количество товара Lace Top For Women в корзине: 4 равно количеству добавленного товара: 4
