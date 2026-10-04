@@ -4,13 +4,13 @@ Main title is correct: CONTACT US
 Second title is presented
 Second title is correct: GET IN TOUCH
 Name field is presented
-Name field filled in with: Marie
+Name field filled in with: Michael
 Email field is presented
-Email field filled in with: johnsonruben@example.net
+Email field filled in with: rjacobs@example.org
 Subject field is presented
-Subject field filled in with: Find.
+Subject field filled in with: Bill sea.
 Message field is presented
-Message field filled in with: Walk goal north town machine check. Dark international various. Network cup capital yet.
+Message field filled in with: Cover kid recent have artist work together. Base hard boy development.
 Upload field is presented
 File uploaded
 Submit button is presented

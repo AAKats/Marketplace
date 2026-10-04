@@ -1,0 +1,9 @@
+Home page link is correct
+Product "Sleeveless Unicorn Patch Gown - Pink" (ID: 19) opened
+Product_details/19 link is correct
+Quantity = 4 selected
+Product was added to cart
+Count of products in cart 1 is equal to count of added products 1
+Имя товара: Sleeveless Unicorn Patch Gown - Pink Найдено в корзине: Sleeveless Unicorn Patch Gown - Pink
+Product Sleeveless Unicorn Patch Gown - Pink price in cart: 1050 matches added price: 1050
+Количество товара Sleeveless Unicorn Patch Gown - Pink в корзине: 4 равно количеству добавленного товара: 4
