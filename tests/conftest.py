@@ -7,13 +7,28 @@ from ..api.services.user_api import UserApi
 from ..api.services.products_api import ProductsApi
 
 
+def pytest_addoption(parser):
+    parser.addoption(
+        "--headless",
+        action="store_true",
+        default=False,
+        help="Запуск браузера в headless-режиме",
+    )
+
+
+def is_headless(config) -> bool:
+    if config.getoption("--headless"):
+        return True
+    return os.getenv('HEADLESS', '').lower() in ('true', '1')
+
+
 @pytest.fixture(scope="function")
-def browser():
+def browser(request):
     '''Фикстура запуска браузера для UI тестов'''
     # Настройка драйвера
     options = webdriver.ChromeOptions()
 
-    if os.getenv('HEADLESS', '').lower() in ('true', '1'):
+    if is_headless(request.config):
         options.add_argument("--headless")
 
     browser = webdriver.Chrome(options=options)
@@ -67,7 +82,7 @@ def pytest_sessionfinish(session):
         f.write("Report=Allure\n")
 
 @pytest.fixture(scope="function")
-def browser_download():
+def browser_download(request):
     """Фикстура браузера с автоскачиванием файлов"""
 
     options = webdriver.ChromeOptions()
@@ -81,7 +96,7 @@ def browser_download():
     }
     options.add_experimental_option("prefs", prefs)
 
-    if os.getenv('HEADLESS', '').lower() in ('true', '1'):
+    if is_headless(request.config):
         options.add_argument("--headless")
 
     browser = webdriver.Chrome(options=options)

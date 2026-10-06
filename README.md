@@ -80,6 +80,12 @@ pytest -n auto               # Автоопределение числа пот�
 pytest -n 4                  # Явно 4 потока
 pytest -n 8 -v               # 8 потоков с детальным выводом
 
+# Headless-режим (без окна браузера)
+pytest --headless
+```
+
+Альтернативно можно задать env-переменную `HEADLESS=true` — оба способа эквивалентны.
+
 ## Allure-отчёты
 
 ```bash
@@ -104,7 +110,7 @@ allure open allure-report
 |------------|----------|--------------|
 | BASE_URL | URL сайта | https://automationexercise.com |
 | API_URL | URL API | https://automationexercise.com/api |
-| HEADLESS | Запуск без UI | false |
+| HEADLESS | Запуск без UI (аналог опции `--headless`) | false |
 | TIMEOUT | Таймаут ожидания | 10 |
 | BROWSER | Браузер | chrome |
 
