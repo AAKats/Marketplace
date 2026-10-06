@@ -1,6 +1,11 @@
 import allure
 import pytest
 
+from ..pages.payment_page import PaymentPage
+from ..pages.checkout_page import CheckoutPage
+from ..pages.login_page import LoginPage
+from ..pages.registration_page import RegistrationPage
+from utils.data_generator import DataGenerator
 from ..pages.product_page import ProductPage
 from ..pages.products_page import ProductsPage
 from ..pages.cart_page import CartPage
@@ -70,8 +75,305 @@ class TestCartPage():
         page.check_product_price()
         page.check_product_quantity()
 
+    @allure.feature('Cart')
+    @allure.feature('Register')
+    @allure.story('Регистрация со страницы корзины')
+    @pytest.mark.positive
+    @pytest.mark.ui
+    @pytest.mark.purchase
+    @pytest.mark.register_while_checkout
+    def test_register_while_checkout(self,browser):
+        page = ProductsPage(browser)
+        page.open()
+        page.is_link_correct()
+        page.go_to_products_page()
+        added_products = page.add_products_to_cart(False, False, 2,2)
+        page.go_to_cart_page()
+        page.is_link_correct('/view_cart')
+        page = CartPage(browser)
+        page.click_proceed_to_checkout()
+        page.register_via_modal()
+        page = LoginPage(browser)
+        # Проверки начальной страницы регистрации
+        page.is_link_correct('login')
+        page.should_be_new_user_text()
+        page.should_be_signup_fields()
+        # Генерация данных для регистрации
+        datagen = DataGenerator()
+        datagen.generate_data_for_registration()
+        # Заполнение первичных данных для регистрации
+        page.fill_signup_email()
+        page.fill_signup_name()
+        page.click_signup_button()
 
+        page = RegistrationPage(browser)
+        page.should_be_signup_url()
+        page.should_be_account_information_text()
+        # Проверка корректности введенных первичных данных при регистрации
+        page.check_email_field()
+        page.check_name_field()
+        # Заполнение основных данных пользователя
+        page.select_sex_checkbox(True)
+        page.fill_in_password()
+        page.fill_in_date_of_birth()
+        page.select_newsletter_checkbox(True)
+        page.select_special_offers_checkbox(True)
+        # Заполнение дополнительных данных о пользователе
+        page.fill_in_first_name()
+        page.fill_in_last_name()
+        page.fill_in_company()
+        page.fill_in_address_1()
+        page.fill_in_address_2()
+        page.select_country()
+        page.fill_in_state()
+        page.fill_in_city()
+        page.fill_in_zipcode()
+        page.fill_in_mobile_number()
+        # Нажатие на кнопку завершения регистрации и проверка корректности перехода на страницу с сообщением об успешной регистрации
+        page.finish_account_creation()
+        # Проверка темы и сообщения об успешной регистрации
+        page.should_be_correct_title()
+        page.should_be_correct_congratilations()
+        # Завершение регистрации, переход на домашнюю страницу по кнопке
+        page.finish_signup()
+        # Проверка на наличие кнопок для зарегистрированного пользователя
+        page.check_username()
+        page.go_to_cart_page()
+        page.is_link_correct('/view_cart')
+        page = CheckoutPage(browser,added_products)
+        page.click_proceed_to_checkout()
+        page.check_delivery_details()
+        page.check_billing_details()
+        page.cart_should_contain_correct_count_of_products()
+        page.check_product_price()
+        page.check_product_name()
+        page.check_product_quantity()
+        page.check_product_total_price()
+        page.fill_comment()
+        page.place_order()
+        page = PaymentPage(browser)
+        page.fill_in_card_info()
+        page.pay_and_confirm()
+        page.should_be_correct_payment_success_message()
+        page.delete_account()  # Проверка удаления зарегистрированного пользователя по нажатию на кнопку
+        page.is_link_correct('')
 
+    @allure.feature('Cart')
+    @allure.story('Удаление товаров из корзины')
+    @allure.severity(allure.severity_level.NORMAL)
+    @pytest.mark.positive
+    @pytest.mark.ui
+    @pytest.mark.subscribe
+    @pytest.mark.remove_from_cart
+    def test_remove_from_cart(self, browser):
+        page = ProductsPage(browser)
+        page.open()
+        page.is_link_correct()
+        added_products = page.add_products_to_cart(False, False, 2, 2)
+        page.go_to_cart_page()
+        page.is_link_correct('view_cart')
+        page = CartPage(browser,added_products)
+        page.check_product_name()
+        page.check_product_price()
+        page.check_product_quantity()
+        page.check_product_total_price()
+        page.remove_all_products_from_cart()
 
+    @allure.feature('Cart')
+    @allure.story('Поиск товара')
+    @allure.severity(allure.severity_level.CRITICAL)
+    @pytest.mark.search_product
+    @pytest.mark.positive
+    @pytest.mark.smoke
+    @pytest.mark.ui
+    @pytest.mark.search_product_and_verify_cart
+    def test_search_product_and_verify_cart(self, browser):
+        page = ProductsPage(browser)
+        page.open()
+        page.go_to_products_page()
+        page.search_product()
+        page.should_be_correct_title()
+        page.check_found_product_name()
+        added_products = page.add_products_to_cart()
+        page.go_to_cart_page()
+        page = CartPage(browser, added_products)
+        page.check_product_name()
+        page.check_product_price()
+        page.check_product_quantity()
+        page.check_product_total_price()
+        page.go_to_login_page()
+        page = LoginPage(browser)
+        page.should_be_login_fields()
+        page.fill_in_email()
+        page.fill_in_password()
+        page.click_login_button()
+        page.is_link_correct()
+        page.go_to_cart_page()
+        page = CartPage(browser, added_products)
+        page.check_product_name()
+        page.check_product_price()
+        page.check_product_quantity()
+        page.check_product_total_price()
+        page.remove_all_products_from_cart()
+
+    @allure.feature('Cart')
+    @allure.feature('Register')
+    @allure.story('Регистрация перед покупкой')
+    @pytest.mark.positive
+    @pytest.mark.ui
+    @pytest.mark.purchase
+    @pytest.mark.verify_address_in_checkout
+    def test_verify_address_in_checkout(self, browser):
+        page = LoginPage(browser)
+        page.open()
+        page.is_link_correct()
+        page.go_to_login_page()
+        page.is_link_correct('login')
+        page.should_be_new_user_text()
+        page.should_be_signup_fields()
+        # Генерация данных для регистрации
+        datagen = DataGenerator()
+        datagen.generate_data_for_registration()
+        # Заполнение первичных данных для регистрации
+        page.fill_signup_email()
+        page.fill_signup_name()
+        page.click_signup_button()
+
+        page = RegistrationPage(browser)
+        page.should_be_signup_url()
+        page.should_be_account_information_text()
+        # Проверка корректности введенных первичных данных при регистрации
+        page.check_email_field()
+        page.check_name_field()
+        # Заполнение основных данных пользователя
+        page.select_sex_checkbox(True)
+        page.fill_in_password()
+        page.fill_in_date_of_birth()
+        page.select_newsletter_checkbox(True)
+        page.select_special_offers_checkbox(True)
+        # Заполнение дополнительных данных о пользователе
+        page.fill_in_first_name()
+        page.fill_in_last_name()
+        page.fill_in_company()
+        page.fill_in_address_1()
+        page.fill_in_address_2()
+        page.select_country()
+        page.fill_in_state()
+        page.fill_in_city()
+        page.fill_in_zipcode()
+        page.fill_in_mobile_number()
+        # Нажатие на кнопку завершения регистрации и проверка корректности перехода на страницу с сообщением об успешной регистрации
+        page.finish_account_creation()
+        # Проверка темы и сообщения об успешной регистрации
+        page.should_be_correct_title()
+        page.should_be_correct_congratilations()
+        # Завершение регистрации, переход на домашнюю страницу по кнопке
+        page.finish_signup()
+
+        page = ProductsPage(browser)
+        page.check_username()
+        added_products = page.add_products_to_cart(quantity=2,count=3)
+        page.go_to_cart_page()
+
+        page = CartPage(browser, added_products)
+        page.check_product_name()
+        page.check_product_price()
+        page.check_product_quantity()
+        page.check_product_total_price()
+        page.click_proceed_to_checkout()
+        page = CheckoutPage(browser)
+        page.check_delivery_details()
+        page.check_billing_details()
+        page.delete_account()
+
+    @allure.feature('Cart')
+    @allure.feature('Register')
+    @allure.story('Регистрация перед покупкой')
+    @pytest.mark.positive
+    @pytest.mark.ui
+    @pytest.mark.purchase
+    @pytest.mark.download_invoice_after_purchase
+    def test_download_invoice_after_purchase(self, browser_download):
+        browser, download_dir = browser_download
+        page = ProductsPage(browser)
+        page.open()
+        page.is_link_correct()
+        added_products = page.add_products_to_cart(quantity=2,count=5)
+        page.go_to_cart_page()
+        page = CartPage(browser, added_products)
+        page.is_link_correct('/view_cart')
+        page.check_product_name()
+        page.check_product_price()
+        page.check_product_quantity()
+        total_price = page.check_product_total_price()
+        page.click_proceed_to_checkout()
+        page.register_via_modal()
+
+        page = LoginPage(browser)
+        page.is_link_correct('login')
+        page.should_be_new_user_text()
+        page.should_be_signup_fields()
+        # Генерация данных для регистрации
+        datagen = DataGenerator()
+        datagen.generate_data_for_registration()
+        # Заполнение первичных данных для регистрации
+        page.fill_signup_email()
+        page.fill_signup_name()
+        page.click_signup_button()
+
+        page = RegistrationPage(browser)
+        page.should_be_signup_url()
+        page.should_be_account_information_text()
+        # Проверка корректности введенных первичных данных при регистрации
+        page.check_email_field()
+        page.check_name_field()
+        # Заполнение основных данных пользователя
+        page.select_sex_checkbox(True)
+        page.fill_in_password()
+        page.fill_in_date_of_birth()
+        page.select_newsletter_checkbox(True)
+        page.select_special_offers_checkbox(True)
+        # Заполнение дополнительных данных о пользователе
+        page.fill_in_first_name()
+        page.fill_in_last_name()
+        page.fill_in_company()
+        page.fill_in_address_1()
+        page.fill_in_address_2()
+        page.select_country()
+        page.fill_in_state()
+        page.fill_in_city()
+        page.fill_in_zipcode()
+        page.fill_in_mobile_number()
+        # Нажатие на кнопку завершения регистрации и проверка корректности перехода на страницу с сообщением об успешной регистрации
+        page.finish_account_creation()
+        # Проверка темы и сообщения об успешной регистрации
+        page.should_be_correct_title()
+        page.should_be_correct_congratilations()
+        # Завершение регистрации, переход на домашнюю страницу по кнопке
+        page.finish_signup()
+
+        page.check_username()
+        page.go_to_cart_page()
+
+        page.is_link_correct('/view_cart')
+        page = CartPage(browser, added_products)
+        page.click_proceed_to_checkout()
+        page = CheckoutPage(browser, added_products)
+        page.check_delivery_details()
+        page.check_billing_details()
+        page.check_product_name()
+        page.check_product_price()
+        page.check_product_quantity()
+        page.check_product_total_price()
+        page.fill_comment()
+        page.place_order()
+
+        page = PaymentPage(browser)
+        page.fill_in_card_info()
+        page.pay_and_confirm()
+        file_path = page.download_invoice(download_dir)
+        page.check_invoice_content(file_path, total_price=total_price)
+        page.finish_purchase()
+        page.delete_account()
 
 

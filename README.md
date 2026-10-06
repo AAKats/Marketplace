@@ -16,26 +16,32 @@
 Marketplace/
 ├── api/                      # API клиенты и сервисы
 │   ├── client.py            # Базовый API клиент
+│   ├── assertions.py        # Переиспользуемые функции проверок API
 │   └── services/
-│       └── user_api.py      # API эндпоинты пользователей
+│       ├── user_api.py      # API эндпоинты пользователей
+│       └── products_api.py  # API эндпоинты продуктов
 ├── config/                   # Конфигурация
 │   └── config.py            # Настройки приложения
 ├── pages/                    # Page Object Model
 │   ├── base_page.py         # Базовый класс страницы
-│   ├── home_page.py         # Главная страница
-│   ├── login_page.py        # Страница входа
-│   ├── registration_page.py # Страница регистрации
+│   ├── cart_page.py         # Корзина
+│   ├── checkout_page.py     # Оформление заказа
 │   ├── contact_us_page.py   # Страница контактов
-│   ├── products_page.py     # Страница товаров
-│   └── cart_page.py         # Корзина
+│   ├── login_page.py        # Страница входа
+│   ├── payment_page.py      # Оплата
+│   ├── product_page.py      # Карточка товара
+│   ├── products_page.py     # Список товаров
+│   └── registration_page.py # Страница регистрации
 ├── tests/                    # Тесты
 │   ├── conftest.py          # pytest фикстуры
-│   ├── test_login_page.py   # Тесты входа
-│   ├── test_registration_page.py
-│   ├── test_home_page.py
+│   ├── test_products_api.py # API тесты продуктов
+│   ├── test_user_api.py     # API тесты пользователей
+│   ├── test_cart_page.py    # Тесты корзины и checkout
 │   ├── test_contact_us_page.py
-│   ├── test_products_page.py # Тесты страницы продуктов
-│   └── test_cart_page.py    # Тесты корзины
+│   ├── test_login_page.py   # Тесты входа
+│   ├── test_products_page.py
+│   ├── test_product_page.py    # Тесты карточки товара
+│   └── test_registration_page.py
 ├── utils/                    # Утилиты
 │   └── data_generator.py    # Генератор тестовых данных
 ├── locators.py               # Все локаторы элементов
@@ -122,3 +128,35 @@ allure open allure-report
 | `subscribe_from_cart` | Подписка на рассылку со страницы корзины |
 | `purchase` | Оформление заказа |
 | `add_products_in_cart` | Добавление товаров в корзину |
+| `add_product_in_cart_from_product_page` | Добавление товара со страницы товара |
+| `register_before_checkout` | Регистрация перед оформлением заказа |
+| `register_while_checkout` | Регистрация со страницы корзины |
+| `login_before_checkout` | Авторизация перед покупкой |
+| `remove_from_cart` | Удаление товаров из корзины |
+| `review_product` | Просмотр отзыва на товар |
+| `add_recommended_product` | Добавление рекомендованного товара в корзину |
+| `filter_product` | Фильтрация товаров |
+| `filter_product_by_category` | Фильтрация товаров по категории |
+| `filter_product_by_brand` | Фильтрация товаров по бренду |
+| `search_product_and_verify_cart` | Поиск товара и проверка корзины до и после логина |
+| `verify_address_in_checkout` | Проверка адреса доставки при оформлении заказа |
+| `download_invoice_after_purchase` | Скачивание инвойса после покупки |
+| `scrolling` | Прокрутка страницы |
+| `scrolling_with_angle_up` | Прокрутка вверх кнопкой angle-up |
+| `scrolling_down_and_back` | Прокрутка вниз и обратно |
+| `api` | API тесты |
+| `api_products` | API тесты продуктов |
+| `get_all_products` | Получение всех товаров (GET) |
+| `post_all_products` | POST запрос к списку товаров |
+| `get_all_brands` | Получение всех брендов (GET) |
+| `put_all_brands` | PUT запрос к списку брендов |
+| `blank_search_product` | Пустой поисковый запрос |
+| `user_api` | API тесты пользователей |
+| `verify_login_with_valid_details` | Проверка логина с валидными данными |
+| `verify_login_without_email` | Проверка логина без email |
+| `verify_login_via_delete` | Проверка логина через DELETE запрос |
+| `verify_login_with_invalid_details` | Проверка логина с невалидными данными |
+| `create_user_account` | Создание пользователя через API |
+| `delete_user_account` | Удаление пользователя через API |
+| `update_user_account` | Обновление данных пользователя через API |
+| `get_user_details` | Получение данных пользователя через API |

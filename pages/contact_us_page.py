@@ -1,9 +1,7 @@
 import allure
 
 from locators import ContactUsPageLocators
-from ..utils.data_generator import DataGenerator
-
-from ..locators import BasePageLocators
+from utils.data_generator import DataGenerator
 from ..pages.base_page import BasePage
 
 class ContactUsPage(BasePage):

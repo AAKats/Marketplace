@@ -9,7 +9,7 @@ class LoginPageLocators:
     NAME_SIGN_UP_FIELD = (By.CSS_SELECTOR,'[data-qa="signup-name"]')
     EMAIL_SIGN_UP_FIELD = (By.CSS_SELECTOR,'[data-qa="signup-email"]')
     SIGN_UP_BUTTON = (By.CSS_SELECTOR,'[data-qa="signup-button"]')
-    SIGN_UP_ERROR = (By.CSS_SELECTOR, '[action="/signup"] p')
+    SIGN_UP_ERROR = (By.CSS_SELECTOR, '[action="/signup"] > p')
     
     # Локаторы для авторизации
     LOGIN_TITLE = (By.CSS_SELECTOR, '.login-form > h2')
@@ -26,6 +26,8 @@ class BasePageLocators:
     SUBSCRIBE_EMAIL_FORM = (By.ID, 'susbscribe_email')
     SUBSCRIBE_BUTTON = (By.ID, 'subscribe')
     SUCCESS_SUBSCRIBE_ALERT = (By.CLASS_NAME, 'alert-success')
+    ANGLE_UP = (By.CLASS_NAME, 'fa-angle-up')
+    TOP_TITLE = (By.CSS_SELECTOR, '#slider-carousel .active h2')
 
     # Локаторы для навигационной панели
     HOME_BUTTON = (By.XPATH, '//i[@class="fa fa-home"]/parent::*')
@@ -112,8 +114,28 @@ class ProductsPageLocators:
     TITLE = (By.CSS_SELECTOR, '.title')
     ADD_TO_CART_BUTTONS = (By.CLASS_NAME, 'add-to-cart')
     CONTINUE_SHOPPING_BUTTON = (By.CLASS_NAME, 'close-modal')
-    VIEW_CART_VIA_MODAL = (By.CSS_SELECTOR, 'a[href="/view_cart"]')
+    VIEW_CART_VIA_MODAL = (By.CSS_SELECTOR, '#cartModal a[href="/view_cart"]')
     VIEW_PRODUCT_BUTTON = (By.CSS_SELECTOR, 'a[href*="/product_details"]')
+    # Категории (в ProductsPageLocators)
+    CATEGORY_PANELS = (By.CSS_SELECTOR, '.category-products .panel')
+    FILTERED_CATEGORY_TITLE = (By.CSS_SELECTOR, '.title.text-center')
+    BREADCRUMB = (By.CSS_SELECTOR, '.breadcrumb .active')
+    LEFT_SIDEBAR = (By.CSS_SELECTOR, '.left-sidebar')
+    CATEGORY_TITLE = (By.CSS_SELECTOR, '.left-sidebar h2')
+    CATEGORY_BUTTON_CSS = 'a[href*="#{}"]'
+    SUBCATEGORY_BUTTON_CSS = '#{} .panel-body a'
+    #Бренды
+    BRANDS_PANEL = (By.CLASS_NAME, 'brands_products')
+    BRANDS_TITLE = (By.CSS_SELECTOR, '.brands_products h2')
+    BRANDS_BUTTON_CSS = 'a[href*="/brand_products/{}"]'
+    FILTERED_BRAND_TITLE = (By.CSS_SELECTOR, 'h2.text-center')
+    #Рекомендованные товары
+    RECOMMENDED_ITEMS_TITLE = (By.CSS_SELECTOR, '.recommended_items>h2')
+    RECOMMENDED_SECTION = (By.CSS_SELECTOR, '.recommended_items')
+    RECOMMENDED_PRODUCT_CARDS = (By.CSS_SELECTOR, '.recommended_items .productinfo.text-center')
+    RECOMMENDED_PRODUCT_NAME = (By.CSS_SELECTOR, 'p')
+    RECOMMENDED_PRODUCT_PRICE = (By.CSS_SELECTOR, 'h2')
+    RECOMMENDED_ADD_TO_CART = (By.CSS_SELECTOR, 'a.add-to-cart')
 
 
 class ProductPageLocators:
@@ -125,7 +147,11 @@ class ProductPageLocators:
     BRAND = (By.XPATH, '//b[contains(text(), "Brand:")]')
     QUANTITY_FIELD = (By.ID, 'quantity')
     ADD_TO_CART_BUTTON = (By.CLASS_NAME, 'cart')
-
+    REVIEW_NAME_FIELD = (By.ID, 'name')
+    REVIEW_EMAIL_FIELD = (By.ID, 'email')
+    REVIEW_MESSAGE_FIELD = (By.NAME, 'review')
+    SUBMIT_REVIEW_BUTTON = (By.ID, 'button-review')
+    SUCCESS_REVIEW_MESSAGE = (By.CSS_SELECTOR, '#review-section .alert-success')
 
 class CartPageLocators:
     PRODUCTS_IN_CART = (By.CSS_SELECTOR, '[id*="product-"]')
@@ -133,5 +159,43 @@ class CartPageLocators:
     PRODUCT_PRICE_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_price p')
     PRODUCT_QUANTITY_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_quantity button')
     PRODUCT_TOTAL_PRICE_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_total p')
-    DELETE_PRODUCT_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_delete a')
+    DELETE_PRODUCT_FROM_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_delete a')
+    PROCEED_TO_CHECKOUT_BUTTON = (By.CLASS_NAME, 'check_out')
+    CONTINUE_ON_CART_BUTTON = (By.CLASS_NAME, 'btn-success')
+    REGISTER_LOGIN_BUTTON = (By.CSS_SELECTOR, 'a[href="/login"]>u')
+    EMPTY_CART_TEXT = (By.CSS_SELECTOR, '#empty_cart b')
+
+class CheckoutPageLocators:
+    TITLE_1 = (By.CSS_SELECTOR, '.step-one > h2')
+    DELIVERY_ADDRESS_TITLE = (By.CSS_SELECTOR, '#address_delivery h3')
+    DELIVERY_FULL_NAME = (By.CSS_SELECTOR, '#address_delivery .address_firstname')
+    DELIVERY_COMPANY = (By.CSS_SELECTOR, '#address_delivery > li:nth-child(3)')
+    DELIVERY_ADDRESS_1 = (By.CSS_SELECTOR, '#address_delivery > li:nth-child(4)')
+    DELIVERY_ADDRESS_2 = (By.CSS_SELECTOR, '#address_delivery > li:nth-child(5)')
+    DELIVERY_CITY_STATE_AND_CODE = (By.CSS_SELECTOR, '#address_delivery > .address_city')
+    DELIVERY_COUNTRY = (By.CSS_SELECTOR, '#address_delivery > .address_country_name')
+    DELIVERY_PHONE = (By.CSS_SELECTOR, '#address_delivery > .address_phone')
+
+    BILLING_ADDRESS_TITLE = (By.CSS_SELECTOR, '#address_invoice  h3')
+    BILLING_FULL_NAME = (By.CSS_SELECTOR, '#address_invoice  .address_firstname')
+    BILLING_COMPANY = (By.CSS_SELECTOR, '#address_invoice  > li:nth-child(3)')
+    BILLING_ADDRESS_1 = (By.CSS_SELECTOR, '#address_invoice  > li:nth-child(4)')
+    BILLING_ADDRESS_2 = (By.CSS_SELECTOR, '#address_invoice  > li:nth-child(5)')
+    BILLING_CITY_STATE_AND_CODE = (By.CSS_SELECTOR, '#address_invoice  > .address_city')
+    BILLING_COUNTRY = (By.CSS_SELECTOR, '#address_invoice  > .address_country_name')
+    BILLING_PHONE = (By.CSS_SELECTOR, '#address_invoice  > .address_phone')
+
+    COMMENT_FIELD = (By.CSS_SELECTOR, '[name="message"]')
+    PLACE_ORDER_BUTTON = (By.CSS_SELECTOR, 'a[href="/payment"]')
+
+class PaymentPageLocators:
+    NAME_ON_CARD = (By.NAME, 'name_on_card')
+    CARD_NUMBER =(By.NAME, 'card_number')
+    CVC = (By.NAME, 'cvc')
+    EXPIRATION_M = (By.NAME, 'expiry_month')
+    EXPIRATION_Y = (By.NAME, 'expiry_year')
+    PAY_AND_CONFIRM_BUTTON = (By.ID, 'submit')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, '#success_message .alert-success')
+    DOWNLOAD_INVOICE_BUTTON = (By.CLASS_NAME, 'check_out')
+    CONTINUE_BUTTON = (By.CSS_SELECTOR, '[data-qa=continue-button]')
 

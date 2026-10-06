@@ -1,17 +1,24 @@
 import json
 import os
 import random
+import uuid
+
 from faker import Faker
 
 class DataGenerator:
+    _login_data_cache = None
+    _registration_data_cache = None
+
     @staticmethod
     def generate_data_for_registration(fields=None):
+        DataGenerator._registration_data_cache = None
+        DataGenerator._login_data_cache = None
         fake = Faker('en_US')
         data = {
             'title': lambda: random.choice(['Mr.', 'Mrs.']),
             'first_name': fake.first_name,
             'last_name': fake.last_name,
-            'email': fake.email,
+            'email': lambda: f"{uuid.uuid4().hex[:8]}_{fake.email()}",
             'password': lambda: fake.password(length=8, special_chars=True),
             'day_of_birth': lambda: str(random.randint(1, 28)),
             'month_of_birth': lambda: str(random.randint(1, 12)),
@@ -41,19 +48,45 @@ class DataGenerator:
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
+    @staticmethod
+    def _load_registration_data():
+        if DataGenerator._registration_data_cache is None:
+            with open('registration_data.json', 'r', encoding='utf-8') as f:
+                DataGenerator._registration_data_cache = json.load(f)
+        return DataGenerator._registration_data_cache
 
     @staticmethod
-    def get_registration_data(field):
-        with open('registration_data.json', 'r', encoding='utf-8') as f:
-            return json.load(f)[field]
-    
+    def get_registration_data(*fields):
+        if not fields:
+            return DataGenerator._load_registration_data()
+
+        env_values = [os.getenv(f'REGISTRATION_{f.upper()}') for f in fields]
+        if all(env_values):
+            return env_values[0] if len(fields) == 1 else tuple(env_values)
+
+        data = DataGenerator._load_registration_data()
+        values = [data[f] for f in fields]
+        return values[0] if len(fields) == 1 else tuple(values)
+
     @staticmethod
-    def get_login_data(field):
-        env_var = os.getenv(f'LOGIN_{field.upper()}')
-        if env_var:
-            return env_var
-        with open('login_data.json', 'r', encoding='utf-8') as f:
-            return json.load(f)[field]
+    def _load_login_data():
+        if DataGenerator._login_data_cache is None:
+            with open('login_data.json', 'r', encoding='utf-8') as f:
+                DataGenerator._login_data_cache = json.load(f)
+        return DataGenerator._login_data_cache
+
+    @staticmethod
+    def get_login_data(*fields):
+        if not fields:
+            return DataGenerator._load_login_data()
+
+        env_values = [os.getenv(f'LOGIN_{f.upper()}') for f in fields]
+        if all(env_values):
+            return env_values[0] if len(fields) == 1 else tuple(env_values)
+
+        data = DataGenerator._load_login_data()
+        values = [data[f] for f in fields]
+        return values[0] if len(fields) == 1 else tuple(values)
 
     @staticmethod
     def get_generated_data(fields):
@@ -70,5 +103,22 @@ class DataGenerator:
         message = Faker('en_US').text(100)
         return message
 
+    @staticmethod
+    def generate_card_info():
+        fake = Faker('en_US')
+        data = {
+            'name_on_card': f'{DataGenerator.get_registration_data('first_name')} {DataGenerator.get_registration_data('last_name')}' or 'Bob Marley',
+            'card_number': fake.credit_card_number(),
+            'cvc': fake.credit_card_security_code(),
+            'expiration_m': str(random.randint(1, 12)),
+            'expiration_y': str(random.randint(2020, 2026))
+        }
+        filename = 'generated_card_data.json'
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
 
+    @staticmethod
+    def get_card_info(field):
+        with open('generated_card_data.json', 'r', encoding='utf-8') as f:
+            return json.load(f)[field]
 
