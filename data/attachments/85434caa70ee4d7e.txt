@@ -1,0 +1,23 @@
+New user details:
+  name: Nicole
+  email: 045bf76c_wrightnicholas@example.com
+  password: (3X&Rm6+
+  title: Mrs.
+  birth_day: 15
+  birth_month: 5
+  birth_year: 1922
+  firstname: Nicole
+  lastname: Woods
+  company: Rose, Stokes and Lewis
+  address1: 8455 Walker Isle Suite 450
+  country: Canada
+  state: California
+  city: North Cherylborough
+  zipcode: 76553
+  mobile_number: 925-841-9497x07328
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "Account deleted!"

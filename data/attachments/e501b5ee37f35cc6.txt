@@ -1,0 +1,24 @@
+<Response [200]>
+Status code correct: 200
+ResponseCode correct: 200
+ResponseCode correct: 200
+Response contains key: "products"
+Products list length correct: 3
+Product with id = 33 contains field: "id"
+Product with id = 33 contains field: "name"
+Product with id = 33 contains field: "price"
+Product with id = 33 contains field: "brand"
+Product with id = 33 contains field: "category"
+Product name: "Soft Stretch Jeans" contains search term: jean
+Product with id = 35 contains field: "id"
+Product with id = 35 contains field: "name"
+Product with id = 35 contains field: "price"
+Product with id = 35 contains field: "brand"
+Product with id = 35 contains field: "category"
+Product name: "Regular Fit Straight Jeans" contains search term: jean
+Product with id = 37 contains field: "id"
+Product with id = 37 contains field: "name"
+Product with id = 37 contains field: "price"
+Product with id = 37 contains field: "brand"
+Product with id = 37 contains field: "category"
+Product name: "Grunt Blue Slim Fit Jeans" contains search term: jean

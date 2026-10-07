@@ -1,0 +1,77 @@
+<Response [200]>
+Status code correct: 200
+ResponseCode correct: 200
+ResponseCode correct: 200
+Response contains key: "products"
+Products list length correct: 14
+Product with id = 1 contains field: "id"
+Product with id = 1 contains field: "name"
+Product with id = 1 contains field: "price"
+Product with id = 1 contains field: "brand"
+Product with id = 1 contains field: "category"
+Product name: "Blue Top" contains search term: top
+Product with id = 5 contains field: "id"
+Product with id = 5 contains field: "name"
+Product with id = 5 contains field: "price"
+Product with id = 5 contains field: "brand"
+Product with id = 5 contains field: "category"
+Product name: "Winter Top" contains search term: top
+Product with id = 6 contains field: "id"
+Product with id = 6 contains field: "name"
+Product with id = 6 contains field: "price"
+Product with id = 6 contains field: "brand"
+Product with id = 6 contains field: "category"
+Product name: "Summer White Top" contains search term: top
+Product with id = 7 contains field: "id"
+Product with id = 7 contains field: "name"
+Product with id = 7 contains field: "price"
+Product with id = 7 contains field: "brand"
+Product with id = 7 contains field: "category"
+Product name: "Madame Top For Women" contains search term: top
+Product with id = 8 contains field: "id"
+Product with id = 8 contains field: "name"
+Product with id = 8 contains field: "price"
+Product with id = 8 contains field: "brand"
+Product with id = 8 contains field: "category"
+Product name: "Fancy Green Top" contains search term: top
+Product with id = 11 contains field: "id"
+Product with id = 11 contains field: "name"
+Product with id = 11 contains field: "price"
+Product with id = 11 contains field: "brand"
+Product with id = 11 contains field: "category"
+Product name: "Sleeves Printed Top - White" contains search term: top
+Product with id = 12 contains field: "id"
+Product with id = 12 contains field: "name"
+Product with id = 12 contains field: "price"
+Product with id = 12 contains field: "brand"
+Product with id = 12 contains field: "category"
+Product name: "Half Sleeves Top Schiffli Detailing - Pink" contains search term: top
+Product with id = 13 contains field: "id"
+Product with id = 13 contains field: "name"
+Product with id = 13 contains field: "price"
+Product with id = 13 contains field: "brand"
+Product with id = 13 contains field: "category"
+Product name: "Frozen Tops For Kids" contains search term: top
+Product with id = 14 contains field: "id"
+Product with id = 14 contains field: "name"
+Product with id = 14 contains field: "price"
+Product with id = 14 contains field: "brand"
+Product with id = 14 contains field: "category"
+Product name: "Full Sleeves Top Cherry - Pink" contains search term: top
+Product with id = 15 contains field: "id"
+Product with id = 15 contains field: "name"
+Product with id = 15 contains field: "price"
+Product with id = 15 contains field: "brand"
+Product with id = 15 contains field: "category"
+Product name: "Printed Off Shoulder Top - White" contains search term: top
+Product with id = 16 contains field: "id"
+Product with id = 16 contains field: "name"
+Product with id = 16 contains field: "price"
+Product with id = 16 contains field: "brand"
+Product with id = 16 contains field: "category"
+Product name: "Sleeves Top and Short - Blue & Pink" contains search term: top
+Product with id = 18 contains field: "id"
+Product with id = 18 contains field: "name"
+Product with id = 18 contains field: "price"
+Product with id = 18 contains field: "brand"
+Product with id = 18 contains field: "category"

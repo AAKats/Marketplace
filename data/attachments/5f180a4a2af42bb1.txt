@@ -1,0 +1,6 @@
+Women category selected
+DRESS subcategory selected
+Category title is correct: "WOMEN - DRESS PRODUCTS"
+Men category selected
+JEANS subcategory selected
+Category title is correct: "MEN - JEANS PRODUCTS"

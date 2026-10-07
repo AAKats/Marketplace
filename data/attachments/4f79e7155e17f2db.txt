@@ -1,0 +1,26 @@
+Search field is presented
+Search field is filled in with: "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi"
+Search button is presented
+Search button is clicked
+Title is presented
+Title SEARCHED PRODUCTS correct
+1 products found
+"Sleeveless Unicorn Print Fit & Flare Net Dress - Multi" product found, and contains "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi"
+Product Sleeveless Unicorn Print Fit & Flare Net Dress - Multi added, quantity 1
+Product: Sleeveless Unicorn Print Fit & Flare Net Dress - Multi found in cart: Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+Product Sleeveless Unicorn Print Fit & Flare Net Dress - Multi price in cart: 1100 matches added price: 1100
+Product Sleeveless Unicorn Print Fit & Flare Net Dress - Multi quantity in cart: 1 matches added quantity: 1
+Product Sleeveless Unicorn Print Fit & Flare Net Dress - Multi total in cart: 1100 matches expected total: 1100
+Login email field is presented
+Password field is presented
+Email filled in
+Password filled in
+Login button is presented
+Login button is clicked
+Home page link is correct
+Product: Sleeveless Unicorn Print Fit & Flare Net Dress - Multi found in cart: Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+Product Sleeveless Unicorn Print Fit & Flare Net Dress - Multi price in cart: 1100 matches added price: 1100
+Product Sleeveless Unicorn Print Fit & Flare Net Dress - Multi quantity in cart: 1 matches added quantity: 1
+Product Sleeveless Unicorn Print Fit & Flare Net Dress - Multi total in cart: 1100 matches expected total: 1100
+All products deleted
+Empty cart text correct: Cart is empty!

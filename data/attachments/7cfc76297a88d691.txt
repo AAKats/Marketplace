@@ -1,0 +1,3 @@
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "User exists!"
