@@ -1,0 +1,45 @@
+New user details:
+  name: Brianna
+  email: 99cd809a_scolon@example.net
+  password: w!5Zuufh
+  title: Mrs.
+  birth_day: 23
+  birth_month: 1
+  birth_year: 1930
+  firstname: Brianna
+  lastname: Wright
+  company: Williams-Brown
+  address1: 029 Watts Prairie
+  country: Singapore
+  state: Iowa
+  city: Port Lisa
+  zipcode: 01116
+  mobile_number: (687)461-3607x64021
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Status code correct: 200
+ResponseCode correct: 200
+Response contains key: "user"
+User details not empty: 16 fields
+User detail with name = 3007932 contains field: "id"
+User detail with name = 3007932 contains field: "name"
+User detail with name = 3007932 contains field: "email"
+User detail with name = 3007932 contains field: "title"
+User detail with name = 3007932 contains field: "birth_day"
+User detail with name = 3007932 contains field: "birth_month"
+User detail with name = 3007932 contains field: "birth_year"
+User detail with name = 3007932 contains field: "first_name"
+User detail with name = 3007932 contains field: "last_name"
+User detail with name = 3007932 contains field: "company"
+User detail with name = 3007932 contains field: "address1"
+User detail with name = 3007932 contains field: "address2"
+User detail with name = 3007932 contains field: "country"
+User detail with name = 3007932 contains field: "state"
+User detail with name = 3007932 contains field: "city"
+User detail with name = 3007932 contains field: "zipcode"
+Status code correct: 200
+ResponseCode correct: 200
+ResponseCode correct: 200
+Payload field "email" correct: "99cd809a_scolon@example.net"
+Payload field "title" correct: "Mrs."

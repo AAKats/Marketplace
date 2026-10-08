@@ -1,0 +1,22 @@
+Search field is presented
+Search field is filled in with: "Blue Top"
+Search button is presented
+Search button is clicked
+Title is presented
+Title SEARCHED PRODUCTS correct
+1 products found
+"Blue Top" product found, and contains "Blue Top"
+Product Blue Top added, quantity 1
+Product: Blue Top found in cart: Blue Top
+Product Blue Top price in cart: 500 matches added price: 500
+Product Blue Top quantity in cart: 1 matches added quantity: 1
+Product Blue Top total in cart: 500 matches expected total: 500
+Login email field is presented
+Password field is presented
+Email filled in
+Password filled in
+Login button is presented
+Login button is clicked
+Home page link is correct
+Product: Blue Top found in cart: Blue Top
+Product Blue Top price in cart: 500 matches added price: 500

@@ -1,0 +1,40 @@
+New user details:
+  name: Jessica
+  email: 9b139412_kathleengill@example.net
+  password: ^5Dtcy%E
+  title: Mrs.
+  birth_day: 3
+  birth_month: 12
+  birth_year: 1954
+  firstname: Jessica
+  lastname: Clark
+  company: Stafford Inc
+  address1: 6897 Williams Skyway Apt. 522
+  country: Israel
+  state: Alabama
+  city: West Kimberly
+  zipcode: 39339
+  mobile_number: 887-580-9586
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Updated user details:
+  name: Jessica
+  email: 9b139412_kathleengill@example.net
+  password: ^5Dtcy%E
+  title: Mrs.
+  birth_day: 3
+  birth_month: 12
+  birth_year: 1954
+  firstname: Jessica
+  lastname: Clark
+  company: Stafford Inc
+  address1: 6897 Williams Skyway Apt. 522
+  country: Israel
+  state: Alabama
+  city: West Kimberly
+  zipcode: 39339
+  mobile_number: 887-580-9586
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "User updated!"

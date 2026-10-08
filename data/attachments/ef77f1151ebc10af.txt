@@ -1,0 +1,20 @@
+New user details:
+  name: Jeremiah
+  email: e634a607_xtownsend@example.net
+  password: j(U3!SiB
+  title: Mrs.
+  birth_day: 27
+  birth_month: 8
+  birth_year: 1924
+  firstname: Jeremiah
+  lastname: Carter
+  company: Johnson Ltd
+  address1: 7776 Ashley Fords Suite 114
+  country: Australia
+  state: Virginia
+  city: New Ashleyburgh
+  zipcode: 31377
+  mobile_number: +1-308-626-0779x0537
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
