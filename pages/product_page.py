@@ -28,7 +28,8 @@ class ProductPage(BasePage):
 
     @allure.step("Заполнение имени для отзыва о товаре")
     def fill_in_review_name_field(self):
-        first_name, last_name =  DataGenerator.get_login_data('first_name','last_name')
+        first_name = DataGenerator.get_generated_data('first_name')
+        last_name = DataGenerator.get_generated_data('last_name')
         name = f'{first_name} {last_name}'
         self.is_element_present(ProductPageLocators.REVIEW_NAME_FIELD)
         name_field = self.find(ProductPageLocators.REVIEW_NAME_FIELD)
@@ -37,7 +38,7 @@ class ProductPage(BasePage):
 
     @allure.step("Заполнение почты для отзыва о товаре")
     def fill_in_review_email_field(self):
-        email =  DataGenerator.get_login_data('email')
+        email =  DataGenerator.get_generated_data('email')
         self.is_element_present(ProductPageLocators.REVIEW_EMAIL_FIELD)
         email_field = self.find(ProductPageLocators.REVIEW_EMAIL_FIELD)
         email_field.send_keys(email)

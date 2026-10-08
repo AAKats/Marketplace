@@ -77,7 +77,7 @@ class TestRegistration():
     @pytest.mark.negative
     @pytest.mark.smoke
     @pytest.mark.ui
-    def test_signup_exist_email_user(self, browser):
+    def test_signup_exist_email_user(self, browser, existing_user):
         page = LoginPage(browser)
         page.open()
         page.go_to_login_page() # Переход на страницу логина по нажатию на кнопку в навигации
@@ -87,7 +87,7 @@ class TestRegistration():
         page.should_be_signup_fields()
         page.fill_in_existing_email()
         page.fill_signup_name()
-        page.click_signup_button()
+        page.click_signup_button(retry_on_existing=False)
         page.should_be_correct_signup_error_message()
         page.is_link_correct('signup')
             

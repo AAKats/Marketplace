@@ -149,7 +149,7 @@ class BasePage:
     @allure.step("Ввод email для подписки")
     def input_subscribe_email(self):
         email_form = BasePageLocators.SUBSCRIBE_EMAIL_FORM
-        email = DataGenerator.get_login_data('email')
+        email = DataGenerator.get_generated_data('email')
         self.is_element_present(email_form)
         self.find(email_form).send_keys(email)
         print(f'Email filled in with "{email}"')
@@ -245,18 +245,26 @@ class BasePage:
         self.is_not_element_present(BasePageLocators.DELETE_ACCOUNT_BUTTON)
 
     @allure.step("Проверка видимости элемента в области экрана")
-    def is_element_in_viewport(self, locator):
-        element = self.find(locator)
-        in_viewport = self.browser.execute_script("""
-            var rect = arguments[0].getBoundingClientRect();
-            return (
-                rect.top >= 0 &&
-                rect.left >= 0 &&
-                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-            );
-        """, element)
-        assert in_viewport, f"Element {locator} is not in viewport"
+    def is_element_in_viewport(self, locator, time=Config.TIMEOUT):
+        def _element_in_viewport(driver):
+            try:
+                element = driver.find_element(*locator)
+            except NoSuchElementException:
+                return False
+            return driver.execute_script("""
+                var rect = arguments[0].getBoundingClientRect();
+                return (
+                    rect.top >= 0 &&
+                    rect.left >= 0 &&
+                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                );
+            """, element)
+
+        try:
+            WebDriverWait(self.browser, time).until(_element_in_viewport)
+        except TimeoutException:
+            raise AssertionError(f"Element {locator} is not in viewport")
         print(f'Element {locator} is in viewport')
 
     @allure.step("Скроллинг до низа страницы")
@@ -272,10 +280,7 @@ class BasePage:
         self.is_element_present(BasePageLocators.ANGLE_UP)
         angle_up = self.find(BasePageLocators.ANGLE_UP)
         angle_up.click()
-        try:
-            self.is_element_in_viewport(BasePageLocators.TOP_TITLE)
-        except AssertionError:
-            self.is_element_in_viewport(BasePageLocators.TOP_TITLE)
+        self.is_element_in_viewport(BasePageLocators.TOP_TITLE)
         print('Page scrolled up with angle up')
 
     @allure.step("Скроллинг до верха страницы")
@@ -283,11 +288,8 @@ class BasePage:
         top_title = BasePageLocators.TOP_TITLE
         self.is_element_present(top_title)
         self.scroll_to_element(top_title)
-        try:
-            self.is_element_in_viewport(BasePageLocators.TOP_TITLE)
-        except AssertionError:
-            self.is_element_in_viewport(BasePageLocators.TOP_TITLE)
-        print('Page scrolled up with angle up')
+        self.is_element_in_viewport(top_title)
+        print('Page scrolled up')
 
     @allure.step("Проверка кнопки Contact Us")
     def should_be_contact_us_button(self):

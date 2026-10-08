@@ -8,6 +8,7 @@ from faker import Faker
 class DataGenerator:
     _login_data_cache = None
     _registration_data_cache = None
+    _existing_user = None
 
     @staticmethod
     def generate_data_for_registration(fields=None):
@@ -69,10 +70,24 @@ class DataGenerator:
         return values[0] if len(fields) == 1 else tuple(values)
 
     @staticmethod
+    def set_existing_user(data: dict):
+        """Сохраняет профиль существующего пользователя, созданного через API"""
+        DataGenerator._existing_user = dict(data)
+        DataGenerator._login_data_cache = None
+
+    @staticmethod
     def _load_login_data():
         if DataGenerator._login_data_cache is None:
-            with open('login_data.json', 'r', encoding='utf-8') as f:
-                DataGenerator._login_data_cache = json.load(f)
+            if DataGenerator._existing_user is not None:
+                DataGenerator._login_data_cache = DataGenerator._existing_user
+            elif os.path.exists('login_data.json'):
+                with open('login_data.json', 'r', encoding='utf-8') as f:
+                    DataGenerator._login_data_cache = json.load(f)
+            else:
+                raise FileNotFoundError(
+                    "Нет данных для входа: задай env LOGIN_EMAIL/LOGIN_PASSWORD "
+                    "или используй фикстуру existing_user (регистрация пользователя через API)"
+                )
         return DataGenerator._login_data_cache
 
     @staticmethod

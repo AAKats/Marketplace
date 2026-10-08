@@ -22,6 +22,7 @@ class TestCartPage():
     @pytest.mark.subscribe
     @pytest.mark.subscribe_from_cart
     def test_subscribe_from_cart(self, browser):
+        DataGenerator.generate_data_for_registration(['email'])
         page = CartPage(browser)
         page.open()
         page.is_link_correct()
@@ -187,7 +188,7 @@ class TestCartPage():
     @pytest.mark.smoke
     @pytest.mark.ui
     @pytest.mark.search_product_and_verify_cart
-    def test_search_product_and_verify_cart(self, browser):
+    def test_search_product_and_verify_cart(self, browser, existing_user):
         page = ProductsPage(browser)
         page.open()
         page.go_to_products_page()

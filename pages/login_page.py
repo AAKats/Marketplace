@@ -36,12 +36,12 @@ class LoginPage(BasePage):
         print('Name signup field filled')
         
     @allure.step("Нажатие кнопки регистрации")
-    def click_signup_button(self):
+    def click_signup_button(self, retry_on_existing=True):
         # Переход на основную страницу регистрации
         for attempt in range(3):
             self.find(LoginPageLocators.SIGN_UP_BUTTON).click()
             print('Signup button is clicked')
-            if not self.is_signup_error_present():
+            if not retry_on_existing or not self.is_signup_error_present():
                 break
             else:
                 DataGenerator.generate_data_for_registration()
@@ -77,8 +77,9 @@ class LoginPage(BasePage):
             print('Email filled in')
     
     @allure.step("Заполнение пароля")
-    def fill_in_password(self):
-        password = DataGenerator.get_login_data('password')
+    def fill_in_password(self, password=None):
+        if password is None:
+            password = DataGenerator.get_login_data('password')
         self.find(LoginPageLocators.PASSWORD_LOGIN_FIELD).send_keys(password)
         print('Password filled in')
 

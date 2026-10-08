@@ -15,7 +15,7 @@ class TestUserAPI:
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.verify_login_with_valid_details
-    def test_verify_login_with_valid_details(self, api_client):
+    def test_verify_login_with_valid_details(self, api_client, existing_user):
         response = api_client.send_post_to_verify_login_with_valid_details()
 
         assert_status_code(response, 200)
@@ -32,7 +32,7 @@ class TestUserAPI:
     @pytest.mark.smoke
     @pytest.mark.verify_login_without_email
     def test_verify_login_without_email(self, api_client):
-        response = api_client.send_post_to_verify_login_without_email()
+        response = api_client.send_post_to_verify_login_without_email('SomePassword123')
 
         assert_status_code(response, 200)
         data = response.json()

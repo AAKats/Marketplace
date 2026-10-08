@@ -3,6 +3,7 @@ import pytest
 
 from ..pages.products_page import ProductsPage
 from ..pages.product_page import ProductPage
+from utils.data_generator import DataGenerator
 
 class TestProductPage:
 
@@ -14,6 +15,7 @@ class TestProductPage:
     @pytest.mark.smoke
     @pytest.mark.ui
     def test_review_product(self,browser):
+        DataGenerator.generate_data_for_registration(['first_name', 'last_name', 'email'])
         page = ProductsPage(browser)
         page.open()
         page.is_link_correct()

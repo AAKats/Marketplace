@@ -5,6 +5,7 @@ import pytest
 from selenium import webdriver
 from ..api.services.user_api import UserApi
 from ..api.services.products_api import ProductsApi
+from utils.data_generator import DataGenerator
 
 
 def pytest_addoption(parser):
@@ -53,6 +54,22 @@ def api_client():
 def products_api():
     """Фикстура для API запросов к продуктам"""
     return ProductsApi(base_url="https://automationexercise.com")
+
+@pytest.fixture(scope="session")
+def existing_user(api_client):
+    """Создаёт пользователя через API для тестов, которым нужен существующий аккаунт"""
+    DataGenerator.generate_data_for_registration()
+    response = api_client.create_account()
+    assert response.status_code == 200, \
+        f'Не удалось создать пользователя через API: {response.status_code} {response.text}'
+    profile = DataGenerator.get_registration_data()
+    DataGenerator.set_existing_user(profile)
+    yield profile
+    try:
+        api_client.delete_registered_user(profile['email'], profile['password'])
+        print('Тестовый пользователь удалён')
+    except Exception as e:
+        print(f'Не удалось удалить тестового пользователя: {e}')
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
 def pytest_runtest_makereport(item, call):

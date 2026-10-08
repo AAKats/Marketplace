@@ -3,6 +3,7 @@ import pytest
 
 from ..pages.cart_page import CartPage
 from ..pages.products_page import ProductsPage
+from utils.data_generator import DataGenerator
 
 
 class TestProductsPage:
@@ -15,6 +16,7 @@ class TestProductsPage:
     @pytest.mark.subscribe
     @pytest.mark.subscribe_from_home
     def test_subscribe_from_home(self, browser):
+        DataGenerator.generate_data_for_registration(['email'])
         page = ProductsPage(browser)
         page.open()
         page.is_link_correct()

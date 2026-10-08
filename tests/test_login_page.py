@@ -15,7 +15,7 @@ class TestLogin():
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
-    def test_login_user(self, browser):
+    def test_login_user(self, browser, existing_user):
             page = LoginPage(browser)
             page.open()
             page.go_to_login_page() # Переход на страницу логина по нажатию на кнопку в навигации
@@ -48,7 +48,7 @@ class TestLogin():
         page.should_be_correct_login_title()
         page.should_be_login_fields()
         page.fill_in_email('incorrect@mail.com')
-        page.fill_in_password()
+        page.fill_in_password('WrongPassword123')
         page.click_login_button()
         page.should_be_correct_login_error_message()
         page.is_link_correct('login')
@@ -61,7 +61,7 @@ class TestLogin():
     @pytest.mark.negative
     @pytest.mark.smoke
     @pytest.mark.ui
-    def test_login_before_checkout(self, browser):
+    def test_login_before_checkout(self, browser, existing_user):
         page = LoginPage(browser)
         page.open()
         page.is_link_correct()
