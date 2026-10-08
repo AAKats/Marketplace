@@ -1,0 +1,5 @@
+Home page link is correct
+Text is correct: SUBSCRIPTION
+Email filled in with "05dad232_mary95@example.com"
+Subscribe button is clicked
+Text is correct: You have been successfully subscribed!

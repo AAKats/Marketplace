@@ -1,0 +1,8 @@
+Home page link is correct
+View button for the 11 product from the start (id = 14) clicked
+Product_details/14 link is correct
+Review name field filled in with "Peter Foley"
+Review email field filled in with "ef8b950f_michaelreilly@example.net"
+Review message field filled in with "Another college leg. Three base direction east line."
+Submit review button clicked
+Success review message is displayed

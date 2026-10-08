@@ -1,0 +1,24 @@
+New user details:
+  name: Wendy
+  email: 3e519b17_dpatel@example.net
+  password: #Mo5*8Fp
+  title: Mrs
+  birth_day: 14
+  birth_month: 3
+  birth_year: 2002
+  firstname: Wendy
+  lastname: Smith
+  company: Newman, Moran and Archer
+  address1: 985 Brian Locks
+  address2: Apt. 656
+  country: Singapore
+  state: Maine
+  city: Alanton
+  zipcode: 29984
+  mobile_number: 9967979356
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "Account deleted!"

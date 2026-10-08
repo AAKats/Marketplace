@@ -1,3 +1,0 @@
-Home page link is correct
-Element ('css selector', '#footer h2') is in viewport
-Page scrolled down
