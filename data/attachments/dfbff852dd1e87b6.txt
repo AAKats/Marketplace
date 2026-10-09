@@ -1,0 +1,44 @@
+New user details:
+  name: Kelly
+  email: fd53b442_josephrobert@example.org
+  password: S%$9!gVs
+  title: Mrs
+  birth_day: 23
+  birth_month: 12
+  birth_year: 1984
+  firstname: Kelly
+  lastname: Bell
+  company: Payne and Sons
+  address1: 422 Cox Parks
+  address2: Apt. 560
+  country: Israel
+  state: Nevada
+  city: Hansonmouth
+  zipcode: 53151
+  mobile_number: 830.587.9986x1503
+Search field is presented
+Search field is filled in with: "Sleeveless Dress"
+Search button is presented
+Search button is clicked
+Title is presented
+Title SEARCHED PRODUCTS correct
+1 products found
+"Sleeveless Dress" product found, and contains "Sleeveless Dress"
+Product Sleeveless Dress added, quantity 1
+Product: Sleeveless Dress found in cart: Sleeveless Dress
+Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+Product Sleeveless Dress quantity in cart: 1 matches added quantity: 1
+Product Sleeveless Dress total in cart: 1000 matches expected total: 1000
+Login email field is presented
+Password field is presented
+Email filled in
+Password filled in
+Login button is presented
+Login button is clicked
+Home page link is correct
+Product: Sleeveless Dress found in cart: Sleeveless Dress
+Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+Product Sleeveless Dress quantity in cart: 1 matches added quantity: 1
+Product Sleeveless Dress total in cart: 1000 matches expected total: 1000
+All products deleted
+Empty cart text correct: Cart is empty!

@@ -1,0 +1,8 @@
+Home page link is correct
+View button for the 11 product from the start (id = 14) clicked
+Product_details/14 link is correct
+Review name field filled in with "Anna Cummings"
+Review email field filled in with "171e4fb3_ncoleman@example.com"
+Review message field filled in with "Author run bit. President computer address group power city."
+Submit review button clicked
+Success review message is displayed

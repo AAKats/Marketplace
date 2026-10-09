@@ -1,0 +1,21 @@
+New user details:
+  name: Jennifer
+  email: 5a76f194_robertadams@example.net
+  password: #_q%2Fh%
+  title: Mr
+  birth_day: 27
+  birth_month: 6
+  birth_year: 1957
+  firstname: Jennifer
+  lastname: Herrera
+  company: Thomas-Cruz
+  address1: 271 Traci Run
+  address2: Suite 462
+  country: United States
+  state: Maryland
+  city: Tammyburgh
+  zipcode: 77019
+  mobile_number: 544.417.1005x28889
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
