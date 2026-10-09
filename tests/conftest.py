@@ -50,10 +50,12 @@ def api_client():
     """Фикстура для API запросов"""
     return UserApi(base_url="https://automationexercise.com")
 
+
 @pytest.fixture(scope="session")
 def products_api():
     """Фикстура для API запросов к продуктам"""
     return ProductsApi(base_url="https://automationexercise.com")
+
 
 @pytest.fixture(scope="session")
 def existing_user(api_client):
@@ -70,6 +72,7 @@ def existing_user(api_client):
         print('Тестовый пользователь удалён')
     except Exception as e:
         print(f'Не удалось удалить тестового пользователя: {e}')
+
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
 def pytest_runtest_makereport(item, call):
@@ -97,6 +100,7 @@ def pytest_sessionfinish(session):
         f.write("URL=https://automationexercise.com\n")
         f.write("Framework=pytest\n")
         f.write("Report=Allure\n")
+
 
 @pytest.fixture(scope="function")
 def browser_download(request):

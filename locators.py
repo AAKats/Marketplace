@@ -6,17 +6,17 @@ class LoginPageLocators:
 
     # Локаторы для добавления нового пользователя
     NEW_USER_TITLE = (By.CSS_SELECTOR, '.signup-form > h2')
-    NAME_SIGN_UP_FIELD = (By.CSS_SELECTOR,'[data-qa="signup-name"]')
-    EMAIL_SIGN_UP_FIELD = (By.CSS_SELECTOR,'[data-qa="signup-email"]')
-    SIGN_UP_BUTTON = (By.CSS_SELECTOR,'[data-qa="signup-button"]')
+    NAME_SIGN_UP_FIELD = (By.CSS_SELECTOR, '[data-qa="signup-name"]')
+    EMAIL_SIGN_UP_FIELD = (By.CSS_SELECTOR, '[data-qa="signup-email"]')
+    SIGN_UP_BUTTON = (By.CSS_SELECTOR, '[data-qa="signup-button"]')
     SIGN_UP_ERROR = (By.CSS_SELECTOR, '[action="/signup"] > p')
-    
+
     # Локаторы для авторизации
     LOGIN_TITLE = (By.CSS_SELECTOR, '.login-form > h2')
-    EMAIL_LOGIN_FIELD = (By.CSS_SELECTOR,'[data-qa="login-email"]')
-    PASSWORD_LOGIN_FIELD = (By.CSS_SELECTOR,'[data-qa="login-password"]')
-    LOGIN_BUTTON = (By.CSS_SELECTOR,'[data-qa="login-button"]')
-    LOGIN_ERROR = (By.CSS_SELECTOR,'[action="/login"] p')
+    EMAIL_LOGIN_FIELD = (By.CSS_SELECTOR, '[data-qa="login-email"]')
+    PASSWORD_LOGIN_FIELD = (By.CSS_SELECTOR, '[data-qa="login-password"]')
+    LOGIN_BUTTON = (By.CSS_SELECTOR, '[data-qa="login-button"]')
+    LOGIN_ERROR = (By.CSS_SELECTOR, '[action="/login"] p')
 
 
 class BasePageLocators:
@@ -40,11 +40,10 @@ class BasePageLocators:
     CONTACT_US_BUTTON = (By.CSS_SELECTOR, 'a[href="/contact_us"]')
 
     # Локаторы для страницы удаления аккаунта
-    DELETE_TITLE = (By.CSS_SELECTOR,'.title > b')
+    DELETE_TITLE = (By.CSS_SELECTOR, '.title > b')
     DELETE_TEXT_1 = (By.CSS_SELECTOR, '.col-sm-9 p')
     DELETE_TEXT_2 = (By.CSS_SELECTOR, '.col-sm-9 > p:nth-child(3)')
     DELETE_CONTINUE_BUTTON = (By.CSS_SELECTOR, '[data-qa="continue-button"]')
-
 
 
 class RegistrationPageLocators:
@@ -57,32 +56,33 @@ class RegistrationPageLocators:
     CONGRATILATIONS_TEXT_2 = (By.CSS_SELECTOR, '.col-sm-9 p:nth-child(3)')
 
     # Локаторы основных данных о пользователе
-    ACCOUNT_INFORMATION_TITLE = (By.CSS_SELECTOR,'.title > b')
-    MR_RADIOBUTTON = (By.ID,'id_gender1')
-    MRS_RADIOBUTTON = (By.ID,'id_gender2')
-    NAME_FIELD = (By.ID,'name')
-    EMAIL_FIELD = (By.ID,'email')
-    PASSWORD_FIELD = (By.ID,'password')
-    DAY_OF_BIRTH_LIST = (By.ID,'days')
-    MONTH_OF_BIRTH_LIST = (By.ID,'months')
-    YEAR_OF_BIRTH_LIST = (By.ID,'years')
-    NEWSLETTER_CHECKBOX = (By.ID,'newsletter')
-    OFFERS_CHECKBOX = (By.ID,'optin')
+    ACCOUNT_INFORMATION_TITLE = (By.CSS_SELECTOR, '.title > b')
+    MR_RADIOBUTTON = (By.ID, 'id_gender1')
+    MRS_RADIOBUTTON = (By.ID, 'id_gender2')
+    NAME_FIELD = (By.ID, 'name')
+    EMAIL_FIELD = (By.ID, 'email')
+    PASSWORD_FIELD = (By.ID, 'password')
+    DAY_OF_BIRTH_LIST = (By.ID, 'days')
+    MONTH_OF_BIRTH_LIST = (By.ID, 'months')
+    YEAR_OF_BIRTH_LIST = (By.ID, 'years')
+    NEWSLETTER_CHECKBOX = (By.ID, 'newsletter')
+    OFFERS_CHECKBOX = (By.ID, 'optin')
 
     # Локаторы дополнительных данных о пользователе
-    FIRST_NAME_FIELD = (By.ID,'first_name')
-    LAST_NAME_FIELD = (By.ID,'last_name')
-    COMPANY_FIELD = (By.ID,'company')
-    ADDRESS_FIELD = (By.ID,'address1')
-    ADDRESS_2_FIELD = (By.ID,'address2')
-    COUTNRY_LIST = (By.ID,'country')
-    STATE_FIELD = (By.ID,'state')
-    CITY_FIELD = (By.ID,'city')
-    ZIPCODE_FIELD = (By.ID,'zipcode')
-    MOBILE_NUMBER_FIELD = (By.ID,'mobile_number')
+    FIRST_NAME_FIELD = (By.ID, 'first_name')
+    LAST_NAME_FIELD = (By.ID, 'last_name')
+    COMPANY_FIELD = (By.ID, 'company')
+    ADDRESS_FIELD = (By.ID, 'address1')
+    ADDRESS_2_FIELD = (By.ID, 'address2')
+    COUTNRY_LIST = (By.ID, 'country')
+    STATE_FIELD = (By.ID, 'state')
+    CITY_FIELD = (By.ID, 'city')
+    ZIPCODE_FIELD = (By.ID, 'zipcode')
+    MOBILE_NUMBER_FIELD = (By.ID, 'mobile_number')
 
-    #Локатор кнопки завершения регистрации
+    # Локатор кнопки завершения регистрации
     CREATE_ACCOUNT_BUTTON = (By.CSS_SELECTOR, '[data-qa="create-account"]')
+
 
 class ContactUsPageLocators:
     '''Локаторы страницы обратной связи'''
@@ -104,6 +104,7 @@ class ContactUsPageLocators:
     SUBMIT_BUTTON = (By.NAME, 'submit')
     HOME_BUTTON = (By.CLASS_NAME, 'fa-angle-double-left')
 
+
 class ProductsPageLocators:
     PRODUCTS_LIST = (By.CLASS_NAME, 'features_items')
     PRODUCT_NAMES = (By.CSS_SELECTOR, '.productinfo p')
@@ -124,12 +125,12 @@ class ProductsPageLocators:
     CATEGORY_TITLE = (By.CSS_SELECTOR, '.left-sidebar h2')
     CATEGORY_BUTTON_CSS = 'a[href*="#{}"]'
     SUBCATEGORY_BUTTON_CSS = '#{} .panel-body a'
-    #Бренды
+    # Бренды
     BRANDS_PANEL = (By.CLASS_NAME, 'brands_products')
     BRANDS_TITLE = (By.CSS_SELECTOR, '.brands_products h2')
     BRANDS_BUTTON_CSS = 'a[href*="/brand_products/{}"]'
     FILTERED_BRAND_TITLE = (By.CSS_SELECTOR, 'h2.text-center')
-    #Рекомендованные товары
+    # Рекомендованные товары
     RECOMMENDED_ITEMS_TITLE = (By.CSS_SELECTOR, '.recommended_items>h2')
     RECOMMENDED_SECTION = (By.CSS_SELECTOR, '.recommended_items')
     RECOMMENDED_PRODUCT_CARDS = (By.CSS_SELECTOR, '.recommended_items .productinfo.text-center')
@@ -153,6 +154,7 @@ class ProductPageLocators:
     SUBMIT_REVIEW_BUTTON = (By.ID, 'button-review')
     SUCCESS_REVIEW_MESSAGE = (By.CSS_SELECTOR, '#review-section .alert-success')
 
+
 class CartPageLocators:
     PRODUCTS_IN_CART = (By.CSS_SELECTOR, '[id*="product-"]')
     PRODUCT_NAME_IN_CART = (By.CSS_SELECTOR, '[id*="product-"] .cart_description a')
@@ -164,6 +166,7 @@ class CartPageLocators:
     CONTINUE_ON_CART_BUTTON = (By.CLASS_NAME, 'btn-success')
     REGISTER_LOGIN_BUTTON = (By.CSS_SELECTOR, 'a[href="/login"]>u')
     EMPTY_CART_TEXT = (By.CSS_SELECTOR, '#empty_cart b')
+
 
 class CheckoutPageLocators:
     TITLE_1 = (By.CSS_SELECTOR, '.step-one > h2')
@@ -188,9 +191,10 @@ class CheckoutPageLocators:
     COMMENT_FIELD = (By.CSS_SELECTOR, '[name="message"]')
     PLACE_ORDER_BUTTON = (By.CSS_SELECTOR, 'a[href="/payment"]')
 
+
 class PaymentPageLocators:
     NAME_ON_CARD = (By.NAME, 'name_on_card')
-    CARD_NUMBER =(By.NAME, 'card_number')
+    CARD_NUMBER = (By.NAME, 'card_number')
     CVC = (By.NAME, 'cvc')
     EXPIRATION_M = (By.NAME, 'expiry_month')
     EXPIRATION_Y = (By.NAME, 'expiry_year')
@@ -198,4 +202,3 @@ class PaymentPageLocators:
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, '#success_message .alert-success')
     DOWNLOAD_INVOICE_BUTTON = (By.CLASS_NAME, 'check_out')
     CONTINUE_BUTTON = (By.CSS_SELECTOR, '[data-qa=continue-button]')
-

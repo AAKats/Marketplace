@@ -11,7 +11,7 @@ from utils.data_generator import DataGenerator
 
 
 class TestRegistration():
-    
+
     @allure.feature('Registration')
     @allure.story('Регистрация нового пользователя')
     @allure.severity(allure.severity_level.BLOCKER)
@@ -22,7 +22,7 @@ class TestRegistration():
     def test_signup_user(self, browser):
         page = LoginPage(browser)
         page.open()
-        page.go_to_login_page() # Переход на страницу логина по нажатию на кнопку в навигации
+        page.go_to_login_page()  # Переход на страницу логина по нажатию на кнопку в навигации
         # Проверки начальной страницы регистрации
         page.is_link_correct('login')
         page.should_be_new_user_text()
@@ -41,8 +41,8 @@ class TestRegistration():
         # Проверка корректности введенных первичных данных при регистрации
         page.check_email_field()
         page.check_name_field()
-        #Заполнение основных данных пользователя
-        page.select_sex_checkbox(False,sex='f')
+        # Заполнение основных данных пользователя
+        page.select_sex_checkbox(False, sex='f')
         page.fill_in_password()
         page.fill_in_date_of_birth()
         page.select_newsletter_checkbox(True)
@@ -58,16 +58,17 @@ class TestRegistration():
         page.fill_in_city()
         page.fill_in_zipcode()
         page.fill_in_mobile_number()
-        # Нажатие на кнопку завершения регистрации и проверка корректности перехода на страницу с сообщением об успешной регистрации
+        # Нажатие на кнопку завершения регистрации и проверка корректности
+        # перехода на страницу с сообщением об успешной регистрации
         page.finish_account_creation()
         # Проверка темы и сообщения об успешной регистрации
         page.should_be_correct_title()
         page.should_be_correct_congratilations()
-        #Завершение регистрации, переход на домашнюю страницу по кнопке
+        # Завершение регистрации, переход на домашнюю страницу по кнопке
         page.finish_signup()
-        #Проверка на наличие кнопок для зарегистрированного пользователя
+        # Проверка на наличие кнопок для зарегистрированного пользователя
         page.check_username()
-        page.delete_account() # Проверка удаления зарегистрированного пользователя по нажатию на кнопку
+        page.delete_account()  # Проверка удаления зарегистрированного пользователя по нажатию на кнопку
         page.is_link_correct('')
 
     @allure.feature('Registration')
@@ -80,7 +81,7 @@ class TestRegistration():
     def test_signup_exist_email_user(self, browser, existing_user):
         page = LoginPage(browser)
         page.open()
-        page.go_to_login_page() # Переход на страницу логина по нажатию на кнопку в навигации
+        page.go_to_login_page()  # Переход на страницу логина по нажатию на кнопку в навигации
         # Проверки начальной страницы регистрации
         page.is_link_correct('login')
         page.should_be_new_user_text()
@@ -90,7 +91,7 @@ class TestRegistration():
         page.click_signup_button(retry_on_existing=False)
         page.should_be_correct_signup_error_message()
         page.is_link_correct('signup')
-            
+
     @allure.feature('Cart')
     @allure.feature('Register')
     @allure.story('Регистрация перед покупкой')
@@ -98,7 +99,7 @@ class TestRegistration():
     @pytest.mark.ui
     @pytest.mark.purchase
     @pytest.mark.register_before_checkout
-    def test_register_before_checkout(self,browser):
+    def test_register_before_checkout(self, browser):
         page = LoginPage(browser)
         page.open()
         page.is_link_correct()
@@ -138,7 +139,8 @@ class TestRegistration():
         page.fill_in_city()
         page.fill_in_zipcode()
         page.fill_in_mobile_number()
-        # Нажатие на кнопку завершения регистрации и проверка корректности перехода на страницу с сообщением об успешной регистрации
+        # Нажатие на кнопку завершения регистрации и проверка корректности
+        # перехода на страницу с сообщением об успешной регистрации
         page.finish_account_creation()
         # Проверка темы и сообщения об успешной регистрации
         page.should_be_correct_title()
@@ -149,11 +151,11 @@ class TestRegistration():
         page.check_username()
         page.go_to_products_page()
         page = ProductsPage(browser)
-        added_products = page.add_products_to_cart(False, False, 2,2)
+        added_products = page.add_products_to_cart(False, False, 2, 2)
         page.go_to_cart_page()
         page = CartPage(browser)
         page.is_link_correct('/view_cart')
-        page = CheckoutPage(browser,added_products)
+        page = CheckoutPage(browser, added_products)
         page.click_proceed_to_checkout()
         page.check_delivery_details()
         page.check_billing_details()
@@ -170,5 +172,3 @@ class TestRegistration():
         page.should_be_correct_payment_success_message()
         page.delete_account()  # Проверка удаления зарегистрированного пользователя по нажатию на кнопку
         page.is_link_correct('')
-
-

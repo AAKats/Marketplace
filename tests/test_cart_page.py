@@ -40,13 +40,13 @@ class TestCartPage():
     @pytest.mark.ui
     @pytest.mark.purchase
     @pytest.mark.add_products_in_cart
-    def test_add_products_in_cart(self,browser):
+    def test_add_products_in_cart(self, browser):
         page = ProductsPage(browser)
         page.open()
         page.is_link_correct()
         page.go_to_products_page()
-        added_products = page.add_products_to_cart(False,3,2)
-        page = CartPage(browser,added_products)
+        added_products = page.add_products_to_cart(False, 3, 2)
+        page = CartPage(browser, added_products)
         page.cart_should_contain_correct_count_of_products()
         page.check_product_price()
         page.check_product_name()
@@ -59,7 +59,7 @@ class TestCartPage():
     @pytest.mark.ui
     @pytest.mark.purchase
     @pytest.mark.add_product_in_cart_from_product_page
-    def test_add_product_in_cart_from_product_page(self,browser):
+    def test_add_product_in_cart_from_product_page(self, browser):
         page = ProductsPage(browser)
         page.open()
         page.is_link_correct()
@@ -70,7 +70,7 @@ class TestCartPage():
         quantity = page.select_quantity_of_product()
         page.add_product_to_cart()
         page.go_to_cart_via_modal()
-        page = CartPage(browser,product_details,quantity)
+        page = CartPage(browser, product_details, quantity)
         page.cart_should_contain_correct_count_of_products(1)
         page.check_product_name()
         page.check_product_price()
@@ -83,12 +83,12 @@ class TestCartPage():
     @pytest.mark.ui
     @pytest.mark.purchase
     @pytest.mark.register_while_checkout
-    def test_register_while_checkout(self,browser):
+    def test_register_while_checkout(self, browser):
         page = ProductsPage(browser)
         page.open()
         page.is_link_correct()
         page.go_to_products_page()
-        added_products = page.add_products_to_cart(False, False, 2,2)
+        added_products = page.add_products_to_cart(False, False, 2, 2)
         page.go_to_cart_page()
         page.is_link_correct('/view_cart')
         page = CartPage(browser)
@@ -130,7 +130,8 @@ class TestCartPage():
         page.fill_in_city()
         page.fill_in_zipcode()
         page.fill_in_mobile_number()
-        # Нажатие на кнопку завершения регистрации и проверка корректности перехода на страницу с сообщением об успешной регистрации
+        # Нажатие на кнопку завершения регистрации и проверка корректности
+        # перехода на страницу с сообщением об успешной регистрации
         page.finish_account_creation()
         # Проверка темы и сообщения об успешной регистрации
         page.should_be_correct_title()
@@ -141,7 +142,7 @@ class TestCartPage():
         page.check_username()
         page.go_to_cart_page()
         page.is_link_correct('/view_cart')
-        page = CheckoutPage(browser,added_products)
+        page = CheckoutPage(browser, added_products)
         page.click_proceed_to_checkout()
         page.check_delivery_details()
         page.check_billing_details()
@@ -173,7 +174,7 @@ class TestCartPage():
         added_products = page.add_products_to_cart(False, False, 2, 2)
         page.go_to_cart_page()
         page.is_link_correct('view_cart')
-        page = CartPage(browser,added_products)
+        page = CartPage(browser, added_products)
         page.check_product_name()
         page.check_product_price()
         page.check_product_quantity()
@@ -263,7 +264,8 @@ class TestCartPage():
         page.fill_in_city()
         page.fill_in_zipcode()
         page.fill_in_mobile_number()
-        # Нажатие на кнопку завершения регистрации и проверка корректности перехода на страницу с сообщением об успешной регистрации
+        # Нажатие на кнопку завершения регистрации и проверка корректности
+        # перехода на страницу с сообщением об успешной регистрации
         page.finish_account_creation()
         # Проверка темы и сообщения об успешной регистрации
         page.should_be_correct_title()
@@ -273,7 +275,7 @@ class TestCartPage():
 
         page = ProductsPage(browser)
         page.check_username()
-        added_products = page.add_products_to_cart(quantity=2,count=3)
+        added_products = page.add_products_to_cart(quantity=2, count=3)
         page.go_to_cart_page()
 
         page = CartPage(browser, added_products)
@@ -299,7 +301,7 @@ class TestCartPage():
         page = ProductsPage(browser)
         page.open()
         page.is_link_correct()
-        added_products = page.add_products_to_cart(quantity=2,count=5)
+        added_products = page.add_products_to_cart(quantity=2, count=5)
         page.go_to_cart_page()
         page = CartPage(browser, added_products)
         page.is_link_correct('/view_cart')
@@ -345,7 +347,8 @@ class TestCartPage():
         page.fill_in_city()
         page.fill_in_zipcode()
         page.fill_in_mobile_number()
-        # Нажатие на кнопку завершения регистрации и проверка корректности перехода на страницу с сообщением об успешной регистрации
+        # Нажатие на кнопку завершения регистрации и проверка корректности
+        # перехода на страницу с сообщением об успешной регистрации
         page.finish_account_creation()
         # Проверка темы и сообщения об успешной регистрации
         page.should_be_correct_title()
@@ -376,5 +379,3 @@ class TestCartPage():
         page.check_invoice_content(file_path, total_price=total_price)
         page.finish_purchase()
         page.delete_account()
-
-

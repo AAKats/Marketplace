@@ -14,7 +14,7 @@ class ProductPage(BasePage):
     def select_quantity_of_product(self):
         self.is_element_present(ProductPageLocators.QUANTITY_FIELD)
         quantity_field = self.find(ProductPageLocators.QUANTITY_FIELD)
-        quantity = random.randrange(1,10)
+        quantity = random.randrange(1, 10)
         quantity_field.clear()
         quantity_field.send_keys(quantity)
         print(f'Quantity = {quantity} selected')
@@ -38,7 +38,7 @@ class ProductPage(BasePage):
 
     @allure.step("Заполнение почты для отзыва о товаре")
     def fill_in_review_email_field(self):
-        email =  DataGenerator.get_generated_data('email')
+        email = DataGenerator.get_generated_data('email')
         self.is_element_present(ProductPageLocators.REVIEW_EMAIL_FIELD)
         email_field = self.find(ProductPageLocators.REVIEW_EMAIL_FIELD)
         email_field.send_keys(email)
@@ -57,12 +57,11 @@ class ProductPage(BasePage):
         self.is_element_present(ProductPageLocators.SUBMIT_REVIEW_BUTTON)
         submit_button = self.find(ProductPageLocators.SUBMIT_REVIEW_BUTTON)
         submit_button.click()
-        print(f'Submit review button clicked')
+        print('Submit review button clicked')
 
     @allure.step("Проверка сообщения об успешном отзыве")
     def should_be_correct_success_review_message(self):
         success_message = self.is_element_visible(ProductPageLocators.SUCCESS_REVIEW_MESSAGE)
         assert 'Thank you for your review.' in success_message.text, \
             f'Incorrect success message: {success_message.text}'
-        print(f'Success review message is displayed')
-
+        print('Success review message is displayed')

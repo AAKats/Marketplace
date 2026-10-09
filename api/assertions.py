@@ -54,18 +54,22 @@ def assert_products_response(response, expected_code=200):
     for product in data['products']:
         assert_product_fields(product)
 
+
 @allure.step("Проверка сообщения в ответе")
 def assert_response_message(response, expected_message):
     """Проверка сообщения в JSON теле ответа"""
     message = response['message']
-    assert expected_message in message, f'Incorrect response message: "{message}", should be: "{expected_message}"'
+    assert expected_message in message, \
+        f'Incorrect response message: "{message}", should be: "{expected_message}"'
     print(f'Response message correct: "{message}"')
+
 
 @allure.step("Проверка что список брендов не пустой")
 def assert_brands_not_empty(brands):
     """Проверка что список брендов не пустой"""
     assert len(brands) > 0, 'Brands list is empty'
     print(f'Brands list length correct: {len(brands)}')
+
 
 @allure.step("Проверка обязательных полей бренда")
 def assert_brand_fields(brand):
@@ -74,6 +78,7 @@ def assert_brand_fields(brand):
     for field in required_fields:
         assert field in brand, f'Brand with id = {brand['id']} missing field "{field}"'
         print(f'Brand with id = {brand['id']} contains field: "{field}"')
+
 
 @allure.step("Проверка структуры ответа списка брендов")
 def assert_brands_response(response, expected_code=200):
@@ -85,6 +90,7 @@ def assert_brands_response(response, expected_code=200):
     assert_brands_not_empty(data['brands'])
     for brand in data['brands']:
         assert_brand_fields(brand)
+
 
 @allure.step("Проверка структуры ответа поиска товара")
 def assert_searched_products(response, expected_code=200, search_term: str = ''):
@@ -99,20 +105,24 @@ def assert_searched_products(response, expected_code=200, search_term: str = '')
             f'Product: "{product['name']}" does not contain search term: "{search_term}"'
         print(f'Product name: "{product['name']}" contains search term: {search_term}')
 
+
 @allure.step("Проверка что данные о пользователе не пустые")
 def assert_user_details_not_empty(user):
     """Проверка что данные о пользователе не пустые"""
     assert isinstance(user, dict) and len(user) > 0, 'User details are empty'
     print(f'User details not empty: {len(user)} fields')
 
+
 @allure.step("Проверка обязательных полей данных о пользователе")
 def assert_user_details_fields(user):
     """Проверка наличия обязательных полей в данных пользователя"""
-    required_fields = ['id', 'name', 'email', 'title', 'birth_day', 'birth_month', 'birth_year', 'first_name',
-                       'last_name', 'company', 'address1', 'address2', 'country', 'state', 'city', 'zipcode']
+    required_fields = ['id', 'name', 'email', 'title', 'birth_day', 'birth_month', 'birth_year',
+                       'first_name', 'last_name', 'company', 'address1', 'address2', 'country',
+                       'state', 'city', 'zipcode']
     for field in required_fields:
         assert field in user, f'User detail with id = {user['id']} missing field "{field}"'
         print(f'User detail with name = {user['id']} contains field: "{field}"')
+
 
 @allure.step("Проверка структуры ответа данных пользователя")
 def assert_user_details_response(response, expected_code=200):
@@ -123,6 +133,7 @@ def assert_user_details_response(response, expected_code=200):
     assert_json_has_key(data, 'user')
     assert_user_details_not_empty(data['user'])
     assert_user_details_fields(data['user'])
+
 
 @allure.step("Проверка данных по пользователю")
 def assert_user_data(response, expected_code=200):
@@ -153,4 +164,3 @@ def assert_user_data(response, expected_code=200):
         assert user[field] == expected, \
             f'Field "{field}": expected "{expected}", got "{user[field]}"'
         print(f'Payload field "{field}" correct: "{user[field]}"')
-

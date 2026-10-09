@@ -8,7 +8,7 @@ from ..pages.base_page import BasePage
 
 class CartPage(BasePage):
 
-    def __init__(self, browser, added_products=None, quantity = 0):
+    def __init__(self, browser, added_products=None, quantity=0):
         super().__init__(browser)
         if isinstance(added_products, dict):
             added_products = [added_products]
@@ -18,20 +18,26 @@ class CartPage(BasePage):
     '''Методы для страницы корзины товаров'''
 
     @allure.step("Проверка количества товаров в корзине")
-    def cart_should_contain_correct_count_of_products(self, count : int = None):
+    def cart_should_contain_correct_count_of_products(self, count: int = None):
         if count is None:
             self.is_element_present(CartPageLocators.PRODUCTS_IN_CART)
             products_count_in_cart = len(self.find_elements(CartPageLocators.PRODUCTS_IN_CART))
-            assert products_count_in_cart == len(self.added_products), f'Count of products in cart {products_count_in_cart} is not equal to count of added products {len(self.added_products)}'
-            print(f'Count of products in cart {products_count_in_cart} is equal to count of added products {len(self.added_products)}')
+            assert products_count_in_cart == len(self.added_products), (
+                f'Count of products in cart {products_count_in_cart} '
+                f'is not equal to count of added products {len(self.added_products)}')
+            print(
+                f'Count of products in cart {products_count_in_cart} '
+                f'is equal to count of added products {len(self.added_products)}')
         else:
             try:
-                products = self.find_elements(CartPageLocators.PRODUCTS_IN_CART, time=3)
+                self.find_elements(CartPageLocators.PRODUCTS_IN_CART, time=3)
             except TimeoutException:
                 self.browser.refresh()
-                products = self.find_elements(CartPageLocators.PRODUCTS_IN_CART)
+                self.find_elements(CartPageLocators.PRODUCTS_IN_CART)
             products_count_in_cart = len(self.find_elements(CartPageLocators.PRODUCTS_IN_CART))
-            assert products_count_in_cart == count, f'Count of products in cart {products_count_in_cart} is not equal to count of added products {count}'
+            assert products_count_in_cart == count, (
+                f'Count of products in cart {products_count_in_cart} '
+                f'is not equal to count of added products {count}')
             print(f'Count of products in cart {products_count_in_cart} is equal to count of added products {count}')
 
     @allure.step("Проверка цены товаров в корзине")
@@ -41,8 +47,12 @@ class CartPage(BasePage):
         for _ in range(len(self.added_products)):
             product_price = self.added_products[_]['price']
             product_price_in_cart = products_prices[_].text[4:]
-            assert product_price == product_price_in_cart, f'Product {products_names[_].text} price in cart: {product_price_in_cart} does not match added price: {product_price}'
-            print(f'Product {products_names[_].text} price in cart: {product_price_in_cart} matches added price: {product_price}')
+            assert product_price == product_price_in_cart, (
+                f'Product {products_names[_].text} price in cart: '
+                f'{product_price_in_cart} does not match added price: {product_price}')
+            print(
+                f'Product {products_names[_].text} price in cart: '
+                f'{product_price_in_cart} matches added price: {product_price}')
 
     @allure.step("Проверка названий товаров в корзине")
     def check_product_name(self):
@@ -52,7 +62,9 @@ class CartPage(BasePage):
             names_in_cart.append(name.text)
         for _ in range(len(self.added_products)):
             product_name = self.added_products[_]['name']
-            assert product_name in names_in_cart, f'Product: {product_name} not found in cart: {', '.join(names_in_cart)}'
+            assert product_name in names_in_cart, (
+                f'Product: {product_name} not found in cart: '
+                f"{', '.join(names_in_cart)}")
             print(f'Product: {product_name} found in cart: {', '.join(names_in_cart)}')
 
     @allure.step("Проверка количества каждого товара в корзине")
@@ -64,17 +76,23 @@ class CartPage(BasePage):
                 if self.added_products[_]['name'] == products_names[_].text:
                     product_quantity = self.added_products[_]['quantity']
                     product_quantity_in_cart = int(products_quantities[_].text)
-                    assert product_quantity == product_quantity_in_cart, f'Product {products_names[_].text} quantity in cart: {product_quantity_in_cart} does not match added quantity: {product_quantity}'
+                    assert product_quantity == product_quantity_in_cart, (
+                        f'Product {products_names[_].text} quantity in cart: '
+                        f'{product_quantity_in_cart} does not match added quantity: {product_quantity}')
                     print(
-                        f'Product {products_names[_].text} quantity in cart: {product_quantity_in_cart} matches added quantity: {product_quantity}')
+                        f'Product {products_names[_].text} quantity in cart: '
+                        f'{product_quantity_in_cart} matches added quantity: {product_quantity}')
         else:
             for _ in range(len(self.added_products)):
                 if self.added_products[_]['name'] == products_names[_].text:
                     product_quantity = self.quantity
                     product_quantity_in_cart = int(products_quantities[_].text)
-                    assert product_quantity == product_quantity_in_cart, f'Product {products_names[_].text} quantity in cart: {product_quantity_in_cart} does not match added quantity: {product_quantity}'
+                    assert product_quantity == product_quantity_in_cart, (
+                        f'Product {products_names[_].text} quantity in cart: '
+                        f'{product_quantity_in_cart} does not match added quantity: {product_quantity}')
                     print(
-                        f'Product {products_names[_].text} quantity in cart: {product_quantity_in_cart}matches added quantity: {product_quantity}')
+                        f'Product {products_names[_].text} quantity in cart: '
+                        f'{product_quantity_in_cart} matches added quantity: {product_quantity}')
 
     @allure.step("Проверка общей стоимости товаров в корзине")
     def check_product_total_price(self):
@@ -85,9 +103,12 @@ class CartPage(BasePage):
             if self.added_products[_]['name'] == products_names[_].text:
                 product_total_price = int(self.added_products[_]['price']) * int(self.added_products[_]['quantity'])
                 product_total_price_in_cart = int(products_total_prices[_].text[4:])
-                assert product_total_price == product_total_price_in_cart, f'Product {products_names[_].text} total in cart: {product_total_price_in_cart} does not match expected total: {product_total_price}'
+                assert product_total_price == product_total_price_in_cart, (
+                    f'Product {products_names[_].text} total in cart: '
+                    f'{product_total_price_in_cart} does not match expected total: {product_total_price}')
                 print(
-                    f'Product {products_names[_].text} total in cart: {product_total_price_in_cart} matches expected total: {product_total_price}')
+                    f'Product {products_names[_].text} total in cart: '
+                    f'{product_total_price_in_cart} matches expected total: {product_total_price}')
                 products_total_price += product_total_price
         return products_total_price
 
@@ -117,6 +138,3 @@ class CartPage(BasePage):
         empty_cart_text = self.find(CartPageLocators.EMPTY_CART_TEXT).text
         assert 'Cart is empty!' in empty_cart_text, f'Incorrect Empty cart message: "{empty_cart_text}"'
         print(f'Empty cart text correct: {empty_cart_text}')
-
-
-

@@ -22,7 +22,7 @@ class TestContacUsPage():
         page.go_to_contact_us_page()
         page.should_be_correct_title()
         page.should_be_correct_second_title()
-        DataGenerator.generate_data_for_registration(['email','first_name'])
+        DataGenerator.generate_data_for_registration(['email', 'first_name'])
         page.fill_in_name_field()
         page.fill_in_email_field()
         page.fill_in_subject_field()
@@ -33,5 +33,3 @@ class TestContacUsPage():
         page.should_be_correct_success_message()
         page.go_to_home_page()
         page.is_link_correct()
-
-

@@ -5,6 +5,7 @@ import uuid
 
 from faker import Faker
 
+
 class DataGenerator:
     _login_data_cache = None
     _registration_data_cache = None
@@ -122,7 +123,10 @@ class DataGenerator:
     def generate_card_info():
         fake = Faker('en_US')
         data = {
-            'name_on_card': f'{DataGenerator.get_registration_data('first_name')} {DataGenerator.get_registration_data('last_name')}' or 'Bob Marley',
+            'name_on_card': (
+                f'{DataGenerator.get_registration_data("first_name")} '
+                f'{DataGenerator.get_registration_data("last_name")}'
+            ) or 'Bob Marley',
             'card_number': fake.credit_card_number(),
             'cvc': fake.credit_card_security_code(),
             'expiration_m': str(random.randint(1, 12)),
@@ -136,4 +140,3 @@ class DataGenerator:
     def get_card_info(field):
         with open('generated_card_data.json', 'r', encoding='utf-8') as f:
             return json.load(f)[field]
-

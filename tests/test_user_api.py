@@ -5,6 +5,7 @@ from api.assertions import assert_user_data, assert_user_details_response
 from utils.data_generator import DataGenerator
 from ..api.assertions import assert_status_code, assert_response_code, assert_response_message
 
+
 class TestUserAPI:
 
     @allure.feature('User API')
@@ -99,7 +100,7 @@ class TestUserAPI:
     @pytest.mark.delete_user_account
     def test_delete_user_account(self, api_client):
         DataGenerator.generate_data_for_registration()
-        response= api_client.create_account()
+        response = api_client.create_account()
 
         assert_status_code(response, 200)
         data = response.json()
@@ -162,5 +163,3 @@ class TestUserAPI:
         get_data = get_response.json()
         assert_response_code(get_data, 200)
         assert_user_data(get_data)
-
-

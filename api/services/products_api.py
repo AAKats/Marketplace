@@ -1,8 +1,7 @@
-from urllib import response
-
 import allure
 
 from ..client import ApiClient
+
 
 class ProductsApi(ApiClient):
 
@@ -31,10 +30,10 @@ class ProductsApi(ApiClient):
         return response
 
     @allure.step("POST запрос поиска товаров: {product_name}")
-    def post_to_search_product(self, product_name: str=''):
+    def post_to_search_product(self, product_name: str = ''):
         """Отправка POST для поиска товаров"""
         data = {"search_product": f"{product_name}"}
-        response = self.post('/api/searchProduct',data)
+        response = self.post('/api/searchProduct', data)
         return response
 
     @allure.step("POST запрос поиска товаров без тела")

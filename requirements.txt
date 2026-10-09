@@ -15,3 +15,6 @@ pytest-xdist==3.6.1
 
 # Allure-отчёты
 allure-pytest==2.13.5
+
+# Статический анализ кода
+flake8==7.3.0

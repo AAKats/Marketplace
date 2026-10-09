@@ -25,7 +25,7 @@ class BasePage:
         )
 
     @allure.step("Поиск всех элементов {locator}")
-    def find_elements(self,locator,time=10):
+    def find_elements(self, locator, time=10):
         return WebDriverWait(self.browser, time).until(
             EC.presence_of_all_elements_located(locator),
             message=f"Element not found: {locator}"
@@ -37,7 +37,7 @@ class BasePage:
 
     # Метод для проверки корректности ссылки в поисковой строке
     @allure.step("Проверка URL")
-    def is_link_correct(self, value = None):
+    def is_link_correct(self, value=None):
         try:
             if value:
                 WebDriverWait(self.browser, 10).until(
@@ -50,10 +50,10 @@ class BasePage:
         except TimeoutException:
             raise AssertionError(f'Current link is not {value} link')
 
-    #Метод проверки отсутствия активной сессии пользователя
+    # Метод проверки отсутствия активной сессии пользователя
     @allure.step("Проверка отсутствия авторизации")
     def should_not_be_username(self):
-        username = self.is_not_element_present(BasePageLocators.LOGGED_AS_TEXT)
+        self.is_not_element_present(BasePageLocators.LOGGED_AS_TEXT)
 
     '''Методы для перехода по страницам сайта через панель навигации'''
     @allure.step("Переход на страницу входа")
@@ -93,7 +93,7 @@ class BasePage:
         except TimeoutException:
             return True
         return False
-    
+
     '''Методы для выпадающих списков'''
     @allure.step("Выбор значения из списка")
     def select_by_value(self, locator, value):
@@ -128,7 +128,7 @@ class BasePage:
     '''Методы работы с файлами'''
 
     @allure.step("Загрузка файла")
-    def upload_file(self,locator,file_path=None):
+    def upload_file(self, locator, file_path=None):
         if file_path is None:
             path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'requirements.txt')
             self.find(locator).send_keys(path)
@@ -136,7 +136,7 @@ class BasePage:
             self.find(locator).send_keys(file_path)
 
     @allure.step("Проверка текста элемента")
-    def should_be_correct_text(self,locator,text):
+    def should_be_correct_text(self, locator, text):
         self.is_element_present(locator)
         element = self.find(locator)
         assert text == element.text, f'Text is not correct: {element.text}, should be: {text}'
@@ -144,7 +144,7 @@ class BasePage:
 
     @allure.step("Проверка текста подписки")
     def should_be_correct_subscription_text(self):
-        self.should_be_correct_text(BasePageLocators.SUBSCRIPTION,'SUBSCRIPTION')
+        self.should_be_correct_text(BasePageLocators.SUBSCRIPTION, 'SUBSCRIPTION')
 
     @allure.step("Ввод email для подписки")
     def input_subscribe_email(self):
@@ -165,10 +165,10 @@ class BasePage:
     def should_be_success_subscribe_alert(self):
         alert = BasePageLocators.SUCCESS_SUBSCRIBE_ALERT
         self.is_element_present(alert)
-        self.should_be_correct_text(alert,'You have been successfully subscribed!')
+        self.should_be_correct_text(alert, 'You have been successfully subscribed!')
 
     @allure.step("Проверка кликабельности элемента")
-    def is_element_clickable(self,locator):
+    def is_element_clickable(self, locator):
         """ Проверяет кликабельность элемента.
         Работает только с локатором
         """
@@ -231,8 +231,10 @@ class BasePage:
         print(f'Delete title is correct {title}')
         assert 'Your account has been permanently deleted!' in message_1, f'Delete message 1 is incorrect {message_1}'
         print(f'Delete message 1 is correct {message_1}')
-        assert 'You can create new account to take advantage of member privileges to enhance your online shopping experience with us.' in message_2, \
-            f'Delete message 2 is incorrect {message_2}'
+        assert (
+            'You can create new account to take advantage of member privileges '
+            'to enhance your online shopping experience with us.') in message_2, (
+            f'Delete message 2 is incorrect {message_2}')
         print(f'Delete message 2 is correct {message_2}')
         continue_button.click()
         print('Continue button clicked')

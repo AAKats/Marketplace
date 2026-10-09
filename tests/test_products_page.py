@@ -32,7 +32,7 @@ class TestProductsPage:
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
-    def test_products_page(self,browser):
+    def test_products_page(self, browser):
         page = ProductsPage(browser)
         page.open()
         page.go_to_products_page()
@@ -48,7 +48,7 @@ class TestProductsPage:
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
-    def test_search_product(self,browser):
+    def test_search_product(self, browser):
         page = ProductsPage(browser)
         page.open()
         page.go_to_products_page()

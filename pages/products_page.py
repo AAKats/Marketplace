@@ -21,7 +21,7 @@ class ProductsPage(BasePage):
         assert self.is_element_present(ProductsPageLocators.PRODUCTS_LIST), 'Products list is not presented'
         print('Products list is presented')
 
-    @allure.step(f"Открытие товара")
+    @allure.step("Открытие товара")
     def click_view_product_by_number(self, number: int = None):
         products_list = self.find_elements(ProductsPageLocators.VIEW_PRODUCT_BUTTONS)
         if not number:
@@ -48,7 +48,7 @@ class ProductsPage(BasePage):
         print('Brand field is presented')
 
     @allure.step("Поиск товара")
-    def search_product(self, product_name = None):
+    def search_product(self, product_name=None):
         if product_name is None:
             product_names = self.find_elements(ProductsPageLocators.PRODUCT_NAMES)
             product_name = random.choice(product_names).text
@@ -90,8 +90,8 @@ class ProductsPage(BasePage):
         self.find(continue_button).click()
 
     @allure.step("Добавление товаров в корзину")
-    def add_products_to_cart(self, short: bool = False, all : bool = False, quantity: int = 1, count : int = 1,
-                             first_number : int = 0):
+    def add_products_to_cart(self, short: bool = False, all: bool = False, quantity: int = 1, count: int = 1,
+                             first_number: int = 0):
         buttons = self.find_elements(ProductsPageLocators.ADD_TO_CART_BUTTONS)
         product_names = self.find_elements(ProductsPageLocators.PRODUCT_NAMES)
         product_prices = self.find_elements(ProductsPageLocators.PRODUCT_PRICES)
@@ -244,7 +244,7 @@ class ProductsPage(BasePage):
         self.is_element_visible(ProductsPageLocators.RECOMMENDED_ITEMS_TITLE)
         title = self.find(ProductsPageLocators.RECOMMENDED_ITEMS_TITLE)
         assert 'RECOMMENDED ITEMS' in title.text.upper(), (f'Incorrect title text: "{title.text}" should be: '
-                                                     'RECOMMENDED ITEMS')
+                                                           'RECOMMENDED ITEMS')
         print(f'Recommended items title is correct: "{title.text}"')
 
     @allure.step("Переключение слайда карусели рекомендованных товаров")
@@ -253,7 +253,7 @@ class ProductsPage(BasePage):
             By.CSS_SELECTOR, '.recommended-item-control.right'
         )
         next_btn.click()
-        import time;
+        import time
         time.sleep(0.5)
         print('Switched to next recommended items slide')
 

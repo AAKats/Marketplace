@@ -4,6 +4,7 @@ from locators import ContactUsPageLocators
 from utils.data_generator import DataGenerator
 from ..pages.base_page import BasePage
 
+
 class ContactUsPage(BasePage):
     '''Методы страницы обратной связи'''
 
@@ -12,7 +13,8 @@ class ContactUsPage(BasePage):
         main_title = ContactUsPageLocators.CONTACT_US_TITLE
         assert self.is_element_present(main_title), 'Main title is not presented'
         print('Main title is presented')
-        assert 'CONTACT US' in self.find(main_title).text, f'Main title should be: "CONTACT US" got: {self.find(main_title).text}'
+        assert 'CONTACT US' in self.find(
+            main_title).text, f'Main title should be: "CONTACT US" got: {self.find(main_title).text}'
         print(f'Main title is correct: {self.find(main_title).text}')
 
     @allure.step("Проверка второго заголовка")
@@ -20,7 +22,8 @@ class ContactUsPage(BasePage):
         second_title = ContactUsPageLocators.CONTACT_US_TITLE_2
         assert self.is_element_present(second_title), 'Second title is not presented'
         print('Second title is presented')
-        assert 'GET IN TOUCH' in self.find(second_title).text, f'Second title should be: "GET IN TOUCH" got: {self.find(second_title).text}'
+        assert 'GET IN TOUCH' in self.find(
+            second_title).text, f'Second title should be: "GET IN TOUCH" got: {self.find(second_title).text}'
         print(f'Second title is correct: {self.find(second_title).text}')
 
     @allure.step("Заполнение имени")
@@ -55,7 +58,7 @@ class ContactUsPage(BasePage):
         message_field = ContactUsPageLocators.SUBJECT_FIELD
         message = DataGenerator.get_message()
         assert self.is_element_present(message_field), 'Message field is not presented'
-        print(f'Message field is presented')
+        print('Message field is presented')
         self.find(message_field).send_keys(message)
         print(f'Message field filled in with: {message}')
 
@@ -80,7 +83,10 @@ class ContactUsPage(BasePage):
         success_message_text = self.find(success_message).text
         assert self.is_element_present(success_message), 'Success message is not presented'
         print('Success message is presented')
-        assert 'Success! Your details have been submitted successfully.' in success_message_text, f'Success message should be: "Success! Your details have been submitted successfully." got:{success_message_text}'
+        assert 'Success! Your details have been submitted successfully.' in success_message_text, (
+            f'Success message should be: '
+            f'"Success! Your details have been submitted successfully." '
+            f'got:{success_message_text}')
         print('Success message is correct')
 
     @allure.step("Загрузка файла")
@@ -90,7 +96,3 @@ class ContactUsPage(BasePage):
         print('Upload field is presented')
         self.upload_file(upload_field)
         print('File uploaded')
-
-
-
-

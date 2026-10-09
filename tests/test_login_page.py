@@ -16,21 +16,21 @@ class TestLogin():
     @pytest.mark.smoke
     @pytest.mark.ui
     def test_login_user(self, browser, existing_user):
-            page = LoginPage(browser)
-            page.open()
-            page.go_to_login_page() # Переход на страницу логина по нажатию на кнопку в навигации
-            # Проверки начальной страницы авторизации
-            page.is_link_correct('login')
-            page.should_be_correct_login_title()
-            page.should_be_login_fields()
-            page.fill_in_email()
-            page.fill_in_password()
-            page.click_login_button()
+        page = LoginPage(browser)
+        page.open()
+        page.go_to_login_page()  # Переход на страницу логина по нажатию на кнопку в навигации
+        # Проверки начальной страницы авторизации
+        page.is_link_correct('login')
+        page.should_be_correct_login_title()
+        page.should_be_login_fields()
+        page.fill_in_email()
+        page.fill_in_password()
+        page.click_login_button()
 
-            page.is_link_correct()
-            page.check_username(True)
-            page.logout()
-            page.should_not_be_username()
+        page.is_link_correct()
+        page.check_username(True)
+        page.logout()
+        page.should_not_be_username()
 
     @allure.feature('Login')
     @allure.story('Вход с неверными данными')
@@ -74,7 +74,7 @@ class TestLogin():
         page.is_link_correct()
         page.check_username(True)
         page = ProductsPage(browser)
-        added_products = page.add_products_to_cart(False, False, 3,1)
+        added_products = page.add_products_to_cart(False, False, 3, 1)
         page.go_to_cart_page()
         page.is_link_correct('/view_cart')
         page = CheckoutPage(browser, added_products)

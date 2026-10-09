@@ -5,6 +5,7 @@ from ..pages.products_page import ProductsPage
 from ..pages.product_page import ProductPage
 from utils.data_generator import DataGenerator
 
+
 class TestProductPage:
 
     @allure.feature('Products')
@@ -14,7 +15,7 @@ class TestProductPage:
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
-    def test_review_product(self,browser):
+    def test_review_product(self, browser):
         DataGenerator.generate_data_for_registration(['first_name', 'last_name', 'email'])
         page = ProductsPage(browser)
         page.open()
@@ -26,4 +27,3 @@ class TestProductPage:
         page.fill_in_review_message_field()
         page.click_submit_review_button()
         page.should_be_correct_success_review_message()
-

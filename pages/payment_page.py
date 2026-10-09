@@ -53,7 +53,11 @@ class PaymentPage(BasePage):
         self.browser.back()
         self.is_element_present(PaymentPageLocators.SUCCESS_MESSAGE)
         self.is_element_visible(PaymentPageLocators.SUCCESS_MESSAGE)
-        assert 'Your order has been placed successfully!' in self.find(PaymentPageLocators.SUCCESS_MESSAGE).text, f'Incorrect success message: "{self.find(PaymentPageLocators.SUCCESS_MESSAGE).text}", should be "Your order has been placed successfully!"'
+        assert 'Your order has been placed successfully!' in self.find(
+            PaymentPageLocators.SUCCESS_MESSAGE).text, (
+            f'Incorrect success message: '
+            f'"{self.find(PaymentPageLocators.SUCCESS_MESSAGE).text}", '
+            f'should be "Your order has been placed successfully!"')
         print(f'Success message is correct: "{self.find(PaymentPageLocators.SUCCESS_MESSAGE).text}"')
         self.browser.forward()
 
@@ -89,10 +93,10 @@ class PaymentPage(BasePage):
             else:
                 first_name, last_name = DataGenerator.get_registration_data('first_name', 'last_name')
         full_name = f'{first_name} {last_name}'
-        assert f'Hi {full_name}, Your total purchase amount is {total_price}. Thank you' in content,\
+        assert f'Hi {full_name}, Your total purchase amount is {total_price}. Thank you' in content, \
             (f'Incorrect invoice content: "{content[:200]}" Should be: "Hi {full_name}, Your total purchase amount is '
              f'{total_price}. Thank you"')
-        print(f'Invoice content is valid')
+        print('Invoice content is valid')
 
     @allure.step('Завершение покупки')
     def finish_purchase(self):
