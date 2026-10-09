@@ -1,0 +1,24 @@
+New user details:
+  name: Steven
+  email: 04d3bf63_brownkeith@example.net
+  password: _4aWPyzu
+  title: Mrs
+  birth_day: 2
+  birth_month: 11
+  birth_year: 1920
+  firstname: Steven
+  lastname: Young
+  company: Webster, Gomez and Williams
+  address1: 41816 Hammond Falls
+  address2: Suite 689
+  country: India
+  state: Alaska
+  city: Parkerland
+  zipcode: 63181
+  mobile_number: 514-407-7942x49642
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "Account deleted!"

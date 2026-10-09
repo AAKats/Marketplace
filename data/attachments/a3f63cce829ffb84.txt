@@ -1,0 +1,5 @@
+Home page link is correct
+Element ('css selector', '#footer h2') is in viewport
+Page scrolled down
+Element ('css selector', '#slider-carousel .active h2') is in viewport
+Page scrolled up with angle up

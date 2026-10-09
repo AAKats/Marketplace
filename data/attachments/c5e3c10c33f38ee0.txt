@@ -1,0 +1,11 @@
+Login link is correct
+New user Signup title is presented
+New user Signup title text is correct
+Signup email field is presented
+Signup name field is presented
+Existing email filled in
+Name signup field filled
+Signup button is clicked
+Error is presented
+Error message is correct: Email Address already exist!
+Signup link is correct

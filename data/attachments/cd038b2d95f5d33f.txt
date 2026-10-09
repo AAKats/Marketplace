@@ -1,0 +1,44 @@
+New user details:
+  name: Robin
+  email: 650e7c83_julia49@example.com
+  password: %9Hgffym
+  title: Mrs
+  birth_day: 10
+  birth_month: 8
+  birth_year: 2007
+  firstname: Robin
+  lastname: Nguyen
+  company: Jones LLC
+  address1: 951 Gary Springs
+  address2: Suite 958
+  country: Israel
+  state: Colorado
+  city: New Roberthaven
+  zipcode: 16680
+  mobile_number: 613-636-4853x9776
+Search field is presented
+Search field is filled in with: "Colour Blocked Shirt – Sky Blue"
+Search button is presented
+Search button is clicked
+Title is presented
+Title SEARCHED PRODUCTS correct
+1 products found
+"Colour Blocked Shirt – Sky Blue" product found, and contains "Colour Blocked Shirt – Sky Blue"
+Product Colour Blocked Shirt – Sky Blue added, quantity 1
+Product: Colour Blocked Shirt – Sky Blue found in cart: Colour Blocked Shirt – Sky Blue
+Product Colour Blocked Shirt – Sky Blue price in cart: 849 matches added price: 849
+Product Colour Blocked Shirt – Sky Blue quantity in cart: 1 matches added quantity: 1
+Product Colour Blocked Shirt – Sky Blue total in cart: 849 matches expected total: 849
+Login email field is presented
+Password field is presented
+Email filled in
+Password filled in
+Login button is presented
+Login button is clicked
+Home page link is correct
+Product: Colour Blocked Shirt – Sky Blue found in cart: Colour Blocked Shirt – Sky Blue
+Product Colour Blocked Shirt – Sky Blue price in cart: 849 matches added price: 849
+Product Colour Blocked Shirt – Sky Blue quantity in cart: 1 matches added quantity: 1
+Product Colour Blocked Shirt – Sky Blue total in cart: 849 matches expected total: 849
+All products deleted
+Empty cart text correct: Cart is empty!

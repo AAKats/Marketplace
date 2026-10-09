@@ -1,0 +1,10 @@
+Home page link is correct
+Scrolled to recommended items
+Recommended items title is correct: "RECOMMENDED ITEMS"
+Switched to next recommended items slide
+Found 6 recommended products
+Recommended product "Blue Top" added to cart, quantity 1
+Count of products in cart 1 is equal to count of added products 1
+Product: Blue Top found in cart: Blue Top
+Product Blue Top price in cart: 500 matches added price: 500
+Product Blue Top quantity in cart: 1 matches added quantity: 1
