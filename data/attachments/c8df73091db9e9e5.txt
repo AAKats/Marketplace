@@ -1,3 +1,0 @@
-Status code correct: 200
-ResponseCode correct: 404
-Response message correct: "User not found!"

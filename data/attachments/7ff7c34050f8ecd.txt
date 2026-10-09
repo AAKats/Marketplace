@@ -1,6 +1,0 @@
-(6)
-polo brand selected
-Category title is correct: "BRAND - POLO PRODUCTS"
-(5)
-h&m brand selected
-Category title is correct: "BRAND - H&M PRODUCTS"

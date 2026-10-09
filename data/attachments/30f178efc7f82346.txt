@@ -1,4 +1,0 @@
-<Response [200]>
-Status code correct: 200
-ResponseCode correct: 400
-Response message correct: "Bad request, search_product parameter is missing in POST request."

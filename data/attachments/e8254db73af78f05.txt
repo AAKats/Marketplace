@@ -1,8 +1,0 @@
-Home page link is correct
-View button for the 11 product from the start (id = 14) clicked
-Product_details/14 link is correct
-Review name field filled in with "Gary Sandoval"
-Review email field filled in with "f11c183d_david56@example.com"
-Review message field filled in with "Right her number from. Room range in quite important western position."
-Submit review button clicked
-Success review message is displayed
