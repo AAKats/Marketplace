@@ -1,0 +1,42 @@
+New user details:
+  name: Michaela
+  email: 280f384b_williamthomas@example.com
+  password: YB&6ELgp
+  title: Mr
+  birth_day: 16
+  birth_month: 10
+  birth_year: 1991
+  firstname: Michaela
+  lastname: Bailey
+  company: Reyes and Sons
+  address1: 93516 Davis Squares Apt. 498
+  address2: Suite 902
+  country: Singapore
+  state: Nevada
+  city: Port Jesseton
+  zipcode: 73149
+  mobile_number: (649)554-1732x207
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Updated user details:
+  name: Michaela
+  email: 280f384b_williamthomas@example.com
+  password: YB&6ELgp
+  title: Mr
+  birth_day: 16
+  birth_month: 10
+  birth_year: 1991
+  firstname: Michaela
+  lastname: Bailey
+  company: Reyes and Sons
+  address1: 93516 Davis Squares Apt. 498
+  address2: Suite 902
+  country: Singapore
+  state: Nevada
+  city: Port Jesseton
+  zipcode: 73149
+  mobile_number: (649)554-1732x207
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "User updated!"

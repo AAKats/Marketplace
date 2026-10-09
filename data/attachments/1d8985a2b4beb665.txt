@@ -1,0 +1,41 @@
+Home page link is correct
+Login link is correct
+Email filled in
+Password filled in
+Login button is presented
+Login button is clicked
+Home page link is correct
+Username is correct Logged in as John
+Product Blue Top added, quantity 1
+Product Blue Top added, quantity 2
+Product Blue Top added, quantity 3
+/view_cart link is correct
+Proceed to checkout button clicked
+Name is correct in the delivery information: Mr. John Martin
+Company name is correct in the delivery information: Barton PLC
+Address 1 is correct in the delivery information: 39576 Crystal Pines
+Address 2 is correct in the delivery information: Apt. 874
+City is correct in the delivery information: Williamport Oklahoma 88961
+Country is correct in the delivery information: United States
+Phone is correct in the delivery information: (702)398-4107x117
+Name is correct in the billing information: Mr. John Martin
+Company name is correct in the billing information: Barton PLC
+Address 1 is correct in the billing information: 39576 Crystal Pines
+Address 2 is correct in the billing information: Apt. 874
+City is correct in the billing information: Williamport Oklahoma 88961
+Country is correct in the billing information: United States
+Phone is correct in the billing information: (702)398-4107x117
+Count of products in cart 1 is equal to count of added products 1
+Product Blue Top price in cart: 500 matches added price: 500
+Product: Blue Top found in cart: Blue Top
+Product Blue Top quantity in cart: 3 matches added quantity: 3
+Product Blue Top total in cart: 1500 matches expected total: 1500
+Comment filled in with: World point see different hand. First approach building deal hold task.
+Place order button clicked
+/payment link is correct
+Name on card filled in with: Brian Cooper
+Card number filled in with: 6011682313940958
+CVC filled in with: 236
+Expiry month filled in with: 2
+Expiry year filled in with: 2023
+Pay and confirm button clicked

@@ -1,0 +1,44 @@
+New user details:
+  name: John
+  email: 4e206493_icooper@example.com
+  password: q&9TDAsR
+  title: Mr
+  birth_day: 16
+  birth_month: 11
+  birth_year: 1922
+  firstname: John
+  lastname: Martin
+  company: Barton PLC
+  address1: 39576 Crystal Pines
+  address2: Apt. 874
+  country: United States
+  state: Oklahoma
+  city: Williamport
+  zipcode: 88961
+  mobile_number: (702)398-4107x117
+Search field is presented
+Search field is filled in with: "Lace Top For Women"
+Search button is presented
+Search button is clicked
+Title is presented
+Title SEARCHED PRODUCTS correct
+1 products found
+"Lace Top For Women" product found, and contains "Lace Top For Women"
+Product Lace Top For Women added, quantity 1
+Product: Lace Top For Women found in cart: Lace Top For Women
+Product Lace Top For Women price in cart: 1400 matches added price: 1400
+Product Lace Top For Women quantity in cart: 1 matches added quantity: 1
+Product Lace Top For Women total in cart: 1400 matches expected total: 1400
+Login email field is presented
+Password field is presented
+Email filled in
+Password filled in
+Login button is presented
+Login button is clicked
+Home page link is correct
+Product: Lace Top For Women found in cart: Lace Top For Women
+Product Lace Top For Women price in cart: 1400 matches added price: 1400
+Product Lace Top For Women quantity in cart: 1 matches added quantity: 1
+Product Lace Top For Women total in cart: 1400 matches expected total: 1400
+All products deleted
+Empty cart text correct: Cart is empty!

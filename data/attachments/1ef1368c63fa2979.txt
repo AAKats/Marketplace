@@ -1,0 +1,21 @@
+New user details:
+  name: Judy
+  email: ce547667_zmcintyre@example.net
+  password: ^6UouAoM
+  title: Mrs
+  birth_day: 2
+  birth_month: 11
+  birth_year: 1920
+  firstname: Judy
+  lastname: Johnson
+  company: Robinson, Mason and Johnson
+  address1: 8230 Curtis Lakes
+  address2: Suite 387
+  country: Israel
+  state: New Jersey
+  city: Wintersside
+  zipcode: 64402
+  mobile_number: (456)904-3087x883
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
