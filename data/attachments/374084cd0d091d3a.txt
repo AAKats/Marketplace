@@ -1,0 +1,42 @@
+New user details:
+  name: Dawn
+  email: 540653a7_kevingeorge@example.com
+  password: #@1B%T(s
+  title: Mr
+  birth_day: 19
+  birth_month: 10
+  birth_year: 1947
+  firstname: Dawn
+  lastname: Graham
+  company: Henson-Hernandez
+  address1: 501 Andre Wall
+  address2: Suite 242
+  country: India
+  state: South Carolina
+  city: East Nicholas
+  zipcode: 30410
+  mobile_number: (932)264-3163x36178
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Updated user details:
+  name: Dawn
+  email: 540653a7_kevingeorge@example.com
+  password: #@1B%T(s
+  title: Mr
+  birth_day: 19
+  birth_month: 10
+  birth_year: 1947
+  firstname: Dawn
+  lastname: Graham
+  company: Henson-Hernandez
+  address1: 501 Andre Wall
+  address2: Suite 242
+  country: India
+  state: South Carolina
+  city: East Nicholas
+  zipcode: 30410
+  mobile_number: (932)264-3163x36178
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "User updated!"
