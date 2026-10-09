@@ -1,0 +1,8 @@
+Home page link is correct
+View button for the 11 product from the start (id = 14) clicked
+Product_details/14 link is correct
+Review name field filled in with "Emily Hamilton"
+Review email field filled in with "84dceea7_smendoza@example.com"
+Review message field filled in with "Bank goal room probably. Argue be will worker them."
+Submit review button clicked
+Success review message is displayed

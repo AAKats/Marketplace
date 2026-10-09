@@ -1,0 +1,21 @@
+New user details:
+  name: Tonya
+  email: d32a3e8c_zacharygraham@example.net
+  password: _Q#7WG!x
+  title: Mr
+  birth_day: 19
+  birth_month: 8
+  birth_year: 1960
+  firstname: Tonya
+  lastname: Mills
+  company: Miller, Watson and Williams
+  address1: 434 Joseph Pass Suite 069
+  address2: Suite 567
+  country: United States
+  state: Tennessee
+  city: South Joychester
+  zipcode: 20898
+  mobile_number: 626-277-2809
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"

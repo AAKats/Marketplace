@@ -1,9 +1,0 @@
-Home page link is correct
-Product "Lace Top For Women" (ID: 42) opened
-Product_details/42 link is correct
-Quantity = 7 selected
-Product was added to cart
-Count of products in cart 1 is equal to count of added products 1
-Product: Lace Top For Women found in cart: Lace Top For Women
-Product Lace Top For Women price in cart: 1400 matches added price: 1400
-Product Lace Top For Women quantity in cart: 7 matches added quantity: 7

@@ -1,0 +1,136 @@
+Home page link is correct
+Product Blue Top added, quantity 1
+Product Blue Top added, quantity 2
+Product Men Tshirt added, quantity 1
+Product Men Tshirt added, quantity 2
+Product Sleeveless Dress added, quantity 1
+Product Sleeveless Dress added, quantity 2
+Product Stylish Dress added, quantity 1
+Product Stylish Dress added, quantity 2
+Product Winter Top added, quantity 1
+Product Winter Top added, quantity 2
+/view_cart link is correct
+Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+Product Blue Top price in cart: 500 matches added price: 500
+Product Men Tshirt price in cart: 400 matches added price: 400
+Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+Product Stylish Dress price in cart: 1500 matches added price: 1500
+Product Winter Top price in cart: 600 matches added price: 600
+Product Blue Top quantity in cart: 2 matches added quantity: 2
+Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+Product Winter Top quantity in cart: 2 matches added quantity: 2
+Product Blue Top total in cart: 1000 matches expected total: 1000
+Product Men Tshirt total in cart: 800 matches expected total: 800
+Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+Product Stylish Dress total in cart: 3000 matches expected total: 3000
+Product Winter Top total in cart: 1200 matches expected total: 1200
+Proceed to checkout button clicked
+Register via modal button clicked
+Login link is correct
+New user Signup title is presented
+New user Signup title text is correct
+Signup email field is presented
+Signup name field is presented
+>>> fill_signup_email, URL: https://automationexercise.com/login
+Email signup field filled
+Name signup field filled
+Signup button is clicked
+Signup link is correct
+Account information title is not presented
+Account information title text is correct
+Mr radiobutton is presented
+Mrs radiobutton is presented
+Selected MRS title
+Password field is presented
+Password is filled in
+Day of birth list is presented
+Day of birth selected
+Month of birth list is presented
+Month of birth selected
+Year of birth list is presented
+Year of birth selected
+Sign up for our newsletter! checkbox is selected
+Receive special offers from our partners! checkbox is selected
+First name field is presented
+First name is filled in
+Last name field is presented
+Last name is filled in
+Company field is presented
+Company is filled in
+Address 1 field is presented
+Address 1 is filled in
+Address 2 field is presented
+Address 2 is filled in
+State field is presented
+State is filled in
+City field is presented
+City is filled in
+Zipcode field is presented
+Zipcode is filled in
+Mobile number field is presented
+Mobile number is filled in
+Account_created link is correct
+Title is correct ACCOUNT CREATED!
+Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+Continue button is presented
+Username is correct Logged in as Rachel
+/view_cart link is correct
+Proceed to checkout button clicked
+Name is correct in the delivery information: Mrs. Rachel Kelly
+Company name is correct in the delivery information: Carpenter-Lucas
+Address 1 is correct in the delivery information: 86389 Smith Cliff Suite 442
+Address 2 is correct in the delivery information: Suite 987
+City is correct in the delivery information: Williamfort Idaho 71769
+Country is correct in the delivery information: United States
+Phone is correct in the delivery information: 628.933.9384x51992
+Name is correct in the billing information: Mrs. Rachel Kelly
+Company name is correct in the billing information: Carpenter-Lucas
+Address 1 is correct in the billing information: 86389 Smith Cliff Suite 442
+Address 2 is correct in the billing information: Suite 987
+City is correct in the billing information: Williamfort Idaho 71769
+Country is correct in the billing information: United States
+Phone is correct in the billing information: 628.933.9384x51992
+Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+Product Blue Top price in cart: 500 matches added price: 500
+Product Men Tshirt price in cart: 400 matches added price: 400
+Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+Product Stylish Dress price in cart: 1500 matches added price: 1500
+Product Winter Top price in cart: 600 matches added price: 600
+Product Blue Top quantity in cart: 2 matches added quantity: 2
+Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+Product Winter Top quantity in cart: 2 matches added quantity: 2
+Product Blue Top total in cart: 1000 matches expected total: 1000
+Product Men Tshirt total in cart: 800 matches expected total: 800
+Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+Product Stylish Dress total in cart: 3000 matches expected total: 3000
+Product Winter Top total in cart: 1200 matches expected total: 1200
+Comment filled in with: Personal Mrs message career catch.
+Place order button clicked
+/payment link is correct
+Name on card filled in with: Rachel Kelly
+Card number filled in with: 30035658371661
+CVC filled in with: 886
+Expiry month filled in with: 8
+Expiry year filled in with: 2025
+Pay and confirm button clicked
+Download invoice button clicked
+File downloaded: /home/runner/work/Marketplace/Marketplace/temp/.com.google.Chrome.jRo5KW
+Invoice content is valid
+Continue button clicked
+Delete title is correct ACCOUNT DELETED!
+Delete message 1 is correct Your account has been permanently deleted!
+Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+Continue button clicked

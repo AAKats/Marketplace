@@ -1,0 +1,44 @@
+New user details:
+  name: Nancy
+  email: 95c984b8_michael68@example.org
+  password: +j0Sg@et
+  title: Mrs
+  birth_day: 16
+  birth_month: 10
+  birth_year: 1921
+  firstname: Nancy
+  lastname: Carrillo
+  company: Dickerson-Sandoval
+  address1: 653 Rodgers Street Suite 335
+  address2: Suite 602
+  country: United States
+  state: Connecticut
+  city: South Shelleymouth
+  zipcode: 06323
+  mobile_number: +1-537-524-0859x067
+Search field is presented
+Search field is filled in with: "Sleeveless Dress"
+Search button is presented
+Search button is clicked
+Title is presented
+Title SEARCHED PRODUCTS correct
+1 products found
+"Sleeveless Dress" product found, and contains "Sleeveless Dress"
+Product Sleeveless Dress added, quantity 1
+Product: Sleeveless Dress found in cart: Sleeveless Dress
+Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+Product Sleeveless Dress quantity in cart: 1 matches added quantity: 1
+Product Sleeveless Dress total in cart: 1000 matches expected total: 1000
+Login email field is presented
+Password field is presented
+Email filled in
+Password filled in
+Login button is presented
+Login button is clicked
+Home page link is correct
+Product: Sleeveless Dress found in cart: Sleeveless Dress
+Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+Product Sleeveless Dress quantity in cart: 1 matches added quantity: 1
+Product Sleeveless Dress total in cart: 1000 matches expected total: 1000
+All products deleted
+Empty cart text correct: Cart is empty!

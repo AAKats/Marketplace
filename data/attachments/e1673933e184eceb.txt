@@ -1,0 +1,46 @@
+New user details:
+  name: Caitlyn
+  email: c2f0fd08_haroldoconnor@example.com
+  password: _8D7s#gz
+  title: Mr
+  birth_day: 24
+  birth_month: 7
+  birth_year: 1926
+  firstname: Caitlyn
+  lastname: Harris
+  company: Johnson, Payne and Barton
+  address1: 860 Lewis Greens Suite 886
+  address2: Suite 654
+  country: Israel
+  state: Florida
+  city: Reneemouth
+  zipcode: 67944
+  mobile_number: 2729934958
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Status code correct: 200
+ResponseCode correct: 200
+Response contains key: "user"
+User details not empty: 16 fields
+User detail with name = 3015388 contains field: "id"
+User detail with name = 3015388 contains field: "name"
+User detail with name = 3015388 contains field: "email"
+User detail with name = 3015388 contains field: "title"
+User detail with name = 3015388 contains field: "birth_day"
+User detail with name = 3015388 contains field: "birth_month"
+User detail with name = 3015388 contains field: "birth_year"
+User detail with name = 3015388 contains field: "first_name"
+User detail with name = 3015388 contains field: "last_name"
+User detail with name = 3015388 contains field: "company"
+User detail with name = 3015388 contains field: "address1"
+User detail with name = 3015388 contains field: "address2"
+User detail with name = 3015388 contains field: "country"
+User detail with name = 3015388 contains field: "state"
+User detail with name = 3015388 contains field: "city"
+User detail with name = 3015388 contains field: "zipcode"
+Status code correct: 200
+ResponseCode correct: 200
+ResponseCode correct: 200
+Payload field "email" correct: "c2f0fd08_haroldoconnor@example.com"
+Тестовый пользователь удалён
