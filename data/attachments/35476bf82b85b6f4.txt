@@ -1,0 +1,42 @@
+New user details:
+  name: Michael
+  email: e0bb94fb_bjohnson@example.net
+  password: *#hL8gUy
+  title: Mr
+  birth_day: 13
+  birth_month: 2
+  birth_year: 1964
+  firstname: Michael
+  lastname: Liu
+  company: Harris Group
+  address1: 689 James Shoals
+  address2: Suite 754
+  country: United States
+  state: Nevada
+  city: South Chelsea
+  zipcode: 31556
+  mobile_number: 991-996-1243x73502
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Updated user details:
+  name: Michael
+  email: e0bb94fb_bjohnson@example.net
+  password: *#hL8gUy
+  title: Mr
+  birth_day: 13
+  birth_month: 2
+  birth_year: 1964
+  firstname: Michael
+  lastname: Liu
+  company: Harris Group
+  address1: 689 James Shoals
+  address2: Suite 754
+  country: United States
+  state: Nevada
+  city: South Chelsea
+  zipcode: 31556
+  mobile_number: 991-996-1243x73502
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "User updated!"

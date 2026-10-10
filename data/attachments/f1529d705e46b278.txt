@@ -1,0 +1,21 @@
+New user details:
+  name: Betty
+  email: e2bb132c_fford@example.org
+  password: 9(u%5Vyi
+  title: Mr
+  birth_day: 21
+  birth_month: 10
+  birth_year: 2011
+  firstname: Betty
+  lastname: Boyer
+  company: Ware-Roach
+  address1: 88832 Dougherty Dale
+  address2: Suite 387
+  country: Australia
+  state: Tennessee
+  city: Valenzuelaside
+  zipcode: 51273
+  mobile_number: 763.740.8878x32149
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"

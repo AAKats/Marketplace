@@ -1,0 +1,42 @@
+Home page link is correct
+Login link is correct
+Email filled in
+Password filled in
+Login button is presented
+Login button is clicked
+Home page link is correct
+Username is correct Logged in as Katherine
+Product Blue Top added, quantity 1
+Product Blue Top added, quantity 2
+Product Blue Top added, quantity 3
+/view_cart link is correct
+Proceed to checkout button clicked
+Name is correct in the delivery information: Mr. Katherine Vega
+Company name is correct in the delivery information: King, Perez and Velasquez
+Address 1 is correct in the delivery information: 945 Jackson Cliffs
+Address 2 is correct in the delivery information: Suite 103
+City is correct in the delivery information: Johnstonburgh New York 20343
+Country is correct in the delivery information: Canada
+Phone is correct in the delivery information: (455)800-2263
+Name is correct in the billing information: Mr. Katherine Vega
+Company name is correct in the billing information: King, Perez and Velasquez
+Address 1 is correct in the billing information: 945 Jackson Cliffs
+Address 2 is correct in the billing information: Suite 103
+City is correct in the billing information: Johnstonburgh New York 20343
+Country is correct in the billing information: Canada
+Phone is correct in the billing information: (455)800-2263
+Count of products in cart 1 is equal to count of added products 1
+Product Blue Top price in cart: 500 matches added price: 500
+Product: Blue Top found in cart: Blue Top
+Product Blue Top quantity in cart: 3 matches added quantity: 3
+Product Blue Top total in cart: 1500 matches expected total: 1500
+Comment filled in with: Agree skill TV agreement. Popular claim impact that air admit north.
+Place order button clicked
+/payment link is correct
+Name on card filled in with: Paul Foster
+Card number filled in with: 4887501068676
+CVC filled in with: 661
+Expiry month filled in with: 6
+Expiry year filled in with: 2023
+Pay and confirm button clicked
+Success message is correct: "Your order has been placed successfully!"

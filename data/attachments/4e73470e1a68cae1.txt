@@ -1,0 +1,6 @@
+Home page link is correct
+View_cart link is correct
+Text is correct: SUBSCRIPTION
+Email filled in with "b8ae0e6d_carterclaudia@example.org"
+Subscribe button is clicked
+Text is correct: You have been successfully subscribed!
