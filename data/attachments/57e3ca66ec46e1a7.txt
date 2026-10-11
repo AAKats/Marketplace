@@ -1,0 +1,24 @@
+New user details:
+  name: Patrick
+  email: 90396051_knightscott@example.net
+  password: a+3NmsHh
+  title: Mrs
+  birth_day: 16
+  birth_month: 10
+  birth_year: 1992
+  firstname: Patrick
+  lastname: Nolan
+  company: Shields-Miller
+  address1: 306 Zachary Passage Apt. 784
+  address2: Suite 827
+  country: India
+  state: Ohio
+  city: Brandonhaven
+  zipcode: 10278
+  mobile_number: +1-924-956-3136x5295
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "Account deleted!"

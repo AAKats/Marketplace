@@ -1,0 +1,42 @@
+New user details:
+  name: Hailey
+  email: 21c5aa0f_johnlopez@example.org
+  password: $4CizdMB
+  title: Mr
+  birth_day: 13
+  birth_month: 6
+  birth_year: 1993
+  firstname: Hailey
+  lastname: Wallace
+  company: Castillo, Salinas and Harrison
+  address1: 639 Wendy Port Suite 718
+  address2: Suite 342
+  country: Israel
+  state: Texas
+  city: Lake Josephmouth
+  zipcode: 96709
+  mobile_number: 001-561-959-1041x515
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Updated user details:
+  name: Hailey
+  email: 21c5aa0f_johnlopez@example.org
+  password: $4CizdMB
+  title: Mr
+  birth_day: 13
+  birth_month: 6
+  birth_year: 1993
+  firstname: Hailey
+  lastname: Wallace
+  company: Castillo, Salinas and Harrison
+  address1: 639 Wendy Port Suite 718
+  address2: Suite 342
+  country: Israel
+  state: Texas
+  city: Lake Josephmouth
+  zipcode: 96709
+  mobile_number: 001-561-959-1041x515
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "User updated!"
