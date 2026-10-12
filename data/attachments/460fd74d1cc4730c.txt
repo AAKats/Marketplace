@@ -1,0 +1,21 @@
+New user details:
+  name: Angel
+  email: 8aab7dc4_xhoover@example.com
+  password: (JY9C4ap
+  title: Mr
+  birth_day: 25
+  birth_month: 4
+  birth_year: 1962
+  firstname: Angel
+  lastname: Griffin
+  company: Roach-Walsh
+  address1: 973 Lucero Greens Suite 832
+  address2: Suite 856
+  country: India
+  state: South Carolina
+  city: Lake Margaret
+  zipcode: 73190
+  mobile_number: 835-588-6629
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"

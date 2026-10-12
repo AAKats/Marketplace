@@ -1,0 +1,42 @@
+New user details:
+  name: Brittney
+  email: 7b85a347_brian17@example.net
+  password: !K1z6GbZ
+  title: Mrs
+  birth_day: 10
+  birth_month: 10
+  birth_year: 1908
+  firstname: Brittney
+  lastname: Stone
+  company: Sanchez, Hodges and Dillon
+  address1: 417 Sarah Gardens
+  address2: Suite 541
+  country: New Zealand
+  state: Idaho
+  city: East Maryview
+  zipcode: 02136
+  mobile_number: +1-457-558-8045x41102
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Updated user details:
+  name: Brittney
+  email: 7b85a347_brian17@example.net
+  password: !K1z6GbZ
+  title: Mrs
+  birth_day: 10
+  birth_month: 10
+  birth_year: 1908
+  firstname: Brittney
+  lastname: Stone
+  company: Sanchez, Hodges and Dillon
+  address1: 417 Sarah Gardens
+  address2: Suite 541
+  country: New Zealand
+  state: Idaho
+  city: East Maryview
+  zipcode: 02136
+  mobile_number: +1-457-558-8045x41102
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "User updated!"
