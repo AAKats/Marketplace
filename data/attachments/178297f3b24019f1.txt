@@ -1,0 +1,21 @@
+New user details:
+  name: Amy
+  email: 585df057_isweeney@example.com
+  password: g^0%GFrK
+  title: Mr
+  birth_day: 5
+  birth_month: 1
+  birth_year: 2005
+  firstname: Amy
+  lastname: Richardson
+  company: Hernandez and Sons
+  address1: 725 Oliver Branch
+  address2: Suite 728
+  country: New Zealand
+  state: Nevada
+  city: Joyshire
+  zipcode: 09992
+  mobile_number: 001-619-625-4683x3352
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"

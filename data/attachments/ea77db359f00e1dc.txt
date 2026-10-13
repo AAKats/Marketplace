@@ -1,0 +1,24 @@
+New user details:
+  name: Joshua
+  email: 40699c40_ramossarah@example.net
+  password: @74nZBHs
+  title: Mr
+  birth_day: 17
+  birth_month: 2
+  birth_year: 2013
+  firstname: Joshua
+  lastname: Simmons
+  company: Moran-Mendoza
+  address1: 88839 Jonathan Mountains Suite 258
+  address2: Apt. 184
+  country: New Zealand
+  state: Rhode Island
+  city: Clayborough
+  zipcode: 61939
+  mobile_number: 001-239-392-2484x74781
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "Account deleted!"
