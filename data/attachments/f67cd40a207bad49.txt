@@ -1,0 +1,42 @@
+New user details:
+  name: Matthew
+  email: 8d3a412a_fpoole@example.com
+  password: 2(U8FQk)
+  title: Mrs
+  birth_day: 24
+  birth_month: 8
+  birth_year: 1968
+  firstname: Matthew
+  lastname: Richardson
+  company: Davis, Todd and Walker
+  address1: 13889 Hunt Drive Apt. 345
+  address2: Suite 672
+  country: Canada
+  state: Indiana
+  city: Kellyburgh
+  zipcode: 27137
+  mobile_number: 438-625-8451x1631
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Updated user details:
+  name: Matthew
+  email: 8d3a412a_fpoole@example.com
+  password: 2(U8FQk)
+  title: Mrs
+  birth_day: 24
+  birth_month: 8
+  birth_year: 1968
+  firstname: Matthew
+  lastname: Richardson
+  company: Davis, Todd and Walker
+  address1: 13889 Hunt Drive Apt. 345
+  address2: Suite 672
+  country: Canada
+  state: Indiana
+  city: Kellyburgh
+  zipcode: 27137
+  mobile_number: 438-625-8451x1631
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "User updated!"

@@ -1,0 +1,8 @@
+Home page link is correct
+View button for the 11 product from the start (id = 14) clicked
+Product_details/14 link is correct
+Review name field filled in with "Joshua Terry"
+Review email field filled in with "6ecb77dc_kevin69@example.net"
+Review message field filled in with "Thank form book newspaper. Scientist call perform two."
+Submit review button clicked
+Success review message is displayed
