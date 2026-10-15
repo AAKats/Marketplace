@@ -1,0 +1,42 @@
+New user details:
+  name: Debbie
+  email: 753a01ba_leonardnicholas@example.com
+  password: 5yr*45Lz
+  title: Mrs
+  birth_day: 3
+  birth_month: 5
+  birth_year: 1910
+  firstname: Debbie
+  lastname: Ferrell
+  company: Mckay-Alexander
+  address1: 626 Johnson Row
+  address2: Apt. 775
+  country: Singapore
+  state: Alabama
+  city: Lake Jimmymouth
+  zipcode: 65972
+  mobile_number: (987)934-7622x58696
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Updated user details:
+  name: Debbie
+  email: 753a01ba_leonardnicholas@example.com
+  password: 5yr*45Lz
+  title: Mrs
+  birth_day: 3
+  birth_month: 5
+  birth_year: 1910
+  firstname: Debbie
+  lastname: Ferrell
+  company: Mckay-Alexander
+  address1: 626 Johnson Row
+  address2: Apt. 775
+  country: Singapore
+  state: Alabama
+  city: Lake Jimmymouth
+  zipcode: 65972
+  mobile_number: (987)934-7622x58696
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "User updated!"

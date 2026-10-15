@@ -1,0 +1,8 @@
+Home page link is correct
+View button for the 11 product from the start (id = 14) clicked
+Product_details/14 link is correct
+Review name field filled in with "Carol Sloan"
+Review email field filled in with "e27f6281_sandra39@example.com"
+Review message field filled in with "West treat natural be. How walk peace forward truth. Center follow will still away close."
+Submit review button clicked
+Success review message is displayed

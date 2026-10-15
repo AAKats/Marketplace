@@ -1,0 +1,38 @@
+New user details:
+  name: Samuel
+  email: 743a95ca_brockpatricia@example.org
+  password: !V38InkG
+  title: Mr
+  birth_day: 13
+  birth_month: 3
+  birth_year: 1954
+  firstname: Samuel
+  lastname: Mcfarland
+  company: Delgado-Good
+  address1: 99507 Derrick Point Suite 685
+  address2: Apt. 944
+  country: India
+  state: Arizona
+  city: Wardmouth
+  zipcode: 86678
+  mobile_number: 001-842-220-9781x79559
+Search field is presented
+Search field is filled in with: "Soft Stretch Jeans"
+Search button is presented
+Search button is clicked
+Title is presented
+Title SEARCHED PRODUCTS correct
+1 products found
+"Soft Stretch Jeans" product found, and contains "Soft Stretch Jeans"
+Product Soft Stretch Jeans added, quantity 1
+Product: Soft Stretch Jeans found in cart: Soft Stretch Jeans
+Product Soft Stretch Jeans price in cart: 799 matches added price: 799
+Product Soft Stretch Jeans quantity in cart: 1 matches added quantity: 1
+Product Soft Stretch Jeans total in cart: 799 matches expected total: 799
+Login email field is presented
+Password field is presented
+Email filled in
+Password filled in
+Login button is presented
+Login button is clicked
+Home page link is correct
