@@ -1,0 +1,21 @@
+New user details:
+  name: Ellen
+  email: 0438f71c_stanleyrebecca@example.com
+  password: #o7M&ukg
+  title: Mrs
+  birth_day: 6
+  birth_month: 10
+  birth_year: 1977
+  firstname: Ellen
+  lastname: Garrison
+  company: George and Sons
+  address1: 467 Simon Corner Apt. 204
+  address2: Apt. 044
+  country: Israel
+  state: Alaska
+  city: Hallstad
+  zipcode: 71608
+  mobile_number: 001-979-986-7930
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"

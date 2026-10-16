@@ -1,0 +1,10 @@
+Home page link is correct
+Login link is correct
+Email filled in
+Password filled in
+Login button is presented
+Login button is clicked
+Home page link is correct
+Username is correct Logged in as Richard
+Product Blue Top added, quantity 1
+Product Blue Top added, quantity 2

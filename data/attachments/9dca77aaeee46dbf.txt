@@ -1,0 +1,8 @@
+Home page link is correct
+View button for the 11 product from the start (id = 14) clicked
+Product_details/14 link is correct
+Review name field filled in with "Hannah Bentley"
+Review email field filled in with "86077ac9_robertomolina@example.org"
+Review message field filled in with "Population red your lot. Beyond pick pull. Blue personal be skin so be."
+Submit review button clicked
+Success review message is displayed

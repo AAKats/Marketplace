@@ -1,0 +1,38 @@
+New user details:
+  name: Richard
+  email: 3f87a700_nicholssabrina@example.com
+  password: &$9Irpjd
+  title: Mr
+  birth_day: 23
+  birth_month: 8
+  birth_year: 1965
+  firstname: Richard
+  lastname: Wright
+  company: Macias, Coleman and Simpson
+  address1: 94000 Jennifer Groves Apt. 474
+  address2: Suite 902
+  country: India
+  state: Kentucky
+  city: Leeland
+  zipcode: 58823
+  mobile_number: 270-231-1917x32993
+Search field is presented
+Search field is filled in with: "Premium Polo T-Shirts"
+Search button is presented
+Search button is clicked
+Title is presented
+Title SEARCHED PRODUCTS correct
+1 products found
+"Premium Polo T-Shirts" product found, and contains "Premium Polo T-Shirts"
+Product Premium Polo T-Shirts added, quantity 1
+Product: Premium Polo T-Shirts found in cart: Premium Polo T-Shirts
+Product Premium Polo T-Shirts price in cart: 1500 matches added price: 1500
+Product Premium Polo T-Shirts quantity in cart: 1 matches added quantity: 1
+Product Premium Polo T-Shirts total in cart: 1500 matches expected total: 1500
+Login email field is presented
+Password field is presented
+Email filled in
+Password filled in
+Login button is presented
+Login button is clicked
+Home page link is correct

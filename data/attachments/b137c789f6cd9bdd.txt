@@ -1,0 +1,42 @@
+New user details:
+  name: Kendra
+  email: 969f149e_pmiller@example.com
+  password: _!n4FQ7j
+  title: Mrs
+  birth_day: 14
+  birth_month: 3
+  birth_year: 1961
+  firstname: Kendra
+  lastname: Lee
+  company: Jackson and Sons
+  address1: 9065 Sherri Mount Suite 198
+  address2: Apt. 304
+  country: Canada
+  state: South Dakota
+  city: Robertland
+  zipcode: 66707
+  mobile_number: 001-206-506-0793x44957
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Updated user details:
+  name: Kendra
+  email: 969f149e_pmiller@example.com
+  password: _!n4FQ7j
+  title: Mrs
+  birth_day: 14
+  birth_month: 3
+  birth_year: 1961
+  firstname: Kendra
+  lastname: Lee
+  company: Jackson and Sons
+  address1: 9065 Sherri Mount Suite 198
+  address2: Apt. 304
+  country: Canada
+  state: South Dakota
+  city: Robertland
+  zipcode: 66707
+  mobile_number: 001-206-506-0793x44957
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "User updated!"

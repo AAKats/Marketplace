@@ -1,0 +1,24 @@
+New user details:
+  name: Alex
+  email: 9c0a3bb1_dustinpruitt@example.com
+  password: *$Z8VT9d
+  title: Mrs
+  birth_day: 14
+  birth_month: 9
+  birth_year: 2016
+  firstname: Alex
+  lastname: Mason
+  company: Griffin PLC
+  address1: 3371 Smith Light Apt. 490
+  address2: Suite 396
+  country: United States
+  state: Kansas
+  city: North Mariashire
+  zipcode: 05819
+  mobile_number: 790.414.0073
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "Account deleted!"
