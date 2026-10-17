@@ -1,0 +1,11 @@
+13:45:05.938 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+13:45:05.982 | DEBUG    | Review name field filled in with "Ann Ortiz"
+
+13:45:06.028 | DEBUG    | Review email field filled in with "7d081972_watersshannon@example.com"
+
+13:45:06.093 | DEBUG    | Review message field filled in with "Top he could agency reality. Per white local. How by fear but money message type."
+
+13:45:06.136 | DEBUG    | Submit review button clicked
+
+13:45:06.156 | DEBUG    | Success review message is displayed

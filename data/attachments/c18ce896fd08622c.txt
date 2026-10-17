@@ -1,0 +1,73 @@
+13:44:55.671 | DEBUG    | Email filled in
+
+13:44:55.701 | DEBUG    | Password filled in
+
+13:44:55.706 | DEBUG    | Login button is presented
+
+13:44:57.630 | DEBUG    | Login button is clicked
+
+13:44:57.648 | DEBUG    | Username is correct Logged in as Anthony
+
+13:44:58.537 | DEBUG    | Product Blue Top added, quantity 1
+
+13:44:59.380 | DEBUG    | Product Blue Top added, quantity 2
+
+13:45:00.468 | DEBUG    | Product Blue Top added, quantity 3
+
+13:45:01.037 | DEBUG    | Proceed to checkout button clicked
+
+13:45:01.051 | DEBUG    | Name is correct in the delivery information: Mrs. Anthony Torres
+
+13:45:01.062 | DEBUG    | Company name is correct in the delivery information: Whitehead, Flores and Murphy
+
+13:45:01.075 | DEBUG    | Address 1 is correct in the delivery information: 2240 Carson Plain
+
+13:45:01.086 | DEBUG    | Address 2 is correct in the delivery information: Apt. 812
+
+13:45:01.097 | DEBUG    | City is correct in the delivery information: South Veronicaside Wisconsin 44112
+
+13:45:01.108 | DEBUG    | Country is correct in the delivery information: India
+
+13:45:01.120 | DEBUG    | Phone is correct in the delivery information: 512.513.6576x0324
+
+13:45:01.132 | DEBUG    | Name is correct in the billing information: Mrs. Anthony Torres
+
+13:45:01.143 | DEBUG    | Company name is correct in the billing information: Whitehead, Flores and Murphy
+
+13:45:01.155 | DEBUG    | Address 1 is correct in the billing information: 2240 Carson Plain
+
+13:45:01.167 | DEBUG    | Address 2 is correct in the billing information: Apt. 812
+
+13:45:01.178 | DEBUG    | City is correct in the billing information: South Veronicaside Wisconsin 44112
+
+13:45:01.188 | DEBUG    | Country is correct in the billing information: India
+
+13:45:01.199 | DEBUG    | Phone is correct in the billing information: 512.513.6576x0324
+
+13:45:01.207 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+13:45:01.223 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:45:01.230 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+13:45:01.248 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+13:45:01.267 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+13:45:01.320 | DEBUG    | Comment filled in with: Region per turn ago thing. Allow pattern small audience.
+
+13:45:01.511 | DEBUG    | Place order button clicked
+
+13:45:01.556 | DEBUG    | Name on card filled in with: Christopher Stark
+
+13:45:01.592 | DEBUG    | Card number filled in with: 30326800381769
+
+13:45:01.625 | DEBUG    | CVC filled in with: 2475
+
+13:45:01.656 | DEBUG    | Expiry month filled in with: 7
+
+13:45:01.690 | DEBUG    | Expiry year filled in with: 2020
+
+13:45:03.079 | DEBUG    | Pay and confirm button clicked
+
+13:45:03.120 | DEBUG    | Success message is correct: "Your order has been placed successfully!"

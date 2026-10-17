@@ -1,0 +1,13 @@
+13:43:23.021 | DEBUG    | Product "Little Girls Mr. Panda Shirt" (ID: 18) opened
+
+13:43:23.100 | DEBUG    | Quantity = 7 selected
+
+13:43:23.140 | DEBUG    | Product was added to cart
+
+13:43:23.932 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+13:43:23.941 | DEBUG    | Product: Little Girls Mr. Panda Shirt found in cart: Little Girls Mr. Panda Shirt
+
+13:43:23.956 | DEBUG    | Product Little Girls Mr. Panda Shirt price in cart: 1200 matches added price: 1200
+
+13:43:23.975 | DEBUG    | Product Little Girls Mr. Panda Shirt quantity in cart: 7 matches added quantity: 7

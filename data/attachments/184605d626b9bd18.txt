@@ -1,0 +1,47 @@
+13:45:56.945 | DEBUG    | New user details:
+
+13:45:56.945 | DEBUG    |   name: Shawn
+
+13:45:56.945 | DEBUG    |   email: 62c17dc0_raven46@example.net
+
+13:45:56.945 | DEBUG    |   password: V%+0!uOp
+
+13:45:56.945 | DEBUG    |   title: Mr
+
+13:45:56.945 | DEBUG    |   birth_day: 22
+
+13:45:56.945 | DEBUG    |   birth_month: 3
+
+13:45:56.945 | DEBUG    |   birth_year: 1955
+
+13:45:56.945 | DEBUG    |   firstname: Shawn
+
+13:45:56.945 | DEBUG    |   lastname: Carter
+
+13:45:56.945 | DEBUG    |   company: Oliver Inc
+
+13:45:56.945 | DEBUG    |   address1: 68012 Joshua Canyon
+
+13:45:56.945 | DEBUG    |   address2: Suite 199
+
+13:45:56.945 | DEBUG    |   country: Israel
+
+13:45:56.945 | DEBUG    |   state: Kansas
+
+13:45:56.945 | DEBUG    |   city: Davidsonmouth
+
+13:45:56.945 | DEBUG    |   zipcode: 55595
+
+13:45:56.945 | DEBUG    |   mobile_number: 001-865-867-8221
+
+13:45:57.054 | DEBUG    | Status code correct: 200
+
+13:45:57.055 | DEBUG    | ResponseCode correct: 201
+
+13:45:57.055 | DEBUG    | Response message correct: "User created!"
+
+13:45:57.176 | DEBUG    | Status code correct: 200
+
+13:45:57.176 | DEBUG    | ResponseCode correct: 200
+
+13:45:57.176 | DEBUG    | Response message correct: "Account deleted!"

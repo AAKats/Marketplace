@@ -1,0 +1,83 @@
+13:45:57.183 | DEBUG    | New user details:
+
+13:45:57.183 | DEBUG    |   name: Wesley
+
+13:45:57.183 | DEBUG    |   email: 7622203e_ldaniel@example.com
+
+13:45:57.183 | DEBUG    |   password: *G0VXxZq
+
+13:45:57.183 | DEBUG    |   title: Mrs
+
+13:45:57.183 | DEBUG    |   birth_day: 12
+
+13:45:57.183 | DEBUG    |   birth_month: 11
+
+13:45:57.183 | DEBUG    |   birth_year: 2013
+
+13:45:57.183 | DEBUG    |   firstname: Wesley
+
+13:45:57.183 | DEBUG    |   lastname: Love
+
+13:45:57.184 | DEBUG    |   company: Smith Inc
+
+13:45:57.184 | DEBUG    |   address1: 073 Rich Shores
+
+13:45:57.184 | DEBUG    |   address2: Suite 363
+
+13:45:57.184 | DEBUG    |   country: United States
+
+13:45:57.184 | DEBUG    |   state: Delaware
+
+13:45:57.184 | DEBUG    |   city: North Nicole
+
+13:45:57.184 | DEBUG    |   zipcode: 65373
+
+13:45:57.184 | DEBUG    |   mobile_number: 785.260.2124
+
+13:45:57.314 | DEBUG    | Status code correct: 200
+
+13:45:57.314 | DEBUG    | ResponseCode correct: 201
+
+13:45:57.314 | DEBUG    | Response message correct: "User created!"
+
+13:45:57.314 | DEBUG    | Updated user details:
+
+13:45:57.316 | DEBUG    |   name: Wesley
+
+13:45:57.316 | DEBUG    |   email: 7622203e_ldaniel@example.com
+
+13:45:57.316 | DEBUG    |   password: *G0VXxZq
+
+13:45:57.316 | DEBUG    |   title: Mrs
+
+13:45:57.316 | DEBUG    |   birth_day: 12
+
+13:45:57.316 | DEBUG    |   birth_month: 11
+
+13:45:57.316 | DEBUG    |   birth_year: 2013
+
+13:45:57.316 | DEBUG    |   firstname: Wesley
+
+13:45:57.316 | DEBUG    |   lastname: Love
+
+13:45:57.316 | DEBUG    |   company: Smith Inc
+
+13:45:57.316 | DEBUG    |   address1: 073 Rich Shores
+
+13:45:57.316 | DEBUG    |   address2: Suite 363
+
+13:45:57.316 | DEBUG    |   country: United States
+
+13:45:57.316 | DEBUG    |   state: Delaware
+
+13:45:57.316 | DEBUG    |   city: North Nicole
+
+13:45:57.316 | DEBUG    |   zipcode: 65373
+
+13:45:57.316 | DEBUG    |   mobile_number: 785.260.2124
+
+13:45:57.441 | DEBUG    | Status code correct: 200
+
+13:45:57.442 | DEBUG    | ResponseCode correct: 200
+
+13:45:57.442 | DEBUG    | Response message correct: "User updated!"
