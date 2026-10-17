@@ -1,6 +1,7 @@
 import allure
 
 from utils.data_generator import DataGenerator
+from utils.logger import logger
 
 
 @allure.step("Проверка статус-кода ответа")
@@ -8,7 +9,7 @@ def assert_status_code(response, expected_code):
     """Проверка HTTP статус-кода ответа"""
     assert response.status_code == expected_code, \
         f'Expected status code {expected_code}, got {response.status_code}'
-    print(f'Status code correct: {response.status_code}')
+    logger.debug(f'Status code correct: {response.status_code}')
 
 
 @allure.step("Проверка responseCode в теле ответа")
@@ -17,21 +18,21 @@ def assert_response_code(data, expected_code):
     assert 'responseCode' in data, 'responseCode is missing'
     assert data['responseCode'] == expected_code, \
         f'Expected responseCode {expected_code}, got {data["responseCode"]}'
-    print(f'ResponseCode correct: {data["responseCode"]}')
+    logger.debug(f'ResponseCode correct: {data["responseCode"]}')
 
 
 @allure.step("Проверка наличия ключа в ответе")
 def assert_json_has_key(data, key):
     """Проверка наличия ключа в JSON объекте"""
     assert key in data, f'Key "{key}" is missing in response'
-    print(f'Response contains key: "{key}"')
+    logger.debug(f'Response contains key: "{key}"')
 
 
 @allure.step("Проверка что список товаров не пустой")
 def assert_products_not_empty(products):
     """Проверка что список товаров не пустой"""
     assert len(products) > 0, 'Products list is empty'
-    print(f'Products list length correct: {len(products)}')
+    logger.debug(f'Products list length correct: {len(products)}')
 
 
 @allure.step("Проверка обязательных полей товара")
@@ -40,7 +41,7 @@ def assert_product_fields(product):
     required_fields = ['id', 'name', 'price', 'brand', 'category']
     for field in required_fields:
         assert field in product, f'Product with id = {product['id']} missing field "{field}"'
-        print(f'Product with id = {product['id']} contains field: "{field}"')
+        logger.debug(f'Product with id = {product['id']} contains field: "{field}"')
 
 
 @allure.step("Проверка структуры ответа списка товаров")
@@ -61,14 +62,14 @@ def assert_response_message(response, expected_message):
     message = response['message']
     assert expected_message in message, \
         f'Incorrect response message: "{message}", should be: "{expected_message}"'
-    print(f'Response message correct: "{message}"')
+    logger.debug(f'Response message correct: "{message}"')
 
 
 @allure.step("Проверка что список брендов не пустой")
 def assert_brands_not_empty(brands):
     """Проверка что список брендов не пустой"""
     assert len(brands) > 0, 'Brands list is empty'
-    print(f'Brands list length correct: {len(brands)}')
+    logger.debug(f'Brands list length correct: {len(brands)}')
 
 
 @allure.step("Проверка обязательных полей бренда")
@@ -77,7 +78,7 @@ def assert_brand_fields(brand):
     required_fields = ['id', 'brand']
     for field in required_fields:
         assert field in brand, f'Brand with id = {brand['id']} missing field "{field}"'
-        print(f'Brand with id = {brand['id']} contains field: "{field}"')
+        logger.debug(f'Brand with id = {brand['id']} contains field: "{field}"')
 
 
 @allure.step("Проверка структуры ответа списка брендов")
@@ -103,14 +104,14 @@ def assert_searched_products(response, expected_code=200, search_term: str = '')
         # Проверка что поисковый запрос есть в имени товара
         assert search_term in product['name'].lower(), \
             f'Product: "{product['name']}" does not contain search term: "{search_term}"'
-        print(f'Product name: "{product['name']}" contains search term: {search_term}')
+        logger.debug(f'Product name: "{product['name']}" contains search term: {search_term}')
 
 
 @allure.step("Проверка что данные о пользователе не пустые")
 def assert_user_details_not_empty(user):
     """Проверка что данные о пользователе не пустые"""
     assert isinstance(user, dict) and len(user) > 0, 'User details are empty'
-    print(f'User details not empty: {len(user)} fields')
+    logger.debug(f'User details not empty: {len(user)} fields')
 
 
 @allure.step("Проверка обязательных полей данных о пользователе")
@@ -121,7 +122,7 @@ def assert_user_details_fields(user):
                        'state', 'city', 'zipcode']
     for field in required_fields:
         assert field in user, f'User detail with id = {user['id']} missing field "{field}"'
-        print(f'User detail with name = {user['id']} contains field: "{field}"')
+        logger.debug(f'User detail with name = {user['id']} contains field: "{field}"')
 
 
 @allure.step("Проверка структуры ответа данных пользователя")
@@ -163,4 +164,4 @@ def assert_user_data(response, expected_code=200):
         assert field in user, f'Field "{field}" missing in payload'
         assert user[field] == expected, \
             f'Field "{field}": expected "{expected}", got "{user[field]}"'
-        print(f'Payload field "{field}" correct: "{user[field]}"')
+        logger.debug(f'Payload field "{field}" correct: "{user[field]}"')

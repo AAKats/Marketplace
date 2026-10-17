@@ -2,6 +2,7 @@ import allure
 from .base_page import BasePage
 from ..locators import LoginPageLocators
 from utils.data_generator import DataGenerator
+from utils.logger import logger
 
 
 class LoginPage(BasePage):
@@ -10,17 +11,17 @@ class LoginPage(BasePage):
     def should_be_login_fields(self):
         # Проверка наличия полей для авторизации
         assert self.is_element_present(LoginPageLocators.EMAIL_LOGIN_FIELD), 'Login email field is not presented'
-        print('Login email field is presented')
+        logger.debug('Login email field is presented')
         assert self.is_element_present(LoginPageLocators.PASSWORD_LOGIN_FIELD), 'Password field is not presented'
-        print('Password field is presented')
+        logger.debug('Password field is presented')
 
     @allure.step("Проверка полей регистрации")
     def should_be_signup_fields(self):
         # Проверка наличия полей для регистрации
         assert self.is_element_present(LoginPageLocators.EMAIL_SIGN_UP_FIELD), 'Signup email field is not presented'
-        print('Signup email field is presented')
+        logger.debug('Signup email field is presented')
         assert self.is_element_present(LoginPageLocators.NAME_SIGN_UP_FIELD), 'Signup name field is not presented'
-        print('Signup name field is presented')
+        logger.debug('Signup name field is presented')
 
     @allure.step("Заполнение email для регистрации")
     def fill_signup_email(self):
@@ -28,20 +29,20 @@ class LoginPage(BasePage):
         print(f'>>> fill_signup_email, URL: {self.browser.current_url}')  # diagnostic
         email = DataGenerator.get_registration_data('email')
         self.find(LoginPageLocators.EMAIL_SIGN_UP_FIELD).send_keys(email)
-        print('Email signup field filled')
+        logger.debug('Email signup field filled')
 
     @allure.step("Заполнение имени для регистрации")
     def fill_signup_name(self):
         name = DataGenerator.get_registration_data('first_name')
         self.find(LoginPageLocators.NAME_SIGN_UP_FIELD).send_keys(name)
-        print('Name signup field filled')
+        logger.debug('Name signup field filled')
 
     @allure.step("Нажатие кнопки регистрации")
     def click_signup_button(self, retry_on_existing=True):
         # Переход на основную страницу регистрации
         for attempt in range(3):
             self.find(LoginPageLocators.SIGN_UP_BUTTON).click()
-            print('Signup button is clicked')
+            logger.debug('Signup button is clicked')
             if not retry_on_existing or not self.is_signup_error_present():
                 break
             else:
@@ -54,86 +55,86 @@ class LoginPage(BasePage):
     def should_be_new_user_text(self):
         # Проверка заголовка для полей регистрации
         assert self.is_element_present(LoginPageLocators.NEW_USER_TITLE), 'New user Signup title is not presented'
-        print('New user Signup title is presented')
+        logger.debug('New user Signup title is presented')
         assert 'New User Signup!' in self.find(
             LoginPageLocators.NEW_USER_TITLE).text, (
             f'New user Signup title text is not correct '
             f'{self.find(LoginPageLocators.NEW_USER_TITLE).text}')
-        print('New user Signup title text is correct')
+        logger.debug('New user Signup title text is correct')
 
     @allure.step("Проверка заголовка Login")
     def should_be_correct_login_title(self):
         # Проверка заголовка для полей авторизации
         assert self.is_element_present(LoginPageLocators.LOGIN_TITLE), 'Login title is not presented'
-        print('Login title is presented')
+        logger.debug('Login title is presented')
         assert 'Login to your account' in self.find(
             LoginPageLocators.LOGIN_TITLE).text, (
             f'Login title text is not correct '
             f'{self.find(LoginPageLocators.LOGIN_TITLE).text}')
-        print('Login title text is correct')
+        logger.debug('Login title text is correct')
 
     @allure.step("Заполнение email")
     def fill_in_email(self, email=None):
         if email is not None:
             self.find(LoginPageLocators.EMAIL_LOGIN_FIELD).send_keys(email)
-            print('Email filled in')
+            logger.debug('Email filled in')
         else:
             email = DataGenerator.get_login_data('email')
             self.find(LoginPageLocators.EMAIL_LOGIN_FIELD).send_keys(email)
-            print('Email filled in')
+            logger.debug('Email filled in')
 
     @allure.step("Заполнение пароля")
     def fill_in_password(self, password=None):
         if password is None:
             password = DataGenerator.get_login_data('password')
         self.find(LoginPageLocators.PASSWORD_LOGIN_FIELD).send_keys(password)
-        print('Password filled in')
+        logger.debug('Password filled in')
 
     @allure.step("Нажатие кнопки входа")
     def click_login_button(self):
         assert self.is_element_present(LoginPageLocators.LOGIN_BUTTON), 'Login button is not presented'
-        print('Login button is presented')
+        logger.debug('Login button is presented')
         self.find(LoginPageLocators.LOGIN_BUTTON).click()
-        print('Login button is clicked')
+        logger.debug('Login button is clicked')
 
     @allure.step("Проверка ошибки входа")
     def should_be_correct_login_error_message(self):
         self.is_element_present(LoginPageLocators.LOGIN_ERROR)
-        print('Error is presented')
+        logger.debug('Error is presented')
         error_message = self.find(LoginPageLocators.LOGIN_ERROR).text
         assert 'Your email or password is incorrect!' in error_message, (
             f'Error message should be "Your email or password is incorrect!" '
             f'got {error_message}')
-        print(f'Error message is correct: {error_message}')
+        logger.debug(f'Error message is correct: {error_message}')
 
     @allure.step("Проверка ошибки регистрации")
     def should_be_correct_signup_error_message(self):
         self.is_element_present(LoginPageLocators.SIGN_UP_ERROR)
-        print('Error is presented')
+        logger.debug('Error is presented')
         error_message = self.find(LoginPageLocators.SIGN_UP_ERROR).text
         assert 'Email Address already exist!' in error_message, (
             f'Error message should be "Email Address already exist!" got '
             f'{error_message}')
-        print(f'Error message is correct: {error_message}')
+        logger.debug(f'Error message is correct: {error_message}')
 
     @allure.step("Заполнение существующего email")
     def fill_in_existing_email(self, email=None):
         if email is not None:
             self.find(LoginPageLocators.EMAIL_SIGN_UP_FIELD).send_keys(email)
-            print('Email filled in')
+            logger.debug('Email filled in')
         else:
             email = DataGenerator.get_login_data('email')
             self.find(LoginPageLocators.EMAIL_SIGN_UP_FIELD).send_keys(email)
-            print('Existing email filled in')
+            logger.debug('Existing email filled in')
 
     @allure.step("Очистка заполненных Signup fields")
     def clear_signup_fields(self):
         print(f'>>> clear_signup_fields, URL: {self.browser.current_url}')  # diagnostic
         print('User already exist')
         self.find(LoginPageLocators.EMAIL_SIGN_UP_FIELD).clear()
-        print('Signup email field cleared')
+        logger.debug('Signup email field cleared')
         self.find(LoginPageLocators.NAME_SIGN_UP_FIELD).clear()
-        print('Signup name field cleared')
+        logger.debug('Signup name field cleared')
 
     @allure.step("Проверка наличия ошибки повторной регистрации")
     def is_signup_error_present(self):

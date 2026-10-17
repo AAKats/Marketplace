@@ -18,7 +18,7 @@ class TestContacUsPage():
     def test_contact_us_form(self, browser):
         page = ContactUsPage(browser)
         page.open()
-        page.is_link_correct()
+        page.is_link_correct('/')
         page.go_to_contact_us_page()
         page.should_be_correct_title()
         page.should_be_correct_second_title()
@@ -32,4 +32,4 @@ class TestContacUsPage():
         page.accept_alert()
         page.should_be_correct_success_message()
         page.go_to_home_page()
-        page.is_link_correct()
+        page.is_link_correct('/')

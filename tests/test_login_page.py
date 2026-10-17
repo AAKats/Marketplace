@@ -20,14 +20,14 @@ class TestLogin():
         page.open()
         page.go_to_login_page()  # Переход на страницу логина по нажатию на кнопку в навигации
         # Проверки начальной страницы авторизации
-        page.is_link_correct('login')
+        page.is_link_correct('/login')
         page.should_be_correct_login_title()
         page.should_be_login_fields()
         page.fill_in_email()
         page.fill_in_password()
         page.click_login_button()
 
-        page.is_link_correct()
+        page.is_link_correct('/')
         page.check_username(True)
         page.logout()
         page.should_not_be_username()
@@ -44,14 +44,14 @@ class TestLogin():
         page.open()
         page.go_to_login_page()  # Переход на страницу логина по нажатию на кнопку в навигации
         # Проверки начальной страницы авторизации
-        page.is_link_correct('login')
+        page.is_link_correct('/login')
         page.should_be_correct_login_title()
         page.should_be_login_fields()
         page.fill_in_email('incorrect@mail.com')
         page.fill_in_password('WrongPassword123')
         page.click_login_button()
         page.should_be_correct_login_error_message()
-        page.is_link_correct('login')
+        page.is_link_correct('/login')
         page.should_not_be_username()
 
     @allure.feature('Login')
@@ -64,14 +64,14 @@ class TestLogin():
     def test_login_before_checkout(self, browser, existing_user):
         page = LoginPage(browser)
         page.open()
-        page.is_link_correct()
+        page.is_link_correct('/')
         page.go_to_login_page()
-        page.is_link_correct('login')
+        page.is_link_correct('/login')
         page.fill_in_email()
         page.fill_in_password()
         page.click_login_button()
 
-        page.is_link_correct()
+        page.is_link_correct('/')
         page.check_username(True)
         page = ProductsPage(browser)
         added_products = page.add_products_to_cart(False, False, 3, 1)

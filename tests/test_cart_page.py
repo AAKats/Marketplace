@@ -27,7 +27,7 @@ class TestCartPage():
         page.open()
         page.is_link_correct()
         page.go_to_cart_page()
-        page.is_link_correct('view_cart')
+        page.is_link_correct('/view_cart')
         page.should_be_correct_subscription_text()
         page.input_subscribe_email()
         page.click_subscribe()
@@ -65,7 +65,7 @@ class TestCartPage():
         page.is_link_correct()
         page.go_to_products_page()
         product_details = page.open_random_product()
-        page.is_link_correct(f'product_details/{product_details["id"]}')
+        page.is_link_correct(f'/product_details/{product_details["id"]}')
         page = ProductPage(browser)
         quantity = page.select_quantity_of_product()
         page.add_product_to_cart()
@@ -96,7 +96,7 @@ class TestCartPage():
         page.register_via_modal()
         page = LoginPage(browser)
         # Проверки начальной страницы регистрации
-        page.is_link_correct('login')
+        page.is_link_correct('/login')
         page.should_be_new_user_text()
         page.should_be_signup_fields()
         # Генерация данных для регистрации
@@ -173,7 +173,7 @@ class TestCartPage():
         page.is_link_correct()
         added_products = page.add_products_to_cart(False, False, 2, 2)
         page.go_to_cart_page()
-        page.is_link_correct('view_cart')
+        page.is_link_correct('/view_cart')
         page = CartPage(browser, added_products)
         page.check_product_name()
         page.check_product_price()
@@ -230,7 +230,7 @@ class TestCartPage():
         page.open()
         page.is_link_correct()
         page.go_to_login_page()
-        page.is_link_correct('login')
+        page.is_link_correct('/login')
         page.should_be_new_user_text()
         page.should_be_signup_fields()
         # Генерация данных для регистрации
@@ -313,7 +313,7 @@ class TestCartPage():
         page.register_via_modal()
 
         page = LoginPage(browser)
-        page.is_link_correct('login')
+        page.is_link_correct('/login')
         page.should_be_new_user_text()
         page.should_be_signup_fields()
         # Генерация данных для регистрации

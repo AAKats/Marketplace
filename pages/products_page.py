@@ -4,6 +4,7 @@ import allure
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 
+from utils.logger import logger
 from ..locators import ProductsPageLocators, ProductPageLocators
 from ..pages.base_page import BasePage
 
@@ -19,7 +20,7 @@ class ProductsPage(BasePage):
     @allure.step("Проверка списка товаров")
     def should_be_products_list(self):
         assert self.is_element_present(ProductsPageLocators.PRODUCTS_LIST), 'Products list is not presented'
-        print('Products list is presented')
+        logger.debug('Products list is presented')
 
     @allure.step("Открытие товара")
     def click_view_product_by_number(self, number: int = None):
@@ -29,23 +30,23 @@ class ProductsPage(BasePage):
         product = products_list[number]
         product_id = product.get_attribute('href').split('/product_details/')[-1]
         product.click()
-        print(f'View button for the {number} product from the start (id = {product_id}) clicked')
+        logger.debug(f'View button for the {number} product from the start (id = {product_id}) clicked')
         self.is_link_correct(f'product_details/{product_id}')
 
     @allure.step("Проверка полей товара")
     def should_be_product_info_fields(self):
         assert self.is_element_present(ProductPageLocators.PRODUCT_NAME), 'Product name field is not presented'
-        print('Product name field is presented')
+        logger.debug('Product name field is presented')
         assert self.is_element_present(ProductPageLocators.CATEGORY), 'Category field is not presented'
-        print('Category field is presented')
+        logger.debug('Category field is presented')
         assert self.is_element_present(ProductPageLocators.PRICE), 'Price field is not presented'
-        print('Price field is presented')
+        logger.debug('Price field is presented')
         assert self.is_element_present(ProductPageLocators.AVAILABILITY), 'Availability field is not presented'
-        print('Availability field is presented')
+        logger.debug('Availability field is presented')
         assert self.is_element_present(ProductPageLocators.CONDITION), 'Condition field is not presented'
-        print('Condition field is presented')
+        logger.debug('Condition field is presented')
         assert self.is_element_present(ProductPageLocators.BRAND), 'Brand field is not presented'
-        print('Brand field is presented')
+        logger.debug('Brand field is presented')
 
     @allure.step("Поиск товара")
     def search_product(self, product_name=None):
@@ -56,33 +57,33 @@ class ProductsPage(BasePage):
         search_field = ProductsPageLocators.SEARCH_FIELD
         search_button = ProductsPageLocators.SEARCH_BUTTON
         assert self.is_element_present(search_field), 'Search field is not presented'
-        print('Search field is presented')
+        logger.debug('Search field is presented')
         self.find(search_field).send_keys(product_name)
-        print(f'Search field is filled in with: "{product_name}"')
+        logger.debug(f'Search field is filled in with: "{product_name}"')
         assert self.is_element_present(search_button), 'Search button is not presented'
-        print('Search button is presented')
+        logger.debug('Search button is presented')
         self.find(search_button).click()
-        print('Search button is clicked')
+        logger.debug('Search button is clicked')
         return product_name
 
     @allure.step("Проверка найденного товара")
     def check_found_product_name(self):
         product_names = self.find_elements(ProductsPageLocators.PRODUCT_NAMES)
         assert len(product_names) >= 1, 'Products not found'
-        print(f'{len(product_names)} products found')
+        logger.debug(f'{len(product_names)} products found')
         for name in product_names:
             product_name = name.text
             assert self.found_name in product_name, f'{self.found_name} is not in {product_name}'
-            print(f'"{product_name}" product found, and contains "{self.found_name}"')
+            logger.debug(f'"{product_name}" product found, and contains "{self.found_name}"')
 
     @allure.step("Проверка заголовка товаров")
     def should_be_correct_title(self):
         title = ProductsPageLocators.TITLE
         title_text = self.find(title).text
         assert self.is_element_present(title), 'Title is not presented'
-        print('Title is presented')
+        logger.debug('Title is presented')
         assert 'SEARCHED PRODUCTS' in title_text, f'Title should be "SEARCHED PRODUCTS" got: {title_text}'
-        print(f'Title {title_text} correct')
+        logger.debug(f'Title {title_text} correct')
 
     def continue_shoping(self):
         continue_button = ProductsPageLocators.CONTINUE_SHOPPING_BUTTON
@@ -114,8 +115,8 @@ class ProductsPage(BasePage):
                         self.go_to_cart_via_modal()
                     else:
                         self.continue_shoping()
-                    print(f'Product {self.selected_product[product_index]['name']} added, quantity '
-                          f'{self.selected_product[product_index]['quantity']}')
+                    logger.debug(f'Product {self.selected_product[product_index]['name']} added, quantity '
+                                 f'{self.selected_product[product_index]['quantity']}')
 
         elif count >= 2:
             assert first_number + count * 2 <= len(buttons) - 1, (f'Указанное количество товаров для добавления в '
@@ -138,8 +139,8 @@ class ProductsPage(BasePage):
                         self.go_to_cart_via_modal()
                     elif not short:
                         self.continue_shoping()
-                    print(f'Product {self.selected_product[product_index]['name']} added, quantity '
-                          f'{self.selected_product[product_index]['quantity']}')
+                    logger.debug(f'Product {self.selected_product[product_index]['name']} added, quantity '
+                                 f'{self.selected_product[product_index]['quantity']}')
         else:
             for index in range(first_number, first_number + 2, 2):
                 overlay_index = index + 1
@@ -158,8 +159,8 @@ class ProductsPage(BasePage):
                         self.go_to_cart_via_modal()
                     elif not short:
                         self.continue_shoping()
-                    print(f'Product {self.selected_product[product_index]['name']} added, quantity '
-                          f'{self.selected_product[product_index]['quantity']}')
+                    logger.debug(f'Product {self.selected_product[product_index]['name']} added, quantity '
+                                 f'{self.selected_product[product_index]['quantity']}')
         return self.selected_product
 
     @allure.step("Открытие случайной карточки товара")
@@ -177,7 +178,7 @@ class ProductsPage(BasePage):
             'id': product_id
         }
         product.click()
-        print(f'Product "{self.selected_product["name"]}" (ID: {product_id}) opened')
+        logger.debug(f'Product "{self.selected_product["name"]}" (ID: {product_id}) opened')
         return self.selected_product
 
     @allure.step("Выбор категории товара")
@@ -187,7 +188,7 @@ class ProductsPage(BasePage):
         self.is_element_present(locator)
         category_button = self.find(locator)
         category_button.click()
-        print(f'{category_button.text.capitalize()} category selected')
+        logger.debug(f'{category_button.text.capitalize()} category selected')
         return category_name
 
     @allure.step("Выбор подкатегории товара")
@@ -199,7 +200,7 @@ class ProductsPage(BasePage):
             if subcategory_name.strip().lower() in el.text.strip().lower():
                 category_text = el.text.strip()
                 el.click()
-                print(f'{category_text} subcategory selected')
+                logger.debug(f'{category_text} subcategory selected')
                 return category_text
         raise AssertionError(f'Subcategory "{subcategory_name}" not found in {category}')
 
@@ -212,7 +213,7 @@ class ProductsPage(BasePage):
                                                                                       f'"{category.upper()} - '
                                                                                       f'{subcategory.upper()} '
                                                                                       f'PRODUCTS"')
-        print(f'Category title is correct: "{title.text}"')
+        logger.debug(f'Category title is correct: "{title.text}"')
 
     @allure.step("Выбор бренда товара")
     def select_brand(self, brand_name: str = None):
@@ -222,7 +223,7 @@ class ProductsPage(BasePage):
         brand_button = self.find(locator)
         brand_text = brand_button.text
         brand_button.click()
-        print(f'{brand_text.capitalize()} brand selected')
+        logger.debug(f'{brand_text.capitalize()} brand selected')
         return brand_name
 
     @allure.step("Проверка заголовка выбранного бренда")
@@ -231,12 +232,12 @@ class ProductsPage(BasePage):
         title = self.find(ProductsPageLocators.FILTERED_BRAND_TITLE)
         assert brand.upper() in title.text.upper(), (f'Incorrect title text: "{title.text}" should be: '
                                                      f'"BRAND - {brand.upper()} PRODUCTS"')
-        print(f'Category title is correct: "{title.text}"')
+        logger.debug(f'Category title is correct: "{title.text}"')
 
     @allure.step("Прокрутка до рекомендованных товаров")
     def scroll_to_recommended_items(self):
         self.scroll_to_element(ProductsPageLocators.RECOMMENDED_SECTION)
-        print('Scrolled to recommended items')
+        logger.debug('Scrolled to recommended items')
 
     @allure.step("Проверка заголовка рекомендуемых товаров")
     def should_be_correct_recommended_title(self):
@@ -245,7 +246,7 @@ class ProductsPage(BasePage):
         title = self.find(ProductsPageLocators.RECOMMENDED_ITEMS_TITLE)
         assert 'RECOMMENDED ITEMS' in title.text.upper(), (f'Incorrect title text: "{title.text}" should be: '
                                                            'RECOMMENDED ITEMS')
-        print(f'Recommended items title is correct: "{title.text}"')
+        logger.debug(f'Recommended items title is correct: "{title.text}"')
 
     @allure.step("Переключение слайда карусели рекомендованных товаров")
     def click_next_recommended_slide(self):
@@ -255,7 +256,7 @@ class ProductsPage(BasePage):
         next_btn.click()
         import time
         time.sleep(0.5)
-        print('Switched to next recommended items slide')
+        logger.debug('Switched to next recommended items slide')
 
     def _extract_product_info(self, card):
         name = card.find_element(*ProductsPageLocators.RECOMMENDED_PRODUCT_NAME).get_attribute('textContent')
@@ -292,7 +293,7 @@ class ProductsPage(BasePage):
             if len(products) == prev_count:
                 break
 
-        print(f'Found {len(products)} recommended products')
+        logger.debug(f'Found {len(products)} recommended products')
         return products
 
     @allure.step("Добавление рекомендованного товара в корзину (id={product_id})")
@@ -306,6 +307,6 @@ class ProductsPage(BasePage):
             add_button.click()
             if _ < quantity - 1:
                 self.continue_shoping()
-            print(f'Recommended product "{product["name"]}" added to cart, quantity {_ + 1}')
+            logger.debug(f'Recommended product "{product["name"]}" added to cart, quantity {_ + 1}')
         product['quantity'] = quantity
         return product

@@ -6,6 +6,7 @@ from selenium import webdriver
 from ..api.services.user_api import UserApi
 from ..api.services.products_api import ProductsApi
 from utils.data_generator import DataGenerator
+from utils.logger import logger
 
 
 def pytest_addoption(parser):
@@ -69,7 +70,7 @@ def existing_user(api_client):
     yield profile
     try:
         api_client.delete_registered_user(profile['email'], profile['password'])
-        print('Тестовый пользователь удалён')
+        logger.debug('Тестовый пользователь удалён')
     except Exception as e:
         print(f'Не удалось удалить тестового пользователя: {e}')
 
@@ -131,3 +132,16 @@ def browser_download(request):
     # Очистка папки после теста
     for f in os.listdir(download_dir):
         os.remove(os.path.join(download_dir, f))
+
+
+@pytest.fixture(autouse=True)
+def attach_logs_to_allure():
+    """Фикстура добавления логов в allure"""
+    records = []
+    sink_id = logger.add(lambda m: records.append(m), level="DEBUG",
+                         format="{time:HH:mm:ss.SSS} | {level: <8} | {message}")
+    yield
+    logger.remove(sink_id)
+    if records:
+        allure.attach("\n".join(records), name="logs",
+                      attachment_type=allure.attachment_type.TEXT)

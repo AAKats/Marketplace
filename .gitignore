@@ -36,3 +36,4 @@ allure-report/
 generated_card_data.json
 generated_data.json
 login_data.json
+logs/

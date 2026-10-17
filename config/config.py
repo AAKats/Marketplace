@@ -19,3 +19,7 @@ class Config:
     # Разрешение экрана
     WINDOW_WIDTH = 1920
     WINDOW_HEIGHT = 1080
+
+    # Логирование
+    LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
+    LOG_DIR = os.getenv("LOG_DIR", "logs")

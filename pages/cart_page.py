@@ -3,6 +3,7 @@ import allure
 from selenium.common import TimeoutException
 
 from locators import CartPageLocators
+from utils.logger import logger
 from ..pages.base_page import BasePage
 
 
@@ -25,7 +26,7 @@ class CartPage(BasePage):
             assert products_count_in_cart == len(self.added_products), (
                 f'Count of products in cart {products_count_in_cart} '
                 f'is not equal to count of added products {len(self.added_products)}')
-            print(
+            logger.debug(
                 f'Count of products in cart {products_count_in_cart} '
                 f'is equal to count of added products {len(self.added_products)}')
         else:
@@ -38,7 +39,9 @@ class CartPage(BasePage):
             assert products_count_in_cart == count, (
                 f'Count of products in cart {products_count_in_cart} '
                 f'is not equal to count of added products {count}')
-            print(f'Count of products in cart {products_count_in_cart} is equal to count of added products {count}')
+            logger.debug(
+                f'Count of products in cart {products_count_in_cart} is equal to '
+                f'count of added products {count}')
 
     @allure.step("Проверка цены товаров в корзине")
     def check_product_price(self):
@@ -50,7 +53,7 @@ class CartPage(BasePage):
             assert product_price == product_price_in_cart, (
                 f'Product {products_names[_].text} price in cart: '
                 f'{product_price_in_cart} does not match added price: {product_price}')
-            print(
+            logger.debug(
                 f'Product {products_names[_].text} price in cart: '
                 f'{product_price_in_cart} matches added price: {product_price}')
 
@@ -65,7 +68,7 @@ class CartPage(BasePage):
             assert product_name in names_in_cart, (
                 f'Product: {product_name} not found in cart: '
                 f"{', '.join(names_in_cart)}")
-            print(f'Product: {product_name} found in cart: {', '.join(names_in_cart)}')
+            logger.debug(f'Product: {product_name} found in cart: {', '.join(names_in_cart)}')
 
     @allure.step("Проверка количества каждого товара в корзине")
     def check_product_quantity(self):
@@ -79,7 +82,7 @@ class CartPage(BasePage):
                     assert product_quantity == product_quantity_in_cart, (
                         f'Product {products_names[_].text} quantity in cart: '
                         f'{product_quantity_in_cart} does not match added quantity: {product_quantity}')
-                    print(
+                    logger.debug(
                         f'Product {products_names[_].text} quantity in cart: '
                         f'{product_quantity_in_cart} matches added quantity: {product_quantity}')
         else:
@@ -90,7 +93,7 @@ class CartPage(BasePage):
                     assert product_quantity == product_quantity_in_cart, (
                         f'Product {products_names[_].text} quantity in cart: '
                         f'{product_quantity_in_cart} does not match added quantity: {product_quantity}')
-                    print(
+                    logger.debug(
                         f'Product {products_names[_].text} quantity in cart: '
                         f'{product_quantity_in_cart} matches added quantity: {product_quantity}')
 
@@ -106,7 +109,7 @@ class CartPage(BasePage):
                 assert product_total_price == product_total_price_in_cart, (
                     f'Product {products_names[_].text} total in cart: '
                     f'{product_total_price_in_cart} does not match expected total: {product_total_price}')
-                print(
+                logger.debug(
                     f'Product {products_names[_].text} total in cart: '
                     f'{product_total_price_in_cart} matches expected total: {product_total_price}')
                 products_total_price += product_total_price
@@ -117,7 +120,7 @@ class CartPage(BasePage):
         button = CartPageLocators.PROCEED_TO_CHECKOUT_BUTTON
         self.is_element_present(button)
         self.find(button).click()
-        print('Proceed to checkout button clicked')
+        logger.debug('Proceed to checkout button clicked')
 
     @allure.step("Переход на страницу регистрации при оформлении заказа")
     def register_via_modal(self):
@@ -125,16 +128,17 @@ class CartPage(BasePage):
         self.is_element_present(register_button)
         self.is_element_visible(register_button)
         self.find(register_button).click()
-        print('Register via modal button clicked')
+        logger.debug('Register via modal button clicked')
 
     @allure.step("Удаление всех продуктов из корзины")
     def remove_all_products_from_cart(self):
         remove_buttons = self.find_elements(CartPageLocators.DELETE_PRODUCT_FROM_CART)
         for button in remove_buttons:
             button.click()
-        self.is_not_element_present(CartPageLocators.PRODUCT_NAME_IN_CART)
-        print('All products deleted')
         self.is_element_visible(CartPageLocators.EMPTY_CART_TEXT)
+        assert self.is_not_element_present(CartPageLocators.PRODUCT_NAME_IN_CART), \
+            'Products are still present in cart'
+        logger.debug('All products deleted')
         empty_cart_text = self.find(CartPageLocators.EMPTY_CART_TEXT).text
         assert 'Cart is empty!' in empty_cart_text, f'Incorrect Empty cart message: "{empty_cart_text}"'
-        print(f'Empty cart text correct: {empty_cart_text}')
+        logger.debug(f'Empty cart text correct: {empty_cart_text}')

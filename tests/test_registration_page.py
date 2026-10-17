@@ -24,7 +24,7 @@ class TestRegistration():
         page.open()
         page.go_to_login_page()  # Переход на страницу логина по нажатию на кнопку в навигации
         # Проверки начальной страницы регистрации
-        page.is_link_correct('login')
+        page.is_link_correct('/login')
         page.should_be_new_user_text()
         page.should_be_signup_fields()
         # Генерация данных для регистрации
@@ -69,7 +69,7 @@ class TestRegistration():
         # Проверка на наличие кнопок для зарегистрированного пользователя
         page.check_username()
         page.delete_account()  # Проверка удаления зарегистрированного пользователя по нажатию на кнопку
-        page.is_link_correct('')
+        page.is_link_correct('/')
 
     @allure.feature('Registration')
     @allure.story('Регистрация с существующим email')
@@ -83,14 +83,14 @@ class TestRegistration():
         page.open()
         page.go_to_login_page()  # Переход на страницу логина по нажатию на кнопку в навигации
         # Проверки начальной страницы регистрации
-        page.is_link_correct('login')
+        page.is_link_correct('/login')
         page.should_be_new_user_text()
         page.should_be_signup_fields()
         page.fill_in_existing_email()
         page.fill_signup_name()
         page.click_signup_button(retry_on_existing=False)
         page.should_be_correct_signup_error_message()
-        page.is_link_correct('signup')
+        page.is_link_correct('/signup')
 
     @allure.feature('Cart')
     @allure.feature('Register')
@@ -102,10 +102,10 @@ class TestRegistration():
     def test_register_before_checkout(self, browser):
         page = LoginPage(browser)
         page.open()
-        page.is_link_correct()
+        page.is_link_correct('/')
         page.go_to_login_page()
         # Проверки начальной страницы регистрации
-        page.is_link_correct('login')
+        page.is_link_correct('/login')
         page.should_be_new_user_text()
         page.should_be_signup_fields()
         # Генерация данных для регистрации
@@ -171,4 +171,4 @@ class TestRegistration():
         page.pay_and_confirm()
         page.should_be_correct_payment_success_message()
         page.delete_account()  # Проверка удаления зарегистрированного пользователя по нажатию на кнопку
-        page.is_link_correct('')
+        page.is_link_correct('/')

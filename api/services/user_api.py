@@ -2,6 +2,7 @@ import allure
 
 from ..client import ApiClient
 from utils.data_generator import DataGenerator
+from utils.logger import logger
 
 
 class UserApi(ApiClient):
@@ -28,9 +29,9 @@ class UserApi(ApiClient):
             "mobile_number":  DataGenerator.get_registration_data('mobile_number'),
         }
         payload.update(kwargs)
-        print('New user details:')
+        logger.debug('New user details:')
         for key, value in payload.items():
-            print(f'  {key}: {value}')
+            logger.debug(f'  {key}: {value}')
         response = self.post("/api/createAccount", data=payload)
         return response
 
@@ -92,9 +93,9 @@ class UserApi(ApiClient):
             "mobile_number": DataGenerator.get_registration_data('mobile_number'),
         }
         payload.update(kwargs)
-        print('Updated user details:')
+        logger.debug('Updated user details:')
         for key, value in payload.items():
-            print(f'  {key}: {value}')
+            logger.debug(f'  {key}: {value}')
         response = self.put("/api/updateAccount", data=payload)
         return response
 

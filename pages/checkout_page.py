@@ -2,6 +2,7 @@ import allure
 
 from locators import CheckoutPageLocators
 from utils.data_generator import DataGenerator
+from utils.logger import logger
 from ..pages.cart_page import CartPage
 
 
@@ -22,7 +23,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect name in delivery information: '
                 f'{delivery_full_name}, should be: {full_name}'
             )
-            print(f'Name is correct in the delivery information: {delivery_full_name}')
+            logger.debug(f'Name is correct in the delivery information: {delivery_full_name}')
 
             self.is_element_present(CheckoutPageLocators.DELIVERY_COMPANY)
             company_name = DataGenerator.get_login_data('company')
@@ -31,7 +32,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect company name in delivery information: '
                 f'{delivery_company_name}, should be: {company_name}'
             )
-            print(f'Company name is correct in the delivery information: {delivery_company_name}')
+            logger.debug(f'Company name is correct in the delivery information: {delivery_company_name}')
 
             self.is_element_present(CheckoutPageLocators.DELIVERY_ADDRESS_1)
             address_1 = DataGenerator.get_login_data('address_1')
@@ -40,7 +41,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect address 1 in delivery information: '
                 f'{delivery_address_1}, should be: {address_1}'
             )
-            print(f'Address 1 is correct in the delivery information: {delivery_address_1}')
+            logger.debug(f'Address 1 is correct in the delivery information: {delivery_address_1}')
 
             self.is_element_present(CheckoutPageLocators.DELIVERY_ADDRESS_2)
             address_2 = DataGenerator.get_login_data('address_2')
@@ -49,7 +50,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect address 2 in delivery information: '
                 f'{delivery_address_2}, should be: {address_2}'
             )
-            print(f'Address 2 is correct in the delivery information: {delivery_address_2}')
+            logger.debug(f'Address 2 is correct in the delivery information: {delivery_address_2}')
 
             self.is_element_present(CheckoutPageLocators.DELIVERY_CITY_STATE_AND_CODE)
             city_state_and_code = (
@@ -62,7 +63,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect city in delivery information: '
                 f'{delivery_city_state_and_code}, should be: {city_state_and_code}'
             )
-            print(f'City is correct in the delivery information: {delivery_city_state_and_code}')
+            logger.debug(f'City is correct in the delivery information: {delivery_city_state_and_code}')
 
             self.is_element_present(CheckoutPageLocators.DELIVERY_COUNTRY)
             country = DataGenerator.get_login_data('country')
@@ -71,7 +72,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect country in delivery information: '
                 f'{delivery_country}, should be: {country}'
             )
-            print(f'Country is correct in the delivery information: {delivery_country}')
+            logger.debug(f'Country is correct in the delivery information: {delivery_country}')
 
             self.is_element_present(CheckoutPageLocators.DELIVERY_PHONE)
             phone = DataGenerator.get_login_data('mobile_number')
@@ -80,7 +81,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect phone in delivery information: '
                 f'{delivery_phone}, should be: {phone}'
             )
-            print(f'Phone is correct in the delivery information: {delivery_phone}')
+            logger.debug(f'Phone is correct in the delivery information: {delivery_phone}')
         else:
             self.is_element_present(CheckoutPageLocators.DELIVERY_FULL_NAME)
             full_name = (
@@ -93,7 +94,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect name in delivery information: '
                 f'{delivery_full_name}, should be: {full_name}'
             )
-            print(f'Name is correct in the delivery information: {delivery_full_name}')
+            logger.debug(f'Name is correct in the delivery information: {delivery_full_name}')
 
             self.is_element_present(CheckoutPageLocators.DELIVERY_COMPANY)
             company_name = DataGenerator.get_registration_data('company')
@@ -102,7 +103,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect company name in delivery information: '
                 f'{delivery_company_name}, should be: {company_name}'
             )
-            print(f'Company name is correct in the delivery information: {delivery_company_name}')
+            logger.debug(f'Company name is correct in the delivery information: {delivery_company_name}')
 
             self.is_element_present(CheckoutPageLocators.DELIVERY_ADDRESS_1)
             address_1 = DataGenerator.get_registration_data('address_1')
@@ -111,7 +112,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect address 1 in delivery information: '
                 f'{delivery_address_1}, should be: {address_1}'
             )
-            print(f'Address 1 is correct in the delivery information: {delivery_address_1}')
+            logger.debug(f'Address 1 is correct in the delivery information: {delivery_address_1}')
 
             self.is_element_present(CheckoutPageLocators.DELIVERY_ADDRESS_2)
             address_2 = DataGenerator.get_registration_data('address_2')
@@ -120,7 +121,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect address 2 in delivery information: '
                 f'{delivery_address_2}, should be: {address_2}'
             )
-            print(f'Address 2 is correct in the delivery information: {delivery_address_2}')
+            logger.debug(f'Address 2 is correct in the delivery information: {delivery_address_2}')
 
             self.is_element_present(CheckoutPageLocators.DELIVERY_CITY_STATE_AND_CODE)
             city_state_and_code = (
@@ -133,7 +134,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect city in delivery information: '
                 f'{delivery_city_state_and_code}, should be: {city_state_and_code}'
             )
-            print(f'City is correct in the delivery information: {delivery_city_state_and_code}')
+            logger.debug(f'City is correct in the delivery information: {delivery_city_state_and_code}')
 
             self.is_element_present(CheckoutPageLocators.DELIVERY_COUNTRY)
             country = DataGenerator.get_registration_data('country')
@@ -142,7 +143,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect country in delivery information: '
                 f'{delivery_country}, should be: {country}'
             )
-            print(f'Country is correct in the delivery information: {delivery_country}')
+            logger.debug(f'Country is correct in the delivery information: {delivery_country}')
 
             self.is_element_present(CheckoutPageLocators.DELIVERY_PHONE)
             phone = DataGenerator.get_registration_data('mobile_number')
@@ -151,7 +152,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect phone in delivery information: '
                 f'{delivery_phone}, should be: {phone}'
             )
-            print(f'Phone is correct in the delivery information: {delivery_phone}')
+            logger.debug(f'Phone is correct in the delivery information: {delivery_phone}')
 
     @allure.step("Проверка данных для счетов")
     def check_billing_details(self, login: bool = False):
@@ -167,7 +168,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect name in billing information: '
                 f'{billing_full_name}, should be: {full_name}'
             )
-            print(f'Name is correct in the billing information: {billing_full_name}')
+            logger.debug(f'Name is correct in the billing information: {billing_full_name}')
 
             self.is_element_present(CheckoutPageLocators.BILLING_COMPANY)
             company_name = DataGenerator.get_login_data('company')
@@ -176,7 +177,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect company name in billing information: '
                 f'{billing_company_name}, should be: {company_name}'
             )
-            print(f'Company name is correct in the billing information: {billing_company_name}')
+            logger.debug(f'Company name is correct in the billing information: {billing_company_name}')
 
             self.is_element_present(CheckoutPageLocators.BILLING_ADDRESS_1)
             address_1 = DataGenerator.get_login_data('address_1')
@@ -185,7 +186,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect address 1 in billing information: '
                 f'{billing_address_1}, should be: {address_1}'
             )
-            print(f'Address 1 is correct in the billing information: {billing_address_1}')
+            logger.debug(f'Address 1 is correct in the billing information: {billing_address_1}')
 
             self.is_element_present(CheckoutPageLocators.BILLING_ADDRESS_2)
             address_2 = DataGenerator.get_login_data('address_2')
@@ -194,7 +195,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect address 2 in billing information: '
                 f'{billing_address_2}, should be: {address_2}'
             )
-            print(f'Address 2 is correct in the billing information: {billing_address_2}')
+            logger.debug(f'Address 2 is correct in the billing information: {billing_address_2}')
 
             self.is_element_present(CheckoutPageLocators.BILLING_CITY_STATE_AND_CODE)
             city_state_and_code = (
@@ -207,7 +208,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect city in billing information: '
                 f'{billing_city_state_and_code}, should be: {city_state_and_code}'
             )
-            print(f'City is correct in the billing information: {billing_city_state_and_code}')
+            logger.debug(f'City is correct in the billing information: {billing_city_state_and_code}')
 
             self.is_element_present(CheckoutPageLocators.BILLING_COUNTRY)
             country = DataGenerator.get_login_data('country')
@@ -216,7 +217,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect country in billing information: '
                 f'{billing_country}, should be: {country}'
             )
-            print(f'Country is correct in the billing information: {billing_country}')
+            logger.debug(f'Country is correct in the billing information: {billing_country}')
 
             self.is_element_present(CheckoutPageLocators.BILLING_PHONE)
             phone = DataGenerator.get_login_data('mobile_number')
@@ -225,7 +226,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect phone in billing information: '
                 f'{billing_phone}, should be: {phone}'
             )
-            print(f'Phone is correct in the billing information: {billing_phone}')
+            logger.debug(f'Phone is correct in the billing information: {billing_phone}')
         else:
             self.is_element_present(CheckoutPageLocators.BILLING_FULL_NAME)
             full_name = (
@@ -238,7 +239,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect name in billing information: '
                 f'{billing_full_name}, should be: {full_name}'
             )
-            print(f'Name is correct in the billing information: {billing_full_name}')
+            logger.debug(f'Name is correct in the billing information: {billing_full_name}')
 
             self.is_element_present(CheckoutPageLocators.BILLING_COMPANY)
             company_name = DataGenerator.get_registration_data('company')
@@ -247,7 +248,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect company name in billing information: '
                 f'{billing_company_name}, should be: {company_name}'
             )
-            print(f'Company name is correct in the billing information: {billing_company_name}')
+            logger.debug(f'Company name is correct in the billing information: {billing_company_name}')
 
             self.is_element_present(CheckoutPageLocators.BILLING_ADDRESS_1)
             address_1 = DataGenerator.get_registration_data('address_1')
@@ -256,7 +257,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect address 1 in billing information: '
                 f'{billing_address_1}, should be: {address_1}'
             )
-            print(f'Address 1 is correct in the billing information: {billing_address_1}')
+            logger.debug(f'Address 1 is correct in the billing information: {billing_address_1}')
 
             self.is_element_present(CheckoutPageLocators.BILLING_ADDRESS_2)
             address_2 = DataGenerator.get_registration_data('address_2')
@@ -265,7 +266,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect address 2 in billing information: '
                 f'{billing_address_2}, should be: {address_2}'
             )
-            print(f'Address 2 is correct in the billing information: {billing_address_2}')
+            logger.debug(f'Address 2 is correct in the billing information: {billing_address_2}')
 
             self.is_element_present(CheckoutPageLocators.BILLING_CITY_STATE_AND_CODE)
             city_state_and_code = (
@@ -278,7 +279,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect city in billing information: '
                 f'{billing_city_state_and_code}, should be: {city_state_and_code}'
             )
-            print(f'City is correct in the billing information: {billing_city_state_and_code}')
+            logger.debug(f'City is correct in the billing information: {billing_city_state_and_code}')
 
             self.is_element_present(CheckoutPageLocators.BILLING_COUNTRY)
             country = DataGenerator.get_registration_data('country')
@@ -287,7 +288,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect country in billing information: '
                 f'{billing_country}, should be: {country}'
             )
-            print(f'Country is correct in the billing information: {billing_country}')
+            logger.debug(f'Country is correct in the billing information: {billing_country}')
 
             self.is_element_present(CheckoutPageLocators.BILLING_PHONE)
             phone = DataGenerator.get_registration_data('mobile_number')
@@ -296,7 +297,7 @@ class CheckoutPage(CartPage):
                 f'Incorrect phone in billing information: '
                 f'{billing_phone}, should be: {phone}'
             )
-            print(f'Phone is correct in the billing information: {billing_phone}')
+            logger.debug(f'Phone is correct in the billing information: {billing_phone}')
 
     @allure.step("Заполнение комментария к заказу")
     def fill_comment(self):
@@ -304,11 +305,11 @@ class CheckoutPage(CartPage):
         message = DataGenerator.get_message()
         self.is_element_present(comment_field)
         self.find(comment_field).send_keys(message)
-        print(f'Comment filled in with: {message}')
+        logger.debug(f'Comment filled in with: {message}')
 
     @allure.step("Переход на страницу оплаты")
     def place_order(self):
         self.is_element_present(CheckoutPageLocators.PLACE_ORDER_BUTTON)
         self.find(CheckoutPageLocators.PLACE_ORDER_BUTTON).click()
-        print('Place order button clicked')
+        logger.debug('Place order button clicked')
         self.is_link_correct('/payment')

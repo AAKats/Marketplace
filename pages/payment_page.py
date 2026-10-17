@@ -2,6 +2,7 @@ import os
 
 import allure
 from utils.data_generator import DataGenerator
+from utils.logger import logger
 from ..locators import PaymentPageLocators
 from ..pages.base_page import BasePage
 
@@ -16,37 +17,37 @@ class PaymentPage(BasePage):
         name_on_card = DataGenerator.get_card_info('name_on_card')
         self.is_element_present(name_on_card_field)
         self.find(name_on_card_field).send_keys(name_on_card)
-        print(f'Name on card filled in with: {name_on_card}')
+        logger.debug(f'Name on card filled in with: {name_on_card}')
 
         card_number_field = PaymentPageLocators.CARD_NUMBER
         card_number = DataGenerator.get_card_info('card_number')
         self.is_element_present(card_number_field)
         self.find(card_number_field).send_keys(card_number)
-        print(f'Card number filled in with: {card_number}')
+        logger.debug(f'Card number filled in with: {card_number}')
 
         cvc_field = PaymentPageLocators.CVC
         cvc = DataGenerator.get_card_info('cvc')
         self.is_element_present(cvc_field)
         self.find(cvc_field).send_keys(cvc)
-        print(f'CVC filled in with: {cvc}')
+        logger.debug(f'CVC filled in with: {cvc}')
 
         expiry_m_field = PaymentPageLocators.EXPIRATION_M
         expiry_m = DataGenerator.get_card_info('expiration_m')
         self.is_element_present(expiry_m_field)
         self.find(expiry_m_field).send_keys(expiry_m)
-        print(f'Expiry month filled in with: {expiry_m}')
+        logger.debug(f'Expiry month filled in with: {expiry_m}')
 
         expiry_y_field = PaymentPageLocators.EXPIRATION_Y
         expiry_y = DataGenerator.get_card_info('expiration_y')
         self.is_element_present(expiry_y_field)
         self.find(expiry_y_field).send_keys(expiry_y)
-        print(f'Expiry year filled in with: {expiry_y}')
+        logger.debug(f'Expiry year filled in with: {expiry_y}')
 
     @allure.step("Оплата и подтверждение заказа")
     def pay_and_confirm(self):
         self.is_element_present(PaymentPageLocators.PAY_AND_CONFIRM_BUTTON)
         self.find(PaymentPageLocators.PAY_AND_CONFIRM_BUTTON).click()
-        print('Pay and confirm button clicked')
+        logger.debug('Pay and confirm button clicked')
 
     @allure.step('Проверка корректности сообщения об успешной оплате')
     def should_be_correct_payment_success_message(self):
@@ -58,16 +59,16 @@ class PaymentPage(BasePage):
             f'Incorrect success message: '
             f'"{self.find(PaymentPageLocators.SUCCESS_MESSAGE).text}", '
             f'should be "Your order has been placed successfully!"')
-        print(f'Success message is correct: "{self.find(PaymentPageLocators.SUCCESS_MESSAGE).text}"')
+        logger.debug(f'Success message is correct: "{self.find(PaymentPageLocators.SUCCESS_MESSAGE).text}"')
         self.browser.forward()
 
     @allure.step('Скачивание файла с инвойсом')
     def download_invoice(self, download_dir):
         self.is_element_present(PaymentPageLocators.DOWNLOAD_INVOICE_BUTTON)
         self.find(PaymentPageLocators.DOWNLOAD_INVOICE_BUTTON).click()
-        print('Download invoice button clicked')
+        logger.debug('Download invoice button clicked')
         file_path = self.wait_for_download(download_dir)
-        print(f'File downloaded: {file_path}')
+        logger.debug(f'File downloaded: {file_path}')
         return file_path
 
     @allure.step("Ожидание завершения скачивания файла")
@@ -96,11 +97,11 @@ class PaymentPage(BasePage):
         assert f'Hi {full_name}, Your total purchase amount is {total_price}. Thank you' in content, \
             (f'Incorrect invoice content: "{content[:200]}" Should be: "Hi {full_name}, Your total purchase amount is '
              f'{total_price}. Thank you"')
-        print('Invoice content is valid')
+        logger.debug('Invoice content is valid')
 
     @allure.step('Завершение покупки')
     def finish_purchase(self):
         self.is_element_present(PaymentPageLocators.DOWNLOAD_INVOICE_BUTTON)
         continue_button = self.find(PaymentPageLocators.DOWNLOAD_INVOICE_BUTTON)
         continue_button.click()
-        print('Continue button clicked')
+        logger.debug('Continue button clicked')

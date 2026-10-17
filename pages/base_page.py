@@ -1,4 +1,5 @@
 import os
+from urllib.parse import urljoin, urlparse
 
 import allure
 from selenium.webdriver.support.ui import WebDriverWait, Select
@@ -7,6 +8,7 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException,
     ElementNotInteractableException
 
 from utils.data_generator import DataGenerator
+from utils.logger import logger
 from ..config.config import Config
 from ..locators import BasePageLocators, ProductsPageLocators
 
@@ -37,23 +39,34 @@ class BasePage:
 
     # Метод для проверки корректности ссылки в поисковой строке
     @allure.step("Проверка URL")
-    def is_link_correct(self, value=None):
+    def is_link_correct(self, expected_path: str = "/"):
+        expected_path = (urlparse(urljoin(self.base_url, expected_path)).path.rstrip('/') or '/')
+        expected_netloc = urlparse(self.base_url).netloc
+
+        def _link_matches(driver):
+            current = urlparse(driver.current_url)
+            if current.netloc != expected_netloc:
+                return False
+            return (current.path.rstrip('/') or '/') == expected_path
+
         try:
-            if value:
-                WebDriverWait(self.browser, 10).until(
-                    EC.url_contains(value))
-                print(f'{value.capitalize()} link is correct')
-            else:
-                WebDriverWait(self.browser, 10).until(
-                    EC.url_contains(self.base_url))
-                print('Home page link is correct')
+            WebDriverWait(self.browser, 10).until(_link_matches)
+            return True
         except TimeoutException:
-            raise AssertionError(f'Current link is not {value} link')
+            raise AssertionError(
+                f'Current link is not "{expected_path}": {self.browser.current_url}'
+            )
 
     # Метод проверки отсутствия активной сессии пользователя
     @allure.step("Проверка отсутствия авторизации")
     def should_not_be_username(self):
-        self.is_not_element_present(BasePageLocators.LOGGED_AS_TEXT)
+        assert self.is_not_element_present(BasePageLocators.LOGGED_AS_TEXT), \
+            "User should NOT be logged in"
+
+    @allure.step("Проверка отсутствия авторизации")
+    def assert_user_not_logged_in(self):
+        assert self.is_not_element_present(BasePageLocators.LOGGED_AS_TEXT), \
+            "User should NOT be logged in"
 
     '''Методы для перехода по страницам сайта через панель навигации'''
     @allure.step("Переход на страницу входа")
@@ -78,10 +91,11 @@ class BasePage:
 
     '''Методы для проверки наличия или отсутствия элемента на странице'''
     @allure.step("Проверка наличия элемента")
-    def is_element_present(self, locator):
+    def is_element_present(self, locator, timeout=4):
         try:
-            self.find(locator)
-        except (NoSuchElementException, TimeoutException):
+            WebDriverWait(self.browser, timeout).until(
+                EC.presence_of_element_located((locator)))
+        except TimeoutException:
             return False
         return True
 
@@ -121,7 +135,7 @@ class BasePage:
     @allure.step("Принятие алерта")
     def accept_alert(self):
         assert self.is_alert_present(), "Alert is not presented"
-        print("Alert is presented")
+        logger.debug("Alert is presented")
         alert = self.browser.switch_to.alert
         alert.accept()
 
@@ -140,7 +154,7 @@ class BasePage:
         self.is_element_present(locator)
         element = self.find(locator)
         assert text == element.text, f'Text is not correct: {element.text}, should be: {text}'
-        print(f'Text is correct: {element.text}')
+        logger.debug(f'Text is correct: {element.text}')
 
     @allure.step("Проверка текста подписки")
     def should_be_correct_subscription_text(self):
@@ -152,14 +166,14 @@ class BasePage:
         email = DataGenerator.get_generated_data('email')
         self.is_element_present(email_form)
         self.find(email_form).send_keys(email)
-        print(f'Email filled in with "{email}"')
+        logger.debug(f'Email filled in with "{email}"')
 
     @allure.step("Нажатие кнопки подписки")
     def click_subscribe(self):
         button = BasePageLocators.SUBSCRIBE_BUTTON
         self.is_element_present(button)
         self.find(button).click()
-        print('Subscribe button is clicked')
+        logger.debug('Subscribe button is clicked')
 
     @allure.step("Проверка успешной подписки")
     def should_be_success_subscribe_alert(self):
@@ -217,7 +231,7 @@ class BasePage:
             expected_name = DataGenerator.get_registration_data('first_name')
         logged_as = self.find(BasePageLocators.LOGGED_AS_TEXT).text
         assert f'Logged in as {expected_name}' in logged_as, f'Logged in text is incorrect {logged_as}'
-        print(f'Username is correct {logged_as}')
+        logger.debug(f'Username is correct {logged_as}')
 
     @allure.step("Удаление аккаунта")
     def delete_account(self):
@@ -228,23 +242,25 @@ class BasePage:
         message_2 = self.find(BasePageLocators.DELETE_TEXT_2).text
         continue_button = self.find(BasePageLocators.DELETE_CONTINUE_BUTTON)
         assert 'ACCOUNT DELETED!' in title, f'Delete title is incorrect {title}'
-        print(f'Delete title is correct {title}')
+        logger.debug(f'Delete title is correct {title}')
         assert 'Your account has been permanently deleted!' in message_1, f'Delete message 1 is incorrect {message_1}'
-        print(f'Delete message 1 is correct {message_1}')
+        logger.debug(f'Delete message 1 is correct {message_1}')
         assert (
             'You can create new account to take advantage of member privileges '
             'to enhance your online shopping experience with us.') in message_2, (
             f'Delete message 2 is incorrect {message_2}')
-        print(f'Delete message 2 is correct {message_2}')
+        logger.debug(f'Delete message 2 is correct {message_2}')
         continue_button.click()
-        print('Continue button clicked')
+        logger.debug('Continue button clicked')
 
     @allure.step("Выход из аккаунта")
     def logout(self):
         self.find(BasePageLocators.LOGOUT_BUTTON).click()
-        self.is_link_correct('login')
-        self.is_not_element_present(BasePageLocators.LOGOUT_BUTTON)
-        self.is_not_element_present(BasePageLocators.DELETE_ACCOUNT_BUTTON)
+        self.is_link_correct('/login')
+        assert self.is_not_element_present(BasePageLocators.LOGOUT_BUTTON), \
+            "Logout button should not be present after logout"
+        assert self.is_not_element_present(BasePageLocators.DELETE_ACCOUNT_BUTTON), \
+            "Delete account button should not be present after logout"
 
     @allure.step("Проверка видимости элемента в области экрана")
     def is_element_in_viewport(self, locator, time=Config.TIMEOUT):
@@ -267,7 +283,7 @@ class BasePage:
             WebDriverWait(self.browser, time).until(_element_in_viewport)
         except TimeoutException:
             raise AssertionError(f"Element {locator} is not in viewport")
-        print(f'Element {locator} is in viewport')
+        logger.debug(f'Element {locator} is in viewport')
 
     @allure.step("Скроллинг до низа страницы")
     def scroll_to_the_bottom(self):
@@ -275,7 +291,7 @@ class BasePage:
         self.is_element_present(subscription_title)
         self.scroll_to_element(subscription_title)
         self.is_element_in_viewport(subscription_title)
-        print('Page scrolled down')
+        logger.debug('Page scrolled down')
 
     @allure.step("Скроллинг до верха страницы с помощью кнопки прокрутки")
     def scroll_to_the_top_by_angle(self):
@@ -283,7 +299,7 @@ class BasePage:
         angle_up = self.find(BasePageLocators.ANGLE_UP)
         angle_up.click()
         self.is_element_in_viewport(BasePageLocators.TOP_TITLE)
-        print('Page scrolled up with angle up')
+        logger.debug('Page scrolled up with angle up')
 
     @allure.step("Скроллинг до верха страницы")
     def scroll_to_the_top(self):
@@ -291,9 +307,9 @@ class BasePage:
         self.is_element_present(top_title)
         self.scroll_to_element(top_title)
         self.is_element_in_viewport(top_title)
-        print('Page scrolled up')
+        logger.debug('Page scrolled up')
 
     @allure.step("Проверка кнопки Contact Us")
     def should_be_contact_us_button(self):
         assert self.is_element_present(BasePageLocators.CONTACT_US_BUTTON), 'Contact us button is not presented'
-        print('Contact us button is presented')
+        logger.debug('Contact us button is presented')

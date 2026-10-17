@@ -19,7 +19,7 @@ class TestProductPage:
         DataGenerator.generate_data_for_registration(['first_name', 'last_name', 'email'])
         page = ProductsPage(browser)
         page.open()
-        page.is_link_correct()
+        page.is_link_correct('/')
         page.click_view_product_by_number(11)
         page = ProductPage(browser)
         page.fill_in_review_name_field()
