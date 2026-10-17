@@ -1,3 +1,0 @@
-Status code correct: 200
-ResponseCode correct: 400
-Response message correct: "Bad request, email or password parameter is missing in POST request."

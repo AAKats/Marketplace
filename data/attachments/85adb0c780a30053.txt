@@ -1,0 +1,39 @@
+13:34:42.069 | DEBUG    | Main title is presented
+
+13:34:42.091 | DEBUG    | Main title is correct: CONTACT US
+
+13:34:42.098 | DEBUG    | Second title is presented
+
+13:34:42.115 | DEBUG    | Second title is correct: GET IN TOUCH
+
+13:34:42.123 | DEBUG    | Name field is presented
+
+13:34:42.163 | DEBUG    | Name field filled in with: Michael
+
+13:34:42.170 | DEBUG    | Email field is presented
+
+13:34:42.219 | DEBUG    | Email field filled in with: eefaa5b9_brendadiaz@example.com
+
+13:34:42.227 | DEBUG    | Subject field is presented
+
+13:34:42.266 | DEBUG    | Subject field filled in with: Sense for.
+
+13:34:42.272 | DEBUG    | Message field is presented
+
+13:34:42.335 | DEBUG    | Message field filled in with: Myself government receive ago. Best offer writer free. College there you star happen.
+
+13:34:42.342 | DEBUG    | Upload field is presented
+
+13:34:42.358 | DEBUG    | File uploaded
+
+13:34:42.364 | DEBUG    | Submit button is presented
+
+13:34:42.434 | DEBUG    | Alert is presented
+
+13:34:42.462 | DEBUG    | Success message is presented
+
+13:34:42.462 | DEBUG    | Success message is correct
+
+13:34:42.468 | DEBUG    | Home button is presented
+
+13:34:42.920 | DEBUG    | Home button is clicked

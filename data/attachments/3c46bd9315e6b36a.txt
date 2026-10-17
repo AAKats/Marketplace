@@ -1,0 +1,161 @@
+13:35:36.492 | DEBUG    | New user Signup title is presented
+
+13:35:36.504 | DEBUG    | New user Signup title text is correct
+
+13:35:36.510 | DEBUG    | Signup email field is presented
+
+13:35:36.516 | DEBUG    | Signup name field is presented
+
+13:35:36.576 | DEBUG    | Email signup field filled
+
+13:35:36.613 | DEBUG    | Name signup field filled
+
+13:35:36.761 | DEBUG    | Signup button is clicked
+
+13:35:36.780 | DEBUG    | Account information title is presented
+
+13:35:36.789 | DEBUG    | Account information title text is correct
+
+13:35:36.816 | DEBUG    | Mr radiobutton is presented
+
+13:35:36.822 | DEBUG    | Mrs radiobutton is presented
+
+13:35:36.864 | DEBUG    | Selected MRS title
+
+13:35:36.871 | DEBUG    | Password field is presented
+
+13:35:36.908 | DEBUG    | Password is filled in
+
+13:35:36.918 | DEBUG    | Day of birth list is presented
+
+13:35:36.968 | DEBUG    | Day of birth selected
+
+13:35:36.975 | DEBUG    | Month of birth list is presented
+
+13:35:37.014 | DEBUG    | Month of birth selected
+
+13:35:37.021 | DEBUG    | Year of birth list is presented
+
+13:35:37.061 | DEBUG    | Year of birth selected
+
+13:35:37.104 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+13:35:37.105 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+13:35:37.111 | DEBUG    | First name field is presented
+
+13:35:37.148 | DEBUG    | First name is filled in
+
+13:35:37.155 | DEBUG    | Last name field is presented
+
+13:35:37.188 | DEBUG    | Last name is filled in
+
+13:35:37.196 | DEBUG    | Company field is presented
+
+13:35:37.234 | DEBUG    | Company is filled in
+
+13:35:37.240 | DEBUG    | Address 1 field is presented
+
+13:35:37.291 | DEBUG    | Address 1 is filled in
+
+13:35:37.299 | DEBUG    | Address 2 field is presented
+
+13:35:37.336 | DEBUG    | Address 2 is filled in
+
+13:35:37.386 | DEBUG    | State field is presented
+
+13:35:37.422 | DEBUG    | State is filled in
+
+13:35:37.430 | DEBUG    | City field is presented
+
+13:35:37.468 | DEBUG    | City is filled in
+
+13:35:37.474 | DEBUG    | Zipcode field is presented
+
+13:35:37.508 | DEBUG    | Zipcode is filled in
+
+13:35:37.515 | DEBUG    | Mobile number field is presented
+
+13:35:37.552 | DEBUG    | Mobile number is filled in
+
+13:35:38.061 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:35:38.083 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:35:38.083 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:35:38.088 | DEBUG    | Continue button is presented
+
+13:35:38.485 | DEBUG    | Username is correct Logged in as Patrick
+
+13:35:39.784 | DEBUG    | Product Blue Top added, quantity 1
+
+13:35:40.646 | DEBUG    | Product Blue Top added, quantity 2
+
+13:35:41.530 | DEBUG    | Product Men Tshirt added, quantity 1
+
+13:35:42.547 | DEBUG    | Product Men Tshirt added, quantity 2
+
+13:35:42.996 | DEBUG    | Proceed to checkout button clicked
+
+13:35:43.013 | DEBUG    | Name is correct in the delivery information: Mrs. Patrick Davis
+
+13:35:43.028 | DEBUG    | Company name is correct in the delivery information: Santana PLC
+
+13:35:43.042 | DEBUG    | Address 1 is correct in the delivery information: 907 Delgado Crossroad Apt. 521
+
+13:35:43.056 | DEBUG    | Address 2 is correct in the delivery information: Suite 743
+
+13:35:43.070 | DEBUG    | City is correct in the delivery information: North Alec Kansas 12814
+
+13:35:43.085 | DEBUG    | Country is correct in the delivery information: Canada
+
+13:35:43.099 | DEBUG    | Phone is correct in the delivery information: 9552413551
+
+13:35:43.113 | DEBUG    | Name is correct in the billing information: Mrs. Patrick Davis
+
+13:35:43.127 | DEBUG    | Company name is correct in the billing information: Santana PLC
+
+13:35:43.141 | DEBUG    | Address 1 is correct in the billing information: 907 Delgado Crossroad Apt. 521
+
+13:35:43.156 | DEBUG    | Address 2 is correct in the billing information: Suite 743
+
+13:35:43.170 | DEBUG    | City is correct in the billing information: North Alec Kansas 12814
+
+13:35:43.184 | DEBUG    | Country is correct in the billing information: Canada
+
+13:35:43.199 | DEBUG    | Phone is correct in the billing information: 9552413551
+
+13:35:43.210 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+13:35:43.231 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:35:43.240 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:35:43.253 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+13:35:43.253 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+13:35:43.278 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:35:43.291 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:35:43.315 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:35:43.328 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:35:43.385 | DEBUG    | Comment filled in with: Up democratic special while.
+
+13:35:43.529 | DEBUG    | Place order button clicked
+
+13:35:43.580 | DEBUG    | Name on card filled in with: Patrick Davis
+
+13:35:43.630 | DEBUG    | Card number filled in with: 2565872794995055
+
+13:35:43.672 | DEBUG    | CVC filled in with: 138
+
+13:35:43.711 | DEBUG    | Expiry month filled in with: 6
+
+13:35:43.750 | DEBUG    | Expiry year filled in with: 2022
+
+13:35:43.807 | DEBUG    | Pay and confirm button clicked

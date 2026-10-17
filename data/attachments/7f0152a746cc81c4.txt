@@ -1,0 +1,17 @@
+13:34:44.037 | DEBUG    | Login title is presented
+
+13:34:44.049 | DEBUG    | Login title text is correct
+
+13:34:44.055 | DEBUG    | Login email field is presented
+
+13:34:44.061 | DEBUG    | Password field is presented
+
+13:34:44.113 | DEBUG    | Email filled in
+
+13:34:44.150 | DEBUG    | Password filled in
+
+13:34:44.157 | DEBUG    | Login button is presented
+
+13:34:44.800 | DEBUG    | Login button is clicked
+
+13:34:44.820 | DEBUG    | Username is correct Logged in as Lisa

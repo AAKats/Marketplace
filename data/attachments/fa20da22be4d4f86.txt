@@ -1,0 +1,41 @@
+13:35:54.707 | DEBUG    | New user details:
+
+13:35:54.707 | DEBUG    |   name: John
+
+13:35:54.707 | DEBUG    |   email: 9a9c78d3_sullivankimberly@example.net
+
+13:35:54.707 | DEBUG    |   password: OF+4sQgm
+
+13:35:54.707 | DEBUG    |   title: Mr
+
+13:35:54.707 | DEBUG    |   birth_day: 12
+
+13:35:54.707 | DEBUG    |   birth_month: 6
+
+13:35:54.707 | DEBUG    |   birth_year: 1908
+
+13:35:54.707 | DEBUG    |   firstname: John
+
+13:35:54.707 | DEBUG    |   lastname: Harrison
+
+13:35:54.707 | DEBUG    |   company: Buchanan-Mccormick
+
+13:35:54.707 | DEBUG    |   address1: 758 Edward Mills
+
+13:35:54.707 | DEBUG    |   address2: Suite 651
+
+13:35:54.707 | DEBUG    |   country: United States
+
+13:35:54.707 | DEBUG    |   state: Utah
+
+13:35:54.707 | DEBUG    |   city: East Tracy
+
+13:35:54.707 | DEBUG    |   zipcode: 26942
+
+13:35:54.708 | DEBUG    |   mobile_number: 640-673-1704
+
+13:35:54.806 | DEBUG    | Status code correct: 200
+
+13:35:54.806 | DEBUG    | ResponseCode correct: 201
+
+13:35:54.807 | DEBUG    | Response message correct: "User created!"

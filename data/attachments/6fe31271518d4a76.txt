@@ -1,0 +1,73 @@
+13:35:04.070 | DEBUG    | Email filled in
+
+13:35:04.109 | DEBUG    | Password filled in
+
+13:35:04.116 | DEBUG    | Login button is presented
+
+13:35:04.157 | DEBUG    | Login button is clicked
+
+13:35:05.409 | DEBUG    | Username is correct Logged in as Lisa
+
+13:35:06.327 | DEBUG    | Product Blue Top added, quantity 1
+
+13:35:07.197 | DEBUG    | Product Blue Top added, quantity 2
+
+13:35:08.219 | DEBUG    | Product Blue Top added, quantity 3
+
+13:35:08.632 | DEBUG    | Proceed to checkout button clicked
+
+13:35:08.647 | DEBUG    | Name is correct in the delivery information: Mrs. Lisa Brown
+
+13:35:08.662 | DEBUG    | Company name is correct in the delivery information: Sanchez, Roberts and Lara
+
+13:35:08.675 | DEBUG    | Address 1 is correct in the delivery information: 33323 Clark Key
+
+13:35:08.689 | DEBUG    | Address 2 is correct in the delivery information: Suite 620
+
+13:35:08.703 | DEBUG    | City is correct in the delivery information: South Kevinland Maine 38944
+
+13:35:08.717 | DEBUG    | Country is correct in the delivery information: United States
+
+13:35:08.730 | DEBUG    | Phone is correct in the delivery information: 001-873-223-8230
+
+13:35:08.744 | DEBUG    | Name is correct in the billing information: Mrs. Lisa Brown
+
+13:35:08.757 | DEBUG    | Company name is correct in the billing information: Sanchez, Roberts and Lara
+
+13:35:08.772 | DEBUG    | Address 1 is correct in the billing information: 33323 Clark Key
+
+13:35:08.786 | DEBUG    | Address 2 is correct in the billing information: Suite 620
+
+13:35:08.800 | DEBUG    | City is correct in the billing information: South Kevinland Maine 38944
+
+13:35:08.814 | DEBUG    | Country is correct in the billing information: United States
+
+13:35:08.828 | DEBUG    | Phone is correct in the billing information: 001-873-223-8230
+
+13:35:08.838 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+13:35:08.859 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:35:08.868 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+13:35:08.890 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+13:35:08.914 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+13:35:09.003 | DEBUG    | Comment filled in with: Scene benefit grow drug. Crime near individual feel. Husband dog window agree above success town.
+
+13:35:09.158 | DEBUG    | Place order button clicked
+
+13:35:09.208 | DEBUG    | Name on card filled in with: Julia Short
+
+13:35:09.254 | DEBUG    | Card number filled in with: 5217180971967565
+
+13:35:09.297 | DEBUG    | CVC filled in with: 755
+
+13:35:09.335 | DEBUG    | Expiry month filled in with: 2
+
+13:35:09.376 | DEBUG    | Expiry year filled in with: 2024
+
+13:35:10.625 | DEBUG    | Pay and confirm button clicked
+
+13:35:10.674 | DEBUG    | Success message is correct: "Your order has been placed successfully!"

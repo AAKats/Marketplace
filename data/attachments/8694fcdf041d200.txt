@@ -1,0 +1,255 @@
+13:34:25.234 | DEBUG    | Product Blue Top added, quantity 1
+
+13:34:26.100 | DEBUG    | Product Blue Top added, quantity 2
+
+13:34:26.985 | DEBUG    | Product Men Tshirt added, quantity 1
+
+13:34:27.848 | DEBUG    | Product Men Tshirt added, quantity 2
+
+13:34:28.732 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+13:34:29.600 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+13:34:30.484 | DEBUG    | Product Stylish Dress added, quantity 1
+
+13:34:31.348 | DEBUG    | Product Stylish Dress added, quantity 2
+
+13:34:32.231 | DEBUG    | Product Winter Top added, quantity 1
+
+13:34:33.282 | DEBUG    | Product Winter Top added, quantity 2
+
+13:34:33.543 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:34:33.543 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:34:33.543 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:34:33.543 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:34:33.543 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:34:33.562 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:34:33.571 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:34:33.580 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+13:34:33.589 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+13:34:33.597 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+13:34:33.621 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:34:33.634 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:34:33.648 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+13:34:33.661 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+13:34:33.675 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+13:34:33.699 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:34:33.712 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:34:33.725 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+13:34:33.739 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+13:34:33.752 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+13:34:33.798 | DEBUG    | Proceed to checkout button clicked
+
+13:34:33.949 | DEBUG    | Register via modal button clicked
+
+13:34:33.961 | DEBUG    | New user Signup title is presented
+
+13:34:33.970 | DEBUG    | New user Signup title text is correct
+
+13:34:33.976 | DEBUG    | Signup email field is presented
+
+13:34:33.982 | DEBUG    | Signup name field is presented
+
+13:34:34.039 | DEBUG    | Email signup field filled
+
+13:34:34.074 | DEBUG    | Name signup field filled
+
+13:34:34.116 | DEBUG    | Signup button is clicked
+
+13:34:34.653 | DEBUG    | Account information title is presented
+
+13:34:34.662 | DEBUG    | Account information title text is correct
+
+13:34:34.688 | DEBUG    | Mr radiobutton is presented
+
+13:34:34.693 | DEBUG    | Mrs radiobutton is presented
+
+13:34:34.736 | DEBUG    | Selected MRS title
+
+13:34:34.743 | DEBUG    | Password field is presented
+
+13:34:34.782 | DEBUG    | Password is filled in
+
+13:34:34.789 | DEBUG    | Day of birth list is presented
+
+13:34:34.835 | DEBUG    | Day of birth selected
+
+13:34:34.841 | DEBUG    | Month of birth list is presented
+
+13:34:34.881 | DEBUG    | Month of birth selected
+
+13:34:34.888 | DEBUG    | Year of birth list is presented
+
+13:34:34.927 | DEBUG    | Year of birth selected
+
+13:34:34.927 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+13:34:34.927 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+13:34:34.934 | DEBUG    | First name field is presented
+
+13:34:34.969 | DEBUG    | First name is filled in
+
+13:34:34.976 | DEBUG    | Last name field is presented
+
+13:34:35.010 | DEBUG    | Last name is filled in
+
+13:34:35.018 | DEBUG    | Company field is presented
+
+13:34:35.057 | DEBUG    | Company is filled in
+
+13:34:35.065 | DEBUG    | Address 1 field is presented
+
+13:34:35.107 | DEBUG    | Address 1 is filled in
+
+13:34:35.114 | DEBUG    | Address 2 field is presented
+
+13:34:35.151 | DEBUG    | Address 2 is filled in
+
+13:34:35.184 | DEBUG    | State field is presented
+
+13:34:35.220 | DEBUG    | State is filled in
+
+13:34:35.227 | DEBUG    | City field is presented
+
+13:34:35.266 | DEBUG    | City is filled in
+
+13:34:35.275 | DEBUG    | Zipcode field is presented
+
+13:34:35.309 | DEBUG    | Zipcode is filled in
+
+13:34:35.317 | DEBUG    | Mobile number field is presented
+
+13:34:35.357 | DEBUG    | Mobile number is filled in
+
+13:34:36.091 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:34:36.124 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:34:36.124 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:34:36.133 | DEBUG    | Continue button is presented
+
+13:34:36.711 | DEBUG    | Username is correct Logged in as Julia
+
+13:34:37.301 | DEBUG    | Proceed to checkout button clicked
+
+13:34:37.318 | DEBUG    | Name is correct in the delivery information: Mrs. Julia Short
+
+13:34:37.332 | DEBUG    | Company name is correct in the delivery information: Shaw and Sons
+
+13:34:37.346 | DEBUG    | Address 1 is correct in the delivery information: 471 Elizabeth Cape
+
+13:34:37.360 | DEBUG    | Address 2 is correct in the delivery information: Suite 527
+
+13:34:37.374 | DEBUG    | City is correct in the delivery information: Andersonshire Montana 33785
+
+13:34:37.388 | DEBUG    | Country is correct in the delivery information: India
+
+13:34:37.403 | DEBUG    | Phone is correct in the delivery information: 656.414.7140x023
+
+13:34:37.417 | DEBUG    | Name is correct in the billing information: Mrs. Julia Short
+
+13:34:37.432 | DEBUG    | Company name is correct in the billing information: Shaw and Sons
+
+13:34:37.446 | DEBUG    | Address 1 is correct in the billing information: 471 Elizabeth Cape
+
+13:34:37.460 | DEBUG    | Address 2 is correct in the billing information: Suite 527
+
+13:34:37.474 | DEBUG    | City is correct in the billing information: Andersonshire Montana 33785
+
+13:34:37.487 | DEBUG    | Country is correct in the billing information: India
+
+13:34:37.501 | DEBUG    | Phone is correct in the billing information: 656.414.7140x023
+
+13:34:37.528 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:34:37.528 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:34:37.528 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:34:37.528 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:34:37.528 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:34:37.546 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:34:37.555 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:34:37.565 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+13:34:37.574 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+13:34:37.584 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+13:34:37.605 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:34:37.619 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:34:37.633 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+13:34:37.646 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+13:34:37.659 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+13:34:37.681 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:34:37.695 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:34:37.709 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+13:34:37.722 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+13:34:37.736 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+13:34:37.818 | DEBUG    | Comment filled in with: Perform north provide practice prepare food. Turn rule ok direction price enjoy.
+
+13:34:37.969 | DEBUG    | Place order button clicked
+
+13:34:38.020 | DEBUG    | Name on card filled in with: Julia Short
+
+13:34:38.069 | DEBUG    | Card number filled in with: 3537489581759686
+
+13:34:38.112 | DEBUG    | CVC filled in with: 063
+
+13:34:38.152 | DEBUG    | Expiry month filled in with: 4
+
+13:34:38.191 | DEBUG    | Expiry year filled in with: 2025
+
+13:34:38.250 | DEBUG    | Pay and confirm button clicked
+
+13:34:39.590 | DEBUG    | Download invoice button clicked
+
+13:34:39.591 | DEBUG    | File downloaded: /home/runner/work/Marketplace/Marketplace/temp/.com.google.Chrome.Cg2SUA
+
+13:34:39.591 | DEBUG    | Invoice content is valid
+
+13:34:39.727 | DEBUG    | Continue button clicked
+
+13:34:39.931 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+13:34:39.932 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+13:34:39.932 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+13:34:40.287 | DEBUG    | Continue button clicked
