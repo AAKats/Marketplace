@@ -1,0 +1,46 @@
+New user details:
+  name: Mary
+  email: 9e0a18d6_ortizjohn@example.net
+  password: #ZYq7Jn6
+  title: Mr
+  birth_day: 17
+  birth_month: 12
+  birth_year: 1908
+  firstname: Mary
+  lastname: Ortega
+  company: Serrano-Gonzalez
+  address1: 216 George Trace Apt. 871
+  address2: Apt. 410
+  country: India
+  state: Oregon
+  city: East Angelfort
+  zipcode: 12908
+  mobile_number: 542.276.9675x9254
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Status code correct: 200
+ResponseCode correct: 200
+Response contains key: "user"
+User details not empty: 16 fields
+User detail with name = 3063097 contains field: "id"
+User detail with name = 3063097 contains field: "name"
+User detail with name = 3063097 contains field: "email"
+User detail with name = 3063097 contains field: "title"
+User detail with name = 3063097 contains field: "birth_day"
+User detail with name = 3063097 contains field: "birth_month"
+User detail with name = 3063097 contains field: "birth_year"
+User detail with name = 3063097 contains field: "first_name"
+User detail with name = 3063097 contains field: "last_name"
+User detail with name = 3063097 contains field: "company"
+User detail with name = 3063097 contains field: "address1"
+User detail with name = 3063097 contains field: "address2"
+User detail with name = 3063097 contains field: "country"
+User detail with name = 3063097 contains field: "state"
+User detail with name = 3063097 contains field: "city"
+User detail with name = 3063097 contains field: "zipcode"
+Status code correct: 200
+ResponseCode correct: 200
+ResponseCode correct: 200
+Payload field "email" correct: "9e0a18d6_ortizjohn@example.net"
+Тестовый пользователь удалён

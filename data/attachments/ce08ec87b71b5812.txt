@@ -1,0 +1,24 @@
+New user details:
+  name: Donna
+  email: 46679074_madisonburton@example.org
+  password: jem!+4Qs
+  title: Mrs
+  birth_day: 8
+  birth_month: 3
+  birth_year: 1970
+  firstname: Donna
+  lastname: Richardson
+  company: Mccarthy-Smith
+  address1: 3720 Frank Crossing
+  address2: Suite 269
+  country: India
+  state: Tennessee
+  city: Robertstad
+  zipcode: 69650
+  mobile_number: 362-277-3363x548
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "Account deleted!"

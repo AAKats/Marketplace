@@ -1,0 +1,42 @@
+New user details:
+  name: Elizabeth
+  email: b64ce8fb_weaverbenjamin@example.com
+  password: 3(!8AagV
+  title: Mr
+  birth_day: 16
+  birth_month: 10
+  birth_year: 1999
+  firstname: Elizabeth
+  lastname: Henry
+  company: Barnett Ltd
+  address1: 289 Kenneth Run Apt. 153
+  address2: Suite 748
+  country: New Zealand
+  state: South Dakota
+  city: Nortonshire
+  zipcode: 49373
+  mobile_number: 001-279-681-9338x610
+Status code correct: 200
+ResponseCode correct: 201
+Response message correct: "User created!"
+Updated user details:
+  name: Elizabeth
+  email: b64ce8fb_weaverbenjamin@example.com
+  password: 3(!8AagV
+  title: Mr
+  birth_day: 16
+  birth_month: 10
+  birth_year: 1999
+  firstname: Elizabeth
+  lastname: Henry
+  company: Barnett Ltd
+  address1: 289 Kenneth Run Apt. 153
+  address2: Suite 748
+  country: New Zealand
+  state: South Dakota
+  city: Nortonshire
+  zipcode: 49373
+  mobile_number: 001-279-681-9338x610
+Status code correct: 200
+ResponseCode correct: 200
+Response message correct: "User updated!"

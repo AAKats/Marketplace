@@ -1,0 +1,41 @@
+Home page link is correct
+Login link is correct
+Email filled in
+Password filled in
+Login button is presented
+Login button is clicked
+Home page link is correct
+Username is correct Logged in as Thomas
+Product Blue Top added, quantity 1
+Product Blue Top added, quantity 2
+Product Blue Top added, quantity 3
+/view_cart link is correct
+Proceed to checkout button clicked
+Name is correct in the delivery information: Mrs. Thomas Murray
+Company name is correct in the delivery information: Garner Group
+Address 1 is correct in the delivery information: 4967 Taylor Trafficway
+Address 2 is correct in the delivery information: Apt. 730
+City is correct in the delivery information: Ellisside Delaware 23959
+Country is correct in the delivery information: Singapore
+Phone is correct in the delivery information: 858.420.8716x6326
+Name is correct in the billing information: Mrs. Thomas Murray
+Company name is correct in the billing information: Garner Group
+Address 1 is correct in the billing information: 4967 Taylor Trafficway
+Address 2 is correct in the billing information: Apt. 730
+City is correct in the billing information: Ellisside Delaware 23959
+Country is correct in the billing information: Singapore
+Phone is correct in the billing information: 858.420.8716x6326
+Count of products in cart 1 is equal to count of added products 1
+Product Blue Top price in cart: 500 matches added price: 500
+Product: Blue Top found in cart: Blue Top
+Product Blue Top quantity in cart: 3 matches added quantity: 3
+Product Blue Top total in cart: 1500 matches expected total: 1500
+Comment filled in with: Type model hard various opportunity medical reason fall. Young experience professor bed.
+Place order button clicked
+/payment link is correct
+Name on card filled in with: Daniel Thompson
+Card number filled in with: 4661262021810820476
+CVC filled in with: 679
+Expiry month filled in with: 11
+Expiry year filled in with: 2023
+Pay and confirm button clicked

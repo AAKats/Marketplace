@@ -1,0 +1,8 @@
+Home page link is correct
+View button for the 11 product from the start (id = 14) clicked
+Product_details/14 link is correct
+Review name field filled in with "Terri Bailey"
+Review email field filled in with "692adec5_shannon55@example.net"
+Review message field filled in with "Feel set trip per. Degree new among Democrat none hundred miss. Above good maintain decade adult."
+Submit review button clicked
+Success review message is displayed
