@@ -1,0 +1,17 @@
+10:17:10.759 | DEBUG    | Login title is presented
+
+10:17:10.769 | DEBUG    | Login title text is correct
+
+10:17:10.775 | DEBUG    | Login email field is presented
+
+10:17:10.779 | DEBUG    | Password field is presented
+
+10:17:10.815 | DEBUG    | Email filled in
+
+10:17:10.843 | DEBUG    | Password filled in
+
+10:17:10.849 | DEBUG    | Login button is presented
+
+10:17:11.584 | DEBUG    | Login button is clicked
+
+10:17:11.599 | DEBUG    | Username is correct Logged in as Mary

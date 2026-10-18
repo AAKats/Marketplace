@@ -1,0 +1,73 @@
+10:17:31.002 | DEBUG    | Email filled in
+
+10:17:31.030 | DEBUG    | Password filled in
+
+10:17:31.035 | DEBUG    | Login button is presented
+
+10:17:31.065 | DEBUG    | Login button is clicked
+
+10:17:31.763 | DEBUG    | Username is correct Logged in as Mary
+
+10:17:32.652 | DEBUG    | Product Blue Top added, quantity 1
+
+10:17:33.496 | DEBUG    | Product Blue Top added, quantity 2
+
+10:17:34.545 | DEBUG    | Product Blue Top added, quantity 3
+
+10:17:35.041 | DEBUG    | Proceed to checkout button clicked
+
+10:17:35.052 | DEBUG    | Name is correct in the delivery information: Mrs. Mary Garcia
+
+10:17:35.061 | DEBUG    | Company name is correct in the delivery information: Miles, Crawford and Oconnell
+
+10:17:35.070 | DEBUG    | Address 1 is correct in the delivery information: 2406 Pamela Meadows
+
+10:17:35.079 | DEBUG    | Address 2 is correct in the delivery information: Suite 011
+
+10:17:35.088 | DEBUG    | City is correct in the delivery information: South Maurice New York 79250
+
+10:17:35.097 | DEBUG    | Country is correct in the delivery information: India
+
+10:17:35.107 | DEBUG    | Phone is correct in the delivery information: +1-871-582-7299
+
+10:17:35.116 | DEBUG    | Name is correct in the billing information: Mrs. Mary Garcia
+
+10:17:35.125 | DEBUG    | Company name is correct in the billing information: Miles, Crawford and Oconnell
+
+10:17:35.135 | DEBUG    | Address 1 is correct in the billing information: 2406 Pamela Meadows
+
+10:17:35.144 | DEBUG    | Address 2 is correct in the billing information: Suite 011
+
+10:17:35.153 | DEBUG    | City is correct in the billing information: South Maurice New York 79250
+
+10:17:35.162 | DEBUG    | Country is correct in the billing information: India
+
+10:17:35.171 | DEBUG    | Phone is correct in the billing information: +1-871-582-7299
+
+10:17:35.179 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+10:17:35.192 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+10:17:35.197 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+10:17:35.211 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+10:17:35.225 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+10:17:35.276 | DEBUG    | Comment filled in with: Quality child executive pass wall view blue. Trouble through person case bed.
+
+10:17:35.455 | DEBUG    | Place order button clicked
+
+10:17:35.491 | DEBUG    | Name on card filled in with: Shannon Burns
+
+10:17:35.521 | DEBUG    | Card number filled in with: 3596659258109443
+
+10:17:35.551 | DEBUG    | CVC filled in with: 448
+
+10:17:35.580 | DEBUG    | Expiry month filled in with: 1
+
+10:17:35.609 | DEBUG    | Expiry year filled in with: 2020
+
+10:17:36.921 | DEBUG    | Pay and confirm button clicked
+
+10:17:36.960 | DEBUG    | Success message is correct: "Your order has been placed successfully!"

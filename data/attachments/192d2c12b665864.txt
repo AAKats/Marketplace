@@ -1,0 +1,39 @@
+10:17:08.371 | DEBUG    | Main title is presented
+
+10:17:08.388 | DEBUG    | Main title is correct: CONTACT US
+
+10:17:08.392 | DEBUG    | Second title is presented
+
+10:17:08.403 | DEBUG    | Second title is correct: GET IN TOUCH
+
+10:17:08.409 | DEBUG    | Name field is presented
+
+10:17:08.436 | DEBUG    | Name field filled in with: Ashley
+
+10:17:08.442 | DEBUG    | Email field is presented
+
+10:17:08.470 | DEBUG    | Email field filled in with: 0b7a2296_emily89@example.net
+
+10:17:08.476 | DEBUG    | Subject field is presented
+
+10:17:08.499 | DEBUG    | Subject field filled in with: Bit week.
+
+10:17:08.503 | DEBUG    | Message field is presented
+
+10:17:08.524 | DEBUG    | Message field filled in with: Catch base today protect couple.
+
+10:17:08.529 | DEBUG    | Upload field is presented
+
+10:17:08.539 | DEBUG    | File uploaded
+
+10:17:08.544 | DEBUG    | Submit button is presented
+
+10:17:08.591 | DEBUG    | Alert is presented
+
+10:17:08.612 | DEBUG    | Success message is presented
+
+10:17:08.613 | DEBUG    | Success message is correct
+
+10:17:08.616 | DEBUG    | Home button is presented
+
+10:17:09.773 | DEBUG    | Home button is clicked

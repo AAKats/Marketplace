@@ -1,0 +1,255 @@
+10:16:50.159 | DEBUG    | Product Blue Top added, quantity 1
+
+10:16:51.002 | DEBUG    | Product Blue Top added, quantity 2
+
+10:16:51.848 | DEBUG    | Product Men Tshirt added, quantity 1
+
+10:16:52.680 | DEBUG    | Product Men Tshirt added, quantity 2
+
+10:16:53.531 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+10:16:54.363 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+10:16:55.212 | DEBUG    | Product Stylish Dress added, quantity 1
+
+10:16:56.045 | DEBUG    | Product Stylish Dress added, quantity 2
+
+10:16:56.881 | DEBUG    | Product Winter Top added, quantity 1
+
+10:16:57.952 | DEBUG    | Product Winter Top added, quantity 2
+
+10:16:58.522 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+10:16:58.522 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+10:16:58.522 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+10:16:58.522 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+10:16:58.522 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+10:16:58.535 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+10:16:58.541 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+10:16:58.547 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+10:16:58.553 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+10:16:58.559 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+10:16:58.575 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+10:16:58.583 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+10:16:58.592 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+10:16:58.600 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+10:16:58.610 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+10:16:58.627 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+10:16:58.635 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+10:16:58.646 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+10:16:58.656 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+10:16:58.665 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+10:16:58.699 | DEBUG    | Proceed to checkout button clicked
+
+10:16:58.897 | DEBUG    | Register via modal button clicked
+
+10:16:58.904 | DEBUG    | New user Signup title is presented
+
+10:16:58.912 | DEBUG    | New user Signup title text is correct
+
+10:16:58.916 | DEBUG    | Signup email field is presented
+
+10:16:58.920 | DEBUG    | Signup name field is presented
+
+10:16:58.956 | DEBUG    | Email signup field filled
+
+10:16:58.981 | DEBUG    | Name signup field filled
+
+10:16:59.151 | DEBUG    | Signup button is clicked
+
+10:16:59.162 | DEBUG    | Account information title is presented
+
+10:16:59.167 | DEBUG    | Account information title text is correct
+
+10:16:59.185 | DEBUG    | Mr radiobutton is presented
+
+10:16:59.189 | DEBUG    | Mrs radiobutton is presented
+
+10:16:59.217 | DEBUG    | Selected MRS title
+
+10:16:59.222 | DEBUG    | Password field is presented
+
+10:16:59.251 | DEBUG    | Password is filled in
+
+10:16:59.258 | DEBUG    | Day of birth list is presented
+
+10:16:59.292 | DEBUG    | Day of birth selected
+
+10:16:59.297 | DEBUG    | Month of birth list is presented
+
+10:16:59.323 | DEBUG    | Month of birth selected
+
+10:16:59.328 | DEBUG    | Year of birth list is presented
+
+10:16:59.353 | DEBUG    | Year of birth selected
+
+10:16:59.354 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+10:16:59.354 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+10:16:59.359 | DEBUG    | First name field is presented
+
+10:16:59.382 | DEBUG    | First name is filled in
+
+10:16:59.387 | DEBUG    | Last name field is presented
+
+10:16:59.413 | DEBUG    | Last name is filled in
+
+10:16:59.418 | DEBUG    | Company field is presented
+
+10:16:59.442 | DEBUG    | Company is filled in
+
+10:16:59.447 | DEBUG    | Address 1 field is presented
+
+10:16:59.480 | DEBUG    | Address 1 is filled in
+
+10:16:59.485 | DEBUG    | Address 2 field is presented
+
+10:16:59.512 | DEBUG    | Address 2 is filled in
+
+10:16:59.549 | DEBUG    | State field is presented
+
+10:16:59.573 | DEBUG    | State is filled in
+
+10:16:59.579 | DEBUG    | City field is presented
+
+10:16:59.604 | DEBUG    | City is filled in
+
+10:16:59.611 | DEBUG    | Zipcode field is presented
+
+10:16:59.637 | DEBUG    | Zipcode is filled in
+
+10:16:59.643 | DEBUG    | Mobile number field is presented
+
+10:16:59.669 | DEBUG    | Mobile number is filled in
+
+10:17:00.209 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+10:17:00.222 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+10:17:00.222 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+10:17:00.227 | DEBUG    | Continue button is presented
+
+10:17:00.705 | DEBUG    | Username is correct Logged in as Shannon
+
+10:17:01.352 | DEBUG    | Proceed to checkout button clicked
+
+10:17:01.368 | DEBUG    | Name is correct in the delivery information: Mrs. Shannon Burns
+
+10:17:01.380 | DEBUG    | Company name is correct in the delivery information: Dunn LLC
+
+10:17:01.392 | DEBUG    | Address 1 is correct in the delivery information: 4066 Fitzgerald Parkway Suite 400
+
+10:17:01.408 | DEBUG    | Address 2 is correct in the delivery information: Suite 947
+
+10:17:01.421 | DEBUG    | City is correct in the delivery information: West Brittney Vermont 35092
+
+10:17:01.435 | DEBUG    | Country is correct in the delivery information: United States
+
+10:17:01.446 | DEBUG    | Phone is correct in the delivery information: 858.201.4918x63574
+
+10:17:01.455 | DEBUG    | Name is correct in the billing information: Mrs. Shannon Burns
+
+10:17:01.465 | DEBUG    | Company name is correct in the billing information: Dunn LLC
+
+10:17:01.476 | DEBUG    | Address 1 is correct in the billing information: 4066 Fitzgerald Parkway Suite 400
+
+10:17:01.486 | DEBUG    | Address 2 is correct in the billing information: Suite 947
+
+10:17:01.495 | DEBUG    | City is correct in the billing information: West Brittney Vermont 35092
+
+10:17:01.505 | DEBUG    | Country is correct in the billing information: United States
+
+10:17:01.517 | DEBUG    | Phone is correct in the billing information: 858.201.4918x63574
+
+10:17:01.552 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+10:17:01.552 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+10:17:01.552 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+10:17:01.552 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+10:17:01.552 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+10:17:01.566 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+10:17:01.573 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+10:17:01.579 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+10:17:01.585 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+10:17:01.591 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+10:17:01.606 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+10:17:01.616 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+10:17:01.626 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+10:17:01.635 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+10:17:01.644 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+10:17:01.660 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+10:17:01.670 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+10:17:01.681 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+10:17:01.691 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+10:17:01.700 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+10:17:01.763 | DEBUG    | Comment filled in with: About environment term member collection address. Third yard any mean week.
+
+10:17:01.965 | DEBUG    | Place order button clicked
+
+10:17:02.004 | DEBUG    | Name on card filled in with: Shannon Burns
+
+10:17:02.036 | DEBUG    | Card number filled in with: 4457316740669
+
+10:17:02.065 | DEBUG    | CVC filled in with: 348
+
+10:17:02.096 | DEBUG    | Expiry month filled in with: 9
+
+10:17:02.125 | DEBUG    | Expiry year filled in with: 2023
+
+10:17:03.427 | DEBUG    | Pay and confirm button clicked
+
+10:17:03.590 | DEBUG    | Download invoice button clicked
+
+10:17:03.590 | DEBUG    | File downloaded: /home/runner/work/Marketplace/Marketplace/temp/.com.google.Chrome.Nv5Rw6
+
+10:17:03.590 | DEBUG    | Invoice content is valid
+
+10:17:03.735 | DEBUG    | Continue button clicked
+
+10:17:03.929 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+10:17:03.929 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+10:17:03.929 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+10:17:06.025 | DEBUG    | Continue button clicked

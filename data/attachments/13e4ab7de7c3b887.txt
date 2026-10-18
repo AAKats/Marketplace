@@ -1,0 +1,13 @@
+10:16:07.386 | DEBUG    | Product "Printed Off Shoulder Top - White" (ID: 15) opened
+
+10:16:07.435 | DEBUG    | Quantity = 9 selected
+
+10:16:07.468 | DEBUG    | Product was added to cart
+
+10:16:08.233 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+10:16:08.240 | DEBUG    | Product: Printed Off Shoulder Top - White found in cart: Printed Off Shoulder Top - White
+
+10:16:08.252 | DEBUG    | Product Printed Off Shoulder Top - White price in cart: 315 matches added price: 315
+
+10:16:08.266 | DEBUG    | Product Printed Off Shoulder Top - White quantity in cart: 9 matches added quantity: 9
