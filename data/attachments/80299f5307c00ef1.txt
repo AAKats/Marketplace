@@ -1,0 +1,39 @@
+11:55:47.069 | DEBUG    | Main title is presented
+
+11:55:47.083 | DEBUG    | Main title is correct: CONTACT US
+
+11:55:47.086 | DEBUG    | Second title is presented
+
+11:55:47.097 | DEBUG    | Second title is correct: GET IN TOUCH
+
+11:55:47.102 | DEBUG    | Name field is presented
+
+11:55:47.126 | DEBUG    | Name field filled in with: Ryan
+
+11:55:47.130 | DEBUG    | Email field is presented
+
+11:55:47.157 | DEBUG    | Email field filled in with: e886aeba_msoto@example.com
+
+11:55:47.162 | DEBUG    | Subject field is presented
+
+11:55:47.184 | DEBUG    | Subject field filled in with: Start.
+
+11:55:47.188 | DEBUG    | Message field is presented
+
+11:55:47.225 | DEBUG    | Message field filled in with: Civil fact executive enough wonder generation short. Organization owner since defense list economy.
+
+11:55:47.230 | DEBUG    | Upload field is presented
+
+11:55:47.240 | DEBUG    | File uploaded
+
+11:55:47.244 | DEBUG    | Submit button is presented
+
+11:55:47.285 | DEBUG    | Alert is presented
+
+11:55:47.305 | DEBUG    | Success message is presented
+
+11:55:47.305 | DEBUG    | Success message is correct
+
+11:55:47.308 | DEBUG    | Home button is presented
+
+11:55:48.696 | DEBUG    | Home button is clicked

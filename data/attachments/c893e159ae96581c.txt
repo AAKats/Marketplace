@@ -1,0 +1,41 @@
+11:57:08.104 | DEBUG    | New user details:
+
+11:57:08.104 | DEBUG    |   name: Angela
+
+11:57:08.104 | DEBUG    |   email: a3cb3f33_ithomas@example.org
+
+11:57:08.104 | DEBUG    |   password: ^8j6BBfp
+
+11:57:08.104 | DEBUG    |   title: Mrs
+
+11:57:08.104 | DEBUG    |   birth_day: 1
+
+11:57:08.104 | DEBUG    |   birth_month: 3
+
+11:57:08.104 | DEBUG    |   birth_year: 1917
+
+11:57:08.104 | DEBUG    |   firstname: Angela
+
+11:57:08.104 | DEBUG    |   lastname: Fitzgerald
+
+11:57:08.104 | DEBUG    |   company: Jones Inc
+
+11:57:08.104 | DEBUG    |   address1: 603 Morales Unions
+
+11:57:08.104 | DEBUG    |   address2: Apt. 031
+
+11:57:08.104 | DEBUG    |   country: Israel
+
+11:57:08.104 | DEBUG    |   state: New York
+
+11:57:08.104 | DEBUG    |   city: West Louisburgh
+
+11:57:08.104 | DEBUG    |   zipcode: 41477
+
+11:57:08.104 | DEBUG    |   mobile_number: 668.546.6837x96619
+
+11:57:08.222 | DEBUG    | Status code correct: 200
+
+11:57:08.222 | DEBUG    | ResponseCode correct: 201
+
+11:57:08.222 | DEBUG    | Response message correct: "User created!"

@@ -1,0 +1,47 @@
+11:57:08.228 | DEBUG    | New user details:
+
+11:57:08.228 | DEBUG    |   name: Kevin
+
+11:57:08.228 | DEBUG    |   email: cc8bf0b8_william76@example.com
+
+11:57:08.228 | DEBUG    |   password: v!sUU7Eq
+
+11:57:08.228 | DEBUG    |   title: Mrs
+
+11:57:08.228 | DEBUG    |   birth_day: 14
+
+11:57:08.228 | DEBUG    |   birth_month: 3
+
+11:57:08.228 | DEBUG    |   birth_year: 1956
+
+11:57:08.228 | DEBUG    |   firstname: Kevin
+
+11:57:08.228 | DEBUG    |   lastname: Calhoun
+
+11:57:08.228 | DEBUG    |   company: Gardner Inc
+
+11:57:08.228 | DEBUG    |   address1: 339 Wilcox Plains Apt. 489
+
+11:57:08.228 | DEBUG    |   address2: Apt. 356
+
+11:57:08.229 | DEBUG    |   country: Israel
+
+11:57:08.229 | DEBUG    |   state: Mississippi
+
+11:57:08.229 | DEBUG    |   city: North Nathanfort
+
+11:57:08.229 | DEBUG    |   zipcode: 08504
+
+11:57:08.229 | DEBUG    |   mobile_number: 733.346.8524
+
+11:57:08.372 | DEBUG    | Status code correct: 200
+
+11:57:08.372 | DEBUG    | ResponseCode correct: 201
+
+11:57:08.372 | DEBUG    | Response message correct: "User created!"
+
+11:57:08.489 | DEBUG    | Status code correct: 200
+
+11:57:08.489 | DEBUG    | ResponseCode correct: 200
+
+11:57:08.489 | DEBUG    | Response message correct: "Account deleted!"

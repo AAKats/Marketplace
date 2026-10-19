@@ -1,0 +1,72 @@
+11:56:14.549 | DEBUG    | Email filled in
+
+11:56:14.572 | DEBUG    | Password filled in
+
+11:56:14.576 | DEBUG    | Login button is presented
+
+11:56:15.686 | DEBUG    | Login button is clicked
+
+11:56:15.700 | DEBUG    | Username is correct Logged in as Elizabeth
+
+11:56:16.552 | DEBUG    | Product Blue Top added, quantity 1
+
+11:56:17.376 | DEBUG    | Product Blue Top added, quantity 2
+
+11:56:18.441 | DEBUG    | Product Blue Top added, quantity 3
+
+11:56:18.944 | DEBUG    | Proceed to checkout button clicked
+
+11:56:18.955 | DEBUG    | Name is correct in the delivery information: Mr. Elizabeth Greene
+
+11:56:18.964 | DEBUG    | Company name is correct in the delivery information: Hendricks PLC
+
+11:56:18.972 | DEBUG    | Address 1 is correct in the delivery information: 0500 Watson Spur
+
+11:56:18.980 | DEBUG    | Address 2 is correct in the delivery information: Suite 123
+
+11:56:18.988 | DEBUG    | City is correct in the delivery information: Port Nathan Wyoming 49490
+
+11:56:18.996 | DEBUG    | Country is correct in the delivery information: United States
+
+11:56:19.004 | DEBUG    | Phone is correct in the delivery information: +1-289-705-0288x4480
+
+11:56:19.012 | DEBUG    | Name is correct in the billing information: Mr. Elizabeth Greene
+
+11:56:19.020 | DEBUG    | Company name is correct in the billing information: Hendricks PLC
+
+11:56:19.029 | DEBUG    | Address 1 is correct in the billing information: 0500 Watson Spur
+
+11:56:19.038 | DEBUG    | Address 2 is correct in the billing information: Suite 123
+
+11:56:19.046 | DEBUG    | City is correct in the billing information: Port Nathan Wyoming 49490
+
+11:56:19.054 | DEBUG    | Country is correct in the billing information: United States
+
+11:56:19.062 | DEBUG    | Phone is correct in the billing information: +1-289-705-0288x4480
+
+11:56:19.068 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+11:56:19.080 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:56:19.085 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+11:56:19.098 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+11:56:19.111 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+11:56:19.155 | DEBUG    | Comment filled in with: Later get week law occur song single.
+Method only ready bring. Want catch most official.
+
+11:56:19.666 | DEBUG    | Place order button clicked
+
+11:56:19.695 | DEBUG    | Name on card filled in with: Alexander Oconnor
+
+11:56:19.720 | DEBUG    | Card number filled in with: 6011489070356182
+
+11:56:19.744 | DEBUG    | CVC filled in with: 204
+
+11:56:19.768 | DEBUG    | Expiry month filled in with: 1
+
+11:56:19.792 | DEBUG    | Expiry year filled in with: 2022
+
+11:56:19.826 | DEBUG    | Pay and confirm button clicked

@@ -1,0 +1,3 @@
+>>> fill_signup_email, URL: https://automationexercise.com/login
+Элемент не найден в выпадающем списке: Message: Cannot locate option with value: 2022; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+

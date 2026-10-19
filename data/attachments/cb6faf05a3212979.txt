@@ -1,1 +1,0 @@
->>> fill_signup_email, URL: https://automationexercise.com/login

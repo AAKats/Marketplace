@@ -1,0 +1,171 @@
+11:56:57.736 | DEBUG    | New user Signup title is presented
+
+11:56:57.743 | DEBUG    | New user Signup title text is correct
+
+11:56:57.747 | DEBUG    | Signup email field is presented
+
+11:56:57.750 | DEBUG    | Signup name field is presented
+
+11:56:57.785 | DEBUG    | Email signup field filled
+
+11:56:57.806 | DEBUG    | Name signup field filled
+
+11:56:57.833 | DEBUG    | Signup button is clicked
+
+11:56:58.358 | DEBUG    | Account information title is presented
+
+11:56:58.364 | DEBUG    | Account information title text is correct
+
+11:56:58.379 | DEBUG    | Mr radiobutton is presented
+
+11:56:58.383 | DEBUG    | Mrs radiobutton is presented
+
+11:56:58.407 | DEBUG    | Selected MR title
+
+11:56:58.411 | DEBUG    | Password field is presented
+
+11:56:58.435 | DEBUG    | Password is filled in
+
+11:56:58.440 | DEBUG    | Day of birth list is presented
+
+11:56:58.469 | DEBUG    | Day of birth selected
+
+11:56:58.473 | DEBUG    | Month of birth list is presented
+
+11:56:58.499 | DEBUG    | Month of birth selected
+
+11:56:58.503 | DEBUG    | Year of birth list is presented
+
+11:56:58.527 | DEBUG    | Year of birth selected
+
+11:56:58.527 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+11:56:58.554 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+11:56:58.559 | DEBUG    | First name field is presented
+
+11:56:58.583 | DEBUG    | First name is filled in
+
+11:56:58.587 | DEBUG    | Last name field is presented
+
+11:56:58.608 | DEBUG    | Last name is filled in
+
+11:56:58.613 | DEBUG    | Company field is presented
+
+11:56:58.635 | DEBUG    | Company is filled in
+
+11:56:58.639 | DEBUG    | Address 1 field is presented
+
+11:56:58.664 | DEBUG    | Address 1 is filled in
+
+11:56:58.668 | DEBUG    | Address 2 field is presented
+
+11:56:58.691 | DEBUG    | Address 2 is filled in
+
+11:56:58.721 | DEBUG    | State field is presented
+
+11:56:58.743 | DEBUG    | State is filled in
+
+11:56:58.749 | DEBUG    | City field is presented
+
+11:56:58.772 | DEBUG    | City is filled in
+
+11:56:58.776 | DEBUG    | Zipcode field is presented
+
+11:56:58.797 | DEBUG    | Zipcode is filled in
+
+11:56:58.802 | DEBUG    | Mobile number field is presented
+
+11:56:58.824 | DEBUG    | Mobile number is filled in
+
+11:56:59.341 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+11:56:59.354 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+11:56:59.355 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+11:56:59.358 | DEBUG    | Continue button is presented
+
+11:56:59.907 | DEBUG    | Username is correct Logged in as Jonathan
+
+11:57:01.365 | DEBUG    | Product Blue Top added, quantity 1
+
+11:57:02.209 | DEBUG    | Product Blue Top added, quantity 2
+
+11:57:03.061 | DEBUG    | Product Men Tshirt added, quantity 1
+
+11:57:04.136 | DEBUG    | Product Men Tshirt added, quantity 2
+
+11:57:04.787 | DEBUG    | Proceed to checkout button clicked
+
+11:57:04.797 | DEBUG    | Name is correct in the delivery information: Mr. Jonathan Howe
+
+11:57:04.805 | DEBUG    | Company name is correct in the delivery information: Lopez-Davis
+
+11:57:04.814 | DEBUG    | Address 1 is correct in the delivery information: 3630 Clark Alley
+
+11:57:04.824 | DEBUG    | Address 2 is correct in the delivery information: Suite 332
+
+11:57:04.834 | DEBUG    | City is correct in the delivery information: New Patrickview Minnesota 98441
+
+11:57:04.845 | DEBUG    | Country is correct in the delivery information: United States
+
+11:57:04.875 | DEBUG    | Phone is correct in the delivery information: 452.382.0076x25744
+
+11:57:04.883 | DEBUG    | Name is correct in the billing information: Mr. Jonathan Howe
+
+11:57:04.911 | DEBUG    | Company name is correct in the billing information: Lopez-Davis
+
+11:57:04.934 | DEBUG    | Address 1 is correct in the billing information: 3630 Clark Alley
+
+11:57:04.947 | DEBUG    | Address 2 is correct in the billing information: Suite 332
+
+11:57:04.958 | DEBUG    | City is correct in the billing information: New Patrickview Minnesota 98441
+
+11:57:04.967 | DEBUG    | Country is correct in the billing information: United States
+
+11:57:04.976 | DEBUG    | Phone is correct in the billing information: 452.382.0076x25744
+
+11:57:04.983 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+11:57:04.994 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:57:05.000 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:57:05.008 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+11:57:05.008 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+11:57:05.022 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:57:05.030 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:57:05.043 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:57:05.051 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:57:05.096 | DEBUG    | Comment filled in with: Consumer care yourself debate down here yet not. Look though either last then.
+
+11:57:05.269 | DEBUG    | Place order button clicked
+
+11:57:05.302 | DEBUG    | Name on card filled in with: Jonathan Howe
+
+11:57:05.338 | DEBUG    | Card number filled in with: 6011809262184821
+
+11:57:05.368 | DEBUG    | CVC filled in with: 940
+
+11:57:05.392 | DEBUG    | Expiry month filled in with: 12
+
+11:57:05.417 | DEBUG    | Expiry year filled in with: 2021
+
+11:57:06.818 | DEBUG    | Pay and confirm button clicked
+
+11:57:06.852 | DEBUG    | Success message is correct: "Your order has been placed successfully!"
+
+11:57:07.058 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+11:57:07.058 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+11:57:07.058 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+11:57:07.518 | DEBUG    | Continue button clicked

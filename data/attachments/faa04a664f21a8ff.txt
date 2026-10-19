@@ -1,0 +1,13 @@
+11:54:45.065 | DEBUG    | Product "Sleeves Top and Short - Blue & Pink" (ID: 16) opened
+
+11:54:45.106 | DEBUG    | Quantity = 8 selected
+
+11:54:45.137 | DEBUG    | Product was added to cart
+
+11:54:45.903 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+11:54:45.910 | DEBUG    | Product: Sleeves Top and Short - Blue & Pink found in cart: Sleeves Top and Short - Blue & Pink
+
+11:54:45.921 | DEBUG    | Product Sleeves Top and Short - Blue & Pink price in cart: 478 matches added price: 478
+
+11:54:45.935 | DEBUG    | Product Sleeves Top and Short - Blue & Pink quantity in cart: 8 matches added quantity: 8
