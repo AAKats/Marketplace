@@ -1,6 +1,7 @@
 import random
 import allure
 
+from selenium.common.exceptions import ElementClickInterceptedException, StaleElementReferenceException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 
@@ -86,9 +87,34 @@ class ProductsPage(BasePage):
         logger.debug(f'Title {title_text} correct')
 
     def continue_shoping(self):
+        """Закрывает модалку «Added!», если она успела открыться.
+
+        Под нагрузкой модалка может не всплыть после клика по «Add to cart» —
+        тогда закрывать нечего, просто идём дальше.
+        """
         continue_button = ProductsPageLocators.CONTINUE_SHOPPING_BUTTON
-        self.is_element_clickable(continue_button)
-        self.find(continue_button).click()
+        if self.is_element_clickable(continue_button):
+            self.find(continue_button).click()
+            # Ждём фактического закрытия модалки: иначе следующий hover
+            # попадёт на затухающий backdrop и кнопка оверлея не появится
+            self.wait_for_element_invisible(ProductsPageLocators.CART_MODAL)
+
+    def _click_add_to_cart(self, buttons, overlay_index, index, attempts=3):
+        """Наводит курсор на карточку товара, дожидается кнопки оверлея и кликает её.
+
+        Повторяет всю последовательность: под параллельной нагрузкой hover может
+        не сработать, а кнопка — стать невидимой или перекрытой к моменту клика.
+        """
+        for attempt in range(attempts):
+            try:
+                ActionChains(self.browser).move_to_element(buttons[index]).perform()
+                self.is_element_visible(buttons[overlay_index], timeout=5)
+                buttons[overlay_index].click()
+                return
+            except (AssertionError, ElementClickInterceptedException, StaleElementReferenceException):
+                if attempt == attempts - 1:
+                    raise
+                logger.debug(f'Add to cart failed, retry {attempt + 1}/{attempts}')
 
     @allure.step("Добавление товаров в корзину")
     def add_products_to_cart(self, short: bool = False, all: bool = False, quantity: int = 1, count: int = 1,
@@ -107,9 +133,7 @@ class ProductsPage(BasePage):
                     'quantity': 0
                 })
                 for _ in range(quantity):
-                    ActionChains(self.browser).move_to_element(buttons[index]).perform()
-                    self.is_element_visible(buttons[overlay_index])
-                    buttons[overlay_index].click()
+                    self._click_add_to_cart(buttons, overlay_index, index)
                     self.selected_product[-1]['quantity'] += 1
                     if index == len(buttons) - 2 and _ == quantity - 1:
                         self.go_to_cart_via_modal()
@@ -131,9 +155,7 @@ class ProductsPage(BasePage):
                     'quantity': 0
                 })
                 for _ in range(quantity):
-                    ActionChains(self.browser).move_to_element(buttons[index]).perform()
-                    self.is_element_visible(buttons[overlay_index])
-                    buttons[overlay_index].click()
+                    self._click_add_to_cart(buttons, overlay_index, index)
                     self.selected_product[-1]['quantity'] += 1
                     if index == first_number + (count - 1) * 2 and _ == quantity - 1 and not short:
                         self.go_to_cart_via_modal()
@@ -151,9 +173,7 @@ class ProductsPage(BasePage):
                     'quantity': 0
                 })
                 for _ in range(quantity):
-                    ActionChains(self.browser).move_to_element(buttons[index]).perform()
-                    self.is_element_visible(buttons[overlay_index])
-                    buttons[overlay_index].click()
+                    self._click_add_to_cart(buttons, overlay_index, index)
                     self.selected_product[-1]['quantity'] += 1
                     if index == first_number + (count - 1) * 2 and _ == quantity - 1 and not short:
                         self.go_to_cart_via_modal()

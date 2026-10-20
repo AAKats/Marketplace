@@ -31,6 +31,8 @@ class UserApi(ApiClient):
         payload.update(kwargs)
         logger.debug('New user details:')
         for key, value in payload.items():
+            if key in ('password', 'mobile_number'):
+                continue
             logger.debug(f'  {key}: {value}')
         response = self.post("/api/createAccount", data=payload)
         return response
@@ -95,6 +97,8 @@ class UserApi(ApiClient):
         payload.update(kwargs)
         logger.debug('Updated user details:')
         for key, value in payload.items():
+            if key in ('password', 'mobile_number'):
+                continue
             logger.debug(f'  {key}: {value}')
         response = self.put("/api/updateAccount", data=payload)
         return response

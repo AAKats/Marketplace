@@ -7,6 +7,14 @@ from loguru import logger
 from config.config import Config
 
 
+def mask(value):
+    """Маскирует чувствительные данные в логах: оставляет только последние 4 символа."""
+    value = str(value)
+    if len(value) <= 4:
+        return '****'
+    return f'****{value[-4:]}'
+
+
 _run_stamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 _log_file = os.path.join(Config.LOG_DIR, f"log_{_run_stamp}_{os.getpid()}.log")
 os.makedirs(Config.LOG_DIR, exist_ok=True)
@@ -31,4 +39,4 @@ logger.add(
 )
 
 
-__all__ = ["logger"]
+__all__ = ["logger", "mask"]

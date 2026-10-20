@@ -2,7 +2,7 @@ import os
 
 import allure
 from utils.data_generator import DataGenerator
-from utils.logger import logger
+from utils.logger import logger, mask
 from ..locators import PaymentPageLocators
 from ..pages.base_page import BasePage
 
@@ -17,31 +17,28 @@ class PaymentPage(BasePage):
         name_on_card = DataGenerator.get_card_info('name_on_card')
         self.is_element_present(name_on_card_field)
         self.find(name_on_card_field).send_keys(name_on_card)
-        logger.debug(f'Name on card filled in with: {name_on_card}')
+        logger.debug('Name on card filled in with: ****')
 
         card_number_field = PaymentPageLocators.CARD_NUMBER
         card_number = DataGenerator.get_card_info('card_number')
         self.is_element_present(card_number_field)
         self.find(card_number_field).send_keys(card_number)
-        logger.debug(f'Card number filled in with: {card_number}')
+        logger.debug(f'Card number filled in with: {mask(card_number)}')
 
         cvc_field = PaymentPageLocators.CVC
         cvc = DataGenerator.get_card_info('cvc')
         self.is_element_present(cvc_field)
         self.find(cvc_field).send_keys(cvc)
-        logger.debug(f'CVC filled in with: {cvc}')
 
         expiry_m_field = PaymentPageLocators.EXPIRATION_M
         expiry_m = DataGenerator.get_card_info('expiration_m')
         self.is_element_present(expiry_m_field)
         self.find(expiry_m_field).send_keys(expiry_m)
-        logger.debug(f'Expiry month filled in with: {expiry_m}')
 
         expiry_y_field = PaymentPageLocators.EXPIRATION_Y
         expiry_y = DataGenerator.get_card_info('expiration_y')
         self.is_element_present(expiry_y_field)
         self.find(expiry_y_field).send_keys(expiry_y)
-        logger.debug(f'Expiry year filled in with: {expiry_y}')
 
     @allure.step("Оплата и подтверждение заказа")
     def pay_and_confirm(self):
@@ -51,16 +48,17 @@ class PaymentPage(BasePage):
 
     @allure.step('Проверка корректности сообщения об успешной оплате')
     def should_be_correct_payment_success_message(self):
-        self.browser.back()
-        self.is_element_present(PaymentPageLocators.SUCCESS_MESSAGE)
-        self.is_element_visible(PaymentPageLocators.SUCCESS_MESSAGE)
-        assert 'Your order has been placed successfully!' in self.find(
-            PaymentPageLocators.SUCCESS_MESSAGE).text, (
-            f'Incorrect success message: '
-            f'"{self.find(PaymentPageLocators.SUCCESS_MESSAGE).text}", '
-            f'should be "Your order has been placed successfully!"')
-        logger.debug(f'Success message is correct: "{self.find(PaymentPageLocators.SUCCESS_MESSAGE).text}"')
-        self.browser.forward()
+        # После успешной оплаты сервер редиректит на /payment_done/<id>,
+        # где #success_message уже нет — проверяем заголовок и текст подтверждения
+        self.is_element_visible(PaymentPageLocators.ORDER_PLACED_MESSAGE, timeout=10)
+        order_placed = self.find(PaymentPageLocators.ORDER_PLACED_MESSAGE).text
+        confirmation = self.find(PaymentPageLocators.ORDER_CONFIRMATION_TEXT).text
+        assert 'order placed' in order_placed.lower(), (
+            f'Incorrect success message: "{order_placed}", should contain "ORDER PLACED!"')
+        assert 'Your order has been confirmed!' in confirmation, (
+            f'Incorrect confirmation text: "{confirmation}", '
+            f'should contain "Your order has been confirmed!"')
+        logger.debug(f'Success message is correct: "{order_placed}" / "{confirmation}"')
 
     @allure.step('Скачивание файла с инвойсом')
     def download_invoice(self, download_dir):

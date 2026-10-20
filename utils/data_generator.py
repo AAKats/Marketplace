@@ -9,6 +9,7 @@ from faker import Faker
 class DataGenerator:
     _login_data_cache = None
     _registration_data_cache = None
+    _generated_data_cache = {}
     _existing_user = None
 
     @staticmethod
@@ -24,7 +25,7 @@ class DataGenerator:
             'password': lambda: fake.password(length=8, special_chars=True),
             'day_of_birth': lambda: str(random.randint(1, 28)),
             'month_of_birth': lambda: str(random.randint(1, 12)),
-            'year_of_birth': lambda: str(random.randint(1900, 2023)),
+            'year_of_birth': lambda: str(random.randint(1900, 2021)),
             'newsletter': lambda: fake.boolean(chance_of_getting_true=50),
             'offers': lambda: fake.boolean(chance_of_getting_true=50),
             'company': fake.company,
@@ -45,6 +46,9 @@ class DataGenerator:
             if isinstance(fields, str):
                 fields = [fields]
             data = {field: data[field]() for field in fields if field in data}
+            # Данные храним в памяти процесса: файл общедоступен для всех
+            # воркеров pytest-xdist и его перезапись ломает параллельные тесты
+            DataGenerator._generated_data_cache = data
             filename = 'generated_data.json'
 
         with open(filename, 'w', encoding='utf-8') as f:
@@ -106,6 +110,8 @@ class DataGenerator:
 
     @staticmethod
     def get_generated_data(fields):
+        if fields in DataGenerator._generated_data_cache:
+            return DataGenerator._generated_data_cache[fields]
         with open('generated_data.json', 'r', encoding='utf-8') as f:
             return json.load(f)[fields]
 

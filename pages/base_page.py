@@ -50,7 +50,7 @@ class BasePage:
             return (current.path.rstrip('/') or '/') == expected_path
 
         try:
-            WebDriverWait(self.browser, 10).until(_link_matches)
+            WebDriverWait(self.browser, 20).until(_link_matches)
             return True
         except TimeoutException:
             raise AssertionError(
@@ -60,11 +60,6 @@ class BasePage:
     # Метод проверки отсутствия активной сессии пользователя
     @allure.step("Проверка отсутствия авторизации")
     def should_not_be_username(self):
-        assert self.is_not_element_present(BasePageLocators.LOGGED_AS_TEXT), \
-            "User should NOT be logged in"
-
-    @allure.step("Проверка отсутствия авторизации")
-    def assert_user_not_logged_in(self):
         assert self.is_not_element_present(BasePageLocators.LOGGED_AS_TEXT), \
             "User should NOT be logged in"
 
@@ -91,7 +86,7 @@ class BasePage:
 
     '''Методы для проверки наличия или отсутствия элемента на странице'''
     @allure.step("Проверка наличия элемента")
-    def is_element_present(self, locator, timeout=4):
+    def is_element_present(self, locator, timeout=10):
         try:
             WebDriverWait(self.browser, timeout).until(
                 EC.presence_of_element_located((locator)))
@@ -187,13 +182,13 @@ class BasePage:
         Работает только с локатором
         """
         try:
-            WebDriverWait(self.browser, 5).until(EC.element_to_be_clickable(locator))
+            WebDriverWait(self.browser, 10).until(EC.element_to_be_clickable(locator))
             return True
-        except ElementNotInteractableException:
+        except (ElementNotInteractableException, TimeoutException):
             return False
 
     @allure.step("Проверка видимости элемента")
-    def is_element_visible(self, element, timeout=5):
+    def is_element_visible(self, element, timeout=10):
         """Ожидает видимости элемента.
         Принимает как locator (tuple), так и WebElement.
         """
@@ -207,6 +202,11 @@ class BasePage:
             )
         except TimeoutException:
             raise AssertionError(f"Element not visible after {timeout}s: {element}")
+
+    @allure.step("Ожидание исчезновения элемента")
+    def wait_for_element_invisible(self, locator, timeout=10):
+        WebDriverWait(self.browser, timeout).until(
+            EC.invisibility_of_element_located(locator))
 
     @allure.step("Переход в корзину через модальное окно")
     def go_to_cart_via_modal(self):

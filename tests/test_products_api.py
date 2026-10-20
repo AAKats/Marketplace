@@ -91,8 +91,11 @@ class TestApiProducts:
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.search_product
-    @pytest.mark.xfail(reason='BUG: Names without expected part in response')
-    @pytest.mark.parametrize('product_type', ['top', 'jean', 'tshirt'])
+    @pytest.mark.parametrize('product_type', [
+        pytest.param('top', marks=pytest.mark.xfail(reason='BUG: Names without expected part in response')),
+        'jean',
+        pytest.param('tshirt', marks=pytest.mark.xfail(reason='BUG: Names without expected part in response'))
+    ])
     def test_search_product(self, products_api, product_type):
         response = products_api.post_to_search_product(product_type)
         print(response)

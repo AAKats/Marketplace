@@ -72,7 +72,7 @@ def existing_user(api_client):
         api_client.delete_registered_user(profile['email'], profile['password'])
         logger.debug('Тестовый пользователь удалён')
     except Exception as e:
-        print(f'Не удалось удалить тестового пользователя: {e}')
+        logger.warning(f'Не удалось удалить тестового пользователя: {e}')
 
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)

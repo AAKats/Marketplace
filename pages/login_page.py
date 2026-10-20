@@ -26,7 +26,6 @@ class LoginPage(BasePage):
     @allure.step("Заполнение email для регистрации")
     def fill_signup_email(self):
         # Заполнение полей для регистрации
-        print(f'>>> fill_signup_email, URL: {self.browser.current_url}')  # diagnostic
         email = DataGenerator.get_registration_data('email')
         self.find(LoginPageLocators.EMAIL_SIGN_UP_FIELD).send_keys(email)
         logger.debug('Email signup field filled')

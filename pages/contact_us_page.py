@@ -56,7 +56,7 @@ class ContactUsPage(BasePage):
 
     @allure.step("Заполнение сообщения")
     def fill_in_message_field(self):
-        message_field = ContactUsPageLocators.SUBJECT_FIELD
+        message_field = ContactUsPageLocators.MESSAGE_FIELD
         message = DataGenerator.get_message()
         assert self.is_element_present(message_field), 'Message field is not presented'
         logger.debug('Message field is presented')
