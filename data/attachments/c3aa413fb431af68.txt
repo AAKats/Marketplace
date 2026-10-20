@@ -1,0 +1,67 @@
+16:19:35.392 | DEBUG    | Email filled in
+
+16:19:35.433 | DEBUG    | Password filled in
+
+16:19:35.441 | DEBUG    | Login button is presented
+
+16:19:35.486 | DEBUG    | Login button is clicked
+
+16:19:36.646 | DEBUG    | Username is correct Logged in as Jo
+
+16:19:37.594 | DEBUG    | Product Blue Top added, quantity 1
+
+16:19:38.483 | DEBUG    | Product Blue Top added, quantity 2
+
+16:19:39.622 | DEBUG    | Product Blue Top added, quantity 3
+
+16:19:40.271 | DEBUG    | Proceed to checkout button clicked
+
+16:19:40.288 | DEBUG    | Name is correct in the delivery information: Mr. Jo Brown
+
+16:19:40.302 | DEBUG    | Company name is correct in the delivery information: Short Group
+
+16:19:40.317 | DEBUG    | Address 1 is correct in the delivery information: 2887 Gregory Ports
+
+16:19:40.333 | DEBUG    | Address 2 is correct in the delivery information: Apt. 173
+
+16:19:40.349 | DEBUG    | City is correct in the delivery information: East Danielland Louisiana 09126
+
+16:19:40.365 | DEBUG    | Country is correct in the delivery information: New Zealand
+
+16:19:40.381 | DEBUG    | Phone is correct in the delivery information: (961)811-0510
+
+16:19:40.398 | DEBUG    | Name is correct in the billing information: Mr. Jo Brown
+
+16:19:40.414 | DEBUG    | Company name is correct in the billing information: Short Group
+
+16:19:40.430 | DEBUG    | Address 1 is correct in the billing information: 2887 Gregory Ports
+
+16:19:40.446 | DEBUG    | Address 2 is correct in the billing information: Apt. 173
+
+16:19:40.460 | DEBUG    | City is correct in the billing information: East Danielland Louisiana 09126
+
+16:19:40.475 | DEBUG    | Country is correct in the billing information: New Zealand
+
+16:19:40.489 | DEBUG    | Phone is correct in the billing information: (961)811-0510
+
+16:19:40.500 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+16:19:40.520 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+16:19:40.530 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+16:19:40.553 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+16:19:40.576 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+16:19:40.658 | DEBUG    | Comment filled in with: Surface answer because less present pressure. Instead my soon black class.
+
+16:19:40.877 | DEBUG    | Place order button clicked
+
+16:19:40.944 | DEBUG    | Name on card filled in with: ****
+
+16:19:40.992 | DEBUG    | Card number filled in with: ****8969
+
+16:19:42.473 | DEBUG    | Pay and confirm button clicked
+
+16:19:42.507 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

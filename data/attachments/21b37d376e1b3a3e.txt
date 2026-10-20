@@ -1,0 +1,17 @@
+16:19:13.231 | DEBUG    | Login title is presented
+
+16:19:13.245 | DEBUG    | Login title text is correct
+
+16:19:13.252 | DEBUG    | Login email field is presented
+
+16:19:13.258 | DEBUG    | Password field is presented
+
+16:19:13.310 | DEBUG    | Email filled in
+
+16:19:13.351 | DEBUG    | Password filled in
+
+16:19:13.362 | DEBUG    | Login button is presented
+
+16:19:13.405 | DEBUG    | Login button is clicked
+
+16:19:14.593 | DEBUG    | Username is correct Logged in as Jo

@@ -1,0 +1,37 @@
+16:20:31.249 | DEBUG    | New user details:
+
+16:20:31.249 | DEBUG    |   name: Randall
+
+16:20:31.249 | DEBUG    |   email: dcd76d18_oblackburn@example.net
+
+16:20:31.249 | DEBUG    |   title: Mr
+
+16:20:31.249 | DEBUG    |   birth_day: 14
+
+16:20:31.249 | DEBUG    |   birth_month: 7
+
+16:20:31.249 | DEBUG    |   birth_year: 1998
+
+16:20:31.249 | DEBUG    |   firstname: Randall
+
+16:20:31.249 | DEBUG    |   lastname: Rodriguez
+
+16:20:31.249 | DEBUG    |   company: Watson Ltd
+
+16:20:31.249 | DEBUG    |   address1: 9698 Arnold River Apt. 908
+
+16:20:31.249 | DEBUG    |   address2: Apt. 887
+
+16:20:31.249 | DEBUG    |   country: Israel
+
+16:20:31.249 | DEBUG    |   state: New York
+
+16:20:31.249 | DEBUG    |   city: Michaelbury
+
+16:20:31.249 | DEBUG    |   zipcode: 08881
+
+16:20:31.391 | DEBUG    | Status code correct: 200
+
+16:20:31.391 | DEBUG    | ResponseCode correct: 201
+
+16:20:31.391 | DEBUG    | Response message correct: "User created!"

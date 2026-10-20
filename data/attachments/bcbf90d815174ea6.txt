@@ -1,0 +1,39 @@
+16:19:10.405 | DEBUG    | Main title is presented
+
+16:19:10.431 | DEBUG    | Main title is correct: CONTACT US
+
+16:19:10.437 | DEBUG    | Second title is presented
+
+16:19:10.456 | DEBUG    | Second title is correct: GET IN TOUCH
+
+16:19:10.464 | DEBUG    | Name field is presented
+
+16:19:10.505 | DEBUG    | Name field filled in with: Michael
+
+16:19:10.514 | DEBUG    | Email field is presented
+
+16:19:10.564 | DEBUG    | Email field filled in with: e852c390_dalewalker@example.com
+
+16:19:10.573 | DEBUG    | Subject field is presented
+
+16:19:10.611 | DEBUG    | Subject field filled in with: Southern.
+
+16:19:10.619 | DEBUG    | Message field is presented
+
+16:19:10.701 | DEBUG    | Message field filled in with: Reason one control day. Level civil guy century. Gun need however hospital contain oil.
+
+16:19:10.709 | DEBUG    | Upload field is presented
+
+16:19:10.726 | DEBUG    | File uploaded
+
+16:19:10.732 | DEBUG    | Submit button is presented
+
+16:19:10.804 | DEBUG    | Alert is presented
+
+16:19:10.834 | DEBUG    | Success message is presented
+
+16:19:10.834 | DEBUG    | Success message is correct
+
+16:19:10.840 | DEBUG    | Home button is presented
+
+16:19:11.401 | DEBUG    | Home button is clicked

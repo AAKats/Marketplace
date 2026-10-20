@@ -1,0 +1,13 @@
+16:17:58.320 | DEBUG    | Product "Full Sleeves Top Cherry - Pink" (ID: 14) opened
+
+16:17:58.387 | DEBUG    | Quantity = 7 selected
+
+16:17:58.438 | DEBUG    | Product was added to cart
+
+16:17:59.312 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+16:17:59.326 | DEBUG    | Product: Full Sleeves Top Cherry - Pink found in cart: Full Sleeves Top Cherry - Pink
+
+16:17:59.345 | DEBUG    | Product Full Sleeves Top Cherry - Pink price in cart: 679 matches added price: 679
+
+16:17:59.369 | DEBUG    | Product Full Sleeves Top Cherry - Pink quantity in cart: 7 matches added quantity: 7

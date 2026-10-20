@@ -1,0 +1,43 @@
+16:20:31.400 | DEBUG    | New user details:
+
+16:20:31.400 | DEBUG    |   name: Sandra
+
+16:20:31.400 | DEBUG    |   email: 4cc8ae0f_ellissean@example.net
+
+16:20:31.400 | DEBUG    |   title: Mr
+
+16:20:31.400 | DEBUG    |   birth_day: 23
+
+16:20:31.400 | DEBUG    |   birth_month: 4
+
+16:20:31.401 | DEBUG    |   birth_year: 1946
+
+16:20:31.401 | DEBUG    |   firstname: Sandra
+
+16:20:31.401 | DEBUG    |   lastname: Bowers
+
+16:20:31.401 | DEBUG    |   company: Gonzalez, Miller and Young
+
+16:20:31.401 | DEBUG    |   address1: 2206 Schultz Mill
+
+16:20:31.401 | DEBUG    |   address2: Apt. 080
+
+16:20:31.401 | DEBUG    |   country: Israel
+
+16:20:31.401 | DEBUG    |   state: Indiana
+
+16:20:31.401 | DEBUG    |   city: Jacksonborough
+
+16:20:31.401 | DEBUG    |   zipcode: 16966
+
+16:20:31.568 | DEBUG    | Status code correct: 200
+
+16:20:31.568 | DEBUG    | ResponseCode correct: 201
+
+16:20:31.568 | DEBUG    | Response message correct: "User created!"
+
+16:20:31.718 | DEBUG    | Status code correct: 200
+
+16:20:31.718 | DEBUG    | ResponseCode correct: 200
+
+16:20:31.718 | DEBUG    | Response message correct: "Account deleted!"

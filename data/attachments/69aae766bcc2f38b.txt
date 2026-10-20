@@ -1,0 +1,12 @@
+16:19:44.578 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+16:19:44.644 | DEBUG    | Review name field filled in with "Heather Williamson"
+
+16:19:44.702 | DEBUG    | Review email field filled in with "f53f3a44_smckee@example.com"
+
+16:19:44.792 | DEBUG    | Review message field filled in with "Congress any think suggest.
+Better speech speak message. American away follow future."
+
+16:19:44.848 | DEBUG    | Submit review button clicked
+
+16:19:44.874 | DEBUG    | Success review message is displayed
