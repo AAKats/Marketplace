@@ -1,0 +1,13 @@
+10:51:33.367 | DEBUG    | Product "Sleeveless Dress" (ID: 3) opened
+
+10:51:33.455 | DEBUG    | Quantity = 3 selected
+
+10:51:33.505 | DEBUG    | Product was added to cart
+
+10:51:34.231 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+10:51:34.241 | DEBUG    | Product: Sleeveless Dress found in cart: Sleeveless Dress
+
+10:51:34.260 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+10:51:34.283 | DEBUG    | Product Sleeveless Dress quantity in cart: 3 matches added quantity: 3

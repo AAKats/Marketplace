@@ -1,0 +1,83 @@
+10:53:40.444 | DEBUG    | New user details:
+
+10:53:40.444 | DEBUG    |   name: Alan
+
+10:53:40.444 | DEBUG    |   email: e0ffc5f1_scotttiffany@example.com
+
+10:53:40.444 | DEBUG    |   password: 3^e5Gkwn
+
+10:53:40.444 | DEBUG    |   title: Mrs
+
+10:53:40.444 | DEBUG    |   birth_day: 10
+
+10:53:40.444 | DEBUG    |   birth_month: 4
+
+10:53:40.444 | DEBUG    |   birth_year: 1974
+
+10:53:40.444 | DEBUG    |   firstname: Alan
+
+10:53:40.444 | DEBUG    |   lastname: James
+
+10:53:40.444 | DEBUG    |   company: Weber Inc
+
+10:53:40.444 | DEBUG    |   address1: 099 Wallace Tunnel Apt. 867
+
+10:53:40.444 | DEBUG    |   address2: Apt. 637
+
+10:53:40.444 | DEBUG    |   country: Singapore
+
+10:53:40.444 | DEBUG    |   state: Indiana
+
+10:53:40.444 | DEBUG    |   city: Farmerfurt
+
+10:53:40.444 | DEBUG    |   zipcode: 29898
+
+10:53:40.444 | DEBUG    |   mobile_number: 6323751210
+
+10:53:40.520 | DEBUG    | Status code correct: 200
+
+10:53:40.520 | DEBUG    | ResponseCode correct: 201
+
+10:53:40.520 | DEBUG    | Response message correct: "User created!"
+
+10:53:40.520 | DEBUG    | Updated user details:
+
+10:53:40.521 | DEBUG    |   name: Alan
+
+10:53:40.522 | DEBUG    |   email: e0ffc5f1_scotttiffany@example.com
+
+10:53:40.522 | DEBUG    |   password: 3^e5Gkwn
+
+10:53:40.522 | DEBUG    |   title: Mrs
+
+10:53:40.522 | DEBUG    |   birth_day: 10
+
+10:53:40.522 | DEBUG    |   birth_month: 4
+
+10:53:40.522 | DEBUG    |   birth_year: 1974
+
+10:53:40.522 | DEBUG    |   firstname: Alan
+
+10:53:40.522 | DEBUG    |   lastname: James
+
+10:53:40.522 | DEBUG    |   company: Weber Inc
+
+10:53:40.522 | DEBUG    |   address1: 099 Wallace Tunnel Apt. 867
+
+10:53:40.522 | DEBUG    |   address2: Apt. 637
+
+10:53:40.522 | DEBUG    |   country: Singapore
+
+10:53:40.522 | DEBUG    |   state: Indiana
+
+10:53:40.522 | DEBUG    |   city: Farmerfurt
+
+10:53:40.522 | DEBUG    |   zipcode: 29898
+
+10:53:40.522 | DEBUG    |   mobile_number: 6323751210
+
+10:53:40.594 | DEBUG    | Status code correct: 200
+
+10:53:40.595 | DEBUG    | ResponseCode correct: 200
+
+10:53:40.595 | DEBUG    | Response message correct: "User updated!"

@@ -1,0 +1,41 @@
+10:53:40.185 | DEBUG    | New user details:
+
+10:53:40.185 | DEBUG    |   name: Samantha
+
+10:53:40.185 | DEBUG    |   email: 10d4281d_edwardmartin@example.net
+
+10:53:40.185 | DEBUG    |   password: A$a5hKhf
+
+10:53:40.185 | DEBUG    |   title: Mrs
+
+10:53:40.185 | DEBUG    |   birth_day: 23
+
+10:53:40.185 | DEBUG    |   birth_month: 10
+
+10:53:40.185 | DEBUG    |   birth_year: 1904
+
+10:53:40.185 | DEBUG    |   firstname: Samantha
+
+10:53:40.185 | DEBUG    |   lastname: Deleon
+
+10:53:40.185 | DEBUG    |   company: Gregory Inc
+
+10:53:40.185 | DEBUG    |   address1: 5863 Paige Stravenue
+
+10:53:40.185 | DEBUG    |   address2: Suite 661
+
+10:53:40.185 | DEBUG    |   country: Australia
+
+10:53:40.185 | DEBUG    |   state: Oklahoma
+
+10:53:40.185 | DEBUG    |   city: Bridgesborough
+
+10:53:40.185 | DEBUG    |   zipcode: 09169
+
+10:53:40.185 | DEBUG    |   mobile_number: 549.729.7238
+
+10:53:40.264 | DEBUG    | Status code correct: 200
+
+10:53:40.264 | DEBUG    | ResponseCode correct: 201
+
+10:53:40.264 | DEBUG    | Response message correct: "User created!"

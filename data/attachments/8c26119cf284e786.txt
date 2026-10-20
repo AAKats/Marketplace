@@ -1,0 +1,171 @@
+10:53:30.191 | DEBUG    | New user Signup title is presented
+
+10:53:30.202 | DEBUG    | New user Signup title text is correct
+
+10:53:30.208 | DEBUG    | Signup email field is presented
+
+10:53:30.214 | DEBUG    | Signup name field is presented
+
+10:53:30.271 | DEBUG    | Email signup field filled
+
+10:53:30.308 | DEBUG    | Name signup field filled
+
+10:53:30.351 | DEBUG    | Signup button is clicked
+
+10:53:30.888 | DEBUG    | Account information title is presented
+
+10:53:30.897 | DEBUG    | Account information title text is correct
+
+10:53:30.923 | DEBUG    | Mr radiobutton is presented
+
+10:53:30.928 | DEBUG    | Mrs radiobutton is presented
+
+10:53:30.968 | DEBUG    | Selected MRS title
+
+10:53:30.974 | DEBUG    | Password field is presented
+
+10:53:31.007 | DEBUG    | Password is filled in
+
+10:53:31.017 | DEBUG    | Day of birth list is presented
+
+10:53:31.062 | DEBUG    | Day of birth selected
+
+10:53:31.069 | DEBUG    | Month of birth list is presented
+
+10:53:31.107 | DEBUG    | Month of birth selected
+
+10:53:31.114 | DEBUG    | Year of birth list is presented
+
+10:53:31.152 | DEBUG    | Year of birth selected
+
+10:53:31.152 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+10:53:31.194 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+10:53:31.201 | DEBUG    | First name field is presented
+
+10:53:31.238 | DEBUG    | First name is filled in
+
+10:53:31.245 | DEBUG    | Last name field is presented
+
+10:53:31.281 | DEBUG    | Last name is filled in
+
+10:53:31.288 | DEBUG    | Company field is presented
+
+10:53:31.325 | DEBUG    | Company is filled in
+
+10:53:31.333 | DEBUG    | Address 1 field is presented
+
+10:53:31.378 | DEBUG    | Address 1 is filled in
+
+10:53:31.386 | DEBUG    | Address 2 field is presented
+
+10:53:31.421 | DEBUG    | Address 2 is filled in
+
+10:53:31.453 | DEBUG    | State field is presented
+
+10:53:31.488 | DEBUG    | State is filled in
+
+10:53:31.494 | DEBUG    | City field is presented
+
+10:53:31.533 | DEBUG    | City is filled in
+
+10:53:31.539 | DEBUG    | Zipcode field is presented
+
+10:53:31.572 | DEBUG    | Zipcode is filled in
+
+10:53:31.578 | DEBUG    | Mobile number field is presented
+
+10:53:31.622 | DEBUG    | Mobile number is filled in
+
+10:53:32.122 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+10:53:32.143 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+10:53:32.143 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+10:53:32.149 | DEBUG    | Continue button is presented
+
+10:53:32.530 | DEBUG    | Username is correct Logged in as Catherine
+
+10:53:33.827 | DEBUG    | Product Blue Top added, quantity 1
+
+10:53:34.703 | DEBUG    | Product Blue Top added, quantity 2
+
+10:53:35.585 | DEBUG    | Product Men Tshirt added, quantity 1
+
+10:53:36.607 | DEBUG    | Product Men Tshirt added, quantity 2
+
+10:53:37.035 | DEBUG    | Proceed to checkout button clicked
+
+10:53:37.052 | DEBUG    | Name is correct in the delivery information: Mrs. Catherine Waters
+
+10:53:37.067 | DEBUG    | Company name is correct in the delivery information: Hamilton Ltd
+
+10:53:37.082 | DEBUG    | Address 1 is correct in the delivery information: 862 Sheri Green Apt. 783
+
+10:53:37.096 | DEBUG    | Address 2 is correct in the delivery information: Apt. 732
+
+10:53:37.110 | DEBUG    | City is correct in the delivery information: Brianfurt Ohio 74717
+
+10:53:37.123 | DEBUG    | Country is correct in the delivery information: India
+
+10:53:37.137 | DEBUG    | Phone is correct in the delivery information: 001-970-587-1800x68570
+
+10:53:37.151 | DEBUG    | Name is correct in the billing information: Mrs. Catherine Waters
+
+10:53:37.165 | DEBUG    | Company name is correct in the billing information: Hamilton Ltd
+
+10:53:37.178 | DEBUG    | Address 1 is correct in the billing information: 862 Sheri Green Apt. 783
+
+10:53:37.192 | DEBUG    | Address 2 is correct in the billing information: Apt. 732
+
+10:53:37.205 | DEBUG    | City is correct in the billing information: Brianfurt Ohio 74717
+
+10:53:37.220 | DEBUG    | Country is correct in the billing information: India
+
+10:53:37.234 | DEBUG    | Phone is correct in the billing information: 001-970-587-1800x68570
+
+10:53:37.245 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+10:53:37.265 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+10:53:37.274 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+10:53:37.286 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+10:53:37.286 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+10:53:37.309 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+10:53:37.322 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+10:53:37.344 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+10:53:37.357 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+10:53:37.431 | DEBUG    | Comment filled in with: Become day prove. Word I top white. Student hour response service.
+
+10:53:37.587 | DEBUG    | Place order button clicked
+
+10:53:37.646 | DEBUG    | Name on card filled in with: Catherine Waters
+
+10:53:37.693 | DEBUG    | Card number filled in with: 36489241095101
+
+10:53:37.734 | DEBUG    | CVC filled in with: 907
+
+10:53:37.773 | DEBUG    | Expiry month filled in with: 6
+
+10:53:37.811 | DEBUG    | Expiry year filled in with: 2024
+
+10:53:39.085 | DEBUG    | Pay and confirm button clicked
+
+10:53:39.137 | DEBUG    | Success message is correct: "Your order has been placed successfully!"
+
+10:53:39.334 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+10:53:39.334 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+10:53:39.334 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+10:53:39.753 | DEBUG    | Continue button clicked

@@ -1,0 +1,39 @@
+10:52:36.009 | DEBUG    | Main title is presented
+
+10:52:36.030 | DEBUG    | Main title is correct: CONTACT US
+
+10:52:36.036 | DEBUG    | Second title is presented
+
+10:52:36.055 | DEBUG    | Second title is correct: GET IN TOUCH
+
+10:52:36.062 | DEBUG    | Name field is presented
+
+10:52:36.102 | DEBUG    | Name field filled in with: Erin
+
+10:52:36.110 | DEBUG    | Email field is presented
+
+10:52:36.166 | DEBUG    | Email field filled in with: 7e388dfa_christopherrobbins@example.com
+
+10:52:36.175 | DEBUG    | Subject field is presented
+
+10:52:36.212 | DEBUG    | Subject field filled in with: A social.
+
+10:52:36.219 | DEBUG    | Message field is presented
+
+10:52:36.261 | DEBUG    | Message field filled in with: Body player majority. Down audience must grow.
+
+10:52:36.269 | DEBUG    | Upload field is presented
+
+10:52:36.285 | DEBUG    | File uploaded
+
+10:52:36.291 | DEBUG    | Submit button is presented
+
+10:52:36.413 | DEBUG    | Alert is presented
+
+10:52:36.454 | DEBUG    | Success message is presented
+
+10:52:36.454 | DEBUG    | Success message is correct
+
+10:52:36.459 | DEBUG    | Home button is presented
+
+10:52:36.806 | DEBUG    | Home button is clicked

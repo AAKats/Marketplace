@@ -1,0 +1,175 @@
+10:51:36.689 | DEBUG    | Product Blue Top added, quantity 1
+
+10:51:37.558 | DEBUG    | Product Blue Top added, quantity 2
+
+10:51:38.442 | DEBUG    | Product Men Tshirt added, quantity 1
+
+10:51:39.455 | DEBUG    | Product Men Tshirt added, quantity 2
+
+10:51:39.720 | DEBUG    | Proceed to checkout button clicked
+
+10:51:39.898 | DEBUG    | Register via modal button clicked
+
+10:51:39.910 | DEBUG    | New user Signup title is presented
+
+10:51:39.919 | DEBUG    | New user Signup title text is correct
+
+10:51:39.925 | DEBUG    | Signup email field is presented
+
+10:51:39.930 | DEBUG    | Signup name field is presented
+
+10:51:39.986 | DEBUG    | Email signup field filled
+
+10:51:40.021 | DEBUG    | Name signup field filled
+
+10:51:40.064 | DEBUG    | Signup button is clicked
+
+10:51:40.224 | DEBUG    | Account information title is presented
+
+10:51:40.232 | DEBUG    | Account information title text is correct
+
+10:51:40.259 | DEBUG    | Mr radiobutton is presented
+
+10:51:40.265 | DEBUG    | Mrs radiobutton is presented
+
+10:51:40.306 | DEBUG    | Selected MRS title
+
+10:51:40.313 | DEBUG    | Password field is presented
+
+10:51:40.416 | DEBUG    | Password is filled in
+
+10:51:40.424 | DEBUG    | Day of birth list is presented
+
+10:51:40.471 | DEBUG    | Day of birth selected
+
+10:51:40.477 | DEBUG    | Month of birth list is presented
+
+10:51:40.517 | DEBUG    | Month of birth selected
+
+10:51:40.524 | DEBUG    | Year of birth list is presented
+
+10:51:40.563 | DEBUG    | Year of birth selected
+
+10:51:40.607 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+10:51:40.607 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+10:51:40.614 | DEBUG    | First name field is presented
+
+10:51:40.650 | DEBUG    | First name is filled in
+
+10:51:40.659 | DEBUG    | Last name field is presented
+
+10:51:40.695 | DEBUG    | Last name is filled in
+
+10:51:40.703 | DEBUG    | Company field is presented
+
+10:51:40.748 | DEBUG    | Company is filled in
+
+10:51:40.757 | DEBUG    | Address 1 field is presented
+
+10:51:40.799 | DEBUG    | Address 1 is filled in
+
+10:51:40.808 | DEBUG    | Address 2 field is presented
+
+10:51:40.845 | DEBUG    | Address 2 is filled in
+
+10:51:40.895 | DEBUG    | State field is presented
+
+10:51:40.931 | DEBUG    | State is filled in
+
+10:51:40.939 | DEBUG    | City field is presented
+
+10:51:40.978 | DEBUG    | City is filled in
+
+10:51:40.986 | DEBUG    | Zipcode field is presented
+
+10:51:41.022 | DEBUG    | Zipcode is filled in
+
+10:51:41.029 | DEBUG    | Mobile number field is presented
+
+10:51:41.070 | DEBUG    | Mobile number is filled in
+
+10:51:42.106 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+10:51:42.127 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+10:51:42.127 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+10:51:42.136 | DEBUG    | Continue button is presented
+
+10:51:42.729 | DEBUG    | Username is correct Logged in as William
+
+10:51:43.272 | DEBUG    | Proceed to checkout button clicked
+
+10:51:43.290 | DEBUG    | Name is correct in the delivery information: Mrs. William Johnson
+
+10:51:43.304 | DEBUG    | Company name is correct in the delivery information: Taylor, Brewer and Russo
+
+10:51:43.317 | DEBUG    | Address 1 is correct in the delivery information: 249 Elliott Green
+
+10:51:43.331 | DEBUG    | Address 2 is correct in the delivery information: Suite 869
+
+10:51:43.345 | DEBUG    | City is correct in the delivery information: North Cassidy Michigan 62339
+
+10:51:43.359 | DEBUG    | Country is correct in the delivery information: United States
+
+10:51:43.373 | DEBUG    | Phone is correct in the delivery information: 984-732-8281x937
+
+10:51:43.387 | DEBUG    | Name is correct in the billing information: Mrs. William Johnson
+
+10:51:43.401 | DEBUG    | Company name is correct in the billing information: Taylor, Brewer and Russo
+
+10:51:43.415 | DEBUG    | Address 1 is correct in the billing information: 249 Elliott Green
+
+10:51:43.429 | DEBUG    | Address 2 is correct in the billing information: Suite 869
+
+10:51:43.443 | DEBUG    | City is correct in the billing information: North Cassidy Michigan 62339
+
+10:51:43.456 | DEBUG    | Country is correct in the billing information: United States
+
+10:51:43.471 | DEBUG    | Phone is correct in the billing information: 984-732-8281x937
+
+10:51:43.482 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+10:51:43.503 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+10:51:43.512 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+10:51:43.526 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+10:51:43.526 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+10:51:43.551 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+10:51:43.565 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+10:51:43.589 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+10:51:43.603 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+10:51:43.684 | DEBUG    | Comment filled in with: Throughout treatment whether man his. Brother conference list organization successful.
+
+10:51:43.844 | DEBUG    | Place order button clicked
+
+10:51:43.897 | DEBUG    | Name on card filled in with: William Johnson
+
+10:51:43.943 | DEBUG    | Card number filled in with: 30277668441833
+
+10:51:43.985 | DEBUG    | CVC filled in with: 999
+
+10:51:44.092 | DEBUG    | Expiry month filled in with: 5
+
+10:51:44.135 | DEBUG    | Expiry year filled in with: 2025
+
+10:51:45.448 | DEBUG    | Pay and confirm button clicked
+
+10:51:45.548 | DEBUG    | Success message is correct: "Your order has been placed successfully!"
+
+10:51:45.750 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+10:51:45.750 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+10:51:45.750 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+10:51:46.105 | DEBUG    | Continue button clicked
