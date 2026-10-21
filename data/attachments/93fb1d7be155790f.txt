@@ -1,0 +1,169 @@
+11:03:14.042 | DEBUG    | Product Blue Top added, quantity 1
+
+11:03:14.926 | DEBUG    | Product Blue Top added, quantity 2
+
+11:03:15.828 | DEBUG    | Product Men Tshirt added, quantity 1
+
+11:03:17.260 | DEBUG    | Product Men Tshirt added, quantity 2
+
+11:03:18.013 | DEBUG    | Proceed to checkout button clicked
+
+11:03:18.177 | DEBUG    | Register via modal button clicked
+
+11:03:18.187 | DEBUG    | New user Signup title is presented
+
+11:03:18.197 | DEBUG    | New user Signup title text is correct
+
+11:03:18.202 | DEBUG    | Signup email field is presented
+
+11:03:18.208 | DEBUG    | Signup name field is presented
+
+11:03:18.269 | DEBUG    | Email signup field filled
+
+11:03:18.311 | DEBUG    | Name signup field filled
+
+11:03:18.354 | DEBUG    | Signup button is clicked
+
+11:03:18.508 | DEBUG    | Account information title is presented
+
+11:03:18.517 | DEBUG    | Account information title text is correct
+
+11:03:18.543 | DEBUG    | Mr radiobutton is presented
+
+11:03:18.549 | DEBUG    | Mrs radiobutton is presented
+
+11:03:18.598 | DEBUG    | Selected MRS title
+
+11:03:18.605 | DEBUG    | Password field is presented
+
+11:03:18.653 | DEBUG    | Password is filled in
+
+11:03:18.661 | DEBUG    | Day of birth list is presented
+
+11:03:18.709 | DEBUG    | Day of birth selected
+
+11:03:18.715 | DEBUG    | Month of birth list is presented
+
+11:03:18.756 | DEBUG    | Month of birth selected
+
+11:03:18.763 | DEBUG    | Year of birth list is presented
+
+11:03:18.803 | DEBUG    | Year of birth selected
+
+11:03:18.846 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+11:03:18.846 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+11:03:18.853 | DEBUG    | First name field is presented
+
+11:03:18.888 | DEBUG    | First name is filled in
+
+11:03:18.896 | DEBUG    | Last name field is presented
+
+11:03:18.933 | DEBUG    | Last name is filled in
+
+11:03:18.940 | DEBUG    | Company field is presented
+
+11:03:18.985 | DEBUG    | Company is filled in
+
+11:03:18.992 | DEBUG    | Address 1 field is presented
+
+11:03:19.034 | DEBUG    | Address 1 is filled in
+
+11:03:19.041 | DEBUG    | Address 2 field is presented
+
+11:03:19.079 | DEBUG    | Address 2 is filled in
+
+11:03:19.130 | DEBUG    | State field is presented
+
+11:03:19.166 | DEBUG    | State is filled in
+
+11:03:19.174 | DEBUG    | City field is presented
+
+11:03:19.214 | DEBUG    | City is filled in
+
+11:03:19.221 | DEBUG    | Zipcode field is presented
+
+11:03:19.256 | DEBUG    | Zipcode is filled in
+
+11:03:19.263 | DEBUG    | Mobile number field is presented
+
+11:03:19.307 | DEBUG    | Mobile number is filled in
+
+11:03:20.053 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+11:03:20.078 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+11:03:20.078 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+11:03:20.084 | DEBUG    | Continue button is presented
+
+11:03:20.510 | DEBUG    | Username is correct Logged in as Tyler
+
+11:03:21.086 | DEBUG    | Proceed to checkout button clicked
+
+11:03:21.104 | DEBUG    | Name is correct in the delivery information: Mrs. Tyler Rivera
+
+11:03:21.119 | DEBUG    | Company name is correct in the delivery information: King, Johnson and Clark
+
+11:03:21.133 | DEBUG    | Address 1 is correct in the delivery information: 51650 Denise Neck
+
+11:03:21.148 | DEBUG    | Address 2 is correct in the delivery information: Apt. 339
+
+11:03:21.162 | DEBUG    | City is correct in the delivery information: Kristenborough Colorado 06195
+
+11:03:21.177 | DEBUG    | Country is correct in the delivery information: Israel
+
+11:03:21.191 | DEBUG    | Phone is correct in the delivery information: +1-643-458-8396x941
+
+11:03:21.205 | DEBUG    | Name is correct in the billing information: Mrs. Tyler Rivera
+
+11:03:21.220 | DEBUG    | Company name is correct in the billing information: King, Johnson and Clark
+
+11:03:21.234 | DEBUG    | Address 1 is correct in the billing information: 51650 Denise Neck
+
+11:03:21.248 | DEBUG    | Address 2 is correct in the billing information: Apt. 339
+
+11:03:21.262 | DEBUG    | City is correct in the billing information: Kristenborough Colorado 06195
+
+11:03:21.276 | DEBUG    | Country is correct in the billing information: Israel
+
+11:03:21.293 | DEBUG    | Phone is correct in the billing information: +1-643-458-8396x941
+
+11:03:21.304 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+11:03:21.324 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:03:21.334 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:03:21.348 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+11:03:21.348 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+11:03:21.372 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:03:21.386 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:03:21.410 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:03:21.423 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:03:21.512 | DEBUG    | Comment filled in with: Game until half manage. Professional common pattern find. Size but also street value present true.
+
+11:03:21.705 | DEBUG    | Place order button clicked
+
+11:03:21.810 | DEBUG    | Name on card filled in with: ****
+
+11:03:21.856 | DEBUG    | Card number filled in with: ****8740
+
+11:03:23.338 | DEBUG    | Pay and confirm button clicked
+
+11:03:23.371 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+11:03:23.595 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+11:03:23.595 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+11:03:23.595 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+11:03:24.013 | DEBUG    | Continue button clicked

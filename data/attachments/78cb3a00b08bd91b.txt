@@ -1,0 +1,165 @@
+11:05:12.031 | DEBUG    | New user Signup title is presented
+
+11:05:12.044 | DEBUG    | New user Signup title text is correct
+
+11:05:12.050 | DEBUG    | Signup email field is presented
+
+11:05:12.056 | DEBUG    | Signup name field is presented
+
+11:05:12.110 | DEBUG    | Email signup field filled
+
+11:05:12.146 | DEBUG    | Name signup field filled
+
+11:05:12.191 | DEBUG    | Signup button is clicked
+
+11:05:12.524 | DEBUG    | Account information title is presented
+
+11:05:12.534 | DEBUG    | Account information title text is correct
+
+11:05:12.561 | DEBUG    | Mr radiobutton is presented
+
+11:05:12.566 | DEBUG    | Mrs radiobutton is presented
+
+11:05:12.608 | DEBUG    | Selected MRS title
+
+11:05:12.615 | DEBUG    | Password field is presented
+
+11:05:12.650 | DEBUG    | Password is filled in
+
+11:05:12.661 | DEBUG    | Day of birth list is presented
+
+11:05:12.711 | DEBUG    | Day of birth selected
+
+11:05:12.717 | DEBUG    | Month of birth list is presented
+
+11:05:12.758 | DEBUG    | Month of birth selected
+
+11:05:12.765 | DEBUG    | Year of birth list is presented
+
+11:05:12.807 | DEBUG    | Year of birth selected
+
+11:05:12.851 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+11:05:12.851 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+11:05:12.859 | DEBUG    | First name field is presented
+
+11:05:12.895 | DEBUG    | First name is filled in
+
+11:05:12.901 | DEBUG    | Last name field is presented
+
+11:05:12.940 | DEBUG    | Last name is filled in
+
+11:05:12.947 | DEBUG    | Company field is presented
+
+11:05:12.987 | DEBUG    | Company is filled in
+
+11:05:12.994 | DEBUG    | Address 1 field is presented
+
+11:05:13.040 | DEBUG    | Address 1 is filled in
+
+11:05:13.047 | DEBUG    | Address 2 field is presented
+
+11:05:13.083 | DEBUG    | Address 2 is filled in
+
+11:05:13.134 | DEBUG    | State field is presented
+
+11:05:13.172 | DEBUG    | State is filled in
+
+11:05:13.179 | DEBUG    | City field is presented
+
+11:05:13.222 | DEBUG    | City is filled in
+
+11:05:13.228 | DEBUG    | Zipcode field is presented
+
+11:05:13.263 | DEBUG    | Zipcode is filled in
+
+11:05:13.271 | DEBUG    | Mobile number field is presented
+
+11:05:13.313 | DEBUG    | Mobile number is filled in
+
+11:05:13.844 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+11:05:13.866 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+11:05:13.866 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+11:05:13.872 | DEBUG    | Continue button is presented
+
+11:05:14.310 | DEBUG    | Username is correct Logged in as Nicole
+
+11:05:15.733 | DEBUG    | Product Blue Top added, quantity 1
+
+11:05:16.617 | DEBUG    | Product Blue Top added, quantity 2
+
+11:05:17.504 | DEBUG    | Product Men Tshirt added, quantity 1
+
+11:05:18.581 | DEBUG    | Product Men Tshirt added, quantity 2
+
+11:05:19.072 | DEBUG    | Proceed to checkout button clicked
+
+11:05:19.089 | DEBUG    | Name is correct in the delivery information: Mrs. Nicole Humphrey
+
+11:05:19.104 | DEBUG    | Company name is correct in the delivery information: Brooks-Gross
+
+11:05:19.119 | DEBUG    | Address 1 is correct in the delivery information: 96324 Michelle Glen
+
+11:05:19.133 | DEBUG    | Address 2 is correct in the delivery information: Apt. 242
+
+11:05:19.148 | DEBUG    | City is correct in the delivery information: New Gabriellaside Kansas 37898
+
+11:05:19.161 | DEBUG    | Country is correct in the delivery information: Canada
+
+11:05:19.176 | DEBUG    | Phone is correct in the delivery information: (507)814-4091x5290
+
+11:05:19.190 | DEBUG    | Name is correct in the billing information: Mrs. Nicole Humphrey
+
+11:05:19.204 | DEBUG    | Company name is correct in the billing information: Brooks-Gross
+
+11:05:19.218 | DEBUG    | Address 1 is correct in the billing information: 96324 Michelle Glen
+
+11:05:19.234 | DEBUG    | Address 2 is correct in the billing information: Apt. 242
+
+11:05:19.248 | DEBUG    | City is correct in the billing information: New Gabriellaside Kansas 37898
+
+11:05:19.262 | DEBUG    | Country is correct in the billing information: Canada
+
+11:05:19.276 | DEBUG    | Phone is correct in the billing information: (507)814-4091x5290
+
+11:05:19.288 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+11:05:19.308 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:05:19.318 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:05:19.331 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+11:05:19.331 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+11:05:19.355 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:05:19.369 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:05:19.392 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:05:19.406 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:05:19.487 | DEBUG    | Comment filled in with: Wide true none. Current half candidate. Simple ever prevent firm our over.
+
+11:05:19.657 | DEBUG    | Place order button clicked
+
+11:05:19.710 | DEBUG    | Name on card filled in with: ****
+
+11:05:19.760 | DEBUG    | Card number filled in with: ****7345
+
+11:05:21.221 | DEBUG    | Pay and confirm button clicked
+
+11:05:21.254 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+11:05:21.458 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+11:05:21.458 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+11:05:21.458 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+11:05:21.873 | DEBUG    | Continue button clicked

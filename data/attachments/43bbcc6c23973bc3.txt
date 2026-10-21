@@ -1,0 +1,17 @@
+11:04:16.133 | DEBUG    | Login title is presented
+
+11:04:16.145 | DEBUG    | Login title text is correct
+
+11:04:16.151 | DEBUG    | Login email field is presented
+
+11:04:16.157 | DEBUG    | Password field is presented
+
+11:04:16.207 | DEBUG    | Email filled in
+
+11:04:16.245 | DEBUG    | Password filled in
+
+11:04:16.252 | DEBUG    | Login button is presented
+
+11:04:16.293 | DEBUG    | Login button is clicked
+
+11:04:17.184 | DEBUG    | Username is correct Logged in as Michael

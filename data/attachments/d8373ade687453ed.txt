@@ -1,0 +1,39 @@
+11:04:13.705 | DEBUG    | Main title is presented
+
+11:04:13.728 | DEBUG    | Main title is correct: CONTACT US
+
+11:04:13.733 | DEBUG    | Second title is presented
+
+11:04:13.751 | DEBUG    | Second title is correct: GET IN TOUCH
+
+11:04:13.759 | DEBUG    | Name field is presented
+
+11:04:13.798 | DEBUG    | Name field filled in with: David
+
+11:04:13.806 | DEBUG    | Email field is presented
+
+11:04:13.853 | DEBUG    | Email field filled in with: c13e89d4_yweber@example.org
+
+11:04:13.862 | DEBUG    | Subject field is presented
+
+11:04:13.898 | DEBUG    | Subject field filled in with: Leave.
+
+11:04:13.906 | DEBUG    | Message field is presented
+
+11:04:13.985 | DEBUG    | Message field filled in with: Including no worker dark range opportunity. Indicate ready end south debate technology.
+
+11:04:13.993 | DEBUG    | Upload field is presented
+
+11:04:14.009 | DEBUG    | File uploaded
+
+11:04:14.015 | DEBUG    | Submit button is presented
+
+11:04:14.096 | DEBUG    | Alert is presented
+
+11:04:14.131 | DEBUG    | Success message is presented
+
+11:04:14.131 | DEBUG    | Success message is correct
+
+11:04:14.136 | DEBUG    | Home button is presented
+
+11:04:14.800 | DEBUG    | Home button is clicked

@@ -1,0 +1,49 @@
+11:03:35.987 | DEBUG    | Search field is presented
+
+11:03:36.041 | DEBUG    | Search field is filled in with: "Colour Blocked Shirt – Sky Blue"
+
+11:03:36.048 | DEBUG    | Search button is presented
+
+11:03:36.288 | DEBUG    | Search button is clicked
+
+11:03:36.308 | DEBUG    | Title is presented
+
+11:03:36.308 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+11:03:36.313 | DEBUG    | 1 products found
+
+11:03:36.320 | DEBUG    | "Colour Blocked Shirt – Sky Blue" product found, and contains "Colour Blocked Shirt – Sky Blue"
+
+11:03:37.377 | DEBUG    | Product Colour Blocked Shirt – Sky Blue added, quantity 1
+
+11:03:37.621 | DEBUG    | Product: Colour Blocked Shirt – Sky Blue found in cart: Colour Blocked Shirt – Sky Blue
+
+11:03:37.642 | DEBUG    | Product Colour Blocked Shirt – Sky Blue price in cart: 849 matches added price: 849
+
+11:03:37.666 | DEBUG    | Product Colour Blocked Shirt – Sky Blue quantity in cart: 1 matches added quantity: 1
+
+11:03:37.689 | DEBUG    | Product Colour Blocked Shirt – Sky Blue total in cart: 849 matches expected total: 849
+
+11:03:37.846 | DEBUG    | Login email field is presented
+
+11:03:37.852 | DEBUG    | Password field is presented
+
+11:03:37.898 | DEBUG    | Email filled in
+
+11:03:37.938 | DEBUG    | Password filled in
+
+11:03:37.946 | DEBUG    | Login button is presented
+
+11:03:37.987 | DEBUG    | Login button is clicked
+
+11:03:39.726 | DEBUG    | Product: Colour Blocked Shirt – Sky Blue found in cart: Colour Blocked Shirt – Sky Blue
+
+11:03:39.747 | DEBUG    | Product Colour Blocked Shirt – Sky Blue price in cart: 849 matches added price: 849
+
+11:03:39.769 | DEBUG    | Product Colour Blocked Shirt – Sky Blue quantity in cart: 1 matches added quantity: 1
+
+11:03:39.791 | DEBUG    | Product Colour Blocked Shirt – Sky Blue total in cart: 849 matches expected total: 849
+
+11:03:44.413 | DEBUG    | All products deleted
+
+11:03:44.422 | DEBUG    | Empty cart text correct: Cart is empty!

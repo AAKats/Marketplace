@@ -1,0 +1,75 @@
+11:05:22.957 | DEBUG    | New user details:
+
+11:05:22.958 | DEBUG    |   name: Robert
+
+11:05:22.958 | DEBUG    |   email: 63b0452b_iwilliams@example.org
+
+11:05:22.958 | DEBUG    |   title: Mr
+
+11:05:22.958 | DEBUG    |   birth_day: 2
+
+11:05:22.958 | DEBUG    |   birth_month: 3
+
+11:05:22.958 | DEBUG    |   birth_year: 1994
+
+11:05:22.958 | DEBUG    |   firstname: Robert
+
+11:05:22.958 | DEBUG    |   lastname: Miller
+
+11:05:22.958 | DEBUG    |   company: Gill-Sanchez
+
+11:05:22.958 | DEBUG    |   address1: 13588 Anthony Land Apt. 547
+
+11:05:22.958 | DEBUG    |   address2: Suite 401
+
+11:05:22.958 | DEBUG    |   country: Canada
+
+11:05:22.958 | DEBUG    |   state: Nebraska
+
+11:05:22.958 | DEBUG    |   city: South Brian
+
+11:05:22.958 | DEBUG    |   zipcode: 13830
+
+11:05:23.068 | DEBUG    | Status code correct: 200
+
+11:05:23.069 | DEBUG    | ResponseCode correct: 201
+
+11:05:23.069 | DEBUG    | Response message correct: "User created!"
+
+11:05:23.069 | DEBUG    | Updated user details:
+
+11:05:23.069 | DEBUG    |   name: Robert
+
+11:05:23.069 | DEBUG    |   email: 63b0452b_iwilliams@example.org
+
+11:05:23.069 | DEBUG    |   title: Mr
+
+11:05:23.070 | DEBUG    |   birth_day: 2
+
+11:05:23.070 | DEBUG    |   birth_month: 3
+
+11:05:23.070 | DEBUG    |   birth_year: 1994
+
+11:05:23.070 | DEBUG    |   firstname: Robert
+
+11:05:23.070 | DEBUG    |   lastname: Miller
+
+11:05:23.070 | DEBUG    |   company: Gill-Sanchez
+
+11:05:23.070 | DEBUG    |   address1: 13588 Anthony Land Apt. 547
+
+11:05:23.070 | DEBUG    |   address2: Suite 401
+
+11:05:23.070 | DEBUG    |   country: Canada
+
+11:05:23.071 | DEBUG    |   state: Nebraska
+
+11:05:23.071 | DEBUG    |   city: South Brian
+
+11:05:23.071 | DEBUG    |   zipcode: 13830
+
+11:05:23.185 | DEBUG    | Status code correct: 200
+
+11:05:23.186 | DEBUG    | ResponseCode correct: 200
+
+11:05:23.186 | DEBUG    | Response message correct: "User updated!"

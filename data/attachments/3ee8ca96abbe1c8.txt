@@ -1,0 +1,13 @@
+11:03:10.732 | DEBUG    | Product "Beautiful Peacock Blue Cotton Linen Saree" (ID: 41) opened
+
+11:03:10.806 | DEBUG    | Quantity = 5 selected
+
+11:03:10.855 | DEBUG    | Product was added to cart
+
+11:03:11.595 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+11:03:11.607 | DEBUG    | Product: Beautiful Peacock Blue Cotton Linen Saree found in cart: Beautiful Peacock Blue Cotton Linen Saree
+
+11:03:11.628 | DEBUG    | Product Beautiful Peacock Blue Cotton Linen Saree price in cart: 5000 matches added price: 5000
+
+11:03:11.652 | DEBUG    | Product Beautiful Peacock Blue Cotton Linen Saree quantity in cart: 5 matches added quantity: 5
