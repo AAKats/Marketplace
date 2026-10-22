@@ -1,3 +1,5 @@
+![CI](https://github.com/AAKats/Marketplace/actions/workflows/tests.yml/badge.svg)
+[Allure-отчёт](https://aakats.github.io/Marketplace/)
 # Marketplace Test Automation
 
 Проект автоматизации тестирования веб-приложения с использованием Selenium и pytest.
