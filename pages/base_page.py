@@ -106,10 +106,7 @@ class BasePage:
     '''Методы для выпадающих списков'''
     @allure.step("Выбор значения из списка")
     def select_by_value(self, locator, value):
-        try:
-            Select(self.find(locator)).select_by_value(value)
-        except NoSuchElementException as element:
-            print(f"Элемент не найден в выпадающем списке: {element}")
+        Select(self.find(locator)).select_by_value(value)
 
     '''Методы для алертов'''
 

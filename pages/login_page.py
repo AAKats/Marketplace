@@ -128,8 +128,6 @@ class LoginPage(BasePage):
 
     @allure.step("Очистка заполненных Signup fields")
     def clear_signup_fields(self):
-        print(f'>>> clear_signup_fields, URL: {self.browser.current_url}')  # diagnostic
-        print('User already exist')
         self.find(LoginPageLocators.EMAIL_SIGN_UP_FIELD).clear()
         logger.debug('Signup email field cleared')
         self.find(LoginPageLocators.NAME_SIGN_UP_FIELD).clear()

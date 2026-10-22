@@ -98,7 +98,6 @@ class TestApiProducts:
     ])
     def test_search_product(self, products_api, product_type):
         response = products_api.post_to_search_product(product_type)
-        print(response)
         assert_status_code(response, 200)
         data = response.json()
         assert_response_code(data, 200)
@@ -114,7 +113,6 @@ class TestApiProducts:
     @pytest.mark.blank_search_product
     def test_blank_search_product(self, products_api):
         response = products_api.post_to_search_product_without_body()
-        print(response)
         assert_status_code(response, 200)
         data = response.json()
         assert_response_code(data, 400)
