@@ -1,0 +1,39 @@
+11:02:37.983 | DEBUG    | Main title is presented
+
+11:02:37.998 | DEBUG    | Main title is correct: CONTACT US
+
+11:02:38.002 | DEBUG    | Second title is presented
+
+11:02:38.012 | DEBUG    | Second title is correct: GET IN TOUCH
+
+11:02:38.017 | DEBUG    | Name field is presented
+
+11:02:38.041 | DEBUG    | Name field filled in with: John
+
+11:02:38.045 | DEBUG    | Email field is presented
+
+11:02:38.074 | DEBUG    | Email field filled in with: f902df0b_mindy83@example.net
+
+11:02:38.079 | DEBUG    | Subject field is presented
+
+11:02:38.102 | DEBUG    | Subject field filled in with: Dog event.
+
+11:02:38.108 | DEBUG    | Message field is presented
+
+11:02:38.137 | DEBUG    | Message field filled in with: Popular herself foot training generation.
+
+11:02:38.142 | DEBUG    | Upload field is presented
+
+11:02:38.154 | DEBUG    | File uploaded
+
+11:02:38.158 | DEBUG    | Submit button is presented
+
+11:02:38.201 | DEBUG    | Alert is presented
+
+11:02:38.221 | DEBUG    | Success message is presented
+
+11:02:38.221 | DEBUG    | Success message is correct
+
+11:02:38.224 | DEBUG    | Home button is presented
+
+11:02:38.847 | DEBUG    | Home button is clicked

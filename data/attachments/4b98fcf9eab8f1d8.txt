@@ -1,0 +1,43 @@
+11:03:44.318 | DEBUG    | New user details:
+
+11:03:44.318 | DEBUG    |   name: Katherine
+
+11:03:44.318 | DEBUG    |   email: 750a1c7b_bmartin@example.org
+
+11:03:44.318 | DEBUG    |   title: Mr
+
+11:03:44.318 | DEBUG    |   birth_day: 9
+
+11:03:44.318 | DEBUG    |   birth_month: 12
+
+11:03:44.318 | DEBUG    |   birth_year: 2004
+
+11:03:44.318 | DEBUG    |   firstname: Katherine
+
+11:03:44.318 | DEBUG    |   lastname: Edwards
+
+11:03:44.318 | DEBUG    |   company: Pratt-Gallagher
+
+11:03:44.318 | DEBUG    |   address1: 791 Zachary Spurs Suite 686
+
+11:03:44.318 | DEBUG    |   address2: Suite 632
+
+11:03:44.318 | DEBUG    |   country: Israel
+
+11:03:44.318 | DEBUG    |   state: Michigan
+
+11:03:44.318 | DEBUG    |   city: Travisside
+
+11:03:44.318 | DEBUG    |   zipcode: 97068
+
+11:03:44.434 | DEBUG    | Status code correct: 200
+
+11:03:44.434 | DEBUG    | ResponseCode correct: 201
+
+11:03:44.435 | DEBUG    | Response message correct: "User created!"
+
+11:03:44.547 | DEBUG    | Status code correct: 200
+
+11:03:44.547 | DEBUG    | ResponseCode correct: 200
+
+11:03:44.547 | DEBUG    | Response message correct: "Account deleted!"
