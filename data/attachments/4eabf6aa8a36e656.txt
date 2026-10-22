@@ -1,0 +1,169 @@
+16:39:06.457 | DEBUG    | Product Blue Top added, quantity 1
+
+16:39:07.353 | DEBUG    | Product Blue Top added, quantity 2
+
+16:39:08.273 | DEBUG    | Product Men Tshirt added, quantity 1
+
+16:39:09.435 | DEBUG    | Product Men Tshirt added, quantity 2
+
+16:39:09.807 | DEBUG    | Proceed to checkout button clicked
+
+16:39:10.025 | DEBUG    | Register via modal button clicked
+
+16:39:10.048 | DEBUG    | New user Signup title is presented
+
+16:39:10.058 | DEBUG    | New user Signup title text is correct
+
+16:39:10.065 | DEBUG    | Signup email field is presented
+
+16:39:10.072 | DEBUG    | Signup name field is presented
+
+16:39:10.129 | DEBUG    | Email signup field filled
+
+16:39:10.172 | DEBUG    | Name signup field filled
+
+16:39:10.218 | DEBUG    | Signup button is clicked
+
+16:39:10.431 | DEBUG    | Account information title is presented
+
+16:39:10.441 | DEBUG    | Account information title text is correct
+
+16:39:10.471 | DEBUG    | Mr radiobutton is presented
+
+16:39:10.477 | DEBUG    | Mrs radiobutton is presented
+
+16:39:10.528 | DEBUG    | Selected MRS title
+
+16:39:10.535 | DEBUG    | Password field is presented
+
+16:39:10.583 | DEBUG    | Password is filled in
+
+16:39:10.591 | DEBUG    | Day of birth list is presented
+
+16:39:10.647 | DEBUG    | Day of birth selected
+
+16:39:10.655 | DEBUG    | Month of birth list is presented
+
+16:39:10.700 | DEBUG    | Month of birth selected
+
+16:39:10.708 | DEBUG    | Year of birth list is presented
+
+16:39:10.756 | DEBUG    | Year of birth selected
+
+16:39:10.756 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+16:39:10.756 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+16:39:10.763 | DEBUG    | First name field is presented
+
+16:39:10.803 | DEBUG    | First name is filled in
+
+16:39:10.812 | DEBUG    | Last name field is presented
+
+16:39:10.849 | DEBUG    | Last name is filled in
+
+16:39:10.857 | DEBUG    | Company field is presented
+
+16:39:10.899 | DEBUG    | Company is filled in
+
+16:39:10.908 | DEBUG    | Address 1 field is presented
+
+16:39:10.954 | DEBUG    | Address 1 is filled in
+
+16:39:10.962 | DEBUG    | Address 2 field is presented
+
+16:39:11.003 | DEBUG    | Address 2 is filled in
+
+16:39:11.061 | DEBUG    | State field is presented
+
+16:39:11.102 | DEBUG    | State is filled in
+
+16:39:11.112 | DEBUG    | City field is presented
+
+16:39:11.154 | DEBUG    | City is filled in
+
+16:39:11.162 | DEBUG    | Zipcode field is presented
+
+16:39:11.200 | DEBUG    | Zipcode is filled in
+
+16:39:11.209 | DEBUG    | Mobile number field is presented
+
+16:39:11.253 | DEBUG    | Mobile number is filled in
+
+16:39:12.331 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+16:39:12.355 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+16:39:12.355 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+16:39:12.366 | DEBUG    | Continue button is presented
+
+16:39:13.061 | DEBUG    | Username is correct Logged in as Patricia
+
+16:39:14.117 | DEBUG    | Proceed to checkout button clicked
+
+16:39:14.137 | DEBUG    | Name is correct in the delivery information: Mrs. Patricia Hart
+
+16:39:14.153 | DEBUG    | Company name is correct in the delivery information: Clark-Hall
+
+16:39:14.170 | DEBUG    | Address 1 is correct in the delivery information: 2145 Michelle Pass
+
+16:39:14.187 | DEBUG    | Address 2 is correct in the delivery information: Apt. 393
+
+16:39:14.203 | DEBUG    | City is correct in the delivery information: Sethborough Missouri 69465
+
+16:39:14.219 | DEBUG    | Country is correct in the delivery information: United States
+
+16:39:14.235 | DEBUG    | Phone is correct in the delivery information: 001-801-614-5009
+
+16:39:14.251 | DEBUG    | Name is correct in the billing information: Mrs. Patricia Hart
+
+16:39:14.267 | DEBUG    | Company name is correct in the billing information: Clark-Hall
+
+16:39:14.283 | DEBUG    | Address 1 is correct in the billing information: 2145 Michelle Pass
+
+16:39:14.299 | DEBUG    | Address 2 is correct in the billing information: Apt. 393
+
+16:39:14.314 | DEBUG    | City is correct in the billing information: Sethborough Missouri 69465
+
+16:39:14.331 | DEBUG    | Country is correct in the billing information: United States
+
+16:39:14.347 | DEBUG    | Phone is correct in the billing information: 001-801-614-5009
+
+16:39:14.360 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+16:39:14.384 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+16:39:14.394 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+16:39:14.409 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+16:39:14.409 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+16:39:14.436 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+16:39:14.452 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+16:39:14.479 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+16:39:14.494 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+16:39:14.581 | DEBUG    | Comment filled in with: Popular after reveal machine seat. Modern return animal your Mrs term instead race.
+
+16:39:14.834 | DEBUG    | Place order button clicked
+
+16:39:14.891 | DEBUG    | Name on card filled in with: ****
+
+16:39:14.941 | DEBUG    | Card number filled in with: ****5723
+
+16:39:16.476 | DEBUG    | Pay and confirm button clicked
+
+16:39:16.514 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+16:39:16.807 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+16:39:16.807 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+16:39:16.807 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+16:39:17.425 | DEBUG    | Continue button clicked

@@ -1,0 +1,163 @@
+16:39:41.699 | DEBUG    | New user Signup title is presented
+
+16:39:41.715 | DEBUG    | New user Signup title text is correct
+
+16:39:41.723 | DEBUG    | Signup email field is presented
+
+16:39:41.730 | DEBUG    | Signup name field is presented
+
+16:39:41.789 | DEBUG    | Email signup field filled
+
+16:39:41.830 | DEBUG    | Name signup field filled
+
+16:39:41.878 | DEBUG    | Signup button is clicked
+
+16:39:42.184 | DEBUG    | Account information title is presented
+
+16:39:42.196 | DEBUG    | Account information title text is correct
+
+16:39:42.229 | DEBUG    | Mr radiobutton is presented
+
+16:39:42.235 | DEBUG    | Mrs radiobutton is presented
+
+16:39:42.281 | DEBUG    | Selected MR title
+
+16:39:42.289 | DEBUG    | Password field is presented
+
+16:39:42.333 | DEBUG    | Password is filled in
+
+16:39:42.342 | DEBUG    | Day of birth list is presented
+
+16:39:42.396 | DEBUG    | Day of birth selected
+
+16:39:42.405 | DEBUG    | Month of birth list is presented
+
+16:39:42.452 | DEBUG    | Month of birth selected
+
+16:39:42.460 | DEBUG    | Year of birth list is presented
+
+16:39:42.506 | DEBUG    | Year of birth selected
+
+16:39:42.555 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+16:39:42.556 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+16:39:42.563 | DEBUG    | First name field is presented
+
+16:39:42.603 | DEBUG    | First name is filled in
+
+16:39:42.611 | DEBUG    | Last name field is presented
+
+16:39:42.650 | DEBUG    | Last name is filled in
+
+16:39:42.658 | DEBUG    | Company field is presented
+
+16:39:42.712 | DEBUG    | Company is filled in
+
+16:39:42.719 | DEBUG    | Address 1 field is presented
+
+16:39:42.769 | DEBUG    | Address 1 is filled in
+
+16:39:42.777 | DEBUG    | Address 2 field is presented
+
+16:39:42.818 | DEBUG    | Address 2 is filled in
+
+16:39:42.876 | DEBUG    | State field is presented
+
+16:39:42.917 | DEBUG    | State is filled in
+
+16:39:42.926 | DEBUG    | City field is presented
+
+16:39:42.968 | DEBUG    | City is filled in
+
+16:39:42.977 | DEBUG    | Zipcode field is presented
+
+16:39:43.015 | DEBUG    | Zipcode is filled in
+
+16:39:43.024 | DEBUG    | Mobile number field is presented
+
+16:39:43.072 | DEBUG    | Mobile number is filled in
+
+16:39:43.771 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+16:39:43.797 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+16:39:43.797 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+16:39:43.804 | DEBUG    | Continue button is presented
+
+16:39:44.579 | DEBUG    | Username is correct Logged in as Jeanette
+
+16:39:45.533 | DEBUG    | Product Blue Top added, quantity 1
+
+16:39:46.436 | DEBUG    | Product Blue Top added, quantity 2
+
+16:39:47.356 | DEBUG    | Product Men Tshirt added, quantity 1
+
+16:39:48.257 | DEBUG    | Product Men Tshirt added, quantity 2
+
+16:39:49.171 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+16:39:50.349 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+16:39:50.817 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+16:39:50.817 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+16:39:50.817 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+16:39:50.840 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+16:39:50.851 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+16:39:50.862 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+16:39:50.893 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+16:39:50.909 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+16:39:50.925 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+16:39:50.953 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+16:39:50.969 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+16:39:50.985 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+16:39:51.356 | DEBUG    | Proceed to checkout button clicked
+
+16:39:51.374 | DEBUG    | Name is correct in the delivery information: Mr. Jeanette Smith
+
+16:39:51.391 | DEBUG    | Company name is correct in the delivery information: Davis, Jones and Williams
+
+16:39:51.407 | DEBUG    | Address 1 is correct in the delivery information: 430 Nathan Inlet Apt. 878
+
+16:39:51.424 | DEBUG    | Address 2 is correct in the delivery information: Apt. 101
+
+16:39:51.440 | DEBUG    | City is correct in the delivery information: Port Justin California 76541
+
+16:39:51.457 | DEBUG    | Country is correct in the delivery information: Canada
+
+16:39:51.474 | DEBUG    | Phone is correct in the delivery information: 316-290-0400x38507
+
+16:39:51.491 | DEBUG    | Name is correct in the billing information: Mr. Jeanette Smith
+
+16:39:51.507 | DEBUG    | Company name is correct in the billing information: Davis, Jones and Williams
+
+16:39:51.524 | DEBUG    | Address 1 is correct in the billing information: 430 Nathan Inlet Apt. 878
+
+16:39:51.540 | DEBUG    | Address 2 is correct in the billing information: Apt. 101
+
+16:39:51.559 | DEBUG    | City is correct in the billing information: Port Justin California 76541
+
+16:39:51.576 | DEBUG    | Country is correct in the billing information: Canada
+
+16:39:51.593 | DEBUG    | Phone is correct in the billing information: 316-290-0400x38507
+
+16:39:51.865 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+16:39:51.865 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+16:39:51.865 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+16:39:52.404 | DEBUG    | Continue button clicked

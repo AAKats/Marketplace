@@ -1,0 +1,39 @@
+16:40:15.130 | DEBUG    | Main title is presented
+
+16:40:15.157 | DEBUG    | Main title is correct: CONTACT US
+
+16:40:15.164 | DEBUG    | Second title is presented
+
+16:40:15.185 | DEBUG    | Second title is correct: GET IN TOUCH
+
+16:40:15.194 | DEBUG    | Name field is presented
+
+16:40:15.238 | DEBUG    | Name field filled in with: Alex
+
+16:40:15.246 | DEBUG    | Email field is presented
+
+16:40:15.298 | DEBUG    | Email field filled in with: 34a1be41_johnjones@example.com
+
+16:40:15.308 | DEBUG    | Subject field is presented
+
+16:40:15.348 | DEBUG    | Subject field filled in with: Employee.
+
+16:40:15.357 | DEBUG    | Message field is presented
+
+16:40:15.445 | DEBUG    | Message field filled in with: Color get analysis choose positive political. To similar person window case risk listen.
+
+16:40:15.454 | DEBUG    | Upload field is presented
+
+16:40:15.472 | DEBUG    | File uploaded
+
+16:40:15.478 | DEBUG    | Submit button is presented
+
+16:40:15.549 | DEBUG    | Alert is presented
+
+16:40:15.581 | DEBUG    | Success message is presented
+
+16:40:15.581 | DEBUG    | Success message is correct
+
+16:40:15.588 | DEBUG    | Home button is presented
+
+16:40:16.294 | DEBUG    | Home button is clicked

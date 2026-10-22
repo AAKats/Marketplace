@@ -1,0 +1,249 @@
+16:39:54.883 | DEBUG    | Product Blue Top added, quantity 1
+
+16:39:55.792 | DEBUG    | Product Blue Top added, quantity 2
+
+16:39:56.708 | DEBUG    | Product Men Tshirt added, quantity 1
+
+16:39:57.612 | DEBUG    | Product Men Tshirt added, quantity 2
+
+16:39:58.522 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+16:39:59.426 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+16:40:00.339 | DEBUG    | Product Stylish Dress added, quantity 1
+
+16:40:01.242 | DEBUG    | Product Stylish Dress added, quantity 2
+
+16:40:02.155 | DEBUG    | Product Winter Top added, quantity 1
+
+16:40:03.717 | DEBUG    | Product Winter Top added, quantity 2
+
+16:40:04.125 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+16:40:04.125 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+16:40:04.125 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+16:40:04.125 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+16:40:04.125 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+16:40:04.148 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+16:40:04.158 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+16:40:04.170 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+16:40:04.180 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+16:40:04.191 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+16:40:04.218 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+16:40:04.234 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+16:40:04.250 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+16:40:04.266 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+16:40:04.282 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+16:40:04.310 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+16:40:04.326 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+16:40:04.343 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+16:40:04.359 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+16:40:04.375 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+16:40:04.425 | DEBUG    | Proceed to checkout button clicked
+
+16:40:04.655 | DEBUG    | Register via modal button clicked
+
+16:40:04.667 | DEBUG    | New user Signup title is presented
+
+16:40:04.679 | DEBUG    | New user Signup title text is correct
+
+16:40:04.686 | DEBUG    | Signup email field is presented
+
+16:40:04.693 | DEBUG    | Signup name field is presented
+
+16:40:04.754 | DEBUG    | Email signup field filled
+
+16:40:04.799 | DEBUG    | Name signup field filled
+
+16:40:05.062 | DEBUG    | Signup button is clicked
+
+16:40:05.095 | DEBUG    | Account information title is presented
+
+16:40:05.110 | DEBUG    | Account information title text is correct
+
+16:40:05.155 | DEBUG    | Mr radiobutton is presented
+
+16:40:05.165 | DEBUG    | Mrs radiobutton is presented
+
+16:40:05.225 | DEBUG    | Selected MR title
+
+16:40:05.234 | DEBUG    | Password field is presented
+
+16:40:05.299 | DEBUG    | Password is filled in
+
+16:40:05.310 | DEBUG    | Day of birth list is presented
+
+16:40:05.382 | DEBUG    | Day of birth selected
+
+16:40:05.395 | DEBUG    | Month of birth list is presented
+
+16:40:05.448 | DEBUG    | Month of birth selected
+
+16:40:05.458 | DEBUG    | Year of birth list is presented
+
+16:40:05.511 | DEBUG    | Year of birth selected
+
+16:40:05.564 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+16:40:05.616 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+16:40:05.625 | DEBUG    | First name field is presented
+
+16:40:05.675 | DEBUG    | First name is filled in
+
+16:40:05.684 | DEBUG    | Last name field is presented
+
+16:40:05.724 | DEBUG    | Last name is filled in
+
+16:40:05.731 | DEBUG    | Company field is presented
+
+16:40:05.783 | DEBUG    | Company is filled in
+
+16:40:05.792 | DEBUG    | Address 1 field is presented
+
+16:40:05.849 | DEBUG    | Address 1 is filled in
+
+16:40:05.857 | DEBUG    | Address 2 field is presented
+
+16:40:05.896 | DEBUG    | Address 2 is filled in
+
+16:40:05.953 | DEBUG    | State field is presented
+
+16:40:05.999 | DEBUG    | State is filled in
+
+16:40:06.009 | DEBUG    | City field is presented
+
+16:40:06.050 | DEBUG    | City is filled in
+
+16:40:06.059 | DEBUG    | Zipcode field is presented
+
+16:40:06.098 | DEBUG    | Zipcode is filled in
+
+16:40:06.107 | DEBUG    | Mobile number field is presented
+
+16:40:06.152 | DEBUG    | Mobile number is filled in
+
+16:40:07.214 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+16:40:07.238 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+16:40:07.238 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+16:40:07.244 | DEBUG    | Continue button is presented
+
+16:40:08.060 | DEBUG    | Username is correct Logged in as Samantha
+
+16:40:09.211 | DEBUG    | Proceed to checkout button clicked
+
+16:40:09.231 | DEBUG    | Name is correct in the delivery information: Mr. Samantha Clark
+
+16:40:09.248 | DEBUG    | Company name is correct in the delivery information: Chambers, Sharp and Moore
+
+16:40:09.265 | DEBUG    | Address 1 is correct in the delivery information: 63704 Marvin Junctions Apt. 482
+
+16:40:09.282 | DEBUG    | Address 2 is correct in the delivery information: Apt. 945
+
+16:40:09.298 | DEBUG    | City is correct in the delivery information: Nealland Rhode Island 80836
+
+16:40:09.315 | DEBUG    | Country is correct in the delivery information: Australia
+
+16:40:09.331 | DEBUG    | Phone is correct in the delivery information: 712-382-9027x8211
+
+16:40:09.348 | DEBUG    | Name is correct in the billing information: Mr. Samantha Clark
+
+16:40:09.366 | DEBUG    | Company name is correct in the billing information: Chambers, Sharp and Moore
+
+16:40:09.382 | DEBUG    | Address 1 is correct in the billing information: 63704 Marvin Junctions Apt. 482
+
+16:40:09.399 | DEBUG    | Address 2 is correct in the billing information: Apt. 945
+
+16:40:09.417 | DEBUG    | City is correct in the billing information: Nealland Rhode Island 80836
+
+16:40:09.434 | DEBUG    | Country is correct in the billing information: Australia
+
+16:40:09.450 | DEBUG    | Phone is correct in the billing information: 712-382-9027x8211
+
+16:40:09.484 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+16:40:09.484 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+16:40:09.484 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+16:40:09.485 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+16:40:09.485 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+16:40:09.505 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+16:40:09.515 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+16:40:09.526 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+16:40:09.537 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+16:40:09.550 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+16:40:09.576 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+16:40:09.592 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+16:40:09.607 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+16:40:09.623 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+16:40:09.639 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+16:40:09.664 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+16:40:09.680 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+16:40:09.695 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+16:40:09.711 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+16:40:09.727 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+16:40:09.795 | DEBUG    | Comment filled in with: That market memory. Key green she list.
+
+16:40:10.124 | DEBUG    | Place order button clicked
+
+16:40:10.181 | DEBUG    | Name on card filled in with: ****
+
+16:40:10.233 | DEBUG    | Card number filled in with: ****5946
+
+16:40:11.795 | DEBUG    | Pay and confirm button clicked
+
+16:40:11.995 | DEBUG    | Download invoice button clicked
+
+16:40:11.995 | DEBUG    | File downloaded: /home/runner/work/Marketplace/Marketplace/temp/.com.google.Chrome.NsjaOK
+
+16:40:11.995 | DEBUG    | Invoice content is valid
+
+16:40:12.194 | DEBUG    | Continue button clicked
+
+16:40:12.474 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+16:40:12.474 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+16:40:12.474 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+16:40:13.155 | DEBUG    | Continue button clicked
