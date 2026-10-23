@@ -1,0 +1,68 @@
+10:57:03.470 | DEBUG    | Email filled in
+
+10:57:03.508 | DEBUG    | Password filled in
+
+10:57:03.516 | DEBUG    | Login button is presented
+
+10:57:03.557 | DEBUG    | Login button is clicked
+
+10:57:04.955 | DEBUG    | Username is correct Logged in as David
+
+10:57:05.902 | DEBUG    | Product Blue Top added, quantity 1
+
+10:57:06.788 | DEBUG    | Product Blue Top added, quantity 2
+
+10:57:07.922 | DEBUG    | Product Blue Top added, quantity 3
+
+10:57:08.600 | DEBUG    | Proceed to checkout button clicked
+
+10:57:08.618 | DEBUG    | Name is correct in the delivery information: Mrs. David Morales
+
+10:57:08.633 | DEBUG    | Company name is correct in the delivery information: Robles-Collins
+
+10:57:08.648 | DEBUG    | Address 1 is correct in the delivery information: 5275 Julie Streets Suite 981
+
+10:57:08.661 | DEBUG    | Address 2 is correct in the delivery information: Suite 429
+
+10:57:08.675 | DEBUG    | City is correct in the delivery information: Andreafurt Hawaii 69034
+
+10:57:08.689 | DEBUG    | Country is correct in the delivery information: Canada
+
+10:57:08.703 | DEBUG    | Phone is correct in the delivery information: 603-751-1075x52849
+
+10:57:08.718 | DEBUG    | Name is correct in the billing information: Mrs. David Morales
+
+10:57:08.733 | DEBUG    | Company name is correct in the billing information: Robles-Collins
+
+10:57:08.747 | DEBUG    | Address 1 is correct in the billing information: 5275 Julie Streets Suite 981
+
+10:57:08.760 | DEBUG    | Address 2 is correct in the billing information: Suite 429
+
+10:57:08.774 | DEBUG    | City is correct in the billing information: Andreafurt Hawaii 69034
+
+10:57:08.788 | DEBUG    | Country is correct in the billing information: Canada
+
+10:57:08.802 | DEBUG    | Phone is correct in the billing information: 603-751-1075x52849
+
+10:57:08.814 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+10:57:08.833 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+10:57:08.842 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+10:57:08.866 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+10:57:08.889 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+10:57:08.971 | DEBUG    | Comment filled in with: Affect skill clearly scientist offer rise.
+Current court more quickly civil yeah husband class.
+
+10:57:09.171 | DEBUG    | Place order button clicked
+
+10:57:09.223 | DEBUG    | Name on card filled in with: ****
+
+10:57:09.274 | DEBUG    | Card number filled in with: ****2869
+
+10:57:09.468 | DEBUG    | Pay and confirm button clicked
+
+10:57:10.810 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

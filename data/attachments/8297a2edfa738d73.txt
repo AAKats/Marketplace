@@ -1,0 +1,75 @@
+10:57:54.415 | DEBUG    | New user details:
+
+10:57:54.415 | DEBUG    |   name: Michael
+
+10:57:54.415 | DEBUG    |   email: bf86c8d1_erica30@example.net
+
+10:57:54.415 | DEBUG    |   title: Mrs
+
+10:57:54.415 | DEBUG    |   birth_day: 10
+
+10:57:54.415 | DEBUG    |   birth_month: 8
+
+10:57:54.415 | DEBUG    |   birth_year: 1972
+
+10:57:54.415 | DEBUG    |   firstname: Michael
+
+10:57:54.415 | DEBUG    |   lastname: Moss
+
+10:57:54.415 | DEBUG    |   company: Castillo LLC
+
+10:57:54.415 | DEBUG    |   address1: 91231 Wade Station
+
+10:57:54.415 | DEBUG    |   address2: Suite 870
+
+10:57:54.415 | DEBUG    |   country: New Zealand
+
+10:57:54.415 | DEBUG    |   state: Kansas
+
+10:57:54.415 | DEBUG    |   city: South Samuel
+
+10:57:54.415 | DEBUG    |   zipcode: 46560
+
+10:57:54.555 | DEBUG    | Status code correct: 200
+
+10:57:54.555 | DEBUG    | ResponseCode correct: 201
+
+10:57:54.555 | DEBUG    | Response message correct: "User created!"
+
+10:57:54.555 | DEBUG    | Updated user details:
+
+10:57:54.555 | DEBUG    |   name: Michael
+
+10:57:54.556 | DEBUG    |   email: bf86c8d1_erica30@example.net
+
+10:57:54.556 | DEBUG    |   title: Mrs
+
+10:57:54.558 | DEBUG    |   birth_day: 10
+
+10:57:54.558 | DEBUG    |   birth_month: 8
+
+10:57:54.558 | DEBUG    |   birth_year: 1972
+
+10:57:54.558 | DEBUG    |   firstname: Michael
+
+10:57:54.558 | DEBUG    |   lastname: Moss
+
+10:57:54.558 | DEBUG    |   company: Castillo LLC
+
+10:57:54.558 | DEBUG    |   address1: 91231 Wade Station
+
+10:57:54.558 | DEBUG    |   address2: Suite 870
+
+10:57:54.558 | DEBUG    |   country: New Zealand
+
+10:57:54.558 | DEBUG    |   state: Kansas
+
+10:57:54.558 | DEBUG    |   city: South Samuel
+
+10:57:54.558 | DEBUG    |   zipcode: 46560
+
+10:57:54.666 | DEBUG    | Status code correct: 200
+
+10:57:54.666 | DEBUG    | ResponseCode correct: 200
+
+10:57:54.666 | DEBUG    | Response message correct: "User updated!"

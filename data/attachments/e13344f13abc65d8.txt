@@ -1,0 +1,169 @@
+10:55:36.007 | DEBUG    | Product Blue Top added, quantity 1
+
+10:55:36.896 | DEBUG    | Product Blue Top added, quantity 2
+
+10:55:37.793 | DEBUG    | Product Men Tshirt added, quantity 1
+
+10:55:38.884 | DEBUG    | Product Men Tshirt added, quantity 2
+
+10:55:39.211 | DEBUG    | Proceed to checkout button clicked
+
+10:55:39.428 | DEBUG    | Register via modal button clicked
+
+10:55:39.440 | DEBUG    | New user Signup title is presented
+
+10:55:39.451 | DEBUG    | New user Signup title text is correct
+
+10:55:39.457 | DEBUG    | Signup email field is presented
+
+10:55:39.463 | DEBUG    | Signup name field is presented
+
+10:55:39.528 | DEBUG    | Email signup field filled
+
+10:55:39.572 | DEBUG    | Name signup field filled
+
+10:55:39.779 | DEBUG    | Signup button is clicked
+
+10:55:39.797 | DEBUG    | Account information title is presented
+
+10:55:39.809 | DEBUG    | Account information title text is correct
+
+10:55:39.837 | DEBUG    | Mr radiobutton is presented
+
+10:55:39.843 | DEBUG    | Mrs radiobutton is presented
+
+10:55:39.890 | DEBUG    | Selected MR title
+
+10:55:39.897 | DEBUG    | Password field is presented
+
+10:55:39.943 | DEBUG    | Password is filled in
+
+10:55:39.952 | DEBUG    | Day of birth list is presented
+
+10:55:40.001 | DEBUG    | Day of birth selected
+
+10:55:40.009 | DEBUG    | Month of birth list is presented
+
+10:55:40.049 | DEBUG    | Month of birth selected
+
+10:55:40.057 | DEBUG    | Year of birth list is presented
+
+10:55:40.098 | DEBUG    | Year of birth selected
+
+10:55:40.144 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+10:55:40.188 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+10:55:40.195 | DEBUG    | First name field is presented
+
+10:55:40.229 | DEBUG    | First name is filled in
+
+10:55:40.238 | DEBUG    | Last name field is presented
+
+10:55:40.275 | DEBUG    | Last name is filled in
+
+10:55:40.281 | DEBUG    | Company field is presented
+
+10:55:40.322 | DEBUG    | Company is filled in
+
+10:55:40.329 | DEBUG    | Address 1 field is presented
+
+10:55:40.371 | DEBUG    | Address 1 is filled in
+
+10:55:40.379 | DEBUG    | Address 2 field is presented
+
+10:55:40.418 | DEBUG    | Address 2 is filled in
+
+10:55:40.468 | DEBUG    | State field is presented
+
+10:55:40.506 | DEBUG    | State is filled in
+
+10:55:40.513 | DEBUG    | City field is presented
+
+10:55:40.554 | DEBUG    | City is filled in
+
+10:55:40.562 | DEBUG    | Zipcode field is presented
+
+10:55:40.596 | DEBUG    | Zipcode is filled in
+
+10:55:40.604 | DEBUG    | Mobile number field is presented
+
+10:55:40.646 | DEBUG    | Mobile number is filled in
+
+10:55:41.439 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+10:55:41.460 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+10:55:41.461 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+10:55:41.472 | DEBUG    | Continue button is presented
+
+10:55:41.907 | DEBUG    | Username is correct Logged in as Tyler
+
+10:55:42.684 | DEBUG    | Proceed to checkout button clicked
+
+10:55:42.703 | DEBUG    | Name is correct in the delivery information: Mr. Tyler Matthews
+
+10:55:42.718 | DEBUG    | Company name is correct in the delivery information: Herrera Group
+
+10:55:42.732 | DEBUG    | Address 1 is correct in the delivery information: 41368 Renee Inlet
+
+10:55:42.746 | DEBUG    | Address 2 is correct in the delivery information: Suite 501
+
+10:55:42.761 | DEBUG    | City is correct in the delivery information: New Kathleenview New Mexico 19159
+
+10:55:42.775 | DEBUG    | Country is correct in the delivery information: Singapore
+
+10:55:42.789 | DEBUG    | Phone is correct in the delivery information: +1-372-762-2885x5752
+
+10:55:42.804 | DEBUG    | Name is correct in the billing information: Mr. Tyler Matthews
+
+10:55:42.818 | DEBUG    | Company name is correct in the billing information: Herrera Group
+
+10:55:42.831 | DEBUG    | Address 1 is correct in the billing information: 41368 Renee Inlet
+
+10:55:42.846 | DEBUG    | Address 2 is correct in the billing information: Suite 501
+
+10:55:42.860 | DEBUG    | City is correct in the billing information: New Kathleenview New Mexico 19159
+
+10:55:42.874 | DEBUG    | Country is correct in the billing information: Singapore
+
+10:55:42.891 | DEBUG    | Phone is correct in the billing information: +1-372-762-2885x5752
+
+10:55:42.903 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+10:55:42.923 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+10:55:42.931 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+10:55:42.946 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+10:55:42.946 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+10:55:42.968 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+10:55:42.981 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+10:55:43.004 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+10:55:43.016 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+10:55:43.083 | DEBUG    | Comment filled in with: Form short response. Until social your continue return.
+
+10:55:43.280 | DEBUG    | Place order button clicked
+
+10:55:43.331 | DEBUG    | Name on card filled in with: ****
+
+10:55:43.530 | DEBUG    | Card number filled in with: ****5748
+
+10:55:45.042 | DEBUG    | Pay and confirm button clicked
+
+10:55:45.082 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+10:55:45.310 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+10:55:45.310 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+10:55:45.310 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+10:55:45.705 | DEBUG    | Continue button clicked

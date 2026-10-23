@@ -1,0 +1,43 @@
+10:57:54.165 | DEBUG    | New user details:
+
+10:57:54.165 | DEBUG    |   name: Robert
+
+10:57:54.165 | DEBUG    |   email: 12c414f8_heidiandrews@example.org
+
+10:57:54.165 | DEBUG    |   title: Mrs
+
+10:57:54.165 | DEBUG    |   birth_day: 14
+
+10:57:54.165 | DEBUG    |   birth_month: 6
+
+10:57:54.165 | DEBUG    |   birth_year: 1929
+
+10:57:54.165 | DEBUG    |   firstname: Robert
+
+10:57:54.165 | DEBUG    |   lastname: Garcia
+
+10:57:54.165 | DEBUG    |   company: Hutchinson Ltd
+
+10:57:54.165 | DEBUG    |   address1: 457 Randall Vista Apt. 506
+
+10:57:54.165 | DEBUG    |   address2: Apt. 532
+
+10:57:54.165 | DEBUG    |   country: India
+
+10:57:54.166 | DEBUG    |   state: Missouri
+
+10:57:54.166 | DEBUG    |   city: South Zachary
+
+10:57:54.166 | DEBUG    |   zipcode: 56608
+
+10:57:54.288 | DEBUG    | Status code correct: 200
+
+10:57:54.288 | DEBUG    | ResponseCode correct: 201
+
+10:57:54.289 | DEBUG    | Response message correct: "User created!"
+
+10:57:54.405 | DEBUG    | Status code correct: 200
+
+10:57:54.405 | DEBUG    | ResponseCode correct: 200
+
+10:57:54.405 | DEBUG    | Response message correct: "Account deleted!"

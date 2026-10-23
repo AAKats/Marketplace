@@ -1,0 +1,11 @@
+10:57:12.477 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+10:57:12.539 | DEBUG    | Review name field filled in with "Alicia Edwards"
+
+10:57:12.596 | DEBUG    | Review email field filled in with "08cce728_heather02@example.org"
+
+10:57:12.685 | DEBUG    | Review message field filled in with "Hard happy live enjoy time. Reason deep knowledge degree parent situation garden. Move staff offer."
+
+10:57:12.742 | DEBUG    | Submit review button clicked
+
+10:57:12.767 | DEBUG    | Success review message is displayed
