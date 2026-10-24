@@ -1,0 +1,75 @@
+10:13:06.400 | DEBUG    | New user details:
+
+10:13:06.400 | DEBUG    |   name: Alexis
+
+10:13:06.401 | DEBUG    |   email: 8bc8d165_allenchad@example.net
+
+10:13:06.401 | DEBUG    |   title: Mr
+
+10:13:06.401 | DEBUG    |   birth_day: 2
+
+10:13:06.401 | DEBUG    |   birth_month: 11
+
+10:13:06.401 | DEBUG    |   birth_year: 1968
+
+10:13:06.401 | DEBUG    |   firstname: Alexis
+
+10:13:06.401 | DEBUG    |   lastname: Mays
+
+10:13:06.401 | DEBUG    |   company: Murphy, Hood and Stewart
+
+10:13:06.401 | DEBUG    |   address1: 5652 Russo Fords Suite 906
+
+10:13:06.401 | DEBUG    |   address2: Suite 426
+
+10:13:06.401 | DEBUG    |   country: Canada
+
+10:13:06.401 | DEBUG    |   state: Michigan
+
+10:13:06.401 | DEBUG    |   city: Leeview
+
+10:13:06.401 | DEBUG    |   zipcode: 39732
+
+10:13:06.540 | DEBUG    | Status code correct: 200
+
+10:13:06.540 | DEBUG    | ResponseCode correct: 201
+
+10:13:06.540 | DEBUG    | Response message correct: "User created!"
+
+10:13:06.541 | DEBUG    | Updated user details:
+
+10:13:06.541 | DEBUG    |   name: Alexis
+
+10:13:06.541 | DEBUG    |   email: 8bc8d165_allenchad@example.net
+
+10:13:06.541 | DEBUG    |   title: Mr
+
+10:13:06.542 | DEBUG    |   birth_day: 2
+
+10:13:06.542 | DEBUG    |   birth_month: 11
+
+10:13:06.542 | DEBUG    |   birth_year: 1968
+
+10:13:06.542 | DEBUG    |   firstname: Alexis
+
+10:13:06.542 | DEBUG    |   lastname: Mays
+
+10:13:06.543 | DEBUG    |   company: Murphy, Hood and Stewart
+
+10:13:06.543 | DEBUG    |   address1: 5652 Russo Fords Suite 906
+
+10:13:06.543 | DEBUG    |   address2: Suite 426
+
+10:13:06.543 | DEBUG    |   country: Canada
+
+10:13:06.543 | DEBUG    |   state: Michigan
+
+10:13:06.543 | DEBUG    |   city: Leeview
+
+10:13:06.543 | DEBUG    |   zipcode: 39732
+
+10:13:06.691 | DEBUG    | Status code correct: 200
+
+10:13:06.691 | DEBUG    | ResponseCode correct: 200
+
+10:13:06.691 | DEBUG    | Response message correct: "User updated!"

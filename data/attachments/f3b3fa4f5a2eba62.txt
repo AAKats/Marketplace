@@ -1,0 +1,43 @@
+10:13:06.011 | DEBUG    | New user details:
+
+10:13:06.011 | DEBUG    |   name: Alexander
+
+10:13:06.011 | DEBUG    |   email: 3762fb2b_nrowland@example.net
+
+10:13:06.011 | DEBUG    |   title: Mrs
+
+10:13:06.011 | DEBUG    |   birth_day: 5
+
+10:13:06.011 | DEBUG    |   birth_month: 12
+
+10:13:06.011 | DEBUG    |   birth_year: 2000
+
+10:13:06.011 | DEBUG    |   firstname: Alexander
+
+10:13:06.011 | DEBUG    |   lastname: Scott
+
+10:13:06.011 | DEBUG    |   company: Matthews-Clark
+
+10:13:06.011 | DEBUG    |   address1: 1690 Ross Loaf Suite 900
+
+10:13:06.011 | DEBUG    |   address2: Apt. 395
+
+10:13:06.011 | DEBUG    |   country: New Zealand
+
+10:13:06.011 | DEBUG    |   state: Missouri
+
+10:13:06.011 | DEBUG    |   city: Danielleton
+
+10:13:06.011 | DEBUG    |   zipcode: 52728
+
+10:13:06.168 | DEBUG    | Status code correct: 200
+
+10:13:06.168 | DEBUG    | ResponseCode correct: 201
+
+10:13:06.168 | DEBUG    | Response message correct: "User created!"
+
+10:13:06.391 | DEBUG    | Status code correct: 200
+
+10:13:06.391 | DEBUG    | ResponseCode correct: 200
+
+10:13:06.391 | DEBUG    | Response message correct: "Account deleted!"

@@ -1,0 +1,67 @@
+10:12:12.634 | DEBUG    | Email filled in
+
+10:12:12.675 | DEBUG    | Password filled in
+
+10:12:12.683 | DEBUG    | Login button is presented
+
+10:12:12.725 | DEBUG    | Login button is clicked
+
+10:12:14.342 | DEBUG    | Username is correct Logged in as Donald
+
+10:12:15.278 | DEBUG    | Product Blue Top added, quantity 1
+
+10:12:16.166 | DEBUG    | Product Blue Top added, quantity 2
+
+10:12:17.296 | DEBUG    | Product Blue Top added, quantity 3
+
+10:12:17.906 | DEBUG    | Proceed to checkout button clicked
+
+10:12:17.923 | DEBUG    | Name is correct in the delivery information: Mr. Donald Reed
+
+10:12:17.937 | DEBUG    | Company name is correct in the delivery information: Bell, Mcdowell and Jarvis
+
+10:12:17.952 | DEBUG    | Address 1 is correct in the delivery information: 2449 Jones Glens Apt. 742
+
+10:12:17.966 | DEBUG    | Address 2 is correct in the delivery information: Suite 463
+
+10:12:17.980 | DEBUG    | City is correct in the delivery information: South Anthony Louisiana 14830
+
+10:12:17.994 | DEBUG    | Country is correct in the delivery information: Singapore
+
+10:12:18.008 | DEBUG    | Phone is correct in the delivery information: 001-946-579-4467x466
+
+10:12:18.023 | DEBUG    | Name is correct in the billing information: Mr. Donald Reed
+
+10:12:18.039 | DEBUG    | Company name is correct in the billing information: Bell, Mcdowell and Jarvis
+
+10:12:18.054 | DEBUG    | Address 1 is correct in the billing information: 2449 Jones Glens Apt. 742
+
+10:12:18.069 | DEBUG    | Address 2 is correct in the billing information: Suite 463
+
+10:12:18.083 | DEBUG    | City is correct in the billing information: South Anthony Louisiana 14830
+
+10:12:18.097 | DEBUG    | Country is correct in the billing information: Singapore
+
+10:12:18.112 | DEBUG    | Phone is correct in the billing information: 001-946-579-4467x466
+
+10:12:18.124 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+10:12:18.145 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+10:12:18.154 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+10:12:18.178 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+10:12:18.202 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+10:12:18.278 | DEBUG    | Comment filled in with: Wear throughout bed rise benefit. Thank technology measure end officer.
+
+10:12:18.492 | DEBUG    | Place order button clicked
+
+10:12:18.545 | DEBUG    | Name on card filled in with: ****
+
+10:12:18.599 | DEBUG    | Card number filled in with: ****5532
+
+10:12:20.076 | DEBUG    | Pay and confirm button clicked
+
+10:12:20.111 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

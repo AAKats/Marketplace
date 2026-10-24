@@ -1,0 +1,13 @@
+10:10:27.813 | DEBUG    | Product "Rose Pink Embroidered Maxi Dress" (ID: 38) opened
+
+10:10:27.882 | DEBUG    | Quantity = 9 selected
+
+10:10:27.933 | DEBUG    | Product was added to cart
+
+10:10:28.778 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+10:10:28.789 | DEBUG    | Product: Rose Pink Embroidered Maxi Dress found in cart: Rose Pink Embroidered Maxi Dress
+
+10:10:28.808 | DEBUG    | Product Rose Pink Embroidered Maxi Dress price in cart: 2300 matches added price: 2300
+
+10:10:28.832 | DEBUG    | Product Rose Pink Embroidered Maxi Dress quantity in cart: 9 matches added quantity: 9

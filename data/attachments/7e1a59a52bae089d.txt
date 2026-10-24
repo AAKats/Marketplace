@@ -1,0 +1,39 @@
+10:11:47.511 | DEBUG    | Main title is presented
+
+10:11:47.533 | DEBUG    | Main title is correct: CONTACT US
+
+10:11:47.539 | DEBUG    | Second title is presented
+
+10:11:47.557 | DEBUG    | Second title is correct: GET IN TOUCH
+
+10:11:47.565 | DEBUG    | Name field is presented
+
+10:11:47.605 | DEBUG    | Name field filled in with: Stephen
+
+10:11:47.612 | DEBUG    | Email field is presented
+
+10:11:47.663 | DEBUG    | Email field filled in with: b72fe67a_aimeeestrada@example.org
+
+10:11:47.672 | DEBUG    | Subject field is presented
+
+10:11:47.709 | DEBUG    | Subject field filled in with: Listen.
+
+10:11:47.717 | DEBUG    | Message field is presented
+
+10:11:47.796 | DEBUG    | Message field filled in with: Worry talk bar long statement he your every. Bad establish force professional off fact.
+
+10:11:47.804 | DEBUG    | Upload field is presented
+
+10:11:47.821 | DEBUG    | File uploaded
+
+10:11:47.826 | DEBUG    | Submit button is presented
+
+10:11:47.958 | DEBUG    | Alert is presented
+
+10:11:48.024 | DEBUG    | Success message is presented
+
+10:11:48.024 | DEBUG    | Success message is correct
+
+10:11:48.030 | DEBUG    | Home button is presented
+
+10:11:48.873 | DEBUG    | Home button is clicked
