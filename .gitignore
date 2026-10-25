@@ -28,12 +28,8 @@ Dockerfile
 docker-compose.yml
 *.dockerignore
 structure.txt
-registration_data.*
 allure-results/
 allure-report/
 
 # Ignore generated test data files
-generated_card_data.json
-generated_data.json
-login_data.json
 logs/

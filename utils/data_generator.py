@@ -1,4 +1,3 @@
-import json
 import os
 import random
 import uuid
@@ -7,17 +6,28 @@ from faker import Faker
 
 
 class DataGenerator:
-    _login_data_cache = None
-    _registration_data_cache = None
-    _generated_data_cache = {}
+    """Генератор тестовых данных.
+
+    Все данные хранятся в памяти процесса: файлы в корне репозитория
+    ломают параллельный запуск (pytest-xdist: воркеры перезаписывают
+    файлы друг друга) и засоряют рабочую директорию.
+    """
+
+    _registration_data = None
+    _generated_data = {}
+    _card_info = None
     _existing_user = None
 
     @staticmethod
     def generate_data_for_registration(fields=None):
-        DataGenerator._registration_data_cache = None
-        DataGenerator._login_data_cache = None
+        """Генерирует полный профиль или отдельные поля.
+
+        Полный профиль (fields=None) нужен фикстуре existing_user:
+        все поля согласованы между собой. Отдельные поля — для форм,
+        где регистрация не выполняется (подписка, contact us).
+        """
         fake = Faker('en_US')
-        data = {
+        generators = {
             'title': lambda: random.choice(['Mr.', 'Mrs.']),
             'first_name': fake.first_name,
             'last_name': fake.last_name,
@@ -34,101 +44,84 @@ class DataGenerator:
             'city': fake.city,
             'state': fake.state,
             'country': lambda: random.choice(
-                ['India', 'United States', 'Canada', 'Australia', 'Israel', 'New Zealand', 'Singapore']),
+                ['India', 'United States', 'Canada', 'Australia',
+                 'Israel', 'New Zealand', 'Singapore']),
             'zipcode': fake.postcode,
-            'mobile_number': fake.phone_number
+            'mobile_number': fake.phone_number,
         }
 
         if fields is None:
-            data = {key: generator() for key, generator in data.items()}
-            filename = 'registration_data.json'
-        else:
-            if isinstance(fields, str):
-                fields = [fields]
-            data = {field: data[field]() for field in fields if field in data}
-            # Данные храним в памяти процесса: файл общедоступен для всех
-            # воркеров pytest-xdist и его перезапись ломает параллельные тесты
-            DataGenerator._generated_data_cache = data
-            filename = 'generated_data.json'
+            DataGenerator._registration_data = {
+                key: gen() for key, gen in generators.items()
+            }
+            return DataGenerator._registration_data
 
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
-
-    @staticmethod
-    def _load_registration_data():
-        if DataGenerator._registration_data_cache is None:
-            with open('registration_data.json', 'r', encoding='utf-8') as f:
-                DataGenerator._registration_data_cache = json.load(f)
-        return DataGenerator._registration_data_cache
+        if isinstance(fields, str):
+            fields = [fields]
+        data = {f: generators[f]() for f in fields if f in generators}
+        DataGenerator._generated_data.update(data)
+        return data
 
     @staticmethod
     def get_registration_data(*fields):
+        if DataGenerator._registration_data is None:
+            raise RuntimeError(
+                'Профиль не сгенерирован: вызовите generate_data_for_registration() '
+                '(обычно это делает фикстура existing_user в conftest)'
+            )
         if not fields:
-            return DataGenerator._load_registration_data()
+            return DataGenerator._registration_data
 
         env_values = [os.getenv(f'REGISTRATION_{f.upper()}') for f in fields]
         if all(env_values):
             return env_values[0] if len(fields) == 1 else tuple(env_values)
 
-        data = DataGenerator._load_registration_data()
-        values = [data[f] for f in fields]
+        values = [DataGenerator._registration_data[f] for f in fields]
         return values[0] if len(fields) == 1 else tuple(values)
 
     @staticmethod
     def set_existing_user(data: dict):
-        """Сохраняет профиль существующего пользователя, созданного через API"""
+        """Сохраняет профиль пользователя, созданного через API."""
         DataGenerator._existing_user = dict(data)
-        DataGenerator._login_data_cache = None
-
-    @staticmethod
-    def _load_login_data():
-        if DataGenerator._login_data_cache is None:
-            if DataGenerator._existing_user is not None:
-                DataGenerator._login_data_cache = DataGenerator._existing_user
-            elif os.path.exists('login_data.json'):
-                with open('login_data.json', 'r', encoding='utf-8') as f:
-                    DataGenerator._login_data_cache = json.load(f)
-            else:
-                raise FileNotFoundError(
-                    "Нет данных для входа: задай env LOGIN_EMAIL/LOGIN_PASSWORD "
-                    "или используй фикстуру existing_user (регистрация пользователя через API)"
-                )
-        return DataGenerator._login_data_cache
 
     @staticmethod
     def get_login_data(*fields):
+        if DataGenerator._existing_user is None:
+            raise RuntimeError(
+                'Нет данных для входа: задай env LOGIN_EMAIL/LOGIN_PASSWORD '
+                'или используй фикстуру existing_user (регистрация через API)'
+            )
         if not fields:
-            return DataGenerator._load_login_data()
+            return DataGenerator._existing_user
 
         env_values = [os.getenv(f'LOGIN_{f.upper()}') for f in fields]
         if all(env_values):
             return env_values[0] if len(fields) == 1 else tuple(env_values)
 
-        data = DataGenerator._load_login_data()
-        values = [data[f] for f in fields]
+        values = [DataGenerator._existing_user[f] for f in fields]
         return values[0] if len(fields) == 1 else tuple(values)
 
     @staticmethod
-    def get_generated_data(fields):
-        if fields in DataGenerator._generated_data_cache:
-            return DataGenerator._generated_data_cache[fields]
-        with open('generated_data.json', 'r', encoding='utf-8') as f:
-            return json.load(f)[fields]
+    def get_generated_data(field):
+        if field not in DataGenerator._generated_data:
+            raise KeyError(
+                f'Поле "{field}" не генерировалось: сначала вызовите '
+                f'generate_data_for_registration(["{field}"])'
+            )
+        return DataGenerator._generated_data[field]
 
     @staticmethod
     def get_subject():
-        subject = Faker('en_US').text(10)
-        return subject
+        return Faker('en_US').text(10)
 
     @staticmethod
     def get_message():
-        message = Faker('en_US').text(100)
-        return message
+        return Faker('en_US').text(100)
 
     @staticmethod
     def generate_card_info():
         fake = Faker('en_US')
-        data = {
+        DataGenerator._card_info = {
             'name_on_card': (
                 f'{DataGenerator.get_registration_data("first_name")} '
                 f'{DataGenerator.get_registration_data("last_name")}'
@@ -136,13 +129,12 @@ class DataGenerator:
             'card_number': fake.credit_card_number(),
             'cvc': fake.credit_card_security_code(),
             'expiration_m': str(random.randint(1, 12)),
-            'expiration_y': str(random.randint(2020, 2026))
+            'expiration_y': str(random.randint(2020, 2026)),
         }
-        filename = 'generated_card_data.json'
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
+        return DataGenerator._card_info
 
     @staticmethod
     def get_card_info(field):
-        with open('generated_card_data.json', 'r', encoding='utf-8') as f:
-            return json.load(f)[field]
+        if DataGenerator._card_info is None:
+            raise KeyError('Карта не генерировалась: сначала вызовите generate_card_info()')
+        return DataGenerator._card_info[field]
