@@ -5,7 +5,7 @@ class Config:
     # --- Окружение (Environment) ---
     # Получаем URL из переменных системы, или берем дефолтный, если не задано
     BASE_URL = os.getenv("BASE_URL", "https://automationexercise.com")
-    API_URL = os.getenv("API_URL", "https://automationexercise.com/api")
+    API_URL = os.getenv("API_URL", "https://automationexercise.com")
 
     # --- Настройки UI (Browser & UI) ---
     # chrome, firefox, edge
