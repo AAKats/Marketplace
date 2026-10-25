@@ -1,0 +1,11 @@
+10:36:52.245 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+10:36:52.279 | DEBUG    | Review name field filled in with "Ashley Crane"
+
+10:36:52.311 | DEBUG    | Review email field filled in with "04955a22_johnsonalex@example.net"
+
+10:36:52.348 | DEBUG    | Review message field filled in with "Begin author oil also. East the court work term."
+
+10:36:52.380 | DEBUG    | Submit review button clicked
+
+10:36:52.395 | DEBUG    | Success review message is displayed

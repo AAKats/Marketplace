@@ -1,0 +1,17 @@
+10:36:22.912 | DEBUG    | Login title is presented
+
+10:36:22.920 | DEBUG    | Login title text is correct
+
+10:36:22.924 | DEBUG    | Login email field is presented
+
+10:36:22.927 | DEBUG    | Password field is presented
+
+10:36:22.955 | DEBUG    | Email filled in
+
+10:36:22.976 | DEBUG    | Password filled in
+
+10:36:22.980 | DEBUG    | Login button is presented
+
+10:36:23.004 | DEBUG    | Login button is clicked
+
+10:36:24.792 | DEBUG    | Username is correct Logged in as Teresa

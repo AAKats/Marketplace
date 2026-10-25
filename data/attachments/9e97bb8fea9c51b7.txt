@@ -1,0 +1,165 @@
+10:37:18.295 | DEBUG    | New user Signup title is presented
+
+10:37:18.303 | DEBUG    | New user Signup title text is correct
+
+10:37:18.307 | DEBUG    | Signup email field is presented
+
+10:37:18.310 | DEBUG    | Signup name field is presented
+
+10:37:18.340 | DEBUG    | Email signup field filled
+
+10:37:18.361 | DEBUG    | Name signup field filled
+
+10:37:18.388 | DEBUG    | Signup button is clicked
+
+10:37:18.911 | DEBUG    | Account information title is presented
+
+10:37:18.917 | DEBUG    | Account information title text is correct
+
+10:37:18.932 | DEBUG    | Mr radiobutton is presented
+
+10:37:18.936 | DEBUG    | Mrs radiobutton is presented
+
+10:37:18.962 | DEBUG    | Selected MRS title
+
+10:37:18.966 | DEBUG    | Password field is presented
+
+10:37:18.988 | DEBUG    | Password is filled in
+
+10:37:18.992 | DEBUG    | Day of birth list is presented
+
+10:37:19.019 | DEBUG    | Day of birth selected
+
+10:37:19.023 | DEBUG    | Month of birth list is presented
+
+10:37:19.045 | DEBUG    | Month of birth selected
+
+10:37:19.049 | DEBUG    | Year of birth list is presented
+
+10:37:19.071 | DEBUG    | Year of birth selected
+
+10:37:19.071 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+10:37:19.094 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+10:37:19.099 | DEBUG    | First name field is presented
+
+10:37:19.118 | DEBUG    | First name is filled in
+
+10:37:19.122 | DEBUG    | Last name field is presented
+
+10:37:19.141 | DEBUG    | Last name is filled in
+
+10:37:19.145 | DEBUG    | Company field is presented
+
+10:37:19.171 | DEBUG    | Company is filled in
+
+10:37:19.176 | DEBUG    | Address 1 field is presented
+
+10:37:19.202 | DEBUG    | Address 1 is filled in
+
+10:37:19.207 | DEBUG    | Address 2 field is presented
+
+10:37:19.227 | DEBUG    | Address 2 is filled in
+
+10:37:19.257 | DEBUG    | State field is presented
+
+10:37:19.276 | DEBUG    | State is filled in
+
+10:37:19.280 | DEBUG    | City field is presented
+
+10:37:19.303 | DEBUG    | City is filled in
+
+10:37:19.307 | DEBUG    | Zipcode field is presented
+
+10:37:19.327 | DEBUG    | Zipcode is filled in
+
+10:37:19.331 | DEBUG    | Mobile number field is presented
+
+10:37:19.352 | DEBUG    | Mobile number is filled in
+
+10:37:19.908 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+10:37:19.922 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+10:37:19.922 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+10:37:19.925 | DEBUG    | Continue button is presented
+
+10:37:20.379 | DEBUG    | Username is correct Logged in as Shelly
+
+10:37:21.721 | DEBUG    | Product Blue Top added, quantity 1
+
+10:37:22.547 | DEBUG    | Product Blue Top added, quantity 2
+
+10:37:23.379 | DEBUG    | Product Men Tshirt added, quantity 1
+
+10:37:24.404 | DEBUG    | Product Men Tshirt added, quantity 2
+
+10:37:24.986 | DEBUG    | Proceed to checkout button clicked
+
+10:37:24.996 | DEBUG    | Name is correct in the delivery information: Mrs. Shelly Wood
+
+10:37:25.004 | DEBUG    | Company name is correct in the delivery information: Guerra, Williams and Ashley
+
+10:37:25.012 | DEBUG    | Address 1 is correct in the delivery information: 446 Dawn Land Suite 532
+
+10:37:25.020 | DEBUG    | Address 2 is correct in the delivery information: Suite 977
+
+10:37:25.027 | DEBUG    | City is correct in the delivery information: Lake Bryceville Arkansas 80892
+
+10:37:25.035 | DEBUG    | Country is correct in the delivery information: United States
+
+10:37:25.043 | DEBUG    | Phone is correct in the delivery information: 823.851.4379x693
+
+10:37:25.051 | DEBUG    | Name is correct in the billing information: Mrs. Shelly Wood
+
+10:37:25.059 | DEBUG    | Company name is correct in the billing information: Guerra, Williams and Ashley
+
+10:37:25.067 | DEBUG    | Address 1 is correct in the billing information: 446 Dawn Land Suite 532
+
+10:37:25.075 | DEBUG    | Address 2 is correct in the billing information: Suite 977
+
+10:37:25.083 | DEBUG    | City is correct in the billing information: Lake Bryceville Arkansas 80892
+
+10:37:25.091 | DEBUG    | Country is correct in the billing information: United States
+
+10:37:25.098 | DEBUG    | Phone is correct in the billing information: 823.851.4379x693
+
+10:37:25.105 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+10:37:25.116 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+10:37:25.121 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+10:37:25.128 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+10:37:25.128 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+10:37:25.140 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+10:37:25.148 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+10:37:25.161 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+10:37:25.168 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+10:37:25.210 | DEBUG    | Comment filled in with: Its people tree specific indicate. Return born second attack also alone.
+
+10:37:25.356 | DEBUG    | Place order button clicked
+
+10:37:25.386 | DEBUG    | Name on card filled in with: ****
+
+10:37:25.413 | DEBUG    | Card number filled in with: ****2732
+
+10:37:25.513 | DEBUG    | Pay and confirm button clicked
+
+10:37:26.853 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+10:37:27.017 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+10:37:27.017 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+10:37:27.017 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+10:37:27.440 | DEBUG    | Continue button clicked

@@ -1,0 +1,49 @@
+10:35:28.636 | DEBUG    | Search field is presented
+
+10:35:28.660 | DEBUG    | Search field is filled in with: "Winter Top"
+
+10:35:28.664 | DEBUG    | Search button is presented
+
+10:35:28.909 | DEBUG    | Search button is clicked
+
+10:35:28.919 | DEBUG    | Title is presented
+
+10:35:28.919 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+10:35:28.922 | DEBUG    | 1 products found
+
+10:35:28.925 | DEBUG    | "Winter Top" product found, and contains "Winter Top"
+
+10:35:29.984 | DEBUG    | Product Winter Top added, quantity 1
+
+10:35:30.217 | DEBUG    | Product: Winter Top found in cart: Winter Top
+
+10:35:30.228 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+10:35:30.241 | DEBUG    | Product Winter Top quantity in cart: 1 matches added quantity: 1
+
+10:35:30.254 | DEBUG    | Product Winter Top total in cart: 600 matches expected total: 600
+
+10:35:30.396 | DEBUG    | Login email field is presented
+
+10:35:30.399 | DEBUG    | Password field is presented
+
+10:35:30.423 | DEBUG    | Email filled in
+
+10:35:30.444 | DEBUG    | Password filled in
+
+10:35:30.448 | DEBUG    | Login button is presented
+
+10:35:31.443 | DEBUG    | Login button is clicked
+
+10:35:31.739 | DEBUG    | Product: Winter Top found in cart: Winter Top
+
+10:35:31.749 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+10:35:31.761 | DEBUG    | Product Winter Top quantity in cart: 1 matches added quantity: 1
+
+10:35:31.772 | DEBUG    | Product Winter Top total in cart: 600 matches expected total: 600
+
+10:35:36.346 | DEBUG    | All products deleted
+
+10:35:36.351 | DEBUG    | Empty cart text correct: Cart is empty!

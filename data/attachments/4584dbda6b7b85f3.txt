@@ -1,0 +1,169 @@
+10:35:07.914 | DEBUG    | Product Blue Top added, quantity 1
+
+10:35:08.738 | DEBUG    | Product Blue Top added, quantity 2
+
+10:35:09.568 | DEBUG    | Product Men Tshirt added, quantity 1
+
+10:35:10.633 | DEBUG    | Product Men Tshirt added, quantity 2
+
+10:35:10.934 | DEBUG    | Proceed to checkout button clicked
+
+10:35:11.109 | DEBUG    | Register via modal button clicked
+
+10:35:11.115 | DEBUG    | New user Signup title is presented
+
+10:35:11.121 | DEBUG    | New user Signup title text is correct
+
+10:35:11.124 | DEBUG    | Signup email field is presented
+
+10:35:11.127 | DEBUG    | Signup name field is presented
+
+10:35:11.156 | DEBUG    | Email signup field filled
+
+10:35:11.176 | DEBUG    | Name signup field filled
+
+10:35:11.201 | DEBUG    | Signup button is clicked
+
+10:35:11.859 | DEBUG    | Account information title is presented
+
+10:35:11.864 | DEBUG    | Account information title text is correct
+
+10:35:11.879 | DEBUG    | Mr radiobutton is presented
+
+10:35:11.882 | DEBUG    | Mrs radiobutton is presented
+
+10:35:11.905 | DEBUG    | Selected MRS title
+
+10:35:11.909 | DEBUG    | Password field is presented
+
+10:35:11.931 | DEBUG    | Password is filled in
+
+10:35:11.935 | DEBUG    | Day of birth list is presented
+
+10:35:11.962 | DEBUG    | Day of birth selected
+
+10:35:11.966 | DEBUG    | Month of birth list is presented
+
+10:35:11.987 | DEBUG    | Month of birth selected
+
+10:35:11.991 | DEBUG    | Year of birth list is presented
+
+10:35:12.013 | DEBUG    | Year of birth selected
+
+10:35:12.037 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+10:35:12.061 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+10:35:12.065 | DEBUG    | First name field is presented
+
+10:35:12.083 | DEBUG    | First name is filled in
+
+10:35:12.088 | DEBUG    | Last name field is presented
+
+10:35:12.108 | DEBUG    | Last name is filled in
+
+10:35:12.112 | DEBUG    | Company field is presented
+
+10:35:12.134 | DEBUG    | Company is filled in
+
+10:35:12.139 | DEBUG    | Address 1 field is presented
+
+10:35:12.161 | DEBUG    | Address 1 is filled in
+
+10:35:12.165 | DEBUG    | Address 2 field is presented
+
+10:35:12.187 | DEBUG    | Address 2 is filled in
+
+10:35:12.214 | DEBUG    | State field is presented
+
+10:35:12.235 | DEBUG    | State is filled in
+
+10:35:12.239 | DEBUG    | City field is presented
+
+10:35:12.262 | DEBUG    | City is filled in
+
+10:35:12.266 | DEBUG    | Zipcode field is presented
+
+10:35:12.284 | DEBUG    | Zipcode is filled in
+
+10:35:12.289 | DEBUG    | Mobile number field is presented
+
+10:35:12.312 | DEBUG    | Mobile number is filled in
+
+10:35:13.047 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+10:35:13.064 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+10:35:13.064 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+10:35:13.068 | DEBUG    | Continue button is presented
+
+10:35:13.616 | DEBUG    | Username is correct Logged in as Brian
+
+10:35:14.405 | DEBUG    | Proceed to checkout button clicked
+
+10:35:14.415 | DEBUG    | Name is correct in the delivery information: Mrs. Brian Jones
+
+10:35:14.423 | DEBUG    | Company name is correct in the delivery information: Bernard Group
+
+10:35:14.432 | DEBUG    | Address 1 is correct in the delivery information: 510 Lauren Trace
+
+10:35:14.440 | DEBUG    | Address 2 is correct in the delivery information: Suite 878
+
+10:35:14.448 | DEBUG    | City is correct in the delivery information: Jimenezfurt Connecticut 27988
+
+10:35:14.456 | DEBUG    | Country is correct in the delivery information: Singapore
+
+10:35:14.463 | DEBUG    | Phone is correct in the delivery information: 001-220-940-1591x60101
+
+10:35:14.471 | DEBUG    | Name is correct in the billing information: Mrs. Brian Jones
+
+10:35:14.479 | DEBUG    | Company name is correct in the billing information: Bernard Group
+
+10:35:14.487 | DEBUG    | Address 1 is correct in the billing information: 510 Lauren Trace
+
+10:35:14.495 | DEBUG    | Address 2 is correct in the billing information: Suite 878
+
+10:35:14.502 | DEBUG    | City is correct in the billing information: Jimenezfurt Connecticut 27988
+
+10:35:14.510 | DEBUG    | Country is correct in the billing information: Singapore
+
+10:35:14.518 | DEBUG    | Phone is correct in the billing information: 001-220-940-1591x60101
+
+10:35:14.524 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+10:35:14.536 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+10:35:14.541 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+10:35:14.548 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+10:35:14.548 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+10:35:14.561 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+10:35:14.568 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+10:35:14.581 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+10:35:14.588 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+10:35:14.625 | DEBUG    | Comment filled in with: Yes shake camera traditional. Finish soldier nothing space.
+
+10:35:14.786 | DEBUG    | Place order button clicked
+
+10:35:14.816 | DEBUG    | Name on card filled in with: ****
+
+10:35:14.870 | DEBUG    | Card number filled in with: ****6573
+
+10:35:16.266 | DEBUG    | Pay and confirm button clicked
+
+10:35:16.286 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+10:35:16.476 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+10:35:16.476 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+10:35:16.476 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+10:35:16.965 | DEBUG    | Continue button clicked
