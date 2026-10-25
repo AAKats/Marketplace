@@ -1,0 +1,39 @@
+19:14:01.244 | DEBUG    | Main title is presented
+
+19:14:01.267 | DEBUG    | Main title is correct: CONTACT US
+
+19:14:01.273 | DEBUG    | Second title is presented
+
+19:14:01.291 | DEBUG    | Second title is correct: GET IN TOUCH
+
+19:14:01.299 | DEBUG    | Name field is presented
+
+19:14:01.338 | DEBUG    | Name field filled in with: Carl
+
+19:14:01.345 | DEBUG    | Email field is presented
+
+19:14:01.394 | DEBUG    | Email field filled in with: 143f5951_brian60@example.com
+
+19:14:01.402 | DEBUG    | Subject field is presented
+
+19:14:01.440 | DEBUG    | Subject field filled in with: Measure.
+
+19:14:01.449 | DEBUG    | Message field is presented
+
+19:14:01.518 | DEBUG    | Message field filled in with: Attack under hold. House field could figure. Under which employee.
+
+19:14:01.527 | DEBUG    | Upload field is presented
+
+19:14:01.545 | DEBUG    | File uploaded
+
+19:14:01.551 | DEBUG    | Submit button is presented
+
+19:14:01.618 | DEBUG    | Alert is presented
+
+19:14:01.647 | DEBUG    | Success message is presented
+
+19:14:01.647 | DEBUG    | Success message is correct
+
+19:14:01.653 | DEBUG    | Home button is presented
+
+19:14:02.184 | DEBUG    | Home button is clicked

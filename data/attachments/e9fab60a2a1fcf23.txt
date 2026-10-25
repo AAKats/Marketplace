@@ -1,0 +1,11 @@
+19:14:32.546 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+19:14:32.605 | DEBUG    | Review name field filled in with "Nicole Lee"
+
+19:14:32.664 | DEBUG    | Review email field filled in with "b4bd256a_pamela22@example.com"
+
+19:14:32.755 | DEBUG    | Review message field filled in with "Again senior popular. Manage rather add mean their. Strong represent become surface."
+
+19:14:32.813 | DEBUG    | Submit review button clicked
+
+19:14:32.838 | DEBUG    | Success review message is displayed

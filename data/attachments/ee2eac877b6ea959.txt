@@ -1,0 +1,17 @@
+19:14:59.773 | DEBUG    | New user Signup title is presented
+
+19:14:59.787 | DEBUG    | New user Signup title text is correct
+
+19:14:59.793 | DEBUG    | Signup email field is presented
+
+19:14:59.800 | DEBUG    | Signup name field is presented
+
+19:14:59.856 | DEBUG    | Existing email filled in
+
+19:14:59.895 | DEBUG    | Name signup field filled
+
+19:14:59.941 | DEBUG    | Signup button is clicked
+
+19:15:00.560 | DEBUG    | Error is presented
+
+19:15:00.571 | DEBUG    | Error message is correct: Email Address already exist!

@@ -1,0 +1,43 @@
+19:15:15.501 | DEBUG    | New user details:
+
+19:15:15.501 | DEBUG    |   name: Philip
+
+19:15:15.501 | DEBUG    |   email: 2a836c89_krystalklein@example.net
+
+19:15:15.501 | DEBUG    |   title: Mrs
+
+19:15:15.501 | DEBUG    |   birth_day: 23
+
+19:15:15.501 | DEBUG    |   birth_month: 6
+
+19:15:15.501 | DEBUG    |   birth_year: 1924
+
+19:15:15.501 | DEBUG    |   firstname: Philip
+
+19:15:15.501 | DEBUG    |   lastname: Erickson
+
+19:15:15.501 | DEBUG    |   company: Weaver, Gonzalez and Stephens
+
+19:15:15.501 | DEBUG    |   address1: 3665 Leslie Parkways
+
+19:15:15.501 | DEBUG    |   address2: Apt. 845
+
+19:15:15.501 | DEBUG    |   country: Australia
+
+19:15:15.501 | DEBUG    |   state: Indiana
+
+19:15:15.501 | DEBUG    |   city: Lake Angela
+
+19:15:15.501 | DEBUG    |   zipcode: 82588
+
+19:15:15.592 | DEBUG    | Status code correct: 200
+
+19:15:15.592 | DEBUG    | ResponseCode correct: 201
+
+19:15:15.592 | DEBUG    | Response message correct: "User created!"
+
+19:15:15.678 | DEBUG    | Status code correct: 200
+
+19:15:15.679 | DEBUG    | ResponseCode correct: 200
+
+19:15:15.679 | DEBUG    | Response message correct: "Account deleted!"

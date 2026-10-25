@@ -1,0 +1,5 @@
+19:15:14.468 | DEBUG    | Status code correct: 200
+
+19:15:14.468 | DEBUG    | ResponseCode correct: 400
+
+19:15:14.468 | DEBUG    | Response message correct: "Bad request, email or password parameter is missing in POST request."

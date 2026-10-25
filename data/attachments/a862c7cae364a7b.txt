@@ -1,0 +1,169 @@
+19:13:02.111 | DEBUG    | Product Blue Top added, quantity 1
+
+19:13:02.988 | DEBUG    | Product Blue Top added, quantity 2
+
+19:13:03.891 | DEBUG    | Product Men Tshirt added, quantity 1
+
+19:13:04.917 | DEBUG    | Product Men Tshirt added, quantity 2
+
+19:13:05.192 | DEBUG    | Proceed to checkout button clicked
+
+19:13:05.357 | DEBUG    | Register via modal button clicked
+
+19:13:05.368 | DEBUG    | New user Signup title is presented
+
+19:13:05.377 | DEBUG    | New user Signup title text is correct
+
+19:13:05.382 | DEBUG    | Signup email field is presented
+
+19:13:05.388 | DEBUG    | Signup name field is presented
+
+19:13:05.447 | DEBUG    | Email signup field filled
+
+19:13:05.485 | DEBUG    | Name signup field filled
+
+19:13:05.529 | DEBUG    | Signup button is clicked
+
+19:13:05.691 | DEBUG    | Account information title is presented
+
+19:13:05.700 | DEBUG    | Account information title text is correct
+
+19:13:05.726 | DEBUG    | Mr radiobutton is presented
+
+19:13:05.732 | DEBUG    | Mrs radiobutton is presented
+
+19:13:05.779 | DEBUG    | Selected MR title
+
+19:13:05.786 | DEBUG    | Password field is presented
+
+19:13:05.833 | DEBUG    | Password is filled in
+
+19:13:05.841 | DEBUG    | Day of birth list is presented
+
+19:13:05.891 | DEBUG    | Day of birth selected
+
+19:13:05.898 | DEBUG    | Month of birth list is presented
+
+19:13:05.939 | DEBUG    | Month of birth selected
+
+19:13:05.946 | DEBUG    | Year of birth list is presented
+
+19:13:05.986 | DEBUG    | Year of birth selected
+
+19:13:06.030 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+19:13:06.074 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+19:13:06.081 | DEBUG    | First name field is presented
+
+19:13:06.116 | DEBUG    | First name is filled in
+
+19:13:06.123 | DEBUG    | Last name field is presented
+
+19:13:06.159 | DEBUG    | Last name is filled in
+
+19:13:06.166 | DEBUG    | Company field is presented
+
+19:13:06.208 | DEBUG    | Company is filled in
+
+19:13:06.214 | DEBUG    | Address 1 field is presented
+
+19:13:06.265 | DEBUG    | Address 1 is filled in
+
+19:13:06.273 | DEBUG    | Address 2 field is presented
+
+19:13:06.310 | DEBUG    | Address 2 is filled in
+
+19:13:06.360 | DEBUG    | State field is presented
+
+19:13:06.395 | DEBUG    | State is filled in
+
+19:13:06.402 | DEBUG    | City field is presented
+
+19:13:06.443 | DEBUG    | City is filled in
+
+19:13:06.450 | DEBUG    | Zipcode field is presented
+
+19:13:06.486 | DEBUG    | Zipcode is filled in
+
+19:13:06.493 | DEBUG    | Mobile number field is presented
+
+19:13:06.536 | DEBUG    | Mobile number is filled in
+
+19:13:07.195 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+19:13:07.219 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+19:13:07.219 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+19:13:07.225 | DEBUG    | Continue button is presented
+
+19:13:07.619 | DEBUG    | Username is correct Logged in as Corey
+
+19:13:08.376 | DEBUG    | Proceed to checkout button clicked
+
+19:13:08.394 | DEBUG    | Name is correct in the delivery information: Mr. Corey Mckee
+
+19:13:08.408 | DEBUG    | Company name is correct in the delivery information: Williamson-Cook
+
+19:13:08.423 | DEBUG    | Address 1 is correct in the delivery information: 87185 Sarah Path Apt. 316
+
+19:13:08.437 | DEBUG    | Address 2 is correct in the delivery information: Apt. 455
+
+19:13:08.451 | DEBUG    | City is correct in the delivery information: New Christine Iowa 67997
+
+19:13:08.466 | DEBUG    | Country is correct in the delivery information: Singapore
+
+19:13:08.480 | DEBUG    | Phone is correct in the delivery information: 617-703-6847x06619
+
+19:13:08.494 | DEBUG    | Name is correct in the billing information: Mr. Corey Mckee
+
+19:13:08.508 | DEBUG    | Company name is correct in the billing information: Williamson-Cook
+
+19:13:08.523 | DEBUG    | Address 1 is correct in the billing information: 87185 Sarah Path Apt. 316
+
+19:13:08.536 | DEBUG    | Address 2 is correct in the billing information: Apt. 455
+
+19:13:08.551 | DEBUG    | City is correct in the billing information: New Christine Iowa 67997
+
+19:13:08.565 | DEBUG    | Country is correct in the billing information: Singapore
+
+19:13:08.579 | DEBUG    | Phone is correct in the billing information: 617-703-6847x06619
+
+19:13:08.591 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+19:13:08.611 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+19:13:08.620 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+19:13:08.634 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+19:13:08.634 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+19:13:08.658 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+19:13:08.672 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+19:13:08.695 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+19:13:08.709 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+19:13:08.790 | DEBUG    | Comment filled in with: Final and little draw call guy would project. Outside already firm economic finish stock.
+
+19:13:08.943 | DEBUG    | Place order button clicked
+
+19:13:08.996 | DEBUG    | Name on card filled in with: ****
+
+19:13:09.044 | DEBUG    | Card number filled in with: ****4773
+
+19:13:10.566 | DEBUG    | Pay and confirm button clicked
+
+19:13:10.600 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+19:13:10.791 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+19:13:10.791 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+19:13:10.791 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+19:13:11.177 | DEBUG    | Continue button clicked
