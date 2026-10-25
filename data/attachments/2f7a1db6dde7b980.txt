@@ -1,0 +1,43 @@
+18:36:47.211 | DEBUG    | New user details:
+
+18:36:47.211 | DEBUG    |   name: Stephanie
+
+18:36:47.211 | DEBUG    |   email: 1a29743e_carlosbradford@example.org
+
+18:36:47.212 | DEBUG    |   title: Mrs
+
+18:36:47.212 | DEBUG    |   birth_day: 21
+
+18:36:47.212 | DEBUG    |   birth_month: 6
+
+18:36:47.212 | DEBUG    |   birth_year: 1907
+
+18:36:47.212 | DEBUG    |   firstname: Stephanie
+
+18:36:47.212 | DEBUG    |   lastname: Martin
+
+18:36:47.212 | DEBUG    |   company: Walker, White and Roach
+
+18:36:47.212 | DEBUG    |   address1: 34617 Corey Lodge Suite 283
+
+18:36:47.212 | DEBUG    |   address2: Suite 950
+
+18:36:47.212 | DEBUG    |   country: New Zealand
+
+18:36:47.212 | DEBUG    |   state: Ohio
+
+18:36:47.212 | DEBUG    |   city: West Cherylland
+
+18:36:47.212 | DEBUG    |   zipcode: 46139
+
+18:36:47.395 | DEBUG    | Status code correct: 200
+
+18:36:47.395 | DEBUG    | ResponseCode correct: 201
+
+18:36:47.396 | DEBUG    | Response message correct: "User created!"
+
+18:36:47.518 | DEBUG    | Status code correct: 200
+
+18:36:47.518 | DEBUG    | ResponseCode correct: 200
+
+18:36:47.518 | DEBUG    | Response message correct: "Account deleted!"

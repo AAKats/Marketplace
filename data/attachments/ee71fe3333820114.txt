@@ -1,0 +1,75 @@
+18:36:47.524 | DEBUG    | New user details:
+
+18:36:47.524 | DEBUG    |   name: Brianna
+
+18:36:47.524 | DEBUG    |   email: 2ddc9a44_pgay@example.net
+
+18:36:47.524 | DEBUG    |   title: Mrs
+
+18:36:47.524 | DEBUG    |   birth_day: 9
+
+18:36:47.524 | DEBUG    |   birth_month: 5
+
+18:36:47.524 | DEBUG    |   birth_year: 1992
+
+18:36:47.524 | DEBUG    |   firstname: Brianna
+
+18:36:47.524 | DEBUG    |   lastname: Rice
+
+18:36:47.524 | DEBUG    |   company: Steele LLC
+
+18:36:47.524 | DEBUG    |   address1: 1490 Henry Prairie Suite 582
+
+18:36:47.524 | DEBUG    |   address2: Apt. 436
+
+18:36:47.524 | DEBUG    |   country: United States
+
+18:36:47.524 | DEBUG    |   state: Washington
+
+18:36:47.524 | DEBUG    |   city: East William
+
+18:36:47.524 | DEBUG    |   zipcode: 76520
+
+18:36:47.651 | DEBUG    | Status code correct: 200
+
+18:36:47.651 | DEBUG    | ResponseCode correct: 201
+
+18:36:47.651 | DEBUG    | Response message correct: "User created!"
+
+18:36:47.651 | DEBUG    | Updated user details:
+
+18:36:47.651 | DEBUG    |   name: Brianna
+
+18:36:47.651 | DEBUG    |   email: 2ddc9a44_pgay@example.net
+
+18:36:47.651 | DEBUG    |   title: Mrs
+
+18:36:47.653 | DEBUG    |   birth_day: 9
+
+18:36:47.653 | DEBUG    |   birth_month: 5
+
+18:36:47.653 | DEBUG    |   birth_year: 1992
+
+18:36:47.653 | DEBUG    |   firstname: Brianna
+
+18:36:47.653 | DEBUG    |   lastname: Rice
+
+18:36:47.653 | DEBUG    |   company: Steele LLC
+
+18:36:47.653 | DEBUG    |   address1: 1490 Henry Prairie Suite 582
+
+18:36:47.653 | DEBUG    |   address2: Apt. 436
+
+18:36:47.653 | DEBUG    |   country: United States
+
+18:36:47.653 | DEBUG    |   state: Washington
+
+18:36:47.653 | DEBUG    |   city: East William
+
+18:36:47.653 | DEBUG    |   zipcode: 76520
+
+18:36:47.765 | DEBUG    | Status code correct: 200
+
+18:36:47.766 | DEBUG    | ResponseCode correct: 200
+
+18:36:47.766 | DEBUG    | Response message correct: "User updated!"

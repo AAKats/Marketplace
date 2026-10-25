@@ -1,0 +1,17 @@
+18:35:38.527 | DEBUG    | Login title is presented
+
+18:35:38.538 | DEBUG    | Login title text is correct
+
+18:35:38.542 | DEBUG    | Login email field is presented
+
+18:35:38.547 | DEBUG    | Password field is presented
+
+18:35:38.580 | DEBUG    | Email filled in
+
+18:35:38.605 | DEBUG    | Password filled in
+
+18:35:38.611 | DEBUG    | Login button is presented
+
+18:35:39.718 | DEBUG    | Login button is clicked
+
+18:35:39.733 | DEBUG    | Username is correct Logged in as Dana

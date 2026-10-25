@@ -1,0 +1,39 @@
+18:35:35.210 | DEBUG    | Main title is presented
+
+18:35:35.228 | DEBUG    | Main title is correct: CONTACT US
+
+18:35:35.232 | DEBUG    | Second title is presented
+
+18:35:35.246 | DEBUG    | Second title is correct: GET IN TOUCH
+
+18:35:35.252 | DEBUG    | Name field is presented
+
+18:35:35.280 | DEBUG    | Name field filled in with: Tammy
+
+18:35:35.285 | DEBUG    | Email field is presented
+
+18:35:35.320 | DEBUG    | Email field filled in with: fb57a436_katherine36@example.net
+
+18:35:35.327 | DEBUG    | Subject field is presented
+
+18:35:35.350 | DEBUG    | Subject field filled in with: Down.
+
+18:35:35.357 | DEBUG    | Message field is presented
+
+18:35:35.396 | DEBUG    | Message field filled in with: From ask their foot seat. Require Mr important enter hand.
+
+18:35:35.402 | DEBUG    | Upload field is presented
+
+18:35:35.415 | DEBUG    | File uploaded
+
+18:35:35.420 | DEBUG    | Submit button is presented
+
+18:35:35.473 | DEBUG    | Alert is presented
+
+18:35:35.499 | DEBUG    | Success message is presented
+
+18:35:35.499 | DEBUG    | Success message is correct
+
+18:35:35.504 | DEBUG    | Home button is presented
+
+18:35:36.082 | DEBUG    | Home button is clicked
