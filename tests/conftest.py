@@ -3,6 +3,8 @@ import os
 import allure
 import pytest
 from selenium import webdriver
+
+from config.config import Config
 from ..api.services.user_api import UserApi
 from ..api.services.products_api import ProductsApi
 from utils.data_generator import DataGenerator
@@ -49,13 +51,13 @@ def browser(request):
 @pytest.fixture(scope="session")
 def api_client():
     """Фикстура для API запросов"""
-    return UserApi(base_url="https://automationexercise.com")
+    return UserApi(base_url=Config.API_URL)
 
 
 @pytest.fixture(scope="session")
 def products_api():
     """Фикстура для API запросов к продуктам"""
-    return ProductsApi(base_url="https://automationexercise.com")
+    return ProductsApi(base_url=Config.API_URL)
 
 
 @pytest.fixture(scope="session")
