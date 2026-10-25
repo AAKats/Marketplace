@@ -1,0 +1,39 @@
+20:13:00.178 | DEBUG    | Main title is presented
+
+20:13:00.202 | DEBUG    | Main title is correct: CONTACT US
+
+20:13:00.210 | DEBUG    | Second title is presented
+
+20:13:00.230 | DEBUG    | Second title is correct: GET IN TOUCH
+
+20:13:00.238 | DEBUG    | Name field is presented
+
+20:13:00.281 | DEBUG    | Name field filled in with: Robert
+
+20:13:00.290 | DEBUG    | Email field is presented
+
+20:13:00.341 | DEBUG    | Email field filled in with: dee7763b_adam97@example.org
+
+20:13:00.350 | DEBUG    | Subject field is presented
+
+20:13:00.387 | DEBUG    | Subject field filled in with: Her.
+
+20:13:00.397 | DEBUG    | Message field is presented
+
+20:13:00.473 | DEBUG    | Message field filled in with: Voice concern national certainly deep notice. Since discover political when.
+
+20:13:00.481 | DEBUG    | Upload field is presented
+
+20:13:00.498 | DEBUG    | File uploaded
+
+20:13:00.505 | DEBUG    | Submit button is presented
+
+20:13:00.569 | DEBUG    | Alert is presented
+
+20:13:00.599 | DEBUG    | Success message is presented
+
+20:13:00.599 | DEBUG    | Success message is correct
+
+20:13:00.606 | DEBUG    | Home button is presented
+
+20:13:00.983 | DEBUG    | Home button is clicked

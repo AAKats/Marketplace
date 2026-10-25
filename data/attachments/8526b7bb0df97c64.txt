@@ -1,0 +1,43 @@
+20:14:10.090 | DEBUG    | New user details:
+
+20:14:10.090 | DEBUG    |   name: Collin
+
+20:14:10.090 | DEBUG    |   email: bec38310_simssara@example.net
+
+20:14:10.090 | DEBUG    |   title: Mr
+
+20:14:10.090 | DEBUG    |   birth_day: 6
+
+20:14:10.090 | DEBUG    |   birth_month: 8
+
+20:14:10.090 | DEBUG    |   birth_year: 1951
+
+20:14:10.090 | DEBUG    |   firstname: Collin
+
+20:14:10.090 | DEBUG    |   lastname: Davis
+
+20:14:10.090 | DEBUG    |   company: Cardenas Group
+
+20:14:10.090 | DEBUG    |   address1: 531 Michael Turnpike
+
+20:14:10.090 | DEBUG    |   address2: Apt. 845
+
+20:14:10.090 | DEBUG    |   country: United States
+
+20:14:10.090 | DEBUG    |   state: Arkansas
+
+20:14:10.090 | DEBUG    |   city: East Eric
+
+20:14:10.091 | DEBUG    |   zipcode: 08417
+
+20:14:10.205 | DEBUG    | Status code correct: 200
+
+20:14:10.205 | DEBUG    | ResponseCode correct: 201
+
+20:14:10.206 | DEBUG    | Response message correct: "User created!"
+
+20:14:10.283 | DEBUG    | Status code correct: 200
+
+20:14:10.284 | DEBUG    | ResponseCode correct: 200
+
+20:14:10.284 | DEBUG    | Response message correct: "Account deleted!"

@@ -1,0 +1,75 @@
+20:14:10.292 | DEBUG    | New user details:
+
+20:14:10.293 | DEBUG    |   name: Allison
+
+20:14:10.293 | DEBUG    |   email: 09b44179_josemiller@example.com
+
+20:14:10.293 | DEBUG    |   title: Mrs
+
+20:14:10.293 | DEBUG    |   birth_day: 25
+
+20:14:10.293 | DEBUG    |   birth_month: 5
+
+20:14:10.293 | DEBUG    |   birth_year: 1959
+
+20:14:10.293 | DEBUG    |   firstname: Allison
+
+20:14:10.293 | DEBUG    |   lastname: Bailey
+
+20:14:10.293 | DEBUG    |   company: Ferguson-Moody
+
+20:14:10.293 | DEBUG    |   address1: 078 White Alley Suite 742
+
+20:14:10.293 | DEBUG    |   address2: Suite 777
+
+20:14:10.293 | DEBUG    |   country: United States
+
+20:14:10.293 | DEBUG    |   state: Arizona
+
+20:14:10.293 | DEBUG    |   city: Valerietown
+
+20:14:10.293 | DEBUG    |   zipcode: 83604
+
+20:14:10.376 | DEBUG    | Status code correct: 200
+
+20:14:10.376 | DEBUG    | ResponseCode correct: 201
+
+20:14:10.377 | DEBUG    | Response message correct: "User created!"
+
+20:14:10.377 | DEBUG    | Updated user details:
+
+20:14:10.377 | DEBUG    |   name: Allison
+
+20:14:10.377 | DEBUG    |   email: 09b44179_josemiller@example.com
+
+20:14:10.377 | DEBUG    |   title: Mrs
+
+20:14:10.377 | DEBUG    |   birth_day: 25
+
+20:14:10.377 | DEBUG    |   birth_month: 5
+
+20:14:10.377 | DEBUG    |   birth_year: 1959
+
+20:14:10.377 | DEBUG    |   firstname: Allison
+
+20:14:10.377 | DEBUG    |   lastname: Bailey
+
+20:14:10.377 | DEBUG    |   company: Ferguson-Moody
+
+20:14:10.377 | DEBUG    |   address1: 078 White Alley Suite 742
+
+20:14:10.377 | DEBUG    |   address2: Suite 777
+
+20:14:10.377 | DEBUG    |   country: United States
+
+20:14:10.377 | DEBUG    |   state: Arizona
+
+20:14:10.377 | DEBUG    |   city: Valerietown
+
+20:14:10.379 | DEBUG    |   zipcode: 83604
+
+20:14:10.478 | DEBUG    | Status code correct: 200
+
+20:14:10.478 | DEBUG    | ResponseCode correct: 200
+
+20:14:10.479 | DEBUG    | Response message correct: "User updated!"
