@@ -17,19 +17,19 @@ jobs:
   test:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: '3.13'
           cache: 'pip'
 
       - name: Setup Chrome
-        uses: browser-actions/setup-chrome@v1
+        uses: browser-actions/setup-chrome@48ad923757ca74d66703209fe939badbdf80f2f4 # v2.2.0
         with:
           chrome-version: stable
 
@@ -44,16 +44,33 @@ jobs:
         env:
           HEADLESS: 'true'
 
-      - name: Load Allure history
-        uses: actions/checkout@v4
+      - name: Upload test results
         if: always()
-        continue-on-error: true
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: allure-results
+          path: allure-results/
+  report:
+    runs-on: ubuntu-latest
+    needs: test
+    if: always()
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download test results
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: allure-results
+          path: allure-results
+
+      - name: Load Allure history
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: gh-pages
           path: gh-pages
 
       - name: Install Allure CLI
-        if: always()
         run: |
           sudo apt-get update
           sudo apt-get install -y openjdk-17-jre-headless
@@ -63,20 +80,16 @@ jobs:
           sudo ln -s /opt/allure/bin/allure /usr/bin/allure
 
       - name: Copy history for trends
-        if: always()
         run: |
           if [ -d "gh-pages/history" ]; then
             cp -r gh-pages/history/* allure-results/
           fi
 
       - name: Generate Allure report
-        if: always()
-        run: |
-          allure generate allure-results -o allure-report --clean
+        run: allure generate allure-results -o allure-report --clean
 
       - name: Deploy Allure report to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
-        if: always()
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
