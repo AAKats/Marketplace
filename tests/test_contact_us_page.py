@@ -11,7 +11,6 @@ class TestContacUsPage():
     @allure.feature('Contact Us')
     @allure.story('Отправка формы обратной связи')
     @allure.severity(allure.severity_level.NORMAL)
-    @pytest.mark.contact_us
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui

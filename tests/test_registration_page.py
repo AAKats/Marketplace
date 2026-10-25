@@ -15,7 +15,6 @@ class TestRegistration():
     @allure.feature('Registration')
     @allure.story('Регистрация нового пользователя')
     @allure.severity(allure.severity_level.BLOCKER)
-    @pytest.mark.register_user
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
@@ -74,7 +73,6 @@ class TestRegistration():
     @allure.feature('Registration')
     @allure.story('Регистрация с существующим email')
     @allure.severity(allure.severity_level.NORMAL)
-    @pytest.mark.register_exist_email
     @pytest.mark.negative
     @pytest.mark.smoke
     @pytest.mark.ui
@@ -97,8 +95,7 @@ class TestRegistration():
     @allure.story('Регистрация перед покупкой')
     @pytest.mark.positive
     @pytest.mark.ui
-    @pytest.mark.purchase
-    @pytest.mark.register_before_checkout
+    @pytest.mark.smoke
     def test_register_before_checkout(self, browser):
         page = LoginPage(browser)
         page.open()

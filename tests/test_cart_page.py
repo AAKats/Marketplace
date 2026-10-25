@@ -19,8 +19,7 @@ class TestCartPage():
     @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.positive
     @pytest.mark.ui
-    @pytest.mark.subscribe
-    @pytest.mark.subscribe_from_cart
+    @pytest.mark.regress
     def test_subscribe_from_cart(self, browser):
         DataGenerator.generate_data_for_registration(['email'])
         page = CartPage(browser)
@@ -38,8 +37,7 @@ class TestCartPage():
     @allure.severity(allure.severity_level.CRITICAL)
     @pytest.mark.positive
     @pytest.mark.ui
-    @pytest.mark.purchase
-    @pytest.mark.add_products_in_cart
+    @pytest.mark.regress
     def test_add_products_in_cart(self, browser):
         page = ProductsPage(browser)
         page.open()
@@ -57,8 +55,7 @@ class TestCartPage():
     @allure.story('Добавление товара в корзину со страницы товара и проверка')
     @pytest.mark.positive
     @pytest.mark.ui
-    @pytest.mark.purchase
-    @pytest.mark.add_product_in_cart_from_product_page
+    @pytest.mark.smoke
     def test_add_product_in_cart_from_product_page(self, browser):
         page = ProductsPage(browser)
         page.open()
@@ -81,8 +78,7 @@ class TestCartPage():
     @allure.story('Регистрация со страницы корзины')
     @pytest.mark.positive
     @pytest.mark.ui
-    @pytest.mark.purchase
-    @pytest.mark.register_while_checkout
+    @pytest.mark.smoke
     def test_register_while_checkout(self, browser):
         page = ProductsPage(browser)
         page.open()
@@ -165,8 +161,7 @@ class TestCartPage():
     @allure.severity(allure.severity_level.NORMAL)
     @pytest.mark.positive
     @pytest.mark.ui
-    @pytest.mark.subscribe
-    @pytest.mark.remove_from_cart
+    @pytest.mark.smoke
     def test_remove_from_cart(self, browser):
         page = ProductsPage(browser)
         page.open()
@@ -184,11 +179,9 @@ class TestCartPage():
     @allure.feature('Cart')
     @allure.story('Поиск товара')
     @allure.severity(allure.severity_level.CRITICAL)
-    @pytest.mark.search_product
     @pytest.mark.positive
-    @pytest.mark.smoke
+    @pytest.mark.regress
     @pytest.mark.ui
-    @pytest.mark.search_product_and_verify_cart
     def test_search_product_and_verify_cart(self, browser, existing_user):
         page = ProductsPage(browser)
         page.open()
@@ -223,8 +216,7 @@ class TestCartPage():
     @allure.story('Регистрация перед покупкой')
     @pytest.mark.positive
     @pytest.mark.ui
-    @pytest.mark.purchase
-    @pytest.mark.verify_address_in_checkout
+    @pytest.mark.regress
     def test_verify_address_in_checkout(self, browser):
         page = LoginPage(browser)
         page.open()
@@ -294,8 +286,7 @@ class TestCartPage():
     @allure.story('Регистрация перед покупкой')
     @pytest.mark.positive
     @pytest.mark.ui
-    @pytest.mark.purchase
-    @pytest.mark.download_invoice_after_purchase
+    @pytest.mark.smoke
     def test_download_invoice_after_purchase(self, browser_download):
         browser, download_dir = browser_download
         page = ProductsPage(browser)

@@ -13,8 +13,7 @@ class TestProductsPage:
     @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.positive
     @pytest.mark.ui
-    @pytest.mark.subscribe
-    @pytest.mark.subscribe_from_home
+    @pytest.mark.regress
     def test_subscribe_from_home(self, browser):
         DataGenerator.generate_data_for_registration(['email'])
         page = ProductsPage(browser)
@@ -28,7 +27,6 @@ class TestProductsPage:
     @allure.feature('Products')
     @allure.story('Просмотр карточки товара')
     @allure.severity(allure.severity_level.CRITICAL)
-    @pytest.mark.view_product
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
@@ -44,7 +42,6 @@ class TestProductsPage:
     @allure.feature('Products')
     @allure.story('Поиск товара')
     @allure.severity(allure.severity_level.CRITICAL)
-    @pytest.mark.search_product
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
@@ -60,11 +57,9 @@ class TestProductsPage:
     @allure.feature('Products')
     @allure.story('Фильтрация товаров')
     @allure.severity(allure.severity_level.NORMAL)
-    @pytest.mark.filter_product
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
-    @pytest.mark.filter_product_by_category
     def test_filter_product_by_category(self, browser):
         page = ProductsPage(browser)
         page.open()
@@ -80,11 +75,9 @@ class TestProductsPage:
     @allure.feature('Products')
     @allure.story('Фильтрация товаров')
     @allure.severity(allure.severity_level.NORMAL)
-    @pytest.mark.filter_product
     @pytest.mark.positive
-    @pytest.mark.smoke
+    @pytest.mark.regress
     @pytest.mark.ui
-    @pytest.mark.filter_product_by_brand
     def test_filter_product_by_brand(self, browser):
         page = ProductsPage(browser)
         page.open()
@@ -98,9 +91,8 @@ class TestProductsPage:
     @allure.feature('Products')
     @allure.story('Добавление рекомендованных товаров в корзину')
     @allure.severity(allure.severity_level.MINOR)
-    @pytest.mark.add_recommended_product
     @pytest.mark.positive
-    @pytest.mark.smoke
+    @pytest.mark.regress
     @pytest.mark.ui
     def test_add_recommended_products_to_cart(self, browser):
         page = ProductsPage(browser)
@@ -118,13 +110,11 @@ class TestProductsPage:
         cart.check_product_quantity()
 
     @allure.feature('Products')
-    @allure.story('Прокрутка страницы')
+    @allure.story('Прокрутка страницы кнопкой вверх')
     @allure.severity(allure.severity_level.MINOR)
-    @pytest.mark.scrolling
     @pytest.mark.positive
-    @pytest.mark.smoke
+    @pytest.mark.regress
     @pytest.mark.ui
-    @pytest.mark.scrolling_with_angle_up
     def test_scrolling_with_angle_up(self, browser):
         page = ProductsPage(browser)
         page.open()
@@ -135,11 +125,9 @@ class TestProductsPage:
     @allure.feature('Products')
     @allure.story('Прокрутка страницы')
     @allure.severity(allure.severity_level.MINOR)
-    @pytest.mark.scrolling
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
-    @pytest.mark.scrolling_down_and_back
     def test_scrolling(self, browser):
         page = ProductsPage(browser)
         page.open()

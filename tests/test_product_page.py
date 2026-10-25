@@ -11,9 +11,8 @@ class TestProductPage:
     @allure.feature('Products')
     @allure.story('Отправка отзыва на товар')
     @allure.severity(allure.severity_level.NORMAL)
-    @pytest.mark.review_product
     @pytest.mark.positive
-    @pytest.mark.smoke
+    @pytest.mark.regress
     @pytest.mark.ui
     def test_review_product(self, browser):
         DataGenerator.generate_data_for_registration(['first_name', 'last_name', 'email'])

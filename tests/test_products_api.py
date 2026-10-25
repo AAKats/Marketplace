@@ -17,10 +17,8 @@ class TestApiProducts:
     @allure.story('Получение списка всех товаров')
     @allure.severity(allure.severity_level.BLOCKER)
     @pytest.mark.api
-    @pytest.mark.api_products
     @pytest.mark.positive
     @pytest.mark.smoke
-    @pytest.mark.get_all_products
     def test_get_all_products(self, products_api):
         response = products_api.get_all_products()
 
@@ -36,10 +34,8 @@ class TestApiProducts:
     @allure.story('Отправка POST запроса к Products list api')
     @allure.severity(allure.severity_level.NORMAL)
     @pytest.mark.api
-    @pytest.mark.api_products
     @pytest.mark.negative
     @pytest.mark.smoke
-    @pytest.mark.post_all_products
     def test_post_all_products(self, products_api):
         response = products_api.post_all_products()
 
@@ -52,10 +48,8 @@ class TestApiProducts:
     @allure.story('Получение списка всех брендов')
     @allure.severity(allure.severity_level.BLOCKER)
     @pytest.mark.api
-    @pytest.mark.api_products
     @pytest.mark.positive
     @pytest.mark.smoke
-    @pytest.mark.get_all_brands
     def test_get_all_brands(self, products_api):
         response = products_api.get_all_brands()
 
@@ -71,10 +65,8 @@ class TestApiProducts:
     @allure.story('Отправка PUT запроса к Brands list api')
     @allure.severity(allure.severity_level.NORMAL)
     @pytest.mark.api
-    @pytest.mark.api_products
     @pytest.mark.negative
     @pytest.mark.smoke
-    @pytest.mark.put_all_brands
     def test_put_all_brands(self, products_api):
         response = products_api.put_all_brands()
 
@@ -87,10 +79,8 @@ class TestApiProducts:
     @allure.story('Поиск товара по части имени')
     @allure.severity(allure.severity_level.NORMAL)
     @pytest.mark.api
-    @pytest.mark.api_products
     @pytest.mark.positive
     @pytest.mark.smoke
-    @pytest.mark.search_product
     @pytest.mark.parametrize('product_type', [
         pytest.param('top', marks=pytest.mark.xfail(reason='BUG: Names without expected part in response')),
         'jean',
@@ -107,10 +97,8 @@ class TestApiProducts:
     @allure.story('Поиск без тела запроса')
     @allure.severity(allure.severity_level.NORMAL)
     @pytest.mark.api
-    @pytest.mark.api_products
     @pytest.mark.negative
     @pytest.mark.smoke
-    @pytest.mark.blank_search_product
     def test_blank_search_product(self, products_api):
         response = products_api.post_to_search_product_without_body()
         assert_status_code(response, 200)

@@ -11,7 +11,6 @@ class TestLogin():
     @allure.feature('Login')
     @allure.story('Успешный вход')
     @allure.severity(allure.severity_level.BLOCKER)
-    @pytest.mark.login_user
     @pytest.mark.positive
     @pytest.mark.smoke
     @pytest.mark.ui
@@ -35,7 +34,6 @@ class TestLogin():
     @allure.feature('Login')
     @allure.story('Вход с неверными данными')
     @allure.severity(allure.severity_level.NORMAL)
-    @pytest.mark.incorrect_login_user
     @pytest.mark.negative
     @pytest.mark.smoke
     @pytest.mark.ui
@@ -57,7 +55,6 @@ class TestLogin():
     @allure.feature('Login')
     @allure.story('Логин перед покупкой')
     @allure.severity(allure.severity_level.NORMAL)
-    @pytest.mark.login_before_checkout
     @pytest.mark.negative
     @pytest.mark.smoke
     @pytest.mark.ui
