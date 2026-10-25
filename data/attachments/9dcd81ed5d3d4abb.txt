@@ -1,0 +1,31 @@
+19:29:36.489 | DEBUG    | New user details:
+
+19:29:36.489 | DEBUG    |   name: Louis
+
+19:29:36.489 | DEBUG    |   email: a6f01c51_imarquez@example.net
+
+19:29:36.489 | DEBUG    |   title: Mrs
+
+19:29:36.489 | DEBUG    |   birth_day: 10
+
+19:29:36.489 | DEBUG    |   birth_month: 6
+
+19:29:36.489 | DEBUG    |   birth_year: 1926
+
+19:29:36.489 | DEBUG    |   firstname: Louis
+
+19:29:36.489 | DEBUG    |   lastname: Lindsey
+
+19:29:36.489 | DEBUG    |   company: Frazier Inc
+
+19:29:36.489 | DEBUG    |   address1: 96287 Maria Plains Suite 194
+
+19:29:36.489 | DEBUG    |   address2: Apt. 758
+
+19:29:36.489 | DEBUG    |   country: Singapore
+
+19:29:36.489 | DEBUG    |   state: West Virginia
+
+19:29:36.489 | DEBUG    |   city: Eileenchester
+
+19:29:36.489 | DEBUG    |   zipcode: 89741

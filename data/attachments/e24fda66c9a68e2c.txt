@@ -1,0 +1,169 @@
+19:28:04.801 | DEBUG    | Product Blue Top added, quantity 1
+
+19:28:05.624 | DEBUG    | Product Blue Top added, quantity 2
+
+19:28:06.456 | DEBUG    | Product Men Tshirt added, quantity 1
+
+19:28:07.561 | DEBUG    | Product Men Tshirt added, quantity 2
+
+19:28:07.813 | DEBUG    | Proceed to checkout button clicked
+
+19:28:07.974 | DEBUG    | Register via modal button clicked
+
+19:28:07.982 | DEBUG    | New user Signup title is presented
+
+19:28:07.987 | DEBUG    | New user Signup title text is correct
+
+19:28:07.990 | DEBUG    | Signup email field is presented
+
+19:28:07.993 | DEBUG    | Signup name field is presented
+
+19:28:08.022 | DEBUG    | Email signup field filled
+
+19:28:08.042 | DEBUG    | Name signup field filled
+
+19:28:08.066 | DEBUG    | Signup button is clicked
+
+19:28:08.589 | DEBUG    | Account information title is presented
+
+19:28:08.594 | DEBUG    | Account information title text is correct
+
+19:28:08.609 | DEBUG    | Mr radiobutton is presented
+
+19:28:08.612 | DEBUG    | Mrs radiobutton is presented
+
+19:28:08.635 | DEBUG    | Selected MRS title
+
+19:28:08.639 | DEBUG    | Password field is presented
+
+19:28:08.661 | DEBUG    | Password is filled in
+
+19:28:08.665 | DEBUG    | Day of birth list is presented
+
+19:28:08.692 | DEBUG    | Day of birth selected
+
+19:28:08.697 | DEBUG    | Month of birth list is presented
+
+19:28:08.718 | DEBUG    | Month of birth selected
+
+19:28:08.722 | DEBUG    | Year of birth list is presented
+
+19:28:08.744 | DEBUG    | Year of birth selected
+
+19:28:08.768 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+19:28:08.791 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+19:28:08.796 | DEBUG    | First name field is presented
+
+19:28:08.814 | DEBUG    | First name is filled in
+
+19:28:08.818 | DEBUG    | Last name field is presented
+
+19:28:08.838 | DEBUG    | Last name is filled in
+
+19:28:08.842 | DEBUG    | Company field is presented
+
+19:28:08.864 | DEBUG    | Company is filled in
+
+19:28:08.868 | DEBUG    | Address 1 field is presented
+
+19:28:08.897 | DEBUG    | Address 1 is filled in
+
+19:28:08.901 | DEBUG    | Address 2 field is presented
+
+19:28:08.921 | DEBUG    | Address 2 is filled in
+
+19:28:08.949 | DEBUG    | State field is presented
+
+19:28:08.969 | DEBUG    | State is filled in
+
+19:28:08.973 | DEBUG    | City field is presented
+
+19:28:08.992 | DEBUG    | City is filled in
+
+19:28:08.997 | DEBUG    | Zipcode field is presented
+
+19:28:09.015 | DEBUG    | Zipcode is filled in
+
+19:28:09.019 | DEBUG    | Mobile number field is presented
+
+19:28:09.040 | DEBUG    | Mobile number is filled in
+
+19:28:09.696 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+19:28:09.712 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+19:28:09.712 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+19:28:09.715 | DEBUG    | Continue button is presented
+
+19:28:10.391 | DEBUG    | Username is correct Logged in as Robert
+
+19:28:11.078 | DEBUG    | Proceed to checkout button clicked
+
+19:28:11.087 | DEBUG    | Name is correct in the delivery information: Mrs. Robert Torres
+
+19:28:11.096 | DEBUG    | Company name is correct in the delivery information: Santiago-Tate
+
+19:28:11.103 | DEBUG    | Address 1 is correct in the delivery information: 45933 Williams Expressway Apt. 359
+
+19:28:11.112 | DEBUG    | Address 2 is correct in the delivery information: Suite 592
+
+19:28:11.119 | DEBUG    | City is correct in the delivery information: Roberttown North Dakota 12876
+
+19:28:11.127 | DEBUG    | Country is correct in the delivery information: Australia
+
+19:28:11.135 | DEBUG    | Phone is correct in the delivery information: 550-945-4312x47448
+
+19:28:11.143 | DEBUG    | Name is correct in the billing information: Mrs. Robert Torres
+
+19:28:11.150 | DEBUG    | Company name is correct in the billing information: Santiago-Tate
+
+19:28:11.158 | DEBUG    | Address 1 is correct in the billing information: 45933 Williams Expressway Apt. 359
+
+19:28:11.166 | DEBUG    | Address 2 is correct in the billing information: Suite 592
+
+19:28:11.173 | DEBUG    | City is correct in the billing information: Roberttown North Dakota 12876
+
+19:28:11.181 | DEBUG    | Country is correct in the billing information: Australia
+
+19:28:11.189 | DEBUG    | Phone is correct in the billing information: 550-945-4312x47448
+
+19:28:11.195 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+19:28:11.206 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+19:28:11.212 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+19:28:11.219 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+19:28:11.219 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+19:28:11.232 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+19:28:11.239 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+19:28:11.252 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+19:28:11.260 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+19:28:11.303 | DEBUG    | Comment filled in with: Serve new scientist establish might cell among. Us party range political culture.
+
+19:28:11.505 | DEBUG    | Place order button clicked
+
+19:28:11.539 | DEBUG    | Name on card filled in with: ****
+
+19:28:11.564 | DEBUG    | Card number filled in with: ****1074
+
+19:28:12.915 | DEBUG    | Pay and confirm button clicked
+
+19:28:12.935 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+19:28:13.477 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+19:28:13.477 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+19:28:13.477 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+19:28:13.981 | DEBUG    | Continue button clicked

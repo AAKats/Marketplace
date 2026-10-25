@@ -1,0 +1,31 @@
+19:29:36.133 | DEBUG    | New user details:
+
+19:29:36.133 | DEBUG    |   name: Anthony
+
+19:29:36.133 | DEBUG    |   email: 06a95927_wprice@example.com
+
+19:29:36.133 | DEBUG    |   title: Mrs
+
+19:29:36.133 | DEBUG    |   birth_day: 23
+
+19:29:36.133 | DEBUG    |   birth_month: 10
+
+19:29:36.133 | DEBUG    |   birth_year: 1984
+
+19:29:36.133 | DEBUG    |   firstname: Anthony
+
+19:29:36.133 | DEBUG    |   lastname: Lee
+
+19:29:36.133 | DEBUG    |   company: Miller Ltd
+
+19:29:36.133 | DEBUG    |   address1: 5280 Pamela Circles Suite 550
+
+19:29:36.133 | DEBUG    |   address2: Suite 458
+
+19:29:36.133 | DEBUG    |   country: United States
+
+19:29:36.133 | DEBUG    |   state: Arizona
+
+19:29:36.133 | DEBUG    |   city: Lindsaychester
+
+19:29:36.133 | DEBUG    |   zipcode: 41441

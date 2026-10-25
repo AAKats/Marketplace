@@ -1,0 +1,31 @@
+19:29:36.616 | DEBUG    | New user details:
+
+19:29:36.616 | DEBUG    |   name: Elizabeth
+
+19:29:36.616 | DEBUG    |   email: 76f5181b_lowemargaret@example.org
+
+19:29:36.616 | DEBUG    |   title: Mrs
+
+19:29:36.616 | DEBUG    |   birth_day: 17
+
+19:29:36.616 | DEBUG    |   birth_month: 9
+
+19:29:36.616 | DEBUG    |   birth_year: 2010
+
+19:29:36.616 | DEBUG    |   firstname: Elizabeth
+
+19:29:36.616 | DEBUG    |   lastname: Patel
+
+19:29:36.616 | DEBUG    |   company: Hunt, Goodwin and Turner
+
+19:29:36.616 | DEBUG    |   address1: 095 Chen Mountain Apt. 648
+
+19:29:36.616 | DEBUG    |   address2: Apt. 644
+
+19:29:36.616 | DEBUG    |   country: Israel
+
+19:29:36.616 | DEBUG    |   state: North Carolina
+
+19:29:36.616 | DEBUG    |   city: Sarahburgh
+
+19:29:36.616 | DEBUG    |   zipcode: 04384
