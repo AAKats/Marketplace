@@ -1,0 +1,49 @@
+18:56:47.550 | DEBUG    | Search field is presented
+
+18:56:47.601 | DEBUG    | Search field is filled in with: "Sleeves Printed Top - White"
+
+18:56:47.609 | DEBUG    | Search button is presented
+
+18:56:47.900 | DEBUG    | Search button is clicked
+
+18:56:47.921 | DEBUG    | Title is presented
+
+18:56:47.921 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+18:56:47.926 | DEBUG    | 1 products found
+
+18:56:47.932 | DEBUG    | "Sleeves Printed Top - White" product found, and contains "Sleeves Printed Top - White"
+
+18:56:49.076 | DEBUG    | Product Sleeves Printed Top - White added, quantity 1
+
+18:56:49.490 | DEBUG    | Product: Sleeves Printed Top - White found in cart: Sleeves Printed Top - White
+
+18:56:49.512 | DEBUG    | Product Sleeves Printed Top - White price in cart: 499 matches added price: 499
+
+18:56:49.536 | DEBUG    | Product Sleeves Printed Top - White quantity in cart: 1 matches added quantity: 1
+
+18:56:49.561 | DEBUG    | Product Sleeves Printed Top - White total in cart: 499 matches expected total: 499
+
+18:56:49.751 | DEBUG    | Login email field is presented
+
+18:56:49.757 | DEBUG    | Password field is presented
+
+18:56:49.809 | DEBUG    | Email filled in
+
+18:56:49.847 | DEBUG    | Password filled in
+
+18:56:49.856 | DEBUG    | Login button is presented
+
+18:56:49.898 | DEBUG    | Login button is clicked
+
+18:56:51.045 | DEBUG    | Product: Sleeves Printed Top - White found in cart: Sleeves Printed Top - White
+
+18:56:51.065 | DEBUG    | Product Sleeves Printed Top - White price in cart: 499 matches added price: 499
+
+18:56:51.088 | DEBUG    | Product Sleeves Printed Top - White quantity in cart: 1 matches added quantity: 1
+
+18:56:51.110 | DEBUG    | Product Sleeves Printed Top - White total in cart: 499 matches expected total: 499
+
+18:56:55.744 | DEBUG    | All products deleted
+
+18:56:55.753 | DEBUG    | Empty cart text correct: Cart is empty!

@@ -1,0 +1,249 @@
+18:57:13.238 | DEBUG    | Product Blue Top added, quantity 1
+
+18:57:14.120 | DEBUG    | Product Blue Top added, quantity 2
+
+18:57:15.018 | DEBUG    | Product Men Tshirt added, quantity 1
+
+18:57:15.901 | DEBUG    | Product Men Tshirt added, quantity 2
+
+18:57:16.804 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+18:57:17.689 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+18:57:18.583 | DEBUG    | Product Stylish Dress added, quantity 1
+
+18:57:19.464 | DEBUG    | Product Stylish Dress added, quantity 2
+
+18:57:20.355 | DEBUG    | Product Winter Top added, quantity 1
+
+18:57:21.507 | DEBUG    | Product Winter Top added, quantity 2
+
+18:57:21.871 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+18:57:21.871 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+18:57:21.871 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+18:57:21.871 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+18:57:21.871 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+18:57:21.892 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+18:57:21.901 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+18:57:21.910 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+18:57:21.920 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+18:57:21.929 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+18:57:21.953 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+18:57:21.967 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+18:57:21.980 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+18:57:21.995 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+18:57:22.008 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+18:57:22.032 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+18:57:22.047 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+18:57:22.061 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+18:57:22.075 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+18:57:22.090 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+18:57:22.139 | DEBUG    | Proceed to checkout button clicked
+
+18:57:22.349 | DEBUG    | Register via modal button clicked
+
+18:57:22.360 | DEBUG    | New user Signup title is presented
+
+18:57:22.370 | DEBUG    | New user Signup title text is correct
+
+18:57:22.377 | DEBUG    | Signup email field is presented
+
+18:57:22.383 | DEBUG    | Signup name field is presented
+
+18:57:22.437 | DEBUG    | Email signup field filled
+
+18:57:22.473 | DEBUG    | Name signup field filled
+
+18:57:22.673 | DEBUG    | Signup button is clicked
+
+18:57:22.690 | DEBUG    | Account information title is presented
+
+18:57:22.700 | DEBUG    | Account information title text is correct
+
+18:57:22.728 | DEBUG    | Mr radiobutton is presented
+
+18:57:22.734 | DEBUG    | Mrs radiobutton is presented
+
+18:57:22.782 | DEBUG    | Selected MR title
+
+18:57:22.789 | DEBUG    | Password field is presented
+
+18:57:22.826 | DEBUG    | Password is filled in
+
+18:57:22.837 | DEBUG    | Day of birth list is presented
+
+18:57:22.888 | DEBUG    | Day of birth selected
+
+18:57:22.895 | DEBUG    | Month of birth list is presented
+
+18:57:22.938 | DEBUG    | Month of birth selected
+
+18:57:22.944 | DEBUG    | Year of birth list is presented
+
+18:57:22.987 | DEBUG    | Year of birth selected
+
+18:57:22.987 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+18:57:22.987 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+18:57:22.994 | DEBUG    | First name field is presented
+
+18:57:23.033 | DEBUG    | First name is filled in
+
+18:57:23.041 | DEBUG    | Last name field is presented
+
+18:57:23.079 | DEBUG    | Last name is filled in
+
+18:57:23.086 | DEBUG    | Company field is presented
+
+18:57:23.133 | DEBUG    | Company is filled in
+
+18:57:23.140 | DEBUG    | Address 1 field is presented
+
+18:57:23.191 | DEBUG    | Address 1 is filled in
+
+18:57:23.198 | DEBUG    | Address 2 field is presented
+
+18:57:23.237 | DEBUG    | Address 2 is filled in
+
+18:57:23.289 | DEBUG    | State field is presented
+
+18:57:23.333 | DEBUG    | State is filled in
+
+18:57:23.343 | DEBUG    | City field is presented
+
+18:57:23.381 | DEBUG    | City is filled in
+
+18:57:23.389 | DEBUG    | Zipcode field is presented
+
+18:57:23.430 | DEBUG    | Zipcode is filled in
+
+18:57:23.439 | DEBUG    | Mobile number field is presented
+
+18:57:23.492 | DEBUG    | Mobile number is filled in
+
+18:57:24.234 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+18:57:24.260 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+18:57:24.260 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+18:57:24.266 | DEBUG    | Continue button is presented
+
+18:57:25.410 | DEBUG    | Username is correct Logged in as Bryan
+
+18:57:26.273 | DEBUG    | Proceed to checkout button clicked
+
+18:57:26.290 | DEBUG    | Name is correct in the delivery information: Mr. Bryan Brewer
+
+18:57:26.305 | DEBUG    | Company name is correct in the delivery information: Lawson, Blair and Best
+
+18:57:26.320 | DEBUG    | Address 1 is correct in the delivery information: 30869 Ann Green Suite 001
+
+18:57:26.335 | DEBUG    | Address 2 is correct in the delivery information: Suite 073
+
+18:57:26.349 | DEBUG    | City is correct in the delivery information: Daviston Ohio 97568
+
+18:57:26.363 | DEBUG    | Country is correct in the delivery information: Canada
+
+18:57:26.378 | DEBUG    | Phone is correct in the delivery information: (747)967-0772
+
+18:57:26.393 | DEBUG    | Name is correct in the billing information: Mr. Bryan Brewer
+
+18:57:26.408 | DEBUG    | Company name is correct in the billing information: Lawson, Blair and Best
+
+18:57:26.422 | DEBUG    | Address 1 is correct in the billing information: 30869 Ann Green Suite 001
+
+18:57:26.437 | DEBUG    | Address 2 is correct in the billing information: Suite 073
+
+18:57:26.452 | DEBUG    | City is correct in the billing information: Daviston Ohio 97568
+
+18:57:26.466 | DEBUG    | Country is correct in the billing information: Canada
+
+18:57:26.481 | DEBUG    | Phone is correct in the billing information: (747)967-0772
+
+18:57:26.509 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+18:57:26.509 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+18:57:26.509 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+18:57:26.509 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+18:57:26.509 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+18:57:26.527 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+18:57:26.537 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+18:57:26.546 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+18:57:26.557 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+18:57:26.566 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+18:57:26.588 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+18:57:26.602 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+18:57:26.615 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+18:57:26.629 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+18:57:26.643 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+18:57:26.665 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+18:57:26.679 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+18:57:26.694 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+18:57:26.708 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+18:57:26.722 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+18:57:26.795 | DEBUG    | Comment filled in with: Key oil medical. Pull anything rock state when risk opportunity.
+
+18:57:27.002 | DEBUG    | Place order button clicked
+
+18:57:27.062 | DEBUG    | Name on card filled in with: ****
+
+18:57:27.112 | DEBUG    | Card number filled in with: ****1907
+
+18:57:27.309 | DEBUG    | Pay and confirm button clicked
+
+18:57:28.929 | DEBUG    | Download invoice button clicked
+
+18:57:28.930 | DEBUG    | File downloaded: /home/runner/work/Marketplace/Marketplace/temp/.com.google.Chrome.DE2mBN
+
+18:57:28.930 | DEBUG    | Invoice content is valid
+
+18:57:29.178 | DEBUG    | Continue button clicked
+
+18:57:29.555 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+18:57:29.555 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+18:57:29.555 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+18:57:30.241 | DEBUG    | Continue button clicked

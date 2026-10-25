@@ -1,0 +1,75 @@
+18:58:49.199 | DEBUG    | New user details:
+
+18:58:49.199 | DEBUG    |   name: Tonya
+
+18:58:49.199 | DEBUG    |   email: 8dd21276_katherine56@example.com
+
+18:58:49.199 | DEBUG    |   title: Mr
+
+18:58:49.199 | DEBUG    |   birth_day: 3
+
+18:58:49.199 | DEBUG    |   birth_month: 1
+
+18:58:49.199 | DEBUG    |   birth_year: 1993
+
+18:58:49.199 | DEBUG    |   firstname: Tonya
+
+18:58:49.199 | DEBUG    |   lastname: Williams
+
+18:58:49.199 | DEBUG    |   company: Graham PLC
+
+18:58:49.199 | DEBUG    |   address1: 247 Jones Summit Suite 652
+
+18:58:49.199 | DEBUG    |   address2: Suite 163
+
+18:58:49.199 | DEBUG    |   country: Israel
+
+18:58:49.199 | DEBUG    |   state: Ohio
+
+18:58:49.199 | DEBUG    |   city: Wallacefort
+
+18:58:49.199 | DEBUG    |   zipcode: 48209
+
+18:58:49.308 | DEBUG    | Status code correct: 200
+
+18:58:49.308 | DEBUG    | ResponseCode correct: 201
+
+18:58:49.308 | DEBUG    | Response message correct: "User created!"
+
+18:58:49.308 | DEBUG    | Updated user details:
+
+18:58:49.308 | DEBUG    |   name: Tonya
+
+18:58:49.308 | DEBUG    |   email: 8dd21276_katherine56@example.com
+
+18:58:49.308 | DEBUG    |   title: Mr
+
+18:58:49.310 | DEBUG    |   birth_day: 3
+
+18:58:49.310 | DEBUG    |   birth_month: 1
+
+18:58:49.310 | DEBUG    |   birth_year: 1993
+
+18:58:49.310 | DEBUG    |   firstname: Tonya
+
+18:58:49.310 | DEBUG    |   lastname: Williams
+
+18:58:49.310 | DEBUG    |   company: Graham PLC
+
+18:58:49.310 | DEBUG    |   address1: 247 Jones Summit Suite 652
+
+18:58:49.310 | DEBUG    |   address2: Suite 163
+
+18:58:49.310 | DEBUG    |   country: Israel
+
+18:58:49.310 | DEBUG    |   state: Ohio
+
+18:58:49.310 | DEBUG    |   city: Wallacefort
+
+18:58:49.310 | DEBUG    |   zipcode: 48209
+
+18:58:49.428 | DEBUG    | Status code correct: 200
+
+18:58:49.428 | DEBUG    | ResponseCode correct: 200
+
+18:58:49.428 | DEBUG    | Response message correct: "User updated!"

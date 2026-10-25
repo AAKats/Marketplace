@@ -1,0 +1,37 @@
+18:58:48.845 | DEBUG    | New user details:
+
+18:58:48.845 | DEBUG    |   name: Sherri
+
+18:58:48.845 | DEBUG    |   email: 3c08c603_pterry@example.com
+
+18:58:48.845 | DEBUG    |   title: Mrs
+
+18:58:48.845 | DEBUG    |   birth_day: 23
+
+18:58:48.845 | DEBUG    |   birth_month: 2
+
+18:58:48.845 | DEBUG    |   birth_year: 1903
+
+18:58:48.845 | DEBUG    |   firstname: Sherri
+
+18:58:48.845 | DEBUG    |   lastname: Harris
+
+18:58:48.845 | DEBUG    |   company: Green Ltd
+
+18:58:48.845 | DEBUG    |   address1: 2300 Jeremy Valleys Apt. 030
+
+18:58:48.845 | DEBUG    |   address2: Apt. 607
+
+18:58:48.845 | DEBUG    |   country: India
+
+18:58:48.845 | DEBUG    |   state: Massachusetts
+
+18:58:48.845 | DEBUG    |   city: North Tammyville
+
+18:58:48.845 | DEBUG    |   zipcode: 99401
+
+18:58:48.956 | DEBUG    | Status code correct: 200
+
+18:58:48.957 | DEBUG    | ResponseCode correct: 201
+
+18:58:48.957 | DEBUG    | Response message correct: "User created!"

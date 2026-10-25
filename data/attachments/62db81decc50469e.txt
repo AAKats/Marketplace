@@ -1,0 +1,68 @@
+18:57:56.732 | DEBUG    | Email filled in
+
+18:57:56.773 | DEBUG    | Password filled in
+
+18:57:56.780 | DEBUG    | Login button is presented
+
+18:57:56.823 | DEBUG    | Login button is clicked
+
+18:57:58.317 | DEBUG    | Username is correct Logged in as Adam
+
+18:57:59.249 | DEBUG    | Product Blue Top added, quantity 1
+
+18:58:00.136 | DEBUG    | Product Blue Top added, quantity 2
+
+18:58:01.363 | DEBUG    | Product Blue Top added, quantity 3
+
+18:58:02.054 | DEBUG    | Proceed to checkout button clicked
+
+18:58:02.070 | DEBUG    | Name is correct in the delivery information: Mrs. Adam Miller
+
+18:58:02.085 | DEBUG    | Company name is correct in the delivery information: Garza, Deleon and Chavez
+
+18:58:02.099 | DEBUG    | Address 1 is correct in the delivery information: 175 Alexis Unions
+
+18:58:02.112 | DEBUG    | Address 2 is correct in the delivery information: Suite 475
+
+18:58:02.126 | DEBUG    | City is correct in the delivery information: Jillbury Alabama 06968
+
+18:58:02.140 | DEBUG    | Country is correct in the delivery information: Israel
+
+18:58:02.154 | DEBUG    | Phone is correct in the delivery information: 4985443717
+
+18:58:02.169 | DEBUG    | Name is correct in the billing information: Mrs. Adam Miller
+
+18:58:02.184 | DEBUG    | Company name is correct in the billing information: Garza, Deleon and Chavez
+
+18:58:02.198 | DEBUG    | Address 1 is correct in the billing information: 175 Alexis Unions
+
+18:58:02.212 | DEBUG    | Address 2 is correct in the billing information: Suite 475
+
+18:58:02.226 | DEBUG    | City is correct in the billing information: Jillbury Alabama 06968
+
+18:58:02.240 | DEBUG    | Country is correct in the billing information: Israel
+
+18:58:02.255 | DEBUG    | Phone is correct in the billing information: 4985443717
+
+18:58:02.267 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+18:58:02.287 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+18:58:02.296 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+18:58:02.320 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+18:58:02.344 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+18:58:02.433 | DEBUG    | Comment filled in with: Board worker mouth why.
+Produce long full mother time. Not strategy job culture green growth.
+
+18:58:02.658 | DEBUG    | Place order button clicked
+
+18:58:02.709 | DEBUG    | Name on card filled in with: ****
+
+18:58:02.756 | DEBUG    | Card number filled in with: ****4800
+
+18:58:04.219 | DEBUG    | Pay and confirm button clicked
+
+18:58:04.252 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

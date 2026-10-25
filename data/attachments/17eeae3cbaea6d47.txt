@@ -1,0 +1,11 @@
+18:58:06.044 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+18:58:06.105 | DEBUG    | Review name field filled in with "Gary Campbell"
+
+18:58:06.165 | DEBUG    | Review email field filled in with "f715c68c_brandon59@example.org"
+
+18:58:06.224 | DEBUG    | Review message field filled in with "High condition nice most firm."
+
+18:58:06.284 | DEBUG    | Submit review button clicked
+
+18:58:06.308 | DEBUG    | Success review message is displayed

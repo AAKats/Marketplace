@@ -1,0 +1,13 @@
+18:56:20.088 | DEBUG    | Product "Frozen Tops For Kids" (ID: 13) opened
+
+18:56:20.160 | DEBUG    | Quantity = 5 selected
+
+18:56:20.210 | DEBUG    | Product was added to cart
+
+18:56:21.024 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+18:56:21.038 | DEBUG    | Product: Frozen Tops For Kids found in cart: Frozen Tops For Kids
+
+18:56:21.061 | DEBUG    | Product Frozen Tops For Kids price in cart: 278 matches added price: 278
+
+18:56:21.086 | DEBUG    | Product Frozen Tops For Kids quantity in cart: 5 matches added quantity: 5

@@ -1,0 +1,39 @@
+18:57:32.438 | DEBUG    | Main title is presented
+
+18:57:32.462 | DEBUG    | Main title is correct: CONTACT US
+
+18:57:32.468 | DEBUG    | Second title is presented
+
+18:57:32.486 | DEBUG    | Second title is correct: GET IN TOUCH
+
+18:57:32.494 | DEBUG    | Name field is presented
+
+18:57:32.537 | DEBUG    | Name field filled in with: Robert
+
+18:57:32.544 | DEBUG    | Email field is presented
+
+18:57:32.592 | DEBUG    | Email field filled in with: 2f76f325_jsummers@example.com
+
+18:57:32.601 | DEBUG    | Subject field is presented
+
+18:57:32.639 | DEBUG    | Subject field filled in with: Again.
+
+18:57:32.647 | DEBUG    | Message field is presented
+
+18:57:32.736 | DEBUG    | Message field filled in with: Cup method author. Show national dinner western push sea structure. Red from because strong miss.
+
+18:57:32.743 | DEBUG    | Upload field is presented
+
+18:57:32.760 | DEBUG    | File uploaded
+
+18:57:32.767 | DEBUG    | Submit button is presented
+
+18:57:32.873 | DEBUG    | Alert is presented
+
+18:57:32.916 | DEBUG    | Success message is presented
+
+18:57:32.916 | DEBUG    | Success message is correct
+
+18:57:32.922 | DEBUG    | Home button is presented
+
+18:57:33.776 | DEBUG    | Home button is clicked

@@ -1,0 +1,85 @@
+18:58:49.437 | DEBUG    | New user details:
+
+18:58:49.437 | DEBUG    |   name: Joseph
+
+18:58:49.437 | DEBUG    |   email: eb21c02b_donald38@example.com
+
+18:58:49.438 | DEBUG    |   title: Mrs
+
+18:58:49.438 | DEBUG    |   birth_day: 28
+
+18:58:49.438 | DEBUG    |   birth_month: 12
+
+18:58:49.438 | DEBUG    |   birth_year: 1926
+
+18:58:49.438 | DEBUG    |   firstname: Joseph
+
+18:58:49.438 | DEBUG    |   lastname: Jones
+
+18:58:49.438 | DEBUG    |   company: Harrington, Ortega and Stevens
+
+18:58:49.438 | DEBUG    |   address1: 91735 Hill Light Suite 911
+
+18:58:49.438 | DEBUG    |   address2: Apt. 334
+
+18:58:49.438 | DEBUG    |   country: New Zealand
+
+18:58:49.438 | DEBUG    |   state: New York
+
+18:58:49.438 | DEBUG    |   city: Melissaland
+
+18:58:49.438 | DEBUG    |   zipcode: 47637
+
+18:58:49.574 | DEBUG    | Status code correct: 200
+
+18:58:49.574 | DEBUG    | ResponseCode correct: 201
+
+18:58:49.574 | DEBUG    | Response message correct: "User created!"
+
+18:58:49.704 | DEBUG    | Status code correct: 200
+
+18:58:49.704 | DEBUG    | ResponseCode correct: 200
+
+18:58:49.704 | DEBUG    | Response contains key: "user"
+
+18:58:49.704 | DEBUG    | User details not empty: 16 fields
+
+18:58:49.704 | DEBUG    | User detail with name = 3112562 contains field: "id"
+
+18:58:49.704 | DEBUG    | User detail with name = 3112562 contains field: "name"
+
+18:58:49.704 | DEBUG    | User detail with name = 3112562 contains field: "email"
+
+18:58:49.704 | DEBUG    | User detail with name = 3112562 contains field: "title"
+
+18:58:49.704 | DEBUG    | User detail with name = 3112562 contains field: "birth_day"
+
+18:58:49.704 | DEBUG    | User detail with name = 3112562 contains field: "birth_month"
+
+18:58:49.704 | DEBUG    | User detail with name = 3112562 contains field: "birth_year"
+
+18:58:49.704 | DEBUG    | User detail with name = 3112562 contains field: "first_name"
+
+18:58:49.705 | DEBUG    | User detail with name = 3112562 contains field: "last_name"
+
+18:58:49.705 | DEBUG    | User detail with name = 3112562 contains field: "company"
+
+18:58:49.705 | DEBUG    | User detail with name = 3112562 contains field: "address1"
+
+18:58:49.705 | DEBUG    | User detail with name = 3112562 contains field: "address2"
+
+18:58:49.705 | DEBUG    | User detail with name = 3112562 contains field: "country"
+
+18:58:49.705 | DEBUG    | User detail with name = 3112562 contains field: "state"
+
+18:58:49.705 | DEBUG    | User detail with name = 3112562 contains field: "city"
+
+18:58:49.705 | DEBUG    | User detail with name = 3112562 contains field: "zipcode"
+
+18:58:49.705 | DEBUG    | Status code correct: 200
+
+18:58:49.705 | DEBUG    | ResponseCode correct: 200
+
+18:58:49.705 | DEBUG    | ResponseCode correct: 200
+
+18:58:49.705 | DEBUG    | Payload field "email" correct: "eb21c02b_donald38@example.com"

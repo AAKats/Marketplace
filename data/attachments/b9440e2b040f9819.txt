@@ -1,0 +1,43 @@
+18:58:48.966 | DEBUG    | New user details:
+
+18:58:48.966 | DEBUG    |   name: Mitchell
+
+18:58:48.966 | DEBUG    |   email: d91b0fef_twilliams@example.com
+
+18:58:48.966 | DEBUG    |   title: Mrs
+
+18:58:48.966 | DEBUG    |   birth_day: 1
+
+18:58:48.966 | DEBUG    |   birth_month: 1
+
+18:58:48.966 | DEBUG    |   birth_year: 2005
+
+18:58:48.966 | DEBUG    |   firstname: Mitchell
+
+18:58:48.966 | DEBUG    |   lastname: Smith
+
+18:58:48.966 | DEBUG    |   company: Hernandez-Burton
+
+18:58:48.966 | DEBUG    |   address1: 26956 Sims Knolls Apt. 112
+
+18:58:48.966 | DEBUG    |   address2: Suite 371
+
+18:58:48.966 | DEBUG    |   country: New Zealand
+
+18:58:48.966 | DEBUG    |   state: Tennessee
+
+18:58:48.966 | DEBUG    |   city: Melissamouth
+
+18:58:48.966 | DEBUG    |   zipcode: 59140
+
+18:58:49.079 | DEBUG    | Status code correct: 200
+
+18:58:49.079 | DEBUG    | ResponseCode correct: 201
+
+18:58:49.079 | DEBUG    | Response message correct: "User created!"
+
+18:58:49.189 | DEBUG    | Status code correct: 200
+
+18:58:49.190 | DEBUG    | ResponseCode correct: 200
+
+18:58:49.190 | DEBUG    | Response message correct: "Account deleted!"
