@@ -1,0 +1,37 @@
+15:17:05.615 | DEBUG    | New user details:
+
+15:17:05.615 | DEBUG    |   name: Anthony
+
+15:17:05.615 | DEBUG    |   email: fa9fcf75_michelleheath@example.com
+
+15:17:05.615 | DEBUG    |   title: Mr
+
+15:17:05.615 | DEBUG    |   birth_day: 24
+
+15:17:05.615 | DEBUG    |   birth_month: 10
+
+15:17:05.615 | DEBUG    |   birth_year: 1994
+
+15:17:05.615 | DEBUG    |   firstname: Anthony
+
+15:17:05.615 | DEBUG    |   lastname: Smith
+
+15:17:05.615 | DEBUG    |   company: Sawyer, Mitchell and Woodard
+
+15:17:05.615 | DEBUG    |   address1: 951 Tyler Meadow
+
+15:17:05.615 | DEBUG    |   address2: Apt. 966
+
+15:17:05.615 | DEBUG    |   country: Israel
+
+15:17:05.615 | DEBUG    |   state: South Carolina
+
+15:17:05.615 | DEBUG    |   city: South Luke
+
+15:17:05.615 | DEBUG    |   zipcode: 23900
+
+15:17:05.873 | DEBUG    | Status code correct: 200
+
+15:17:05.873 | DEBUG    | ResponseCode correct: 201
+
+15:17:05.874 | DEBUG    | Response message correct: "User created!"

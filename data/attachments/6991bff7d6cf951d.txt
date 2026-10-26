@@ -1,0 +1,75 @@
+15:17:07.190 | DEBUG    | New user details:
+
+15:17:07.190 | DEBUG    |   name: Chris
+
+15:17:07.190 | DEBUG    |   email: cd7cbcca_lisa51@example.net
+
+15:17:07.190 | DEBUG    |   title: Mr
+
+15:17:07.190 | DEBUG    |   birth_day: 13
+
+15:17:07.190 | DEBUG    |   birth_month: 5
+
+15:17:07.190 | DEBUG    |   birth_year: 2004
+
+15:17:07.190 | DEBUG    |   firstname: Chris
+
+15:17:07.190 | DEBUG    |   lastname: Gonzales
+
+15:17:07.190 | DEBUG    |   company: Rivas-Robinson
+
+15:17:07.191 | DEBUG    |   address1: 9066 Nicole Inlet
+
+15:17:07.191 | DEBUG    |   address2: Suite 723
+
+15:17:07.191 | DEBUG    |   country: United States
+
+15:17:07.191 | DEBUG    |   state: Oregon
+
+15:17:07.191 | DEBUG    |   city: South Mary
+
+15:17:07.191 | DEBUG    |   zipcode: 96918
+
+15:17:07.428 | DEBUG    | Status code correct: 200
+
+15:17:07.429 | DEBUG    | ResponseCode correct: 201
+
+15:17:07.429 | DEBUG    | Response message correct: "User created!"
+
+15:17:07.429 | DEBUG    | Updated user details:
+
+15:17:07.429 | DEBUG    |   name: Chris
+
+15:17:07.429 | DEBUG    |   email: cd7cbcca_lisa51@example.net
+
+15:17:07.429 | DEBUG    |   title: Mr
+
+15:17:07.429 | DEBUG    |   birth_day: 13
+
+15:17:07.429 | DEBUG    |   birth_month: 5
+
+15:17:07.429 | DEBUG    |   birth_year: 2004
+
+15:17:07.429 | DEBUG    |   firstname: Chris
+
+15:17:07.429 | DEBUG    |   lastname: Gonzales
+
+15:17:07.429 | DEBUG    |   company: Rivas-Robinson
+
+15:17:07.429 | DEBUG    |   address1: 9066 Nicole Inlet
+
+15:17:07.429 | DEBUG    |   address2: Suite 723
+
+15:17:07.429 | DEBUG    |   country: United States
+
+15:17:07.429 | DEBUG    |   state: Oregon
+
+15:17:07.429 | DEBUG    |   city: South Mary
+
+15:17:07.431 | DEBUG    |   zipcode: 96918
+
+15:17:07.795 | DEBUG    | Status code correct: 200
+
+15:17:07.795 | DEBUG    | ResponseCode correct: 200
+
+15:17:07.796 | DEBUG    | Response message correct: "User updated!"
