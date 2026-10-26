@@ -2,7 +2,8 @@
 [Allure-отчёт](https://aakats.github.io/Marketplace/)
 # Marketplace Test Automation
 
-Проект автоматизации тестирования веб-приложения с использованием Selenium и pytest.
+UI- и API-тесты демо-маркетплейса automationexercise.com
+(Selenium + pytest, Page Object Model, Allure-отчётность в CI).
 
 ## Технологии
 
@@ -45,7 +46,8 @@ Marketplace/
 │   ├── test_product_page.py    # Тесты карточки товара
 │   └── test_registration_page.py
 ├── utils/                    # Утилиты
-│   └── data_generator.py    # Генератор тестовых данных
+│   ├── data_generator.py    # Генератор тестовых данных
+│   └── logger.py            # Настройка loguru-логирования
 ├── locators.py               # Все локаторы элементов
 └── pytest.ini               # Конфигурация pytest
 ```
@@ -112,10 +114,12 @@ allure open allure-report
 | Переменная | Описание | По умолчанию |
 |------------|----------|--------------|
 | BASE_URL | URL сайта | https://automationexercise.com |
-| API_URL | URL API | https://automationexercise.com/api |
+| API_URL | URL API-стенда | https://automationexercise.com |
 | HEADLESS | Запуск без UI (аналог опции `--headless`) | false |
 | TIMEOUT | Таймаут ожидания | 10 |
 | BROWSER | Браузер | chrome |
+| LOG_LEVEL | Уровень логирования (DEBUG/INFO/WARNING/ERROR) | INFO |
+| LOG_DIR | Каталог для лог-файлов | logs |
 
 ## Маркеры тестов
 
@@ -127,3 +131,14 @@ allure open allure-report
 | `positive` | Позитивные тесты    |
 | `negative` | Негативные тесты    |
 | `api`      | API тесты           |
+
+## Известные ограничения
+
+- Тесты идут против внешнего демо-сайта automationexercise.com:
+  он содержит рекламу и попапы, из-за чего отдельные UI-сценарии
+  могут быть нестабильными.
+- Часть проверок помечена `xfail` с указанием причины — это
+  задокументированные баги сайта (см. тесты с `@pytest.mark.xfail`).
+- При параллельном запуске на локальной машине рекомендуется
+  `pytest -n 2` — большее число воркеров упирается в ресурсы
+  машины и скорость ответа сайта, а не в тесты.
