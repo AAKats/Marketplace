@@ -1,0 +1,11 @@
+13:30:25.159 | DEBUG    | Women category selected
+
+13:30:25.899 | DEBUG    | DRESS subcategory selected
+
+13:30:25.927 | DEBUG    | Category title is correct: "WOMEN - DRESS PRODUCTS"
+
+13:30:25.970 | DEBUG    | Men category selected
+
+13:30:26.729 | DEBUG    | JEANS subcategory selected
+
+13:30:26.755 | DEBUG    | Category title is correct: "MEN - JEANS PRODUCTS"

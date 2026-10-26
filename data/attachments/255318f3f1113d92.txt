@@ -1,0 +1,67 @@
+13:30:03.509 | DEBUG    | Email filled in
+
+13:30:03.539 | DEBUG    | Password filled in
+
+13:30:03.546 | DEBUG    | Login button is presented
+
+13:30:04.814 | DEBUG    | Login button is clicked
+
+13:30:04.833 | DEBUG    | Username is correct Logged in as Pamela
+
+13:30:05.730 | DEBUG    | Product Blue Top added, quantity 1
+
+13:30:06.583 | DEBUG    | Product Blue Top added, quantity 2
+
+13:30:07.617 | DEBUG    | Product Blue Top added, quantity 3
+
+13:30:08.068 | DEBUG    | Proceed to checkout button clicked
+
+13:30:08.080 | DEBUG    | Name is correct in the delivery information: Mr. Pamela Adams
+
+13:30:08.091 | DEBUG    | Company name is correct in the delivery information: Doyle and Sons
+
+13:30:08.102 | DEBUG    | Address 1 is correct in the delivery information: 02616 Adam Motorway Apt. 724
+
+13:30:08.112 | DEBUG    | Address 2 is correct in the delivery information: Apt. 816
+
+13:30:08.122 | DEBUG    | City is correct in the delivery information: Drewburgh Oklahoma 85783
+
+13:30:08.132 | DEBUG    | Country is correct in the delivery information: New Zealand
+
+13:30:08.142 | DEBUG    | Phone is correct in the delivery information: 846-554-7086x936
+
+13:30:08.152 | DEBUG    | Name is correct in the billing information: Mr. Pamela Adams
+
+13:30:08.163 | DEBUG    | Company name is correct in the billing information: Doyle and Sons
+
+13:30:08.174 | DEBUG    | Address 1 is correct in the billing information: 02616 Adam Motorway Apt. 724
+
+13:30:08.184 | DEBUG    | Address 2 is correct in the billing information: Apt. 816
+
+13:30:08.195 | DEBUG    | City is correct in the billing information: Drewburgh Oklahoma 85783
+
+13:30:08.205 | DEBUG    | Country is correct in the billing information: New Zealand
+
+13:30:08.215 | DEBUG    | Phone is correct in the billing information: 846-554-7086x936
+
+13:30:08.223 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+13:30:08.238 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:30:08.244 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+13:30:08.261 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+13:30:08.278 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+13:30:08.325 | DEBUG    | Comment filled in with: Start myself morning police huge scientist.
+
+13:30:08.483 | DEBUG    | Place order button clicked
+
+13:30:08.522 | DEBUG    | Name on card filled in with: ****
+
+13:30:08.558 | DEBUG    | Card number filled in with: ****0070
+
+13:30:09.952 | DEBUG    | Pay and confirm button clicked
+
+13:30:09.978 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

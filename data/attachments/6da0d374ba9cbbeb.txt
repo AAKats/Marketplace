@@ -1,5 +1,0 @@
-12:13:10.863 | DEBUG    | Status code correct: 200
-
-12:13:10.863 | DEBUG    | ResponseCode correct: 200
-
-12:13:10.863 | DEBUG    | Response message correct: "User exists!"

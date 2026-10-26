@@ -1,0 +1,17 @@
+13:29:43.317 | DEBUG    | Login title is presented
+
+13:29:43.327 | DEBUG    | Login title text is correct
+
+13:29:43.331 | DEBUG    | Login email field is presented
+
+13:29:43.336 | DEBUG    | Password field is presented
+
+13:29:43.378 | DEBUG    | Email filled in
+
+13:29:43.407 | DEBUG    | Password filled in
+
+13:29:43.414 | DEBUG    | Login button is presented
+
+13:29:43.445 | DEBUG    | Login button is clicked
+
+13:29:44.176 | DEBUG    | Username is correct Logged in as Pamela

@@ -1,0 +1,45 @@
+13:30:13.150 | DEBUG    | Status code correct: 200
+
+13:30:13.150 | DEBUG    | ResponseCode correct: 200
+
+13:30:13.150 | DEBUG    | ResponseCode correct: 200
+
+13:30:13.151 | DEBUG    | Response contains key: "products"
+
+13:30:13.151 | DEBUG    | Products list length correct: 3
+
+13:30:13.151 | DEBUG    | Product with id = 33 contains field: "id"
+
+13:30:13.151 | DEBUG    | Product with id = 33 contains field: "name"
+
+13:30:13.151 | DEBUG    | Product with id = 33 contains field: "price"
+
+13:30:13.151 | DEBUG    | Product with id = 33 contains field: "brand"
+
+13:30:13.151 | DEBUG    | Product with id = 33 contains field: "category"
+
+13:30:13.151 | DEBUG    | Product name: "Soft Stretch Jeans" contains search term: jean
+
+13:30:13.151 | DEBUG    | Product with id = 35 contains field: "id"
+
+13:30:13.151 | DEBUG    | Product with id = 35 contains field: "name"
+
+13:30:13.151 | DEBUG    | Product with id = 35 contains field: "price"
+
+13:30:13.151 | DEBUG    | Product with id = 35 contains field: "brand"
+
+13:30:13.151 | DEBUG    | Product with id = 35 contains field: "category"
+
+13:30:13.151 | DEBUG    | Product name: "Regular Fit Straight Jeans" contains search term: jean
+
+13:30:13.151 | DEBUG    | Product with id = 37 contains field: "id"
+
+13:30:13.151 | DEBUG    | Product with id = 37 contains field: "name"
+
+13:30:13.151 | DEBUG    | Product with id = 37 contains field: "price"
+
+13:30:13.151 | DEBUG    | Product with id = 37 contains field: "brand"
+
+13:30:13.151 | DEBUG    | Product with id = 37 contains field: "category"
+
+13:30:13.151 | DEBUG    | Product name: "Grunt Blue Slim Fit Jeans" contains search term: jean

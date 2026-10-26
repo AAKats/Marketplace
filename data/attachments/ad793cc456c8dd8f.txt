@@ -1,0 +1,11 @@
+13:30:11.760 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+13:30:11.803 | DEBUG    | Review name field filled in with "Aaron Romero"
+
+13:30:11.849 | DEBUG    | Review email field filled in with "2a4e0eb2_collinslisa@example.org"
+
+13:30:11.904 | DEBUG    | Review message field filled in with "Institution least perform general. Until amount enjoy must."
+
+13:30:11.948 | DEBUG    | Submit review button clicked
+
+13:30:11.967 | DEBUG    | Success review message is displayed

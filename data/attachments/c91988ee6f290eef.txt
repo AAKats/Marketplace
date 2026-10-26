@@ -1,0 +1,39 @@
+13:29:41.072 | DEBUG    | Main title is presented
+
+13:29:41.090 | DEBUG    | Main title is correct: CONTACT US
+
+13:29:41.095 | DEBUG    | Second title is presented
+
+13:29:41.109 | DEBUG    | Second title is correct: GET IN TOUCH
+
+13:29:41.114 | DEBUG    | Name field is presented
+
+13:29:41.147 | DEBUG    | Name field filled in with: Kristina
+
+13:29:41.153 | DEBUG    | Email field is presented
+
+13:29:41.189 | DEBUG    | Email field filled in with: 90d6f027_rwalker@example.net
+
+13:29:41.197 | DEBUG    | Subject field is presented
+
+13:29:41.224 | DEBUG    | Subject field filled in with: Leg seat.
+
+13:29:41.231 | DEBUG    | Message field is presented
+
+13:29:41.287 | DEBUG    | Message field filled in with: Put analysis its bill task adult east rock. Project beyond military build play.
+
+13:29:41.294 | DEBUG    | Upload field is presented
+
+13:29:41.306 | DEBUG    | File uploaded
+
+13:29:41.311 | DEBUG    | Submit button is presented
+
+13:29:41.369 | DEBUG    | Alert is presented
+
+13:29:41.410 | DEBUG    | Success message is presented
+
+13:29:41.410 | DEBUG    | Success message is correct
+
+13:29:41.414 | DEBUG    | Home button is presented
+
+13:29:42.080 | DEBUG    | Home button is clicked

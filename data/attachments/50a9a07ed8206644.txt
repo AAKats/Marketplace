@@ -1,3 +1,0 @@
-12:11:43.519 | DEBUG    | Women category selected
-
-12:11:44.165 | DEBUG    | DRESS subcategory selected
