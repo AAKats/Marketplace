@@ -1,0 +1,3 @@
+11:48:46.407 | DEBUG    | Products list is presented
+
+11:48:46.555 | DEBUG    | View button for the 1 product from the start (id = 2) clicked

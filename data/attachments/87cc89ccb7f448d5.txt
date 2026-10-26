@@ -1,7 +1,0 @@
-20:10:49.713 | DEBUG    | Text is correct: SUBSCRIPTION
-
-20:10:49.788 | DEBUG    | Email filled in with "29b3e081_richard21@example.net"
-
-20:10:49.912 | DEBUG    | Subscribe button is clicked
-
-20:10:49.941 | DEBUG    | Text is correct: You have been successfully subscribed!

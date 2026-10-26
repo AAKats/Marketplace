@@ -1,0 +1,13 @@
+11:45:35.081 | DEBUG    | Product "Pure Cotton Neon Green Tshirt" (ID: 31) opened
+
+11:45:35.122 | DEBUG    | Quantity = 6 selected
+
+11:45:35.151 | DEBUG    | Product was added to cart
+
+11:45:38.590 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+11:45:38.598 | DEBUG    | Product: Pure Cotton Neon Green Tshirt found in cart: Pure Cotton Neon Green Tshirt
+
+11:45:38.610 | DEBUG    | Product Pure Cotton Neon Green Tshirt price in cart: 850 matches added price: 850
+
+11:45:38.623 | DEBUG    | Product Pure Cotton Neon Green Tshirt quantity in cart: 6 matches added quantity: 6

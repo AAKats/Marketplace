@@ -1,0 +1,169 @@
+11:45:46.342 | DEBUG    | Product Blue Top added, quantity 1
+
+11:45:47.679 | DEBUG    | Product Blue Top added, quantity 2
+
+11:45:48.521 | DEBUG    | Product Men Tshirt added, quantity 1
+
+11:45:51.675 | DEBUG    | Product Men Tshirt added, quantity 2
+
+11:45:53.110 | DEBUG    | Proceed to checkout button clicked
+
+11:45:53.595 | DEBUG    | Register via modal button clicked
+
+11:45:53.601 | DEBUG    | New user Signup title is presented
+
+11:45:53.607 | DEBUG    | New user Signup title text is correct
+
+11:45:53.611 | DEBUG    | Signup email field is presented
+
+11:45:53.614 | DEBUG    | Signup name field is presented
+
+11:45:53.652 | DEBUG    | Email signup field filled
+
+11:45:53.674 | DEBUG    | Name signup field filled
+
+11:45:53.699 | DEBUG    | Signup button is clicked
+
+11:45:54.215 | DEBUG    | Account information title is presented
+
+11:45:54.220 | DEBUG    | Account information title text is correct
+
+11:45:54.236 | DEBUG    | Mr radiobutton is presented
+
+11:45:54.240 | DEBUG    | Mrs radiobutton is presented
+
+11:45:54.265 | DEBUG    | Selected MRS title
+
+11:45:54.269 | DEBUG    | Password field is presented
+
+11:45:54.296 | DEBUG    | Password is filled in
+
+11:45:54.300 | DEBUG    | Day of birth list is presented
+
+11:45:54.328 | DEBUG    | Day of birth selected
+
+11:45:54.332 | DEBUG    | Month of birth list is presented
+
+11:45:54.356 | DEBUG    | Month of birth selected
+
+11:45:54.360 | DEBUG    | Year of birth list is presented
+
+11:45:54.382 | DEBUG    | Year of birth selected
+
+11:45:54.382 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+11:45:54.382 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+11:45:54.387 | DEBUG    | First name field is presented
+
+11:45:54.410 | DEBUG    | First name is filled in
+
+11:45:54.414 | DEBUG    | Last name field is presented
+
+11:45:54.435 | DEBUG    | Last name is filled in
+
+11:45:54.440 | DEBUG    | Company field is presented
+
+11:45:54.463 | DEBUG    | Company is filled in
+
+11:45:54.467 | DEBUG    | Address 1 field is presented
+
+11:45:54.494 | DEBUG    | Address 1 is filled in
+
+11:45:54.498 | DEBUG    | Address 2 field is presented
+
+11:45:54.518 | DEBUG    | Address 2 is filled in
+
+11:45:54.547 | DEBUG    | State field is presented
+
+11:45:54.568 | DEBUG    | State is filled in
+
+11:45:54.573 | DEBUG    | City field is presented
+
+11:45:54.595 | DEBUG    | City is filled in
+
+11:45:54.599 | DEBUG    | Zipcode field is presented
+
+11:45:54.619 | DEBUG    | Zipcode is filled in
+
+11:45:54.624 | DEBUG    | Mobile number field is presented
+
+11:45:54.646 | DEBUG    | Mobile number is filled in
+
+11:45:57.721 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+11:45:57.734 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+11:45:57.734 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+11:45:57.737 | DEBUG    | Continue button is presented
+
+11:45:59.575 | DEBUG    | Username is correct Logged in as Steven
+
+11:46:03.784 | DEBUG    | Proceed to checkout button clicked
+
+11:46:03.795 | DEBUG    | Name is correct in the delivery information: Mrs. Steven White
+
+11:46:03.803 | DEBUG    | Company name is correct in the delivery information: Montgomery-Sparks
+
+11:46:03.811 | DEBUG    | Address 1 is correct in the delivery information: 397 Flores Ferry Suite 802
+
+11:46:03.819 | DEBUG    | Address 2 is correct in the delivery information: Apt. 793
+
+11:46:03.827 | DEBUG    | City is correct in the delivery information: New David California 96556
+
+11:46:03.835 | DEBUG    | Country is correct in the delivery information: Australia
+
+11:46:03.843 | DEBUG    | Phone is correct in the delivery information: 511-699-5189
+
+11:46:03.851 | DEBUG    | Name is correct in the billing information: Mrs. Steven White
+
+11:46:03.860 | DEBUG    | Company name is correct in the billing information: Montgomery-Sparks
+
+11:46:03.868 | DEBUG    | Address 1 is correct in the billing information: 397 Flores Ferry Suite 802
+
+11:46:03.876 | DEBUG    | Address 2 is correct in the billing information: Apt. 793
+
+11:46:03.884 | DEBUG    | City is correct in the billing information: New David California 96556
+
+11:46:03.891 | DEBUG    | Country is correct in the billing information: Australia
+
+11:46:03.899 | DEBUG    | Phone is correct in the billing information: 511-699-5189
+
+11:46:03.905 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+11:46:03.916 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:46:03.922 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:46:03.929 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+11:46:03.929 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+11:46:03.942 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:46:03.950 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:46:03.963 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:46:03.971 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:46:04.016 | DEBUG    | Comment filled in with: Analysis successful style let poor themselves. Early kid company treatment international tell.
+
+11:46:04.505 | DEBUG    | Place order button clicked
+
+11:46:04.535 | DEBUG    | Name on card filled in with: ****
+
+11:46:04.563 | DEBUG    | Card number filled in with: ****6185
+
+11:46:06.602 | DEBUG    | Pay and confirm button clicked
+
+11:46:06.623 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+11:46:07.126 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+11:46:07.126 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+11:46:07.126 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+11:46:09.083 | DEBUG    | Continue button clicked

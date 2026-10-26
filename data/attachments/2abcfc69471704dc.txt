@@ -1,0 +1,39 @@
+11:47:41.413 | DEBUG    | Main title is presented
+
+11:47:41.430 | DEBUG    | Main title is correct: CONTACT US
+
+11:47:41.434 | DEBUG    | Second title is presented
+
+11:47:41.445 | DEBUG    | Second title is correct: GET IN TOUCH
+
+11:47:41.449 | DEBUG    | Name field is presented
+
+11:47:41.474 | DEBUG    | Name field filled in with: Pamela
+
+11:47:41.478 | DEBUG    | Email field is presented
+
+11:47:41.505 | DEBUG    | Email field filled in with: 53876469_hallcasey@example.net
+
+11:47:41.510 | DEBUG    | Subject field is presented
+
+11:47:41.530 | DEBUG    | Subject field filled in with: Run.
+
+11:47:41.536 | DEBUG    | Message field is presented
+
+11:47:41.562 | DEBUG    | Message field filled in with: Because list significant rich.
+
+11:47:41.568 | DEBUG    | Upload field is presented
+
+11:47:41.577 | DEBUG    | File uploaded
+
+11:47:41.581 | DEBUG    | Submit button is presented
+
+11:47:41.628 | DEBUG    | Alert is presented
+
+11:47:41.646 | DEBUG    | Success message is presented
+
+11:47:41.646 | DEBUG    | Success message is correct
+
+11:47:41.650 | DEBUG    | Home button is presented
+
+11:47:43.465 | DEBUG    | Home button is clicked

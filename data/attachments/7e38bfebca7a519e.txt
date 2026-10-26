@@ -1,0 +1,49 @@
+11:46:28.597 | DEBUG    | Search field is presented
+
+11:46:28.629 | DEBUG    | Search field is filled in with: "Pure Cotton V-Neck T-Shirt"
+
+11:46:28.633 | DEBUG    | Search button is presented
+
+11:46:29.663 | DEBUG    | Search button is clicked
+
+11:46:29.675 | DEBUG    | Title is presented
+
+11:46:29.675 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+11:46:29.678 | DEBUG    | 1 products found
+
+11:46:29.681 | DEBUG    | "Pure Cotton V-Neck T-Shirt" product found, and contains "Pure Cotton V-Neck T-Shirt"
+
+11:46:32.182 | DEBUG    | Product Pure Cotton V-Neck T-Shirt added, quantity 1
+
+11:46:33.372 | DEBUG    | Product: Pure Cotton V-Neck T-Shirt found in cart: Pure Cotton V-Neck T-Shirt
+
+11:46:33.383 | DEBUG    | Product Pure Cotton V-Neck T-Shirt price in cart: 1299 matches added price: 1299
+
+11:46:33.397 | DEBUG    | Product Pure Cotton V-Neck T-Shirt quantity in cart: 1 matches added quantity: 1
+
+11:46:33.409 | DEBUG    | Product Pure Cotton V-Neck T-Shirt total in cart: 1299 matches expected total: 1299
+
+11:46:34.193 | DEBUG    | Login email field is presented
+
+11:46:34.196 | DEBUG    | Password field is presented
+
+11:46:34.222 | DEBUG    | Email filled in
+
+11:46:34.242 | DEBUG    | Password filled in
+
+11:46:34.247 | DEBUG    | Login button is presented
+
+11:46:34.269 | DEBUG    | Login button is clicked
+
+11:46:39.880 | DEBUG    | Product: Pure Cotton V-Neck T-Shirt found in cart: Pure Cotton V-Neck T-Shirt
+
+11:46:39.890 | DEBUG    | Product Pure Cotton V-Neck T-Shirt price in cart: 1299 matches added price: 1299
+
+11:46:39.902 | DEBUG    | Product Pure Cotton V-Neck T-Shirt quantity in cart: 1 matches added quantity: 1
+
+11:46:39.915 | DEBUG    | Product Pure Cotton V-Neck T-Shirt total in cart: 1299 matches expected total: 1299
+
+11:46:44.504 | DEBUG    | All products deleted
+
+11:46:44.509 | DEBUG    | Empty cart text correct: Cart is empty!

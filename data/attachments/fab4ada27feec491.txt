@@ -1,0 +1,43 @@
+11:50:20.773 | DEBUG    | New user details:
+
+11:50:20.773 | DEBUG    |   name: Faith
+
+11:50:20.773 | DEBUG    |   email: 3c42202e_robertrosales@example.org
+
+11:50:20.773 | DEBUG    |   title: Mrs
+
+11:50:20.773 | DEBUG    |   birth_day: 13
+
+11:50:20.773 | DEBUG    |   birth_month: 4
+
+11:50:20.773 | DEBUG    |   birth_year: 1974
+
+11:50:20.773 | DEBUG    |   firstname: Faith
+
+11:50:20.773 | DEBUG    |   lastname: Clark
+
+11:50:20.773 | DEBUG    |   company: Lloyd, Martinez and Case
+
+11:50:20.773 | DEBUG    |   address1: 484 Cassandra Canyon
+
+11:50:20.773 | DEBUG    |   address2: Apt. 088
+
+11:50:20.773 | DEBUG    |   country: United States
+
+11:50:20.773 | DEBUG    |   state: New Mexico
+
+11:50:20.773 | DEBUG    |   city: Susanburgh
+
+11:50:20.773 | DEBUG    |   zipcode: 11786
+
+11:50:21.886 | DEBUG    | Status code correct: 200
+
+11:50:21.886 | DEBUG    | ResponseCode correct: 201
+
+11:50:21.886 | DEBUG    | Response message correct: "User created!"
+
+11:50:22.655 | DEBUG    | Status code correct: 200
+
+11:50:22.655 | DEBUG    | ResponseCode correct: 200
+
+11:50:22.655 | DEBUG    | Response message correct: "Account deleted!"
