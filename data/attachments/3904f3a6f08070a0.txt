@@ -1,0 +1,169 @@
+12:08:49.152 | DEBUG    | Product Blue Top added, quantity 1
+
+12:08:50.504 | DEBUG    | Product Blue Top added, quantity 2
+
+12:08:51.382 | DEBUG    | Product Men Tshirt added, quantity 1
+
+12:08:54.294 | DEBUG    | Product Men Tshirt added, quantity 2
+
+12:08:55.114 | DEBUG    | Proceed to checkout button clicked
+
+12:08:55.309 | DEBUG    | Register via modal button clicked
+
+12:08:55.317 | DEBUG    | New user Signup title is presented
+
+12:08:55.327 | DEBUG    | New user Signup title text is correct
+
+12:08:55.332 | DEBUG    | Signup email field is presented
+
+12:08:55.336 | DEBUG    | Signup name field is presented
+
+12:08:55.388 | DEBUG    | Email signup field filled
+
+12:08:55.427 | DEBUG    | Name signup field filled
+
+12:08:55.478 | DEBUG    | Signup button is clicked
+
+12:08:55.735 | DEBUG    | Account information title is presented
+
+12:08:55.742 | DEBUG    | Account information title text is correct
+
+12:08:55.764 | DEBUG    | Mr radiobutton is presented
+
+12:08:55.768 | DEBUG    | Mrs radiobutton is presented
+
+12:08:55.800 | DEBUG    | Selected MRS title
+
+12:08:55.805 | DEBUG    | Password field is presented
+
+12:08:55.833 | DEBUG    | Password is filled in
+
+12:08:55.842 | DEBUG    | Day of birth list is presented
+
+12:08:55.877 | DEBUG    | Day of birth selected
+
+12:08:55.882 | DEBUG    | Month of birth list is presented
+
+12:08:55.913 | DEBUG    | Month of birth selected
+
+12:08:55.918 | DEBUG    | Year of birth list is presented
+
+12:08:55.947 | DEBUG    | Year of birth selected
+
+12:08:55.979 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+12:08:56.009 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+12:08:56.013 | DEBUG    | First name field is presented
+
+12:08:56.039 | DEBUG    | First name is filled in
+
+12:08:56.044 | DEBUG    | Last name field is presented
+
+12:08:56.069 | DEBUG    | Last name is filled in
+
+12:08:56.075 | DEBUG    | Company field is presented
+
+12:08:56.101 | DEBUG    | Company is filled in
+
+12:08:56.107 | DEBUG    | Address 1 field is presented
+
+12:08:56.135 | DEBUG    | Address 1 is filled in
+
+12:08:56.142 | DEBUG    | Address 2 field is presented
+
+12:08:56.166 | DEBUG    | Address 2 is filled in
+
+12:08:56.191 | DEBUG    | State field is presented
+
+12:08:56.215 | DEBUG    | State is filled in
+
+12:08:56.221 | DEBUG    | City field is presented
+
+12:08:56.246 | DEBUG    | City is filled in
+
+12:08:56.251 | DEBUG    | Zipcode field is presented
+
+12:08:56.275 | DEBUG    | Zipcode is filled in
+
+12:08:56.280 | DEBUG    | Mobile number field is presented
+
+12:08:56.307 | DEBUG    | Mobile number is filled in
+
+12:08:59.123 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+12:08:59.137 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+12:08:59.137 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+12:08:59.141 | DEBUG    | Continue button is presented
+
+12:09:00.696 | DEBUG    | Username is correct Logged in as Cassandra
+
+12:09:04.418 | DEBUG    | Proceed to checkout button clicked
+
+12:09:04.432 | DEBUG    | Name is correct in the delivery information: Mrs. Cassandra Valenzuela
+
+12:09:04.444 | DEBUG    | Company name is correct in the delivery information: Harper-Keller
+
+12:09:04.456 | DEBUG    | Address 1 is correct in the delivery information: 5867 Murillo Pines
+
+12:09:04.466 | DEBUG    | Address 2 is correct in the delivery information: Apt. 451
+
+12:09:04.477 | DEBUG    | City is correct in the delivery information: Davisport Mississippi 82270
+
+12:09:04.489 | DEBUG    | Country is correct in the delivery information: India
+
+12:09:04.500 | DEBUG    | Phone is correct in the delivery information: 7267961373
+
+12:09:04.511 | DEBUG    | Name is correct in the billing information: Mrs. Cassandra Valenzuela
+
+12:09:04.522 | DEBUG    | Company name is correct in the billing information: Harper-Keller
+
+12:09:04.533 | DEBUG    | Address 1 is correct in the billing information: 5867 Murillo Pines
+
+12:09:04.543 | DEBUG    | Address 2 is correct in the billing information: Apt. 451
+
+12:09:04.553 | DEBUG    | City is correct in the billing information: Davisport Mississippi 82270
+
+12:09:04.563 | DEBUG    | Country is correct in the billing information: India
+
+12:09:04.574 | DEBUG    | Phone is correct in the billing information: 7267961373
+
+12:09:04.582 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+12:09:04.596 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:09:04.603 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+12:09:04.614 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+12:09:04.614 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+12:09:04.631 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+12:09:04.641 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+12:09:04.657 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+12:09:04.666 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+12:09:04.710 | DEBUG    | Comment filled in with: Central clearly business. Sound interview billion enjoy.
+
+12:09:05.196 | DEBUG    | Place order button clicked
+
+12:09:05.232 | DEBUG    | Name on card filled in with: ****
+
+12:09:05.291 | DEBUG    | Card number filled in with: ****2079
+
+12:09:07.554 | DEBUG    | Pay and confirm button clicked
+
+12:09:07.579 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+12:09:08.131 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+12:09:08.131 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+12:09:08.131 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+12:09:09.499 | DEBUG    | Continue button clicked

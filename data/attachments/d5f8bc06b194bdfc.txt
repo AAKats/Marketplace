@@ -1,0 +1,39 @@
+12:10:37.327 | DEBUG    | Main title is presented
+
+12:10:37.342 | DEBUG    | Main title is correct: CONTACT US
+
+12:10:37.346 | DEBUG    | Second title is presented
+
+12:10:37.357 | DEBUG    | Second title is correct: GET IN TOUCH
+
+12:10:37.362 | DEBUG    | Name field is presented
+
+12:10:37.386 | DEBUG    | Name field filled in with: Patricia
+
+12:10:37.390 | DEBUG    | Email field is presented
+
+12:10:37.418 | DEBUG    | Email field filled in with: 9b0bbb1d_chris39@example.com
+
+12:10:37.424 | DEBUG    | Subject field is presented
+
+12:10:37.446 | DEBUG    | Subject field filled in with: Forget.
+
+12:10:37.452 | DEBUG    | Message field is presented
+
+12:10:37.484 | DEBUG    | Message field filled in with: Whom woman or husband yard soon manage.
+
+12:10:37.489 | DEBUG    | Upload field is presented
+
+12:10:37.500 | DEBUG    | File uploaded
+
+12:10:37.505 | DEBUG    | Submit button is presented
+
+12:10:37.557 | DEBUG    | Alert is presented
+
+12:10:37.585 | DEBUG    | Success message is presented
+
+12:10:37.585 | DEBUG    | Success message is correct
+
+12:10:37.589 | DEBUG    | Home button is presented
+
+12:10:39.390 | DEBUG    | Home button is clicked

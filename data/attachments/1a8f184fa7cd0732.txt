@@ -1,0 +1,49 @@
+12:09:24.790 | DEBUG    | Search field is presented
+
+12:09:24.821 | DEBUG    | Search field is filled in with: "Premium Polo T-Shirts"
+
+12:09:24.827 | DEBUG    | Search button is presented
+
+12:09:25.995 | DEBUG    | Search button is clicked
+
+12:09:26.008 | DEBUG    | Title is presented
+
+12:09:26.008 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+12:09:26.011 | DEBUG    | 1 products found
+
+12:09:26.015 | DEBUG    | "Premium Polo T-Shirts" product found, and contains "Premium Polo T-Shirts"
+
+12:09:28.173 | DEBUG    | Product Premium Polo T-Shirts added, quantity 1
+
+12:09:29.478 | DEBUG    | Product: Premium Polo T-Shirts found in cart: Premium Polo T-Shirts
+
+12:09:29.493 | DEBUG    | Product Premium Polo T-Shirts price in cart: 1500 matches added price: 1500
+
+12:09:29.509 | DEBUG    | Product Premium Polo T-Shirts quantity in cart: 1 matches added quantity: 1
+
+12:09:29.524 | DEBUG    | Product Premium Polo T-Shirts total in cart: 1500 matches expected total: 1500
+
+12:09:30.418 | DEBUG    | Login email field is presented
+
+12:09:30.422 | DEBUG    | Password field is presented
+
+12:09:30.452 | DEBUG    | Email filled in
+
+12:09:30.475 | DEBUG    | Password filled in
+
+12:09:30.481 | DEBUG    | Login button is presented
+
+12:09:30.511 | DEBUG    | Login button is clicked
+
+12:09:36.193 | DEBUG    | Product: Premium Polo T-Shirts found in cart: Premium Polo T-Shirts
+
+12:09:36.205 | DEBUG    | Product Premium Polo T-Shirts price in cart: 1500 matches added price: 1500
+
+12:09:36.219 | DEBUG    | Product Premium Polo T-Shirts quantity in cart: 1 matches added quantity: 1
+
+12:09:36.232 | DEBUG    | Product Premium Polo T-Shirts total in cart: 1500 matches expected total: 1500
+
+12:09:41.837 | DEBUG    | All products deleted
+
+12:09:41.843 | DEBUG    | Empty cart text correct: Cart is empty!

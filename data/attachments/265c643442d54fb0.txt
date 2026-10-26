@@ -1,0 +1,17 @@
+12:10:43.500 | DEBUG    | Login title is presented
+
+12:10:43.508 | DEBUG    | Login title text is correct
+
+12:10:43.512 | DEBUG    | Login email field is presented
+
+12:10:43.516 | DEBUG    | Password field is presented
+
+12:10:43.546 | DEBUG    | Email filled in
+
+12:10:43.569 | DEBUG    | Password filled in
+
+12:10:43.573 | DEBUG    | Login button is presented
+
+12:10:47.342 | DEBUG    | Login button is clicked
+
+12:10:47.358 | DEBUG    | Username is correct Logged in as Stephanie

@@ -1,0 +1,11 @@
+12:11:18.538 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+12:11:18.573 | DEBUG    | Review name field filled in with "Mary Scott"
+
+12:11:18.606 | DEBUG    | Review email field filled in with "99060a63_erik56@example.net"
+
+12:11:18.653 | DEBUG    | Review message field filled in with "Development party military. Purpose carry time one. Including tax dog stage."
+
+12:11:18.688 | DEBUG    | Submit review button clicked
+
+12:11:18.705 | DEBUG    | Success review message is displayed

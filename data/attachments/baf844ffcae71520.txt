@@ -1,0 +1,75 @@
+12:13:11.702 | DEBUG    | New user details:
+
+12:13:11.702 | DEBUG    |   name: William
+
+12:13:11.702 | DEBUG    |   email: 8dba6131_robinsonjoseph@example.com
+
+12:13:11.702 | DEBUG    |   title: Mr
+
+12:13:11.702 | DEBUG    |   birth_day: 8
+
+12:13:11.702 | DEBUG    |   birth_month: 3
+
+12:13:11.702 | DEBUG    |   birth_year: 1985
+
+12:13:11.702 | DEBUG    |   firstname: William
+
+12:13:11.702 | DEBUG    |   lastname: Payne
+
+12:13:11.702 | DEBUG    |   company: Reed Ltd
+
+12:13:11.702 | DEBUG    |   address1: 5377 Anita Dale Apt. 813
+
+12:13:11.702 | DEBUG    |   address2: Apt. 994
+
+12:13:11.702 | DEBUG    |   country: United States
+
+12:13:11.702 | DEBUG    |   state: Kentucky
+
+12:13:11.702 | DEBUG    |   city: Port Robertland
+
+12:13:11.702 | DEBUG    |   zipcode: 71146
+
+12:13:11.883 | DEBUG    | Status code correct: 200
+
+12:13:11.883 | DEBUG    | ResponseCode correct: 201
+
+12:13:11.883 | DEBUG    | Response message correct: "User created!"
+
+12:13:11.884 | DEBUG    | Updated user details:
+
+12:13:11.884 | DEBUG    |   name: William
+
+12:13:11.884 | DEBUG    |   email: 8dba6131_robinsonjoseph@example.com
+
+12:13:11.884 | DEBUG    |   title: Mr
+
+12:13:11.884 | DEBUG    |   birth_day: 8
+
+12:13:11.884 | DEBUG    |   birth_month: 3
+
+12:13:11.884 | DEBUG    |   birth_year: 1985
+
+12:13:11.884 | DEBUG    |   firstname: William
+
+12:13:11.884 | DEBUG    |   lastname: Payne
+
+12:13:11.884 | DEBUG    |   company: Reed Ltd
+
+12:13:11.884 | DEBUG    |   address1: 5377 Anita Dale Apt. 813
+
+12:13:11.884 | DEBUG    |   address2: Apt. 994
+
+12:13:11.884 | DEBUG    |   country: United States
+
+12:13:11.884 | DEBUG    |   state: Kentucky
+
+12:13:11.884 | DEBUG    |   city: Port Robertland
+
+12:13:11.885 | DEBUG    |   zipcode: 71146
+
+12:13:11.995 | DEBUG    | Status code correct: 200
+
+12:13:11.995 | DEBUG    | ResponseCode correct: 200
+
+12:13:11.995 | DEBUG    | Response message correct: "User updated!"

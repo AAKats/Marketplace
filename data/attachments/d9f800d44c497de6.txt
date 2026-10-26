@@ -1,0 +1,165 @@
+12:12:51.610 | DEBUG    | New user Signup title is presented
+
+12:12:51.618 | DEBUG    | New user Signup title text is correct
+
+12:12:51.622 | DEBUG    | Signup email field is presented
+
+12:12:51.625 | DEBUG    | Signup name field is presented
+
+12:12:51.656 | DEBUG    | Email signup field filled
+
+12:12:51.680 | DEBUG    | Name signup field filled
+
+12:12:51.708 | DEBUG    | Signup button is clicked
+
+12:12:52.304 | DEBUG    | Account information title is presented
+
+12:12:52.311 | DEBUG    | Account information title text is correct
+
+12:12:52.327 | DEBUG    | Mr radiobutton is presented
+
+12:12:52.331 | DEBUG    | Mrs radiobutton is presented
+
+12:12:52.356 | DEBUG    | Selected MR title
+
+12:12:52.361 | DEBUG    | Password field is presented
+
+12:12:52.386 | DEBUG    | Password is filled in
+
+12:12:52.391 | DEBUG    | Day of birth list is presented
+
+12:12:52.423 | DEBUG    | Day of birth selected
+
+12:12:52.428 | DEBUG    | Month of birth list is presented
+
+12:12:52.454 | DEBUG    | Month of birth selected
+
+12:12:52.458 | DEBUG    | Year of birth list is presented
+
+12:12:52.485 | DEBUG    | Year of birth selected
+
+12:12:52.485 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+12:12:52.486 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+12:12:52.490 | DEBUG    | First name field is presented
+
+12:12:52.513 | DEBUG    | First name is filled in
+
+12:12:52.518 | DEBUG    | Last name field is presented
+
+12:12:52.540 | DEBUG    | Last name is filled in
+
+12:12:52.546 | DEBUG    | Company field is presented
+
+12:12:52.572 | DEBUG    | Company is filled in
+
+12:12:52.578 | DEBUG    | Address 1 field is presented
+
+12:12:52.606 | DEBUG    | Address 1 is filled in
+
+12:12:52.612 | DEBUG    | Address 2 field is presented
+
+12:12:52.634 | DEBUG    | Address 2 is filled in
+
+12:12:52.666 | DEBUG    | State field is presented
+
+12:12:52.689 | DEBUG    | State is filled in
+
+12:12:52.693 | DEBUG    | City field is presented
+
+12:12:52.717 | DEBUG    | City is filled in
+
+12:12:52.722 | DEBUG    | Zipcode field is presented
+
+12:12:52.743 | DEBUG    | Zipcode is filled in
+
+12:12:52.749 | DEBUG    | Mobile number field is presented
+
+12:12:52.771 | DEBUG    | Mobile number is filled in
+
+12:12:54.999 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+12:12:55.013 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+12:12:55.013 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+12:12:55.016 | DEBUG    | Continue button is presented
+
+12:12:56.606 | DEBUG    | Username is correct Logged in as Jenny
+
+12:12:59.968 | DEBUG    | Product Blue Top added, quantity 1
+
+12:13:01.321 | DEBUG    | Product Blue Top added, quantity 2
+
+12:13:02.672 | DEBUG    | Product Men Tshirt added, quantity 1
+
+12:13:05.073 | DEBUG    | Product Men Tshirt added, quantity 2
+
+12:13:06.790 | DEBUG    | Proceed to checkout button clicked
+
+12:13:06.803 | DEBUG    | Name is correct in the delivery information: Mr. Jenny Rios
+
+12:13:06.813 | DEBUG    | Company name is correct in the delivery information: Fry, Lang and Jordan
+
+12:13:06.821 | DEBUG    | Address 1 is correct in the delivery information: 81439 Rios Extension Apt. 275
+
+12:13:06.831 | DEBUG    | Address 2 is correct in the delivery information: Apt. 055
+
+12:13:06.839 | DEBUG    | City is correct in the delivery information: Abbotttown Mississippi 07533
+
+12:13:06.848 | DEBUG    | Country is correct in the delivery information: Canada
+
+12:13:06.857 | DEBUG    | Phone is correct in the delivery information: 227-527-7013
+
+12:13:06.866 | DEBUG    | Name is correct in the billing information: Mr. Jenny Rios
+
+12:13:06.874 | DEBUG    | Company name is correct in the billing information: Fry, Lang and Jordan
+
+12:13:06.883 | DEBUG    | Address 1 is correct in the billing information: 81439 Rios Extension Apt. 275
+
+12:13:06.891 | DEBUG    | Address 2 is correct in the billing information: Apt. 055
+
+12:13:06.903 | DEBUG    | City is correct in the billing information: Abbotttown Mississippi 07533
+
+12:13:06.912 | DEBUG    | Country is correct in the billing information: Canada
+
+12:13:06.921 | DEBUG    | Phone is correct in the billing information: 227-527-7013
+
+12:13:06.928 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+12:13:06.940 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:13:06.946 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+12:13:06.953 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+12:13:06.953 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+12:13:06.967 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+12:13:06.975 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+12:13:06.989 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+12:13:06.998 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+12:13:07.036 | DEBUG    | Comment filled in with: Hard continue week war. Such subject occur prove.
+
+12:13:07.221 | DEBUG    | Place order button clicked
+
+12:13:07.262 | DEBUG    | Name on card filled in with: ****
+
+12:13:07.289 | DEBUG    | Card number filled in with: ****1392
+
+12:13:08.800 | DEBUG    | Pay and confirm button clicked
+
+12:13:08.821 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+12:13:09.030 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+12:13:09.030 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+12:13:09.030 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+12:13:10.283 | DEBUG    | Continue button clicked
