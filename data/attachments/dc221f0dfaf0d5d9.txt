@@ -1,0 +1,27 @@
+11:29:26.321 | DEBUG    | Product Blue Top added, quantity 1
+
+11:29:27.145 | DEBUG    | Product Blue Top added, quantity 2
+
+11:29:27.973 | DEBUG    | Product Men Tshirt added, quantity 1
+
+11:29:29.035 | DEBUG    | Product Men Tshirt added, quantity 2
+
+11:29:29.407 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+11:29:29.407 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+11:29:29.418 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:29:29.423 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:29:29.436 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:29:29.444 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:29:29.456 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:29:29.464 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:29:34.059 | DEBUG    | All products deleted
+
+11:29:34.064 | DEBUG    | Empty cart text correct: Cart is empty!

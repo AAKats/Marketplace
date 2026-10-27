@@ -1,0 +1,43 @@
+11:31:39.833 | DEBUG    | New user details:
+
+11:31:39.833 | DEBUG    |   name: Stephen
+
+11:31:39.833 | DEBUG    |   email: 1b4d2bf7_lozanokevin@example.org
+
+11:31:39.833 | DEBUG    |   title: Mr
+
+11:31:39.833 | DEBUG    |   birth_day: 1
+
+11:31:39.833 | DEBUG    |   birth_month: 7
+
+11:31:39.833 | DEBUG    |   birth_year: 1986
+
+11:31:39.833 | DEBUG    |   firstname: Stephen
+
+11:31:39.833 | DEBUG    |   lastname: Petersen
+
+11:31:39.833 | DEBUG    |   company: Schwartz-Hicks
+
+11:31:39.833 | DEBUG    |   address1: 403 Amanda Trace Suite 406
+
+11:31:39.833 | DEBUG    |   address2: Suite 566
+
+11:31:39.833 | DEBUG    |   country: Singapore
+
+11:31:39.833 | DEBUG    |   state: New Mexico
+
+11:31:39.833 | DEBUG    |   city: Kyleborough
+
+11:31:39.833 | DEBUG    |   zipcode: 45337
+
+11:31:40.070 | DEBUG    | Status code correct: 200
+
+11:31:40.070 | DEBUG    | ResponseCode correct: 201
+
+11:31:40.070 | DEBUG    | Response message correct: "User created!"
+
+11:31:40.187 | DEBUG    | Status code correct: 200
+
+11:31:40.187 | DEBUG    | ResponseCode correct: 200
+
+11:31:40.187 | DEBUG    | Response message correct: "Account deleted!"

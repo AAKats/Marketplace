@@ -1,0 +1,17 @@
+11:30:24.934 | DEBUG    | Login title is presented
+
+11:30:24.942 | DEBUG    | Login title text is correct
+
+11:30:24.946 | DEBUG    | Login email field is presented
+
+11:30:24.949 | DEBUG    | Password field is presented
+
+11:30:24.976 | DEBUG    | Email filled in
+
+11:30:24.997 | DEBUG    | Password filled in
+
+11:30:25.001 | DEBUG    | Login button is presented
+
+11:30:25.028 | DEBUG    | Login button is clicked
+
+11:30:26.691 | DEBUG    | Username is correct Logged in as Christopher

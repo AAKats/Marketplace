@@ -1,0 +1,163 @@
+11:29:48.295 | DEBUG    | New user Signup title is presented
+
+11:29:48.303 | DEBUG    | New user Signup title text is correct
+
+11:29:48.306 | DEBUG    | Signup email field is presented
+
+11:29:48.310 | DEBUG    | Signup name field is presented
+
+11:29:48.339 | DEBUG    | Email signup field filled
+
+11:29:48.362 | DEBUG    | Name signup field filled
+
+11:29:48.387 | DEBUG    | Signup button is clicked
+
+11:29:48.550 | DEBUG    | Account information title is presented
+
+11:29:48.556 | DEBUG    | Account information title text is correct
+
+11:29:48.577 | DEBUG    | Mr radiobutton is presented
+
+11:29:48.580 | DEBUG    | Mrs radiobutton is presented
+
+11:29:48.603 | DEBUG    | Selected MRS title
+
+11:29:48.607 | DEBUG    | Password field is presented
+
+11:29:48.633 | DEBUG    | Password is filled in
+
+11:29:48.637 | DEBUG    | Day of birth list is presented
+
+11:29:48.665 | DEBUG    | Day of birth selected
+
+11:29:48.668 | DEBUG    | Month of birth list is presented
+
+11:29:48.691 | DEBUG    | Month of birth selected
+
+11:29:48.696 | DEBUG    | Year of birth list is presented
+
+11:29:48.718 | DEBUG    | Year of birth selected
+
+11:29:48.743 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+11:29:48.743 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+11:29:48.748 | DEBUG    | First name field is presented
+
+11:29:48.768 | DEBUG    | First name is filled in
+
+11:29:48.772 | DEBUG    | Last name field is presented
+
+11:29:48.793 | DEBUG    | Last name is filled in
+
+11:29:48.798 | DEBUG    | Company field is presented
+
+11:29:48.818 | DEBUG    | Company is filled in
+
+11:29:48.822 | DEBUG    | Address 1 field is presented
+
+11:29:48.847 | DEBUG    | Address 1 is filled in
+
+11:29:48.851 | DEBUG    | Address 2 field is presented
+
+11:29:48.871 | DEBUG    | Address 2 is filled in
+
+11:29:48.900 | DEBUG    | State field is presented
+
+11:29:48.919 | DEBUG    | State is filled in
+
+11:29:48.923 | DEBUG    | City field is presented
+
+11:29:48.945 | DEBUG    | City is filled in
+
+11:29:48.949 | DEBUG    | Zipcode field is presented
+
+11:29:48.967 | DEBUG    | Zipcode is filled in
+
+11:29:48.971 | DEBUG    | Mobile number field is presented
+
+11:29:48.996 | DEBUG    | Mobile number is filled in
+
+11:29:49.742 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+11:29:49.755 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+11:29:49.755 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+11:29:49.758 | DEBUG    | Continue button is presented
+
+11:29:50.700 | DEBUG    | Username is correct Logged in as Corey
+
+11:29:51.553 | DEBUG    | Product Blue Top added, quantity 1
+
+11:29:52.376 | DEBUG    | Product Blue Top added, quantity 2
+
+11:29:53.208 | DEBUG    | Product Men Tshirt added, quantity 1
+
+11:29:54.041 | DEBUG    | Product Men Tshirt added, quantity 2
+
+11:29:54.872 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+11:29:55.929 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+11:29:56.317 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+11:29:56.317 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+11:29:56.317 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+11:29:56.329 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:29:56.334 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:29:56.339 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+11:29:56.352 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:29:56.361 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:29:56.368 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+11:29:56.382 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:29:56.389 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:29:56.397 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+11:29:56.665 | DEBUG    | Proceed to checkout button clicked
+
+11:29:56.674 | DEBUG    | Name is correct in the delivery information: Mrs. Corey Lewis
+
+11:29:56.683 | DEBUG    | Company name is correct in the delivery information: Robinson LLC
+
+11:29:56.691 | DEBUG    | Address 1 is correct in the delivery information: 2554 Stark Gateway
+
+11:29:56.700 | DEBUG    | Address 2 is correct in the delivery information: Suite 215
+
+11:29:56.707 | DEBUG    | City is correct in the delivery information: Baxtermouth Maine 57489
+
+11:29:56.715 | DEBUG    | Country is correct in the delivery information: Canada
+
+11:29:56.723 | DEBUG    | Phone is correct in the delivery information: 001-464-240-2606x23056
+
+11:29:56.731 | DEBUG    | Name is correct in the billing information: Mrs. Corey Lewis
+
+11:29:56.738 | DEBUG    | Company name is correct in the billing information: Robinson LLC
+
+11:29:56.746 | DEBUG    | Address 1 is correct in the billing information: 2554 Stark Gateway
+
+11:29:56.754 | DEBUG    | Address 2 is correct in the billing information: Suite 215
+
+11:29:56.762 | DEBUG    | City is correct in the billing information: Baxtermouth Maine 57489
+
+11:29:56.771 | DEBUG    | Country is correct in the billing information: Canada
+
+11:29:56.779 | DEBUG    | Phone is correct in the billing information: 001-464-240-2606x23056
+
+11:29:56.985 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+11:29:56.985 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+11:29:56.985 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+11:29:57.619 | DEBUG    | Continue button clicked

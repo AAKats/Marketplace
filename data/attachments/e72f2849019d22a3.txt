@@ -1,0 +1,165 @@
+11:31:25.451 | DEBUG    | New user Signup title is presented
+
+11:31:25.458 | DEBUG    | New user Signup title text is correct
+
+11:31:25.462 | DEBUG    | Signup email field is presented
+
+11:31:25.466 | DEBUG    | Signup name field is presented
+
+11:31:25.496 | DEBUG    | Email signup field filled
+
+11:31:25.516 | DEBUG    | Name signup field filled
+
+11:31:25.542 | DEBUG    | Signup button is clicked
+
+11:31:26.066 | DEBUG    | Account information title is presented
+
+11:31:26.071 | DEBUG    | Account information title text is correct
+
+11:31:26.087 | DEBUG    | Mr radiobutton is presented
+
+11:31:26.090 | DEBUG    | Mrs radiobutton is presented
+
+11:31:26.114 | DEBUG    | Selected MRS title
+
+11:31:26.118 | DEBUG    | Password field is presented
+
+11:31:26.141 | DEBUG    | Password is filled in
+
+11:31:26.145 | DEBUG    | Day of birth list is presented
+
+11:31:26.171 | DEBUG    | Day of birth selected
+
+11:31:26.175 | DEBUG    | Month of birth list is presented
+
+11:31:26.197 | DEBUG    | Month of birth selected
+
+11:31:26.201 | DEBUG    | Year of birth list is presented
+
+11:31:26.223 | DEBUG    | Year of birth selected
+
+11:31:26.223 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+11:31:26.247 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+11:31:26.251 | DEBUG    | First name field is presented
+
+11:31:26.270 | DEBUG    | First name is filled in
+
+11:31:26.275 | DEBUG    | Last name field is presented
+
+11:31:26.295 | DEBUG    | Last name is filled in
+
+11:31:26.299 | DEBUG    | Company field is presented
+
+11:31:26.322 | DEBUG    | Company is filled in
+
+11:31:26.327 | DEBUG    | Address 1 field is presented
+
+11:31:26.351 | DEBUG    | Address 1 is filled in
+
+11:31:26.355 | DEBUG    | Address 2 field is presented
+
+11:31:26.377 | DEBUG    | Address 2 is filled in
+
+11:31:26.405 | DEBUG    | State field is presented
+
+11:31:26.427 | DEBUG    | State is filled in
+
+11:31:26.431 | DEBUG    | City field is presented
+
+11:31:26.452 | DEBUG    | City is filled in
+
+11:31:26.457 | DEBUG    | Zipcode field is presented
+
+11:31:26.476 | DEBUG    | Zipcode is filled in
+
+11:31:26.480 | DEBUG    | Mobile number field is presented
+
+11:31:26.503 | DEBUG    | Mobile number is filled in
+
+11:31:28.723 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+11:31:28.736 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+11:31:28.736 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+11:31:28.740 | DEBUG    | Continue button is presented
+
+11:31:29.307 | DEBUG    | Username is correct Logged in as April
+
+11:31:30.649 | DEBUG    | Product Blue Top added, quantity 1
+
+11:31:31.471 | DEBUG    | Product Blue Top added, quantity 2
+
+11:31:32.304 | DEBUG    | Product Men Tshirt added, quantity 1
+
+11:31:33.381 | DEBUG    | Product Men Tshirt added, quantity 2
+
+11:31:34.043 | DEBUG    | Proceed to checkout button clicked
+
+11:31:34.054 | DEBUG    | Name is correct in the delivery information: Mrs. April Hernandez
+
+11:31:34.063 | DEBUG    | Company name is correct in the delivery information: Andrade-Williams
+
+11:31:34.071 | DEBUG    | Address 1 is correct in the delivery information: 1095 Cole Manor Suite 031
+
+11:31:34.078 | DEBUG    | Address 2 is correct in the delivery information: Suite 627
+
+11:31:34.086 | DEBUG    | City is correct in the delivery information: Jonesmouth Pennsylvania 73719
+
+11:31:34.094 | DEBUG    | Country is correct in the delivery information: Singapore
+
+11:31:34.101 | DEBUG    | Phone is correct in the delivery information: +1-332-458-4228x74310
+
+11:31:34.110 | DEBUG    | Name is correct in the billing information: Mrs. April Hernandez
+
+11:31:34.117 | DEBUG    | Company name is correct in the billing information: Andrade-Williams
+
+11:31:34.125 | DEBUG    | Address 1 is correct in the billing information: 1095 Cole Manor Suite 031
+
+11:31:34.133 | DEBUG    | Address 2 is correct in the billing information: Suite 627
+
+11:31:34.142 | DEBUG    | City is correct in the billing information: Jonesmouth Pennsylvania 73719
+
+11:31:34.149 | DEBUG    | Country is correct in the billing information: Singapore
+
+11:31:34.157 | DEBUG    | Phone is correct in the billing information: +1-332-458-4228x74310
+
+11:31:34.164 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+11:31:34.175 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:31:34.180 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:31:34.187 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+11:31:34.187 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+11:31:34.200 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:31:34.207 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:31:34.220 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:31:34.228 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:31:34.273 | DEBUG    | Comment filled in with: Stuff least under much book. Popular price whatever here card present. Civil mother window.
+
+11:31:34.444 | DEBUG    | Place order button clicked
+
+11:31:34.475 | DEBUG    | Name on card filled in with: ****
+
+11:31:34.500 | DEBUG    | Card number filled in with: ****7863
+
+11:31:34.600 | DEBUG    | Pay and confirm button clicked
+
+11:31:36.145 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+11:31:36.468 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+11:31:36.469 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+11:31:36.469 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+11:31:38.602 | DEBUG    | Continue button clicked

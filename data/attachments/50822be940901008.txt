@@ -1,0 +1,11 @@
+11:30:56.348 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+11:30:56.381 | DEBUG    | Review name field filled in with "Ethan Melton"
+
+11:30:56.414 | DEBUG    | Review email field filled in with "23e8304f_brownjudith@example.org"
+
+11:30:56.454 | DEBUG    | Review message field filled in with "Quickly end when field ok look. Child charge test behind push bank."
+
+11:30:56.486 | DEBUG    | Submit review button clicked
+
+11:30:56.501 | DEBUG    | Success review message is displayed
