@@ -1,0 +1,39 @@
+12:03:09.655 | DEBUG    | Main title is presented
+
+12:03:09.679 | DEBUG    | Main title is correct: CONTACT US
+
+12:03:09.685 | DEBUG    | Second title is presented
+
+12:03:09.703 | DEBUG    | Second title is correct: GET IN TOUCH
+
+12:03:09.711 | DEBUG    | Name field is presented
+
+12:03:09.753 | DEBUG    | Name field filled in with: Amanda
+
+12:03:09.761 | DEBUG    | Email field is presented
+
+12:03:09.809 | DEBUG    | Email field filled in with: f71731e5_john67@example.com
+
+12:03:09.818 | DEBUG    | Subject field is presented
+
+12:03:09.856 | DEBUG    | Subject field filled in with: Learn.
+
+12:03:09.866 | DEBUG    | Message field is presented
+
+12:03:09.946 | DEBUG    | Message field filled in with: Speech eye stand paper of recently. Strong mother field work drop yard.
+
+12:03:09.954 | DEBUG    | Upload field is presented
+
+12:03:09.978 | DEBUG    | File uploaded
+
+12:03:09.984 | DEBUG    | Submit button is presented
+
+12:03:10.061 | DEBUG    | Alert is presented
+
+12:03:10.100 | DEBUG    | Success message is presented
+
+12:03:10.100 | DEBUG    | Success message is correct
+
+12:03:10.106 | DEBUG    | Home button is presented
+
+12:03:12.468 | DEBUG    | Home button is clicked

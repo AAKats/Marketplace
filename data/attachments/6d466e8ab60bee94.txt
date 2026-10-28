@@ -1,0 +1,67 @@
+12:03:48.258 | DEBUG    | Email filled in
+
+12:03:48.302 | DEBUG    | Password filled in
+
+12:03:48.310 | DEBUG    | Login button is presented
+
+12:03:48.354 | DEBUG    | Login button is clicked
+
+12:03:51.796 | DEBUG    | Username is correct Logged in as Kelly
+
+12:03:53.259 | DEBUG    | Product Blue Top added, quantity 1
+
+12:03:54.665 | DEBUG    | Product Blue Top added, quantity 2
+
+12:03:57.262 | DEBUG    | Product Blue Top added, quantity 3
+
+12:03:59.768 | DEBUG    | Proceed to checkout button clicked
+
+12:03:59.786 | DEBUG    | Name is correct in the delivery information: Mrs. Kelly Thompson
+
+12:03:59.802 | DEBUG    | Company name is correct in the delivery information: Brennan, Walker and Powell
+
+12:03:59.817 | DEBUG    | Address 1 is correct in the delivery information: 0460 Bobby Island Apt. 790
+
+12:03:59.833 | DEBUG    | Address 2 is correct in the delivery information: Suite 625
+
+12:03:59.850 | DEBUG    | City is correct in the delivery information: Jenniferview Alabama 16461
+
+12:03:59.866 | DEBUG    | Country is correct in the delivery information: New Zealand
+
+12:03:59.882 | DEBUG    | Phone is correct in the delivery information: 2762539925
+
+12:03:59.897 | DEBUG    | Name is correct in the billing information: Mrs. Kelly Thompson
+
+12:03:59.913 | DEBUG    | Company name is correct in the billing information: Brennan, Walker and Powell
+
+12:03:59.929 | DEBUG    | Address 1 is correct in the billing information: 0460 Bobby Island Apt. 790
+
+12:03:59.945 | DEBUG    | Address 2 is correct in the billing information: Suite 625
+
+12:03:59.961 | DEBUG    | City is correct in the billing information: Jenniferview Alabama 16461
+
+12:03:59.977 | DEBUG    | Country is correct in the billing information: New Zealand
+
+12:03:59.996 | DEBUG    | Phone is correct in the billing information: 2762539925
+
+12:04:00.009 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+12:04:00.033 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:04:00.043 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+12:04:00.069 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+12:04:00.097 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+12:04:00.173 | DEBUG    | Comment filled in with: Imagine especially number floor far politics space network.
+
+12:04:00.802 | DEBUG    | Place order button clicked
+
+12:04:00.861 | DEBUG    | Name on card filled in with: ****
+
+12:04:00.911 | DEBUG    | Card number filled in with: ****5481
+
+12:04:03.597 | DEBUG    | Pay and confirm button clicked
+
+12:04:03.638 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

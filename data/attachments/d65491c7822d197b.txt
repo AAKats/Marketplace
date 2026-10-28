@@ -1,0 +1,75 @@
+12:05:38.567 | DEBUG    | New user details:
+
+12:05:38.567 | DEBUG    |   name: James
+
+12:05:38.567 | DEBUG    |   email: c5fcfacd_kathy22@example.net
+
+12:05:38.567 | DEBUG    |   title: Mr
+
+12:05:38.567 | DEBUG    |   birth_day: 5
+
+12:05:38.567 | DEBUG    |   birth_month: 3
+
+12:05:38.567 | DEBUG    |   birth_year: 1920
+
+12:05:38.567 | DEBUG    |   firstname: James
+
+12:05:38.567 | DEBUG    |   lastname: Murphy
+
+12:05:38.567 | DEBUG    |   company: Dawson Group
+
+12:05:38.567 | DEBUG    |   address1: 548 Sanchez Crest
+
+12:05:38.567 | DEBUG    |   address2: Apt. 180
+
+12:05:38.567 | DEBUG    |   country: Australia
+
+12:05:38.567 | DEBUG    |   state: Connecticut
+
+12:05:38.567 | DEBUG    |   city: Theresashire
+
+12:05:38.567 | DEBUG    |   zipcode: 64574
+
+12:05:38.972 | DEBUG    | Status code correct: 200
+
+12:05:38.972 | DEBUG    | ResponseCode correct: 201
+
+12:05:38.972 | DEBUG    | Response message correct: "User created!"
+
+12:05:38.972 | DEBUG    | Updated user details:
+
+12:05:38.973 | DEBUG    |   name: James
+
+12:05:38.973 | DEBUG    |   email: c5fcfacd_kathy22@example.net
+
+12:05:38.973 | DEBUG    |   title: Mr
+
+12:05:38.973 | DEBUG    |   birth_day: 5
+
+12:05:38.973 | DEBUG    |   birth_month: 3
+
+12:05:38.973 | DEBUG    |   birth_year: 1920
+
+12:05:38.973 | DEBUG    |   firstname: James
+
+12:05:38.973 | DEBUG    |   lastname: Murphy
+
+12:05:38.973 | DEBUG    |   company: Dawson Group
+
+12:05:38.973 | DEBUG    |   address1: 548 Sanchez Crest
+
+12:05:38.973 | DEBUG    |   address2: Apt. 180
+
+12:05:38.973 | DEBUG    |   country: Australia
+
+12:05:38.973 | DEBUG    |   state: Connecticut
+
+12:05:38.973 | DEBUG    |   city: Theresashire
+
+12:05:38.974 | DEBUG    |   zipcode: 64574
+
+12:05:39.651 | DEBUG    | Status code correct: 200
+
+12:05:39.652 | DEBUG    | ResponseCode correct: 200
+
+12:05:39.652 | DEBUG    | Response message correct: "User updated!"

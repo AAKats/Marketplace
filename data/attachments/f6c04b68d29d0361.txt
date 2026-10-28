@@ -1,0 +1,169 @@
+12:01:19.445 | DEBUG    | Product Blue Top added, quantity 1
+
+12:01:20.831 | DEBUG    | Product Blue Top added, quantity 2
+
+12:01:22.232 | DEBUG    | Product Men Tshirt added, quantity 1
+
+12:01:24.082 | DEBUG    | Product Men Tshirt added, quantity 2
+
+12:01:25.139 | DEBUG    | Proceed to checkout button clicked
+
+12:01:25.413 | DEBUG    | Register via modal button clicked
+
+12:01:25.424 | DEBUG    | New user Signup title is presented
+
+12:01:25.434 | DEBUG    | New user Signup title text is correct
+
+12:01:25.440 | DEBUG    | Signup email field is presented
+
+12:01:25.447 | DEBUG    | Signup name field is presented
+
+12:01:25.517 | DEBUG    | Email signup field filled
+
+12:01:25.566 | DEBUG    | Name signup field filled
+
+12:01:26.027 | DEBUG    | Signup button is clicked
+
+12:01:26.046 | DEBUG    | Account information title is presented
+
+12:01:26.061 | DEBUG    | Account information title text is correct
+
+12:01:26.101 | DEBUG    | Mr radiobutton is presented
+
+12:01:26.110 | DEBUG    | Mrs radiobutton is presented
+
+12:01:26.189 | DEBUG    | Selected MRS title
+
+12:01:26.196 | DEBUG    | Password field is presented
+
+12:01:26.266 | DEBUG    | Password is filled in
+
+12:01:26.279 | DEBUG    | Day of birth list is presented
+
+12:01:26.357 | DEBUG    | Day of birth selected
+
+12:01:26.370 | DEBUG    | Month of birth list is presented
+
+12:01:26.416 | DEBUG    | Month of birth selected
+
+12:01:26.425 | DEBUG    | Year of birth list is presented
+
+12:01:26.473 | DEBUG    | Year of birth selected
+
+12:01:26.473 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+12:01:26.523 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+12:01:26.531 | DEBUG    | First name field is presented
+
+12:01:26.571 | DEBUG    | First name is filled in
+
+12:01:26.579 | DEBUG    | Last name field is presented
+
+12:01:26.621 | DEBUG    | Last name is filled in
+
+12:01:26.629 | DEBUG    | Company field is presented
+
+12:01:26.673 | DEBUG    | Company is filled in
+
+12:01:26.680 | DEBUG    | Address 1 field is presented
+
+12:01:26.725 | DEBUG    | Address 1 is filled in
+
+12:01:26.732 | DEBUG    | Address 2 field is presented
+
+12:01:26.770 | DEBUG    | Address 2 is filled in
+
+12:01:26.819 | DEBUG    | State field is presented
+
+12:01:26.858 | DEBUG    | State is filled in
+
+12:01:26.865 | DEBUG    | City field is presented
+
+12:01:26.907 | DEBUG    | City is filled in
+
+12:01:26.914 | DEBUG    | Zipcode field is presented
+
+12:01:26.950 | DEBUG    | Zipcode is filled in
+
+12:01:26.957 | DEBUG    | Mobile number field is presented
+
+12:01:26.996 | DEBUG    | Mobile number is filled in
+
+12:01:28.631 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+12:01:28.653 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+12:01:28.653 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+12:01:28.659 | DEBUG    | Continue button is presented
+
+12:01:30.484 | DEBUG    | Username is correct Logged in as Peter
+
+12:01:32.405 | DEBUG    | Proceed to checkout button clicked
+
+12:01:32.423 | DEBUG    | Name is correct in the delivery information: Mrs. Peter Cox
+
+12:01:32.437 | DEBUG    | Company name is correct in the delivery information: Mueller PLC
+
+12:01:32.452 | DEBUG    | Address 1 is correct in the delivery information: 764 Mckenzie Bridge
+
+12:01:32.466 | DEBUG    | Address 2 is correct in the delivery information: Suite 659
+
+12:01:32.481 | DEBUG    | City is correct in the delivery information: Port Debrabury Oklahoma 39839
+
+12:01:32.496 | DEBUG    | Country is correct in the delivery information: Singapore
+
+12:01:32.511 | DEBUG    | Phone is correct in the delivery information: 842.829.6093
+
+12:01:32.526 | DEBUG    | Name is correct in the billing information: Mrs. Peter Cox
+
+12:01:32.541 | DEBUG    | Company name is correct in the billing information: Mueller PLC
+
+12:01:32.555 | DEBUG    | Address 1 is correct in the billing information: 764 Mckenzie Bridge
+
+12:01:32.570 | DEBUG    | Address 2 is correct in the billing information: Suite 659
+
+12:01:32.584 | DEBUG    | City is correct in the billing information: Port Debrabury Oklahoma 39839
+
+12:01:32.598 | DEBUG    | Country is correct in the billing information: Singapore
+
+12:01:32.613 | DEBUG    | Phone is correct in the billing information: 842.829.6093
+
+12:01:32.625 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+12:01:32.646 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:01:32.656 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+12:01:32.670 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+12:01:32.670 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+12:01:32.694 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+12:01:32.708 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+12:01:32.731 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+12:01:32.745 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+12:01:32.831 | DEBUG    | Comment filled in with: Bring good be statement relationship. Commercial herself program agreement at picture water.
+
+12:01:33.015 | DEBUG    | Place order button clicked
+
+12:01:33.072 | DEBUG    | Name on card filled in with: ****
+
+12:01:33.158 | DEBUG    | Card number filled in with: ****5151
+
+12:01:35.436 | DEBUG    | Pay and confirm button clicked
+
+12:01:35.468 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+12:01:36.034 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+12:01:36.035 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+12:01:36.035 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+12:01:37.380 | DEBUG    | Continue button clicked
