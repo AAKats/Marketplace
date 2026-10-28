@@ -1,0 +1,75 @@
+16:36:59.790 | DEBUG    | New user details:
+
+16:36:59.790 | DEBUG    |   name: Larry
+
+16:36:59.790 | DEBUG    |   email: 565771e5_thomas57@example.com
+
+16:36:59.790 | DEBUG    |   title: Mrs
+
+16:36:59.790 | DEBUG    |   birth_day: 13
+
+16:36:59.790 | DEBUG    |   birth_month: 3
+
+16:36:59.790 | DEBUG    |   birth_year: 1963
+
+16:36:59.791 | DEBUG    |   firstname: Larry
+
+16:36:59.791 | DEBUG    |   lastname: Tyler
+
+16:36:59.791 | DEBUG    |   company: Morales-Patrick
+
+16:36:59.791 | DEBUG    |   address1: 70913 Ronald Crest Suite 601
+
+16:36:59.791 | DEBUG    |   address2: Apt. 844
+
+16:36:59.791 | DEBUG    |   country: India
+
+16:36:59.791 | DEBUG    |   state: Wisconsin
+
+16:36:59.791 | DEBUG    |   city: Hudsonland
+
+16:36:59.791 | DEBUG    |   zipcode: 57884
+
+16:36:59.974 | DEBUG    | Status code correct: 200
+
+16:36:59.975 | DEBUG    | ResponseCode correct: 201
+
+16:36:59.975 | DEBUG    | Response message correct: "User created!"
+
+16:36:59.975 | DEBUG    | Updated user details:
+
+16:36:59.975 | DEBUG    |   name: Larry
+
+16:36:59.975 | DEBUG    |   email: 565771e5_thomas57@example.com
+
+16:36:59.975 | DEBUG    |   title: Mrs
+
+16:36:59.975 | DEBUG    |   birth_day: 13
+
+16:36:59.975 | DEBUG    |   birth_month: 3
+
+16:36:59.975 | DEBUG    |   birth_year: 1963
+
+16:36:59.975 | DEBUG    |   firstname: Larry
+
+16:36:59.975 | DEBUG    |   lastname: Tyler
+
+16:36:59.975 | DEBUG    |   company: Morales-Patrick
+
+16:36:59.975 | DEBUG    |   address1: 70913 Ronald Crest Suite 601
+
+16:36:59.975 | DEBUG    |   address2: Apt. 844
+
+16:36:59.975 | DEBUG    |   country: India
+
+16:36:59.975 | DEBUG    |   state: Wisconsin
+
+16:36:59.975 | DEBUG    |   city: Hudsonland
+
+16:36:59.976 | DEBUG    |   zipcode: 57884
+
+16:37:00.583 | DEBUG    | Status code correct: 200
+
+16:37:00.583 | DEBUG    | ResponseCode correct: 200
+
+16:37:00.583 | DEBUG    | Response message correct: "User updated!"

@@ -1,0 +1,165 @@
+16:36:43.192 | DEBUG    | New user Signup title is presented
+
+16:36:43.200 | DEBUG    | New user Signup title text is correct
+
+16:36:43.203 | DEBUG    | Signup email field is presented
+
+16:36:43.207 | DEBUG    | Signup name field is presented
+
+16:36:43.239 | DEBUG    | Email signup field filled
+
+16:36:43.266 | DEBUG    | Name signup field filled
+
+16:36:43.293 | DEBUG    | Signup button is clicked
+
+16:36:44.418 | DEBUG    | Account information title is presented
+
+16:36:44.424 | DEBUG    | Account information title text is correct
+
+16:36:44.440 | DEBUG    | Mr radiobutton is presented
+
+16:36:44.444 | DEBUG    | Mrs radiobutton is presented
+
+16:36:44.470 | DEBUG    | Selected MR title
+
+16:36:44.474 | DEBUG    | Password field is presented
+
+16:36:44.498 | DEBUG    | Password is filled in
+
+16:36:44.502 | DEBUG    | Day of birth list is presented
+
+16:36:44.531 | DEBUG    | Day of birth selected
+
+16:36:44.535 | DEBUG    | Month of birth list is presented
+
+16:36:44.559 | DEBUG    | Month of birth selected
+
+16:36:44.564 | DEBUG    | Year of birth list is presented
+
+16:36:44.588 | DEBUG    | Year of birth selected
+
+16:36:44.588 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+16:36:44.616 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+16:36:44.621 | DEBUG    | First name field is presented
+
+16:36:44.646 | DEBUG    | First name is filled in
+
+16:36:44.652 | DEBUG    | Last name field is presented
+
+16:36:44.675 | DEBUG    | Last name is filled in
+
+16:36:44.681 | DEBUG    | Company field is presented
+
+16:36:44.704 | DEBUG    | Company is filled in
+
+16:36:44.708 | DEBUG    | Address 1 field is presented
+
+16:36:44.737 | DEBUG    | Address 1 is filled in
+
+16:36:44.742 | DEBUG    | Address 2 field is presented
+
+16:36:44.763 | DEBUG    | Address 2 is filled in
+
+16:36:44.794 | DEBUG    | State field is presented
+
+16:36:44.816 | DEBUG    | State is filled in
+
+16:36:44.820 | DEBUG    | City field is presented
+
+16:36:44.843 | DEBUG    | City is filled in
+
+16:36:44.848 | DEBUG    | Zipcode field is presented
+
+16:36:44.868 | DEBUG    | Zipcode is filled in
+
+16:36:44.872 | DEBUG    | Mobile number field is presented
+
+16:36:44.897 | DEBUG    | Mobile number is filled in
+
+16:36:46.597 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+16:36:46.610 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+16:36:46.610 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+16:36:46.614 | DEBUG    | Continue button is presented
+
+16:36:47.283 | DEBUG    | Username is correct Logged in as Richard
+
+16:36:49.156 | DEBUG    | Product Blue Top added, quantity 1
+
+16:36:49.976 | DEBUG    | Product Blue Top added, quantity 2
+
+16:36:50.811 | DEBUG    | Product Men Tshirt added, quantity 1
+
+16:36:51.960 | DEBUG    | Product Men Tshirt added, quantity 2
+
+16:36:52.768 | DEBUG    | Proceed to checkout button clicked
+
+16:36:52.780 | DEBUG    | Name is correct in the delivery information: Mr. Richard Russo
+
+16:36:52.791 | DEBUG    | Company name is correct in the delivery information: Williams LLC
+
+16:36:52.802 | DEBUG    | Address 1 is correct in the delivery information: 275 James Wells Suite 752
+
+16:36:52.813 | DEBUG    | Address 2 is correct in the delivery information: Apt. 002
+
+16:36:52.823 | DEBUG    | City is correct in the delivery information: West Nicholas Minnesota 17032
+
+16:36:52.831 | DEBUG    | Country is correct in the delivery information: Singapore
+
+16:36:52.840 | DEBUG    | Phone is correct in the delivery information: 001-936-339-7223
+
+16:36:52.852 | DEBUG    | Name is correct in the billing information: Mr. Richard Russo
+
+16:36:52.866 | DEBUG    | Company name is correct in the billing information: Williams LLC
+
+16:36:52.876 | DEBUG    | Address 1 is correct in the billing information: 275 James Wells Suite 752
+
+16:36:52.888 | DEBUG    | Address 2 is correct in the billing information: Apt. 002
+
+16:36:52.896 | DEBUG    | City is correct in the billing information: West Nicholas Minnesota 17032
+
+16:36:52.904 | DEBUG    | Country is correct in the billing information: Singapore
+
+16:36:52.911 | DEBUG    | Phone is correct in the billing information: 001-936-339-7223
+
+16:36:52.918 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+16:36:52.931 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+16:36:52.938 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+16:36:52.949 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+16:36:52.949 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+16:36:52.967 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+16:36:52.978 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+16:36:52.992 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+16:36:53.001 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+16:36:53.053 | DEBUG    | Comment filled in with: Leave then allow themselves current wish. Thank story mouth sure. Feel allow imagine big.
+
+16:36:53.241 | DEBUG    | Place order button clicked
+
+16:36:53.271 | DEBUG    | Name on card filled in with: ****
+
+16:36:53.299 | DEBUG    | Card number filled in with: ****2977
+
+16:36:53.412 | DEBUG    | Pay and confirm button clicked
+
+16:36:54.822 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+16:36:55.105 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+16:36:55.105 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+16:36:55.105 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+16:36:57.231 | DEBUG    | Continue button clicked

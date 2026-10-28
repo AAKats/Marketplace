@@ -1,0 +1,43 @@
+16:36:59.506 | DEBUG    | New user details:
+
+16:36:59.507 | DEBUG    |   name: Nancy
+
+16:36:59.507 | DEBUG    |   email: 7076f9b4_jose87@example.net
+
+16:36:59.507 | DEBUG    |   title: Mrs
+
+16:36:59.507 | DEBUG    |   birth_day: 3
+
+16:36:59.507 | DEBUG    |   birth_month: 5
+
+16:36:59.507 | DEBUG    |   birth_year: 1939
+
+16:36:59.507 | DEBUG    |   firstname: Nancy
+
+16:36:59.507 | DEBUG    |   lastname: Davis
+
+16:36:59.507 | DEBUG    |   company: Stephenson-Hatfield
+
+16:36:59.507 | DEBUG    |   address1: 724 Bell Inlet
+
+16:36:59.507 | DEBUG    |   address2: Suite 056
+
+16:36:59.507 | DEBUG    |   country: New Zealand
+
+16:36:59.507 | DEBUG    |   state: Delaware
+
+16:36:59.507 | DEBUG    |   city: Weaverfurt
+
+16:36:59.507 | DEBUG    |   zipcode: 72610
+
+16:36:59.666 | DEBUG    | Status code correct: 200
+
+16:36:59.666 | DEBUG    | ResponseCode correct: 201
+
+16:36:59.666 | DEBUG    | Response message correct: "User created!"
+
+16:36:59.786 | DEBUG    | Status code correct: 200
+
+16:36:59.786 | DEBUG    | ResponseCode correct: 200
+
+16:36:59.786 | DEBUG    | Response message correct: "Account deleted!"

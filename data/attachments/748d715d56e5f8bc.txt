@@ -1,0 +1,39 @@
+16:34:54.580 | DEBUG    | Main title is presented
+
+16:34:54.593 | DEBUG    | Main title is correct: CONTACT US
+
+16:34:54.597 | DEBUG    | Second title is presented
+
+16:34:54.607 | DEBUG    | Second title is correct: GET IN TOUCH
+
+16:34:54.612 | DEBUG    | Name field is presented
+
+16:34:54.635 | DEBUG    | Name field filled in with: Patrick
+
+16:34:54.640 | DEBUG    | Email field is presented
+
+16:34:54.666 | DEBUG    | Email field filled in with: d9ffccec_jacksontrevor@example.net
+
+16:34:54.672 | DEBUG    | Subject field is presented
+
+16:34:54.692 | DEBUG    | Subject field filled in with: Seem very.
+
+16:34:54.697 | DEBUG    | Message field is presented
+
+16:34:54.750 | DEBUG    | Message field filled in with: Establish air type dream require. Agree woman majority fund change. Part degree collection.
+
+16:34:54.755 | DEBUG    | Upload field is presented
+
+16:34:54.763 | DEBUG    | File uploaded
+
+16:34:54.767 | DEBUG    | Submit button is presented
+
+16:34:54.822 | DEBUG    | Alert is presented
+
+16:34:54.871 | DEBUG    | Success message is presented
+
+16:34:54.871 | DEBUG    | Success message is correct
+
+16:34:54.874 | DEBUG    | Home button is presented
+
+16:34:56.184 | DEBUG    | Home button is clicked

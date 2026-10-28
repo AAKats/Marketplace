@@ -1,0 +1,49 @@
+16:33:48.145 | DEBUG    | Search field is presented
+
+16:33:48.176 | DEBUG    | Search field is filled in with: "Cotton Silk Hand Block Print Saree"
+
+16:33:48.180 | DEBUG    | Search button is presented
+
+16:33:49.372 | DEBUG    | Search button is clicked
+
+16:33:49.383 | DEBUG    | Title is presented
+
+16:33:49.383 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+16:33:49.386 | DEBUG    | 1 products found
+
+16:33:49.389 | DEBUG    | "Cotton Silk Hand Block Print Saree" product found, and contains "Cotton Silk Hand Block Print Saree"
+
+16:33:51.279 | DEBUG    | Product Cotton Silk Hand Block Print Saree added, quantity 1
+
+16:33:51.989 | DEBUG    | Product: Cotton Silk Hand Block Print Saree found in cart: Cotton Silk Hand Block Print Saree
+
+16:33:52.001 | DEBUG    | Product Cotton Silk Hand Block Print Saree price in cart: 3000 matches added price: 3000
+
+16:33:52.015 | DEBUG    | Product Cotton Silk Hand Block Print Saree quantity in cart: 1 matches added quantity: 1
+
+16:33:52.028 | DEBUG    | Product Cotton Silk Hand Block Print Saree total in cart: 3000 matches expected total: 3000
+
+16:33:52.389 | DEBUG    | Login email field is presented
+
+16:33:52.392 | DEBUG    | Password field is presented
+
+16:33:52.417 | DEBUG    | Email filled in
+
+16:33:52.439 | DEBUG    | Password filled in
+
+16:33:52.443 | DEBUG    | Login button is presented
+
+16:33:52.466 | DEBUG    | Login button is clicked
+
+16:33:55.901 | DEBUG    | Product: Cotton Silk Hand Block Print Saree found in cart: Cotton Silk Hand Block Print Saree
+
+16:33:55.911 | DEBUG    | Product Cotton Silk Hand Block Print Saree price in cart: 3000 matches added price: 3000
+
+16:33:55.923 | DEBUG    | Product Cotton Silk Hand Block Print Saree quantity in cart: 1 matches added quantity: 1
+
+16:33:55.935 | DEBUG    | Product Cotton Silk Hand Block Print Saree total in cart: 3000 matches expected total: 3000
+
+16:34:00.509 | DEBUG    | All products deleted
+
+16:34:00.514 | DEBUG    | Empty cart text correct: Cart is empty!

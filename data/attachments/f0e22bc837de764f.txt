@@ -1,0 +1,9 @@
+16:36:12.555 | DEBUG    | (6)
+polo brand selected
+
+16:36:12.569 | DEBUG    | Category title is correct: "BRAND - POLO PRODUCTS"
+
+16:36:12.963 | DEBUG    | (5)
+h&m brand selected
+
+16:36:12.979 | DEBUG    | Category title is correct: "BRAND - H&M PRODUCTS"
