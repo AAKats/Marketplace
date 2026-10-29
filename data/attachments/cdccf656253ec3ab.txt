@@ -1,0 +1,39 @@
+12:12:55.390 | DEBUG    | Main title is presented
+
+12:12:55.417 | DEBUG    | Main title is correct: CONTACT US
+
+12:12:55.424 | DEBUG    | Second title is presented
+
+12:12:55.443 | DEBUG    | Second title is correct: GET IN TOUCH
+
+12:12:55.450 | DEBUG    | Name field is presented
+
+12:12:55.491 | DEBUG    | Name field filled in with: Kenneth
+
+12:12:55.499 | DEBUG    | Email field is presented
+
+12:12:55.545 | DEBUG    | Email field filled in with: 5eb2bac0_ycollins@example.org
+
+12:12:55.552 | DEBUG    | Subject field is presented
+
+12:12:55.586 | DEBUG    | Subject field filled in with: Sign.
+
+12:12:55.595 | DEBUG    | Message field is presented
+
+12:12:55.675 | DEBUG    | Message field filled in with: Process region place project rather. Mission have vote threat in especially plant financial.
+
+12:12:55.682 | DEBUG    | Upload field is presented
+
+12:12:55.698 | DEBUG    | File uploaded
+
+12:12:55.704 | DEBUG    | Submit button is presented
+
+12:12:55.765 | DEBUG    | Alert is presented
+
+12:12:55.830 | DEBUG    | Success message is presented
+
+12:12:55.830 | DEBUG    | Success message is correct
+
+12:12:55.836 | DEBUG    | Home button is presented
+
+12:12:56.770 | DEBUG    | Home button is clicked

@@ -1,0 +1,75 @@
+12:14:30.347 | DEBUG    | New user details:
+
+12:14:30.347 | DEBUG    |   name: Thomas
+
+12:14:30.347 | DEBUG    |   email: 7b985659_jonessarah@example.net
+
+12:14:30.347 | DEBUG    |   title: Mrs
+
+12:14:30.347 | DEBUG    |   birth_day: 19
+
+12:14:30.347 | DEBUG    |   birth_month: 3
+
+12:14:30.347 | DEBUG    |   birth_year: 1977
+
+12:14:30.347 | DEBUG    |   firstname: Thomas
+
+12:14:30.347 | DEBUG    |   lastname: Barton
+
+12:14:30.347 | DEBUG    |   company: Perez-Sanchez
+
+12:14:30.347 | DEBUG    |   address1: 34094 Patricia Shoals Apt. 649
+
+12:14:30.347 | DEBUG    |   address2: Suite 627
+
+12:14:30.347 | DEBUG    |   country: Australia
+
+12:14:30.347 | DEBUG    |   state: Oregon
+
+12:14:30.347 | DEBUG    |   city: Marychester
+
+12:14:30.347 | DEBUG    |   zipcode: 39433
+
+12:14:30.496 | DEBUG    | Status code correct: 200
+
+12:14:30.497 | DEBUG    | ResponseCode correct: 201
+
+12:14:30.497 | DEBUG    | Response message correct: "User created!"
+
+12:14:30.497 | DEBUG    | Updated user details:
+
+12:14:30.497 | DEBUG    |   name: Thomas
+
+12:14:30.497 | DEBUG    |   email: 7b985659_jonessarah@example.net
+
+12:14:30.497 | DEBUG    |   title: Mrs
+
+12:14:30.497 | DEBUG    |   birth_day: 19
+
+12:14:30.497 | DEBUG    |   birth_month: 3
+
+12:14:30.497 | DEBUG    |   birth_year: 1977
+
+12:14:30.497 | DEBUG    |   firstname: Thomas
+
+12:14:30.497 | DEBUG    |   lastname: Barton
+
+12:14:30.497 | DEBUG    |   company: Perez-Sanchez
+
+12:14:30.497 | DEBUG    |   address1: 34094 Patricia Shoals Apt. 649
+
+12:14:30.497 | DEBUG    |   address2: Suite 627
+
+12:14:30.497 | DEBUG    |   country: Australia
+
+12:14:30.497 | DEBUG    |   state: Oregon
+
+12:14:30.497 | DEBUG    |   city: Marychester
+
+12:14:30.499 | DEBUG    |   zipcode: 39433
+
+12:14:30.714 | DEBUG    | Status code correct: 200
+
+12:14:30.714 | DEBUG    | ResponseCode correct: 200
+
+12:14:30.715 | DEBUG    | Response message correct: "User updated!"

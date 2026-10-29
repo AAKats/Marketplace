@@ -1,0 +1,7 @@
+12:14:03.542 | DEBUG    | Element ('css selector', '#footer h2') is in viewport
+
+12:14:03.542 | DEBUG    | Page scrolled down
+
+12:14:03.568 | DEBUG    | Element ('css selector', '#slider-carousel .active h2') is in viewport
+
+12:14:03.568 | DEBUG    | Page scrolled up

@@ -1,0 +1,17 @@
+12:12:58.948 | DEBUG    | Login title is presented
+
+12:12:58.960 | DEBUG    | Login title text is correct
+
+12:12:58.965 | DEBUG    | Login email field is presented
+
+12:12:58.971 | DEBUG    | Password field is presented
+
+12:12:59.026 | DEBUG    | Email filled in
+
+12:12:59.063 | DEBUG    | Password filled in
+
+12:12:59.070 | DEBUG    | Login button is presented
+
+12:12:59.112 | DEBUG    | Login button is clicked
+
+12:13:00.527 | DEBUG    | Username is correct Logged in as Nicholas

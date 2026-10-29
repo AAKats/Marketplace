@@ -1,0 +1,11 @@
+12:13:32.983 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+12:13:33.036 | DEBUG    | Review name field filled in with "Angela Miller"
+
+12:13:33.095 | DEBUG    | Review email field filled in with "89b9e025_rwilson@example.org"
+
+12:13:33.183 | DEBUG    | Review message field filled in with "Step ball final well. Because body itself could rise. Right themselves almost condition."
+
+12:13:33.234 | DEBUG    | Submit review button clicked
+
+12:13:33.260 | DEBUG    | Success review message is displayed
