@@ -1,0 +1,151 @@
+12:03:02.525 | DEBUG    | Status code correct: 200
+
+12:03:02.525 | DEBUG    | ResponseCode correct: 200
+
+12:03:02.525 | DEBUG    | ResponseCode correct: 200
+
+12:03:02.525 | DEBUG    | Response contains key: "products"
+
+12:03:02.526 | DEBUG    | Products list length correct: 14
+
+12:03:02.526 | DEBUG    | Product with id = 1 contains field: "id"
+
+12:03:02.526 | DEBUG    | Product with id = 1 contains field: "name"
+
+12:03:02.526 | DEBUG    | Product with id = 1 contains field: "price"
+
+12:03:02.526 | DEBUG    | Product with id = 1 contains field: "brand"
+
+12:03:02.526 | DEBUG    | Product with id = 1 contains field: "category"
+
+12:03:02.526 | DEBUG    | Product name: "Blue Top" contains search term: top
+
+12:03:02.526 | DEBUG    | Product with id = 5 contains field: "id"
+
+12:03:02.526 | DEBUG    | Product with id = 5 contains field: "name"
+
+12:03:02.526 | DEBUG    | Product with id = 5 contains field: "price"
+
+12:03:02.526 | DEBUG    | Product with id = 5 contains field: "brand"
+
+12:03:02.526 | DEBUG    | Product with id = 5 contains field: "category"
+
+12:03:02.526 | DEBUG    | Product name: "Winter Top" contains search term: top
+
+12:03:02.526 | DEBUG    | Product with id = 6 contains field: "id"
+
+12:03:02.526 | DEBUG    | Product with id = 6 contains field: "name"
+
+12:03:02.526 | DEBUG    | Product with id = 6 contains field: "price"
+
+12:03:02.526 | DEBUG    | Product with id = 6 contains field: "brand"
+
+12:03:02.526 | DEBUG    | Product with id = 6 contains field: "category"
+
+12:03:02.526 | DEBUG    | Product name: "Summer White Top" contains search term: top
+
+12:03:02.527 | DEBUG    | Product with id = 7 contains field: "id"
+
+12:03:02.527 | DEBUG    | Product with id = 7 contains field: "name"
+
+12:03:02.527 | DEBUG    | Product with id = 7 contains field: "price"
+
+12:03:02.527 | DEBUG    | Product with id = 7 contains field: "brand"
+
+12:03:02.527 | DEBUG    | Product with id = 7 contains field: "category"
+
+12:03:02.527 | DEBUG    | Product name: "Madame Top For Women" contains search term: top
+
+12:03:02.527 | DEBUG    | Product with id = 8 contains field: "id"
+
+12:03:02.527 | DEBUG    | Product with id = 8 contains field: "name"
+
+12:03:02.527 | DEBUG    | Product with id = 8 contains field: "price"
+
+12:03:02.527 | DEBUG    | Product with id = 8 contains field: "brand"
+
+12:03:02.527 | DEBUG    | Product with id = 8 contains field: "category"
+
+12:03:02.527 | DEBUG    | Product name: "Fancy Green Top" contains search term: top
+
+12:03:02.527 | DEBUG    | Product with id = 11 contains field: "id"
+
+12:03:02.527 | DEBUG    | Product with id = 11 contains field: "name"
+
+12:03:02.527 | DEBUG    | Product with id = 11 contains field: "price"
+
+12:03:02.527 | DEBUG    | Product with id = 11 contains field: "brand"
+
+12:03:02.527 | DEBUG    | Product with id = 11 contains field: "category"
+
+12:03:02.527 | DEBUG    | Product name: "Sleeves Printed Top - White" contains search term: top
+
+12:03:02.527 | DEBUG    | Product with id = 12 contains field: "id"
+
+12:03:02.527 | DEBUG    | Product with id = 12 contains field: "name"
+
+12:03:02.527 | DEBUG    | Product with id = 12 contains field: "price"
+
+12:03:02.527 | DEBUG    | Product with id = 12 contains field: "brand"
+
+12:03:02.527 | DEBUG    | Product with id = 12 contains field: "category"
+
+12:03:02.527 | DEBUG    | Product name: "Half Sleeves Top Schiffli Detailing - Pink" contains search term: top
+
+12:03:02.528 | DEBUG    | Product with id = 13 contains field: "id"
+
+12:03:02.528 | DEBUG    | Product with id = 13 contains field: "name"
+
+12:03:02.528 | DEBUG    | Product with id = 13 contains field: "price"
+
+12:03:02.528 | DEBUG    | Product with id = 13 contains field: "brand"
+
+12:03:02.528 | DEBUG    | Product with id = 13 contains field: "category"
+
+12:03:02.528 | DEBUG    | Product name: "Frozen Tops For Kids" contains search term: top
+
+12:03:02.528 | DEBUG    | Product with id = 14 contains field: "id"
+
+12:03:02.528 | DEBUG    | Product with id = 14 contains field: "name"
+
+12:03:02.528 | DEBUG    | Product with id = 14 contains field: "price"
+
+12:03:02.528 | DEBUG    | Product with id = 14 contains field: "brand"
+
+12:03:02.528 | DEBUG    | Product with id = 14 contains field: "category"
+
+12:03:02.528 | DEBUG    | Product name: "Full Sleeves Top Cherry - Pink" contains search term: top
+
+12:03:02.528 | DEBUG    | Product with id = 15 contains field: "id"
+
+12:03:02.528 | DEBUG    | Product with id = 15 contains field: "name"
+
+12:03:02.528 | DEBUG    | Product with id = 15 contains field: "price"
+
+12:03:02.528 | DEBUG    | Product with id = 15 contains field: "brand"
+
+12:03:02.528 | DEBUG    | Product with id = 15 contains field: "category"
+
+12:03:02.528 | DEBUG    | Product name: "Printed Off Shoulder Top - White" contains search term: top
+
+12:03:02.528 | DEBUG    | Product with id = 16 contains field: "id"
+
+12:03:02.528 | DEBUG    | Product with id = 16 contains field: "name"
+
+12:03:02.528 | DEBUG    | Product with id = 16 contains field: "price"
+
+12:03:02.528 | DEBUG    | Product with id = 16 contains field: "brand"
+
+12:03:02.528 | DEBUG    | Product with id = 16 contains field: "category"
+
+12:03:02.528 | DEBUG    | Product name: "Sleeves Top and Short - Blue & Pink" contains search term: top
+
+12:03:02.529 | DEBUG    | Product with id = 18 contains field: "id"
+
+12:03:02.529 | DEBUG    | Product with id = 18 contains field: "name"
+
+12:03:02.529 | DEBUG    | Product with id = 18 contains field: "price"
+
+12:03:02.529 | DEBUG    | Product with id = 18 contains field: "brand"
+
+12:03:02.529 | DEBUG    | Product with id = 18 contains field: "category"

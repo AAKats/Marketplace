@@ -1,0 +1,31 @@
+12:03:02.863 | DEBUG    | Status code correct: 200
+
+12:03:02.863 | DEBUG    | ResponseCode correct: 200
+
+12:03:02.863 | DEBUG    | ResponseCode correct: 200
+
+12:03:02.863 | DEBUG    | Response contains key: "products"
+
+12:03:02.864 | DEBUG    | Products list length correct: 6
+
+12:03:02.864 | DEBUG    | Product with id = 2 contains field: "id"
+
+12:03:02.864 | DEBUG    | Product with id = 2 contains field: "name"
+
+12:03:02.864 | DEBUG    | Product with id = 2 contains field: "price"
+
+12:03:02.864 | DEBUG    | Product with id = 2 contains field: "brand"
+
+12:03:02.864 | DEBUG    | Product with id = 2 contains field: "category"
+
+12:03:02.864 | DEBUG    | Product name: "Men Tshirt" contains search term: tshirt
+
+12:03:02.864 | DEBUG    | Product with id = 28 contains field: "id"
+
+12:03:02.864 | DEBUG    | Product with id = 28 contains field: "name"
+
+12:03:02.864 | DEBUG    | Product with id = 28 contains field: "price"
+
+12:03:02.864 | DEBUG    | Product with id = 28 contains field: "brand"
+
+12:03:02.864 | DEBUG    | Product with id = 28 contains field: "category"

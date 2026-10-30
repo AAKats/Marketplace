@@ -1,0 +1,169 @@
+12:01:10.800 | DEBUG    | Product Blue Top added, quantity 1
+
+12:01:11.680 | DEBUG    | Product Blue Top added, quantity 2
+
+12:01:12.580 | DEBUG    | Product Men Tshirt added, quantity 1
+
+12:01:13.821 | DEBUG    | Product Men Tshirt added, quantity 2
+
+12:01:14.183 | DEBUG    | Proceed to checkout button clicked
+
+12:01:14.407 | DEBUG    | Register via modal button clicked
+
+12:01:14.419 | DEBUG    | New user Signup title is presented
+
+12:01:14.438 | DEBUG    | New user Signup title text is correct
+
+12:01:14.444 | DEBUG    | Signup email field is presented
+
+12:01:14.449 | DEBUG    | Signup name field is presented
+
+12:01:14.500 | DEBUG    | Email signup field filled
+
+12:01:14.539 | DEBUG    | Name signup field filled
+
+12:01:14.582 | DEBUG    | Signup button is clicked
+
+12:01:14.791 | DEBUG    | Account information title is presented
+
+12:01:14.801 | DEBUG    | Account information title text is correct
+
+12:01:14.827 | DEBUG    | Mr radiobutton is presented
+
+12:01:14.832 | DEBUG    | Mrs radiobutton is presented
+
+12:01:14.877 | DEBUG    | Selected MRS title
+
+12:01:14.884 | DEBUG    | Password field is presented
+
+12:01:14.931 | DEBUG    | Password is filled in
+
+12:01:14.938 | DEBUG    | Day of birth list is presented
+
+12:01:14.987 | DEBUG    | Day of birth selected
+
+12:01:14.995 | DEBUG    | Month of birth list is presented
+
+12:01:15.036 | DEBUG    | Month of birth selected
+
+12:01:15.042 | DEBUG    | Year of birth list is presented
+
+12:01:15.082 | DEBUG    | Year of birth selected
+
+12:01:15.083 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+12:01:15.128 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+12:01:15.134 | DEBUG    | First name field is presented
+
+12:01:15.170 | DEBUG    | First name is filled in
+
+12:01:15.179 | DEBUG    | Last name field is presented
+
+12:01:15.217 | DEBUG    | Last name is filled in
+
+12:01:15.224 | DEBUG    | Company field is presented
+
+12:01:15.265 | DEBUG    | Company is filled in
+
+12:01:15.272 | DEBUG    | Address 1 field is presented
+
+12:01:15.314 | DEBUG    | Address 1 is filled in
+
+12:01:15.321 | DEBUG    | Address 2 field is presented
+
+12:01:15.359 | DEBUG    | Address 2 is filled in
+
+12:01:15.410 | DEBUG    | State field is presented
+
+12:01:15.448 | DEBUG    | State is filled in
+
+12:01:15.454 | DEBUG    | City field is presented
+
+12:01:15.501 | DEBUG    | City is filled in
+
+12:01:15.508 | DEBUG    | Zipcode field is presented
+
+12:01:15.543 | DEBUG    | Zipcode is filled in
+
+12:01:15.550 | DEBUG    | Mobile number field is presented
+
+12:01:15.592 | DEBUG    | Mobile number is filled in
+
+12:01:17.767 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+12:01:17.788 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+12:01:17.788 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+12:01:17.794 | DEBUG    | Continue button is presented
+
+12:01:18.254 | DEBUG    | Username is correct Logged in as Daniel
+
+12:01:19.137 | DEBUG    | Proceed to checkout button clicked
+
+12:01:19.155 | DEBUG    | Name is correct in the delivery information: Mrs. Daniel Campbell
+
+12:01:19.169 | DEBUG    | Company name is correct in the delivery information: Mcguire-Wong
+
+12:01:19.183 | DEBUG    | Address 1 is correct in the delivery information: 932 Kayla Field
+
+12:01:19.197 | DEBUG    | Address 2 is correct in the delivery information: Suite 035
+
+12:01:19.211 | DEBUG    | City is correct in the delivery information: Connormouth Alabama 58915
+
+12:01:19.225 | DEBUG    | Country is correct in the delivery information: United States
+
+12:01:19.239 | DEBUG    | Phone is correct in the delivery information: 925-954-7496x17741
+
+12:01:19.253 | DEBUG    | Name is correct in the billing information: Mrs. Daniel Campbell
+
+12:01:19.267 | DEBUG    | Company name is correct in the billing information: Mcguire-Wong
+
+12:01:19.281 | DEBUG    | Address 1 is correct in the billing information: 932 Kayla Field
+
+12:01:19.294 | DEBUG    | Address 2 is correct in the billing information: Suite 035
+
+12:01:19.308 | DEBUG    | City is correct in the billing information: Connormouth Alabama 58915
+
+12:01:19.323 | DEBUG    | Country is correct in the billing information: United States
+
+12:01:19.337 | DEBUG    | Phone is correct in the billing information: 925-954-7496x17741
+
+12:01:19.349 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+12:01:19.369 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:01:19.378 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+12:01:19.391 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+12:01:19.391 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+12:01:19.416 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+12:01:19.429 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+12:01:19.451 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+12:01:19.464 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+12:01:19.544 | DEBUG    | Comment filled in with: Mission save identify how. History child window money environment skill cup.
+
+12:01:19.751 | DEBUG    | Place order button clicked
+
+12:01:19.853 | DEBUG    | Name on card filled in with: ****
+
+12:01:19.899 | DEBUG    | Card number filled in with: ****4658
+
+12:01:22.373 | DEBUG    | Pay and confirm button clicked
+
+12:01:22.408 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+12:01:23.049 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+12:01:23.049 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+12:01:23.049 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+12:01:24.785 | DEBUG    | Continue button clicked

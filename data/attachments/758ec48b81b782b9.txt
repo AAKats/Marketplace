@@ -1,0 +1,165 @@
+12:03:38.627 | DEBUG    | New user Signup title is presented
+
+12:03:38.640 | DEBUG    | New user Signup title text is correct
+
+12:03:38.646 | DEBUG    | Signup email field is presented
+
+12:03:38.652 | DEBUG    | Signup name field is presented
+
+12:03:38.706 | DEBUG    | Email signup field filled
+
+12:03:38.744 | DEBUG    | Name signup field filled
+
+12:03:38.792 | DEBUG    | Signup button is clicked
+
+12:03:39.331 | DEBUG    | Account information title is presented
+
+12:03:39.340 | DEBUG    | Account information title text is correct
+
+12:03:39.366 | DEBUG    | Mr radiobutton is presented
+
+12:03:39.372 | DEBUG    | Mrs radiobutton is presented
+
+12:03:39.414 | DEBUG    | Selected MRS title
+
+12:03:39.420 | DEBUG    | Password field is presented
+
+12:03:39.461 | DEBUG    | Password is filled in
+
+12:03:39.468 | DEBUG    | Day of birth list is presented
+
+12:03:39.515 | DEBUG    | Day of birth selected
+
+12:03:39.523 | DEBUG    | Month of birth list is presented
+
+12:03:39.563 | DEBUG    | Month of birth selected
+
+12:03:39.570 | DEBUG    | Year of birth list is presented
+
+12:03:39.611 | DEBUG    | Year of birth selected
+
+12:03:39.611 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+12:03:39.611 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+12:03:39.618 | DEBUG    | First name field is presented
+
+12:03:39.657 | DEBUG    | First name is filled in
+
+12:03:39.665 | DEBUG    | Last name field is presented
+
+12:03:39.701 | DEBUG    | Last name is filled in
+
+12:03:39.710 | DEBUG    | Company field is presented
+
+12:03:39.747 | DEBUG    | Company is filled in
+
+12:03:39.756 | DEBUG    | Address 1 field is presented
+
+12:03:39.798 | DEBUG    | Address 1 is filled in
+
+12:03:39.806 | DEBUG    | Address 2 field is presented
+
+12:03:39.843 | DEBUG    | Address 2 is filled in
+
+12:03:39.894 | DEBUG    | State field is presented
+
+12:03:39.932 | DEBUG    | State is filled in
+
+12:03:39.940 | DEBUG    | City field is presented
+
+12:03:39.981 | DEBUG    | City is filled in
+
+12:03:39.989 | DEBUG    | Zipcode field is presented
+
+12:03:40.024 | DEBUG    | Zipcode is filled in
+
+12:03:40.031 | DEBUG    | Mobile number field is presented
+
+12:03:40.070 | DEBUG    | Mobile number is filled in
+
+12:03:40.940 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+12:03:40.961 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+12:03:40.961 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+12:03:40.966 | DEBUG    | Continue button is presented
+
+12:03:41.611 | DEBUG    | Username is correct Logged in as Danielle
+
+12:03:43.889 | DEBUG    | Product Blue Top added, quantity 1
+
+12:03:44.775 | DEBUG    | Product Blue Top added, quantity 2
+
+12:03:45.676 | DEBUG    | Product Men Tshirt added, quantity 1
+
+12:03:46.763 | DEBUG    | Product Men Tshirt added, quantity 2
+
+12:03:47.720 | DEBUG    | Proceed to checkout button clicked
+
+12:03:47.738 | DEBUG    | Name is correct in the delivery information: Mrs. Danielle Foster
+
+12:03:47.753 | DEBUG    | Company name is correct in the delivery information: Riggs Inc
+
+12:03:47.768 | DEBUG    | Address 1 is correct in the delivery information: 4126 Jackson Oval
+
+12:03:47.782 | DEBUG    | Address 2 is correct in the delivery information: Apt. 308
+
+12:03:47.796 | DEBUG    | City is correct in the delivery information: Lake Jessica Washington 62003
+
+12:03:47.811 | DEBUG    | Country is correct in the delivery information: Canada
+
+12:03:47.826 | DEBUG    | Phone is correct in the delivery information: 909.962.3434
+
+12:03:47.841 | DEBUG    | Name is correct in the billing information: Mrs. Danielle Foster
+
+12:03:47.855 | DEBUG    | Company name is correct in the billing information: Riggs Inc
+
+12:03:47.869 | DEBUG    | Address 1 is correct in the billing information: 4126 Jackson Oval
+
+12:03:47.883 | DEBUG    | Address 2 is correct in the billing information: Apt. 308
+
+12:03:47.897 | DEBUG    | City is correct in the billing information: Lake Jessica Washington 62003
+
+12:03:47.912 | DEBUG    | Country is correct in the billing information: Canada
+
+12:03:47.927 | DEBUG    | Phone is correct in the billing information: 909.962.3434
+
+12:03:47.939 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+12:03:47.959 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:03:47.968 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+12:03:47.982 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+12:03:47.982 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+12:03:48.004 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+12:03:48.018 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+12:03:48.040 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+12:03:48.052 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+12:03:48.143 | DEBUG    | Comment filled in with: House mission head blood exactly. Management after hard west. Common generation control fast with.
+
+12:03:48.374 | DEBUG    | Place order button clicked
+
+12:03:48.431 | DEBUG    | Name on card filled in with: ****
+
+12:03:48.477 | DEBUG    | Card number filled in with: ****7952
+
+12:03:50.233 | DEBUG    | Pay and confirm button clicked
+
+12:03:50.267 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+12:03:50.485 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+12:03:50.485 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+12:03:50.485 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+12:03:51.102 | DEBUG    | Continue button clicked
