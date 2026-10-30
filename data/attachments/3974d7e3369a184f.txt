@@ -1,0 +1,75 @@
+07:02:14.873 | DEBUG    | New user details:
+
+07:02:14.873 | DEBUG    |   name: Elizabeth
+
+07:02:14.873 | DEBUG    |   email: 41886c63_vanessahardin@example.org
+
+07:02:14.873 | DEBUG    |   title: Mrs
+
+07:02:14.873 | DEBUG    |   birth_day: 20
+
+07:02:14.873 | DEBUG    |   birth_month: 4
+
+07:02:14.873 | DEBUG    |   birth_year: 1963
+
+07:02:14.873 | DEBUG    |   firstname: Elizabeth
+
+07:02:14.873 | DEBUG    |   lastname: Jones
+
+07:02:14.873 | DEBUG    |   company: King, Roberts and Lopez
+
+07:02:14.873 | DEBUG    |   address1: 785 Richard Knolls Suite 051
+
+07:02:14.873 | DEBUG    |   address2: Suite 536
+
+07:02:14.873 | DEBUG    |   country: India
+
+07:02:14.873 | DEBUG    |   state: Rhode Island
+
+07:02:14.873 | DEBUG    |   city: East Davidview
+
+07:02:14.873 | DEBUG    |   zipcode: 86962
+
+07:02:14.977 | DEBUG    | Status code correct: 200
+
+07:02:14.977 | DEBUG    | ResponseCode correct: 201
+
+07:02:14.977 | DEBUG    | Response message correct: "User created!"
+
+07:02:14.977 | DEBUG    | Updated user details:
+
+07:02:14.977 | DEBUG    |   name: Elizabeth
+
+07:02:14.977 | DEBUG    |   email: 41886c63_vanessahardin@example.org
+
+07:02:14.977 | DEBUG    |   title: Mrs
+
+07:02:14.977 | DEBUG    |   birth_day: 20
+
+07:02:14.977 | DEBUG    |   birth_month: 4
+
+07:02:14.977 | DEBUG    |   birth_year: 1963
+
+07:02:14.977 | DEBUG    |   firstname: Elizabeth
+
+07:02:14.977 | DEBUG    |   lastname: Jones
+
+07:02:14.977 | DEBUG    |   company: King, Roberts and Lopez
+
+07:02:14.978 | DEBUG    |   address1: 785 Richard Knolls Suite 051
+
+07:02:14.978 | DEBUG    |   address2: Suite 536
+
+07:02:14.978 | DEBUG    |   country: India
+
+07:02:14.978 | DEBUG    |   state: Rhode Island
+
+07:02:14.978 | DEBUG    |   city: East Davidview
+
+07:02:14.979 | DEBUG    |   zipcode: 86962
+
+07:02:15.083 | DEBUG    | Status code correct: 200
+
+07:02:15.083 | DEBUG    | ResponseCode correct: 200
+
+07:02:15.083 | DEBUG    | Response message correct: "User updated!"

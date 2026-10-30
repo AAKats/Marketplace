@@ -1,0 +1,67 @@
+07:01:22.280 | DEBUG    | Email filled in
+
+07:01:22.321 | DEBUG    | Password filled in
+
+07:01:22.328 | DEBUG    | Login button is presented
+
+07:01:22.369 | DEBUG    | Login button is clicked
+
+07:01:23.866 | DEBUG    | Username is correct Logged in as Tammy
+
+07:01:24.802 | DEBUG    | Product Blue Top added, quantity 1
+
+07:01:25.672 | DEBUG    | Product Blue Top added, quantity 2
+
+07:01:26.879 | DEBUG    | Product Blue Top added, quantity 3
+
+07:01:27.481 | DEBUG    | Proceed to checkout button clicked
+
+07:01:27.499 | DEBUG    | Name is correct in the delivery information: Mrs. Tammy Walker
+
+07:01:27.515 | DEBUG    | Company name is correct in the delivery information: Rodriguez-Gray
+
+07:01:27.530 | DEBUG    | Address 1 is correct in the delivery information: 0694 William Cliffs
+
+07:01:27.546 | DEBUG    | Address 2 is correct in the delivery information: Apt. 564
+
+07:01:27.561 | DEBUG    | City is correct in the delivery information: New Jeffreymouth Minnesota 43317
+
+07:01:27.575 | DEBUG    | Country is correct in the delivery information: United States
+
+07:01:27.589 | DEBUG    | Phone is correct in the delivery information: 263.280.0747x91820
+
+07:01:27.604 | DEBUG    | Name is correct in the billing information: Mrs. Tammy Walker
+
+07:01:27.617 | DEBUG    | Company name is correct in the billing information: Rodriguez-Gray
+
+07:01:27.632 | DEBUG    | Address 1 is correct in the billing information: 0694 William Cliffs
+
+07:01:27.646 | DEBUG    | Address 2 is correct in the billing information: Apt. 564
+
+07:01:27.659 | DEBUG    | City is correct in the billing information: New Jeffreymouth Minnesota 43317
+
+07:01:27.672 | DEBUG    | Country is correct in the billing information: United States
+
+07:01:27.685 | DEBUG    | Phone is correct in the billing information: 263.280.0747x91820
+
+07:01:27.697 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+07:01:27.717 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+07:01:27.726 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+07:01:27.749 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+07:01:27.772 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+07:01:27.848 | DEBUG    | Comment filled in with: Same say alone third. Role radio despite think price quality. Large law reveal view.
+
+07:01:28.015 | DEBUG    | Place order button clicked
+
+07:01:28.064 | DEBUG    | Name on card filled in with: ****
+
+07:01:28.111 | DEBUG    | Card number filled in with: ****5056
+
+07:01:28.286 | DEBUG    | Pay and confirm button clicked
+
+07:01:29.630 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

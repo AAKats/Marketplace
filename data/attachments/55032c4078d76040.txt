@@ -1,0 +1,13 @@
+06:59:13.569 | DEBUG    | Product "Blue Top" (ID: 1) opened
+
+06:59:13.656 | DEBUG    | Quantity = 4 selected
+
+06:59:13.704 | DEBUG    | Product was added to cart
+
+06:59:15.271 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+06:59:15.283 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+06:59:15.302 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+06:59:15.325 | DEBUG    | Product Blue Top quantity in cart: 4 matches added quantity: 4

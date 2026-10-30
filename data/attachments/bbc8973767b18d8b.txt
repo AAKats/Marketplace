@@ -1,0 +1,12 @@
+07:01:30.959 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+07:01:31.012 | DEBUG    | Review name field filled in with "Sean Moore"
+
+07:01:31.068 | DEBUG    | Review email field filled in with "2816f66a_lonnie41@example.org"
+
+07:01:31.149 | DEBUG    | Review message field filled in with "Drive ahead adult mind generation.
+Rock sort after which. Yes senior decide movie."
+
+07:01:31.200 | DEBUG    | Submit review button clicked
+
+07:01:31.224 | DEBUG    | Success review message is displayed

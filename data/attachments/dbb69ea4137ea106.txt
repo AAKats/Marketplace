@@ -1,0 +1,39 @@
+07:00:56.704 | DEBUG    | Main title is presented
+
+07:00:56.730 | DEBUG    | Main title is correct: CONTACT US
+
+07:00:56.736 | DEBUG    | Second title is presented
+
+07:00:56.754 | DEBUG    | Second title is correct: GET IN TOUCH
+
+07:00:56.762 | DEBUG    | Name field is presented
+
+07:00:56.801 | DEBUG    | Name field filled in with: Austin
+
+07:00:56.808 | DEBUG    | Email field is presented
+
+07:00:56.858 | DEBUG    | Email field filled in with: c5ce9f6c_bennettwilliam@example.com
+
+07:00:56.867 | DEBUG    | Subject field is presented
+
+07:00:56.903 | DEBUG    | Subject field filled in with: Study ten.
+
+07:00:56.912 | DEBUG    | Message field is presented
+
+07:00:56.988 | DEBUG    | Message field filled in with: Process human record ball. Put statement today culture. Right law song item future affect than.
+
+07:00:56.996 | DEBUG    | Upload field is presented
+
+07:00:57.012 | DEBUG    | File uploaded
+
+07:00:57.019 | DEBUG    | Submit button is presented
+
+07:00:57.080 | DEBUG    | Alert is presented
+
+07:00:57.131 | DEBUG    | Success message is presented
+
+07:00:57.131 | DEBUG    | Success message is correct
+
+07:00:57.137 | DEBUG    | Home button is presented
+
+07:00:57.969 | DEBUG    | Home button is clicked

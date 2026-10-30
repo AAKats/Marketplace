@@ -1,0 +1,170 @@
+06:59:18.718 | DEBUG    | Product Blue Top added, quantity 1
+
+06:59:19.600 | DEBUG    | Product Blue Top added, quantity 2
+
+06:59:20.494 | DEBUG    | Product Men Tshirt added, quantity 1
+
+06:59:21.769 | DEBUG    | Product Men Tshirt added, quantity 2
+
+06:59:22.213 | DEBUG    | Proceed to checkout button clicked
+
+06:59:22.395 | DEBUG    | Register via modal button clicked
+
+06:59:22.405 | DEBUG    | New user Signup title is presented
+
+06:59:22.415 | DEBUG    | New user Signup title text is correct
+
+06:59:22.421 | DEBUG    | Signup email field is presented
+
+06:59:22.426 | DEBUG    | Signup name field is presented
+
+06:59:22.479 | DEBUG    | Email signup field filled
+
+06:59:22.516 | DEBUG    | Name signup field filled
+
+06:59:22.556 | DEBUG    | Signup button is clicked
+
+06:59:22.739 | DEBUG    | Account information title is presented
+
+06:59:22.748 | DEBUG    | Account information title text is correct
+
+06:59:22.775 | DEBUG    | Mr radiobutton is presented
+
+06:59:22.780 | DEBUG    | Mrs radiobutton is presented
+
+06:59:22.828 | DEBUG    | Selected MRS title
+
+06:59:22.835 | DEBUG    | Password field is presented
+
+06:59:22.877 | DEBUG    | Password is filled in
+
+06:59:22.887 | DEBUG    | Day of birth list is presented
+
+06:59:22.937 | DEBUG    | Day of birth selected
+
+06:59:22.944 | DEBUG    | Month of birth list is presented
+
+06:59:22.984 | DEBUG    | Month of birth selected
+
+06:59:22.991 | DEBUG    | Year of birth list is presented
+
+06:59:23.030 | DEBUG    | Year of birth selected
+
+06:59:23.073 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+06:59:23.115 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+06:59:23.121 | DEBUG    | First name field is presented
+
+06:59:23.154 | DEBUG    | First name is filled in
+
+06:59:23.161 | DEBUG    | Last name field is presented
+
+06:59:23.197 | DEBUG    | Last name is filled in
+
+06:59:23.204 | DEBUG    | Company field is presented
+
+06:59:23.249 | DEBUG    | Company is filled in
+
+06:59:23.256 | DEBUG    | Address 1 field is presented
+
+06:59:23.302 | DEBUG    | Address 1 is filled in
+
+06:59:23.309 | DEBUG    | Address 2 field is presented
+
+06:59:23.347 | DEBUG    | Address 2 is filled in
+
+06:59:23.378 | DEBUG    | State field is presented
+
+06:59:23.413 | DEBUG    | State is filled in
+
+06:59:23.421 | DEBUG    | City field is presented
+
+06:59:23.464 | DEBUG    | City is filled in
+
+06:59:23.472 | DEBUG    | Zipcode field is presented
+
+06:59:23.506 | DEBUG    | Zipcode is filled in
+
+06:59:23.513 | DEBUG    | Mobile number field is presented
+
+06:59:23.555 | DEBUG    | Mobile number is filled in
+
+06:59:25.970 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+06:59:25.992 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+06:59:25.992 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+06:59:26.001 | DEBUG    | Continue button is presented
+
+06:59:27.506 | DEBUG    | Username is correct Logged in as Jared
+
+06:59:31.010 | DEBUG    | Proceed to checkout button clicked
+
+06:59:31.028 | DEBUG    | Name is correct in the delivery information: Mrs. Jared Gardner
+
+06:59:31.043 | DEBUG    | Company name is correct in the delivery information: Jones, Wells and Williams
+
+06:59:31.057 | DEBUG    | Address 1 is correct in the delivery information: 935 Flores Route Apt. 692
+
+06:59:31.072 | DEBUG    | Address 2 is correct in the delivery information: Suite 774
+
+06:59:31.087 | DEBUG    | City is correct in the delivery information: East Susanstad Nebraska 96468
+
+06:59:31.101 | DEBUG    | Country is correct in the delivery information: India
+
+06:59:31.115 | DEBUG    | Phone is correct in the delivery information: 001-371-349-3258x258
+
+06:59:31.130 | DEBUG    | Name is correct in the billing information: Mrs. Jared Gardner
+
+06:59:31.144 | DEBUG    | Company name is correct in the billing information: Jones, Wells and Williams
+
+06:59:31.159 | DEBUG    | Address 1 is correct in the billing information: 935 Flores Route Apt. 692
+
+06:59:31.173 | DEBUG    | Address 2 is correct in the billing information: Suite 774
+
+06:59:31.188 | DEBUG    | City is correct in the billing information: East Susanstad Nebraska 96468
+
+06:59:31.202 | DEBUG    | Country is correct in the billing information: India
+
+06:59:31.216 | DEBUG    | Phone is correct in the billing information: 001-371-349-3258x258
+
+06:59:31.227 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+06:59:31.248 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+06:59:31.256 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+06:59:31.270 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+06:59:31.270 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+06:59:31.292 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+06:59:31.305 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+06:59:31.326 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+06:59:31.339 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+06:59:31.407 | DEBUG    | Comment filled in with: Reality prove environmental how national total.
+Recent moment case will.
+
+06:59:31.606 | DEBUG    | Place order button clicked
+
+06:59:31.654 | DEBUG    | Name on card filled in with: ****
+
+06:59:31.697 | DEBUG    | Card number filled in with: ****1128
+
+06:59:34.122 | DEBUG    | Pay and confirm button clicked
+
+06:59:34.157 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+06:59:35.153 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+06:59:35.153 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+06:59:35.153 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+06:59:37.487 | DEBUG    | Continue button clicked
