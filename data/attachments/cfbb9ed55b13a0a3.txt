@@ -1,0 +1,67 @@
+11:38:15.539 | DEBUG    | Email filled in
+
+11:38:15.566 | DEBUG    | Password filled in
+
+11:38:15.572 | DEBUG    | Login button is presented
+
+11:38:15.601 | DEBUG    | Login button is clicked
+
+11:38:16.638 | DEBUG    | Username is correct Logged in as Theresa
+
+11:38:17.530 | DEBUG    | Product Blue Top added, quantity 1
+
+11:38:18.368 | DEBUG    | Product Blue Top added, quantity 2
+
+11:38:19.457 | DEBUG    | Product Blue Top added, quantity 3
+
+11:38:20.115 | DEBUG    | Proceed to checkout button clicked
+
+11:38:20.127 | DEBUG    | Name is correct in the delivery information: Mrs. Theresa Nicholson
+
+11:38:20.137 | DEBUG    | Company name is correct in the delivery information: Oconnor-Harris
+
+11:38:20.146 | DEBUG    | Address 1 is correct in the delivery information: 028 Marshall Squares Suite 362
+
+11:38:20.156 | DEBUG    | Address 2 is correct in the delivery information: Suite 229
+
+11:38:20.165 | DEBUG    | City is correct in the delivery information: Annaside Texas 81387
+
+11:38:20.175 | DEBUG    | Country is correct in the delivery information: India
+
+11:38:20.184 | DEBUG    | Phone is correct in the delivery information: 381-674-5797
+
+11:38:20.194 | DEBUG    | Name is correct in the billing information: Mrs. Theresa Nicholson
+
+11:38:20.204 | DEBUG    | Company name is correct in the billing information: Oconnor-Harris
+
+11:38:20.215 | DEBUG    | Address 1 is correct in the billing information: 028 Marshall Squares Suite 362
+
+11:38:20.225 | DEBUG    | Address 2 is correct in the billing information: Suite 229
+
+11:38:20.234 | DEBUG    | City is correct in the billing information: Annaside Texas 81387
+
+11:38:20.244 | DEBUG    | Country is correct in the billing information: India
+
+11:38:20.253 | DEBUG    | Phone is correct in the billing information: 381-674-5797
+
+11:38:20.261 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+11:38:20.275 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:38:20.280 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+11:38:20.296 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+11:38:20.312 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+11:38:20.364 | DEBUG    | Comment filled in with: Center alone dinner then forget two watch. Next turn ever level rate.
+
+11:38:20.537 | DEBUG    | Place order button clicked
+
+11:38:20.575 | DEBUG    | Name on card filled in with: ****
+
+11:38:20.609 | DEBUG    | Card number filled in with: ****9656
+
+11:38:20.752 | DEBUG    | Pay and confirm button clicked
+
+11:38:22.061 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

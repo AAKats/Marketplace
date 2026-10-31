@@ -1,0 +1,43 @@
+11:39:01.986 | DEBUG    | New user details:
+
+11:39:01.987 | DEBUG    |   name: Raymond
+
+11:39:01.987 | DEBUG    |   email: b3c635a9_knolan@example.org
+
+11:39:01.987 | DEBUG    |   title: Mr
+
+11:39:01.987 | DEBUG    |   birth_day: 25
+
+11:39:01.987 | DEBUG    |   birth_month: 12
+
+11:39:01.987 | DEBUG    |   birth_year: 1959
+
+11:39:01.987 | DEBUG    |   firstname: Raymond
+
+11:39:01.987 | DEBUG    |   lastname: Anderson
+
+11:39:01.987 | DEBUG    |   company: Brown, Parks and Johnson
+
+11:39:01.987 | DEBUG    |   address1: 71680 Amber Lodge Suite 774
+
+11:39:01.987 | DEBUG    |   address2: Suite 358
+
+11:39:01.987 | DEBUG    |   country: Australia
+
+11:39:01.987 | DEBUG    |   state: Maine
+
+11:39:01.987 | DEBUG    |   city: East Curtis
+
+11:39:01.987 | DEBUG    |   zipcode: 97731
+
+11:39:02.154 | DEBUG    | Status code correct: 200
+
+11:39:02.154 | DEBUG    | ResponseCode correct: 201
+
+11:39:02.154 | DEBUG    | Response message correct: "User created!"
+
+11:39:02.294 | DEBUG    | Status code correct: 200
+
+11:39:02.294 | DEBUG    | ResponseCode correct: 200
+
+11:39:02.295 | DEBUG    | Response message correct: "Account deleted!"

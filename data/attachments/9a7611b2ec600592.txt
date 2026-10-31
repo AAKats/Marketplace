@@ -1,0 +1,49 @@
+11:37:05.812 | DEBUG    | Search field is presented
+
+11:37:05.847 | DEBUG    | Search field is filled in with: "Soft Stretch Jeans"
+
+11:37:05.852 | DEBUG    | Search button is presented
+
+11:37:06.151 | DEBUG    | Search button is clicked
+
+11:37:06.165 | DEBUG    | Title is presented
+
+11:37:06.165 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+11:37:06.168 | DEBUG    | 1 products found
+
+11:37:06.172 | DEBUG    | "Soft Stretch Jeans" product found, and contains "Soft Stretch Jeans"
+
+11:37:07.296 | DEBUG    | Product Soft Stretch Jeans added, quantity 1
+
+11:37:07.578 | DEBUG    | Product: Soft Stretch Jeans found in cart: Soft Stretch Jeans
+
+11:37:07.592 | DEBUG    | Product Soft Stretch Jeans price in cart: 799 matches added price: 799
+
+11:37:07.608 | DEBUG    | Product Soft Stretch Jeans quantity in cart: 1 matches added quantity: 1
+
+11:37:07.624 | DEBUG    | Product Soft Stretch Jeans total in cart: 799 matches expected total: 799
+
+11:37:07.828 | DEBUG    | Login email field is presented
+
+11:37:07.833 | DEBUG    | Password field is presented
+
+11:37:07.865 | DEBUG    | Email filled in
+
+11:37:07.891 | DEBUG    | Password filled in
+
+11:37:07.896 | DEBUG    | Login button is presented
+
+11:37:08.700 | DEBUG    | Login button is clicked
+
+11:37:08.990 | DEBUG    | Product: Soft Stretch Jeans found in cart: Soft Stretch Jeans
+
+11:37:09.002 | DEBUG    | Product Soft Stretch Jeans price in cart: 799 matches added price: 799
+
+11:37:09.018 | DEBUG    | Product Soft Stretch Jeans quantity in cart: 1 matches added quantity: 1
+
+11:37:09.032 | DEBUG    | Product Soft Stretch Jeans total in cart: 799 matches expected total: 799
+
+11:37:13.631 | DEBUG    | All products deleted
+
+11:37:13.637 | DEBUG    | Empty cart text correct: Cart is empty!

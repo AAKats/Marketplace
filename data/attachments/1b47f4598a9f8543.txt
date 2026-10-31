@@ -1,0 +1,37 @@
+11:39:01.840 | DEBUG    | New user details:
+
+11:39:01.840 | DEBUG    |   name: Peter
+
+11:39:01.840 | DEBUG    |   email: f554224a_haileyfox@example.net
+
+11:39:01.840 | DEBUG    |   title: Mr
+
+11:39:01.840 | DEBUG    |   birth_day: 17
+
+11:39:01.840 | DEBUG    |   birth_month: 12
+
+11:39:01.840 | DEBUG    |   birth_year: 1964
+
+11:39:01.840 | DEBUG    |   firstname: Peter
+
+11:39:01.840 | DEBUG    |   lastname: Harris
+
+11:39:01.840 | DEBUG    |   company: Allen Ltd
+
+11:39:01.840 | DEBUG    |   address1: 630 Carl Prairie Suite 434
+
+11:39:01.840 | DEBUG    |   address2: Apt. 486
+
+11:39:01.840 | DEBUG    |   country: Australia
+
+11:39:01.840 | DEBUG    |   state: Connecticut
+
+11:39:01.840 | DEBUG    |   city: South Troychester
+
+11:39:01.840 | DEBUG    |   zipcode: 15903
+
+11:39:01.979 | DEBUG    | Status code correct: 200
+
+11:39:01.979 | DEBUG    | ResponseCode correct: 201
+
+11:39:01.980 | DEBUG    | Response message correct: "User created!"

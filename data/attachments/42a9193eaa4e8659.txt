@@ -1,0 +1,249 @@
+11:37:29.402 | DEBUG    | Product Blue Top added, quantity 1
+
+11:37:30.256 | DEBUG    | Product Blue Top added, quantity 2
+
+11:37:31.102 | DEBUG    | Product Men Tshirt added, quantity 1
+
+11:37:31.952 | DEBUG    | Product Men Tshirt added, quantity 2
+
+11:37:32.806 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+11:37:33.654 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+11:37:34.503 | DEBUG    | Product Stylish Dress added, quantity 1
+
+11:37:35.350 | DEBUG    | Product Stylish Dress added, quantity 2
+
+11:37:36.208 | DEBUG    | Product Winter Top added, quantity 1
+
+11:37:37.694 | DEBUG    | Product Winter Top added, quantity 2
+
+11:37:38.099 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+11:37:38.099 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+11:37:38.099 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+11:37:38.099 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+11:37:38.099 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+11:37:38.113 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:37:38.119 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:37:38.125 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+11:37:38.131 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+11:37:38.137 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+11:37:38.153 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:37:38.163 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:37:38.173 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+11:37:38.183 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+11:37:38.192 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+11:37:38.208 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:37:38.217 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:37:38.226 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+11:37:38.235 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+11:37:38.245 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+11:37:38.279 | DEBUG    | Proceed to checkout button clicked
+
+11:37:38.515 | DEBUG    | Register via modal button clicked
+
+11:37:38.526 | DEBUG    | New user Signup title is presented
+
+11:37:38.532 | DEBUG    | New user Signup title text is correct
+
+11:37:38.537 | DEBUG    | Signup email field is presented
+
+11:37:38.541 | DEBUG    | Signup name field is presented
+
+11:37:38.576 | DEBUG    | Email signup field filled
+
+11:37:38.608 | DEBUG    | Name signup field filled
+
+11:37:38.900 | DEBUG    | Signup button is clicked
+
+11:37:38.913 | DEBUG    | Account information title is presented
+
+11:37:38.919 | DEBUG    | Account information title text is correct
+
+11:37:38.940 | DEBUG    | Mr radiobutton is presented
+
+11:37:38.944 | DEBUG    | Mrs radiobutton is presented
+
+11:37:38.974 | DEBUG    | Selected MRS title
+
+11:37:38.979 | DEBUG    | Password field is presented
+
+11:37:39.008 | DEBUG    | Password is filled in
+
+11:37:39.014 | DEBUG    | Day of birth list is presented
+
+11:37:39.050 | DEBUG    | Day of birth selected
+
+11:37:39.056 | DEBUG    | Month of birth list is presented
+
+11:37:39.086 | DEBUG    | Month of birth selected
+
+11:37:39.093 | DEBUG    | Year of birth list is presented
+
+11:37:39.124 | DEBUG    | Year of birth selected
+
+11:37:39.178 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+11:37:39.216 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+11:37:39.225 | DEBUG    | First name field is presented
+
+11:37:39.262 | DEBUG    | First name is filled in
+
+11:37:39.269 | DEBUG    | Last name field is presented
+
+11:37:39.318 | DEBUG    | Last name is filled in
+
+11:37:39.332 | DEBUG    | Company field is presented
+
+11:37:39.384 | DEBUG    | Company is filled in
+
+11:37:39.392 | DEBUG    | Address 1 field is presented
+
+11:37:39.437 | DEBUG    | Address 1 is filled in
+
+11:37:39.447 | DEBUG    | Address 2 field is presented
+
+11:37:39.492 | DEBUG    | Address 2 is filled in
+
+11:37:39.552 | DEBUG    | State field is presented
+
+11:37:39.579 | DEBUG    | State is filled in
+
+11:37:39.584 | DEBUG    | City field is presented
+
+11:37:39.616 | DEBUG    | City is filled in
+
+11:37:39.623 | DEBUG    | Zipcode field is presented
+
+11:37:39.648 | DEBUG    | Zipcode is filled in
+
+11:37:39.653 | DEBUG    | Mobile number field is presented
+
+11:37:39.689 | DEBUG    | Mobile number is filled in
+
+11:37:41.444 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+11:37:41.459 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+11:37:41.459 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+11:37:41.464 | DEBUG    | Continue button is presented
+
+11:37:42.791 | DEBUG    | Username is correct Logged in as Michael
+
+11:37:43.878 | DEBUG    | Proceed to checkout button clicked
+
+11:37:43.891 | DEBUG    | Name is correct in the delivery information: Mrs. Michael Allen
+
+11:37:43.900 | DEBUG    | Company name is correct in the delivery information: Bridges, Smith and Morgan
+
+11:37:43.910 | DEBUG    | Address 1 is correct in the delivery information: 42588 Travis Parkways
+
+11:37:43.920 | DEBUG    | Address 2 is correct in the delivery information: Suite 605
+
+11:37:43.930 | DEBUG    | City is correct in the delivery information: Lake Kevintown Missouri 80036
+
+11:37:43.940 | DEBUG    | Country is correct in the delivery information: United States
+
+11:37:43.950 | DEBUG    | Phone is correct in the delivery information: (468)844-0689x60247
+
+11:37:43.959 | DEBUG    | Name is correct in the billing information: Mrs. Michael Allen
+
+11:37:43.969 | DEBUG    | Company name is correct in the billing information: Bridges, Smith and Morgan
+
+11:37:43.980 | DEBUG    | Address 1 is correct in the billing information: 42588 Travis Parkways
+
+11:37:43.990 | DEBUG    | Address 2 is correct in the billing information: Suite 605
+
+11:37:43.999 | DEBUG    | City is correct in the billing information: Lake Kevintown Missouri 80036
+
+11:37:44.009 | DEBUG    | Country is correct in the billing information: United States
+
+11:37:44.018 | DEBUG    | Phone is correct in the billing information: (468)844-0689x60247
+
+11:37:44.040 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+11:37:44.040 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+11:37:44.040 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+11:37:44.040 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+11:37:44.040 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+11:37:44.052 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:37:44.059 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:37:44.065 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+11:37:44.071 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+11:37:44.078 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+11:37:44.093 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:37:44.103 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:37:44.112 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+11:37:44.121 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+11:37:44.131 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+11:37:44.147 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:37:44.156 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:37:44.167 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+11:37:44.176 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+11:37:44.185 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+11:37:44.242 | DEBUG    | Comment filled in with: Thought per light wall boy early. Teach player born argue. Action themselves hotel.
+
+11:37:44.416 | DEBUG    | Place order button clicked
+
+11:37:44.453 | DEBUG    | Name on card filled in with: ****
+
+11:37:44.486 | DEBUG    | Card number filled in with: ****1597
+
+11:37:44.615 | DEBUG    | Pay and confirm button clicked
+
+11:37:46.555 | DEBUG    | Download invoice button clicked
+
+11:37:46.555 | DEBUG    | File downloaded: /home/runner/work/Marketplace/Marketplace/temp/.com.google.Chrome.PzHm9j
+
+11:37:46.556 | DEBUG    | Invoice content is valid
+
+11:37:46.732 | DEBUG    | Continue button clicked
+
+11:37:46.938 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+11:37:46.938 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+11:37:46.938 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+11:37:49.612 | DEBUG    | Continue button clicked

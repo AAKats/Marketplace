@@ -1,0 +1,13 @@
+11:36:40.995 | DEBUG    | Product "Soft Stretch Jeans" (ID: 33) opened
+
+11:36:41.049 | DEBUG    | Quantity = 8 selected
+
+11:36:41.087 | DEBUG    | Product was added to cart
+
+11:36:41.873 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+11:36:41.881 | DEBUG    | Product: Soft Stretch Jeans found in cart: Soft Stretch Jeans
+
+11:36:41.894 | DEBUG    | Product Soft Stretch Jeans price in cart: 799 matches added price: 799
+
+11:36:41.910 | DEBUG    | Product Soft Stretch Jeans quantity in cart: 8 matches added quantity: 8

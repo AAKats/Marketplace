@@ -1,0 +1,75 @@
+11:39:02.301 | DEBUG    | New user details:
+
+11:39:02.302 | DEBUG    |   name: Tammy
+
+11:39:02.302 | DEBUG    |   email: 94f5b748_dylan70@example.com
+
+11:39:02.302 | DEBUG    |   title: Mr
+
+11:39:02.302 | DEBUG    |   birth_day: 22
+
+11:39:02.302 | DEBUG    |   birth_month: 4
+
+11:39:02.302 | DEBUG    |   birth_year: 2006
+
+11:39:02.302 | DEBUG    |   firstname: Tammy
+
+11:39:02.302 | DEBUG    |   lastname: Estrada
+
+11:39:02.302 | DEBUG    |   company: Wiley, Wilkins and Jordan
+
+11:39:02.302 | DEBUG    |   address1: 052 Joel Dam
+
+11:39:02.302 | DEBUG    |   address2: Suite 656
+
+11:39:02.302 | DEBUG    |   country: Israel
+
+11:39:02.302 | DEBUG    |   state: Utah
+
+11:39:02.302 | DEBUG    |   city: Brianshire
+
+11:39:02.302 | DEBUG    |   zipcode: 31783
+
+11:39:02.434 | DEBUG    | Status code correct: 200
+
+11:39:02.435 | DEBUG    | ResponseCode correct: 201
+
+11:39:02.435 | DEBUG    | Response message correct: "User created!"
+
+11:39:02.435 | DEBUG    | Updated user details:
+
+11:39:02.435 | DEBUG    |   name: Tammy
+
+11:39:02.435 | DEBUG    |   email: 94f5b748_dylan70@example.com
+
+11:39:02.435 | DEBUG    |   title: Mr
+
+11:39:02.435 | DEBUG    |   birth_day: 22
+
+11:39:02.435 | DEBUG    |   birth_month: 4
+
+11:39:02.435 | DEBUG    |   birth_year: 2006
+
+11:39:02.435 | DEBUG    |   firstname: Tammy
+
+11:39:02.435 | DEBUG    |   lastname: Estrada
+
+11:39:02.435 | DEBUG    |   company: Wiley, Wilkins and Jordan
+
+11:39:02.435 | DEBUG    |   address1: 052 Joel Dam
+
+11:39:02.435 | DEBUG    |   address2: Suite 656
+
+11:39:02.435 | DEBUG    |   country: Israel
+
+11:39:02.435 | DEBUG    |   state: Utah
+
+11:39:02.435 | DEBUG    |   city: Brianshire
+
+11:39:02.437 | DEBUG    |   zipcode: 31783
+
+11:39:02.576 | DEBUG    | Status code correct: 200
+
+11:39:02.576 | DEBUG    | ResponseCode correct: 200
+
+11:39:02.576 | DEBUG    | Response message correct: "User updated!"

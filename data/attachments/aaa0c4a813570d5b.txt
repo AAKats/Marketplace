@@ -1,0 +1,169 @@
+11:36:44.087 | DEBUG    | Product Blue Top added, quantity 1
+
+11:36:44.942 | DEBUG    | Product Blue Top added, quantity 2
+
+11:36:45.792 | DEBUG    | Product Men Tshirt added, quantity 1
+
+11:36:46.905 | DEBUG    | Product Men Tshirt added, quantity 2
+
+11:36:47.226 | DEBUG    | Proceed to checkout button clicked
+
+11:36:47.408 | DEBUG    | Register via modal button clicked
+
+11:36:47.416 | DEBUG    | New user Signup title is presented
+
+11:36:47.422 | DEBUG    | New user Signup title text is correct
+
+11:36:47.436 | DEBUG    | Signup email field is presented
+
+11:36:47.441 | DEBUG    | Signup name field is presented
+
+11:36:47.477 | DEBUG    | Email signup field filled
+
+11:36:47.506 | DEBUG    | Name signup field filled
+
+11:36:47.712 | DEBUG    | Signup button is clicked
+
+11:36:47.722 | DEBUG    | Account information title is presented
+
+11:36:47.731 | DEBUG    | Account information title text is correct
+
+11:36:47.752 | DEBUG    | Mr radiobutton is presented
+
+11:36:47.756 | DEBUG    | Mrs radiobutton is presented
+
+11:36:47.790 | DEBUG    | Selected MR title
+
+11:36:47.796 | DEBUG    | Password field is presented
+
+11:36:47.830 | DEBUG    | Password is filled in
+
+11:36:47.836 | DEBUG    | Day of birth list is presented
+
+11:36:47.872 | DEBUG    | Day of birth selected
+
+11:36:47.878 | DEBUG    | Month of birth list is presented
+
+11:36:47.907 | DEBUG    | Month of birth selected
+
+11:36:47.913 | DEBUG    | Year of birth list is presented
+
+11:36:47.943 | DEBUG    | Year of birth selected
+
+11:36:47.976 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+11:36:47.976 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+11:36:47.982 | DEBUG    | First name field is presented
+
+11:36:48.009 | DEBUG    | First name is filled in
+
+11:36:48.015 | DEBUG    | Last name field is presented
+
+11:36:48.041 | DEBUG    | Last name is filled in
+
+11:36:48.046 | DEBUG    | Company field is presented
+
+11:36:48.080 | DEBUG    | Company is filled in
+
+11:36:48.086 | DEBUG    | Address 1 field is presented
+
+11:36:48.121 | DEBUG    | Address 1 is filled in
+
+11:36:48.128 | DEBUG    | Address 2 field is presented
+
+11:36:48.155 | DEBUG    | Address 2 is filled in
+
+11:36:48.195 | DEBUG    | State field is presented
+
+11:36:48.220 | DEBUG    | State is filled in
+
+11:36:48.227 | DEBUG    | City field is presented
+
+11:36:48.255 | DEBUG    | City is filled in
+
+11:36:48.262 | DEBUG    | Zipcode field is presented
+
+11:36:48.286 | DEBUG    | Zipcode is filled in
+
+11:36:48.293 | DEBUG    | Mobile number field is presented
+
+11:36:48.322 | DEBUG    | Mobile number is filled in
+
+11:36:49.179 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+11:36:49.194 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+11:36:49.194 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+11:36:49.198 | DEBUG    | Continue button is presented
+
+11:36:49.620 | DEBUG    | Username is correct Logged in as Laura
+
+11:36:50.502 | DEBUG    | Proceed to checkout button clicked
+
+11:36:50.516 | DEBUG    | Name is correct in the delivery information: Mr. Laura Jones
+
+11:36:50.527 | DEBUG    | Company name is correct in the delivery information: Gallagher, Ford and Riley
+
+11:36:50.537 | DEBUG    | Address 1 is correct in the delivery information: 92523 Stewart Lights Suite 388
+
+11:36:50.548 | DEBUG    | Address 2 is correct in the delivery information: Suite 411
+
+11:36:50.559 | DEBUG    | City is correct in the delivery information: New Madisonmouth Wyoming 88702
+
+11:36:50.569 | DEBUG    | Country is correct in the delivery information: New Zealand
+
+11:36:50.579 | DEBUG    | Phone is correct in the delivery information: 294-843-3635x81731
+
+11:36:50.589 | DEBUG    | Name is correct in the billing information: Mr. Laura Jones
+
+11:36:50.599 | DEBUG    | Company name is correct in the billing information: Gallagher, Ford and Riley
+
+11:36:50.609 | DEBUG    | Address 1 is correct in the billing information: 92523 Stewart Lights Suite 388
+
+11:36:50.619 | DEBUG    | Address 2 is correct in the billing information: Suite 411
+
+11:36:50.629 | DEBUG    | City is correct in the billing information: New Madisonmouth Wyoming 88702
+
+11:36:50.639 | DEBUG    | Country is correct in the billing information: New Zealand
+
+11:36:50.649 | DEBUG    | Phone is correct in the billing information: 294-843-3635x81731
+
+11:36:50.657 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+11:36:50.671 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:36:50.679 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:36:50.688 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+11:36:50.688 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+11:36:50.706 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:36:50.716 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:36:50.733 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:36:50.743 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:36:50.806 | DEBUG    | Comment filled in with: Less right democratic whatever people peace. Front seven but yet upon floor behind marriage.
+
+11:36:51.026 | DEBUG    | Place order button clicked
+
+11:36:51.075 | DEBUG    | Name on card filled in with: ****
+
+11:36:51.269 | DEBUG    | Card number filled in with: ****4572
+
+11:36:52.694 | DEBUG    | Pay and confirm button clicked
+
+11:36:52.721 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+11:36:52.946 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+11:36:52.946 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+11:36:52.946 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+11:36:53.325 | DEBUG    | Continue button clicked

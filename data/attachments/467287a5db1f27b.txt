@@ -1,0 +1,12 @@
+11:38:23.877 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+11:38:23.921 | DEBUG    | Review name field filled in with "Diamond Chavez"
+
+11:38:23.963 | DEBUG    | Review email field filled in with "6f0cb188_emorris@example.net"
+
+11:38:24.029 | DEBUG    | Review message field filled in with "The skin rule list. Top member card.
+Fire executive red meet husband miss certainly every."
+
+11:38:24.068 | DEBUG    | Submit review button clicked
+
+11:38:24.088 | DEBUG    | Success review message is displayed

@@ -1,0 +1,163 @@
+11:37:15.187 | DEBUG    | New user Signup title is presented
+
+11:37:15.197 | DEBUG    | New user Signup title text is correct
+
+11:37:15.202 | DEBUG    | Signup email field is presented
+
+11:37:15.206 | DEBUG    | Signup name field is presented
+
+11:37:15.243 | DEBUG    | Email signup field filled
+
+11:37:15.268 | DEBUG    | Name signup field filled
+
+11:37:15.443 | DEBUG    | Signup button is clicked
+
+11:37:15.455 | DEBUG    | Account information title is presented
+
+11:37:15.463 | DEBUG    | Account information title text is correct
+
+11:37:15.488 | DEBUG    | Mr radiobutton is presented
+
+11:37:15.493 | DEBUG    | Mrs radiobutton is presented
+
+11:37:15.522 | DEBUG    | Selected MR title
+
+11:37:15.528 | DEBUG    | Password field is presented
+
+11:37:15.559 | DEBUG    | Password is filled in
+
+11:37:15.564 | DEBUG    | Day of birth list is presented
+
+11:37:15.600 | DEBUG    | Day of birth selected
+
+11:37:15.605 | DEBUG    | Month of birth list is presented
+
+11:37:15.634 | DEBUG    | Month of birth selected
+
+11:37:15.640 | DEBUG    | Year of birth list is presented
+
+11:37:15.668 | DEBUG    | Year of birth selected
+
+11:37:15.700 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+11:37:15.731 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+11:37:15.736 | DEBUG    | First name field is presented
+
+11:37:15.761 | DEBUG    | First name is filled in
+
+11:37:15.766 | DEBUG    | Last name field is presented
+
+11:37:15.792 | DEBUG    | Last name is filled in
+
+11:37:15.797 | DEBUG    | Company field is presented
+
+11:37:15.831 | DEBUG    | Company is filled in
+
+11:37:15.836 | DEBUG    | Address 1 field is presented
+
+11:37:15.867 | DEBUG    | Address 1 is filled in
+
+11:37:15.873 | DEBUG    | Address 2 field is presented
+
+11:37:15.899 | DEBUG    | Address 2 is filled in
+
+11:37:15.936 | DEBUG    | State field is presented
+
+11:37:15.963 | DEBUG    | State is filled in
+
+11:37:15.968 | DEBUG    | City field is presented
+
+11:37:16.003 | DEBUG    | City is filled in
+
+11:37:16.009 | DEBUG    | Zipcode field is presented
+
+11:37:16.032 | DEBUG    | Zipcode is filled in
+
+11:37:16.037 | DEBUG    | Mobile number field is presented
+
+11:37:16.067 | DEBUG    | Mobile number is filled in
+
+11:37:16.606 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+11:37:16.622 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+11:37:16.622 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+11:37:16.626 | DEBUG    | Continue button is presented
+
+11:37:17.902 | DEBUG    | Username is correct Logged in as Mary
+
+11:37:18.782 | DEBUG    | Product Blue Top added, quantity 1
+
+11:37:19.621 | DEBUG    | Product Blue Top added, quantity 2
+
+11:37:20.473 | DEBUG    | Product Men Tshirt added, quantity 1
+
+11:37:21.827 | DEBUG    | Product Men Tshirt added, quantity 2
+
+11:37:22.690 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+11:37:24.112 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+11:37:24.405 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+11:37:24.406 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+11:37:24.406 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+11:37:24.419 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:37:24.426 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:37:24.432 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+11:37:24.450 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:37:24.461 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:37:24.470 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+11:37:24.487 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:37:24.497 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:37:24.507 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+11:37:24.797 | DEBUG    | Proceed to checkout button clicked
+
+11:37:24.810 | DEBUG    | Name is correct in the delivery information: Mr. Mary Gaines
+
+11:37:24.820 | DEBUG    | Company name is correct in the delivery information: Anderson, Williams and Winters
+
+11:37:24.830 | DEBUG    | Address 1 is correct in the delivery information: 26520 Buchanan Points
+
+11:37:24.840 | DEBUG    | Address 2 is correct in the delivery information: Suite 302
+
+11:37:24.850 | DEBUG    | City is correct in the delivery information: South Maurice Mississippi 06014
+
+11:37:24.860 | DEBUG    | Country is correct in the delivery information: Canada
+
+11:37:24.869 | DEBUG    | Phone is correct in the delivery information: +1-746-235-4255x330
+
+11:37:24.879 | DEBUG    | Name is correct in the billing information: Mr. Mary Gaines
+
+11:37:24.889 | DEBUG    | Company name is correct in the billing information: Anderson, Williams and Winters
+
+11:37:24.899 | DEBUG    | Address 1 is correct in the billing information: 26520 Buchanan Points
+
+11:37:24.909 | DEBUG    | Address 2 is correct in the billing information: Suite 302
+
+11:37:24.919 | DEBUG    | City is correct in the billing information: South Maurice Mississippi 06014
+
+11:37:24.929 | DEBUG    | Country is correct in the billing information: Canada
+
+11:37:24.940 | DEBUG    | Phone is correct in the billing information: +1-746-235-4255x330
+
+11:37:25.153 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+11:37:25.153 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+11:37:25.153 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+11:37:26.800 | DEBUG    | Continue button clicked

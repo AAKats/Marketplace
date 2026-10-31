@@ -1,0 +1,39 @@
+11:37:51.617 | DEBUG    | Main title is presented
+
+11:37:51.635 | DEBUG    | Main title is correct: CONTACT US
+
+11:37:51.640 | DEBUG    | Second title is presented
+
+11:37:51.652 | DEBUG    | Second title is correct: GET IN TOUCH
+
+11:37:51.658 | DEBUG    | Name field is presented
+
+11:37:51.686 | DEBUG    | Name field filled in with: Jeremy
+
+11:37:51.693 | DEBUG    | Email field is presented
+
+11:37:51.727 | DEBUG    | Email field filled in with: 54b23836_hmunoz@example.net
+
+11:37:51.733 | DEBUG    | Subject field is presented
+
+11:37:51.758 | DEBUG    | Subject field filled in with: Power.
+
+11:37:51.764 | DEBUG    | Message field is presented
+
+11:37:51.808 | DEBUG    | Message field filled in with: Drive appear go star early. Democratic single for piece.
+
+11:37:51.814 | DEBUG    | Upload field is presented
+
+11:37:51.826 | DEBUG    | File uploaded
+
+11:37:51.831 | DEBUG    | Submit button is presented
+
+11:37:51.882 | DEBUG    | Alert is presented
+
+11:37:51.908 | DEBUG    | Success message is presented
+
+11:37:51.909 | DEBUG    | Success message is correct
+
+11:37:51.912 | DEBUG    | Home button is presented
+
+11:37:52.634 | DEBUG    | Home button is clicked

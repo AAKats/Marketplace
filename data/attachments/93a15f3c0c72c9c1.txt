@@ -1,0 +1,165 @@
+11:38:51.005 | DEBUG    | New user Signup title is presented
+
+11:38:51.014 | DEBUG    | New user Signup title text is correct
+
+11:38:51.018 | DEBUG    | Signup email field is presented
+
+11:38:51.023 | DEBUG    | Signup name field is presented
+
+11:38:51.062 | DEBUG    | Email signup field filled
+
+11:38:51.088 | DEBUG    | Name signup field filled
+
+11:38:51.267 | DEBUG    | Signup button is clicked
+
+11:38:51.280 | DEBUG    | Account information title is presented
+
+11:38:51.288 | DEBUG    | Account information title text is correct
+
+11:38:51.308 | DEBUG    | Mr radiobutton is presented
+
+11:38:51.312 | DEBUG    | Mrs radiobutton is presented
+
+11:38:51.342 | DEBUG    | Selected MRS title
+
+11:38:51.347 | DEBUG    | Password field is presented
+
+11:38:51.377 | DEBUG    | Password is filled in
+
+11:38:51.382 | DEBUG    | Day of birth list is presented
+
+11:38:51.417 | DEBUG    | Day of birth selected
+
+11:38:51.423 | DEBUG    | Month of birth list is presented
+
+11:38:51.451 | DEBUG    | Month of birth selected
+
+11:38:51.456 | DEBUG    | Year of birth list is presented
+
+11:38:51.484 | DEBUG    | Year of birth selected
+
+11:38:51.484 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+11:38:51.516 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+11:38:51.522 | DEBUG    | First name field is presented
+
+11:38:51.546 | DEBUG    | First name is filled in
+
+11:38:51.553 | DEBUG    | Last name field is presented
+
+11:38:51.578 | DEBUG    | Last name is filled in
+
+11:38:51.583 | DEBUG    | Company field is presented
+
+11:38:51.610 | DEBUG    | Company is filled in
+
+11:38:51.615 | DEBUG    | Address 1 field is presented
+
+11:38:51.644 | DEBUG    | Address 1 is filled in
+
+11:38:51.650 | DEBUG    | Address 2 field is presented
+
+11:38:51.676 | DEBUG    | Address 2 is filled in
+
+11:38:51.713 | DEBUG    | State field is presented
+
+11:38:51.738 | DEBUG    | State is filled in
+
+11:38:51.744 | DEBUG    | City field is presented
+
+11:38:51.771 | DEBUG    | City is filled in
+
+11:38:51.776 | DEBUG    | Zipcode field is presented
+
+11:38:51.800 | DEBUG    | Zipcode is filled in
+
+11:38:51.806 | DEBUG    | Mobile number field is presented
+
+11:38:51.834 | DEBUG    | Mobile number is filled in
+
+11:38:52.432 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+11:38:52.448 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+11:38:52.448 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+11:38:52.452 | DEBUG    | Continue button is presented
+
+11:38:53.095 | DEBUG    | Username is correct Logged in as Nicole
+
+11:38:54.426 | DEBUG    | Product Blue Top added, quantity 1
+
+11:38:55.271 | DEBUG    | Product Blue Top added, quantity 2
+
+11:38:56.116 | DEBUG    | Product Men Tshirt added, quantity 1
+
+11:38:57.222 | DEBUG    | Product Men Tshirt added, quantity 2
+
+11:38:57.767 | DEBUG    | Proceed to checkout button clicked
+
+11:38:57.779 | DEBUG    | Name is correct in the delivery information: Mrs. Nicole Brown
+
+11:38:57.789 | DEBUG    | Company name is correct in the delivery information: Craig-Colon
+
+11:38:57.799 | DEBUG    | Address 1 is correct in the delivery information: 599 Green Haven
+
+11:38:57.809 | DEBUG    | Address 2 is correct in the delivery information: Suite 604
+
+11:38:57.819 | DEBUG    | City is correct in the delivery information: Millston Alabama 31360
+
+11:38:57.829 | DEBUG    | Country is correct in the delivery information: United States
+
+11:38:57.839 | DEBUG    | Phone is correct in the delivery information: 249.961.6250x31587
+
+11:38:57.850 | DEBUG    | Name is correct in the billing information: Mrs. Nicole Brown
+
+11:38:57.860 | DEBUG    | Company name is correct in the billing information: Craig-Colon
+
+11:38:57.870 | DEBUG    | Address 1 is correct in the billing information: 599 Green Haven
+
+11:38:57.880 | DEBUG    | Address 2 is correct in the billing information: Suite 604
+
+11:38:57.890 | DEBUG    | City is correct in the billing information: Millston Alabama 31360
+
+11:38:57.900 | DEBUG    | Country is correct in the billing information: United States
+
+11:38:57.910 | DEBUG    | Phone is correct in the billing information: 249.961.6250x31587
+
+11:38:57.918 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+11:38:57.932 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:38:57.939 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:38:57.947 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+11:38:57.948 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+11:38:57.964 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:38:57.974 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:38:57.990 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:38:58.001 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:38:58.063 | DEBUG    | Comment filled in with: Position sport later option energy. Center visit field worker media. Yard fly trade late man.
+
+11:38:58.256 | DEBUG    | Place order button clicked
+
+11:38:58.294 | DEBUG    | Name on card filled in with: ****
+
+11:38:58.328 | DEBUG    | Card number filled in with: ****6528
+
+11:38:59.856 | DEBUG    | Pay and confirm button clicked
+
+11:38:59.881 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+11:39:00.098 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+11:39:00.098 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+11:39:00.098 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+11:39:01.249 | DEBUG    | Continue button clicked
