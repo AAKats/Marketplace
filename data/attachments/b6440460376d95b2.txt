@@ -1,0 +1,165 @@
+18:23:54.978 | DEBUG    | New user Signup title is presented
+
+18:23:54.990 | DEBUG    | New user Signup title text is correct
+
+18:23:54.996 | DEBUG    | Signup email field is presented
+
+18:23:55.002 | DEBUG    | Signup name field is presented
+
+18:23:55.052 | DEBUG    | Email signup field filled
+
+18:23:55.087 | DEBUG    | Name signup field filled
+
+18:23:55.329 | DEBUG    | Signup button is clicked
+
+18:23:55.348 | DEBUG    | Account information title is presented
+
+18:23:55.358 | DEBUG    | Account information title text is correct
+
+18:23:55.386 | DEBUG    | Mr radiobutton is presented
+
+18:23:55.391 | DEBUG    | Mrs radiobutton is presented
+
+18:23:55.431 | DEBUG    | Selected MR title
+
+18:23:55.438 | DEBUG    | Password field is presented
+
+18:23:55.478 | DEBUG    | Password is filled in
+
+18:23:55.488 | DEBUG    | Day of birth list is presented
+
+18:23:55.535 | DEBUG    | Day of birth selected
+
+18:23:55.542 | DEBUG    | Month of birth list is presented
+
+18:23:55.583 | DEBUG    | Month of birth selected
+
+18:23:55.589 | DEBUG    | Year of birth list is presented
+
+18:23:55.628 | DEBUG    | Year of birth selected
+
+18:23:55.628 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+18:23:55.671 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+18:23:55.677 | DEBUG    | First name field is presented
+
+18:23:55.713 | DEBUG    | First name is filled in
+
+18:23:55.721 | DEBUG    | Last name field is presented
+
+18:23:55.758 | DEBUG    | Last name is filled in
+
+18:23:55.765 | DEBUG    | Company field is presented
+
+18:23:55.804 | DEBUG    | Company is filled in
+
+18:23:55.811 | DEBUG    | Address 1 field is presented
+
+18:23:55.859 | DEBUG    | Address 1 is filled in
+
+18:23:55.867 | DEBUG    | Address 2 field is presented
+
+18:23:55.902 | DEBUG    | Address 2 is filled in
+
+18:23:55.949 | DEBUG    | State field is presented
+
+18:23:55.985 | DEBUG    | State is filled in
+
+18:23:55.992 | DEBUG    | City field is presented
+
+18:23:56.028 | DEBUG    | City is filled in
+
+18:23:56.036 | DEBUG    | Zipcode field is presented
+
+18:23:56.069 | DEBUG    | Zipcode is filled in
+
+18:23:56.076 | DEBUG    | Mobile number field is presented
+
+18:23:56.112 | DEBUG    | Mobile number is filled in
+
+18:23:56.813 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+18:23:56.834 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+18:23:56.834 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+18:23:56.839 | DEBUG    | Continue button is presented
+
+18:23:57.320 | DEBUG    | Username is correct Logged in as Heather
+
+18:23:58.906 | DEBUG    | Product Blue Top added, quantity 1
+
+18:23:59.785 | DEBUG    | Product Blue Top added, quantity 2
+
+18:24:00.691 | DEBUG    | Product Men Tshirt added, quantity 1
+
+18:24:01.785 | DEBUG    | Product Men Tshirt added, quantity 2
+
+18:24:02.450 | DEBUG    | Proceed to checkout button clicked
+
+18:24:02.466 | DEBUG    | Name is correct in the delivery information: Mr. Heather Ramirez
+
+18:24:02.482 | DEBUG    | Company name is correct in the delivery information: Vaughn-Fernandez
+
+18:24:02.496 | DEBUG    | Address 1 is correct in the delivery information: 63013 Matthew Prairie Apt. 796
+
+18:24:02.511 | DEBUG    | Address 2 is correct in the delivery information: Apt. 809
+
+18:24:02.525 | DEBUG    | City is correct in the delivery information: Priceside Indiana 70928
+
+18:24:02.539 | DEBUG    | Country is correct in the delivery information: Israel
+
+18:24:02.553 | DEBUG    | Phone is correct in the delivery information: 623.381.0472
+
+18:24:02.568 | DEBUG    | Name is correct in the billing information: Mr. Heather Ramirez
+
+18:24:02.581 | DEBUG    | Company name is correct in the billing information: Vaughn-Fernandez
+
+18:24:02.595 | DEBUG    | Address 1 is correct in the billing information: 63013 Matthew Prairie Apt. 796
+
+18:24:02.608 | DEBUG    | Address 2 is correct in the billing information: Apt. 809
+
+18:24:02.623 | DEBUG    | City is correct in the billing information: Priceside Indiana 70928
+
+18:24:02.638 | DEBUG    | Country is correct in the billing information: Israel
+
+18:24:02.653 | DEBUG    | Phone is correct in the billing information: 623.381.0472
+
+18:24:02.664 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+18:24:02.685 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+18:24:02.694 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+18:24:02.707 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+18:24:02.707 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+18:24:02.730 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+18:24:02.743 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+18:24:02.766 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+18:24:02.779 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+18:24:02.858 | DEBUG    | Comment filled in with: That child put hope cold finally. Whose him little after all will fish nice.
+
+18:24:03.038 | DEBUG    | Place order button clicked
+
+18:24:03.095 | DEBUG    | Name on card filled in with: ****
+
+18:24:03.141 | DEBUG    | Card number filled in with: ****2399
+
+18:24:03.319 | DEBUG    | Pay and confirm button clicked
+
+18:24:04.619 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+18:24:04.829 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+18:24:04.829 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+18:24:04.829 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+18:24:05.279 | DEBUG    | Continue button clicked

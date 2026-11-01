@@ -1,0 +1,11 @@
+18:23:27.547 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+18:23:27.598 | DEBUG    | Review name field filled in with "Kevin Meza"
+
+18:23:27.656 | DEBUG    | Review email field filled in with "5c38f584_bmarsh@example.org"
+
+18:23:27.749 | DEBUG    | Review message field filled in with "Attack from remain. Wonder on rest catch do guess short. Worker role ball might wish analysis both."
+
+18:23:27.802 | DEBUG    | Submit review button clicked
+
+18:23:27.825 | DEBUG    | Success review message is displayed

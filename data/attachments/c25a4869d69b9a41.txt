@@ -1,0 +1,39 @@
+18:22:56.208 | DEBUG    | Main title is presented
+
+18:22:56.231 | DEBUG    | Main title is correct: CONTACT US
+
+18:22:56.237 | DEBUG    | Second title is presented
+
+18:22:56.256 | DEBUG    | Second title is correct: GET IN TOUCH
+
+18:22:56.263 | DEBUG    | Name field is presented
+
+18:22:56.303 | DEBUG    | Name field filled in with: Vicki
+
+18:22:56.310 | DEBUG    | Email field is presented
+
+18:22:56.364 | DEBUG    | Email field filled in with: 91c9beb2_melindawilliams@example.com
+
+18:22:56.373 | DEBUG    | Subject field is presented
+
+18:22:56.410 | DEBUG    | Subject field filled in with: School.
+
+18:22:56.419 | DEBUG    | Message field is presented
+
+18:22:56.489 | DEBUG    | Message field filled in with: Pick many second rather of high. Morning individual campaign career.
+
+18:22:56.496 | DEBUG    | Upload field is presented
+
+18:22:56.512 | DEBUG    | File uploaded
+
+18:22:56.519 | DEBUG    | Submit button is presented
+
+18:22:56.575 | DEBUG    | Alert is presented
+
+18:22:56.600 | DEBUG    | Success message is presented
+
+18:22:56.600 | DEBUG    | Success message is correct
+
+18:22:56.606 | DEBUG    | Home button is presented
+
+18:22:57.022 | DEBUG    | Home button is clicked

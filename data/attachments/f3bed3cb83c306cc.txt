@@ -1,0 +1,169 @@
+18:21:55.927 | DEBUG    | Product Blue Top added, quantity 1
+
+18:21:56.807 | DEBUG    | Product Blue Top added, quantity 2
+
+18:21:57.706 | DEBUG    | Product Men Tshirt added, quantity 1
+
+18:21:58.776 | DEBUG    | Product Men Tshirt added, quantity 2
+
+18:21:59.088 | DEBUG    | Proceed to checkout button clicked
+
+18:21:59.272 | DEBUG    | Register via modal button clicked
+
+18:21:59.284 | DEBUG    | New user Signup title is presented
+
+18:21:59.294 | DEBUG    | New user Signup title text is correct
+
+18:21:59.300 | DEBUG    | Signup email field is presented
+
+18:21:59.305 | DEBUG    | Signup name field is presented
+
+18:21:59.359 | DEBUG    | Email signup field filled
+
+18:21:59.396 | DEBUG    | Name signup field filled
+
+18:21:59.589 | DEBUG    | Signup button is clicked
+
+18:21:59.603 | DEBUG    | Account information title is presented
+
+18:21:59.612 | DEBUG    | Account information title text is correct
+
+18:21:59.641 | DEBUG    | Mr radiobutton is presented
+
+18:21:59.647 | DEBUG    | Mrs radiobutton is presented
+
+18:21:59.688 | DEBUG    | Selected MR title
+
+18:21:59.695 | DEBUG    | Password field is presented
+
+18:21:59.734 | DEBUG    | Password is filled in
+
+18:21:59.743 | DEBUG    | Day of birth list is presented
+
+18:21:59.791 | DEBUG    | Day of birth selected
+
+18:21:59.798 | DEBUG    | Month of birth list is presented
+
+18:21:59.839 | DEBUG    | Month of birth selected
+
+18:21:59.846 | DEBUG    | Year of birth list is presented
+
+18:21:59.885 | DEBUG    | Year of birth selected
+
+18:21:59.929 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+18:21:59.929 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+18:21:59.936 | DEBUG    | First name field is presented
+
+18:21:59.972 | DEBUG    | First name is filled in
+
+18:21:59.980 | DEBUG    | Last name field is presented
+
+18:22:00.015 | DEBUG    | Last name is filled in
+
+18:22:00.023 | DEBUG    | Company field is presented
+
+18:22:00.063 | DEBUG    | Company is filled in
+
+18:22:00.072 | DEBUG    | Address 1 field is presented
+
+18:22:00.115 | DEBUG    | Address 1 is filled in
+
+18:22:00.123 | DEBUG    | Address 2 field is presented
+
+18:22:00.160 | DEBUG    | Address 2 is filled in
+
+18:22:00.214 | DEBUG    | State field is presented
+
+18:22:00.250 | DEBUG    | State is filled in
+
+18:22:00.258 | DEBUG    | City field is presented
+
+18:22:00.296 | DEBUG    | City is filled in
+
+18:22:00.305 | DEBUG    | Zipcode field is presented
+
+18:22:00.340 | DEBUG    | Zipcode is filled in
+
+18:22:00.346 | DEBUG    | Mobile number field is presented
+
+18:22:00.383 | DEBUG    | Mobile number is filled in
+
+18:22:01.044 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+18:22:01.065 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+18:22:01.066 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+18:22:01.071 | DEBUG    | Continue button is presented
+
+18:22:01.514 | DEBUG    | Username is correct Logged in as Andrew
+
+18:22:02.281 | DEBUG    | Proceed to checkout button clicked
+
+18:22:02.298 | DEBUG    | Name is correct in the delivery information: Mr. Andrew Jones
+
+18:22:02.313 | DEBUG    | Company name is correct in the delivery information: Nichols-Jensen
+
+18:22:02.327 | DEBUG    | Address 1 is correct in the delivery information: 488 Benjamin Lock
+
+18:22:02.342 | DEBUG    | Address 2 is correct in the delivery information: Apt. 968
+
+18:22:02.356 | DEBUG    | City is correct in the delivery information: Glovershire New York 86134
+
+18:22:02.370 | DEBUG    | Country is correct in the delivery information: United States
+
+18:22:02.384 | DEBUG    | Phone is correct in the delivery information: 8285872364
+
+18:22:02.399 | DEBUG    | Name is correct in the billing information: Mr. Andrew Jones
+
+18:22:02.412 | DEBUG    | Company name is correct in the billing information: Nichols-Jensen
+
+18:22:02.426 | DEBUG    | Address 1 is correct in the billing information: 488 Benjamin Lock
+
+18:22:02.440 | DEBUG    | Address 2 is correct in the billing information: Apt. 968
+
+18:22:02.454 | DEBUG    | City is correct in the billing information: Glovershire New York 86134
+
+18:22:02.467 | DEBUG    | Country is correct in the billing information: United States
+
+18:22:02.481 | DEBUG    | Phone is correct in the billing information: 8285872364
+
+18:22:02.493 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+18:22:02.513 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+18:22:02.521 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+18:22:02.534 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+18:22:02.534 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+18:22:02.558 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+18:22:02.570 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+18:22:02.592 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+18:22:02.604 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+18:22:02.678 | DEBUG    | Comment filled in with: Cover run wall last. Soldier require point fact. Ten affect party may.
+
+18:22:02.877 | DEBUG    | Place order button clicked
+
+18:22:02.927 | DEBUG    | Name on card filled in with: ****
+
+18:22:02.974 | DEBUG    | Card number filled in with: ****7883
+
+18:22:04.437 | DEBUG    | Pay and confirm button clicked
+
+18:22:04.470 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+18:22:04.682 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+18:22:04.683 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+18:22:04.683 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+18:22:05.256 | DEBUG    | Continue button clicked

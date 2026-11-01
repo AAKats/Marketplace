@@ -1,0 +1,49 @@
+18:22:17.160 | DEBUG    | Search field is presented
+
+18:22:17.205 | DEBUG    | Search field is filled in with: "Fancy Green Top"
+
+18:22:17.212 | DEBUG    | Search button is presented
+
+18:22:17.482 | DEBUG    | Search button is clicked
+
+18:22:17.500 | DEBUG    | Title is presented
+
+18:22:17.500 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+18:22:17.504 | DEBUG    | 1 products found
+
+18:22:17.509 | DEBUG    | "Fancy Green Top" product found, and contains "Fancy Green Top"
+
+18:22:18.647 | DEBUG    | Product Fancy Green Top added, quantity 1
+
+18:22:18.912 | DEBUG    | Product: Fancy Green Top found in cart: Fancy Green Top
+
+18:22:18.932 | DEBUG    | Product Fancy Green Top price in cart: 700 matches added price: 700
+
+18:22:18.956 | DEBUG    | Product Fancy Green Top quantity in cart: 1 matches added quantity: 1
+
+18:22:18.981 | DEBUG    | Product Fancy Green Top total in cart: 700 matches expected total: 700
+
+18:22:19.206 | DEBUG    | Login email field is presented
+
+18:22:19.212 | DEBUG    | Password field is presented
+
+18:22:19.261 | DEBUG    | Email filled in
+
+18:22:19.297 | DEBUG    | Password filled in
+
+18:22:19.305 | DEBUG    | Login button is presented
+
+18:22:19.345 | DEBUG    | Login button is clicked
+
+18:22:20.508 | DEBUG    | Product: Fancy Green Top found in cart: Fancy Green Top
+
+18:22:20.525 | DEBUG    | Product Fancy Green Top price in cart: 700 matches added price: 700
+
+18:22:20.549 | DEBUG    | Product Fancy Green Top quantity in cart: 1 matches added quantity: 1
+
+18:22:20.569 | DEBUG    | Product Fancy Green Top total in cart: 700 matches expected total: 700
+
+18:22:25.197 | DEBUG    | All products deleted
+
+18:22:25.206 | DEBUG    | Empty cart text correct: Cart is empty!
