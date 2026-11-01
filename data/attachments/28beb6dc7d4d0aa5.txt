@@ -1,0 +1,17 @@
+12:34:51.923 | DEBUG    | Login title is presented
+
+12:34:51.936 | DEBUG    | Login title text is correct
+
+12:34:51.942 | DEBUG    | Login email field is presented
+
+12:34:51.948 | DEBUG    | Password field is presented
+
+12:34:52.004 | DEBUG    | Email filled in
+
+12:34:52.042 | DEBUG    | Password filled in
+
+12:34:52.048 | DEBUG    | Login button is presented
+
+12:34:53.124 | DEBUG    | Login button is clicked
+
+12:34:53.142 | DEBUG    | Username is correct Logged in as Maurice

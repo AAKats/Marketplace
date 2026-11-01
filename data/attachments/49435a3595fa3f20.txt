@@ -1,0 +1,11 @@
+12:35:23.097 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+12:35:23.148 | DEBUG    | Review name field filled in with "Ian Fowler"
+
+12:35:23.206 | DEBUG    | Review email field filled in with "a4d1b796_lee41@example.net"
+
+12:35:23.284 | DEBUG    | Review message field filled in with "Sea hospital born management travel. Politics perform face writer appear."
+
+12:35:23.335 | DEBUG    | Submit review button clicked
+
+12:35:23.362 | DEBUG    | Success review message is displayed

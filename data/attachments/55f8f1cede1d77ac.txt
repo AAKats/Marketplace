@@ -1,0 +1,165 @@
+12:35:55.897 | DEBUG    | New user Signup title is presented
+
+12:35:55.910 | DEBUG    | New user Signup title text is correct
+
+12:35:55.916 | DEBUG    | Signup email field is presented
+
+12:35:55.923 | DEBUG    | Signup name field is presented
+
+12:35:55.977 | DEBUG    | Email signup field filled
+
+12:35:56.011 | DEBUG    | Name signup field filled
+
+12:35:56.214 | DEBUG    | Signup button is clicked
+
+12:35:56.230 | DEBUG    | Account information title is presented
+
+12:35:56.241 | DEBUG    | Account information title text is correct
+
+12:35:56.267 | DEBUG    | Mr radiobutton is presented
+
+12:35:56.273 | DEBUG    | Mrs radiobutton is presented
+
+12:35:56.313 | DEBUG    | Selected MR title
+
+12:35:56.320 | DEBUG    | Password field is presented
+
+12:35:56.360 | DEBUG    | Password is filled in
+
+12:35:56.367 | DEBUG    | Day of birth list is presented
+
+12:35:56.412 | DEBUG    | Day of birth selected
+
+12:35:56.420 | DEBUG    | Month of birth list is presented
+
+12:35:56.458 | DEBUG    | Month of birth selected
+
+12:35:56.465 | DEBUG    | Year of birth list is presented
+
+12:35:56.503 | DEBUG    | Year of birth selected
+
+12:35:56.503 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+12:35:56.544 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+12:35:56.551 | DEBUG    | First name field is presented
+
+12:35:56.582 | DEBUG    | First name is filled in
+
+12:35:56.591 | DEBUG    | Last name field is presented
+
+12:35:56.625 | DEBUG    | Last name is filled in
+
+12:35:56.632 | DEBUG    | Company field is presented
+
+12:35:56.676 | DEBUG    | Company is filled in
+
+12:35:56.685 | DEBUG    | Address 1 field is presented
+
+12:35:56.728 | DEBUG    | Address 1 is filled in
+
+12:35:56.735 | DEBUG    | Address 2 field is presented
+
+12:35:56.771 | DEBUG    | Address 2 is filled in
+
+12:35:56.820 | DEBUG    | State field is presented
+
+12:35:56.859 | DEBUG    | State is filled in
+
+12:35:56.865 | DEBUG    | City field is presented
+
+12:35:56.903 | DEBUG    | City is filled in
+
+12:35:56.910 | DEBUG    | Zipcode field is presented
+
+12:35:56.944 | DEBUG    | Zipcode is filled in
+
+12:35:56.950 | DEBUG    | Mobile number field is presented
+
+12:35:56.993 | DEBUG    | Mobile number is filled in
+
+12:35:57.848 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+12:35:57.868 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+12:35:57.868 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+12:35:57.873 | DEBUG    | Continue button is presented
+
+12:35:58.517 | DEBUG    | Username is correct Logged in as Lisa
+
+12:36:00.071 | DEBUG    | Product Blue Top added, quantity 1
+
+12:36:00.956 | DEBUG    | Product Blue Top added, quantity 2
+
+12:36:01.848 | DEBUG    | Product Men Tshirt added, quantity 1
+
+12:36:03.009 | DEBUG    | Product Men Tshirt added, quantity 2
+
+12:36:03.615 | DEBUG    | Proceed to checkout button clicked
+
+12:36:03.633 | DEBUG    | Name is correct in the delivery information: Mr. Lisa Taylor
+
+12:36:03.647 | DEBUG    | Company name is correct in the delivery information: Russell LLC
+
+12:36:03.661 | DEBUG    | Address 1 is correct in the delivery information: 4872 Brock Field
+
+12:36:03.675 | DEBUG    | Address 2 is correct in the delivery information: Apt. 785
+
+12:36:03.690 | DEBUG    | City is correct in the delivery information: Brownview West Virginia 83292
+
+12:36:03.706 | DEBUG    | Country is correct in the delivery information: Israel
+
+12:36:03.719 | DEBUG    | Phone is correct in the delivery information: +1-955-492-1167x5995
+
+12:36:03.733 | DEBUG    | Name is correct in the billing information: Mr. Lisa Taylor
+
+12:36:03.746 | DEBUG    | Company name is correct in the billing information: Russell LLC
+
+12:36:03.759 | DEBUG    | Address 1 is correct in the billing information: 4872 Brock Field
+
+12:36:03.772 | DEBUG    | Address 2 is correct in the billing information: Apt. 785
+
+12:36:03.786 | DEBUG    | City is correct in the billing information: Brownview West Virginia 83292
+
+12:36:03.802 | DEBUG    | Country is correct in the billing information: Israel
+
+12:36:03.815 | DEBUG    | Phone is correct in the billing information: +1-955-492-1167x5995
+
+12:36:03.826 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+12:36:03.845 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:36:03.854 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+12:36:03.866 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+12:36:03.866 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+12:36:03.889 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+12:36:03.902 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+12:36:03.923 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+12:36:03.935 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+12:36:04.022 | DEBUG    | Comment filled in with: Culture food article street measure serve. Perhaps behind tree discuss relationship guess man.
+
+12:36:04.209 | DEBUG    | Place order button clicked
+
+12:36:04.260 | DEBUG    | Name on card filled in with: ****
+
+12:36:04.304 | DEBUG    | Card number filled in with: ****9410
+
+12:36:05.766 | DEBUG    | Pay and confirm button clicked
+
+12:36:05.799 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+12:36:06.023 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+12:36:06.023 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+12:36:06.023 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+12:36:06.762 | DEBUG    | Continue button clicked

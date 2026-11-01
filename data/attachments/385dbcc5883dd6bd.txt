@@ -1,0 +1,43 @@
+12:36:07.519 | DEBUG    | New user details:
+
+12:36:07.519 | DEBUG    |   name: Adam
+
+12:36:07.519 | DEBUG    |   email: 11659633_alexanderchapman@example.net
+
+12:36:07.519 | DEBUG    |   title: Mrs
+
+12:36:07.519 | DEBUG    |   birth_day: 9
+
+12:36:07.519 | DEBUG    |   birth_month: 10
+
+12:36:07.519 | DEBUG    |   birth_year: 1942
+
+12:36:07.519 | DEBUG    |   firstname: Adam
+
+12:36:07.519 | DEBUG    |   lastname: Miles
+
+12:36:07.519 | DEBUG    |   company: Strong PLC
+
+12:36:07.519 | DEBUG    |   address1: 5016 Traci Glen Suite 432
+
+12:36:07.519 | DEBUG    |   address2: Suite 321
+
+12:36:07.519 | DEBUG    |   country: Australia
+
+12:36:07.519 | DEBUG    |   state: New Jersey
+
+12:36:07.519 | DEBUG    |   city: Rileychester
+
+12:36:07.519 | DEBUG    |   zipcode: 40302
+
+12:36:07.629 | DEBUG    | Status code correct: 200
+
+12:36:07.629 | DEBUG    | ResponseCode correct: 201
+
+12:36:07.629 | DEBUG    | Response message correct: "User created!"
+
+12:36:07.742 | DEBUG    | Status code correct: 200
+
+12:36:07.742 | DEBUG    | ResponseCode correct: 200
+
+12:36:07.742 | DEBUG    | Response message correct: "Account deleted!"
