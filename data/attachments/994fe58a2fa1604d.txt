@@ -1,0 +1,39 @@
+20:27:41.570 | DEBUG    | Main title is presented
+
+20:27:41.593 | DEBUG    | Main title is correct: CONTACT US
+
+20:27:41.599 | DEBUG    | Second title is presented
+
+20:27:41.619 | DEBUG    | Second title is correct: GET IN TOUCH
+
+20:27:41.626 | DEBUG    | Name field is presented
+
+20:27:41.667 | DEBUG    | Name field filled in with: Sarah
+
+20:27:41.675 | DEBUG    | Email field is presented
+
+20:27:41.725 | DEBUG    | Email field filled in with: f243a069_edward81@example.net
+
+20:27:41.734 | DEBUG    | Subject field is presented
+
+20:27:41.768 | DEBUG    | Subject field filled in with: Above.
+
+20:27:41.776 | DEBUG    | Message field is presented
+
+20:27:41.851 | DEBUG    | Message field filled in with: Claim current stand third reduce finally. Pull politics personal away author out.
+
+20:27:41.858 | DEBUG    | Upload field is presented
+
+20:27:41.874 | DEBUG    | File uploaded
+
+20:27:41.880 | DEBUG    | Submit button is presented
+
+20:27:41.941 | DEBUG    | Alert is presented
+
+20:27:41.968 | DEBUG    | Success message is presented
+
+20:27:41.968 | DEBUG    | Success message is correct
+
+20:27:41.973 | DEBUG    | Home button is presented
+
+20:27:42.707 | DEBUG    | Home button is clicked

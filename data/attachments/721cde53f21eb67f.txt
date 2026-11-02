@@ -1,0 +1,169 @@
+20:26:35.558 | DEBUG    | Product Blue Top added, quantity 1
+
+20:26:36.435 | DEBUG    | Product Blue Top added, quantity 2
+
+20:26:37.312 | DEBUG    | Product Men Tshirt added, quantity 1
+
+20:26:38.423 | DEBUG    | Product Men Tshirt added, quantity 2
+
+20:26:38.872 | DEBUG    | Proceed to checkout button clicked
+
+20:26:39.073 | DEBUG    | Register via modal button clicked
+
+20:26:39.084 | DEBUG    | New user Signup title is presented
+
+20:26:39.093 | DEBUG    | New user Signup title text is correct
+
+20:26:39.109 | DEBUG    | Signup email field is presented
+
+20:26:39.114 | DEBUG    | Signup name field is presented
+
+20:26:39.167 | DEBUG    | Email signup field filled
+
+20:26:39.204 | DEBUG    | Name signup field filled
+
+20:26:39.245 | DEBUG    | Signup button is clicked
+
+20:26:39.488 | DEBUG    | Account information title is presented
+
+20:26:39.500 | DEBUG    | Account information title text is correct
+
+20:26:39.528 | DEBUG    | Mr radiobutton is presented
+
+20:26:39.534 | DEBUG    | Mrs radiobutton is presented
+
+20:26:39.575 | DEBUG    | Selected MRS title
+
+20:26:39.582 | DEBUG    | Password field is presented
+
+20:26:39.629 | DEBUG    | Password is filled in
+
+20:26:39.638 | DEBUG    | Day of birth list is presented
+
+20:26:39.686 | DEBUG    | Day of birth selected
+
+20:26:39.694 | DEBUG    | Month of birth list is presented
+
+20:26:39.734 | DEBUG    | Month of birth selected
+
+20:26:39.742 | DEBUG    | Year of birth list is presented
+
+20:26:39.782 | DEBUG    | Year of birth selected
+
+20:26:39.826 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+20:26:39.868 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+20:26:39.875 | DEBUG    | First name field is presented
+
+20:26:39.912 | DEBUG    | First name is filled in
+
+20:26:39.919 | DEBUG    | Last name field is presented
+
+20:26:39.953 | DEBUG    | Last name is filled in
+
+20:26:39.960 | DEBUG    | Company field is presented
+
+20:26:39.999 | DEBUG    | Company is filled in
+
+20:26:40.007 | DEBUG    | Address 1 field is presented
+
+20:26:40.057 | DEBUG    | Address 1 is filled in
+
+20:26:40.065 | DEBUG    | Address 2 field is presented
+
+20:26:40.101 | DEBUG    | Address 2 is filled in
+
+20:26:40.154 | DEBUG    | State field is presented
+
+20:26:40.193 | DEBUG    | State is filled in
+
+20:26:40.199 | DEBUG    | City field is presented
+
+20:26:40.241 | DEBUG    | City is filled in
+
+20:26:40.248 | DEBUG    | Zipcode field is presented
+
+20:26:40.283 | DEBUG    | Zipcode is filled in
+
+20:26:40.291 | DEBUG    | Mobile number field is presented
+
+20:26:40.330 | DEBUG    | Mobile number is filled in
+
+20:26:41.191 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+20:26:41.215 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+20:26:41.215 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+20:26:41.221 | DEBUG    | Continue button is presented
+
+20:26:42.420 | DEBUG    | Username is correct Logged in as Christopher
+
+20:26:43.214 | DEBUG    | Proceed to checkout button clicked
+
+20:26:43.232 | DEBUG    | Name is correct in the delivery information: Mrs. Christopher Smith
+
+20:26:43.247 | DEBUG    | Company name is correct in the delivery information: Smith-Torres
+
+20:26:43.262 | DEBUG    | Address 1 is correct in the delivery information: 62895 Lori Plains Apt. 814
+
+20:26:43.276 | DEBUG    | Address 2 is correct in the delivery information: Apt. 714
+
+20:26:43.291 | DEBUG    | City is correct in the delivery information: South Kathryn Colorado 26566
+
+20:26:43.307 | DEBUG    | Country is correct in the delivery information: United States
+
+20:26:43.321 | DEBUG    | Phone is correct in the delivery information: 202.360.1065
+
+20:26:43.335 | DEBUG    | Name is correct in the billing information: Mrs. Christopher Smith
+
+20:26:43.349 | DEBUG    | Company name is correct in the billing information: Smith-Torres
+
+20:26:43.363 | DEBUG    | Address 1 is correct in the billing information: 62895 Lori Plains Apt. 814
+
+20:26:43.377 | DEBUG    | Address 2 is correct in the billing information: Apt. 714
+
+20:26:43.391 | DEBUG    | City is correct in the billing information: South Kathryn Colorado 26566
+
+20:26:43.405 | DEBUG    | Country is correct in the billing information: United States
+
+20:26:43.420 | DEBUG    | Phone is correct in the billing information: 202.360.1065
+
+20:26:43.431 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+20:26:43.451 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+20:26:43.461 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+20:26:43.476 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+20:26:43.476 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+20:26:43.500 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+20:26:43.513 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+20:26:43.536 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+20:26:43.548 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+20:26:43.625 | DEBUG    | Comment filled in with: Scene ahead performance too. Personal strong stuff financial town lot letter.
+
+20:26:43.825 | DEBUG    | Place order button clicked
+
+20:26:43.880 | DEBUG    | Name on card filled in with: ****
+
+20:26:43.928 | DEBUG    | Card number filled in with: ****6577
+
+20:26:45.433 | DEBUG    | Pay and confirm button clicked
+
+20:26:45.467 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+20:26:45.706 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+20:26:45.706 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+20:26:45.706 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+20:26:46.660 | DEBUG    | Continue button clicked

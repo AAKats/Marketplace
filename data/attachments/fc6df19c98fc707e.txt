@@ -1,0 +1,67 @@
+20:28:06.475 | DEBUG    | Email filled in
+
+20:28:06.514 | DEBUG    | Password filled in
+
+20:28:06.521 | DEBUG    | Login button is presented
+
+20:28:06.561 | DEBUG    | Login button is clicked
+
+20:28:07.346 | DEBUG    | Username is correct Logged in as Erik
+
+20:28:08.279 | DEBUG    | Product Blue Top added, quantity 1
+
+20:28:09.168 | DEBUG    | Product Blue Top added, quantity 2
+
+20:28:10.297 | DEBUG    | Product Blue Top added, quantity 3
+
+20:28:10.860 | DEBUG    | Proceed to checkout button clicked
+
+20:28:10.877 | DEBUG    | Name is correct in the delivery information: Mrs. Erik Davidson
+
+20:28:10.891 | DEBUG    | Company name is correct in the delivery information: Rangel, Garcia and Hunt
+
+20:28:10.906 | DEBUG    | Address 1 is correct in the delivery information: 7921 Steele Club
+
+20:28:10.920 | DEBUG    | Address 2 is correct in the delivery information: Apt. 712
+
+20:28:10.933 | DEBUG    | City is correct in the delivery information: North Jose North Dakota 44958
+
+20:28:10.947 | DEBUG    | Country is correct in the delivery information: Australia
+
+20:28:10.960 | DEBUG    | Phone is correct in the delivery information: 001-287-718-8088
+
+20:28:10.973 | DEBUG    | Name is correct in the billing information: Mrs. Erik Davidson
+
+20:28:10.987 | DEBUG    | Company name is correct in the billing information: Rangel, Garcia and Hunt
+
+20:28:11.000 | DEBUG    | Address 1 is correct in the billing information: 7921 Steele Club
+
+20:28:11.013 | DEBUG    | Address 2 is correct in the billing information: Apt. 712
+
+20:28:11.026 | DEBUG    | City is correct in the billing information: North Jose North Dakota 44958
+
+20:28:11.039 | DEBUG    | Country is correct in the billing information: Australia
+
+20:28:11.052 | DEBUG    | Phone is correct in the billing information: 001-287-718-8088
+
+20:28:11.062 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+20:28:11.081 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+20:28:11.089 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+20:28:11.110 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+20:28:11.133 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+20:28:11.221 | DEBUG    | Comment filled in with: Sign whom they window care teacher other. Peace happen effort. Lead south step party work.
+
+20:28:11.411 | DEBUG    | Place order button clicked
+
+20:28:11.463 | DEBUG    | Name on card filled in with: ****
+
+20:28:11.509 | DEBUG    | Card number filled in with: ****0725
+
+20:28:13.032 | DEBUG    | Pay and confirm button clicked
+
+20:28:13.066 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

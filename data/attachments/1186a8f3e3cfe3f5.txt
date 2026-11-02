@@ -1,9 +1,0 @@
-14:40:10.779 | DEBUG    | (6)
-polo brand selected
-
-14:40:10.801 | DEBUG    | Category title is correct: "BRAND - POLO PRODUCTS"
-
-14:40:13.097 | DEBUG    | (5)
-h&m brand selected
-
-14:40:13.120 | DEBUG    | Category title is correct: "BRAND - H&M PRODUCTS"

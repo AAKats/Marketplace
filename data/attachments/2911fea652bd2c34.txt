@@ -1,0 +1,165 @@
+20:28:45.316 | DEBUG    | New user Signup title is presented
+
+20:28:45.329 | DEBUG    | New user Signup title text is correct
+
+20:28:45.335 | DEBUG    | Signup email field is presented
+
+20:28:45.341 | DEBUG    | Signup name field is presented
+
+20:28:45.391 | DEBUG    | Email signup field filled
+
+20:28:45.426 | DEBUG    | Name signup field filled
+
+20:28:45.468 | DEBUG    | Signup button is clicked
+
+20:28:46.006 | DEBUG    | Account information title is presented
+
+20:28:46.015 | DEBUG    | Account information title text is correct
+
+20:28:46.040 | DEBUG    | Mr radiobutton is presented
+
+20:28:46.046 | DEBUG    | Mrs radiobutton is presented
+
+20:28:46.085 | DEBUG    | Selected MRS title
+
+20:28:46.092 | DEBUG    | Password field is presented
+
+20:28:46.125 | DEBUG    | Password is filled in
+
+20:28:46.135 | DEBUG    | Day of birth list is presented
+
+20:28:46.184 | DEBUG    | Day of birth selected
+
+20:28:46.190 | DEBUG    | Month of birth list is presented
+
+20:28:46.226 | DEBUG    | Month of birth selected
+
+20:28:46.233 | DEBUG    | Year of birth list is presented
+
+20:28:46.270 | DEBUG    | Year of birth selected
+
+20:28:46.270 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+20:28:46.311 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+20:28:46.318 | DEBUG    | First name field is presented
+
+20:28:46.353 | DEBUG    | First name is filled in
+
+20:28:46.359 | DEBUG    | Last name field is presented
+
+20:28:46.394 | DEBUG    | Last name is filled in
+
+20:28:46.402 | DEBUG    | Company field is presented
+
+20:28:46.438 | DEBUG    | Company is filled in
+
+20:28:46.444 | DEBUG    | Address 1 field is presented
+
+20:28:46.490 | DEBUG    | Address 1 is filled in
+
+20:28:46.497 | DEBUG    | Address 2 field is presented
+
+20:28:46.531 | DEBUG    | Address 2 is filled in
+
+20:28:46.578 | DEBUG    | State field is presented
+
+20:28:46.615 | DEBUG    | State is filled in
+
+20:28:46.622 | DEBUG    | City field is presented
+
+20:28:46.660 | DEBUG    | City is filled in
+
+20:28:46.667 | DEBUG    | Zipcode field is presented
+
+20:28:46.701 | DEBUG    | Zipcode is filled in
+
+20:28:46.707 | DEBUG    | Mobile number field is presented
+
+20:28:46.745 | DEBUG    | Mobile number is filled in
+
+20:28:47.817 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+20:28:47.839 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+20:28:47.839 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+20:28:47.845 | DEBUG    | Continue button is presented
+
+20:28:48.630 | DEBUG    | Username is correct Logged in as Bryan
+
+20:28:50.333 | DEBUG    | Product Blue Top added, quantity 1
+
+20:28:51.209 | DEBUG    | Product Blue Top added, quantity 2
+
+20:28:52.093 | DEBUG    | Product Men Tshirt added, quantity 1
+
+20:28:53.229 | DEBUG    | Product Men Tshirt added, quantity 2
+
+20:28:53.907 | DEBUG    | Proceed to checkout button clicked
+
+20:28:53.923 | DEBUG    | Name is correct in the delivery information: Mrs. Bryan Nguyen
+
+20:28:53.938 | DEBUG    | Company name is correct in the delivery information: Black LLC
+
+20:28:53.952 | DEBUG    | Address 1 is correct in the delivery information: 580 Wolfe Drives Suite 110
+
+20:28:53.966 | DEBUG    | Address 2 is correct in the delivery information: Suite 750
+
+20:28:53.979 | DEBUG    | City is correct in the delivery information: Port Markberg Louisiana 50245
+
+20:28:53.995 | DEBUG    | Country is correct in the delivery information: Israel
+
+20:28:54.008 | DEBUG    | Phone is correct in the delivery information: +1-481-276-6207
+
+20:28:54.022 | DEBUG    | Name is correct in the billing information: Mrs. Bryan Nguyen
+
+20:28:54.037 | DEBUG    | Company name is correct in the billing information: Black LLC
+
+20:28:54.051 | DEBUG    | Address 1 is correct in the billing information: 580 Wolfe Drives Suite 110
+
+20:28:54.065 | DEBUG    | Address 2 is correct in the billing information: Suite 750
+
+20:28:54.080 | DEBUG    | City is correct in the billing information: Port Markberg Louisiana 50245
+
+20:28:54.094 | DEBUG    | Country is correct in the billing information: Israel
+
+20:28:54.108 | DEBUG    | Phone is correct in the billing information: +1-481-276-6207
+
+20:28:54.119 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+20:28:54.139 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+20:28:54.148 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+20:28:54.160 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+20:28:54.160 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+20:28:54.183 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+20:28:54.196 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+20:28:54.217 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+20:28:54.229 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+20:28:54.311 | DEBUG    | Comment filled in with: Specific better onto she avoid program inside need. Community focus whole interview.
+
+20:28:54.509 | DEBUG    | Place order button clicked
+
+20:28:54.558 | DEBUG    | Name on card filled in with: ****
+
+20:28:54.603 | DEBUG    | Card number filled in with: ****0634
+
+20:28:56.167 | DEBUG    | Pay and confirm button clicked
+
+20:28:56.205 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+20:28:56.473 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+20:28:56.473 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+20:28:56.473 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+20:28:57.093 | DEBUG    | Continue button clicked
