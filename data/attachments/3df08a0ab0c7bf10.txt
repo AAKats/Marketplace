@@ -1,0 +1,169 @@
+14:36:20.056 | DEBUG    | Product Blue Top added, quantity 1
+
+14:36:21.434 | DEBUG    | Product Blue Top added, quantity 2
+
+14:36:23.359 | DEBUG    | Product Men Tshirt added, quantity 1
+
+14:36:27.070 | DEBUG    | Product Men Tshirt added, quantity 2
+
+14:36:29.268 | DEBUG    | Proceed to checkout button clicked
+
+14:36:30.612 | DEBUG    | Register via modal button clicked
+
+14:36:30.623 | DEBUG    | New user Signup title is presented
+
+14:36:30.632 | DEBUG    | New user Signup title text is correct
+
+14:36:30.638 | DEBUG    | Signup email field is presented
+
+14:36:30.644 | DEBUG    | Signup name field is presented
+
+14:36:30.702 | DEBUG    | Email signup field filled
+
+14:36:30.737 | DEBUG    | Name signup field filled
+
+14:36:31.729 | DEBUG    | Signup button is clicked
+
+14:36:31.743 | DEBUG    | Account information title is presented
+
+14:36:31.753 | DEBUG    | Account information title text is correct
+
+14:36:31.780 | DEBUG    | Mr radiobutton is presented
+
+14:36:31.785 | DEBUG    | Mrs radiobutton is presented
+
+14:36:31.827 | DEBUG    | Selected MRS title
+
+14:36:31.834 | DEBUG    | Password field is presented
+
+14:36:31.874 | DEBUG    | Password is filled in
+
+14:36:31.883 | DEBUG    | Day of birth list is presented
+
+14:36:31.931 | DEBUG    | Day of birth selected
+
+14:36:31.937 | DEBUG    | Month of birth list is presented
+
+14:36:31.976 | DEBUG    | Month of birth selected
+
+14:36:31.985 | DEBUG    | Year of birth list is presented
+
+14:36:32.022 | DEBUG    | Year of birth selected
+
+14:36:32.065 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+14:36:32.106 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+14:36:32.112 | DEBUG    | First name field is presented
+
+14:36:32.144 | DEBUG    | First name is filled in
+
+14:36:32.152 | DEBUG    | Last name field is presented
+
+14:36:32.187 | DEBUG    | Last name is filled in
+
+14:36:32.194 | DEBUG    | Company field is presented
+
+14:36:32.234 | DEBUG    | Company is filled in
+
+14:36:32.241 | DEBUG    | Address 1 field is presented
+
+14:36:32.287 | DEBUG    | Address 1 is filled in
+
+14:36:32.294 | DEBUG    | Address 2 field is presented
+
+14:36:32.328 | DEBUG    | Address 2 is filled in
+
+14:36:32.375 | DEBUG    | State field is presented
+
+14:36:32.409 | DEBUG    | State is filled in
+
+14:36:32.417 | DEBUG    | City field is presented
+
+14:36:32.452 | DEBUG    | City is filled in
+
+14:36:32.459 | DEBUG    | Zipcode field is presented
+
+14:36:32.492 | DEBUG    | Zipcode is filled in
+
+14:36:32.500 | DEBUG    | Mobile number field is presented
+
+14:36:32.542 | DEBUG    | Mobile number is filled in
+
+14:36:36.660 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+14:36:36.681 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+14:36:36.681 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+14:36:36.686 | DEBUG    | Continue button is presented
+
+14:36:40.001 | DEBUG    | Username is correct Logged in as Ashley
+
+14:36:45.006 | DEBUG    | Proceed to checkout button clicked
+
+14:36:45.024 | DEBUG    | Name is correct in the delivery information: Mrs. Ashley Navarro
+
+14:36:45.038 | DEBUG    | Company name is correct in the delivery information: Shepherd-Roberts
+
+14:36:45.052 | DEBUG    | Address 1 is correct in the delivery information: 5603 Lori Fords Suite 519
+
+14:36:45.067 | DEBUG    | Address 2 is correct in the delivery information: Apt. 854
+
+14:36:45.082 | DEBUG    | City is correct in the delivery information: Lyonston Maine 69187
+
+14:36:45.096 | DEBUG    | Country is correct in the delivery information: Australia
+
+14:36:45.110 | DEBUG    | Phone is correct in the delivery information: 001-749-410-6237x67830
+
+14:36:45.124 | DEBUG    | Name is correct in the billing information: Mrs. Ashley Navarro
+
+14:36:45.137 | DEBUG    | Company name is correct in the billing information: Shepherd-Roberts
+
+14:36:45.151 | DEBUG    | Address 1 is correct in the billing information: 5603 Lori Fords Suite 519
+
+14:36:45.165 | DEBUG    | Address 2 is correct in the billing information: Apt. 854
+
+14:36:45.178 | DEBUG    | City is correct in the billing information: Lyonston Maine 69187
+
+14:36:45.191 | DEBUG    | Country is correct in the billing information: Australia
+
+14:36:45.204 | DEBUG    | Phone is correct in the billing information: 001-749-410-6237x67830
+
+14:36:45.215 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+14:36:45.234 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+14:36:45.243 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+14:36:45.256 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+14:36:45.256 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+14:36:45.278 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+14:36:45.291 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+14:36:45.313 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+14:36:45.325 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+14:36:45.383 | DEBUG    | Comment filled in with: Military possible suffer sure down.
+
+14:36:46.406 | DEBUG    | Place order button clicked
+
+14:36:46.457 | DEBUG    | Name on card filled in with: ****
+
+14:36:46.506 | DEBUG    | Card number filled in with: ****5399
+
+14:36:49.623 | DEBUG    | Pay and confirm button clicked
+
+14:36:49.655 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+14:36:50.152 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+14:36:50.152 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+14:36:50.152 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+14:36:51.382 | DEBUG    | Continue button clicked

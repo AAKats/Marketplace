@@ -1,0 +1,97 @@
+14:40:30.438 | DEBUG    | New user Signup title is presented
+
+14:40:30.451 | DEBUG    | New user Signup title text is correct
+
+14:40:30.459 | DEBUG    | Signup email field is presented
+
+14:40:30.465 | DEBUG    | Signup name field is presented
+
+14:40:30.519 | DEBUG    | Email signup field filled
+
+14:40:30.554 | DEBUG    | Name signup field filled
+
+14:40:30.596 | DEBUG    | Signup button is clicked
+
+14:40:31.645 | DEBUG    | Account information title is presented
+
+14:40:31.654 | DEBUG    | Account information title text is correct
+
+14:40:31.681 | DEBUG    | Mr radiobutton is presented
+
+14:40:31.686 | DEBUG    | Mrs radiobutton is presented
+
+14:40:31.726 | DEBUG    | Selected MRS title
+
+14:40:31.733 | DEBUG    | Password field is presented
+
+14:40:31.766 | DEBUG    | Password is filled in
+
+14:40:31.777 | DEBUG    | Day of birth list is presented
+
+14:40:31.827 | DEBUG    | Day of birth selected
+
+14:40:31.833 | DEBUG    | Month of birth list is presented
+
+14:40:31.872 | DEBUG    | Month of birth selected
+
+14:40:31.880 | DEBUG    | Year of birth list is presented
+
+14:40:31.921 | DEBUG    | Year of birth selected
+
+14:40:31.962 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+14:40:31.963 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+14:40:31.969 | DEBUG    | First name field is presented
+
+14:40:32.003 | DEBUG    | First name is filled in
+
+14:40:32.010 | DEBUG    | Last name field is presented
+
+14:40:32.048 | DEBUG    | Last name is filled in
+
+14:40:32.056 | DEBUG    | Company field is presented
+
+14:40:32.101 | DEBUG    | Company is filled in
+
+14:40:32.109 | DEBUG    | Address 1 field is presented
+
+14:40:32.155 | DEBUG    | Address 1 is filled in
+
+14:40:32.162 | DEBUG    | Address 2 field is presented
+
+14:40:32.197 | DEBUG    | Address 2 is filled in
+
+14:40:32.227 | DEBUG    | State field is presented
+
+14:40:32.264 | DEBUG    | State is filled in
+
+14:40:32.273 | DEBUG    | City field is presented
+
+14:40:32.310 | DEBUG    | City is filled in
+
+14:40:32.316 | DEBUG    | Zipcode field is presented
+
+14:40:32.349 | DEBUG    | Zipcode is filled in
+
+14:40:32.357 | DEBUG    | Mobile number field is presented
+
+14:40:32.399 | DEBUG    | Mobile number is filled in
+
+14:40:35.624 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+14:40:35.645 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+14:40:35.645 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+14:40:35.651 | DEBUG    | Continue button is presented
+
+14:40:38.388 | DEBUG    | Username is correct Logged in as Natalie
+
+14:40:39.631 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+14:40:39.631 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+14:40:39.631 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+14:40:42.514 | DEBUG    | Continue button clicked

@@ -1,0 +1,165 @@
+14:40:51.149 | DEBUG    | New user Signup title is presented
+
+14:40:51.162 | DEBUG    | New user Signup title text is correct
+
+14:40:51.168 | DEBUG    | Signup email field is presented
+
+14:40:51.174 | DEBUG    | Signup name field is presented
+
+14:40:51.225 | DEBUG    | Email signup field filled
+
+14:40:51.262 | DEBUG    | Name signup field filled
+
+14:40:52.124 | DEBUG    | Signup button is clicked
+
+14:40:52.141 | DEBUG    | Account information title is presented
+
+14:40:52.150 | DEBUG    | Account information title text is correct
+
+14:40:52.177 | DEBUG    | Mr radiobutton is presented
+
+14:40:52.183 | DEBUG    | Mrs radiobutton is presented
+
+14:40:52.222 | DEBUG    | Selected MR title
+
+14:40:52.229 | DEBUG    | Password field is presented
+
+14:40:52.264 | DEBUG    | Password is filled in
+
+14:40:52.274 | DEBUG    | Day of birth list is presented
+
+14:40:52.323 | DEBUG    | Day of birth selected
+
+14:40:52.330 | DEBUG    | Month of birth list is presented
+
+14:40:52.369 | DEBUG    | Month of birth selected
+
+14:40:52.376 | DEBUG    | Year of birth list is presented
+
+14:40:52.416 | DEBUG    | Year of birth selected
+
+14:40:52.460 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+14:40:52.503 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+14:40:52.509 | DEBUG    | First name field is presented
+
+14:40:52.543 | DEBUG    | First name is filled in
+
+14:40:52.550 | DEBUG    | Last name field is presented
+
+14:40:52.588 | DEBUG    | Last name is filled in
+
+14:40:52.594 | DEBUG    | Company field is presented
+
+14:40:52.634 | DEBUG    | Company is filled in
+
+14:40:52.642 | DEBUG    | Address 1 field is presented
+
+14:40:52.689 | DEBUG    | Address 1 is filled in
+
+14:40:52.695 | DEBUG    | Address 2 field is presented
+
+14:40:52.732 | DEBUG    | Address 2 is filled in
+
+14:40:52.765 | DEBUG    | State field is presented
+
+14:40:52.802 | DEBUG    | State is filled in
+
+14:40:52.809 | DEBUG    | City field is presented
+
+14:40:52.847 | DEBUG    | City is filled in
+
+14:40:52.856 | DEBUG    | Zipcode field is presented
+
+14:40:52.890 | DEBUG    | Zipcode is filled in
+
+14:40:52.897 | DEBUG    | Mobile number field is presented
+
+14:40:52.939 | DEBUG    | Mobile number is filled in
+
+14:40:56.423 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+14:40:56.446 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+14:40:56.446 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+14:40:56.452 | DEBUG    | Continue button is presented
+
+14:40:58.006 | DEBUG    | Username is correct Logged in as Mallory
+
+14:41:01.427 | DEBUG    | Product Blue Top added, quantity 1
+
+14:41:03.313 | DEBUG    | Product Blue Top added, quantity 2
+
+14:41:04.740 | DEBUG    | Product Men Tshirt added, quantity 1
+
+14:41:06.480 | DEBUG    | Product Men Tshirt added, quantity 2
+
+14:41:08.483 | DEBUG    | Proceed to checkout button clicked
+
+14:41:08.502 | DEBUG    | Name is correct in the delivery information: Mr. Mallory Williams
+
+14:41:08.516 | DEBUG    | Company name is correct in the delivery information: Thomas-Huynh
+
+14:41:08.531 | DEBUG    | Address 1 is correct in the delivery information: 27158 Jodi Glens Apt. 267
+
+14:41:08.546 | DEBUG    | Address 2 is correct in the delivery information: Apt. 254
+
+14:41:08.562 | DEBUG    | City is correct in the delivery information: New Jeffrey Vermont 05568
+
+14:41:08.576 | DEBUG    | Country is correct in the delivery information: India
+
+14:41:08.590 | DEBUG    | Phone is correct in the delivery information: 001-705-460-8913
+
+14:41:08.605 | DEBUG    | Name is correct in the billing information: Mr. Mallory Williams
+
+14:41:08.619 | DEBUG    | Company name is correct in the billing information: Thomas-Huynh
+
+14:41:08.634 | DEBUG    | Address 1 is correct in the billing information: 27158 Jodi Glens Apt. 267
+
+14:41:08.647 | DEBUG    | Address 2 is correct in the billing information: Apt. 254
+
+14:41:08.661 | DEBUG    | City is correct in the billing information: New Jeffrey Vermont 05568
+
+14:41:08.676 | DEBUG    | Country is correct in the billing information: India
+
+14:41:08.692 | DEBUG    | Phone is correct in the billing information: 001-705-460-8913
+
+14:41:08.704 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+14:41:08.724 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+14:41:08.734 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+14:41:08.749 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+14:41:08.749 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+14:41:08.772 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+14:41:08.785 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+14:41:08.806 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+14:41:08.819 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+14:41:08.897 | DEBUG    | Comment filled in with: Child way question whom until. High actually likely contain hand rate Mr likely.
+
+14:41:09.201 | DEBUG    | Place order button clicked
+
+14:41:09.254 | DEBUG    | Name on card filled in with: ****
+
+14:41:09.298 | DEBUG    | Card number filled in with: ****8951
+
+14:41:11.434 | DEBUG    | Pay and confirm button clicked
+
+14:41:11.467 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+14:41:11.828 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+14:41:11.828 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+14:41:11.828 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+14:41:13.482 | DEBUG    | Continue button clicked

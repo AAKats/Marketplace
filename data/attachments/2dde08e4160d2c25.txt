@@ -1,0 +1,75 @@
+14:41:17.595 | DEBUG    | New user details:
+
+14:41:17.595 | DEBUG    |   name: Kristina
+
+14:41:17.595 | DEBUG    |   email: 7edd82ed_xwagner@example.net
+
+14:41:17.595 | DEBUG    |   title: Mrs
+
+14:41:17.595 | DEBUG    |   birth_day: 24
+
+14:41:17.595 | DEBUG    |   birth_month: 3
+
+14:41:17.595 | DEBUG    |   birth_year: 2002
+
+14:41:17.595 | DEBUG    |   firstname: Kristina
+
+14:41:17.595 | DEBUG    |   lastname: Johnston
+
+14:41:17.595 | DEBUG    |   company: Johnson Inc
+
+14:41:17.595 | DEBUG    |   address1: 663 Mullins Knoll Suite 393
+
+14:41:17.595 | DEBUG    |   address2: Suite 643
+
+14:41:17.595 | DEBUG    |   country: Singapore
+
+14:41:17.596 | DEBUG    |   state: Oklahoma
+
+14:41:17.596 | DEBUG    |   city: Sheltonhaven
+
+14:41:17.596 | DEBUG    |   zipcode: 54280
+
+14:41:18.074 | DEBUG    | Status code correct: 200
+
+14:41:18.074 | DEBUG    | ResponseCode correct: 201
+
+14:41:18.074 | DEBUG    | Response message correct: "User created!"
+
+14:41:18.074 | DEBUG    | Updated user details:
+
+14:41:18.074 | DEBUG    |   name: Kristina
+
+14:41:18.074 | DEBUG    |   email: 7edd82ed_xwagner@example.net
+
+14:41:18.074 | DEBUG    |   title: Mrs
+
+14:41:18.074 | DEBUG    |   birth_day: 24
+
+14:41:18.075 | DEBUG    |   birth_month: 3
+
+14:41:18.075 | DEBUG    |   birth_year: 2002
+
+14:41:18.075 | DEBUG    |   firstname: Kristina
+
+14:41:18.075 | DEBUG    |   lastname: Johnston
+
+14:41:18.075 | DEBUG    |   company: Johnson Inc
+
+14:41:18.075 | DEBUG    |   address1: 663 Mullins Knoll Suite 393
+
+14:41:18.075 | DEBUG    |   address2: Suite 643
+
+14:41:18.075 | DEBUG    |   country: Singapore
+
+14:41:18.075 | DEBUG    |   state: Oklahoma
+
+14:41:18.075 | DEBUG    |   city: Sheltonhaven
+
+14:41:18.076 | DEBUG    |   zipcode: 54280
+
+14:41:18.567 | DEBUG    | Status code correct: 200
+
+14:41:18.568 | DEBUG    | ResponseCode correct: 200
+
+14:41:18.568 | DEBUG    | Response message correct: "User updated!"

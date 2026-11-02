@@ -1,0 +1,13 @@
+14:36:10.192 | DEBUG    | Product "Stylish Dress" (ID: 4) opened
+
+14:36:10.256 | DEBUG    | Quantity = 4 selected
+
+14:36:10.305 | DEBUG    | Product was added to cart
+
+14:36:11.883 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+14:36:11.893 | DEBUG    | Product: Stylish Dress found in cart: Stylish Dress
+
+14:36:11.911 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+14:36:11.934 | DEBUG    | Product Stylish Dress quantity in cart: 4 matches added quantity: 4

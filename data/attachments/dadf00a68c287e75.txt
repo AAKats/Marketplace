@@ -1,0 +1,163 @@
+14:37:33.728 | DEBUG    | New user Signup title is presented
+
+14:37:33.740 | DEBUG    | New user Signup title text is correct
+
+14:37:33.746 | DEBUG    | Signup email field is presented
+
+14:37:33.751 | DEBUG    | Signup name field is presented
+
+14:37:33.802 | DEBUG    | Email signup field filled
+
+14:37:33.842 | DEBUG    | Name signup field filled
+
+14:37:33.885 | DEBUG    | Signup button is clicked
+
+14:37:34.943 | DEBUG    | Account information title is presented
+
+14:37:34.952 | DEBUG    | Account information title text is correct
+
+14:37:34.985 | DEBUG    | Mr radiobutton is presented
+
+14:37:34.991 | DEBUG    | Mrs radiobutton is presented
+
+14:37:35.031 | DEBUG    | Selected MR title
+
+14:37:35.037 | DEBUG    | Password field is presented
+
+14:37:35.074 | DEBUG    | Password is filled in
+
+14:37:35.084 | DEBUG    | Day of birth list is presented
+
+14:37:35.134 | DEBUG    | Day of birth selected
+
+14:37:35.140 | DEBUG    | Month of birth list is presented
+
+14:37:35.180 | DEBUG    | Month of birth selected
+
+14:37:35.187 | DEBUG    | Year of birth list is presented
+
+14:37:35.226 | DEBUG    | Year of birth selected
+
+14:37:35.227 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+14:37:35.269 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+14:37:35.276 | DEBUG    | First name field is presented
+
+14:37:35.313 | DEBUG    | First name is filled in
+
+14:37:35.319 | DEBUG    | Last name field is presented
+
+14:37:35.353 | DEBUG    | Last name is filled in
+
+14:37:35.361 | DEBUG    | Company field is presented
+
+14:37:35.398 | DEBUG    | Company is filled in
+
+14:37:35.405 | DEBUG    | Address 1 field is presented
+
+14:37:35.443 | DEBUG    | Address 1 is filled in
+
+14:37:35.451 | DEBUG    | Address 2 field is presented
+
+14:37:35.488 | DEBUG    | Address 2 is filled in
+
+14:37:35.519 | DEBUG    | State field is presented
+
+14:37:35.553 | DEBUG    | State is filled in
+
+14:37:35.560 | DEBUG    | City field is presented
+
+14:37:35.599 | DEBUG    | City is filled in
+
+14:37:35.605 | DEBUG    | Zipcode field is presented
+
+14:37:35.639 | DEBUG    | Zipcode is filled in
+
+14:37:35.646 | DEBUG    | Mobile number field is presented
+
+14:37:35.688 | DEBUG    | Mobile number is filled in
+
+14:37:39.448 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+14:37:39.470 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+14:37:39.470 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+14:37:39.475 | DEBUG    | Continue button is presented
+
+14:37:42.720 | DEBUG    | Username is correct Logged in as Kimberly
+
+14:37:44.146 | DEBUG    | Product Blue Top added, quantity 1
+
+14:37:46.039 | DEBUG    | Product Blue Top added, quantity 2
+
+14:37:46.955 | DEBUG    | Product Men Tshirt added, quantity 1
+
+14:37:48.355 | DEBUG    | Product Men Tshirt added, quantity 2
+
+14:37:50.261 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+14:37:52.885 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+14:37:53.720 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+14:37:53.720 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+14:37:53.721 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+14:37:53.739 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+14:37:53.748 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+14:37:53.756 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+14:37:53.779 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+14:37:53.791 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+14:37:53.805 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+14:37:53.829 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+14:37:53.842 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+14:37:53.855 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+14:37:54.914 | DEBUG    | Proceed to checkout button clicked
+
+14:37:54.931 | DEBUG    | Name is correct in the delivery information: Mr. Kimberly Brown
+
+14:37:54.947 | DEBUG    | Company name is correct in the delivery information: Davies PLC
+
+14:37:54.961 | DEBUG    | Address 1 is correct in the delivery information: 379 Daniel Cape
+
+14:37:54.974 | DEBUG    | Address 2 is correct in the delivery information: Suite 524
+
+14:37:54.989 | DEBUG    | City is correct in the delivery information: Angelaland Alabama 56202
+
+14:37:55.003 | DEBUG    | Country is correct in the delivery information: India
+
+14:37:55.017 | DEBUG    | Phone is correct in the delivery information: (265)815-2198x7605
+
+14:37:55.031 | DEBUG    | Name is correct in the billing information: Mr. Kimberly Brown
+
+14:37:55.045 | DEBUG    | Company name is correct in the billing information: Davies PLC
+
+14:37:55.059 | DEBUG    | Address 1 is correct in the billing information: 379 Daniel Cape
+
+14:37:55.073 | DEBUG    | Address 2 is correct in the billing information: Suite 524
+
+14:37:55.087 | DEBUG    | City is correct in the billing information: Angelaland Alabama 56202
+
+14:37:55.101 | DEBUG    | Country is correct in the billing information: India
+
+14:37:55.117 | DEBUG    | Phone is correct in the billing information: (265)815-2198x7605
+
+14:37:55.941 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+14:37:55.941 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+14:37:55.941 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+14:37:58.094 | DEBUG    | Continue button clicked
