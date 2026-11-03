@@ -1,0 +1,163 @@
+13:31:11.726 | DEBUG    | New user Signup title is presented
+
+13:31:11.736 | DEBUG    | New user Signup title text is correct
+
+13:31:11.740 | DEBUG    | Signup email field is presented
+
+13:31:11.745 | DEBUG    | Signup name field is presented
+
+13:31:11.784 | DEBUG    | Email signup field filled
+
+13:31:11.811 | DEBUG    | Name signup field filled
+
+13:31:12.595 | DEBUG    | Signup button is clicked
+
+13:31:12.607 | DEBUG    | Account information title is presented
+
+13:31:12.614 | DEBUG    | Account information title text is correct
+
+13:31:12.640 | DEBUG    | Mr radiobutton is presented
+
+13:31:12.644 | DEBUG    | Mrs radiobutton is presented
+
+13:31:12.675 | DEBUG    | Selected MR title
+
+13:31:12.681 | DEBUG    | Password field is presented
+
+13:31:12.712 | DEBUG    | Password is filled in
+
+13:31:12.717 | DEBUG    | Day of birth list is presented
+
+13:31:12.754 | DEBUG    | Day of birth selected
+
+13:31:12.760 | DEBUG    | Month of birth list is presented
+
+13:31:12.790 | DEBUG    | Month of birth selected
+
+13:31:12.795 | DEBUG    | Year of birth list is presented
+
+13:31:12.828 | DEBUG    | Year of birth selected
+
+13:31:12.828 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+13:31:12.828 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+13:31:12.833 | DEBUG    | First name field is presented
+
+13:31:12.862 | DEBUG    | First name is filled in
+
+13:31:12.867 | DEBUG    | Last name field is presented
+
+13:31:12.894 | DEBUG    | Last name is filled in
+
+13:31:12.900 | DEBUG    | Company field is presented
+
+13:31:12.929 | DEBUG    | Company is filled in
+
+13:31:12.935 | DEBUG    | Address 1 field is presented
+
+13:31:12.966 | DEBUG    | Address 1 is filled in
+
+13:31:12.974 | DEBUG    | Address 2 field is presented
+
+13:31:13.001 | DEBUG    | Address 2 is filled in
+
+13:31:13.040 | DEBUG    | State field is presented
+
+13:31:13.069 | DEBUG    | State is filled in
+
+13:31:13.075 | DEBUG    | City field is presented
+
+13:31:13.103 | DEBUG    | City is filled in
+
+13:31:13.110 | DEBUG    | Zipcode field is presented
+
+13:31:13.135 | DEBUG    | Zipcode is filled in
+
+13:31:13.142 | DEBUG    | Mobile number field is presented
+
+13:31:13.174 | DEBUG    | Mobile number is filled in
+
+13:31:14.698 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:31:14.713 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:31:14.713 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:31:14.718 | DEBUG    | Continue button is presented
+
+13:31:15.332 | DEBUG    | Username is correct Logged in as Ronald
+
+13:31:16.233 | DEBUG    | Product Blue Top added, quantity 1
+
+13:31:17.089 | DEBUG    | Product Blue Top added, quantity 2
+
+13:31:18.445 | DEBUG    | Product Men Tshirt added, quantity 1
+
+13:31:19.795 | DEBUG    | Product Men Tshirt added, quantity 2
+
+13:31:21.161 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+13:31:22.790 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+13:31:23.780 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+13:31:23.780 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+13:31:23.780 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+13:31:23.797 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:31:23.804 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:31:23.812 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+13:31:23.833 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:31:23.843 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:31:23.853 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+13:31:23.870 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:31:23.879 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:31:23.889 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+13:31:24.588 | DEBUG    | Proceed to checkout button clicked
+
+13:31:24.600 | DEBUG    | Name is correct in the delivery information: Mr. Ronald Cox
+
+13:31:24.611 | DEBUG    | Company name is correct in the delivery information: Johnson Ltd
+
+13:31:24.622 | DEBUG    | Address 1 is correct in the delivery information: 803 Ray Extensions
+
+13:31:24.631 | DEBUG    | Address 2 is correct in the delivery information: Apt. 465
+
+13:31:24.641 | DEBUG    | City is correct in the delivery information: Shelbyport Rhode Island 68920
+
+13:31:24.650 | DEBUG    | Country is correct in the delivery information: United States
+
+13:31:24.662 | DEBUG    | Phone is correct in the delivery information: 001-375-439-7409x6611
+
+13:31:24.672 | DEBUG    | Name is correct in the billing information: Mr. Ronald Cox
+
+13:31:24.682 | DEBUG    | Company name is correct in the billing information: Johnson Ltd
+
+13:31:24.693 | DEBUG    | Address 1 is correct in the billing information: 803 Ray Extensions
+
+13:31:24.703 | DEBUG    | Address 2 is correct in the billing information: Apt. 465
+
+13:31:24.713 | DEBUG    | City is correct in the billing information: Shelbyport Rhode Island 68920
+
+13:31:24.724 | DEBUG    | Country is correct in the billing information: United States
+
+13:31:24.734 | DEBUG    | Phone is correct in the billing information: 001-375-439-7409x6611
+
+13:31:24.944 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+13:31:24.944 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+13:31:24.944 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+13:31:25.715 | DEBUG    | Continue button clicked

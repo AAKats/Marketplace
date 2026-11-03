@@ -1,0 +1,13 @@
+13:30:20.786 | DEBUG    | Product "Green Side Placket Detail T-Shirt" (ID: 29) opened
+
+13:30:20.839 | DEBUG    | Quantity = 7 selected
+
+13:30:20.875 | DEBUG    | Product was added to cart
+
+13:30:21.897 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+13:30:21.905 | DEBUG    | Product: Green Side Placket Detail T-Shirt found in cart: Green Side Placket Detail T-Shirt
+
+13:30:21.918 | DEBUG    | Product Green Side Placket Detail T-Shirt price in cart: 1000 matches added price: 1000
+
+13:30:21.934 | DEBUG    | Product Green Side Placket Detail T-Shirt quantity in cart: 7 matches added quantity: 7

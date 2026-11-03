@@ -1,5 +1,0 @@
-20:28:57.966 | DEBUG    | Status code correct: 200
-
-20:28:57.966 | DEBUG    | ResponseCode correct: 404
-
-20:28:57.966 | DEBUG    | Response message correct: "User not found!"

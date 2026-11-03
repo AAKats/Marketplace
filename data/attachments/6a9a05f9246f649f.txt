@@ -1,0 +1,43 @@
+13:33:08.082 | DEBUG    | New user details:
+
+13:33:08.082 | DEBUG    |   name: Chelsea
+
+13:33:08.082 | DEBUG    |   email: be9043ef_mroberts@example.com
+
+13:33:08.082 | DEBUG    |   title: Mr
+
+13:33:08.082 | DEBUG    |   birth_day: 6
+
+13:33:08.082 | DEBUG    |   birth_month: 4
+
+13:33:08.082 | DEBUG    |   birth_year: 1936
+
+13:33:08.082 | DEBUG    |   firstname: Chelsea
+
+13:33:08.082 | DEBUG    |   lastname: Rodriguez
+
+13:33:08.082 | DEBUG    |   company: Schwartz Inc
+
+13:33:08.082 | DEBUG    |   address1: 13533 Thomas Flat
+
+13:33:08.082 | DEBUG    |   address2: Apt. 983
+
+13:33:08.082 | DEBUG    |   country: Israel
+
+13:33:08.082 | DEBUG    |   state: Idaho
+
+13:33:08.082 | DEBUG    |   city: West Matthewton
+
+13:33:08.082 | DEBUG    |   zipcode: 19893
+
+13:33:08.167 | DEBUG    | Status code correct: 200
+
+13:33:08.167 | DEBUG    | ResponseCode correct: 201
+
+13:33:08.167 | DEBUG    | Response message correct: "User created!"
+
+13:33:08.272 | DEBUG    | Status code correct: 200
+
+13:33:08.273 | DEBUG    | ResponseCode correct: 200
+
+13:33:08.273 | DEBUG    | Response message correct: "Account deleted!"

@@ -1,0 +1,11 @@
+13:32:26.545 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+13:32:26.590 | DEBUG    | Review name field filled in with "Rebecca Daniels"
+
+13:32:26.637 | DEBUG    | Review email field filled in with "d2c5f2be_fernandezbrandon@example.org"
+
+13:32:26.691 | DEBUG    | Review message field filled in with "Cold eat tree for. Kind hit area. Join account job company."
+
+13:32:26.731 | DEBUG    | Submit review button clicked
+
+13:32:26.754 | DEBUG    | Success review message is displayed

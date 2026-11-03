@@ -1,0 +1,169 @@
+13:30:30.558 | DEBUG    | Product Blue Top added, quantity 1
+
+13:30:31.403 | DEBUG    | Product Blue Top added, quantity 2
+
+13:30:32.258 | DEBUG    | Product Men Tshirt added, quantity 1
+
+13:30:33.294 | DEBUG    | Product Men Tshirt added, quantity 2
+
+13:30:33.623 | DEBUG    | Proceed to checkout button clicked
+
+13:30:33.791 | DEBUG    | Register via modal button clicked
+
+13:30:33.799 | DEBUG    | New user Signup title is presented
+
+13:30:33.806 | DEBUG    | New user Signup title text is correct
+
+13:30:33.811 | DEBUG    | Signup email field is presented
+
+13:30:33.815 | DEBUG    | Signup name field is presented
+
+13:30:33.854 | DEBUG    | Email signup field filled
+
+13:30:33.896 | DEBUG    | Name signup field filled
+
+13:30:34.058 | DEBUG    | Signup button is clicked
+
+13:30:34.068 | DEBUG    | Account information title is presented
+
+13:30:34.076 | DEBUG    | Account information title text is correct
+
+13:30:34.095 | DEBUG    | Mr radiobutton is presented
+
+13:30:34.100 | DEBUG    | Mrs radiobutton is presented
+
+13:30:34.134 | DEBUG    | Selected MR title
+
+13:30:34.140 | DEBUG    | Password field is presented
+
+13:30:34.170 | DEBUG    | Password is filled in
+
+13:30:34.179 | DEBUG    | Day of birth list is presented
+
+13:30:34.215 | DEBUG    | Day of birth selected
+
+13:30:34.220 | DEBUG    | Month of birth list is presented
+
+13:30:34.251 | DEBUG    | Month of birth selected
+
+13:30:34.257 | DEBUG    | Year of birth list is presented
+
+13:30:34.293 | DEBUG    | Year of birth selected
+
+13:30:34.329 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+13:30:34.360 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+13:30:34.366 | DEBUG    | First name field is presented
+
+13:30:34.397 | DEBUG    | First name is filled in
+
+13:30:34.403 | DEBUG    | Last name field is presented
+
+13:30:34.434 | DEBUG    | Last name is filled in
+
+13:30:34.442 | DEBUG    | Company field is presented
+
+13:30:34.485 | DEBUG    | Company is filled in
+
+13:30:34.493 | DEBUG    | Address 1 field is presented
+
+13:30:34.536 | DEBUG    | Address 1 is filled in
+
+13:30:34.543 | DEBUG    | Address 2 field is presented
+
+13:30:34.576 | DEBUG    | Address 2 is filled in
+
+13:30:34.623 | DEBUG    | State field is presented
+
+13:30:34.656 | DEBUG    | State is filled in
+
+13:30:34.663 | DEBUG    | City field is presented
+
+13:30:34.717 | DEBUG    | City is filled in
+
+13:30:34.726 | DEBUG    | Zipcode field is presented
+
+13:30:34.765 | DEBUG    | Zipcode is filled in
+
+13:30:34.774 | DEBUG    | Mobile number field is presented
+
+13:30:34.827 | DEBUG    | Mobile number is filled in
+
+13:30:36.616 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:30:36.632 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:30:36.632 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:30:36.636 | DEBUG    | Continue button is presented
+
+13:30:37.279 | DEBUG    | Username is correct Logged in as Jay
+
+13:30:38.077 | DEBUG    | Proceed to checkout button clicked
+
+13:30:38.090 | DEBUG    | Name is correct in the delivery information: Mr. Jay Harris
+
+13:30:38.100 | DEBUG    | Company name is correct in the delivery information: Massey, White and Jones
+
+13:30:38.110 | DEBUG    | Address 1 is correct in the delivery information: 822 Derrick Camp Apt. 107
+
+13:30:38.120 | DEBUG    | Address 2 is correct in the delivery information: Suite 802
+
+13:30:38.130 | DEBUG    | City is correct in the delivery information: Port Jessica Colorado 89316
+
+13:30:38.140 | DEBUG    | Country is correct in the delivery information: Canada
+
+13:30:38.150 | DEBUG    | Phone is correct in the delivery information: (300)519-2753x79455
+
+13:30:38.160 | DEBUG    | Name is correct in the billing information: Mr. Jay Harris
+
+13:30:38.169 | DEBUG    | Company name is correct in the billing information: Massey, White and Jones
+
+13:30:38.179 | DEBUG    | Address 1 is correct in the billing information: 822 Derrick Camp Apt. 107
+
+13:30:38.188 | DEBUG    | Address 2 is correct in the billing information: Suite 802
+
+13:30:38.198 | DEBUG    | City is correct in the billing information: Port Jessica Colorado 89316
+
+13:30:38.208 | DEBUG    | Country is correct in the billing information: Canada
+
+13:30:38.218 | DEBUG    | Phone is correct in the billing information: (300)519-2753x79455
+
+13:30:38.225 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+13:30:38.240 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:30:38.246 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:30:38.255 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+13:30:38.255 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+13:30:38.271 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:30:38.281 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:30:38.297 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:30:38.307 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:30:38.349 | DEBUG    | Comment filled in with: World paper represent north fact sing.
+
+13:30:38.900 | DEBUG    | Place order button clicked
+
+13:30:38.936 | DEBUG    | Name on card filled in with: ****
+
+13:30:38.969 | DEBUG    | Card number filled in with: ****5617
+
+13:30:40.385 | DEBUG    | Pay and confirm button clicked
+
+13:30:40.409 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+13:30:40.579 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+13:30:40.579 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+13:30:40.579 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+13:30:41.069 | DEBUG    | Continue button clicked

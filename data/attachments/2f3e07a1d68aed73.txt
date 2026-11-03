@@ -1,0 +1,37 @@
+13:33:07.987 | DEBUG    | New user details:
+
+13:33:07.987 | DEBUG    |   name: Steven
+
+13:33:07.987 | DEBUG    |   email: a52b5559_colescott@example.org
+
+13:33:07.987 | DEBUG    |   title: Mr
+
+13:33:07.987 | DEBUG    |   birth_day: 18
+
+13:33:07.987 | DEBUG    |   birth_month: 1
+
+13:33:07.987 | DEBUG    |   birth_year: 1988
+
+13:33:07.987 | DEBUG    |   firstname: Steven
+
+13:33:07.987 | DEBUG    |   lastname: Harmon
+
+13:33:07.987 | DEBUG    |   company: Miller-Medina
+
+13:33:07.987 | DEBUG    |   address1: 947 Avery Falls Apt. 784
+
+13:33:07.987 | DEBUG    |   address2: Suite 071
+
+13:33:07.987 | DEBUG    |   country: Israel
+
+13:33:07.987 | DEBUG    |   state: Minnesota
+
+13:33:07.987 | DEBUG    |   city: Rossmouth
+
+13:33:07.987 | DEBUG    |   zipcode: 03740
+
+13:33:08.075 | DEBUG    | Status code correct: 200
+
+13:33:08.075 | DEBUG    | ResponseCode correct: 201
+
+13:33:08.075 | DEBUG    | Response message correct: "User created!"
