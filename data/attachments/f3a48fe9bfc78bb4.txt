@@ -1,0 +1,39 @@
+18:21:08.864 | DEBUG    | Main title is presented
+
+18:21:08.887 | DEBUG    | Main title is correct: CONTACT US
+
+18:21:08.893 | DEBUG    | Second title is presented
+
+18:21:08.910 | DEBUG    | Second title is correct: GET IN TOUCH
+
+18:21:08.917 | DEBUG    | Name field is presented
+
+18:21:08.954 | DEBUG    | Name field filled in with: Susan
+
+18:21:08.962 | DEBUG    | Email field is presented
+
+18:21:09.006 | DEBUG    | Email field filled in with: ad6d3b19_yware@example.org
+
+18:21:09.015 | DEBUG    | Subject field is presented
+
+18:21:09.049 | DEBUG    | Subject field filled in with: Million.
+
+18:21:09.057 | DEBUG    | Message field is presented
+
+18:21:09.136 | DEBUG    | Message field filled in with: Sense suddenly between true. Individual behavior police stuff. Improve behind teach college.
+
+18:21:09.143 | DEBUG    | Upload field is presented
+
+18:21:09.160 | DEBUG    | File uploaded
+
+18:21:09.166 | DEBUG    | Submit button is presented
+
+18:21:09.226 | DEBUG    | Alert is presented
+
+18:21:09.264 | DEBUG    | Success message is presented
+
+18:21:09.264 | DEBUG    | Success message is correct
+
+18:21:09.269 | DEBUG    | Home button is presented
+
+18:21:10.146 | DEBUG    | Home button is clicked

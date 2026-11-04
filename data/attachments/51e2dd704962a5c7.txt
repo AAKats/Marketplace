@@ -1,0 +1,163 @@
+18:20:32.351 | DEBUG    | New user Signup title is presented
+
+18:20:32.363 | DEBUG    | New user Signup title text is correct
+
+18:20:32.369 | DEBUG    | Signup email field is presented
+
+18:20:32.376 | DEBUG    | Signup name field is presented
+
+18:20:32.424 | DEBUG    | Email signup field filled
+
+18:20:32.459 | DEBUG    | Name signup field filled
+
+18:20:32.506 | DEBUG    | Signup button is clicked
+
+18:20:32.915 | DEBUG    | Account information title is presented
+
+18:20:32.924 | DEBUG    | Account information title text is correct
+
+18:20:32.958 | DEBUG    | Mr radiobutton is presented
+
+18:20:32.965 | DEBUG    | Mrs radiobutton is presented
+
+18:20:33.005 | DEBUG    | Selected MR title
+
+18:20:33.013 | DEBUG    | Password field is presented
+
+18:20:33.051 | DEBUG    | Password is filled in
+
+18:20:33.059 | DEBUG    | Day of birth list is presented
+
+18:20:33.112 | DEBUG    | Day of birth selected
+
+18:20:33.120 | DEBUG    | Month of birth list is presented
+
+18:20:33.162 | DEBUG    | Month of birth selected
+
+18:20:33.170 | DEBUG    | Year of birth list is presented
+
+18:20:33.213 | DEBUG    | Year of birth selected
+
+18:20:33.255 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+18:20:33.296 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+18:20:33.303 | DEBUG    | First name field is presented
+
+18:20:33.336 | DEBUG    | First name is filled in
+
+18:20:33.343 | DEBUG    | Last name field is presented
+
+18:20:33.380 | DEBUG    | Last name is filled in
+
+18:20:33.386 | DEBUG    | Company field is presented
+
+18:20:33.422 | DEBUG    | Company is filled in
+
+18:20:33.430 | DEBUG    | Address 1 field is presented
+
+18:20:33.472 | DEBUG    | Address 1 is filled in
+
+18:20:33.480 | DEBUG    | Address 2 field is presented
+
+18:20:33.515 | DEBUG    | Address 2 is filled in
+
+18:20:33.547 | DEBUG    | State field is presented
+
+18:20:33.581 | DEBUG    | State is filled in
+
+18:20:33.588 | DEBUG    | City field is presented
+
+18:20:33.628 | DEBUG    | City is filled in
+
+18:20:33.635 | DEBUG    | Zipcode field is presented
+
+18:20:33.669 | DEBUG    | Zipcode is filled in
+
+18:20:33.676 | DEBUG    | Mobile number field is presented
+
+18:20:33.716 | DEBUG    | Mobile number is filled in
+
+18:20:34.935 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+18:20:34.956 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+18:20:34.956 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+18:20:34.962 | DEBUG    | Continue button is presented
+
+18:20:37.581 | DEBUG    | Username is correct Logged in as Cassie
+
+18:20:38.506 | DEBUG    | Product Blue Top added, quantity 1
+
+18:20:39.387 | DEBUG    | Product Blue Top added, quantity 2
+
+18:20:40.276 | DEBUG    | Product Men Tshirt added, quantity 1
+
+18:20:41.153 | DEBUG    | Product Men Tshirt added, quantity 2
+
+18:20:42.056 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+18:20:43.625 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+18:20:44.361 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+18:20:44.361 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+18:20:44.361 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+18:20:44.380 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+18:20:44.389 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+18:20:44.399 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+18:20:44.423 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+18:20:44.438 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+18:20:44.451 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+18:20:44.477 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+18:20:44.490 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+18:20:44.503 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+18:20:45.756 | DEBUG    | Proceed to checkout button clicked
+
+18:20:45.774 | DEBUG    | Name is correct in the delivery information: Mr. Cassie Garcia
+
+18:20:45.789 | DEBUG    | Company name is correct in the delivery information: Montes Ltd
+
+18:20:45.803 | DEBUG    | Address 1 is correct in the delivery information: 10919 Tiffany Centers
+
+18:20:45.817 | DEBUG    | Address 2 is correct in the delivery information: Apt. 244
+
+18:20:45.832 | DEBUG    | City is correct in the delivery information: North Allisonshire Idaho 01806
+
+18:20:45.847 | DEBUG    | Country is correct in the delivery information: India
+
+18:20:45.860 | DEBUG    | Phone is correct in the delivery information: 990-274-5757x63773
+
+18:20:45.874 | DEBUG    | Name is correct in the billing information: Mr. Cassie Garcia
+
+18:20:45.888 | DEBUG    | Company name is correct in the billing information: Montes Ltd
+
+18:20:45.902 | DEBUG    | Address 1 is correct in the billing information: 10919 Tiffany Centers
+
+18:20:45.916 | DEBUG    | Address 2 is correct in the billing information: Apt. 244
+
+18:20:45.930 | DEBUG    | City is correct in the billing information: North Allisonshire Idaho 01806
+
+18:20:45.944 | DEBUG    | Country is correct in the billing information: India
+
+18:20:45.960 | DEBUG    | Phone is correct in the billing information: 990-274-5757x63773
+
+18:20:46.418 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+18:20:46.418 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+18:20:46.418 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+18:20:48.825 | DEBUG    | Continue button clicked

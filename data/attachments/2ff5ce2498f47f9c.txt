@@ -1,0 +1,17 @@
+18:21:13.430 | DEBUG    | Login title is presented
+
+18:21:13.442 | DEBUG    | Login title text is correct
+
+18:21:13.448 | DEBUG    | Login email field is presented
+
+18:21:13.455 | DEBUG    | Password field is presented
+
+18:21:13.501 | DEBUG    | Email filled in
+
+18:21:13.537 | DEBUG    | Password filled in
+
+18:21:13.545 | DEBUG    | Login button is presented
+
+18:21:13.584 | DEBUG    | Login button is clicked
+
+18:21:15.571 | DEBUG    | Username is correct Logged in as Cindy

@@ -1,0 +1,43 @@
+18:22:34.743 | DEBUG    | New user details:
+
+18:22:34.743 | DEBUG    |   name: Christopher
+
+18:22:34.743 | DEBUG    |   email: efedd08c_waynemorris@example.net
+
+18:22:34.743 | DEBUG    |   title: Mrs
+
+18:22:34.743 | DEBUG    |   birth_day: 26
+
+18:22:34.743 | DEBUG    |   birth_month: 10
+
+18:22:34.743 | DEBUG    |   birth_year: 1981
+
+18:22:34.743 | DEBUG    |   firstname: Christopher
+
+18:22:34.743 | DEBUG    |   lastname: Parker
+
+18:22:34.744 | DEBUG    |   company: Cabrera-Henry
+
+18:22:34.744 | DEBUG    |   address1: 651 Richard Village Apt. 308
+
+18:22:34.744 | DEBUG    |   address2: Suite 479
+
+18:22:34.744 | DEBUG    |   country: Australia
+
+18:22:34.744 | DEBUG    |   state: Washington
+
+18:22:34.744 | DEBUG    |   city: Judithbury
+
+18:22:34.744 | DEBUG    |   zipcode: 48567
+
+18:22:34.882 | DEBUG    | Status code correct: 200
+
+18:22:34.882 | DEBUG    | ResponseCode correct: 201
+
+18:22:34.882 | DEBUG    | Response message correct: "User created!"
+
+18:22:35.008 | DEBUG    | Status code correct: 200
+
+18:22:35.008 | DEBUG    | ResponseCode correct: 200
+
+18:22:35.008 | DEBUG    | Response message correct: "Account deleted!"
