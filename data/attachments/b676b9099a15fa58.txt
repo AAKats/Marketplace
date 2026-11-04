@@ -1,0 +1,75 @@
+10:16:00.598 | DEBUG    | New user details:
+
+10:16:00.599 | DEBUG    |   name: Daniel
+
+10:16:00.599 | DEBUG    |   email: de0141ac_keith77@example.net
+
+10:16:00.599 | DEBUG    |   title: Mr
+
+10:16:00.599 | DEBUG    |   birth_day: 7
+
+10:16:00.599 | DEBUG    |   birth_month: 11
+
+10:16:00.599 | DEBUG    |   birth_year: 1924
+
+10:16:00.599 | DEBUG    |   firstname: Daniel
+
+10:16:00.599 | DEBUG    |   lastname: Hodge
+
+10:16:00.599 | DEBUG    |   company: Wells-Ford
+
+10:16:00.599 | DEBUG    |   address1: 51412 Johnson Ville Apt. 982
+
+10:16:00.599 | DEBUG    |   address2: Apt. 757
+
+10:16:00.599 | DEBUG    |   country: Canada
+
+10:16:00.599 | DEBUG    |   state: Hawaii
+
+10:16:00.599 | DEBUG    |   city: Joshuastad
+
+10:16:00.599 | DEBUG    |   zipcode: 64710
+
+10:16:01.980 | DEBUG    | Status code correct: 200
+
+10:16:01.980 | DEBUG    | ResponseCode correct: 201
+
+10:16:01.980 | DEBUG    | Response message correct: "User created!"
+
+10:16:01.980 | DEBUG    | Updated user details:
+
+10:16:01.980 | DEBUG    |   name: Daniel
+
+10:16:01.980 | DEBUG    |   email: de0141ac_keith77@example.net
+
+10:16:01.980 | DEBUG    |   title: Mr
+
+10:16:01.980 | DEBUG    |   birth_day: 7
+
+10:16:01.980 | DEBUG    |   birth_month: 11
+
+10:16:01.980 | DEBUG    |   birth_year: 1924
+
+10:16:01.980 | DEBUG    |   firstname: Daniel
+
+10:16:01.980 | DEBUG    |   lastname: Hodge
+
+10:16:01.980 | DEBUG    |   company: Wells-Ford
+
+10:16:01.980 | DEBUG    |   address1: 51412 Johnson Ville Apt. 982
+
+10:16:01.980 | DEBUG    |   address2: Apt. 757
+
+10:16:01.980 | DEBUG    |   country: Canada
+
+10:16:01.980 | DEBUG    |   state: Hawaii
+
+10:16:01.981 | DEBUG    |   city: Joshuastad
+
+10:16:01.981 | DEBUG    |   zipcode: 64710
+
+10:16:03.863 | DEBUG    | Status code correct: 200
+
+10:16:03.863 | DEBUG    | ResponseCode correct: 200
+
+10:16:03.863 | DEBUG    | Response message correct: "User updated!"

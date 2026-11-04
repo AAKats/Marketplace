@@ -1,0 +1,37 @@
+10:15:56.081 | DEBUG    | New user details:
+
+10:15:56.081 | DEBUG    |   name: Molly
+
+10:15:56.081 | DEBUG    |   email: 5db40768_dmorris@example.net
+
+10:15:56.081 | DEBUG    |   title: Mr
+
+10:15:56.081 | DEBUG    |   birth_day: 1
+
+10:15:56.081 | DEBUG    |   birth_month: 9
+
+10:15:56.081 | DEBUG    |   birth_year: 2010
+
+10:15:56.081 | DEBUG    |   firstname: Molly
+
+10:15:56.081 | DEBUG    |   lastname: Dominguez
+
+10:15:56.081 | DEBUG    |   company: Smith Inc
+
+10:15:56.081 | DEBUG    |   address1: 7999 Conley Mountain
+
+10:15:56.081 | DEBUG    |   address2: Suite 401
+
+10:15:56.082 | DEBUG    |   country: Canada
+
+10:15:56.082 | DEBUG    |   state: Alabama
+
+10:15:56.082 | DEBUG    |   city: West Wendyburgh
+
+10:15:56.082 | DEBUG    |   zipcode: 22788
+
+10:15:57.687 | DEBUG    | Status code correct: 200
+
+10:15:57.687 | DEBUG    | ResponseCode correct: 201
+
+10:15:57.687 | DEBUG    | Response message correct: "User created!"
