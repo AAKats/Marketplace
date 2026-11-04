@@ -1,0 +1,165 @@
+18:30:44.722 | DEBUG    | New user Signup title is presented
+
+18:30:44.734 | DEBUG    | New user Signup title text is correct
+
+18:30:44.741 | DEBUG    | Signup email field is presented
+
+18:30:44.746 | DEBUG    | Signup name field is presented
+
+18:30:44.797 | DEBUG    | Email signup field filled
+
+18:30:44.831 | DEBUG    | Name signup field filled
+
+18:30:44.875 | DEBUG    | Signup button is clicked
+
+18:30:45.157 | DEBUG    | Account information title is presented
+
+18:30:45.166 | DEBUG    | Account information title text is correct
+
+18:30:45.191 | DEBUG    | Mr radiobutton is presented
+
+18:30:45.197 | DEBUG    | Mrs radiobutton is presented
+
+18:30:45.238 | DEBUG    | Selected MR title
+
+18:30:45.245 | DEBUG    | Password field is presented
+
+18:30:45.280 | DEBUG    | Password is filled in
+
+18:30:45.290 | DEBUG    | Day of birth list is presented
+
+18:30:45.341 | DEBUG    | Day of birth selected
+
+18:30:45.348 | DEBUG    | Month of birth list is presented
+
+18:30:45.389 | DEBUG    | Month of birth selected
+
+18:30:45.396 | DEBUG    | Year of birth list is presented
+
+18:30:45.435 | DEBUG    | Year of birth selected
+
+18:30:45.435 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+18:30:45.478 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+18:30:45.484 | DEBUG    | First name field is presented
+
+18:30:45.519 | DEBUG    | First name is filled in
+
+18:30:45.527 | DEBUG    | Last name field is presented
+
+18:30:45.561 | DEBUG    | Last name is filled in
+
+18:30:45.567 | DEBUG    | Company field is presented
+
+18:30:45.606 | DEBUG    | Company is filled in
+
+18:30:45.613 | DEBUG    | Address 1 field is presented
+
+18:30:45.658 | DEBUG    | Address 1 is filled in
+
+18:30:45.666 | DEBUG    | Address 2 field is presented
+
+18:30:45.701 | DEBUG    | Address 2 is filled in
+
+18:30:45.749 | DEBUG    | State field is presented
+
+18:30:45.788 | DEBUG    | State is filled in
+
+18:30:45.794 | DEBUG    | City field is presented
+
+18:30:45.831 | DEBUG    | City is filled in
+
+18:30:45.839 | DEBUG    | Zipcode field is presented
+
+18:30:45.873 | DEBUG    | Zipcode is filled in
+
+18:30:45.880 | DEBUG    | Mobile number field is presented
+
+18:30:45.922 | DEBUG    | Mobile number is filled in
+
+18:30:46.783 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+18:30:46.804 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+18:30:46.804 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+18:30:46.810 | DEBUG    | Continue button is presented
+
+18:30:47.690 | DEBUG    | Username is correct Logged in as Ashley
+
+18:30:49.287 | DEBUG    | Product Blue Top added, quantity 1
+
+18:30:50.170 | DEBUG    | Product Blue Top added, quantity 2
+
+18:30:51.071 | DEBUG    | Product Men Tshirt added, quantity 1
+
+18:30:52.321 | DEBUG    | Product Men Tshirt added, quantity 2
+
+18:30:53.062 | DEBUG    | Proceed to checkout button clicked
+
+18:30:53.079 | DEBUG    | Name is correct in the delivery information: Mr. Ashley Gibbs
+
+18:30:53.095 | DEBUG    | Company name is correct in the delivery information: Banks LLC
+
+18:30:53.109 | DEBUG    | Address 1 is correct in the delivery information: 1553 Taylor Parkway
+
+18:30:53.123 | DEBUG    | Address 2 is correct in the delivery information: Apt. 742
+
+18:30:53.136 | DEBUG    | City is correct in the delivery information: Jonathanfurt Wisconsin 85257
+
+18:30:53.149 | DEBUG    | Country is correct in the delivery information: Canada
+
+18:30:53.163 | DEBUG    | Phone is correct in the delivery information: (738)873-2909x9210
+
+18:30:53.176 | DEBUG    | Name is correct in the billing information: Mr. Ashley Gibbs
+
+18:30:53.189 | DEBUG    | Company name is correct in the billing information: Banks LLC
+
+18:30:53.203 | DEBUG    | Address 1 is correct in the billing information: 1553 Taylor Parkway
+
+18:30:53.216 | DEBUG    | Address 2 is correct in the billing information: Apt. 742
+
+18:30:53.231 | DEBUG    | City is correct in the billing information: Jonathanfurt Wisconsin 85257
+
+18:30:53.245 | DEBUG    | Country is correct in the billing information: Canada
+
+18:30:53.258 | DEBUG    | Phone is correct in the billing information: (738)873-2909x9210
+
+18:30:53.269 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+18:30:53.289 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+18:30:53.297 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+18:30:53.310 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+18:30:53.310 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+18:30:53.333 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+18:30:53.346 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+18:30:53.367 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+18:30:53.380 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+18:30:53.460 | DEBUG    | Comment filled in with: Whose get girl yet these approach form. Skill whether amount material difficult.
+
+18:30:53.679 | DEBUG    | Place order button clicked
+
+18:30:53.730 | DEBUG    | Name on card filled in with: ****
+
+18:30:53.775 | DEBUG    | Card number filled in with: ****2950
+
+18:30:53.949 | DEBUG    | Pay and confirm button clicked
+
+18:30:55.381 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+18:30:55.667 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+18:30:55.667 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+18:30:55.667 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+18:30:56.292 | DEBUG    | Continue button clicked

@@ -1,0 +1,67 @@
+18:29:55.649 | DEBUG    | Email filled in
+
+18:29:55.686 | DEBUG    | Password filled in
+
+18:29:55.694 | DEBUG    | Login button is presented
+
+18:29:55.733 | DEBUG    | Login button is clicked
+
+18:29:57.016 | DEBUG    | Username is correct Logged in as Jacqueline
+
+18:29:57.946 | DEBUG    | Product Blue Top added, quantity 1
+
+18:29:58.817 | DEBUG    | Product Blue Top added, quantity 2
+
+18:29:59.965 | DEBUG    | Product Blue Top added, quantity 3
+
+18:30:00.657 | DEBUG    | Proceed to checkout button clicked
+
+18:30:00.674 | DEBUG    | Name is correct in the delivery information: Mr. Jacqueline Boyd
+
+18:30:00.688 | DEBUG    | Company name is correct in the delivery information: Allen, Bell and Torres
+
+18:30:00.701 | DEBUG    | Address 1 is correct in the delivery information: 8322 Candice Place Apt. 506
+
+18:30:00.716 | DEBUG    | Address 2 is correct in the delivery information: Apt. 497
+
+18:30:00.730 | DEBUG    | City is correct in the delivery information: West Robertfurt Kentucky 23081
+
+18:30:00.744 | DEBUG    | Country is correct in the delivery information: Australia
+
+18:30:00.758 | DEBUG    | Phone is correct in the delivery information: 602-219-2182x966
+
+18:30:00.771 | DEBUG    | Name is correct in the billing information: Mr. Jacqueline Boyd
+
+18:30:00.785 | DEBUG    | Company name is correct in the billing information: Allen, Bell and Torres
+
+18:30:00.799 | DEBUG    | Address 1 is correct in the billing information: 8322 Candice Place Apt. 506
+
+18:30:00.813 | DEBUG    | Address 2 is correct in the billing information: Apt. 497
+
+18:30:00.827 | DEBUG    | City is correct in the billing information: West Robertfurt Kentucky 23081
+
+18:30:00.843 | DEBUG    | Country is correct in the billing information: Australia
+
+18:30:00.857 | DEBUG    | Phone is correct in the billing information: 602-219-2182x966
+
+18:30:00.868 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+18:30:00.887 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+18:30:00.895 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+18:30:00.917 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+18:30:00.939 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+18:30:01.021 | DEBUG    | Comment filled in with: Risk easy performance decade poor town start. Perform drop building successful Democrat.
+
+18:30:01.236 | DEBUG    | Place order button clicked
+
+18:30:01.286 | DEBUG    | Name on card filled in with: ****
+
+18:30:01.334 | DEBUG    | Card number filled in with: ****8072
+
+18:30:02.883 | DEBUG    | Pay and confirm button clicked
+
+18:30:02.915 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

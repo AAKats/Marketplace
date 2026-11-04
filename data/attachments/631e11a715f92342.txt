@@ -1,0 +1,85 @@
+18:30:57.934 | DEBUG    | New user details:
+
+18:30:57.934 | DEBUG    |   name: Daniel
+
+18:30:57.934 | DEBUG    |   email: e61d3a73_brian19@example.com
+
+18:30:57.934 | DEBUG    |   title: Mr
+
+18:30:57.934 | DEBUG    |   birth_day: 18
+
+18:30:57.934 | DEBUG    |   birth_month: 4
+
+18:30:57.934 | DEBUG    |   birth_year: 1989
+
+18:30:57.934 | DEBUG    |   firstname: Daniel
+
+18:30:57.934 | DEBUG    |   lastname: Mcguire
+
+18:30:57.934 | DEBUG    |   company: Barnes and Sons
+
+18:30:57.934 | DEBUG    |   address1: 26378 Phillips Manor Suite 549
+
+18:30:57.934 | DEBUG    |   address2: Apt. 470
+
+18:30:57.934 | DEBUG    |   country: Israel
+
+18:30:57.934 | DEBUG    |   state: Florida
+
+18:30:57.934 | DEBUG    |   city: Melissabury
+
+18:30:57.934 | DEBUG    |   zipcode: 25638
+
+18:30:58.079 | DEBUG    | Status code correct: 200
+
+18:30:58.079 | DEBUG    | ResponseCode correct: 201
+
+18:30:58.079 | DEBUG    | Response message correct: "User created!"
+
+18:30:58.191 | DEBUG    | Status code correct: 200
+
+18:30:58.191 | DEBUG    | ResponseCode correct: 200
+
+18:30:58.191 | DEBUG    | Response contains key: "user"
+
+18:30:58.191 | DEBUG    | User details not empty: 16 fields
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "id"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "name"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "email"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "title"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "birth_day"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "birth_month"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "birth_year"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "first_name"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "last_name"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "company"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "address1"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "address2"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "country"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "state"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "city"
+
+18:30:58.192 | DEBUG    | User detail with name = 3175185 contains field: "zipcode"
+
+18:30:58.192 | DEBUG    | Status code correct: 200
+
+18:30:58.192 | DEBUG    | ResponseCode correct: 200
+
+18:30:58.192 | DEBUG    | ResponseCode correct: 200
+
+18:30:58.193 | DEBUG    | Payload field "email" correct: "e61d3a73_brian19@example.com"

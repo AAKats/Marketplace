@@ -1,0 +1,11 @@
+18:30:05.015 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+18:30:05.070 | DEBUG    | Review name field filled in with "Heather Young"
+
+18:30:05.131 | DEBUG    | Review email field filled in with "4740f891_moorecarolyn@example.org"
+
+18:30:05.219 | DEBUG    | Review message field filled in with "Build strategy himself list own her. Common chance area lose respond against first create."
+
+18:30:05.270 | DEBUG    | Submit review button clicked
+
+18:30:05.295 | DEBUG    | Success review message is displayed
