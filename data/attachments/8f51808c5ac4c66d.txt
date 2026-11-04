@@ -1,0 +1,75 @@
+13:44:20.109 | DEBUG    | New user details:
+
+13:44:20.109 | DEBUG    |   name: Sarah
+
+13:44:20.109 | DEBUG    |   email: f6bbc239_jonathanortiz@example.com
+
+13:44:20.109 | DEBUG    |   title: Mr
+
+13:44:20.109 | DEBUG    |   birth_day: 5
+
+13:44:20.109 | DEBUG    |   birth_month: 9
+
+13:44:20.109 | DEBUG    |   birth_year: 1992
+
+13:44:20.109 | DEBUG    |   firstname: Sarah
+
+13:44:20.109 | DEBUG    |   lastname: Perez
+
+13:44:20.109 | DEBUG    |   company: Green LLC
+
+13:44:20.109 | DEBUG    |   address1: 9635 Angela Trail Suite 254
+
+13:44:20.109 | DEBUG    |   address2: Apt. 568
+
+13:44:20.109 | DEBUG    |   country: Canada
+
+13:44:20.109 | DEBUG    |   state: South Carolina
+
+13:44:20.109 | DEBUG    |   city: Stokesborough
+
+13:44:20.109 | DEBUG    |   zipcode: 43344
+
+13:44:20.190 | DEBUG    | Status code correct: 200
+
+13:44:20.190 | DEBUG    | ResponseCode correct: 201
+
+13:44:20.190 | DEBUG    | Response message correct: "User created!"
+
+13:44:20.191 | DEBUG    | Updated user details:
+
+13:44:20.191 | DEBUG    |   name: Sarah
+
+13:44:20.191 | DEBUG    |   email: f6bbc239_jonathanortiz@example.com
+
+13:44:20.191 | DEBUG    |   title: Mr
+
+13:44:20.191 | DEBUG    |   birth_day: 5
+
+13:44:20.191 | DEBUG    |   birth_month: 9
+
+13:44:20.191 | DEBUG    |   birth_year: 1992
+
+13:44:20.191 | DEBUG    |   firstname: Sarah
+
+13:44:20.191 | DEBUG    |   lastname: Perez
+
+13:44:20.191 | DEBUG    |   company: Green LLC
+
+13:44:20.191 | DEBUG    |   address1: 9635 Angela Trail Suite 254
+
+13:44:20.191 | DEBUG    |   address2: Apt. 568
+
+13:44:20.191 | DEBUG    |   country: Canada
+
+13:44:20.191 | DEBUG    |   state: South Carolina
+
+13:44:20.191 | DEBUG    |   city: Stokesborough
+
+13:44:20.193 | DEBUG    |   zipcode: 43344
+
+13:44:20.320 | DEBUG    | Status code correct: 200
+
+13:44:20.320 | DEBUG    | ResponseCode correct: 200
+
+13:44:20.320 | DEBUG    | Response message correct: "User updated!"

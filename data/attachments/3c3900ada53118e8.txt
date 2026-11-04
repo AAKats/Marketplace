@@ -1,0 +1,67 @@
+13:43:26.118 | DEBUG    | Email filled in
+
+13:43:26.158 | DEBUG    | Password filled in
+
+13:43:26.165 | DEBUG    | Login button is presented
+
+13:43:27.682 | DEBUG    | Login button is clicked
+
+13:43:27.708 | DEBUG    | Username is correct Logged in as Shelby
+
+13:43:28.641 | DEBUG    | Product Blue Top added, quantity 1
+
+13:43:29.522 | DEBUG    | Product Blue Top added, quantity 2
+
+13:43:30.573 | DEBUG    | Product Blue Top added, quantity 3
+
+13:43:31.011 | DEBUG    | Proceed to checkout button clicked
+
+13:43:31.031 | DEBUG    | Name is correct in the delivery information: Mr. Shelby Lindsey
+
+13:43:31.046 | DEBUG    | Company name is correct in the delivery information: Roberts-Doyle
+
+13:43:31.060 | DEBUG    | Address 1 is correct in the delivery information: 00586 Gabriel Parkways Apt. 728
+
+13:43:31.074 | DEBUG    | Address 2 is correct in the delivery information: Apt. 354
+
+13:43:31.088 | DEBUG    | City is correct in the delivery information: Port Davidchester Wisconsin 00537
+
+13:43:31.101 | DEBUG    | Country is correct in the delivery information: United States
+
+13:43:31.115 | DEBUG    | Phone is correct in the delivery information: 001-900-447-5250x163
+
+13:43:31.129 | DEBUG    | Name is correct in the billing information: Mr. Shelby Lindsey
+
+13:43:31.144 | DEBUG    | Company name is correct in the billing information: Roberts-Doyle
+
+13:43:31.158 | DEBUG    | Address 1 is correct in the billing information: 00586 Gabriel Parkways Apt. 728
+
+13:43:31.172 | DEBUG    | Address 2 is correct in the billing information: Apt. 354
+
+13:43:31.185 | DEBUG    | City is correct in the billing information: Port Davidchester Wisconsin 00537
+
+13:43:31.199 | DEBUG    | Country is correct in the billing information: United States
+
+13:43:31.212 | DEBUG    | Phone is correct in the billing information: 001-900-447-5250x163
+
+13:43:31.223 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+13:43:31.243 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:43:31.251 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+13:43:31.274 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+13:43:31.296 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+13:43:31.385 | DEBUG    | Comment filled in with: Sound team ten add performance head manager fill. Stand so under represent happen American just.
+
+13:43:31.603 | DEBUG    | Place order button clicked
+
+13:43:31.654 | DEBUG    | Name on card filled in with: ****
+
+13:43:31.701 | DEBUG    | Card number filled in with: ****6993
+
+13:43:33.222 | DEBUG    | Pay and confirm button clicked
+
+13:43:33.254 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

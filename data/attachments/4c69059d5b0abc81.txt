@@ -1,0 +1,169 @@
+13:41:33.663 | DEBUG    | Product Blue Top added, quantity 1
+
+13:41:34.546 | DEBUG    | Product Blue Top added, quantity 2
+
+13:41:35.446 | DEBUG    | Product Men Tshirt added, quantity 1
+
+13:41:36.596 | DEBUG    | Product Men Tshirt added, quantity 2
+
+13:41:37.223 | DEBUG    | Proceed to checkout button clicked
+
+13:41:37.424 | DEBUG    | Register via modal button clicked
+
+13:41:37.435 | DEBUG    | New user Signup title is presented
+
+13:41:37.444 | DEBUG    | New user Signup title text is correct
+
+13:41:37.450 | DEBUG    | Signup email field is presented
+
+13:41:37.456 | DEBUG    | Signup name field is presented
+
+13:41:37.527 | DEBUG    | Email signup field filled
+
+13:41:37.620 | DEBUG    | Name signup field filled
+
+13:41:37.785 | DEBUG    | Signup button is clicked
+
+13:41:37.802 | DEBUG    | Account information title is presented
+
+13:41:37.813 | DEBUG    | Account information title text is correct
+
+13:41:37.843 | DEBUG    | Mr radiobutton is presented
+
+13:41:37.849 | DEBUG    | Mrs radiobutton is presented
+
+13:41:37.897 | DEBUG    | Selected MRS title
+
+13:41:37.903 | DEBUG    | Password field is presented
+
+13:41:37.949 | DEBUG    | Password is filled in
+
+13:41:37.956 | DEBUG    | Day of birth list is presented
+
+13:41:38.005 | DEBUG    | Day of birth selected
+
+13:41:38.014 | DEBUG    | Month of birth list is presented
+
+13:41:38.055 | DEBUG    | Month of birth selected
+
+13:41:38.063 | DEBUG    | Year of birth list is presented
+
+13:41:38.106 | DEBUG    | Year of birth selected
+
+13:41:38.106 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+13:41:38.152 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+13:41:38.160 | DEBUG    | First name field is presented
+
+13:41:38.197 | DEBUG    | First name is filled in
+
+13:41:38.204 | DEBUG    | Last name field is presented
+
+13:41:38.242 | DEBUG    | Last name is filled in
+
+13:41:38.249 | DEBUG    | Company field is presented
+
+13:41:38.289 | DEBUG    | Company is filled in
+
+13:41:38.297 | DEBUG    | Address 1 field is presented
+
+13:41:38.345 | DEBUG    | Address 1 is filled in
+
+13:41:38.352 | DEBUG    | Address 2 field is presented
+
+13:41:38.389 | DEBUG    | Address 2 is filled in
+
+13:41:38.442 | DEBUG    | State field is presented
+
+13:41:38.480 | DEBUG    | State is filled in
+
+13:41:38.487 | DEBUG    | City field is presented
+
+13:41:38.528 | DEBUG    | City is filled in
+
+13:41:38.536 | DEBUG    | Zipcode field is presented
+
+13:41:38.570 | DEBUG    | Zipcode is filled in
+
+13:41:38.578 | DEBUG    | Mobile number field is presented
+
+13:41:38.620 | DEBUG    | Mobile number is filled in
+
+13:41:41.506 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:41:41.528 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:41:41.528 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:41:41.533 | DEBUG    | Continue button is presented
+
+13:41:42.142 | DEBUG    | Username is correct Logged in as Steven
+
+13:41:42.826 | DEBUG    | Proceed to checkout button clicked
+
+13:41:42.843 | DEBUG    | Name is correct in the delivery information: Mrs. Steven Sampson
+
+13:41:42.858 | DEBUG    | Company name is correct in the delivery information: Mendez-Mcgee
+
+13:41:42.872 | DEBUG    | Address 1 is correct in the delivery information: 114 Smith Walks Apt. 560
+
+13:41:42.888 | DEBUG    | Address 2 is correct in the delivery information: Apt. 971
+
+13:41:42.903 | DEBUG    | City is correct in the delivery information: South Louiston Virginia 05725
+
+13:41:42.918 | DEBUG    | Country is correct in the delivery information: Singapore
+
+13:41:42.933 | DEBUG    | Phone is correct in the delivery information: (535)350-5835x173
+
+13:41:42.948 | DEBUG    | Name is correct in the billing information: Mrs. Steven Sampson
+
+13:41:42.964 | DEBUG    | Company name is correct in the billing information: Mendez-Mcgee
+
+13:41:42.979 | DEBUG    | Address 1 is correct in the billing information: 114 Smith Walks Apt. 560
+
+13:41:42.994 | DEBUG    | Address 2 is correct in the billing information: Apt. 971
+
+13:41:43.008 | DEBUG    | City is correct in the billing information: South Louiston Virginia 05725
+
+13:41:43.025 | DEBUG    | Country is correct in the billing information: Singapore
+
+13:41:43.041 | DEBUG    | Phone is correct in the billing information: (535)350-5835x173
+
+13:41:43.054 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+13:41:43.084 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:41:43.099 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:41:43.117 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+13:41:43.117 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+13:41:43.151 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:41:43.173 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:41:43.203 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:41:43.221 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:41:43.393 | DEBUG    | Comment filled in with: National child know modern care role may. Become modern us style. Course indicate kind book.
+
+13:41:43.614 | DEBUG    | Place order button clicked
+
+13:41:43.682 | DEBUG    | Name on card filled in with: ****
+
+13:41:43.744 | DEBUG    | Card number filled in with: ****9638
+
+13:41:45.233 | DEBUG    | Pay and confirm button clicked
+
+13:41:45.269 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+13:41:45.480 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+13:41:45.480 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+13:41:45.480 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+13:41:45.889 | DEBUG    | Continue button clicked

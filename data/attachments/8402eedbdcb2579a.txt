@@ -1,0 +1,227 @@
+13:42:19.664 | DEBUG    | Product Blue Top added, quantity 1
+
+13:42:20.545 | DEBUG    | Product Blue Top added, quantity 2
+
+13:42:21.470 | DEBUG    | Product Men Tshirt added, quantity 1
+
+13:42:22.350 | DEBUG    | Product Men Tshirt added, quantity 2
+
+13:42:23.235 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+13:42:24.125 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+13:42:25.019 | DEBUG    | Product Stylish Dress added, quantity 1
+
+13:42:25.898 | DEBUG    | Product Stylish Dress added, quantity 2
+
+13:42:26.787 | DEBUG    | Product Winter Top added, quantity 1
+
+13:42:28.994 | DEBUG    | Product Winter Top added, quantity 2
+
+13:42:30.257 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:42:30.257 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:42:30.257 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:42:30.257 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:42:30.257 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:42:30.289 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:42:30.303 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:42:30.315 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+13:42:30.330 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+13:42:30.342 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+13:42:30.368 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:42:30.384 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:42:30.399 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+13:42:30.414 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+13:42:30.433 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+13:42:30.462 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:42:30.478 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:42:30.494 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+13:42:30.507 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+13:42:30.525 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+13:42:30.583 | DEBUG    | Proceed to checkout button clicked
+
+13:42:30.768 | DEBUG    | Register via modal button clicked
+
+13:42:30.781 | DEBUG    | New user Signup title is presented
+
+13:42:30.792 | DEBUG    | New user Signup title text is correct
+
+13:42:30.798 | DEBUG    | Signup email field is presented
+
+13:42:30.805 | DEBUG    | Signup name field is presented
+
+13:42:30.865 | DEBUG    | Email signup field filled
+
+13:42:30.900 | DEBUG    | Name signup field filled
+
+13:42:30.941 | DEBUG    | Signup button is clicked
+
+13:42:31.479 | DEBUG    | Account information title is presented
+
+13:42:31.487 | DEBUG    | Account information title text is correct
+
+13:42:31.514 | DEBUG    | Mr radiobutton is presented
+
+13:42:31.519 | DEBUG    | Mrs radiobutton is presented
+
+13:42:31.559 | DEBUG    | Selected MRS title
+
+13:42:31.566 | DEBUG    | Password field is presented
+
+13:42:31.601 | DEBUG    | Password is filled in
+
+13:42:31.612 | DEBUG    | Day of birth list is presented
+
+13:42:31.661 | DEBUG    | Day of birth selected
+
+13:42:31.667 | DEBUG    | Month of birth list is presented
+
+13:42:31.709 | DEBUG    | Month of birth selected
+
+13:42:31.716 | DEBUG    | Year of birth list is presented
+
+13:42:31.758 | DEBUG    | Year of birth selected
+
+13:42:31.758 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+13:42:31.758 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+13:42:31.767 | DEBUG    | First name field is presented
+
+13:42:31.803 | DEBUG    | First name is filled in
+
+13:42:31.813 | DEBUG    | Last name field is presented
+
+13:42:31.850 | DEBUG    | Last name is filled in
+
+13:42:31.858 | DEBUG    | Company field is presented
+
+13:42:31.899 | DEBUG    | Company is filled in
+
+13:42:31.908 | DEBUG    | Address 1 field is presented
+
+13:42:31.953 | DEBUG    | Address 1 is filled in
+
+13:42:31.962 | DEBUG    | Address 2 field is presented
+
+13:42:32.000 | DEBUG    | Address 2 is filled in
+
+13:42:32.051 | DEBUG    | State field is presented
+
+13:42:32.088 | DEBUG    | State is filled in
+
+13:42:32.095 | DEBUG    | City field is presented
+
+13:42:32.138 | DEBUG    | City is filled in
+
+13:42:32.145 | DEBUG    | Zipcode field is presented
+
+13:42:32.179 | DEBUG    | Zipcode is filled in
+
+13:42:32.186 | DEBUG    | Mobile number field is presented
+
+13:42:32.230 | DEBUG    | Mobile number is filled in
+
+13:42:33.729 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:42:33.750 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:42:33.750 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:42:33.756 | DEBUG    | Continue button is presented
+
+13:42:34.915 | DEBUG    | Username is correct Logged in as Maria
+
+13:42:38.087 | DEBUG    | Proceed to checkout button clicked
+
+13:42:38.105 | DEBUG    | Name is correct in the delivery information: Mrs. Maria Summers
+
+13:42:38.120 | DEBUG    | Company name is correct in the delivery information: Robinson-Smith
+
+13:42:38.135 | DEBUG    | Address 1 is correct in the delivery information: 83665 Meyers Crossing
+
+13:42:38.149 | DEBUG    | Address 2 is correct in the delivery information: Apt. 380
+
+13:42:38.164 | DEBUG    | City is correct in the delivery information: Hammondborough Nebraska 53422
+
+13:42:38.179 | DEBUG    | Country is correct in the delivery information: Israel
+
+13:42:38.193 | DEBUG    | Phone is correct in the delivery information: (590)362-3034x46069
+
+13:42:38.208 | DEBUG    | Name is correct in the billing information: Mrs. Maria Summers
+
+13:42:38.222 | DEBUG    | Company name is correct in the billing information: Robinson-Smith
+
+13:42:38.236 | DEBUG    | Address 1 is correct in the billing information: 83665 Meyers Crossing
+
+13:42:38.251 | DEBUG    | Address 2 is correct in the billing information: Apt. 380
+
+13:42:38.265 | DEBUG    | City is correct in the billing information: Hammondborough Nebraska 53422
+
+13:42:38.279 | DEBUG    | Country is correct in the billing information: Israel
+
+13:42:38.294 | DEBUG    | Phone is correct in the billing information: (590)362-3034x46069
+
+13:42:38.322 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:42:38.323 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:42:38.323 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:42:38.323 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:42:38.323 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:42:38.342 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:42:38.351 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:42:38.360 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+13:42:38.369 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+13:42:38.378 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+13:42:38.400 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:42:38.414 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:42:38.428 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+13:42:38.442 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+13:42:38.456 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+13:42:38.478 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:42:38.492 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:42:38.505 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+13:42:38.518 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+13:42:38.532 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+13:42:38.611 | DEBUG    | Comment filled in with: Left hotel or bring since. Laugh popular stage sense. Beat sense he agent.
+
+13:42:38.759 | DEBUG    | Place order button clicked
