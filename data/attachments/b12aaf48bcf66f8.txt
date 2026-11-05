@@ -1,0 +1,165 @@
+13:56:37.842 | DEBUG    | New user Signup title is presented
+
+13:56:37.855 | DEBUG    | New user Signup title text is correct
+
+13:56:37.861 | DEBUG    | Signup email field is presented
+
+13:56:37.869 | DEBUG    | Signup name field is presented
+
+13:56:37.922 | DEBUG    | Email signup field filled
+
+13:56:37.957 | DEBUG    | Name signup field filled
+
+13:56:38.003 | DEBUG    | Signup button is clicked
+
+13:56:38.183 | DEBUG    | Account information title is presented
+
+13:56:38.194 | DEBUG    | Account information title text is correct
+
+13:56:38.221 | DEBUG    | Mr radiobutton is presented
+
+13:56:38.226 | DEBUG    | Mrs radiobutton is presented
+
+13:56:38.266 | DEBUG    | Selected MRS title
+
+13:56:38.273 | DEBUG    | Password field is presented
+
+13:56:38.308 | DEBUG    | Password is filled in
+
+13:56:38.318 | DEBUG    | Day of birth list is presented
+
+13:56:38.371 | DEBUG    | Day of birth selected
+
+13:56:38.378 | DEBUG    | Month of birth list is presented
+
+13:56:38.418 | DEBUG    | Month of birth selected
+
+13:56:38.425 | DEBUG    | Year of birth list is presented
+
+13:56:38.465 | DEBUG    | Year of birth selected
+
+13:56:38.466 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+13:56:38.508 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+13:56:38.515 | DEBUG    | First name field is presented
+
+13:56:38.549 | DEBUG    | First name is filled in
+
+13:56:38.557 | DEBUG    | Last name field is presented
+
+13:56:38.591 | DEBUG    | Last name is filled in
+
+13:56:38.599 | DEBUG    | Company field is presented
+
+13:56:38.637 | DEBUG    | Company is filled in
+
+13:56:38.644 | DEBUG    | Address 1 field is presented
+
+13:56:38.687 | DEBUG    | Address 1 is filled in
+
+13:56:38.694 | DEBUG    | Address 2 field is presented
+
+13:56:38.728 | DEBUG    | Address 2 is filled in
+
+13:56:38.760 | DEBUG    | State field is presented
+
+13:56:38.796 | DEBUG    | State is filled in
+
+13:56:38.804 | DEBUG    | City field is presented
+
+13:56:38.842 | DEBUG    | City is filled in
+
+13:56:38.850 | DEBUG    | Zipcode field is presented
+
+13:56:38.884 | DEBUG    | Zipcode is filled in
+
+13:56:38.891 | DEBUG    | Mobile number field is presented
+
+13:56:38.932 | DEBUG    | Mobile number is filled in
+
+13:56:39.538 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:56:39.559 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:56:39.559 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:56:39.565 | DEBUG    | Continue button is presented
+
+13:56:40.642 | DEBUG    | Username is correct Logged in as David
+
+13:56:42.382 | DEBUG    | Product Blue Top added, quantity 1
+
+13:56:43.261 | DEBUG    | Product Blue Top added, quantity 2
+
+13:56:44.146 | DEBUG    | Product Men Tshirt added, quantity 1
+
+13:56:45.383 | DEBUG    | Product Men Tshirt added, quantity 2
+
+13:56:45.908 | DEBUG    | Proceed to checkout button clicked
+
+13:56:45.925 | DEBUG    | Name is correct in the delivery information: Mrs. David Davis
+
+13:56:45.940 | DEBUG    | Company name is correct in the delivery information: Pineda-Thomas
+
+13:56:45.955 | DEBUG    | Address 1 is correct in the delivery information: 64790 Kara Station
+
+13:56:45.969 | DEBUG    | Address 2 is correct in the delivery information: Apt. 973
+
+13:56:45.983 | DEBUG    | City is correct in the delivery information: Rodriguezton Washington 69882
+
+13:56:45.997 | DEBUG    | Country is correct in the delivery information: India
+
+13:56:46.010 | DEBUG    | Phone is correct in the delivery information: 371.996.7675x94860
+
+13:56:46.024 | DEBUG    | Name is correct in the billing information: Mrs. David Davis
+
+13:56:46.039 | DEBUG    | Company name is correct in the billing information: Pineda-Thomas
+
+13:56:46.052 | DEBUG    | Address 1 is correct in the billing information: 64790 Kara Station
+
+13:56:46.066 | DEBUG    | Address 2 is correct in the billing information: Apt. 973
+
+13:56:46.080 | DEBUG    | City is correct in the billing information: Rodriguezton Washington 69882
+
+13:56:46.094 | DEBUG    | Country is correct in the billing information: India
+
+13:56:46.108 | DEBUG    | Phone is correct in the billing information: 371.996.7675x94860
+
+13:56:46.120 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+13:56:46.140 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:56:46.149 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:56:46.162 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+13:56:46.162 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+13:56:46.187 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:56:46.200 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:56:46.222 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:56:46.235 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:56:46.311 | DEBUG    | Comment filled in with: Street age professional. Perhaps picture number who big mention close.
+
+13:56:46.492 | DEBUG    | Place order button clicked
+
+13:56:46.545 | DEBUG    | Name on card filled in with: ****
+
+13:56:46.593 | DEBUG    | Card number filled in with: ****1431
+
+13:56:48.060 | DEBUG    | Pay and confirm button clicked
+
+13:56:48.095 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+13:56:48.306 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+13:56:48.306 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+13:56:48.306 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+13:56:48.700 | DEBUG    | Continue button clicked
