@@ -1,0 +1,165 @@
+13:41:25.971 | DEBUG    | New user Signup title is presented
+
+13:41:25.980 | DEBUG    | New user Signup title text is correct
+
+13:41:25.984 | DEBUG    | Signup email field is presented
+
+13:41:25.988 | DEBUG    | Signup name field is presented
+
+13:41:26.020 | DEBUG    | Email signup field filled
+
+13:41:26.043 | DEBUG    | Name signup field filled
+
+13:41:26.071 | DEBUG    | Signup button is clicked
+
+13:41:26.745 | DEBUG    | Account information title is presented
+
+13:41:26.751 | DEBUG    | Account information title text is correct
+
+13:41:26.767 | DEBUG    | Mr radiobutton is presented
+
+13:41:26.771 | DEBUG    | Mrs radiobutton is presented
+
+13:41:26.796 | DEBUG    | Selected MRS title
+
+13:41:26.801 | DEBUG    | Password field is presented
+
+13:41:26.825 | DEBUG    | Password is filled in
+
+13:41:26.831 | DEBUG    | Day of birth list is presented
+
+13:41:26.860 | DEBUG    | Day of birth selected
+
+13:41:26.865 | DEBUG    | Month of birth list is presented
+
+13:41:26.889 | DEBUG    | Month of birth selected
+
+13:41:26.894 | DEBUG    | Year of birth list is presented
+
+13:41:26.918 | DEBUG    | Year of birth selected
+
+13:41:26.945 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+13:41:26.971 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+13:41:26.976 | DEBUG    | First name field is presented
+
+13:41:26.996 | DEBUG    | First name is filled in
+
+13:41:27.001 | DEBUG    | Last name field is presented
+
+13:41:27.022 | DEBUG    | Last name is filled in
+
+13:41:27.026 | DEBUG    | Company field is presented
+
+13:41:27.053 | DEBUG    | Company is filled in
+
+13:41:27.058 | DEBUG    | Address 1 field is presented
+
+13:41:27.084 | DEBUG    | Address 1 is filled in
+
+13:41:27.089 | DEBUG    | Address 2 field is presented
+
+13:41:27.110 | DEBUG    | Address 2 is filled in
+
+13:41:27.142 | DEBUG    | State field is presented
+
+13:41:27.164 | DEBUG    | State is filled in
+
+13:41:27.169 | DEBUG    | City field is presented
+
+13:41:27.190 | DEBUG    | City is filled in
+
+13:41:27.195 | DEBUG    | Zipcode field is presented
+
+13:41:27.218 | DEBUG    | Zipcode is filled in
+
+13:41:27.223 | DEBUG    | Mobile number field is presented
+
+13:41:27.246 | DEBUG    | Mobile number is filled in
+
+13:41:27.840 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:41:27.853 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:41:27.853 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:41:27.857 | DEBUG    | Continue button is presented
+
+13:41:28.394 | DEBUG    | Username is correct Logged in as Steven
+
+13:41:30.166 | DEBUG    | Product Blue Top added, quantity 1
+
+13:41:31.004 | DEBUG    | Product Blue Top added, quantity 2
+
+13:41:31.853 | DEBUG    | Product Men Tshirt added, quantity 1
+
+13:41:32.970 | DEBUG    | Product Men Tshirt added, quantity 2
+
+13:41:33.752 | DEBUG    | Proceed to checkout button clicked
+
+13:41:33.764 | DEBUG    | Name is correct in the delivery information: Mrs. Steven Dyer
+
+13:41:33.773 | DEBUG    | Company name is correct in the delivery information: White, Green and Fuller
+
+13:41:33.783 | DEBUG    | Address 1 is correct in the delivery information: 7304 Keller Isle
+
+13:41:33.791 | DEBUG    | Address 2 is correct in the delivery information: Apt. 914
+
+13:41:33.800 | DEBUG    | City is correct in the delivery information: Ericfort Wyoming 44191
+
+13:41:33.808 | DEBUG    | Country is correct in the delivery information: Canada
+
+13:41:33.817 | DEBUG    | Phone is correct in the delivery information: 214-956-3710
+
+13:41:33.826 | DEBUG    | Name is correct in the billing information: Mrs. Steven Dyer
+
+13:41:33.835 | DEBUG    | Company name is correct in the billing information: White, Green and Fuller
+
+13:41:33.844 | DEBUG    | Address 1 is correct in the billing information: 7304 Keller Isle
+
+13:41:33.854 | DEBUG    | Address 2 is correct in the billing information: Apt. 914
+
+13:41:33.862 | DEBUG    | City is correct in the billing information: Ericfort Wyoming 44191
+
+13:41:33.871 | DEBUG    | Country is correct in the billing information: Canada
+
+13:41:33.880 | DEBUG    | Phone is correct in the billing information: 214-956-3710
+
+13:41:33.886 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+13:41:33.899 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:41:33.904 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:41:33.912 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+13:41:33.912 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+13:41:33.926 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:41:33.934 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:41:33.948 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:41:33.956 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:41:34.000 | DEBUG    | Comment filled in with: Fight bed drug represent source skill this. Budget team simple play.
+
+13:41:34.310 | DEBUG    | Place order button clicked
+
+13:41:34.342 | DEBUG    | Name on card filled in with: ****
+
+13:41:34.369 | DEBUG    | Card number filled in with: ****1359
+
+13:41:34.485 | DEBUG    | Pay and confirm button clicked
+
+13:41:35.978 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+13:41:36.623 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+13:41:36.623 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+13:41:36.623 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+13:41:37.783 | DEBUG    | Continue button clicked

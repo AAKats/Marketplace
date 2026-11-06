@@ -1,0 +1,37 @@
+13:41:38.828 | DEBUG    | New user details:
+
+13:41:38.828 | DEBUG    |   name: Dale
+
+13:41:38.828 | DEBUG    |   email: e4bf8313_perezanthony@example.net
+
+13:41:38.828 | DEBUG    |   title: Mr
+
+13:41:38.828 | DEBUG    |   birth_day: 4
+
+13:41:38.828 | DEBUG    |   birth_month: 2
+
+13:41:38.828 | DEBUG    |   birth_year: 1924
+
+13:41:38.828 | DEBUG    |   firstname: Dale
+
+13:41:38.828 | DEBUG    |   lastname: Moran
+
+13:41:38.828 | DEBUG    |   company: Thompson and Sons
+
+13:41:38.828 | DEBUG    |   address1: 4174 Maria Radial Apt. 109
+
+13:41:38.828 | DEBUG    |   address2: Suite 681
+
+13:41:38.828 | DEBUG    |   country: Australia
+
+13:41:38.828 | DEBUG    |   state: Illinois
+
+13:41:38.829 | DEBUG    |   city: North Christopher
+
+13:41:38.829 | DEBUG    |   zipcode: 68138
+
+13:41:39.194 | DEBUG    | Status code correct: 200
+
+13:41:39.194 | DEBUG    | ResponseCode correct: 201
+
+13:41:39.194 | DEBUG    | Response message correct: "User created!"
