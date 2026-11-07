@@ -1,0 +1,169 @@
+12:19:44.455 | DEBUG    | Product Blue Top added, quantity 1
+
+12:19:45.310 | DEBUG    | Product Blue Top added, quantity 2
+
+12:19:46.160 | DEBUG    | Product Men Tshirt added, quantity 1
+
+12:19:47.153 | DEBUG    | Product Men Tshirt added, quantity 2
+
+12:19:47.380 | DEBUG    | Proceed to checkout button clicked
+
+12:19:47.527 | DEBUG    | Register via modal button clicked
+
+12:19:47.535 | DEBUG    | New user Signup title is presented
+
+12:19:47.543 | DEBUG    | New user Signup title text is correct
+
+12:19:47.547 | DEBUG    | Signup email field is presented
+
+12:19:47.551 | DEBUG    | Signup name field is presented
+
+12:19:47.603 | DEBUG    | Email signup field filled
+
+12:19:47.634 | DEBUG    | Name signup field filled
+
+12:19:47.778 | DEBUG    | Signup button is clicked
+
+12:19:47.788 | DEBUG    | Account information title is presented
+
+12:19:47.796 | DEBUG    | Account information title text is correct
+
+12:19:47.816 | DEBUG    | Mr radiobutton is presented
+
+12:19:47.820 | DEBUG    | Mrs radiobutton is presented
+
+12:19:47.856 | DEBUG    | Selected MR title
+
+12:19:47.863 | DEBUG    | Password field is presented
+
+12:19:47.900 | DEBUG    | Password is filled in
+
+12:19:47.905 | DEBUG    | Day of birth list is presented
+
+12:19:47.944 | DEBUG    | Day of birth selected
+
+12:19:47.950 | DEBUG    | Month of birth list is presented
+
+12:19:47.980 | DEBUG    | Month of birth selected
+
+12:19:47.986 | DEBUG    | Year of birth list is presented
+
+12:19:48.015 | DEBUG    | Year of birth selected
+
+12:19:48.016 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+12:19:48.016 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+12:19:48.021 | DEBUG    | First name field is presented
+
+12:19:48.049 | DEBUG    | First name is filled in
+
+12:19:48.054 | DEBUG    | Last name field is presented
+
+12:19:48.081 | DEBUG    | Last name is filled in
+
+12:19:48.086 | DEBUG    | Company field is presented
+
+12:19:48.115 | DEBUG    | Company is filled in
+
+12:19:48.120 | DEBUG    | Address 1 field is presented
+
+12:19:48.157 | DEBUG    | Address 1 is filled in
+
+12:19:48.164 | DEBUG    | Address 2 field is presented
+
+12:19:48.190 | DEBUG    | Address 2 is filled in
+
+12:19:48.227 | DEBUG    | State field is presented
+
+12:19:48.255 | DEBUG    | State is filled in
+
+12:19:48.262 | DEBUG    | City field is presented
+
+12:19:48.296 | DEBUG    | City is filled in
+
+12:19:48.301 | DEBUG    | Zipcode field is presented
+
+12:19:48.327 | DEBUG    | Zipcode is filled in
+
+12:19:48.332 | DEBUG    | Mobile number field is presented
+
+12:19:48.364 | DEBUG    | Mobile number is filled in
+
+12:19:49.140 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+12:19:49.156 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+12:19:49.156 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+12:19:49.160 | DEBUG    | Continue button is presented
+
+12:19:49.513 | DEBUG    | Username is correct Logged in as Rachel
+
+12:19:49.920 | DEBUG    | Proceed to checkout button clicked
+
+12:19:49.933 | DEBUG    | Name is correct in the delivery information: Mr. Rachel Rubio
+
+12:19:49.944 | DEBUG    | Company name is correct in the delivery information: Vance-Krause
+
+12:19:49.955 | DEBUG    | Address 1 is correct in the delivery information: 8456 Benton Highway Suite 439
+
+12:19:49.966 | DEBUG    | Address 2 is correct in the delivery information: Apt. 443
+
+12:19:49.976 | DEBUG    | City is correct in the delivery information: Port Frank Rhode Island 61024
+
+12:19:49.987 | DEBUG    | Country is correct in the delivery information: Israel
+
+12:19:49.998 | DEBUG    | Phone is correct in the delivery information: +1-788-717-4313x01486
+
+12:19:50.008 | DEBUG    | Name is correct in the billing information: Mr. Rachel Rubio
+
+12:19:50.018 | DEBUG    | Company name is correct in the billing information: Vance-Krause
+
+12:19:50.029 | DEBUG    | Address 1 is correct in the billing information: 8456 Benton Highway Suite 439
+
+12:19:50.039 | DEBUG    | Address 2 is correct in the billing information: Apt. 443
+
+12:19:50.048 | DEBUG    | City is correct in the billing information: Port Frank Rhode Island 61024
+
+12:19:50.058 | DEBUG    | Country is correct in the billing information: Israel
+
+12:19:50.068 | DEBUG    | Phone is correct in the billing information: +1-788-717-4313x01486
+
+12:19:50.076 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+12:19:50.091 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:19:50.097 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+12:19:50.106 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+12:19:50.106 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+12:19:50.126 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+12:19:50.135 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+12:19:50.152 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+12:19:50.161 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+12:19:50.217 | DEBUG    | Comment filled in with: Page size control as thousand time I. Budget turn account social.
+
+12:19:50.394 | DEBUG    | Place order button clicked
+
+12:19:50.446 | DEBUG    | Name on card filled in with: ****
+
+12:19:50.478 | DEBUG    | Card number filled in with: ****6765
+
+12:19:51.879 | DEBUG    | Pay and confirm button clicked
+
+12:19:51.905 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+12:19:52.086 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+12:19:52.086 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+12:19:52.086 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+12:19:52.382 | DEBUG    | Continue button clicked

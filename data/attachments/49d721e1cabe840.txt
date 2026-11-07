@@ -1,0 +1,49 @@
+12:20:04.687 | DEBUG    | Search field is presented
+
+12:20:04.722 | DEBUG    | Search field is filled in with: "Regular Fit Straight Jeans"
+
+12:20:04.728 | DEBUG    | Search button is presented
+
+12:20:04.942 | DEBUG    | Search button is clicked
+
+12:20:04.957 | DEBUG    | Title is presented
+
+12:20:04.957 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+12:20:04.961 | DEBUG    | 1 products found
+
+12:20:04.965 | DEBUG    | "Regular Fit Straight Jeans" product found, and contains "Regular Fit Straight Jeans"
+
+12:20:05.977 | DEBUG    | Product Regular Fit Straight Jeans added, quantity 1
+
+12:20:06.189 | DEBUG    | Product: Regular Fit Straight Jeans found in cart: Regular Fit Straight Jeans
+
+12:20:06.205 | DEBUG    | Product Regular Fit Straight Jeans price in cart: 1200 matches added price: 1200
+
+12:20:06.222 | DEBUG    | Product Regular Fit Straight Jeans quantity in cart: 1 matches added quantity: 1
+
+12:20:06.239 | DEBUG    | Product Regular Fit Straight Jeans total in cart: 1200 matches expected total: 1200
+
+12:20:06.372 | DEBUG    | Login email field is presented
+
+12:20:06.377 | DEBUG    | Password field is presented
+
+12:20:06.409 | DEBUG    | Email filled in
+
+12:20:06.438 | DEBUG    | Password filled in
+
+12:20:06.443 | DEBUG    | Login button is presented
+
+12:20:06.472 | DEBUG    | Login button is clicked
+
+12:20:07.981 | DEBUG    | Product: Regular Fit Straight Jeans found in cart: Regular Fit Straight Jeans
+
+12:20:07.997 | DEBUG    | Product Regular Fit Straight Jeans price in cart: 1200 matches added price: 1200
+
+12:20:08.012 | DEBUG    | Product Regular Fit Straight Jeans quantity in cart: 1 matches added quantity: 1
+
+12:20:08.029 | DEBUG    | Product Regular Fit Straight Jeans total in cart: 1200 matches expected total: 1200
+
+12:20:12.629 | DEBUG    | All products deleted
+
+12:20:12.635 | DEBUG    | Empty cart text correct: Cart is empty!

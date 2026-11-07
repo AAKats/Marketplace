@@ -1,0 +1,75 @@
+12:21:42.392 | DEBUG    | New user details:
+
+12:21:42.392 | DEBUG    |   name: Whitney
+
+12:21:42.392 | DEBUG    |   email: e968c7ef_joeburgess@example.org
+
+12:21:42.393 | DEBUG    |   title: Mr
+
+12:21:42.393 | DEBUG    |   birth_day: 13
+
+12:21:42.393 | DEBUG    |   birth_month: 1
+
+12:21:42.393 | DEBUG    |   birth_year: 1921
+
+12:21:42.393 | DEBUG    |   firstname: Whitney
+
+12:21:42.393 | DEBUG    |   lastname: Little
+
+12:21:42.393 | DEBUG    |   company: Donovan Inc
+
+12:21:42.393 | DEBUG    |   address1: 48904 Stewart Branch
+
+12:21:42.393 | DEBUG    |   address2: Apt. 730
+
+12:21:42.393 | DEBUG    |   country: United States
+
+12:21:42.393 | DEBUG    |   state: Missouri
+
+12:21:42.393 | DEBUG    |   city: Josephbury
+
+12:21:42.393 | DEBUG    |   zipcode: 08174
+
+12:21:42.489 | DEBUG    | Status code correct: 200
+
+12:21:42.489 | DEBUG    | ResponseCode correct: 201
+
+12:21:42.489 | DEBUG    | Response message correct: "User created!"
+
+12:21:42.489 | DEBUG    | Updated user details:
+
+12:21:42.489 | DEBUG    |   name: Whitney
+
+12:21:42.489 | DEBUG    |   email: e968c7ef_joeburgess@example.org
+
+12:21:42.489 | DEBUG    |   title: Mr
+
+12:21:42.489 | DEBUG    |   birth_day: 13
+
+12:21:42.489 | DEBUG    |   birth_month: 1
+
+12:21:42.489 | DEBUG    |   birth_year: 1921
+
+12:21:42.489 | DEBUG    |   firstname: Whitney
+
+12:21:42.489 | DEBUG    |   lastname: Little
+
+12:21:42.489 | DEBUG    |   company: Donovan Inc
+
+12:21:42.489 | DEBUG    |   address1: 48904 Stewart Branch
+
+12:21:42.489 | DEBUG    |   address2: Apt. 730
+
+12:21:42.489 | DEBUG    |   country: United States
+
+12:21:42.489 | DEBUG    |   state: Missouri
+
+12:21:42.489 | DEBUG    |   city: Josephbury
+
+12:21:42.491 | DEBUG    |   zipcode: 08174
+
+12:21:42.576 | DEBUG    | Status code correct: 200
+
+12:21:42.576 | DEBUG    | ResponseCode correct: 200
+
+12:21:42.576 | DEBUG    | Response message correct: "User updated!"

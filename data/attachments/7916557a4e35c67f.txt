@@ -1,0 +1,13 @@
+12:19:41.246 | DEBUG    | Product "Long Maxi Tulle Fancy Dress Up Outfits -Pink" (ID: 22) opened
+
+12:19:41.305 | DEBUG    | Quantity = 8 selected
+
+12:19:41.342 | DEBUG    | Product was added to cart
+
+12:19:42.067 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+12:19:42.074 | DEBUG    | Product: Long Maxi Tulle Fancy Dress Up Outfits -Pink found in cart: Long Maxi Tulle Fancy Dress Up Outfits -Pink
+
+12:19:42.088 | DEBUG    | Product Long Maxi Tulle Fancy Dress Up Outfits -Pink price in cart: 1600 matches added price: 1600
+
+12:19:42.105 | DEBUG    | Product Long Maxi Tulle Fancy Dress Up Outfits -Pink quantity in cart: 8 matches added quantity: 8

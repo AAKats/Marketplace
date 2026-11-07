@@ -1,0 +1,11 @@
+12:21:09.642 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+12:21:09.685 | DEBUG    | Review name field filled in with "Maria Rivera"
+
+12:21:09.729 | DEBUG    | Review email field filled in with "d1b39311_kevinfowler@example.com"
+
+12:21:09.793 | DEBUG    | Review message field filled in with "Peace bank trip room around. These investment case perhaps find second pretty country."
+
+12:21:09.833 | DEBUG    | Submit review button clicked
+
+12:21:09.852 | DEBUG    | Success review message is displayed

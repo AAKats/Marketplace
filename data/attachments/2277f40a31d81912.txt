@@ -1,0 +1,43 @@
+12:21:42.188 | DEBUG    | New user details:
+
+12:21:42.188 | DEBUG    |   name: Natasha
+
+12:21:42.188 | DEBUG    |   email: cd397cec_randallgill@example.com
+
+12:21:42.188 | DEBUG    |   title: Mrs
+
+12:21:42.188 | DEBUG    |   birth_day: 26
+
+12:21:42.188 | DEBUG    |   birth_month: 9
+
+12:21:42.188 | DEBUG    |   birth_year: 1996
+
+12:21:42.188 | DEBUG    |   firstname: Natasha
+
+12:21:42.188 | DEBUG    |   lastname: Jones
+
+12:21:42.188 | DEBUG    |   company: Adams-Willis
+
+12:21:42.188 | DEBUG    |   address1: 85992 Mcdonald Course Suite 184
+
+12:21:42.188 | DEBUG    |   address2: Apt. 791
+
+12:21:42.188 | DEBUG    |   country: Canada
+
+12:21:42.188 | DEBUG    |   state: Utah
+
+12:21:42.188 | DEBUG    |   city: New Rachel
+
+12:21:42.188 | DEBUG    |   zipcode: 46739
+
+12:21:42.285 | DEBUG    | Status code correct: 200
+
+12:21:42.285 | DEBUG    | ResponseCode correct: 201
+
+12:21:42.285 | DEBUG    | Response message correct: "User created!"
+
+12:21:42.385 | DEBUG    | Status code correct: 200
+
+12:21:42.385 | DEBUG    | ResponseCode correct: 200
+
+12:21:42.385 | DEBUG    | Response message correct: "Account deleted!"
