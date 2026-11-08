@@ -1,0 +1,169 @@
+12:39:38.586 | DEBUG    | Product Blue Top added, quantity 1
+
+12:39:39.463 | DEBUG    | Product Blue Top added, quantity 2
+
+12:39:40.346 | DEBUG    | Product Men Tshirt added, quantity 1
+
+12:39:41.438 | DEBUG    | Product Men Tshirt added, quantity 2
+
+12:39:41.779 | DEBUG    | Proceed to checkout button clicked
+
+12:39:42.042 | DEBUG    | Register via modal button clicked
+
+12:39:42.062 | DEBUG    | New user Signup title is presented
+
+12:39:42.071 | DEBUG    | New user Signup title text is correct
+
+12:39:42.077 | DEBUG    | Signup email field is presented
+
+12:39:42.083 | DEBUG    | Signup name field is presented
+
+12:39:42.136 | DEBUG    | Email signup field filled
+
+12:39:42.176 | DEBUG    | Name signup field filled
+
+12:39:42.218 | DEBUG    | Signup button is clicked
+
+12:39:42.758 | DEBUG    | Account information title is presented
+
+12:39:42.767 | DEBUG    | Account information title text is correct
+
+12:39:42.794 | DEBUG    | Mr radiobutton is presented
+
+12:39:42.799 | DEBUG    | Mrs radiobutton is presented
+
+12:39:42.844 | DEBUG    | Selected MR title
+
+12:39:42.851 | DEBUG    | Password field is presented
+
+12:39:42.894 | DEBUG    | Password is filled in
+
+12:39:42.902 | DEBUG    | Day of birth list is presented
+
+12:39:42.952 | DEBUG    | Day of birth selected
+
+12:39:42.959 | DEBUG    | Month of birth list is presented
+
+12:39:43.001 | DEBUG    | Month of birth selected
+
+12:39:43.008 | DEBUG    | Year of birth list is presented
+
+12:39:43.049 | DEBUG    | Year of birth selected
+
+12:39:43.049 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+12:39:43.050 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+12:39:43.057 | DEBUG    | First name field is presented
+
+12:39:43.093 | DEBUG    | First name is filled in
+
+12:39:43.102 | DEBUG    | Last name field is presented
+
+12:39:43.141 | DEBUG    | Last name is filled in
+
+12:39:43.148 | DEBUG    | Company field is presented
+
+12:39:43.195 | DEBUG    | Company is filled in
+
+12:39:43.202 | DEBUG    | Address 1 field is presented
+
+12:39:43.251 | DEBUG    | Address 1 is filled in
+
+12:39:43.258 | DEBUG    | Address 2 field is presented
+
+12:39:43.293 | DEBUG    | Address 2 is filled in
+
+12:39:43.345 | DEBUG    | State field is presented
+
+12:39:43.381 | DEBUG    | State is filled in
+
+12:39:43.389 | DEBUG    | City field is presented
+
+12:39:43.427 | DEBUG    | City is filled in
+
+12:39:43.435 | DEBUG    | Zipcode field is presented
+
+12:39:43.469 | DEBUG    | Zipcode is filled in
+
+12:39:43.476 | DEBUG    | Mobile number field is presented
+
+12:39:43.519 | DEBUG    | Mobile number is filled in
+
+12:39:44.315 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+12:39:44.337 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+12:39:44.338 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+12:39:44.343 | DEBUG    | Continue button is presented
+
+12:39:44.795 | DEBUG    | Username is correct Logged in as Stephen
+
+12:39:45.631 | DEBUG    | Proceed to checkout button clicked
+
+12:39:45.649 | DEBUG    | Name is correct in the delivery information: Mr. Stephen Matthews
+
+12:39:45.665 | DEBUG    | Company name is correct in the delivery information: Beck, Williams and Carlson
+
+12:39:45.680 | DEBUG    | Address 1 is correct in the delivery information: 08804 Alexandra Ways Suite 000
+
+12:39:45.695 | DEBUG    | Address 2 is correct in the delivery information: Apt. 620
+
+12:39:45.710 | DEBUG    | City is correct in the delivery information: Robertshire Oklahoma 01465
+
+12:39:45.725 | DEBUG    | Country is correct in the delivery information: Australia
+
+12:39:45.741 | DEBUG    | Phone is correct in the delivery information: (898)423-2106x5224
+
+12:39:45.756 | DEBUG    | Name is correct in the billing information: Mr. Stephen Matthews
+
+12:39:45.773 | DEBUG    | Company name is correct in the billing information: Beck, Williams and Carlson
+
+12:39:45.789 | DEBUG    | Address 1 is correct in the billing information: 08804 Alexandra Ways Suite 000
+
+12:39:45.804 | DEBUG    | Address 2 is correct in the billing information: Apt. 620
+
+12:39:45.820 | DEBUG    | City is correct in the billing information: Robertshire Oklahoma 01465
+
+12:39:45.836 | DEBUG    | Country is correct in the billing information: Australia
+
+12:39:45.852 | DEBUG    | Phone is correct in the billing information: (898)423-2106x5224
+
+12:39:45.864 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+12:39:45.887 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:39:45.897 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+12:39:45.910 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+12:39:45.910 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+12:39:45.936 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+12:39:45.949 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+12:39:45.972 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+12:39:45.985 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+12:39:46.054 | DEBUG    | Comment filled in with: Glass pretty short parent smile half without. Ago rather model.
+
+12:39:46.423 | DEBUG    | Place order button clicked
+
+12:39:46.492 | DEBUG    | Name on card filled in with: ****
+
+12:39:46.561 | DEBUG    | Card number filled in with: ****0048
+
+12:39:48.144 | DEBUG    | Pay and confirm button clicked
+
+12:39:48.179 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+12:39:48.405 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+12:39:48.405 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+12:39:48.405 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+12:39:48.971 | DEBUG    | Continue button clicked

@@ -1,0 +1,165 @@
+12:42:02.913 | DEBUG    | New user Signup title is presented
+
+12:42:02.926 | DEBUG    | New user Signup title text is correct
+
+12:42:02.933 | DEBUG    | Signup email field is presented
+
+12:42:02.939 | DEBUG    | Signup name field is presented
+
+12:42:02.995 | DEBUG    | Email signup field filled
+
+12:42:03.032 | DEBUG    | Name signup field filled
+
+12:42:03.074 | DEBUG    | Signup button is clicked
+
+12:42:03.256 | DEBUG    | Account information title is presented
+
+12:42:03.266 | DEBUG    | Account information title text is correct
+
+12:42:03.296 | DEBUG    | Mr radiobutton is presented
+
+12:42:03.302 | DEBUG    | Mrs radiobutton is presented
+
+12:42:03.342 | DEBUG    | Selected MRS title
+
+12:42:03.349 | DEBUG    | Password field is presented
+
+12:42:03.390 | DEBUG    | Password is filled in
+
+12:42:03.399 | DEBUG    | Day of birth list is presented
+
+12:42:03.448 | DEBUG    | Day of birth selected
+
+12:42:03.455 | DEBUG    | Month of birth list is presented
+
+12:42:03.499 | DEBUG    | Month of birth selected
+
+12:42:03.505 | DEBUG    | Year of birth list is presented
+
+12:42:03.547 | DEBUG    | Year of birth selected
+
+12:42:03.591 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+12:42:03.591 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+12:42:03.599 | DEBUG    | First name field is presented
+
+12:42:03.635 | DEBUG    | First name is filled in
+
+12:42:03.642 | DEBUG    | Last name field is presented
+
+12:42:03.677 | DEBUG    | Last name is filled in
+
+12:42:03.684 | DEBUG    | Company field is presented
+
+12:42:03.720 | DEBUG    | Company is filled in
+
+12:42:03.729 | DEBUG    | Address 1 field is presented
+
+12:42:03.769 | DEBUG    | Address 1 is filled in
+
+12:42:03.777 | DEBUG    | Address 2 field is presented
+
+12:42:03.815 | DEBUG    | Address 2 is filled in
+
+12:42:03.867 | DEBUG    | State field is presented
+
+12:42:03.902 | DEBUG    | State is filled in
+
+12:42:03.911 | DEBUG    | City field is presented
+
+12:42:03.949 | DEBUG    | City is filled in
+
+12:42:03.956 | DEBUG    | Zipcode field is presented
+
+12:42:03.990 | DEBUG    | Zipcode is filled in
+
+12:42:03.998 | DEBUG    | Mobile number field is presented
+
+12:42:04.037 | DEBUG    | Mobile number is filled in
+
+12:42:05.244 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+12:42:05.266 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+12:42:05.266 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+12:42:05.272 | DEBUG    | Continue button is presented
+
+12:42:05.790 | DEBUG    | Username is correct Logged in as Michael
+
+12:42:07.752 | DEBUG    | Product Blue Top added, quantity 1
+
+12:42:08.631 | DEBUG    | Product Blue Top added, quantity 2
+
+12:42:09.532 | DEBUG    | Product Men Tshirt added, quantity 1
+
+12:42:10.618 | DEBUG    | Product Men Tshirt added, quantity 2
+
+12:42:11.202 | DEBUG    | Proceed to checkout button clicked
+
+12:42:11.220 | DEBUG    | Name is correct in the delivery information: Mrs. Michael Thomas
+
+12:42:11.235 | DEBUG    | Company name is correct in the delivery information: Ramos Group
+
+12:42:11.250 | DEBUG    | Address 1 is correct in the delivery information: 438 Brock Union
+
+12:42:11.266 | DEBUG    | Address 2 is correct in the delivery information: Suite 567
+
+12:42:11.281 | DEBUG    | City is correct in the delivery information: West Robert Idaho 66098
+
+12:42:11.296 | DEBUG    | Country is correct in the delivery information: Canada
+
+12:42:11.311 | DEBUG    | Phone is correct in the delivery information: 785.908.8666
+
+12:42:11.326 | DEBUG    | Name is correct in the billing information: Mrs. Michael Thomas
+
+12:42:11.341 | DEBUG    | Company name is correct in the billing information: Ramos Group
+
+12:42:11.356 | DEBUG    | Address 1 is correct in the billing information: 438 Brock Union
+
+12:42:11.371 | DEBUG    | Address 2 is correct in the billing information: Suite 567
+
+12:42:11.386 | DEBUG    | City is correct in the billing information: West Robert Idaho 66098
+
+12:42:11.404 | DEBUG    | Country is correct in the billing information: Canada
+
+12:42:11.419 | DEBUG    | Phone is correct in the billing information: 785.908.8666
+
+12:42:11.432 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+12:42:11.453 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:42:11.463 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+12:42:11.477 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+12:42:11.477 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+12:42:11.501 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+12:42:11.514 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+12:42:11.537 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+12:42:11.552 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+12:42:11.629 | DEBUG    | Comment filled in with: Child age born police instead. Ground interview risk current land require coach.
+
+12:42:11.824 | DEBUG    | Place order button clicked
+
+12:42:11.873 | DEBUG    | Name on card filled in with: ****
+
+12:42:11.922 | DEBUG    | Card number filled in with: ****4383
+
+12:42:13.396 | DEBUG    | Pay and confirm button clicked
+
+12:42:13.435 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+12:42:13.881 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+12:42:13.881 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+12:42:13.881 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+12:42:14.888 | DEBUG    | Continue button clicked

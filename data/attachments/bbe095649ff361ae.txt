@@ -1,0 +1,11 @@
+12:41:27.425 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+12:41:27.485 | DEBUG    | Review name field filled in with "Danielle Rogers"
+
+12:41:27.545 | DEBUG    | Review email field filled in with "7b67477f_matthewlewis@example.org"
+
+12:41:27.633 | DEBUG    | Review message field filled in with "Rather reality eye serve stand certainly fill. Suffer nor outside something night way measure."
+
+12:41:27.686 | DEBUG    | Submit review button clicked
+
+12:41:27.711 | DEBUG    | Success review message is displayed

@@ -1,0 +1,67 @@
+12:41:16.163 | DEBUG    | Email filled in
+
+12:41:16.201 | DEBUG    | Password filled in
+
+12:41:16.208 | DEBUG    | Login button is presented
+
+12:41:16.250 | DEBUG    | Login button is clicked
+
+12:41:17.460 | DEBUG    | Username is correct Logged in as John
+
+12:41:18.393 | DEBUG    | Product Blue Top added, quantity 1
+
+12:41:19.285 | DEBUG    | Product Blue Top added, quantity 2
+
+12:41:21.174 | DEBUG    | Product Blue Top added, quantity 3
+
+12:41:22.797 | DEBUG    | Proceed to checkout button clicked
+
+12:41:22.815 | DEBUG    | Name is correct in the delivery information: Mr. John Potter
+
+12:41:22.831 | DEBUG    | Company name is correct in the delivery information: Manning, Li and Young
+
+12:41:22.847 | DEBUG    | Address 1 is correct in the delivery information: 0656 Patricia Pass
+
+12:41:22.862 | DEBUG    | Address 2 is correct in the delivery information: Apt. 488
+
+12:41:22.877 | DEBUG    | City is correct in the delivery information: New Susanshire Louisiana 51020
+
+12:41:22.892 | DEBUG    | Country is correct in the delivery information: India
+
+12:41:22.907 | DEBUG    | Phone is correct in the delivery information: 4052418222
+
+12:41:22.921 | DEBUG    | Name is correct in the billing information: Mr. John Potter
+
+12:41:22.937 | DEBUG    | Company name is correct in the billing information: Manning, Li and Young
+
+12:41:22.951 | DEBUG    | Address 1 is correct in the billing information: 0656 Patricia Pass
+
+12:41:22.966 | DEBUG    | Address 2 is correct in the billing information: Apt. 488
+
+12:41:22.980 | DEBUG    | City is correct in the billing information: New Susanshire Louisiana 51020
+
+12:41:22.994 | DEBUG    | Country is correct in the billing information: India
+
+12:41:23.008 | DEBUG    | Phone is correct in the billing information: 4052418222
+
+12:41:23.020 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+12:41:23.040 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:41:23.049 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+12:41:23.075 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+12:41:23.099 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+12:41:23.180 | DEBUG    | Comment filled in with: Operation style or effect. Beautiful threat sound then. Cultural much argue less imagine.
+
+12:41:23.617 | DEBUG    | Place order button clicked
+
+12:41:23.668 | DEBUG    | Name on card filled in with: ****
+
+12:41:23.717 | DEBUG    | Card number filled in with: ****9435
+
+12:41:23.909 | DEBUG    | Pay and confirm button clicked
+
+12:41:25.352 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
