@@ -1,5 +1,0 @@
-12:42:15.562 | DEBUG    | Status code correct: 200
-
-12:42:15.562 | DEBUG    | ResponseCode correct: 405
-
-12:42:15.562 | DEBUG    | Response message correct: "This request method is not supported."

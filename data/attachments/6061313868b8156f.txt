@@ -1,0 +1,75 @@
+15:00:56.091 | DEBUG    | New user details:
+
+15:00:56.091 | DEBUG    |   name: Patrick
+
+15:00:56.091 | DEBUG    |   email: a9998e34_eugene45@example.com
+
+15:00:56.091 | DEBUG    |   title: Mr
+
+15:00:56.091 | DEBUG    |   birth_day: 22
+
+15:00:56.091 | DEBUG    |   birth_month: 7
+
+15:00:56.091 | DEBUG    |   birth_year: 1968
+
+15:00:56.091 | DEBUG    |   firstname: Patrick
+
+15:00:56.091 | DEBUG    |   lastname: Torres
+
+15:00:56.091 | DEBUG    |   company: Barton, Shea and Preston
+
+15:00:56.091 | DEBUG    |   address1: 0867 Corey Key Apt. 126
+
+15:00:56.091 | DEBUG    |   address2: Suite 874
+
+15:00:56.091 | DEBUG    |   country: New Zealand
+
+15:00:56.091 | DEBUG    |   state: Montana
+
+15:00:56.091 | DEBUG    |   city: Andrewside
+
+15:00:56.091 | DEBUG    |   zipcode: 54663
+
+15:00:56.243 | DEBUG    | Status code correct: 200
+
+15:00:56.243 | DEBUG    | ResponseCode correct: 201
+
+15:00:56.243 | DEBUG    | Response message correct: "User created!"
+
+15:00:56.244 | DEBUG    | Updated user details:
+
+15:00:56.244 | DEBUG    |   name: Patrick
+
+15:00:56.244 | DEBUG    |   email: a9998e34_eugene45@example.com
+
+15:00:56.244 | DEBUG    |   title: Mr
+
+15:00:56.244 | DEBUG    |   birth_day: 22
+
+15:00:56.244 | DEBUG    |   birth_month: 7
+
+15:00:56.244 | DEBUG    |   birth_year: 1968
+
+15:00:56.244 | DEBUG    |   firstname: Patrick
+
+15:00:56.244 | DEBUG    |   lastname: Torres
+
+15:00:56.244 | DEBUG    |   company: Barton, Shea and Preston
+
+15:00:56.244 | DEBUG    |   address1: 0867 Corey Key Apt. 126
+
+15:00:56.244 | DEBUG    |   address2: Suite 874
+
+15:00:56.244 | DEBUG    |   country: New Zealand
+
+15:00:56.244 | DEBUG    |   state: Montana
+
+15:00:56.244 | DEBUG    |   city: Andrewside
+
+15:00:56.246 | DEBUG    |   zipcode: 54663
+
+15:00:56.377 | DEBUG    | Status code correct: 200
+
+15:00:56.378 | DEBUG    | ResponseCode correct: 200
+
+15:00:56.378 | DEBUG    | Response message correct: "User updated!"

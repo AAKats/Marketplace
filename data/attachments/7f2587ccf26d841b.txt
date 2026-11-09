@@ -1,0 +1,165 @@
+15:00:44.236 | DEBUG    | New user Signup title is presented
+
+15:00:44.248 | DEBUG    | New user Signup title text is correct
+
+15:00:44.255 | DEBUG    | Signup email field is presented
+
+15:00:44.262 | DEBUG    | Signup name field is presented
+
+15:00:44.318 | DEBUG    | Email signup field filled
+
+15:00:44.354 | DEBUG    | Name signup field filled
+
+15:00:44.398 | DEBUG    | Signup button is clicked
+
+15:00:44.597 | DEBUG    | Account information title is presented
+
+15:00:44.606 | DEBUG    | Account information title text is correct
+
+15:00:44.636 | DEBUG    | Mr radiobutton is presented
+
+15:00:44.642 | DEBUG    | Mrs radiobutton is presented
+
+15:00:44.683 | DEBUG    | Selected MR title
+
+15:00:44.689 | DEBUG    | Password field is presented
+
+15:00:44.732 | DEBUG    | Password is filled in
+
+15:00:44.739 | DEBUG    | Day of birth list is presented
+
+15:00:44.786 | DEBUG    | Day of birth selected
+
+15:00:44.793 | DEBUG    | Month of birth list is presented
+
+15:00:44.833 | DEBUG    | Month of birth selected
+
+15:00:44.840 | DEBUG    | Year of birth list is presented
+
+15:00:44.881 | DEBUG    | Year of birth selected
+
+15:00:44.927 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+15:00:44.927 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+15:00:44.934 | DEBUG    | First name field is presented
+
+15:00:44.966 | DEBUG    | First name is filled in
+
+15:00:44.973 | DEBUG    | Last name field is presented
+
+15:00:45.012 | DEBUG    | Last name is filled in
+
+15:00:45.019 | DEBUG    | Company field is presented
+
+15:00:45.057 | DEBUG    | Company is filled in
+
+15:00:45.064 | DEBUG    | Address 1 field is presented
+
+15:00:45.110 | DEBUG    | Address 1 is filled in
+
+15:00:45.117 | DEBUG    | Address 2 field is presented
+
+15:00:45.154 | DEBUG    | Address 2 is filled in
+
+15:00:45.204 | DEBUG    | State field is presented
+
+15:00:45.240 | DEBUG    | State is filled in
+
+15:00:45.249 | DEBUG    | City field is presented
+
+15:00:45.286 | DEBUG    | City is filled in
+
+15:00:45.294 | DEBUG    | Zipcode field is presented
+
+15:00:45.331 | DEBUG    | Zipcode is filled in
+
+15:00:45.338 | DEBUG    | Mobile number field is presented
+
+15:00:45.383 | DEBUG    | Mobile number is filled in
+
+15:00:46.095 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+15:00:46.116 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+15:00:46.116 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+15:00:46.122 | DEBUG    | Continue button is presented
+
+15:00:46.810 | DEBUG    | Username is correct Logged in as Dale
+
+15:00:48.307 | DEBUG    | Product Blue Top added, quantity 1
+
+15:00:49.194 | DEBUG    | Product Blue Top added, quantity 2
+
+15:00:50.094 | DEBUG    | Product Men Tshirt added, quantity 1
+
+15:00:51.214 | DEBUG    | Product Men Tshirt added, quantity 2
+
+15:00:51.854 | DEBUG    | Proceed to checkout button clicked
+
+15:00:51.870 | DEBUG    | Name is correct in the delivery information: Mr. Dale Blackburn
+
+15:00:51.884 | DEBUG    | Company name is correct in the delivery information: Irwin-Ramos
+
+15:00:51.898 | DEBUG    | Address 1 is correct in the delivery information: 3372 Robert Expressway
+
+15:00:51.912 | DEBUG    | Address 2 is correct in the delivery information: Suite 552
+
+15:00:51.926 | DEBUG    | City is correct in the delivery information: New Leeport New York 63497
+
+15:00:51.939 | DEBUG    | Country is correct in the delivery information: Israel
+
+15:00:51.954 | DEBUG    | Phone is correct in the delivery information: 001-900-582-5343x3451
+
+15:00:51.968 | DEBUG    | Name is correct in the billing information: Mr. Dale Blackburn
+
+15:00:51.982 | DEBUG    | Company name is correct in the billing information: Irwin-Ramos
+
+15:00:51.996 | DEBUG    | Address 1 is correct in the billing information: 3372 Robert Expressway
+
+15:00:52.012 | DEBUG    | Address 2 is correct in the billing information: Suite 552
+
+15:00:52.027 | DEBUG    | City is correct in the billing information: New Leeport New York 63497
+
+15:00:52.040 | DEBUG    | Country is correct in the billing information: Israel
+
+15:00:52.054 | DEBUG    | Phone is correct in the billing information: 001-900-582-5343x3451
+
+15:00:52.065 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+15:00:52.084 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+15:00:52.093 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+15:00:52.107 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+15:00:52.107 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+15:00:52.130 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+15:00:52.143 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+15:00:52.165 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+15:00:52.178 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+15:00:52.238 | DEBUG    | Comment filled in with: At leg summer whatever court per.
+
+15:00:52.445 | DEBUG    | Place order button clicked
+
+15:00:52.500 | DEBUG    | Name on card filled in with: ****
+
+15:00:52.548 | DEBUG    | Card number filled in with: ****2017
+
+15:00:52.730 | DEBUG    | Pay and confirm button clicked
+
+15:00:54.094 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+15:00:54.343 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+15:00:54.343 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+15:00:54.343 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+15:00:54.803 | DEBUG    | Continue button clicked

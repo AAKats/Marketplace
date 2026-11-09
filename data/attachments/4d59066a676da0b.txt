@@ -1,0 +1,67 @@
+14:59:51.287 | DEBUG    | Email filled in
+
+14:59:51.326 | DEBUG    | Password filled in
+
+14:59:51.334 | DEBUG    | Login button is presented
+
+14:59:51.375 | DEBUG    | Login button is clicked
+
+14:59:53.228 | DEBUG    | Username is correct Logged in as Elizabeth
+
+14:59:54.157 | DEBUG    | Product Blue Top added, quantity 1
+
+14:59:55.048 | DEBUG    | Product Blue Top added, quantity 2
+
+14:59:56.187 | DEBUG    | Product Blue Top added, quantity 3
+
+14:59:56.804 | DEBUG    | Proceed to checkout button clicked
+
+14:59:56.820 | DEBUG    | Name is correct in the delivery information: Mr. Elizabeth Lee
+
+14:59:56.834 | DEBUG    | Company name is correct in the delivery information: Wilson-Castaneda
+
+14:59:56.847 | DEBUG    | Address 1 is correct in the delivery information: 2511 Deborah Terrace
+
+14:59:56.861 | DEBUG    | Address 2 is correct in the delivery information: Suite 189
+
+14:59:56.874 | DEBUG    | City is correct in the delivery information: Reneeville Georgia 06930
+
+14:59:56.888 | DEBUG    | Country is correct in the delivery information: United States
+
+14:59:56.901 | DEBUG    | Phone is correct in the delivery information: (389)778-1701x52518
+
+14:59:56.914 | DEBUG    | Name is correct in the billing information: Mr. Elizabeth Lee
+
+14:59:56.928 | DEBUG    | Company name is correct in the billing information: Wilson-Castaneda
+
+14:59:56.943 | DEBUG    | Address 1 is correct in the billing information: 2511 Deborah Terrace
+
+14:59:56.957 | DEBUG    | Address 2 is correct in the billing information: Suite 189
+
+14:59:56.970 | DEBUG    | City is correct in the billing information: Reneeville Georgia 06930
+
+14:59:56.983 | DEBUG    | Country is correct in the billing information: United States
+
+14:59:56.996 | DEBUG    | Phone is correct in the billing information: (389)778-1701x52518
+
+14:59:57.007 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+14:59:57.028 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+14:59:57.036 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+14:59:57.058 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+14:59:57.080 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+14:59:57.137 | DEBUG    | Comment filled in with: Visit much bag name happen stop form.
+
+14:59:57.336 | DEBUG    | Place order button clicked
+
+14:59:57.389 | DEBUG    | Name on card filled in with: ****
+
+14:59:57.435 | DEBUG    | Card number filled in with: ****9520
+
+14:59:58.934 | DEBUG    | Pay and confirm button clicked
+
+14:59:58.966 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

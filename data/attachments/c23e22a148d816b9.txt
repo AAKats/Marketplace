@@ -1,0 +1,169 @@
+14:58:16.718 | DEBUG    | Product Blue Top added, quantity 1
+
+14:58:17.602 | DEBUG    | Product Blue Top added, quantity 2
+
+14:58:18.496 | DEBUG    | Product Men Tshirt added, quantity 1
+
+14:58:19.639 | DEBUG    | Product Men Tshirt added, quantity 2
+
+14:58:19.999 | DEBUG    | Proceed to checkout button clicked
+
+14:58:20.205 | DEBUG    | Register via modal button clicked
+
+14:58:20.217 | DEBUG    | New user Signup title is presented
+
+14:58:20.225 | DEBUG    | New user Signup title text is correct
+
+14:58:20.231 | DEBUG    | Signup email field is presented
+
+14:58:20.237 | DEBUG    | Signup name field is presented
+
+14:58:20.290 | DEBUG    | Email signup field filled
+
+14:58:20.326 | DEBUG    | Name signup field filled
+
+14:58:20.368 | DEBUG    | Signup button is clicked
+
+14:58:20.905 | DEBUG    | Account information title is presented
+
+14:58:20.913 | DEBUG    | Account information title text is correct
+
+14:58:20.937 | DEBUG    | Mr radiobutton is presented
+
+14:58:20.942 | DEBUG    | Mrs radiobutton is presented
+
+14:58:20.982 | DEBUG    | Selected MR title
+
+14:58:20.988 | DEBUG    | Password field is presented
+
+14:58:21.026 | DEBUG    | Password is filled in
+
+14:58:21.034 | DEBUG    | Day of birth list is presented
+
+14:58:21.079 | DEBUG    | Day of birth selected
+
+14:58:21.087 | DEBUG    | Month of birth list is presented
+
+14:58:21.125 | DEBUG    | Month of birth selected
+
+14:58:21.133 | DEBUG    | Year of birth list is presented
+
+14:58:21.172 | DEBUG    | Year of birth selected
+
+14:58:21.172 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+14:58:21.172 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+14:58:21.178 | DEBUG    | First name field is presented
+
+14:58:21.212 | DEBUG    | First name is filled in
+
+14:58:21.221 | DEBUG    | Last name field is presented
+
+14:58:21.258 | DEBUG    | Last name is filled in
+
+14:58:21.266 | DEBUG    | Company field is presented
+
+14:58:21.310 | DEBUG    | Company is filled in
+
+14:58:21.318 | DEBUG    | Address 1 field is presented
+
+14:58:21.359 | DEBUG    | Address 1 is filled in
+
+14:58:21.367 | DEBUG    | Address 2 field is presented
+
+14:58:21.403 | DEBUG    | Address 2 is filled in
+
+14:58:21.453 | DEBUG    | State field is presented
+
+14:58:21.490 | DEBUG    | State is filled in
+
+14:58:21.497 | DEBUG    | City field is presented
+
+14:58:21.538 | DEBUG    | City is filled in
+
+14:58:21.545 | DEBUG    | Zipcode field is presented
+
+14:58:21.580 | DEBUG    | Zipcode is filled in
+
+14:58:21.587 | DEBUG    | Mobile number field is presented
+
+14:58:21.627 | DEBUG    | Mobile number is filled in
+
+14:58:22.737 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+14:58:22.759 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+14:58:22.759 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+14:58:22.765 | DEBUG    | Continue button is presented
+
+14:58:23.600 | DEBUG    | Username is correct Logged in as James
+
+14:58:24.384 | DEBUG    | Proceed to checkout button clicked
+
+14:58:24.402 | DEBUG    | Name is correct in the delivery information: Mr. James Gilbert
+
+14:58:24.419 | DEBUG    | Company name is correct in the delivery information: Porter, Odom and Craig
+
+14:58:24.434 | DEBUG    | Address 1 is correct in the delivery information: 3470 Walter Run
+
+14:58:24.450 | DEBUG    | Address 2 is correct in the delivery information: Suite 023
+
+14:58:24.465 | DEBUG    | City is correct in the delivery information: West Brianton Maine 62959
+
+14:58:24.479 | DEBUG    | Country is correct in the delivery information: Singapore
+
+14:58:24.494 | DEBUG    | Phone is correct in the delivery information: 704.732.6589x1529
+
+14:58:24.508 | DEBUG    | Name is correct in the billing information: Mr. James Gilbert
+
+14:58:24.522 | DEBUG    | Company name is correct in the billing information: Porter, Odom and Craig
+
+14:58:24.537 | DEBUG    | Address 1 is correct in the billing information: 3470 Walter Run
+
+14:58:24.552 | DEBUG    | Address 2 is correct in the billing information: Suite 023
+
+14:58:24.566 | DEBUG    | City is correct in the billing information: West Brianton Maine 62959
+
+14:58:24.581 | DEBUG    | Country is correct in the billing information: Singapore
+
+14:58:24.595 | DEBUG    | Phone is correct in the billing information: 704.732.6589x1529
+
+14:58:24.606 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+14:58:24.626 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+14:58:24.635 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+14:58:24.649 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+14:58:24.649 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+14:58:24.671 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+14:58:24.684 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+14:58:24.706 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+14:58:24.719 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+14:58:24.795 | DEBUG    | Comment filled in with: North participant individual describe keep turn agreement. Ago quite else nor.
+
+14:58:25.002 | DEBUG    | Place order button clicked
+
+14:58:25.052 | DEBUG    | Name on card filled in with: ****
+
+14:58:25.098 | DEBUG    | Card number filled in with: ****2384
+
+14:58:26.752 | DEBUG    | Pay and confirm button clicked
+
+14:58:26.806 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+14:58:27.082 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+14:58:27.082 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+14:58:27.083 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+14:58:27.744 | DEBUG    | Continue button clicked
