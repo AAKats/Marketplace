@@ -1,0 +1,11 @@
+15:53:21.672 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+15:53:21.727 | DEBUG    | Review name field filled in with "Laura Allen"
+
+15:53:21.784 | DEBUG    | Review email field filled in with "efdd8e52_jdaugherty@example.com"
+
+15:53:21.876 | DEBUG    | Review message field filled in with "Attack each thousand begin professional contain. Understand itself far give. Hope contain already."
+
+15:53:21.926 | DEBUG    | Submit review button clicked
+
+15:53:21.951 | DEBUG    | Success review message is displayed

@@ -1,0 +1,67 @@
+15:53:10.785 | DEBUG    | Email filled in
+
+15:53:10.821 | DEBUG    | Password filled in
+
+15:53:10.828 | DEBUG    | Login button is presented
+
+15:53:10.866 | DEBUG    | Login button is clicked
+
+15:53:11.911 | DEBUG    | Username is correct Logged in as Jason
+
+15:53:12.835 | DEBUG    | Product Blue Top added, quantity 1
+
+15:53:13.702 | DEBUG    | Product Blue Top added, quantity 2
+
+15:53:15.132 | DEBUG    | Product Blue Top added, quantity 3
+
+15:53:17.780 | DEBUG    | Proceed to checkout button clicked
+
+15:53:17.795 | DEBUG    | Name is correct in the delivery information: Mr. Jason Ward
+
+15:53:17.809 | DEBUG    | Company name is correct in the delivery information: Knight-Shelton
+
+15:53:17.821 | DEBUG    | Address 1 is correct in the delivery information: 9690 Michelle Burgs
+
+15:53:17.834 | DEBUG    | Address 2 is correct in the delivery information: Apt. 708
+
+15:53:17.846 | DEBUG    | City is correct in the delivery information: New Jason New Hampshire 40947
+
+15:53:17.859 | DEBUG    | Country is correct in the delivery information: New Zealand
+
+15:53:17.871 | DEBUG    | Phone is correct in the delivery information: (980)321-0486x86651
+
+15:53:17.884 | DEBUG    | Name is correct in the billing information: Mr. Jason Ward
+
+15:53:17.897 | DEBUG    | Company name is correct in the billing information: Knight-Shelton
+
+15:53:17.911 | DEBUG    | Address 1 is correct in the billing information: 9690 Michelle Burgs
+
+15:53:17.923 | DEBUG    | Address 2 is correct in the billing information: Apt. 708
+
+15:53:17.936 | DEBUG    | City is correct in the billing information: New Jason New Hampshire 40947
+
+15:53:17.949 | DEBUG    | Country is correct in the billing information: New Zealand
+
+15:53:17.961 | DEBUG    | Phone is correct in the billing information: (980)321-0486x86651
+
+15:53:17.971 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+15:53:17.989 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+15:53:17.997 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+15:53:18.018 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+15:53:18.039 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+15:53:18.127 | DEBUG    | Comment filled in with: Far include ground likely. Rock agency town and. Tough shoulder yet against memory threat learn.
+
+15:53:18.403 | DEBUG    | Place order button clicked
+
+15:53:18.464 | DEBUG    | Name on card filled in with: ****
+
+15:53:18.508 | DEBUG    | Card number filled in with: ****8752
+
+15:53:18.680 | DEBUG    | Pay and confirm button clicked
+
+15:53:20.029 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

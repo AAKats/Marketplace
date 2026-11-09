@@ -1,0 +1,169 @@
+15:51:36.424 | DEBUG    | Product Blue Top added, quantity 1
+
+15:51:37.288 | DEBUG    | Product Blue Top added, quantity 2
+
+15:51:38.174 | DEBUG    | Product Men Tshirt added, quantity 1
+
+15:51:39.233 | DEBUG    | Product Men Tshirt added, quantity 2
+
+15:51:39.535 | DEBUG    | Proceed to checkout button clicked
+
+15:51:39.714 | DEBUG    | Register via modal button clicked
+
+15:51:39.725 | DEBUG    | New user Signup title is presented
+
+15:51:39.733 | DEBUG    | New user Signup title text is correct
+
+15:51:39.739 | DEBUG    | Signup email field is presented
+
+15:51:39.744 | DEBUG    | Signup name field is presented
+
+15:51:39.801 | DEBUG    | Email signup field filled
+
+15:51:39.838 | DEBUG    | Name signup field filled
+
+15:51:40.216 | DEBUG    | Signup button is clicked
+
+15:51:40.231 | DEBUG    | Account information title is presented
+
+15:51:40.242 | DEBUG    | Account information title text is correct
+
+15:51:40.270 | DEBUG    | Mr radiobutton is presented
+
+15:51:40.275 | DEBUG    | Mrs radiobutton is presented
+
+15:51:40.319 | DEBUG    | Selected MR title
+
+15:51:40.325 | DEBUG    | Password field is presented
+
+15:51:40.368 | DEBUG    | Password is filled in
+
+15:51:40.375 | DEBUG    | Day of birth list is presented
+
+15:51:40.425 | DEBUG    | Day of birth selected
+
+15:51:40.431 | DEBUG    | Month of birth list is presented
+
+15:51:40.472 | DEBUG    | Month of birth selected
+
+15:51:40.478 | DEBUG    | Year of birth list is presented
+
+15:51:40.515 | DEBUG    | Year of birth selected
+
+15:51:40.515 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+15:51:40.515 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+15:51:40.522 | DEBUG    | First name field is presented
+
+15:51:40.554 | DEBUG    | First name is filled in
+
+15:51:40.561 | DEBUG    | Last name field is presented
+
+15:51:40.595 | DEBUG    | Last name is filled in
+
+15:51:40.602 | DEBUG    | Company field is presented
+
+15:51:40.645 | DEBUG    | Company is filled in
+
+15:51:40.653 | DEBUG    | Address 1 field is presented
+
+15:51:40.700 | DEBUG    | Address 1 is filled in
+
+15:51:40.707 | DEBUG    | Address 2 field is presented
+
+15:51:40.740 | DEBUG    | Address 2 is filled in
+
+15:51:40.769 | DEBUG    | State field is presented
+
+15:51:40.803 | DEBUG    | State is filled in
+
+15:51:40.809 | DEBUG    | City field is presented
+
+15:51:40.846 | DEBUG    | City is filled in
+
+15:51:40.853 | DEBUG    | Zipcode field is presented
+
+15:51:40.886 | DEBUG    | Zipcode is filled in
+
+15:51:40.892 | DEBUG    | Mobile number field is presented
+
+15:51:40.930 | DEBUG    | Mobile number is filled in
+
+15:51:42.834 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+15:51:42.855 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+15:51:42.855 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+15:51:42.860 | DEBUG    | Continue button is presented
+
+15:51:43.519 | DEBUG    | Username is correct Logged in as Adam
+
+15:51:44.455 | DEBUG    | Proceed to checkout button clicked
+
+15:51:44.472 | DEBUG    | Name is correct in the delivery information: Mr. Adam Stewart
+
+15:51:44.486 | DEBUG    | Company name is correct in the delivery information: Moran, Patel and Gonzalez
+
+15:51:44.499 | DEBUG    | Address 1 is correct in the delivery information: 091 Atkinson Mission Suite 033
+
+15:51:44.513 | DEBUG    | Address 2 is correct in the delivery information: Apt. 663
+
+15:51:44.525 | DEBUG    | City is correct in the delivery information: New Marymouth Vermont 61303
+
+15:51:44.538 | DEBUG    | Country is correct in the delivery information: India
+
+15:51:44.551 | DEBUG    | Phone is correct in the delivery information: +1-874-368-4278
+
+15:51:44.564 | DEBUG    | Name is correct in the billing information: Mr. Adam Stewart
+
+15:51:44.577 | DEBUG    | Company name is correct in the billing information: Moran, Patel and Gonzalez
+
+15:51:44.590 | DEBUG    | Address 1 is correct in the billing information: 091 Atkinson Mission Suite 033
+
+15:51:44.603 | DEBUG    | Address 2 is correct in the billing information: Apt. 663
+
+15:51:44.615 | DEBUG    | City is correct in the billing information: New Marymouth Vermont 61303
+
+15:51:44.628 | DEBUG    | Country is correct in the billing information: India
+
+15:51:44.641 | DEBUG    | Phone is correct in the billing information: +1-874-368-4278
+
+15:51:44.652 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+15:51:44.671 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+15:51:44.680 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+15:51:44.692 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+15:51:44.692 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+15:51:44.714 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+15:51:44.727 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+15:51:44.748 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+15:51:44.760 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+15:51:44.843 | DEBUG    | Comment filled in with: Even relationship small apply get. Discussion woman five stand there. Result bill civil heavy.
+
+15:51:45.023 | DEBUG    | Place order button clicked
+
+15:51:45.097 | DEBUG    | Name on card filled in with: ****
+
+15:51:45.143 | DEBUG    | Card number filled in with: ****2345
+
+15:51:46.637 | DEBUG    | Pay and confirm button clicked
+
+15:51:46.670 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+15:51:46.889 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+15:51:46.889 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+15:51:46.889 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+15:51:48.185 | DEBUG    | Continue button clicked

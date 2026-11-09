@@ -1,0 +1,43 @@
+15:54:07.984 | DEBUG    | New user details:
+
+15:54:07.984 | DEBUG    |   name: Jackson
+
+15:54:07.984 | DEBUG    |   email: 306ccf4d_ghumphrey@example.com
+
+15:54:07.984 | DEBUG    |   title: Mr
+
+15:54:07.984 | DEBUG    |   birth_day: 16
+
+15:54:07.984 | DEBUG    |   birth_month: 4
+
+15:54:07.984 | DEBUG    |   birth_year: 1942
+
+15:54:07.984 | DEBUG    |   firstname: Jackson
+
+15:54:07.984 | DEBUG    |   lastname: Rivera
+
+15:54:07.984 | DEBUG    |   company: Long-Farrell
+
+15:54:07.984 | DEBUG    |   address1: 83008 Heath Square
+
+15:54:07.984 | DEBUG    |   address2: Suite 903
+
+15:54:07.984 | DEBUG    |   country: Israel
+
+15:54:07.984 | DEBUG    |   state: Idaho
+
+15:54:07.984 | DEBUG    |   city: Martinburgh
+
+15:54:07.984 | DEBUG    |   zipcode: 61338
+
+15:54:08.274 | DEBUG    | Status code correct: 200
+
+15:54:08.275 | DEBUG    | ResponseCode correct: 201
+
+15:54:08.275 | DEBUG    | Response message correct: "User created!"
+
+15:54:08.392 | DEBUG    | Status code correct: 200
+
+15:54:08.392 | DEBUG    | ResponseCode correct: 200
+
+15:54:08.392 | DEBUG    | Response message correct: "Account deleted!"

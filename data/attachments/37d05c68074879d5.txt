@@ -1,0 +1,165 @@
+15:53:56.281 | DEBUG    | New user Signup title is presented
+
+15:53:56.293 | DEBUG    | New user Signup title text is correct
+
+15:53:56.299 | DEBUG    | Signup email field is presented
+
+15:53:56.306 | DEBUG    | Signup name field is presented
+
+15:53:56.358 | DEBUG    | Email signup field filled
+
+15:53:56.392 | DEBUG    | Name signup field filled
+
+15:53:56.435 | DEBUG    | Signup button is clicked
+
+15:53:56.635 | DEBUG    | Account information title is presented
+
+15:53:56.644 | DEBUG    | Account information title text is correct
+
+15:53:56.671 | DEBUG    | Mr radiobutton is presented
+
+15:53:56.676 | DEBUG    | Mrs radiobutton is presented
+
+15:53:56.716 | DEBUG    | Selected MR title
+
+15:53:56.722 | DEBUG    | Password field is presented
+
+15:53:56.756 | DEBUG    | Password is filled in
+
+15:53:56.766 | DEBUG    | Day of birth list is presented
+
+15:53:56.815 | DEBUG    | Day of birth selected
+
+15:53:56.822 | DEBUG    | Month of birth list is presented
+
+15:53:56.859 | DEBUG    | Month of birth selected
+
+15:53:56.866 | DEBUG    | Year of birth list is presented
+
+15:53:56.903 | DEBUG    | Year of birth selected
+
+15:53:56.904 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+15:53:56.904 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+15:53:56.910 | DEBUG    | First name field is presented
+
+15:53:56.943 | DEBUG    | First name is filled in
+
+15:53:56.951 | DEBUG    | Last name field is presented
+
+15:53:56.989 | DEBUG    | Last name is filled in
+
+15:53:56.997 | DEBUG    | Company field is presented
+
+15:53:57.042 | DEBUG    | Company is filled in
+
+15:53:57.050 | DEBUG    | Address 1 field is presented
+
+15:53:57.096 | DEBUG    | Address 1 is filled in
+
+15:53:57.102 | DEBUG    | Address 2 field is presented
+
+15:53:57.138 | DEBUG    | Address 2 is filled in
+
+15:53:57.185 | DEBUG    | State field is presented
+
+15:53:57.223 | DEBUG    | State is filled in
+
+15:53:57.231 | DEBUG    | City field is presented
+
+15:53:57.269 | DEBUG    | City is filled in
+
+15:53:57.275 | DEBUG    | Zipcode field is presented
+
+15:53:57.308 | DEBUG    | Zipcode is filled in
+
+15:53:57.315 | DEBUG    | Mobile number field is presented
+
+15:53:57.354 | DEBUG    | Mobile number is filled in
+
+15:53:58.227 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+15:53:58.249 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+15:53:58.249 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+15:53:58.254 | DEBUG    | Continue button is presented
+
+15:53:58.688 | DEBUG    | Username is correct Logged in as Joel
+
+15:54:00.092 | DEBUG    | Product Blue Top added, quantity 1
+
+15:54:00.970 | DEBUG    | Product Blue Top added, quantity 2
+
+15:54:01.862 | DEBUG    | Product Men Tshirt added, quantity 1
+
+15:54:02.950 | DEBUG    | Product Men Tshirt added, quantity 2
+
+15:54:03.562 | DEBUG    | Proceed to checkout button clicked
+
+15:54:03.579 | DEBUG    | Name is correct in the delivery information: Mr. Joel Singleton
+
+15:54:03.593 | DEBUG    | Company name is correct in the delivery information: Taylor, Mcclain and Weaver
+
+15:54:03.606 | DEBUG    | Address 1 is correct in the delivery information: 6953 Lopez Roads Apt. 110
+
+15:54:03.619 | DEBUG    | Address 2 is correct in the delivery information: Suite 933
+
+15:54:03.633 | DEBUG    | City is correct in the delivery information: North Kristin South Carolina 90784
+
+15:54:03.646 | DEBUG    | Country is correct in the delivery information: United States
+
+15:54:03.659 | DEBUG    | Phone is correct in the delivery information: (974)540-3047x085
+
+15:54:03.673 | DEBUG    | Name is correct in the billing information: Mr. Joel Singleton
+
+15:54:03.686 | DEBUG    | Company name is correct in the billing information: Taylor, Mcclain and Weaver
+
+15:54:03.699 | DEBUG    | Address 1 is correct in the billing information: 6953 Lopez Roads Apt. 110
+
+15:54:03.712 | DEBUG    | Address 2 is correct in the billing information: Suite 933
+
+15:54:03.725 | DEBUG    | City is correct in the billing information: North Kristin South Carolina 90784
+
+15:54:03.739 | DEBUG    | Country is correct in the billing information: United States
+
+15:54:03.752 | DEBUG    | Phone is correct in the billing information: (974)540-3047x085
+
+15:54:03.764 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+15:54:03.783 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+15:54:03.791 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+15:54:03.803 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+15:54:03.803 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+15:54:03.825 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+15:54:03.839 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+15:54:03.860 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+15:54:03.873 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+15:54:03.960 | DEBUG    | Comment filled in with: Kind state food before share. Against west alone style key anything. Card because high show game.
+
+15:54:04.181 | DEBUG    | Place order button clicked
+
+15:54:04.240 | DEBUG    | Name on card filled in with: ****
+
+15:54:04.286 | DEBUG    | Card number filled in with: ****5758
+
+15:54:04.460 | DEBUG    | Pay and confirm button clicked
+
+15:54:05.766 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+15:54:05.986 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+15:54:05.986 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+15:54:05.987 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+15:54:06.589 | DEBUG    | Continue button clicked

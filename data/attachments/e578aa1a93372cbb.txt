@@ -1,0 +1,163 @@
+15:52:10.692 | DEBUG    | New user Signup title is presented
+
+15:52:10.704 | DEBUG    | New user Signup title text is correct
+
+15:52:10.710 | DEBUG    | Signup email field is presented
+
+15:52:10.716 | DEBUG    | Signup name field is presented
+
+15:52:10.767 | DEBUG    | Email signup field filled
+
+15:52:10.802 | DEBUG    | Name signup field filled
+
+15:52:10.842 | DEBUG    | Signup button is clicked
+
+15:52:11.569 | DEBUG    | Account information title is presented
+
+15:52:11.577 | DEBUG    | Account information title text is correct
+
+15:52:11.609 | DEBUG    | Mr radiobutton is presented
+
+15:52:11.614 | DEBUG    | Mrs radiobutton is presented
+
+15:52:11.653 | DEBUG    | Selected MR title
+
+15:52:11.660 | DEBUG    | Password field is presented
+
+15:52:11.697 | DEBUG    | Password is filled in
+
+15:52:11.705 | DEBUG    | Day of birth list is presented
+
+15:52:11.750 | DEBUG    | Day of birth selected
+
+15:52:11.757 | DEBUG    | Month of birth list is presented
+
+15:52:11.795 | DEBUG    | Month of birth selected
+
+15:52:11.802 | DEBUG    | Year of birth list is presented
+
+15:52:11.839 | DEBUG    | Year of birth selected
+
+15:52:11.880 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+15:52:11.881 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+15:52:11.888 | DEBUG    | First name field is presented
+
+15:52:11.923 | DEBUG    | First name is filled in
+
+15:52:11.929 | DEBUG    | Last name field is presented
+
+15:52:11.965 | DEBUG    | Last name is filled in
+
+15:52:11.971 | DEBUG    | Company field is presented
+
+15:52:12.009 | DEBUG    | Company is filled in
+
+15:52:12.017 | DEBUG    | Address 1 field is presented
+
+15:52:12.056 | DEBUG    | Address 1 is filled in
+
+15:52:12.062 | DEBUG    | Address 2 field is presented
+
+15:52:12.098 | DEBUG    | Address 2 is filled in
+
+15:52:12.145 | DEBUG    | State field is presented
+
+15:52:12.179 | DEBUG    | State is filled in
+
+15:52:12.185 | DEBUG    | City field is presented
+
+15:52:12.222 | DEBUG    | City is filled in
+
+15:52:12.229 | DEBUG    | Zipcode field is presented
+
+15:52:12.260 | DEBUG    | Zipcode is filled in
+
+15:52:12.268 | DEBUG    | Mobile number field is presented
+
+15:52:12.308 | DEBUG    | Mobile number is filled in
+
+15:52:13.069 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+15:52:13.091 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+15:52:13.091 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+15:52:13.096 | DEBUG    | Continue button is presented
+
+15:52:13.608 | DEBUG    | Username is correct Logged in as Mikayla
+
+15:52:14.520 | DEBUG    | Product Blue Top added, quantity 1
+
+15:52:15.386 | DEBUG    | Product Blue Top added, quantity 2
+
+15:52:16.273 | DEBUG    | Product Men Tshirt added, quantity 1
+
+15:52:17.140 | DEBUG    | Product Men Tshirt added, quantity 2
+
+15:52:18.023 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+15:52:19.121 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+15:52:19.457 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+15:52:19.457 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+15:52:19.457 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+15:52:19.475 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+15:52:19.484 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+15:52:19.492 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+15:52:19.516 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+15:52:19.529 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+15:52:19.542 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+15:52:19.566 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+15:52:19.578 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+15:52:19.591 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+15:52:19.903 | DEBUG    | Proceed to checkout button clicked
+
+15:52:19.919 | DEBUG    | Name is correct in the delivery information: Mr. Mikayla Stanton
+
+15:52:19.933 | DEBUG    | Company name is correct in the delivery information: Molina-Bennett
+
+15:52:19.946 | DEBUG    | Address 1 is correct in the delivery information: 94373 Jeff Fall
+
+15:52:19.959 | DEBUG    | Address 2 is correct in the delivery information: Apt. 940
+
+15:52:19.972 | DEBUG    | City is correct in the delivery information: New Larryfurt Arkansas 46111
+
+15:52:19.985 | DEBUG    | Country is correct in the delivery information: Canada
+
+15:52:19.999 | DEBUG    | Phone is correct in the delivery information: (789)372-3339x95713
+
+15:52:20.011 | DEBUG    | Name is correct in the billing information: Mr. Mikayla Stanton
+
+15:52:20.024 | DEBUG    | Company name is correct in the billing information: Molina-Bennett
+
+15:52:20.037 | DEBUG    | Address 1 is correct in the billing information: 94373 Jeff Fall
+
+15:52:20.050 | DEBUG    | Address 2 is correct in the billing information: Apt. 940
+
+15:52:20.063 | DEBUG    | City is correct in the billing information: New Larryfurt Arkansas 46111
+
+15:52:20.076 | DEBUG    | Country is correct in the billing information: Canada
+
+15:52:20.089 | DEBUG    | Phone is correct in the billing information: (789)372-3339x95713
+
+15:52:20.473 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+15:52:20.473 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+15:52:20.474 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+15:52:22.339 | DEBUG    | Continue button clicked

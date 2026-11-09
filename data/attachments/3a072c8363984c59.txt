@@ -1,0 +1,13 @@
+15:51:32.223 | DEBUG    | Product "Colour Blocked Shirt – Sky Blue" (ID: 24) opened
+
+15:51:32.291 | DEBUG    | Quantity = 3 selected
+
+15:51:32.338 | DEBUG    | Product was added to cart
+
+15:51:33.292 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+15:51:33.304 | DEBUG    | Product: Colour Blocked Shirt – Sky Blue found in cart: Colour Blocked Shirt – Sky Blue
+
+15:51:33.323 | DEBUG    | Product Colour Blocked Shirt – Sky Blue price in cart: 849 matches added price: 849
+
+15:51:33.345 | DEBUG    | Product Colour Blocked Shirt – Sky Blue quantity in cart: 3 matches added quantity: 3

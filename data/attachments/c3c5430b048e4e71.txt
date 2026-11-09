@@ -1,0 +1,19 @@
+15:52:24.611 | DEBUG    | Product Blue Top added, quantity 1
+
+15:52:26.004 | DEBUG    | Product Blue Top added, quantity 2
+
+15:52:26.889 | DEBUG    | Product Men Tshirt added, quantity 1
+
+15:52:27.753 | DEBUG    | Product Men Tshirt added, quantity 2
+
+15:52:28.638 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+15:52:29.506 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+15:52:30.390 | DEBUG    | Product Stylish Dress added, quantity 1
+
+15:52:31.254 | DEBUG    | Product Stylish Dress added, quantity 2
+
+15:52:32.143 | DEBUG    | Product Winter Top added, quantity 1
+
+15:52:33.163 | DEBUG    | Product Winter Top added, quantity 2
