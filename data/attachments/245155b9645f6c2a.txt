@@ -1,0 +1,75 @@
+13:30:08.876 | DEBUG    | New user details:
+
+13:30:08.876 | DEBUG    |   name: Jonathan
+
+13:30:08.876 | DEBUG    |   email: a3b38f33_amy11@example.org
+
+13:30:08.876 | DEBUG    |   title: Mr
+
+13:30:08.876 | DEBUG    |   birth_day: 12
+
+13:30:08.876 | DEBUG    |   birth_month: 8
+
+13:30:08.876 | DEBUG    |   birth_year: 1947
+
+13:30:08.876 | DEBUG    |   firstname: Jonathan
+
+13:30:08.876 | DEBUG    |   lastname: Lam
+
+13:30:08.876 | DEBUG    |   company: Rodgers-Hudson
+
+13:30:08.876 | DEBUG    |   address1: 240 Hughes Walk Suite 303
+
+13:30:08.876 | DEBUG    |   address2: Suite 788
+
+13:30:08.876 | DEBUG    |   country: United States
+
+13:30:08.876 | DEBUG    |   state: Rhode Island
+
+13:30:08.876 | DEBUG    |   city: Port John
+
+13:30:08.877 | DEBUG    |   zipcode: 44075
+
+13:30:09.016 | DEBUG    | Status code correct: 200
+
+13:30:09.017 | DEBUG    | ResponseCode correct: 201
+
+13:30:09.017 | DEBUG    | Response message correct: "User created!"
+
+13:30:09.017 | DEBUG    | Updated user details:
+
+13:30:09.017 | DEBUG    |   name: Jonathan
+
+13:30:09.017 | DEBUG    |   email: a3b38f33_amy11@example.org
+
+13:30:09.017 | DEBUG    |   title: Mr
+
+13:30:09.017 | DEBUG    |   birth_day: 12
+
+13:30:09.017 | DEBUG    |   birth_month: 8
+
+13:30:09.017 | DEBUG    |   birth_year: 1947
+
+13:30:09.017 | DEBUG    |   firstname: Jonathan
+
+13:30:09.017 | DEBUG    |   lastname: Lam
+
+13:30:09.017 | DEBUG    |   company: Rodgers-Hudson
+
+13:30:09.017 | DEBUG    |   address1: 240 Hughes Walk Suite 303
+
+13:30:09.017 | DEBUG    |   address2: Suite 788
+
+13:30:09.017 | DEBUG    |   country: United States
+
+13:30:09.017 | DEBUG    |   state: Rhode Island
+
+13:30:09.017 | DEBUG    |   city: Port John
+
+13:30:09.018 | DEBUG    |   zipcode: 44075
+
+13:30:09.150 | DEBUG    | Status code correct: 200
+
+13:30:09.151 | DEBUG    | ResponseCode correct: 200
+
+13:30:09.151 | DEBUG    | Response message correct: "User updated!"

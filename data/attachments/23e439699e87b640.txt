@@ -1,0 +1,5 @@
+13:30:08.064 | DEBUG    | Status code correct: 200
+
+13:30:08.064 | DEBUG    | ResponseCode correct: 200
+
+13:30:08.064 | DEBUG    | Response message correct: "User exists!"

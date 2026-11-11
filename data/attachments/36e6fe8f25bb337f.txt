@@ -1,0 +1,43 @@
+13:30:08.606 | DEBUG    | New user details:
+
+13:30:08.606 | DEBUG    |   name: Teresa
+
+13:30:08.606 | DEBUG    |   email: 813e9abf_joshuaboyd@example.org
+
+13:30:08.606 | DEBUG    |   title: Mr
+
+13:30:08.606 | DEBUG    |   birth_day: 26
+
+13:30:08.606 | DEBUG    |   birth_month: 7
+
+13:30:08.606 | DEBUG    |   birth_year: 1933
+
+13:30:08.606 | DEBUG    |   firstname: Teresa
+
+13:30:08.606 | DEBUG    |   lastname: Becker
+
+13:30:08.606 | DEBUG    |   company: Martinez-Garza
+
+13:30:08.606 | DEBUG    |   address1: 0491 Steele Rest
+
+13:30:08.606 | DEBUG    |   address2: Apt. 841
+
+13:30:08.606 | DEBUG    |   country: Canada
+
+13:30:08.606 | DEBUG    |   state: South Dakota
+
+13:30:08.606 | DEBUG    |   city: Shermanstad
+
+13:30:08.606 | DEBUG    |   zipcode: 08016
+
+13:30:08.742 | DEBUG    | Status code correct: 200
+
+13:30:08.742 | DEBUG    | ResponseCode correct: 201
+
+13:30:08.742 | DEBUG    | Response message correct: "User created!"
+
+13:30:08.870 | DEBUG    | Status code correct: 200
+
+13:30:08.870 | DEBUG    | ResponseCode correct: 200
+
+13:30:08.870 | DEBUG    | Response message correct: "Account deleted!"

@@ -1,0 +1,249 @@
+13:28:26.606 | DEBUG    | Product Blue Top added, quantity 1
+
+13:28:27.443 | DEBUG    | Product Blue Top added, quantity 2
+
+13:28:28.288 | DEBUG    | Product Men Tshirt added, quantity 1
+
+13:28:29.123 | DEBUG    | Product Men Tshirt added, quantity 2
+
+13:28:29.975 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+13:28:30.810 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+13:28:31.661 | DEBUG    | Product Stylish Dress added, quantity 1
+
+13:28:32.509 | DEBUG    | Product Stylish Dress added, quantity 2
+
+13:28:33.359 | DEBUG    | Product Winter Top added, quantity 1
+
+13:28:34.502 | DEBUG    | Product Winter Top added, quantity 2
+
+13:28:34.880 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:28:34.880 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:28:34.880 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:28:34.880 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:28:34.880 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:28:34.891 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:28:34.896 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:28:34.902 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+13:28:34.907 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+13:28:34.912 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+13:28:34.928 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:28:34.936 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:28:34.944 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+13:28:34.954 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+13:28:34.961 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+13:28:34.976 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:28:34.985 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:28:34.992 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+13:28:35.001 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+13:28:35.009 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+13:28:35.039 | DEBUG    | Proceed to checkout button clicked
+
+13:28:35.228 | DEBUG    | Register via modal button clicked
+
+13:28:35.237 | DEBUG    | New user Signup title is presented
+
+13:28:35.242 | DEBUG    | New user Signup title text is correct
+
+13:28:35.246 | DEBUG    | Signup email field is presented
+
+13:28:35.252 | DEBUG    | Signup name field is presented
+
+13:28:35.285 | DEBUG    | Email signup field filled
+
+13:28:35.308 | DEBUG    | Name signup field filled
+
+13:28:35.338 | DEBUG    | Signup button is clicked
+
+13:28:35.864 | DEBUG    | Account information title is presented
+
+13:28:35.869 | DEBUG    | Account information title text is correct
+
+13:28:35.887 | DEBUG    | Mr radiobutton is presented
+
+13:28:35.890 | DEBUG    | Mrs radiobutton is presented
+
+13:28:35.915 | DEBUG    | Selected MR title
+
+13:28:35.920 | DEBUG    | Password field is presented
+
+13:28:35.945 | DEBUG    | Password is filled in
+
+13:28:35.951 | DEBUG    | Day of birth list is presented
+
+13:28:35.981 | DEBUG    | Day of birth selected
+
+13:28:35.986 | DEBUG    | Month of birth list is presented
+
+13:28:36.012 | DEBUG    | Month of birth selected
+
+13:28:36.017 | DEBUG    | Year of birth list is presented
+
+13:28:36.041 | DEBUG    | Year of birth selected
+
+13:28:36.068 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+13:28:36.096 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+13:28:36.101 | DEBUG    | First name field is presented
+
+13:28:36.124 | DEBUG    | First name is filled in
+
+13:28:36.129 | DEBUG    | Last name field is presented
+
+13:28:36.154 | DEBUG    | Last name is filled in
+
+13:28:36.159 | DEBUG    | Company field is presented
+
+13:28:36.187 | DEBUG    | Company is filled in
+
+13:28:36.193 | DEBUG    | Address 1 field is presented
+
+13:28:36.223 | DEBUG    | Address 1 is filled in
+
+13:28:36.228 | DEBUG    | Address 2 field is presented
+
+13:28:36.252 | DEBUG    | Address 2 is filled in
+
+13:28:36.272 | DEBUG    | State field is presented
+
+13:28:36.295 | DEBUG    | State is filled in
+
+13:28:36.303 | DEBUG    | City field is presented
+
+13:28:36.327 | DEBUG    | City is filled in
+
+13:28:36.334 | DEBUG    | Zipcode field is presented
+
+13:28:36.355 | DEBUG    | Zipcode is filled in
+
+13:28:36.360 | DEBUG    | Mobile number field is presented
+
+13:28:36.385 | DEBUG    | Mobile number is filled in
+
+13:28:37.326 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:28:37.343 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:28:37.343 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:28:37.348 | DEBUG    | Continue button is presented
+
+13:28:38.488 | DEBUG    | Username is correct Logged in as Jacqueline
+
+13:28:39.985 | DEBUG    | Proceed to checkout button clicked
+
+13:28:39.995 | DEBUG    | Name is correct in the delivery information: Mr. Jacqueline Green
+
+13:28:40.006 | DEBUG    | Company name is correct in the delivery information: Thompson Group
+
+13:28:40.015 | DEBUG    | Address 1 is correct in the delivery information: 50403 Davis Wells Apt. 629
+
+13:28:40.023 | DEBUG    | Address 2 is correct in the delivery information: Suite 819
+
+13:28:40.031 | DEBUG    | City is correct in the delivery information: North Christine Pennsylvania 57233
+
+13:28:40.039 | DEBUG    | Country is correct in the delivery information: India
+
+13:28:40.048 | DEBUG    | Phone is correct in the delivery information: 692-713-8188
+
+13:28:40.056 | DEBUG    | Name is correct in the billing information: Mr. Jacqueline Green
+
+13:28:40.064 | DEBUG    | Company name is correct in the billing information: Thompson Group
+
+13:28:40.072 | DEBUG    | Address 1 is correct in the billing information: 50403 Davis Wells Apt. 629
+
+13:28:40.080 | DEBUG    | Address 2 is correct in the billing information: Suite 819
+
+13:28:40.088 | DEBUG    | City is correct in the billing information: North Christine Pennsylvania 57233
+
+13:28:40.096 | DEBUG    | Country is correct in the billing information: India
+
+13:28:40.105 | DEBUG    | Phone is correct in the billing information: 692-713-8188
+
+13:28:40.121 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:28:40.121 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:28:40.121 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:28:40.121 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:28:40.121 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+13:28:40.131 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:28:40.136 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:28:40.141 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+13:28:40.146 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+13:28:40.151 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+13:28:40.163 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:28:40.171 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:28:40.178 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+13:28:40.186 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+13:28:40.194 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+13:28:40.207 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:28:40.216 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:28:40.223 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+13:28:40.231 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+13:28:40.239 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+13:28:40.284 | DEBUG    | Comment filled in with: Expect mother beyond sure third practice. Level beyond social contain.
+
+13:28:40.811 | DEBUG    | Place order button clicked
+
+13:28:40.844 | DEBUG    | Name on card filled in with: ****
+
+13:28:40.875 | DEBUG    | Card number filled in with: ****6084
+
+13:28:40.996 | DEBUG    | Pay and confirm button clicked
+
+13:28:43.241 | DEBUG    | Download invoice button clicked
+
+13:28:43.242 | DEBUG    | File downloaded: /home/runner/work/Marketplace/Marketplace/temp/.com.google.Chrome.1rfV5W
+
+13:28:43.242 | DEBUG    | Invoice content is valid
+
+13:28:43.890 | DEBUG    | Continue button clicked
+
+13:28:44.159 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+13:28:44.160 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+13:28:44.160 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+13:28:45.344 | DEBUG    | Continue button clicked

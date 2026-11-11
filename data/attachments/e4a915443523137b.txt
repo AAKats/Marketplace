@@ -1,0 +1,17 @@
+13:28:50.528 | DEBUG    | Login title is presented
+
+13:28:50.537 | DEBUG    | Login title text is correct
+
+13:28:50.541 | DEBUG    | Login email field is presented
+
+13:28:50.545 | DEBUG    | Password field is presented
+
+13:28:50.576 | DEBUG    | Email filled in
+
+13:28:50.602 | DEBUG    | Password filled in
+
+13:28:50.607 | DEBUG    | Login button is presented
+
+13:28:52.369 | DEBUG    | Login button is clicked
+
+13:28:52.382 | DEBUG    | Username is correct Logged in as Caroline
