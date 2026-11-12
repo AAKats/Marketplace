@@ -1,0 +1,49 @@
+14:32:08.515 | DEBUG    | Search field is presented
+
+14:32:08.569 | DEBUG    | Search field is filled in with: "Grunt Blue Slim Fit Jeans"
+
+14:32:08.577 | DEBUG    | Search button is presented
+
+14:32:08.918 | DEBUG    | Search button is clicked
+
+14:32:08.937 | DEBUG    | Title is presented
+
+14:32:08.937 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+14:32:08.944 | DEBUG    | 1 products found
+
+14:32:08.949 | DEBUG    | "Grunt Blue Slim Fit Jeans" product found, and contains "Grunt Blue Slim Fit Jeans"
+
+14:32:10.110 | DEBUG    | Product Grunt Blue Slim Fit Jeans added, quantity 1
+
+14:32:10.422 | DEBUG    | Product: Grunt Blue Slim Fit Jeans found in cart: Grunt Blue Slim Fit Jeans
+
+14:32:10.444 | DEBUG    | Product Grunt Blue Slim Fit Jeans price in cart: 1400 matches added price: 1400
+
+14:32:10.469 | DEBUG    | Product Grunt Blue Slim Fit Jeans quantity in cart: 1 matches added quantity: 1
+
+14:32:10.493 | DEBUG    | Product Grunt Blue Slim Fit Jeans total in cart: 1400 matches expected total: 1400
+
+14:32:10.688 | DEBUG    | Login email field is presented
+
+14:32:10.695 | DEBUG    | Password field is presented
+
+14:32:10.744 | DEBUG    | Email filled in
+
+14:32:10.784 | DEBUG    | Password filled in
+
+14:32:10.792 | DEBUG    | Login button is presented
+
+14:32:10.832 | DEBUG    | Login button is clicked
+
+14:32:12.591 | DEBUG    | Product: Grunt Blue Slim Fit Jeans found in cart: Grunt Blue Slim Fit Jeans
+
+14:32:12.611 | DEBUG    | Product Grunt Blue Slim Fit Jeans price in cart: 1400 matches added price: 1400
+
+14:32:12.634 | DEBUG    | Product Grunt Blue Slim Fit Jeans quantity in cart: 1 matches added quantity: 1
+
+14:32:12.657 | DEBUG    | Product Grunt Blue Slim Fit Jeans total in cart: 1400 matches expected total: 1400
+
+14:32:17.798 | DEBUG    | All products deleted
+
+14:32:17.806 | DEBUG    | Empty cart text correct: Cart is empty!

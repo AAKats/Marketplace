@@ -1,0 +1,75 @@
+14:34:22.074 | DEBUG    | New user details:
+
+14:34:22.074 | DEBUG    |   name: Nancy
+
+14:34:22.074 | DEBUG    |   email: 766ed390_jeanneanderson@example.net
+
+14:34:22.074 | DEBUG    |   title: Mrs
+
+14:34:22.074 | DEBUG    |   birth_day: 19
+
+14:34:22.074 | DEBUG    |   birth_month: 7
+
+14:34:22.074 | DEBUG    |   birth_year: 2001
+
+14:34:22.074 | DEBUG    |   firstname: Nancy
+
+14:34:22.074 | DEBUG    |   lastname: Sanchez
+
+14:34:22.074 | DEBUG    |   company: Jones-Jones
+
+14:34:22.074 | DEBUG    |   address1: 519 Kathryn Tunnel Suite 780
+
+14:34:22.074 | DEBUG    |   address2: Apt. 224
+
+14:34:22.074 | DEBUG    |   country: Canada
+
+14:34:22.074 | DEBUG    |   state: New Jersey
+
+14:34:22.074 | DEBUG    |   city: Thompsonside
+
+14:34:22.074 | DEBUG    |   zipcode: 07041
+
+14:34:22.205 | DEBUG    | Status code correct: 200
+
+14:34:22.205 | DEBUG    | ResponseCode correct: 201
+
+14:34:22.205 | DEBUG    | Response message correct: "User created!"
+
+14:34:22.205 | DEBUG    | Updated user details:
+
+14:34:22.205 | DEBUG    |   name: Nancy
+
+14:34:22.205 | DEBUG    |   email: 766ed390_jeanneanderson@example.net
+
+14:34:22.205 | DEBUG    |   title: Mrs
+
+14:34:22.205 | DEBUG    |   birth_day: 19
+
+14:34:22.205 | DEBUG    |   birth_month: 7
+
+14:34:22.205 | DEBUG    |   birth_year: 2001
+
+14:34:22.205 | DEBUG    |   firstname: Nancy
+
+14:34:22.205 | DEBUG    |   lastname: Sanchez
+
+14:34:22.205 | DEBUG    |   company: Jones-Jones
+
+14:34:22.205 | DEBUG    |   address1: 519 Kathryn Tunnel Suite 780
+
+14:34:22.205 | DEBUG    |   address2: Apt. 224
+
+14:34:22.205 | DEBUG    |   country: Canada
+
+14:34:22.205 | DEBUG    |   state: New Jersey
+
+14:34:22.205 | DEBUG    |   city: Thompsonside
+
+14:34:22.207 | DEBUG    |   zipcode: 07041
+
+14:34:22.333 | DEBUG    | Status code correct: 200
+
+14:34:22.333 | DEBUG    | ResponseCode correct: 200
+
+14:34:22.333 | DEBUG    | Response message correct: "User updated!"

@@ -1,0 +1,39 @@
+14:32:58.284 | DEBUG    | Main title is presented
+
+14:32:58.309 | DEBUG    | Main title is correct: CONTACT US
+
+14:32:58.315 | DEBUG    | Second title is presented
+
+14:32:58.333 | DEBUG    | Second title is correct: GET IN TOUCH
+
+14:32:58.341 | DEBUG    | Name field is presented
+
+14:32:58.381 | DEBUG    | Name field filled in with: Shannon
+
+14:32:58.390 | DEBUG    | Email field is presented
+
+14:32:58.439 | DEBUG    | Email field filled in with: f501d410_jacklang@example.com
+
+14:32:58.447 | DEBUG    | Subject field is presented
+
+14:32:58.485 | DEBUG    | Subject field filled in with: Agreement.
+
+14:32:58.494 | DEBUG    | Message field is presented
+
+14:32:58.575 | DEBUG    | Message field filled in with: Food pressure tough reason structure. Son career such together because personal example.
+
+14:32:58.582 | DEBUG    | Upload field is presented
+
+14:32:58.599 | DEBUG    | File uploaded
+
+14:32:58.606 | DEBUG    | Submit button is presented
+
+14:32:58.664 | DEBUG    | Alert is presented
+
+14:32:58.694 | DEBUG    | Success message is presented
+
+14:32:58.694 | DEBUG    | Success message is correct
+
+14:32:58.700 | DEBUG    | Home button is presented
+
+14:32:59.585 | DEBUG    | Home button is clicked
