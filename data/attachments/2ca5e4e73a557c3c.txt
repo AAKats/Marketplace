@@ -1,0 +1,75 @@
+13:52:41.034 | DEBUG    | New user details:
+
+13:52:41.034 | DEBUG    |   name: Victoria
+
+13:52:41.034 | DEBUG    |   email: 3365c224_alexandraharris@example.com
+
+13:52:41.034 | DEBUG    |   title: Mrs
+
+13:52:41.034 | DEBUG    |   birth_day: 25
+
+13:52:41.034 | DEBUG    |   birth_month: 4
+
+13:52:41.034 | DEBUG    |   birth_year: 1903
+
+13:52:41.034 | DEBUG    |   firstname: Victoria
+
+13:52:41.034 | DEBUG    |   lastname: Garcia
+
+13:52:41.034 | DEBUG    |   company: Rodgers, Massey and Mccann
+
+13:52:41.034 | DEBUG    |   address1: 878 Carlos Mission
+
+13:52:41.034 | DEBUG    |   address2: Apt. 689
+
+13:52:41.034 | DEBUG    |   country: Australia
+
+13:52:41.034 | DEBUG    |   state: Vermont
+
+13:52:41.034 | DEBUG    |   city: East Chad
+
+13:52:41.034 | DEBUG    |   zipcode: 10229
+
+13:52:41.215 | DEBUG    | Status code correct: 200
+
+13:52:41.215 | DEBUG    | ResponseCode correct: 201
+
+13:52:41.215 | DEBUG    | Response message correct: "User created!"
+
+13:52:41.215 | DEBUG    | Updated user details:
+
+13:52:41.215 | DEBUG    |   name: Victoria
+
+13:52:41.215 | DEBUG    |   email: 3365c224_alexandraharris@example.com
+
+13:52:41.215 | DEBUG    |   title: Mrs
+
+13:52:41.216 | DEBUG    |   birth_day: 25
+
+13:52:41.216 | DEBUG    |   birth_month: 4
+
+13:52:41.216 | DEBUG    |   birth_year: 1903
+
+13:52:41.216 | DEBUG    |   firstname: Victoria
+
+13:52:41.216 | DEBUG    |   lastname: Garcia
+
+13:52:41.216 | DEBUG    |   company: Rodgers, Massey and Mccann
+
+13:52:41.216 | DEBUG    |   address1: 878 Carlos Mission
+
+13:52:41.216 | DEBUG    |   address2: Apt. 689
+
+13:52:41.216 | DEBUG    |   country: Australia
+
+13:52:41.216 | DEBUG    |   state: Vermont
+
+13:52:41.216 | DEBUG    |   city: East Chad
+
+13:52:41.218 | DEBUG    |   zipcode: 10229
+
+13:52:41.363 | DEBUG    | Status code correct: 200
+
+13:52:41.363 | DEBUG    | ResponseCode correct: 200
+
+13:52:41.363 | DEBUG    | Response message correct: "User updated!"

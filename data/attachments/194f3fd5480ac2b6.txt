@@ -1,0 +1,11 @@
+13:51:46.293 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+13:51:46.347 | DEBUG    | Review name field filled in with "Daniel Anderson"
+
+13:51:46.405 | DEBUG    | Review email field filled in with "84996613_brookerichards@example.com"
+
+13:51:46.477 | DEBUG    | Review message field filled in with "Day out none. Similar different court one within skin lot other."
+
+13:51:46.530 | DEBUG    | Submit review button clicked
+
+13:51:46.557 | DEBUG    | Success review message is displayed

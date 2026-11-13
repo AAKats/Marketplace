@@ -1,0 +1,169 @@
+13:49:53.214 | DEBUG    | Product Blue Top added, quantity 1
+
+13:49:54.092 | DEBUG    | Product Blue Top added, quantity 2
+
+13:49:54.979 | DEBUG    | Product Men Tshirt added, quantity 1
+
+13:49:56.106 | DEBUG    | Product Men Tshirt added, quantity 2
+
+13:49:56.427 | DEBUG    | Proceed to checkout button clicked
+
+13:49:56.639 | DEBUG    | Register via modal button clicked
+
+13:49:56.669 | DEBUG    | New user Signup title is presented
+
+13:49:56.677 | DEBUG    | New user Signup title text is correct
+
+13:49:56.683 | DEBUG    | Signup email field is presented
+
+13:49:56.688 | DEBUG    | Signup name field is presented
+
+13:49:56.733 | DEBUG    | Email signup field filled
+
+13:49:56.774 | DEBUG    | Name signup field filled
+
+13:49:56.957 | DEBUG    | Signup button is clicked
+
+13:49:56.970 | DEBUG    | Account information title is presented
+
+13:49:56.980 | DEBUG    | Account information title text is correct
+
+13:49:57.007 | DEBUG    | Mr radiobutton is presented
+
+13:49:57.012 | DEBUG    | Mrs radiobutton is presented
+
+13:49:57.059 | DEBUG    | Selected MRS title
+
+13:49:57.066 | DEBUG    | Password field is presented
+
+13:49:57.112 | DEBUG    | Password is filled in
+
+13:49:57.121 | DEBUG    | Day of birth list is presented
+
+13:49:57.166 | DEBUG    | Day of birth selected
+
+13:49:57.173 | DEBUG    | Month of birth list is presented
+
+13:49:57.210 | DEBUG    | Month of birth selected
+
+13:49:57.218 | DEBUG    | Year of birth list is presented
+
+13:49:57.256 | DEBUG    | Year of birth selected
+
+13:49:57.256 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+13:49:57.305 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+13:49:57.312 | DEBUG    | First name field is presented
+
+13:49:57.345 | DEBUG    | First name is filled in
+
+13:49:57.353 | DEBUG    | Last name field is presented
+
+13:49:57.387 | DEBUG    | Last name is filled in
+
+13:49:57.394 | DEBUG    | Company field is presented
+
+13:49:57.431 | DEBUG    | Company is filled in
+
+13:49:57.438 | DEBUG    | Address 1 field is presented
+
+13:49:57.481 | DEBUG    | Address 1 is filled in
+
+13:49:57.491 | DEBUG    | Address 2 field is presented
+
+13:49:57.525 | DEBUG    | Address 2 is filled in
+
+13:49:57.574 | DEBUG    | State field is presented
+
+13:49:57.609 | DEBUG    | State is filled in
+
+13:49:57.615 | DEBUG    | City field is presented
+
+13:49:57.660 | DEBUG    | City is filled in
+
+13:49:57.666 | DEBUG    | Zipcode field is presented
+
+13:49:57.698 | DEBUG    | Zipcode is filled in
+
+13:49:57.706 | DEBUG    | Mobile number field is presented
+
+13:49:57.744 | DEBUG    | Mobile number is filled in
+
+13:49:58.625 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:49:58.645 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:49:58.645 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:49:58.651 | DEBUG    | Continue button is presented
+
+13:49:59.125 | DEBUG    | Username is correct Logged in as Melissa
+
+13:49:59.941 | DEBUG    | Proceed to checkout button clicked
+
+13:49:59.957 | DEBUG    | Name is correct in the delivery information: Mrs. Melissa Dalton
+
+13:49:59.971 | DEBUG    | Company name is correct in the delivery information: Middleton LLC
+
+13:49:59.984 | DEBUG    | Address 1 is correct in the delivery information: 447 Tommy Station Apt. 280
+
+13:49:59.997 | DEBUG    | Address 2 is correct in the delivery information: Apt. 544
+
+13:50:00.010 | DEBUG    | City is correct in the delivery information: North Gregory Arkansas 07175
+
+13:50:00.024 | DEBUG    | Country is correct in the delivery information: United States
+
+13:50:00.038 | DEBUG    | Phone is correct in the delivery information: 451.229.2322x80398
+
+13:50:00.051 | DEBUG    | Name is correct in the billing information: Mrs. Melissa Dalton
+
+13:50:00.064 | DEBUG    | Company name is correct in the billing information: Middleton LLC
+
+13:50:00.078 | DEBUG    | Address 1 is correct in the billing information: 447 Tommy Station Apt. 280
+
+13:50:00.092 | DEBUG    | Address 2 is correct in the billing information: Apt. 544
+
+13:50:00.105 | DEBUG    | City is correct in the billing information: North Gregory Arkansas 07175
+
+13:50:00.118 | DEBUG    | Country is correct in the billing information: United States
+
+13:50:00.131 | DEBUG    | Phone is correct in the billing information: 451.229.2322x80398
+
+13:50:00.144 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+13:50:00.165 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:50:00.174 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:50:00.187 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+13:50:00.187 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+13:50:00.210 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:50:00.223 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:50:00.245 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:50:00.257 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:50:00.330 | DEBUG    | Comment filled in with: Protect smile those thing reduce in result. Argue we receive official receive.
+
+13:50:00.529 | DEBUG    | Place order button clicked
+
+13:50:00.609 | DEBUG    | Name on card filled in with: ****
+
+13:50:00.653 | DEBUG    | Card number filled in with: ****1548
+
+13:50:02.187 | DEBUG    | Pay and confirm button clicked
+
+13:50:02.220 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+13:50:02.546 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+13:50:02.546 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+13:50:02.546 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+13:50:03.232 | DEBUG    | Continue button clicked

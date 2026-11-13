@@ -1,0 +1,165 @@
+13:52:28.060 | DEBUG    | New user Signup title is presented
+
+13:52:28.074 | DEBUG    | New user Signup title text is correct
+
+13:52:28.080 | DEBUG    | Signup email field is presented
+
+13:52:28.085 | DEBUG    | Signup name field is presented
+
+13:52:28.137 | DEBUG    | Email signup field filled
+
+13:52:28.170 | DEBUG    | Name signup field filled
+
+13:52:28.557 | DEBUG    | Signup button is clicked
+
+13:52:28.576 | DEBUG    | Account information title is presented
+
+13:52:28.585 | DEBUG    | Account information title text is correct
+
+13:52:28.610 | DEBUG    | Mr radiobutton is presented
+
+13:52:28.616 | DEBUG    | Mrs radiobutton is presented
+
+13:52:28.653 | DEBUG    | Selected MRS title
+
+13:52:28.660 | DEBUG    | Password field is presented
+
+13:52:28.693 | DEBUG    | Password is filled in
+
+13:52:28.704 | DEBUG    | Day of birth list is presented
+
+13:52:28.753 | DEBUG    | Day of birth selected
+
+13:52:28.759 | DEBUG    | Month of birth list is presented
+
+13:52:28.799 | DEBUG    | Month of birth selected
+
+13:52:28.806 | DEBUG    | Year of birth list is presented
+
+13:52:28.847 | DEBUG    | Year of birth selected
+
+13:52:28.888 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+13:52:28.929 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+13:52:28.936 | DEBUG    | First name field is presented
+
+13:52:28.968 | DEBUG    | First name is filled in
+
+13:52:28.975 | DEBUG    | Last name field is presented
+
+13:52:29.008 | DEBUG    | Last name is filled in
+
+13:52:29.015 | DEBUG    | Company field is presented
+
+13:52:29.053 | DEBUG    | Company is filled in
+
+13:52:29.060 | DEBUG    | Address 1 field is presented
+
+13:52:29.105 | DEBUG    | Address 1 is filled in
+
+13:52:29.113 | DEBUG    | Address 2 field is presented
+
+13:52:29.148 | DEBUG    | Address 2 is filled in
+
+13:52:29.196 | DEBUG    | State field is presented
+
+13:52:29.230 | DEBUG    | State is filled in
+
+13:52:29.237 | DEBUG    | City field is presented
+
+13:52:29.273 | DEBUG    | City is filled in
+
+13:52:29.281 | DEBUG    | Zipcode field is presented
+
+13:52:29.315 | DEBUG    | Zipcode is filled in
+
+13:52:29.321 | DEBUG    | Mobile number field is presented
+
+13:52:29.356 | DEBUG    | Mobile number is filled in
+
+13:52:30.842 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:52:30.864 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:52:30.864 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:52:30.870 | DEBUG    | Continue button is presented
+
+13:52:31.417 | DEBUG    | Username is correct Logged in as James
+
+13:52:33.036 | DEBUG    | Product Blue Top added, quantity 1
+
+13:52:33.903 | DEBUG    | Product Blue Top added, quantity 2
+
+13:52:34.788 | DEBUG    | Product Men Tshirt added, quantity 1
+
+13:52:35.933 | DEBUG    | Product Men Tshirt added, quantity 2
+
+13:52:36.579 | DEBUG    | Proceed to checkout button clicked
+
+13:52:36.595 | DEBUG    | Name is correct in the delivery information: Mrs. James Burns
+
+13:52:36.611 | DEBUG    | Company name is correct in the delivery information: Reese-Lopez
+
+13:52:36.624 | DEBUG    | Address 1 is correct in the delivery information: 960 White Points Suite 692
+
+13:52:36.637 | DEBUG    | Address 2 is correct in the delivery information: Suite 075
+
+13:52:36.651 | DEBUG    | City is correct in the delivery information: North Julia Montana 92474
+
+13:52:36.666 | DEBUG    | Country is correct in the delivery information: Israel
+
+13:52:36.678 | DEBUG    | Phone is correct in the delivery information: 937-563-9483
+
+13:52:36.691 | DEBUG    | Name is correct in the billing information: Mrs. James Burns
+
+13:52:36.705 | DEBUG    | Company name is correct in the billing information: Reese-Lopez
+
+13:52:36.718 | DEBUG    | Address 1 is correct in the billing information: 960 White Points Suite 692
+
+13:52:36.732 | DEBUG    | Address 2 is correct in the billing information: Suite 075
+
+13:52:36.748 | DEBUG    | City is correct in the billing information: North Julia Montana 92474
+
+13:52:36.761 | DEBUG    | Country is correct in the billing information: Israel
+
+13:52:36.774 | DEBUG    | Phone is correct in the billing information: 937-563-9483
+
+13:52:36.784 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+13:52:36.803 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:52:36.811 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:52:36.822 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+13:52:36.823 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+13:52:36.845 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:52:36.857 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:52:36.878 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:52:36.891 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:52:36.958 | DEBUG    | Comment filled in with: Respond training up look record lawyer. System cold argue big.
+
+13:52:37.167 | DEBUG    | Place order button clicked
+
+13:52:37.220 | DEBUG    | Name on card filled in with: ****
+
+13:52:37.267 | DEBUG    | Card number filled in with: ****9619
+
+13:52:37.443 | DEBUG    | Pay and confirm button clicked
+
+13:52:38.820 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+13:52:39.182 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+13:52:39.182 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+13:52:39.182 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+13:52:39.787 | DEBUG    | Continue button clicked

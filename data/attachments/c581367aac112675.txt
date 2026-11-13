@@ -1,0 +1,43 @@
+13:52:40.738 | DEBUG    | New user details:
+
+13:52:40.738 | DEBUG    |   name: Jamie
+
+13:52:40.738 | DEBUG    |   email: 181eb3ea_parkdawn@example.net
+
+13:52:40.738 | DEBUG    |   title: Mrs
+
+13:52:40.738 | DEBUG    |   birth_day: 16
+
+13:52:40.738 | DEBUG    |   birth_month: 4
+
+13:52:40.738 | DEBUG    |   birth_year: 1954
+
+13:52:40.738 | DEBUG    |   firstname: Jamie
+
+13:52:40.738 | DEBUG    |   lastname: Garcia
+
+13:52:40.738 | DEBUG    |   company: Park, Salinas and Gutierrez
+
+13:52:40.738 | DEBUG    |   address1: 97989 Michelle Ports Suite 736
+
+13:52:40.738 | DEBUG    |   address2: Apt. 862
+
+13:52:40.738 | DEBUG    |   country: Israel
+
+13:52:40.738 | DEBUG    |   state: Maryland
+
+13:52:40.738 | DEBUG    |   city: Port Brian
+
+13:52:40.738 | DEBUG    |   zipcode: 43293
+
+13:52:40.892 | DEBUG    | Status code correct: 200
+
+13:52:40.892 | DEBUG    | ResponseCode correct: 201
+
+13:52:40.893 | DEBUG    | Response message correct: "User created!"
+
+13:52:41.025 | DEBUG    | Status code correct: 200
+
+13:52:41.025 | DEBUG    | ResponseCode correct: 200
+
+13:52:41.025 | DEBUG    | Response message correct: "Account deleted!"

@@ -1,0 +1,17 @@
+13:51:08.395 | DEBUG    | Login title is presented
+
+13:51:08.408 | DEBUG    | Login title text is correct
+
+13:51:08.414 | DEBUG    | Login email field is presented
+
+13:51:08.420 | DEBUG    | Password field is presented
+
+13:51:08.466 | DEBUG    | Email filled in
+
+13:51:08.501 | DEBUG    | Password filled in
+
+13:51:08.508 | DEBUG    | Login button is presented
+
+13:51:08.548 | DEBUG    | Login button is clicked
+
+13:51:09.683 | DEBUG    | Username is correct Logged in as Leroy
