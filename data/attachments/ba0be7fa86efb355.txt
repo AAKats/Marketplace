@@ -1,0 +1,169 @@
+12:53:31.596 | DEBUG    | Product Blue Top added, quantity 1
+
+12:53:32.451 | DEBUG    | Product Blue Top added, quantity 2
+
+12:53:33.318 | DEBUG    | Product Men Tshirt added, quantity 1
+
+12:53:34.414 | DEBUG    | Product Men Tshirt added, quantity 2
+
+12:53:34.768 | DEBUG    | Proceed to checkout button clicked
+
+12:53:34.981 | DEBUG    | Register via modal button clicked
+
+12:53:34.988 | DEBUG    | New user Signup title is presented
+
+12:53:34.995 | DEBUG    | New user Signup title text is correct
+
+12:53:35.003 | DEBUG    | Signup email field is presented
+
+12:53:35.008 | DEBUG    | Signup name field is presented
+
+12:53:35.047 | DEBUG    | Email signup field filled
+
+12:53:35.072 | DEBUG    | Name signup field filled
+
+12:53:35.270 | DEBUG    | Signup button is clicked
+
+12:53:35.281 | DEBUG    | Account information title is presented
+
+12:53:35.290 | DEBUG    | Account information title text is correct
+
+12:53:35.312 | DEBUG    | Mr radiobutton is presented
+
+12:53:35.316 | DEBUG    | Mrs radiobutton is presented
+
+12:53:35.347 | DEBUG    | Selected MR title
+
+12:53:35.352 | DEBUG    | Password field is presented
+
+12:53:35.384 | DEBUG    | Password is filled in
+
+12:53:35.389 | DEBUG    | Day of birth list is presented
+
+12:53:35.428 | DEBUG    | Day of birth selected
+
+12:53:35.434 | DEBUG    | Month of birth list is presented
+
+12:53:35.465 | DEBUG    | Month of birth selected
+
+12:53:35.470 | DEBUG    | Year of birth list is presented
+
+12:53:35.502 | DEBUG    | Year of birth selected
+
+12:53:35.535 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+12:53:35.535 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+12:53:35.540 | DEBUG    | First name field is presented
+
+12:53:35.569 | DEBUG    | First name is filled in
+
+12:53:35.574 | DEBUG    | Last name field is presented
+
+12:53:35.601 | DEBUG    | Last name is filled in
+
+12:53:35.608 | DEBUG    | Company field is presented
+
+12:53:35.638 | DEBUG    | Company is filled in
+
+12:53:35.645 | DEBUG    | Address 1 field is presented
+
+12:53:35.680 | DEBUG    | Address 1 is filled in
+
+12:53:35.686 | DEBUG    | Address 2 field is presented
+
+12:53:35.715 | DEBUG    | Address 2 is filled in
+
+12:53:35.753 | DEBUG    | State field is presented
+
+12:53:35.783 | DEBUG    | State is filled in
+
+12:53:35.788 | DEBUG    | City field is presented
+
+12:53:35.818 | DEBUG    | City is filled in
+
+12:53:35.823 | DEBUG    | Zipcode field is presented
+
+12:53:35.851 | DEBUG    | Zipcode is filled in
+
+12:53:35.856 | DEBUG    | Mobile number field is presented
+
+12:53:35.886 | DEBUG    | Mobile number is filled in
+
+12:53:36.538 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+12:53:36.554 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+12:53:36.555 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+12:53:36.559 | DEBUG    | Continue button is presented
+
+12:53:37.323 | DEBUG    | Username is correct Logged in as Sierra
+
+12:53:37.925 | DEBUG    | Proceed to checkout button clicked
+
+12:53:37.939 | DEBUG    | Name is correct in the delivery information: Mr. Sierra Benson
+
+12:53:37.949 | DEBUG    | Company name is correct in the delivery information: Jackson and Sons
+
+12:53:37.959 | DEBUG    | Address 1 is correct in the delivery information: 3039 Nicholas Pines Apt. 252
+
+12:53:37.971 | DEBUG    | Address 2 is correct in the delivery information: Suite 908
+
+12:53:37.982 | DEBUG    | City is correct in the delivery information: Lake Angelaview California 42398
+
+12:53:37.992 | DEBUG    | Country is correct in the delivery information: Canada
+
+12:53:38.003 | DEBUG    | Phone is correct in the delivery information: 968.665.2327x74643
+
+12:53:38.014 | DEBUG    | Name is correct in the billing information: Mr. Sierra Benson
+
+12:53:38.024 | DEBUG    | Company name is correct in the billing information: Jackson and Sons
+
+12:53:38.035 | DEBUG    | Address 1 is correct in the billing information: 3039 Nicholas Pines Apt. 252
+
+12:53:38.046 | DEBUG    | Address 2 is correct in the billing information: Suite 908
+
+12:53:38.056 | DEBUG    | City is correct in the billing information: Lake Angelaview California 42398
+
+12:53:38.066 | DEBUG    | Country is correct in the billing information: Canada
+
+12:53:38.076 | DEBUG    | Phone is correct in the billing information: 968.665.2327x74643
+
+12:53:38.085 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+12:53:38.100 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:53:38.107 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+12:53:38.117 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+12:53:38.117 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+12:53:38.135 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+12:53:38.146 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+12:53:38.164 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+12:53:38.174 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+12:53:38.228 | DEBUG    | Comment filled in with: Nature above reach often. Seek there move ok oil. Interview including look should.
+
+12:53:38.430 | DEBUG    | Place order button clicked
+
+12:53:38.470 | DEBUG    | Name on card filled in with: ****
+
+12:53:38.504 | DEBUG    | Card number filled in with: ****5831
+
+12:53:38.694 | DEBUG    | Pay and confirm button clicked
+
+12:53:40.014 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+12:53:40.232 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+12:53:40.232 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+12:53:40.232 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+12:53:40.999 | DEBUG    | Continue button clicked

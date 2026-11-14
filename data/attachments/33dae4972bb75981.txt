@@ -1,0 +1,166 @@
+12:55:35.215 | DEBUG    | New user Signup title is presented
+
+12:55:35.225 | DEBUG    | New user Signup title text is correct
+
+12:55:35.230 | DEBUG    | Signup email field is presented
+
+12:55:35.235 | DEBUG    | Signup name field is presented
+
+12:55:35.274 | DEBUG    | Email signup field filled
+
+12:55:35.301 | DEBUG    | Name signup field filled
+
+12:55:35.480 | DEBUG    | Signup button is clicked
+
+12:55:35.493 | DEBUG    | Account information title is presented
+
+12:55:35.500 | DEBUG    | Account information title text is correct
+
+12:55:35.523 | DEBUG    | Mr radiobutton is presented
+
+12:55:35.528 | DEBUG    | Mrs radiobutton is presented
+
+12:55:35.560 | DEBUG    | Selected MRS title
+
+12:55:35.567 | DEBUG    | Password field is presented
+
+12:55:35.595 | DEBUG    | Password is filled in
+
+12:55:35.601 | DEBUG    | Day of birth list is presented
+
+12:55:35.644 | DEBUG    | Day of birth selected
+
+12:55:35.649 | DEBUG    | Month of birth list is presented
+
+12:55:35.680 | DEBUG    | Month of birth selected
+
+12:55:35.685 | DEBUG    | Year of birth list is presented
+
+12:55:35.718 | DEBUG    | Year of birth selected
+
+12:55:35.750 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+12:55:35.751 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+12:55:35.757 | DEBUG    | First name field is presented
+
+12:55:35.784 | DEBUG    | First name is filled in
+
+12:55:35.791 | DEBUG    | Last name field is presented
+
+12:55:35.820 | DEBUG    | Last name is filled in
+
+12:55:35.826 | DEBUG    | Company field is presented
+
+12:55:35.859 | DEBUG    | Company is filled in
+
+12:55:35.865 | DEBUG    | Address 1 field is presented
+
+12:55:35.901 | DEBUG    | Address 1 is filled in
+
+12:55:35.907 | DEBUG    | Address 2 field is presented
+
+12:55:35.934 | DEBUG    | Address 2 is filled in
+
+12:55:35.973 | DEBUG    | State field is presented
+
+12:55:36.000 | DEBUG    | State is filled in
+
+12:55:36.007 | DEBUG    | City field is presented
+
+12:55:36.037 | DEBUG    | City is filled in
+
+12:55:36.043 | DEBUG    | Zipcode field is presented
+
+12:55:36.068 | DEBUG    | Zipcode is filled in
+
+12:55:36.074 | DEBUG    | Mobile number field is presented
+
+12:55:36.105 | DEBUG    | Mobile number is filled in
+
+12:55:37.000 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+12:55:37.017 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+12:55:37.017 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+12:55:37.023 | DEBUG    | Continue button is presented
+
+12:55:37.760 | DEBUG    | Username is correct Logged in as Morgan
+
+12:55:39.391 | DEBUG    | Product Blue Top added, quantity 1
+
+12:55:40.249 | DEBUG    | Product Blue Top added, quantity 2
+
+12:55:41.113 | DEBUG    | Product Men Tshirt added, quantity 1
+
+12:55:42.191 | DEBUG    | Product Men Tshirt added, quantity 2
+
+12:55:42.875 | DEBUG    | Proceed to checkout button clicked
+
+12:55:42.888 | DEBUG    | Name is correct in the delivery information: Mrs. Morgan Herring
+
+12:55:42.901 | DEBUG    | Company name is correct in the delivery information: Miller, Harris and Daniel
+
+12:55:42.913 | DEBUG    | Address 1 is correct in the delivery information: 602 Hall Overpass Apt. 921
+
+12:55:42.924 | DEBUG    | Address 2 is correct in the delivery information: Suite 592
+
+12:55:42.935 | DEBUG    | City is correct in the delivery information: West Bryanport Nevada 83762
+
+12:55:42.947 | DEBUG    | Country is correct in the delivery information: United States
+
+12:55:42.959 | DEBUG    | Phone is correct in the delivery information: (576)989-3980x244
+
+12:55:42.970 | DEBUG    | Name is correct in the billing information: Mrs. Morgan Herring
+
+12:55:42.982 | DEBUG    | Company name is correct in the billing information: Miller, Harris and Daniel
+
+12:55:42.993 | DEBUG    | Address 1 is correct in the billing information: 602 Hall Overpass Apt. 921
+
+12:55:43.004 | DEBUG    | Address 2 is correct in the billing information: Suite 592
+
+12:55:43.016 | DEBUG    | City is correct in the billing information: West Bryanport Nevada 83762
+
+12:55:43.027 | DEBUG    | Country is correct in the billing information: United States
+
+12:55:43.038 | DEBUG    | Phone is correct in the billing information: (576)989-3980x244
+
+12:55:43.047 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+12:55:43.063 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:55:43.070 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+12:55:43.080 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+12:55:43.080 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+12:55:43.096 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+12:55:43.107 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+12:55:43.125 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+12:55:43.134 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+12:55:43.197 | DEBUG    | Comment filled in with: Computer film whole miss owner factor. Water interesting dog.
+Why team show religious meeting.
+
+12:55:43.381 | DEBUG    | Place order button clicked
+
+12:55:43.425 | DEBUG    | Name on card filled in with: ****
+
+12:55:43.460 | DEBUG    | Card number filled in with: ****7415
+
+12:55:43.599 | DEBUG    | Pay and confirm button clicked
+
+12:55:44.924 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+12:55:45.131 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+12:55:45.131 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+12:55:45.131 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+12:55:45.648 | DEBUG    | Continue button clicked

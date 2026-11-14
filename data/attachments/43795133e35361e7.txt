@@ -1,0 +1,49 @@
+12:53:54.298 | DEBUG    | Search field is presented
+
+12:53:54.332 | DEBUG    | Search field is filled in with: "Stylish Dress"
+
+12:53:54.338 | DEBUG    | Search button is presented
+
+12:53:54.683 | DEBUG    | Search button is clicked
+
+12:53:54.698 | DEBUG    | Title is presented
+
+12:53:54.698 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+12:53:54.702 | DEBUG    | 1 products found
+
+12:53:54.706 | DEBUG    | "Stylish Dress" product found, and contains "Stylish Dress"
+
+12:53:55.818 | DEBUG    | Product Stylish Dress added, quantity 1
+
+12:53:56.093 | DEBUG    | Product: Stylish Dress found in cart: Stylish Dress
+
+12:53:56.108 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+12:53:56.126 | DEBUG    | Product Stylish Dress quantity in cart: 1 matches added quantity: 1
+
+12:53:56.145 | DEBUG    | Product Stylish Dress total in cart: 1500 matches expected total: 1500
+
+12:53:56.404 | DEBUG    | Login email field is presented
+
+12:53:56.410 | DEBUG    | Password field is presented
+
+12:53:56.444 | DEBUG    | Email filled in
+
+12:53:56.472 | DEBUG    | Password filled in
+
+12:53:56.479 | DEBUG    | Login button is presented
+
+12:53:57.222 | DEBUG    | Login button is clicked
+
+12:53:57.522 | DEBUG    | Product: Stylish Dress found in cart: Stylish Dress
+
+12:53:57.538 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+12:53:57.554 | DEBUG    | Product Stylish Dress quantity in cart: 1 matches added quantity: 1
+
+12:53:57.570 | DEBUG    | Product Stylish Dress total in cart: 1500 matches expected total: 1500
+
+12:54:02.173 | DEBUG    | All products deleted
+
+12:54:02.180 | DEBUG    | Empty cart text correct: Cart is empty!

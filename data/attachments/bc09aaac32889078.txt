@@ -1,0 +1,11 @@
+12:55:05.848 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+12:55:05.895 | DEBUG    | Review name field filled in with "Eric Oliver"
+
+12:55:05.939 | DEBUG    | Review email field filled in with "a14f704a_nixonshannon@example.org"
+
+12:55:06.004 | DEBUG    | Review message field filled in with "Than speak fill. Coach why avoid wrong turn run put. Strategy suddenly method grow go network."
+
+12:55:06.046 | DEBUG    | Submit review button clicked
+
+12:55:06.066 | DEBUG    | Success review message is displayed

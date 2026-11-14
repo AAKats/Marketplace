@@ -1,0 +1,43 @@
+12:55:46.535 | DEBUG    | New user details:
+
+12:55:46.535 | DEBUG    |   name: Donald
+
+12:55:46.535 | DEBUG    |   email: 5c2e383e_mary07@example.net
+
+12:55:46.535 | DEBUG    |   title: Mr
+
+12:55:46.535 | DEBUG    |   birth_day: 10
+
+12:55:46.535 | DEBUG    |   birth_month: 11
+
+12:55:46.536 | DEBUG    |   birth_year: 1993
+
+12:55:46.536 | DEBUG    |   firstname: Donald
+
+12:55:46.536 | DEBUG    |   lastname: Burke
+
+12:55:46.536 | DEBUG    |   company: Mckenzie, Benjamin and Aguilar
+
+12:55:46.536 | DEBUG    |   address1: 20648 David Wells
+
+12:55:46.536 | DEBUG    |   address2: Suite 382
+
+12:55:46.536 | DEBUG    |   country: Australia
+
+12:55:46.536 | DEBUG    |   state: Montana
+
+12:55:46.536 | DEBUG    |   city: East Daniel
+
+12:55:46.536 | DEBUG    |   zipcode: 75905
+
+12:55:46.648 | DEBUG    | Status code correct: 200
+
+12:55:46.649 | DEBUG    | ResponseCode correct: 201
+
+12:55:46.649 | DEBUG    | Response message correct: "User created!"
+
+12:55:46.775 | DEBUG    | Status code correct: 200
+
+12:55:46.775 | DEBUG    | ResponseCode correct: 200
+
+12:55:46.776 | DEBUG    | Response message correct: "Account deleted!"

@@ -1,0 +1,75 @@
+12:55:46.782 | DEBUG    | New user details:
+
+12:55:46.783 | DEBUG    |   name: Catherine
+
+12:55:46.783 | DEBUG    |   email: 685c05d5_amandaturner@example.org
+
+12:55:46.783 | DEBUG    |   title: Mrs
+
+12:55:46.783 | DEBUG    |   birth_day: 24
+
+12:55:46.783 | DEBUG    |   birth_month: 2
+
+12:55:46.783 | DEBUG    |   birth_year: 1981
+
+12:55:46.783 | DEBUG    |   firstname: Catherine
+
+12:55:46.783 | DEBUG    |   lastname: Shaw
+
+12:55:46.783 | DEBUG    |   company: Graves-Casey
+
+12:55:46.783 | DEBUG    |   address1: 4498 Torres Ford
+
+12:55:46.783 | DEBUG    |   address2: Suite 359
+
+12:55:46.783 | DEBUG    |   country: United States
+
+12:55:46.783 | DEBUG    |   state: Texas
+
+12:55:46.783 | DEBUG    |   city: Shafferfurt
+
+12:55:46.783 | DEBUG    |   zipcode: 63552
+
+12:55:46.920 | DEBUG    | Status code correct: 200
+
+12:55:46.920 | DEBUG    | ResponseCode correct: 201
+
+12:55:46.920 | DEBUG    | Response message correct: "User created!"
+
+12:55:46.920 | DEBUG    | Updated user details:
+
+12:55:46.920 | DEBUG    |   name: Catherine
+
+12:55:46.920 | DEBUG    |   email: 685c05d5_amandaturner@example.org
+
+12:55:46.920 | DEBUG    |   title: Mrs
+
+12:55:46.920 | DEBUG    |   birth_day: 24
+
+12:55:46.920 | DEBUG    |   birth_month: 2
+
+12:55:46.920 | DEBUG    |   birth_year: 1981
+
+12:55:46.920 | DEBUG    |   firstname: Catherine
+
+12:55:46.920 | DEBUG    |   lastname: Shaw
+
+12:55:46.920 | DEBUG    |   company: Graves-Casey
+
+12:55:46.920 | DEBUG    |   address1: 4498 Torres Ford
+
+12:55:46.920 | DEBUG    |   address2: Suite 359
+
+12:55:46.920 | DEBUG    |   country: United States
+
+12:55:46.920 | DEBUG    |   state: Texas
+
+12:55:46.920 | DEBUG    |   city: Shafferfurt
+
+12:55:46.922 | DEBUG    |   zipcode: 63552
+
+12:55:47.038 | DEBUG    | Status code correct: 200
+
+12:55:47.038 | DEBUG    | ResponseCode correct: 200
+
+12:55:47.038 | DEBUG    | Response message correct: "User updated!"

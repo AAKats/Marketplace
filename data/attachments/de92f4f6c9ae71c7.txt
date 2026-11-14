@@ -1,0 +1,67 @@
+12:54:57.592 | DEBUG    | Email filled in
+
+12:54:57.623 | DEBUG    | Password filled in
+
+12:54:57.629 | DEBUG    | Login button is presented
+
+12:54:58.629 | DEBUG    | Login button is clicked
+
+12:54:58.647 | DEBUG    | Username is correct Logged in as Donald
+
+12:54:59.546 | DEBUG    | Product Blue Top added, quantity 1
+
+12:55:00.401 | DEBUG    | Product Blue Top added, quantity 2
+
+12:55:01.524 | DEBUG    | Product Blue Top added, quantity 3
+
+12:55:02.474 | DEBUG    | Proceed to checkout button clicked
+
+12:55:02.487 | DEBUG    | Name is correct in the delivery information: Mr. Donald Vaughn
+
+12:55:02.500 | DEBUG    | Company name is correct in the delivery information: Casey, Stevenson and Watts
+
+12:55:02.512 | DEBUG    | Address 1 is correct in the delivery information: 355 Jeffery Manors
+
+12:55:02.523 | DEBUG    | Address 2 is correct in the delivery information: Suite 470
+
+12:55:02.534 | DEBUG    | City is correct in the delivery information: Gonzalezberg New Mexico 46402
+
+12:55:02.545 | DEBUG    | Country is correct in the delivery information: Canada
+
+12:55:02.556 | DEBUG    | Phone is correct in the delivery information: (743)875-8435x2565
+
+12:55:02.568 | DEBUG    | Name is correct in the billing information: Mr. Donald Vaughn
+
+12:55:02.580 | DEBUG    | Company name is correct in the billing information: Casey, Stevenson and Watts
+
+12:55:02.591 | DEBUG    | Address 1 is correct in the billing information: 355 Jeffery Manors
+
+12:55:02.602 | DEBUG    | Address 2 is correct in the billing information: Suite 470
+
+12:55:02.612 | DEBUG    | City is correct in the billing information: Gonzalezberg New Mexico 46402
+
+12:55:02.624 | DEBUG    | Country is correct in the billing information: Canada
+
+12:55:02.635 | DEBUG    | Phone is correct in the billing information: (743)875-8435x2565
+
+12:55:02.645 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+12:55:02.661 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+12:55:02.666 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+12:55:02.684 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+12:55:02.702 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+12:55:02.752 | DEBUG    | Comment filled in with: Sister she degree show. Leader office capital page religious.
+
+12:55:02.936 | DEBUG    | Place order button clicked
+
+12:55:02.976 | DEBUG    | Name on card filled in with: ****
+
+12:55:03.011 | DEBUG    | Card number filled in with: ****4064
+
+12:55:03.159 | DEBUG    | Pay and confirm button clicked
+
+12:55:04.574 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

@@ -1,0 +1,37 @@
+12:55:46.412 | DEBUG    | New user details:
+
+12:55:46.412 | DEBUG    |   name: April
+
+12:55:46.412 | DEBUG    |   email: 3907622d_steven68@example.net
+
+12:55:46.412 | DEBUG    |   title: Mrs
+
+12:55:46.412 | DEBUG    |   birth_day: 5
+
+12:55:46.412 | DEBUG    |   birth_month: 8
+
+12:55:46.412 | DEBUG    |   birth_year: 1991
+
+12:55:46.412 | DEBUG    |   firstname: April
+
+12:55:46.412 | DEBUG    |   lastname: Wilson
+
+12:55:46.412 | DEBUG    |   company: Adams PLC
+
+12:55:46.412 | DEBUG    |   address1: 278 Boyd Parks
+
+12:55:46.412 | DEBUG    |   address2: Apt. 460
+
+12:55:46.412 | DEBUG    |   country: Canada
+
+12:55:46.412 | DEBUG    |   state: Nebraska
+
+12:55:46.412 | DEBUG    |   city: Lake Laurie
+
+12:55:46.412 | DEBUG    |   zipcode: 82264
+
+12:55:46.528 | DEBUG    | Status code correct: 200
+
+12:55:46.529 | DEBUG    | ResponseCode correct: 201
+
+12:55:46.529 | DEBUG    | Response message correct: "User created!"

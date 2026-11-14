@@ -1,0 +1,13 @@
+12:53:28.543 | DEBUG    | Product "Men Tshirt" (ID: 2) opened
+
+12:53:28.595 | DEBUG    | Quantity = 2 selected
+
+12:53:28.631 | DEBUG    | Product was added to cart
+
+12:53:29.427 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+12:53:29.436 | DEBUG    | Product: Men Tshirt found in cart: Men Tshirt
+
+12:53:29.452 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+12:53:29.469 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2

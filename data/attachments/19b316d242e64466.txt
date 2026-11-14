@@ -1,0 +1,40 @@
+12:54:33.059 | DEBUG    | Main title is presented
+
+12:54:33.076 | DEBUG    | Main title is correct: CONTACT US
+
+12:54:33.081 | DEBUG    | Second title is presented
+
+12:54:33.095 | DEBUG    | Second title is correct: GET IN TOUCH
+
+12:54:33.101 | DEBUG    | Name field is presented
+
+12:54:33.133 | DEBUG    | Name field filled in with: Kimberly
+
+12:54:33.138 | DEBUG    | Email field is presented
+
+12:54:33.177 | DEBUG    | Email field filled in with: 82f69a5c_whiteemily@example.org
+
+12:54:33.183 | DEBUG    | Subject field is presented
+
+12:54:33.211 | DEBUG    | Subject field filled in with: Step car.
+
+12:54:33.218 | DEBUG    | Message field is presented
+
+12:54:33.266 | DEBUG    | Message field filled in with: Listen song child relationship.
+Figure fine probably to newspaper.
+
+12:54:33.272 | DEBUG    | Upload field is presented
+
+12:54:33.285 | DEBUG    | File uploaded
+
+12:54:33.291 | DEBUG    | Submit button is presented
+
+12:54:33.334 | DEBUG    | Alert is presented
+
+12:54:33.356 | DEBUG    | Success message is presented
+
+12:54:33.356 | DEBUG    | Success message is correct
+
+12:54:33.361 | DEBUG    | Home button is presented
+
+12:54:33.992 | DEBUG    | Home button is clicked
