@@ -1,0 +1,33 @@
+13:25:24.500 | DEBUG    | New user details:
+
+13:25:24.500 | DEBUG    |   name: Sheila
+
+13:25:24.500 | DEBUG    |   email: 0b2647a5_patrickramos@example.org
+
+13:25:24.500 | DEBUG    |   title: Mrs
+
+13:25:24.500 | DEBUG    |   birth_day: 17
+
+13:25:24.500 | DEBUG    |   birth_month: 10
+
+13:25:24.500 | DEBUG    |   birth_year: 1928
+
+13:25:24.500 | DEBUG    |   firstname: Sheila
+
+13:25:24.500 | DEBUG    |   lastname: Frank
+
+13:25:24.500 | DEBUG    |   company: Montgomery PLC
+
+13:25:24.500 | DEBUG    |   address1: 513 Brandon Junctions
+
+13:25:24.500 | DEBUG    |   address2: Apt. 345
+
+13:25:24.500 | DEBUG    |   country: United States
+
+13:25:24.500 | DEBUG    |   state: Indiana
+
+13:25:24.500 | DEBUG    |   city: Hudsonland
+
+13:25:24.500 | DEBUG    |   zipcode: 22219
+
+13:25:24.605 | DEBUG    | Status code correct: 200

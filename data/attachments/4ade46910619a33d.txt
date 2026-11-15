@@ -1,0 +1,33 @@
+13:25:24.629 | DEBUG    | New user details:
+
+13:25:24.629 | DEBUG    |   name: Melissa
+
+13:25:24.629 | DEBUG    |   email: 24eb5cd8_velasquezhannah@example.org
+
+13:25:24.629 | DEBUG    |   title: Mrs
+
+13:25:24.629 | DEBUG    |   birth_day: 4
+
+13:25:24.629 | DEBUG    |   birth_month: 7
+
+13:25:24.629 | DEBUG    |   birth_year: 2003
+
+13:25:24.629 | DEBUG    |   firstname: Melissa
+
+13:25:24.629 | DEBUG    |   lastname: Lynch
+
+13:25:24.629 | DEBUG    |   company: Spencer, Wilcox and Rivera
+
+13:25:24.629 | DEBUG    |   address1: 2816 Daniel Glens
+
+13:25:24.629 | DEBUG    |   address2: Suite 365
+
+13:25:24.629 | DEBUG    |   country: Singapore
+
+13:25:24.629 | DEBUG    |   state: Kansas
+
+13:25:24.629 | DEBUG    |   city: South Anthony
+
+13:25:24.629 | DEBUG    |   zipcode: 59712
+
+13:25:24.723 | DEBUG    | Status code correct: 200

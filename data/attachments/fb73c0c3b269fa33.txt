@@ -1,0 +1,33 @@
+13:25:24.242 | DEBUG    | New user details:
+
+13:25:24.242 | DEBUG    |   name: Kimberly
+
+13:25:24.242 | DEBUG    |   email: 7fa42244_michelle51@example.com
+
+13:25:24.242 | DEBUG    |   title: Mr
+
+13:25:24.242 | DEBUG    |   birth_day: 28
+
+13:25:24.242 | DEBUG    |   birth_month: 10
+
+13:25:24.242 | DEBUG    |   birth_year: 2020
+
+13:25:24.242 | DEBUG    |   firstname: Kimberly
+
+13:25:24.242 | DEBUG    |   lastname: Mcmahon
+
+13:25:24.242 | DEBUG    |   company: Lyons, May and Blanchard
+
+13:25:24.242 | DEBUG    |   address1: 26615 Rachel Courts
+
+13:25:24.242 | DEBUG    |   address2: Suite 744
+
+13:25:24.242 | DEBUG    |   country: Israel
+
+13:25:24.242 | DEBUG    |   state: Connecticut
+
+13:25:24.242 | DEBUG    |   city: Lake Richardberg
+
+13:25:24.242 | DEBUG    |   zipcode: 41992
+
+13:25:24.346 | DEBUG    | Status code correct: 200
