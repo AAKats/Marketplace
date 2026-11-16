@@ -1,0 +1,165 @@
+14:38:41.329 | DEBUG    | New user Signup title is presented
+
+14:38:41.338 | DEBUG    | New user Signup title text is correct
+
+14:38:41.343 | DEBUG    | Signup email field is presented
+
+14:38:41.348 | DEBUG    | Signup name field is presented
+
+14:38:41.387 | DEBUG    | Email signup field filled
+
+14:38:41.413 | DEBUG    | Name signup field filled
+
+14:38:41.661 | DEBUG    | Signup button is clicked
+
+14:38:41.674 | DEBUG    | Account information title is presented
+
+14:38:41.682 | DEBUG    | Account information title text is correct
+
+14:38:41.704 | DEBUG    | Mr radiobutton is presented
+
+14:38:41.708 | DEBUG    | Mrs radiobutton is presented
+
+14:38:41.739 | DEBUG    | Selected MR title
+
+14:38:41.744 | DEBUG    | Password field is presented
+
+14:38:41.774 | DEBUG    | Password is filled in
+
+14:38:41.779 | DEBUG    | Day of birth list is presented
+
+14:38:41.816 | DEBUG    | Day of birth selected
+
+14:38:41.821 | DEBUG    | Month of birth list is presented
+
+14:38:41.848 | DEBUG    | Month of birth selected
+
+14:38:41.853 | DEBUG    | Year of birth list is presented
+
+14:38:41.884 | DEBUG    | Year of birth selected
+
+14:38:41.884 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+14:38:41.916 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+14:38:41.921 | DEBUG    | First name field is presented
+
+14:38:41.948 | DEBUG    | First name is filled in
+
+14:38:41.954 | DEBUG    | Last name field is presented
+
+14:38:41.980 | DEBUG    | Last name is filled in
+
+14:38:41.985 | DEBUG    | Company field is presented
+
+14:38:42.012 | DEBUG    | Company is filled in
+
+14:38:42.019 | DEBUG    | Address 1 field is presented
+
+14:38:42.047 | DEBUG    | Address 1 is filled in
+
+14:38:42.053 | DEBUG    | Address 2 field is presented
+
+14:38:42.079 | DEBUG    | Address 2 is filled in
+
+14:38:42.117 | DEBUG    | State field is presented
+
+14:38:42.142 | DEBUG    | State is filled in
+
+14:38:42.149 | DEBUG    | City field is presented
+
+14:38:42.175 | DEBUG    | City is filled in
+
+14:38:42.181 | DEBUG    | Zipcode field is presented
+
+14:38:42.205 | DEBUG    | Zipcode is filled in
+
+14:38:42.211 | DEBUG    | Mobile number field is presented
+
+14:38:42.239 | DEBUG    | Mobile number is filled in
+
+14:38:45.653 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+14:38:45.669 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+14:38:45.669 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+14:38:45.674 | DEBUG    | Continue button is presented
+
+14:38:47.827 | DEBUG    | Username is correct Logged in as Andrea
+
+14:38:50.809 | DEBUG    | Product Blue Top added, quantity 1
+
+14:38:52.176 | DEBUG    | Product Blue Top added, quantity 2
+
+14:38:54.059 | DEBUG    | Product Men Tshirt added, quantity 1
+
+14:38:56.605 | DEBUG    | Product Men Tshirt added, quantity 2
+
+14:38:59.305 | DEBUG    | Proceed to checkout button clicked
+
+14:38:59.319 | DEBUG    | Name is correct in the delivery information: Mr. Andrea Booth
+
+14:38:59.331 | DEBUG    | Company name is correct in the delivery information: Sims-Schmidt
+
+14:38:59.341 | DEBUG    | Address 1 is correct in the delivery information: 1493 James Lake
+
+14:38:59.352 | DEBUG    | Address 2 is correct in the delivery information: Suite 168
+
+14:38:59.362 | DEBUG    | City is correct in the delivery information: Harperhaven Alabama 61818
+
+14:38:59.372 | DEBUG    | Country is correct in the delivery information: Canada
+
+14:38:59.383 | DEBUG    | Phone is correct in the delivery information: (445)512-4256
+
+14:38:59.394 | DEBUG    | Name is correct in the billing information: Mr. Andrea Booth
+
+14:38:59.405 | DEBUG    | Company name is correct in the billing information: Sims-Schmidt
+
+14:38:59.415 | DEBUG    | Address 1 is correct in the billing information: 1493 James Lake
+
+14:38:59.425 | DEBUG    | Address 2 is correct in the billing information: Suite 168
+
+14:38:59.436 | DEBUG    | City is correct in the billing information: Harperhaven Alabama 61818
+
+14:38:59.447 | DEBUG    | Country is correct in the billing information: Canada
+
+14:38:59.457 | DEBUG    | Phone is correct in the billing information: (445)512-4256
+
+14:38:59.465 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+14:38:59.480 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+14:38:59.487 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+14:38:59.497 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+14:38:59.497 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+14:38:59.513 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+14:38:59.523 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+14:38:59.540 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+14:38:59.551 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+14:38:59.603 | DEBUG    | Comment filled in with: Rich different financial. Explain specific green order. Ever can school line.
+
+14:39:00.039 | DEBUG    | Place order button clicked
+
+14:39:00.079 | DEBUG    | Name on card filled in with: ****
+
+14:39:00.111 | DEBUG    | Card number filled in with: ****6665
+
+14:39:02.641 | DEBUG    | Pay and confirm button clicked
+
+14:39:02.667 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+14:39:03.801 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+14:39:03.801 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+14:39:03.801 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+14:39:06.149 | DEBUG    | Continue button clicked

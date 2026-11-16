@@ -1,0 +1,39 @@
+14:37:00.712 | DEBUG    | Main title is presented
+
+14:37:00.730 | DEBUG    | Main title is correct: CONTACT US
+
+14:37:00.735 | DEBUG    | Second title is presented
+
+14:37:00.747 | DEBUG    | Second title is correct: GET IN TOUCH
+
+14:37:00.753 | DEBUG    | Name field is presented
+
+14:37:00.781 | DEBUG    | Name field filled in with: Jennifer
+
+14:37:00.787 | DEBUG    | Email field is presented
+
+14:37:00.820 | DEBUG    | Email field filled in with: 498fe84b_mooreadam@example.com
+
+14:37:00.826 | DEBUG    | Subject field is presented
+
+14:37:00.850 | DEBUG    | Subject field filled in with: Pretty.
+
+14:37:00.857 | DEBUG    | Message field is presented
+
+14:37:00.906 | DEBUG    | Message field filled in with: Study resource bed stay summer program off. North color produce and reason listen.
+
+14:37:00.911 | DEBUG    | Upload field is presented
+
+14:37:00.999 | DEBUG    | File uploaded
+
+14:37:01.004 | DEBUG    | Submit button is presented
+
+14:37:01.046 | DEBUG    | Alert is presented
+
+14:37:01.064 | DEBUG    | Success message is presented
+
+14:37:01.064 | DEBUG    | Success message is correct
+
+14:37:01.068 | DEBUG    | Home button is presented
+
+14:37:04.207 | DEBUG    | Home button is clicked

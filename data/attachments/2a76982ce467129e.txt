@@ -1,0 +1,115 @@
+14:36:14.143 | DEBUG    | New user Signup title is presented
+
+14:36:14.154 | DEBUG    | New user Signup title text is correct
+
+14:36:14.159 | DEBUG    | Signup email field is presented
+
+14:36:14.164 | DEBUG    | Signup name field is presented
+
+14:36:14.200 | DEBUG    | Email signup field filled
+
+14:36:14.227 | DEBUG    | Name signup field filled
+
+14:36:14.812 | DEBUG    | Signup button is clicked
+
+14:36:14.825 | DEBUG    | Account information title is presented
+
+14:36:14.832 | DEBUG    | Account information title text is correct
+
+14:36:14.860 | DEBUG    | Mr radiobutton is presented
+
+14:36:14.864 | DEBUG    | Mrs radiobutton is presented
+
+14:36:14.894 | DEBUG    | Selected MRS title
+
+14:36:14.899 | DEBUG    | Password field is presented
+
+14:36:14.930 | DEBUG    | Password is filled in
+
+14:36:14.937 | DEBUG    | Day of birth list is presented
+
+14:36:14.975 | DEBUG    | Day of birth selected
+
+14:36:14.980 | DEBUG    | Month of birth list is presented
+
+14:36:15.010 | DEBUG    | Month of birth selected
+
+14:36:15.015 | DEBUG    | Year of birth list is presented
+
+14:36:15.044 | DEBUG    | Year of birth selected
+
+14:36:15.077 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+14:36:15.108 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+14:36:15.113 | DEBUG    | First name field is presented
+
+14:36:15.140 | DEBUG    | First name is filled in
+
+14:36:15.145 | DEBUG    | Last name field is presented
+
+14:36:15.171 | DEBUG    | Last name is filled in
+
+14:36:15.176 | DEBUG    | Company field is presented
+
+14:36:15.202 | DEBUG    | Company is filled in
+
+14:36:15.208 | DEBUG    | Address 1 field is presented
+
+14:36:15.241 | DEBUG    | Address 1 is filled in
+
+14:36:15.247 | DEBUG    | Address 2 field is presented
+
+14:36:15.275 | DEBUG    | Address 2 is filled in
+
+14:36:15.315 | DEBUG    | State field is presented
+
+14:36:15.341 | DEBUG    | State is filled in
+
+14:36:15.346 | DEBUG    | City field is presented
+
+14:36:15.375 | DEBUG    | City is filled in
+
+14:36:15.380 | DEBUG    | Zipcode field is presented
+
+14:36:15.407 | DEBUG    | Zipcode is filled in
+
+14:36:15.412 | DEBUG    | Mobile number field is presented
+
+14:36:15.443 | DEBUG    | Mobile number is filled in
+
+14:36:17.441 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+14:36:17.458 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+14:36:17.458 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+14:36:17.462 | DEBUG    | Continue button is presented
+
+14:36:18.758 | DEBUG    | Username is correct Logged in as David
+
+14:36:20.163 | DEBUG    | Product Blue Top added, quantity 1
+
+14:36:21.515 | DEBUG    | Product Blue Top added, quantity 2
+
+14:36:32.012 | DEBUG    | Product Men Tshirt added, quantity 1
+
+14:36:34.388 | DEBUG    | Product Men Tshirt added, quantity 2
+
+14:36:36.261 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+14:36:41.791 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+14:36:44.811 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+14:36:44.811 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+14:36:44.811 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+14:36:44.826 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+14:36:44.833 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+14:36:44.840 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+14:36:44.859 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2

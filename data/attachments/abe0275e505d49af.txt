@@ -1,0 +1,13 @@
+14:35:07.888 | DEBUG    | Product "Sleeveless Unicorn Patch Gown - Pink" (ID: 19) opened
+
+14:35:07.942 | DEBUG    | Quantity = 4 selected
+
+14:35:07.980 | DEBUG    | Product was added to cart
+
+14:35:08.842 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+14:35:08.851 | DEBUG    | Product: Sleeveless Unicorn Patch Gown - Pink found in cart: Sleeveless Unicorn Patch Gown - Pink
+
+14:35:08.867 | DEBUG    | Product Sleeveless Unicorn Patch Gown - Pink price in cart: 1050 matches added price: 1050
+
+14:35:08.885 | DEBUG    | Product Sleeveless Unicorn Patch Gown - Pink quantity in cart: 4 matches added quantity: 4
