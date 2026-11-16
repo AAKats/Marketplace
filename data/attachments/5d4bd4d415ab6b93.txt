@@ -1,0 +1,13 @@
+06:49:28.196 | DEBUG    | Product "Lace Top For Women" (ID: 42) opened
+
+06:49:28.263 | DEBUG    | Quantity = 7 selected
+
+06:49:28.313 | DEBUG    | Product was added to cart
+
+06:49:30.986 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+06:49:30.999 | DEBUG    | Product: Lace Top For Women found in cart: Lace Top For Women
+
+06:49:31.018 | DEBUG    | Product Lace Top For Women price in cart: 1400 matches added price: 1400
+
+06:49:31.042 | DEBUG    | Product Lace Top For Women quantity in cart: 7 matches added quantity: 7

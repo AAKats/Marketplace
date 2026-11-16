@@ -1,0 +1,163 @@
+06:50:40.216 | DEBUG    | New user Signup title is presented
+
+06:50:40.233 | DEBUG    | New user Signup title text is correct
+
+06:50:40.239 | DEBUG    | Signup email field is presented
+
+06:50:40.245 | DEBUG    | Signup name field is presented
+
+06:50:40.298 | DEBUG    | Email signup field filled
+
+06:50:40.336 | DEBUG    | Name signup field filled
+
+06:50:40.379 | DEBUG    | Signup button is clicked
+
+06:50:41.636 | DEBUG    | Account information title is presented
+
+06:50:41.645 | DEBUG    | Account information title text is correct
+
+06:50:41.679 | DEBUG    | Mr radiobutton is presented
+
+06:50:41.685 | DEBUG    | Mrs radiobutton is presented
+
+06:50:41.726 | DEBUG    | Selected MRS title
+
+06:50:41.733 | DEBUG    | Password field is presented
+
+06:50:41.771 | DEBUG    | Password is filled in
+
+06:50:41.779 | DEBUG    | Day of birth list is presented
+
+06:50:41.828 | DEBUG    | Day of birth selected
+
+06:50:41.836 | DEBUG    | Month of birth list is presented
+
+06:50:41.879 | DEBUG    | Month of birth selected
+
+06:50:41.887 | DEBUG    | Year of birth list is presented
+
+06:50:41.928 | DEBUG    | Year of birth selected
+
+06:50:41.928 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+06:50:41.971 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+06:50:41.978 | DEBUG    | First name field is presented
+
+06:50:42.014 | DEBUG    | First name is filled in
+
+06:50:42.022 | DEBUG    | Last name field is presented
+
+06:50:42.059 | DEBUG    | Last name is filled in
+
+06:50:42.066 | DEBUG    | Company field is presented
+
+06:50:42.107 | DEBUG    | Company is filled in
+
+06:50:42.115 | DEBUG    | Address 1 field is presented
+
+06:50:42.160 | DEBUG    | Address 1 is filled in
+
+06:50:42.167 | DEBUG    | Address 2 field is presented
+
+06:50:42.206 | DEBUG    | Address 2 is filled in
+
+06:50:42.259 | DEBUG    | State field is presented
+
+06:50:42.295 | DEBUG    | State is filled in
+
+06:50:42.304 | DEBUG    | City field is presented
+
+06:50:42.344 | DEBUG    | City is filled in
+
+06:50:42.352 | DEBUG    | Zipcode field is presented
+
+06:50:42.388 | DEBUG    | Zipcode is filled in
+
+06:50:42.395 | DEBUG    | Mobile number field is presented
+
+06:50:42.436 | DEBUG    | Mobile number is filled in
+
+06:50:46.028 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+06:50:46.051 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+06:50:46.051 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+06:50:46.057 | DEBUG    | Continue button is presented
+
+06:50:47.523 | DEBUG    | Username is correct Logged in as Kathryn
+
+06:50:48.447 | DEBUG    | Product Blue Top added, quantity 1
+
+06:50:49.847 | DEBUG    | Product Blue Top added, quantity 2
+
+06:50:50.737 | DEBUG    | Product Men Tshirt added, quantity 1
+
+06:50:52.129 | DEBUG    | Product Men Tshirt added, quantity 2
+
+06:50:53.023 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+06:50:55.002 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+06:50:56.709 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+06:50:56.709 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+06:50:56.709 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+06:50:56.727 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+06:50:56.736 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+06:50:56.745 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+06:50:56.768 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+06:50:56.783 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+06:50:56.796 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+06:50:56.820 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+06:50:56.834 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+06:50:56.848 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+06:50:58.672 | DEBUG    | Proceed to checkout button clicked
+
+06:50:58.688 | DEBUG    | Name is correct in the delivery information: Mrs. Kathryn Huber
+
+06:50:58.703 | DEBUG    | Company name is correct in the delivery information: Allen Group
+
+06:50:58.717 | DEBUG    | Address 1 is correct in the delivery information: 818 Richard Forge
+
+06:50:58.730 | DEBUG    | Address 2 is correct in the delivery information: Suite 556
+
+06:50:58.744 | DEBUG    | City is correct in the delivery information: New Dustinville Kentucky 42180
+
+06:50:58.758 | DEBUG    | Country is correct in the delivery information: Canada
+
+06:50:58.772 | DEBUG    | Phone is correct in the delivery information: 001-456-402-7984
+
+06:50:58.787 | DEBUG    | Name is correct in the billing information: Mrs. Kathryn Huber
+
+06:50:58.801 | DEBUG    | Company name is correct in the billing information: Allen Group
+
+06:50:58.816 | DEBUG    | Address 1 is correct in the billing information: 818 Richard Forge
+
+06:50:58.830 | DEBUG    | Address 2 is correct in the billing information: Suite 556
+
+06:50:58.844 | DEBUG    | City is correct in the billing information: New Dustinville Kentucky 42180
+
+06:50:58.859 | DEBUG    | Country is correct in the billing information: Canada
+
+06:50:58.873 | DEBUG    | Phone is correct in the billing information: 001-456-402-7984
+
+06:50:59.462 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+06:50:59.462 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+06:50:59.462 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+06:51:00.490 | DEBUG    | Continue button clicked

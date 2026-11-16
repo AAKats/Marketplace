@@ -1,0 +1,169 @@
+06:49:38.351 | DEBUG    | Product Blue Top added, quantity 1
+
+06:49:39.745 | DEBUG    | Product Blue Top added, quantity 2
+
+06:49:41.151 | DEBUG    | Product Men Tshirt added, quantity 1
+
+06:49:44.282 | DEBUG    | Product Men Tshirt added, quantity 2
+
+06:49:45.241 | DEBUG    | Proceed to checkout button clicked
+
+06:49:45.617 | DEBUG    | Register via modal button clicked
+
+06:49:45.629 | DEBUG    | New user Signup title is presented
+
+06:49:45.637 | DEBUG    | New user Signup title text is correct
+
+06:49:45.644 | DEBUG    | Signup email field is presented
+
+06:49:45.651 | DEBUG    | Signup name field is presented
+
+06:49:45.706 | DEBUG    | Email signup field filled
+
+06:49:45.742 | DEBUG    | Name signup field filled
+
+06:49:45.786 | DEBUG    | Signup button is clicked
+
+06:49:46.219 | DEBUG    | Account information title is presented
+
+06:49:46.229 | DEBUG    | Account information title text is correct
+
+06:49:46.257 | DEBUG    | Mr radiobutton is presented
+
+06:49:46.263 | DEBUG    | Mrs radiobutton is presented
+
+06:49:46.304 | DEBUG    | Selected MRS title
+
+06:49:46.311 | DEBUG    | Password field is presented
+
+06:49:46.356 | DEBUG    | Password is filled in
+
+06:49:46.363 | DEBUG    | Day of birth list is presented
+
+06:49:46.414 | DEBUG    | Day of birth selected
+
+06:49:46.423 | DEBUG    | Month of birth list is presented
+
+06:49:46.466 | DEBUG    | Month of birth selected
+
+06:49:46.475 | DEBUG    | Year of birth list is presented
+
+06:49:46.516 | DEBUG    | Year of birth selected
+
+06:49:46.516 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+06:49:46.516 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+06:49:46.524 | DEBUG    | First name field is presented
+
+06:49:46.561 | DEBUG    | First name is filled in
+
+06:49:46.567 | DEBUG    | Last name field is presented
+
+06:49:46.607 | DEBUG    | Last name is filled in
+
+06:49:46.614 | DEBUG    | Company field is presented
+
+06:49:46.650 | DEBUG    | Company is filled in
+
+06:49:46.659 | DEBUG    | Address 1 field is presented
+
+06:49:46.710 | DEBUG    | Address 1 is filled in
+
+06:49:46.717 | DEBUG    | Address 2 field is presented
+
+06:49:46.756 | DEBUG    | Address 2 is filled in
+
+06:49:46.808 | DEBUG    | State field is presented
+
+06:49:46.844 | DEBUG    | State is filled in
+
+06:49:46.851 | DEBUG    | City field is presented
+
+06:49:46.896 | DEBUG    | City is filled in
+
+06:49:46.903 | DEBUG    | Zipcode field is presented
+
+06:49:46.940 | DEBUG    | Zipcode is filled in
+
+06:49:46.946 | DEBUG    | Mobile number field is presented
+
+06:49:46.993 | DEBUG    | Mobile number is filled in
+
+06:49:49.339 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+06:49:49.359 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+06:49:49.360 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+06:49:49.365 | DEBUG    | Continue button is presented
+
+06:49:50.704 | DEBUG    | Username is correct Logged in as Sarah
+
+06:49:52.288 | DEBUG    | Proceed to checkout button clicked
+
+06:49:52.305 | DEBUG    | Name is correct in the delivery information: Mrs. Sarah Taylor
+
+06:49:52.320 | DEBUG    | Company name is correct in the delivery information: Davis Ltd
+
+06:49:52.334 | DEBUG    | Address 1 is correct in the delivery information: 743 Jacqueline Light Suite 494
+
+06:49:52.349 | DEBUG    | Address 2 is correct in the delivery information: Apt. 265
+
+06:49:52.363 | DEBUG    | City is correct in the delivery information: East Michellebury Idaho 30238
+
+06:49:52.379 | DEBUG    | Country is correct in the delivery information: Israel
+
+06:49:52.394 | DEBUG    | Phone is correct in the delivery information: 001-455-233-0701x8480
+
+06:49:52.410 | DEBUG    | Name is correct in the billing information: Mrs. Sarah Taylor
+
+06:49:52.424 | DEBUG    | Company name is correct in the billing information: Davis Ltd
+
+06:49:52.438 | DEBUG    | Address 1 is correct in the billing information: 743 Jacqueline Light Suite 494
+
+06:49:52.452 | DEBUG    | Address 2 is correct in the billing information: Apt. 265
+
+06:49:52.466 | DEBUG    | City is correct in the billing information: East Michellebury Idaho 30238
+
+06:49:52.481 | DEBUG    | Country is correct in the billing information: Israel
+
+06:49:52.495 | DEBUG    | Phone is correct in the billing information: 001-455-233-0701x8480
+
+06:49:52.506 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+06:49:52.526 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+06:49:52.535 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+06:49:52.549 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+06:49:52.549 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+06:49:52.573 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+06:49:52.586 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+06:49:52.608 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+06:49:52.621 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+06:49:52.706 | DEBUG    | Comment filled in with: Big responsibility difficult daughter use game story. Mrs worry whom begin government before wife.
+
+06:49:53.113 | DEBUG    | Place order button clicked
+
+06:49:53.167 | DEBUG    | Name on card filled in with: ****
+
+06:49:53.217 | DEBUG    | Card number filled in with: ****0240
+
+06:49:55.222 | DEBUG    | Pay and confirm button clicked
+
+06:49:55.256 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+06:49:55.806 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+06:49:55.806 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+06:49:55.806 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+06:49:57.789 | DEBUG    | Continue button clicked

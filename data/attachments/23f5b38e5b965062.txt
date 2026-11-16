@@ -1,0 +1,165 @@
+06:54:15.741 | DEBUG    | New user Signup title is presented
+
+06:54:15.753 | DEBUG    | New user Signup title text is correct
+
+06:54:15.759 | DEBUG    | Signup email field is presented
+
+06:54:15.766 | DEBUG    | Signup name field is presented
+
+06:54:15.820 | DEBUG    | Email signup field filled
+
+06:54:15.856 | DEBUG    | Name signup field filled
+
+06:54:15.899 | DEBUG    | Signup button is clicked
+
+06:54:16.335 | DEBUG    | Account information title is presented
+
+06:54:16.344 | DEBUG    | Account information title text is correct
+
+06:54:16.369 | DEBUG    | Mr radiobutton is presented
+
+06:54:16.375 | DEBUG    | Mrs radiobutton is presented
+
+06:54:16.416 | DEBUG    | Selected MRS title
+
+06:54:16.423 | DEBUG    | Password field is presented
+
+06:54:16.457 | DEBUG    | Password is filled in
+
+06:54:16.468 | DEBUG    | Day of birth list is presented
+
+06:54:16.516 | DEBUG    | Day of birth selected
+
+06:54:16.522 | DEBUG    | Month of birth list is presented
+
+06:54:16.562 | DEBUG    | Month of birth selected
+
+06:54:16.569 | DEBUG    | Year of birth list is presented
+
+06:54:16.606 | DEBUG    | Year of birth selected
+
+06:54:16.606 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+06:54:16.606 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+06:54:16.613 | DEBUG    | First name field is presented
+
+06:54:16.648 | DEBUG    | First name is filled in
+
+06:54:16.655 | DEBUG    | Last name field is presented
+
+06:54:16.689 | DEBUG    | Last name is filled in
+
+06:54:16.696 | DEBUG    | Company field is presented
+
+06:54:16.742 | DEBUG    | Company is filled in
+
+06:54:16.749 | DEBUG    | Address 1 field is presented
+
+06:54:16.795 | DEBUG    | Address 1 is filled in
+
+06:54:16.802 | DEBUG    | Address 2 field is presented
+
+06:54:16.838 | DEBUG    | Address 2 is filled in
+
+06:54:16.888 | DEBUG    | State field is presented
+
+06:54:16.921 | DEBUG    | State is filled in
+
+06:54:16.930 | DEBUG    | City field is presented
+
+06:54:16.967 | DEBUG    | City is filled in
+
+06:54:16.973 | DEBUG    | Zipcode field is presented
+
+06:54:17.007 | DEBUG    | Zipcode is filled in
+
+06:54:17.016 | DEBUG    | Mobile number field is presented
+
+06:54:17.058 | DEBUG    | Mobile number is filled in
+
+06:54:19.848 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+06:54:19.869 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+06:54:19.870 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+06:54:19.876 | DEBUG    | Continue button is presented
+
+06:54:21.423 | DEBUG    | Username is correct Logged in as Janice
+
+06:54:25.760 | DEBUG    | Product Blue Top added, quantity 1
+
+06:54:27.147 | DEBUG    | Product Blue Top added, quantity 2
+
+06:54:28.066 | DEBUG    | Product Men Tshirt added, quantity 1
+
+06:54:29.586 | DEBUG    | Product Men Tshirt added, quantity 2
+
+06:54:31.414 | DEBUG    | Proceed to checkout button clicked
+
+06:54:31.431 | DEBUG    | Name is correct in the delivery information: Mrs. Janice Kim
+
+06:54:31.445 | DEBUG    | Company name is correct in the delivery information: Medina, Powell and Christensen
+
+06:54:31.459 | DEBUG    | Address 1 is correct in the delivery information: 829 Mora Roads Apt. 108
+
+06:54:31.472 | DEBUG    | Address 2 is correct in the delivery information: Suite 126
+
+06:54:31.487 | DEBUG    | City is correct in the delivery information: Courtneyburgh Maine 37015
+
+06:54:31.501 | DEBUG    | Country is correct in the delivery information: United States
+
+06:54:31.514 | DEBUG    | Phone is correct in the delivery information: 001-625-875-3017x799
+
+06:54:31.528 | DEBUG    | Name is correct in the billing information: Mrs. Janice Kim
+
+06:54:31.541 | DEBUG    | Company name is correct in the billing information: Medina, Powell and Christensen
+
+06:54:31.554 | DEBUG    | Address 1 is correct in the billing information: 829 Mora Roads Apt. 108
+
+06:54:31.567 | DEBUG    | Address 2 is correct in the billing information: Suite 126
+
+06:54:31.583 | DEBUG    | City is correct in the billing information: Courtneyburgh Maine 37015
+
+06:54:31.597 | DEBUG    | Country is correct in the billing information: United States
+
+06:54:31.610 | DEBUG    | Phone is correct in the billing information: 001-625-875-3017x799
+
+06:54:31.621 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+06:54:31.640 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+06:54:31.649 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+06:54:31.661 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+06:54:31.661 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+06:54:31.683 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+06:54:31.696 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+06:54:31.717 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+06:54:31.729 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+06:54:31.799 | DEBUG    | Comment filled in with: Enter sport behavior walk. She try quality we bank both money.
+
+06:54:32.697 | DEBUG    | Place order button clicked
+
+06:54:32.746 | DEBUG    | Name on card filled in with: ****
+
+06:54:32.793 | DEBUG    | Card number filled in with: ****6178
+
+06:54:34.622 | DEBUG    | Pay and confirm button clicked
+
+06:54:34.655 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+06:54:35.527 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+06:54:35.527 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+06:54:35.527 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+06:54:37.297 | DEBUG    | Continue button clicked

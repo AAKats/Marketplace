@@ -1,0 +1,13 @@
+06:53:47.548 | DEBUG    | New user Signup title is presented
+
+06:53:47.560 | DEBUG    | New user Signup title text is correct
+
+06:53:47.567 | DEBUG    | Signup email field is presented
+
+06:53:47.573 | DEBUG    | Signup name field is presented
+
+06:53:47.623 | DEBUG    | Email signup field filled
+
+06:53:47.660 | DEBUG    | Name signup field filled
+
+06:53:47.703 | DEBUG    | Signup button is clicked

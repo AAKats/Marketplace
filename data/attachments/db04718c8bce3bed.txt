@@ -1,0 +1,67 @@
+06:52:22.771 | DEBUG    | Email filled in
+
+06:52:22.811 | DEBUG    | Password filled in
+
+06:52:22.819 | DEBUG    | Login button is presented
+
+06:52:22.860 | DEBUG    | Login button is clicked
+
+06:52:28.088 | DEBUG    | Username is correct Logged in as Luke
+
+06:52:29.522 | DEBUG    | Product Blue Top added, quantity 1
+
+06:52:30.902 | DEBUG    | Product Blue Top added, quantity 2
+
+06:52:34.894 | DEBUG    | Product Blue Top added, quantity 3
+
+06:52:38.671 | DEBUG    | Proceed to checkout button clicked
+
+06:52:38.688 | DEBUG    | Name is correct in the delivery information: Mr. Luke Taylor
+
+06:52:38.702 | DEBUG    | Company name is correct in the delivery information: Sampson LLC
+
+06:52:38.717 | DEBUG    | Address 1 is correct in the delivery information: 170 Castro Spring
+
+06:52:38.731 | DEBUG    | Address 2 is correct in the delivery information: Suite 851
+
+06:52:38.745 | DEBUG    | City is correct in the delivery information: South Davidstad North Dakota 12100
+
+06:52:38.760 | DEBUG    | Country is correct in the delivery information: India
+
+06:52:38.775 | DEBUG    | Phone is correct in the delivery information: 344-612-4108
+
+06:52:38.789 | DEBUG    | Name is correct in the billing information: Mr. Luke Taylor
+
+06:52:38.803 | DEBUG    | Company name is correct in the billing information: Sampson LLC
+
+06:52:38.819 | DEBUG    | Address 1 is correct in the billing information: 170 Castro Spring
+
+06:52:38.834 | DEBUG    | Address 2 is correct in the billing information: Suite 851
+
+06:52:38.848 | DEBUG    | City is correct in the billing information: South Davidstad North Dakota 12100
+
+06:52:38.862 | DEBUG    | Country is correct in the billing information: India
+
+06:52:38.876 | DEBUG    | Phone is correct in the billing information: 344-612-4108
+
+06:52:38.888 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+06:52:38.910 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+06:52:38.918 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+06:52:38.942 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+06:52:38.963 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+06:52:39.036 | DEBUG    | Comment filled in with: Offer federal teacher add. Perform tree data quality final office.
+
+06:52:40.305 | DEBUG    | Place order button clicked
+
+06:52:40.358 | DEBUG    | Name on card filled in with: ****
+
+06:52:40.403 | DEBUG    | Card number filled in with: ****4374
+
+06:52:40.577 | DEBUG    | Pay and confirm button clicked
+
+06:52:43.944 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

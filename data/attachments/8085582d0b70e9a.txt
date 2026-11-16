@@ -1,0 +1,250 @@
+06:51:05.053 | DEBUG    | Product Blue Top added, quantity 1
+
+06:51:05.930 | DEBUG    | Product Blue Top added, quantity 2
+
+06:51:07.326 | DEBUG    | Product Men Tshirt added, quantity 1
+
+06:51:08.191 | DEBUG    | Product Men Tshirt added, quantity 2
+
+06:51:09.082 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+06:51:09.963 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+06:51:10.858 | DEBUG    | Product Stylish Dress added, quantity 1
+
+06:51:12.238 | DEBUG    | Product Stylish Dress added, quantity 2
+
+06:51:13.174 | DEBUG    | Product Winter Top added, quantity 1
+
+06:51:15.581 | DEBUG    | Product Winter Top added, quantity 2
+
+06:51:16.433 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:51:16.433 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:51:16.433 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:51:16.433 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:51:16.433 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:51:16.452 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+06:51:16.460 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+06:51:16.470 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+06:51:16.479 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+06:51:16.488 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+06:51:16.510 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+06:51:16.524 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+06:51:16.538 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+06:51:16.551 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+06:51:16.564 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+06:51:16.587 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+06:51:16.600 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+06:51:16.613 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+06:51:16.625 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+06:51:16.638 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+06:51:16.682 | DEBUG    | Proceed to checkout button clicked
+
+06:51:17.119 | DEBUG    | Register via modal button clicked
+
+06:51:17.132 | DEBUG    | New user Signup title is presented
+
+06:51:17.142 | DEBUG    | New user Signup title text is correct
+
+06:51:17.148 | DEBUG    | Signup email field is presented
+
+06:51:17.155 | DEBUG    | Signup name field is presented
+
+06:51:17.204 | DEBUG    | Email signup field filled
+
+06:51:17.238 | DEBUG    | Name signup field filled
+
+06:51:17.819 | DEBUG    | Signup button is clicked
+
+06:51:17.835 | DEBUG    | Account information title is presented
+
+06:51:17.844 | DEBUG    | Account information title text is correct
+
+06:51:17.872 | DEBUG    | Mr radiobutton is presented
+
+06:51:17.878 | DEBUG    | Mrs radiobutton is presented
+
+06:51:17.920 | DEBUG    | Selected MR title
+
+06:51:17.927 | DEBUG    | Password field is presented
+
+06:51:17.963 | DEBUG    | Password is filled in
+
+06:51:17.971 | DEBUG    | Day of birth list is presented
+
+06:51:18.021 | DEBUG    | Day of birth selected
+
+06:51:18.028 | DEBUG    | Month of birth list is presented
+
+06:51:18.071 | DEBUG    | Month of birth selected
+
+06:51:18.078 | DEBUG    | Year of birth list is presented
+
+06:51:18.123 | DEBUG    | Year of birth selected
+
+06:51:18.123 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+06:51:18.169 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+06:51:18.175 | DEBUG    | First name field is presented
+
+06:51:18.209 | DEBUG    | First name is filled in
+
+06:51:18.215 | DEBUG    | Last name field is presented
+
+06:51:18.252 | DEBUG    | Last name is filled in
+
+06:51:18.259 | DEBUG    | Company field is presented
+
+06:51:18.301 | DEBUG    | Company is filled in
+
+06:51:18.308 | DEBUG    | Address 1 field is presented
+
+06:51:18.355 | DEBUG    | Address 1 is filled in
+
+06:51:18.362 | DEBUG    | Address 2 field is presented
+
+06:51:18.398 | DEBUG    | Address 2 is filled in
+
+06:51:18.446 | DEBUG    | State field is presented
+
+06:51:18.482 | DEBUG    | State is filled in
+
+06:51:18.490 | DEBUG    | City field is presented
+
+06:51:18.531 | DEBUG    | City is filled in
+
+06:51:18.540 | DEBUG    | Zipcode field is presented
+
+06:51:18.575 | DEBUG    | Zipcode is filled in
+
+06:51:18.582 | DEBUG    | Mobile number field is presented
+
+06:51:18.624 | DEBUG    | Mobile number is filled in
+
+06:51:22.233 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+06:51:22.254 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+06:51:22.254 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+06:51:22.259 | DEBUG    | Continue button is presented
+
+06:51:25.215 | DEBUG    | Username is correct Logged in as Thomas
+
+06:51:29.379 | DEBUG    | Proceed to checkout button clicked
+
+06:51:29.396 | DEBUG    | Name is correct in the delivery information: Mr. Thomas Silva
+
+06:51:29.410 | DEBUG    | Company name is correct in the delivery information: Daugherty and Sons
+
+06:51:29.425 | DEBUG    | Address 1 is correct in the delivery information: 39126 Burns Oval Apt. 605
+
+06:51:29.440 | DEBUG    | Address 2 is correct in the delivery information: Suite 910
+
+06:51:29.455 | DEBUG    | City is correct in the delivery information: Sullivanhaven Michigan 93827
+
+06:51:29.469 | DEBUG    | Country is correct in the delivery information: Singapore
+
+06:51:29.482 | DEBUG    | Phone is correct in the delivery information: (890)857-1372x9324
+
+06:51:29.497 | DEBUG    | Name is correct in the billing information: Mr. Thomas Silva
+
+06:51:29.510 | DEBUG    | Company name is correct in the billing information: Daugherty and Sons
+
+06:51:29.524 | DEBUG    | Address 1 is correct in the billing information: 39126 Burns Oval Apt. 605
+
+06:51:29.538 | DEBUG    | Address 2 is correct in the billing information: Suite 910
+
+06:51:29.552 | DEBUG    | City is correct in the billing information: Sullivanhaven Michigan 93827
+
+06:51:29.566 | DEBUG    | Country is correct in the billing information: Singapore
+
+06:51:29.578 | DEBUG    | Phone is correct in the billing information: (890)857-1372x9324
+
+06:51:29.604 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:51:29.604 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:51:29.604 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:51:29.605 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:51:29.605 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:51:29.621 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+06:51:29.630 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+06:51:29.639 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+06:51:29.647 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+06:51:29.656 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+06:51:29.676 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+06:51:29.688 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+06:51:29.700 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+06:51:29.713 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+06:51:29.725 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+06:51:29.745 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+06:51:29.758 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+06:51:29.771 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+06:51:29.785 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+06:51:29.797 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+06:51:29.877 | DEBUG    | Comment filled in with: Evidence strong thing. Themselves forget buy specific.
+Imagine apply minute any.
+
+06:51:31.321 | DEBUG    | Place order button clicked
+
+06:51:31.370 | DEBUG    | Name on card filled in with: ****
+
+06:51:31.419 | DEBUG    | Card number filled in with: ****7866
+
+06:51:31.597 | DEBUG    | Pay and confirm button clicked
+
+06:51:36.282 | DEBUG    | Download invoice button clicked
+
+06:51:36.283 | DEBUG    | File downloaded: /home/runner/work/Marketplace/Marketplace/temp/.com.google.Chrome.o0JgEc
+
+06:51:36.283 | DEBUG    | Invoice content is valid
+
+06:51:37.168 | DEBUG    | Continue button clicked
+
+06:51:38.147 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+06:51:38.147 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+06:51:38.147 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+06:51:41.190 | DEBUG    | Continue button clicked

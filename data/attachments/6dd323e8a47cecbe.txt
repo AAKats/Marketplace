@@ -1,0 +1,39 @@
+06:51:45.080 | DEBUG    | Main title is presented
+
+06:51:45.107 | DEBUG    | Main title is correct: CONTACT US
+
+06:51:45.113 | DEBUG    | Second title is presented
+
+06:51:45.132 | DEBUG    | Second title is correct: GET IN TOUCH
+
+06:51:45.140 | DEBUG    | Name field is presented
+
+06:51:45.179 | DEBUG    | Name field filled in with: Brendan
+
+06:51:45.187 | DEBUG    | Email field is presented
+
+06:51:45.238 | DEBUG    | Email field filled in with: d51b9b6c_flemingjuan@example.org
+
+06:51:45.247 | DEBUG    | Subject field is presented
+
+06:51:45.285 | DEBUG    | Subject field filled in with: Long pass.
+
+06:51:45.293 | DEBUG    | Message field is presented
+
+06:51:45.377 | DEBUG    | Message field filled in with: Artist last real home. Either for food no book interest street. Stage keep carry task agree.
+
+06:51:45.384 | DEBUG    | Upload field is presented
+
+06:51:45.401 | DEBUG    | File uploaded
+
+06:51:45.407 | DEBUG    | Submit button is presented
+
+06:51:45.464 | DEBUG    | Alert is presented
+
+06:51:45.490 | DEBUG    | Success message is presented
+
+06:51:45.490 | DEBUG    | Success message is correct
+
+06:51:45.496 | DEBUG    | Home button is presented
+
+06:51:47.701 | DEBUG    | Home button is clicked

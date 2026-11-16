@@ -1,0 +1,75 @@
+06:54:42.520 | DEBUG    | New user details:
+
+06:54:42.520 | DEBUG    |   name: Paul
+
+06:54:42.520 | DEBUG    |   email: fc33422d_trangary@example.net
+
+06:54:42.520 | DEBUG    |   title: Mr
+
+06:54:42.520 | DEBUG    |   birth_day: 20
+
+06:54:42.520 | DEBUG    |   birth_month: 12
+
+06:54:42.520 | DEBUG    |   birth_year: 1924
+
+06:54:42.520 | DEBUG    |   firstname: Paul
+
+06:54:42.520 | DEBUG    |   lastname: Wilson
+
+06:54:42.520 | DEBUG    |   company: Jackson and Sons
+
+06:54:42.520 | DEBUG    |   address1: 44384 Jeremy Manors Suite 541
+
+06:54:42.520 | DEBUG    |   address2: Suite 245
+
+06:54:42.520 | DEBUG    |   country: New Zealand
+
+06:54:42.520 | DEBUG    |   state: Tennessee
+
+06:54:42.520 | DEBUG    |   city: Russellberg
+
+06:54:42.520 | DEBUG    |   zipcode: 09539
+
+06:54:43.482 | DEBUG    | Status code correct: 200
+
+06:54:43.483 | DEBUG    | ResponseCode correct: 201
+
+06:54:43.483 | DEBUG    | Response message correct: "User created!"
+
+06:54:43.483 | DEBUG    | Updated user details:
+
+06:54:43.483 | DEBUG    |   name: Paul
+
+06:54:43.483 | DEBUG    |   email: fc33422d_trangary@example.net
+
+06:54:43.483 | DEBUG    |   title: Mr
+
+06:54:43.483 | DEBUG    |   birth_day: 20
+
+06:54:43.483 | DEBUG    |   birth_month: 12
+
+06:54:43.483 | DEBUG    |   birth_year: 1924
+
+06:54:43.483 | DEBUG    |   firstname: Paul
+
+06:54:43.483 | DEBUG    |   lastname: Wilson
+
+06:54:43.483 | DEBUG    |   company: Jackson and Sons
+
+06:54:43.483 | DEBUG    |   address1: 44384 Jeremy Manors Suite 541
+
+06:54:43.483 | DEBUG    |   address2: Suite 245
+
+06:54:43.483 | DEBUG    |   country: New Zealand
+
+06:54:43.483 | DEBUG    |   state: Tennessee
+
+06:54:43.483 | DEBUG    |   city: Russellberg
+
+06:54:43.483 | DEBUG    |   zipcode: 09539
+
+06:54:44.577 | DEBUG    | Status code correct: 200
+
+06:54:44.577 | DEBUG    | ResponseCode correct: 200
+
+06:54:44.577 | DEBUG    | Response message correct: "User updated!"
