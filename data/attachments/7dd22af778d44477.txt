@@ -1,0 +1,165 @@
+15:29:00.847 | DEBUG    | New user Signup title is presented
+
+15:29:00.857 | DEBUG    | New user Signup title text is correct
+
+15:29:00.861 | DEBUG    | Signup email field is presented
+
+15:29:00.866 | DEBUG    | Signup name field is presented
+
+15:29:00.902 | DEBUG    | Email signup field filled
+
+15:29:00.927 | DEBUG    | Name signup field filled
+
+15:29:00.959 | DEBUG    | Signup button is clicked
+
+15:29:01.131 | DEBUG    | Account information title is presented
+
+15:29:01.138 | DEBUG    | Account information title text is correct
+
+15:29:01.158 | DEBUG    | Mr radiobutton is presented
+
+15:29:01.162 | DEBUG    | Mrs radiobutton is presented
+
+15:29:01.193 | DEBUG    | Selected MRS title
+
+15:29:01.197 | DEBUG    | Password field is presented
+
+15:29:01.227 | DEBUG    | Password is filled in
+
+15:29:01.234 | DEBUG    | Day of birth list is presented
+
+15:29:01.269 | DEBUG    | Day of birth selected
+
+15:29:01.274 | DEBUG    | Month of birth list is presented
+
+15:29:01.303 | DEBUG    | Month of birth selected
+
+15:29:01.309 | DEBUG    | Year of birth list is presented
+
+15:29:01.338 | DEBUG    | Year of birth selected
+
+15:29:01.372 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+15:29:01.404 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+15:29:01.409 | DEBUG    | First name field is presented
+
+15:29:01.433 | DEBUG    | First name is filled in
+
+15:29:01.439 | DEBUG    | Last name field is presented
+
+15:29:01.463 | DEBUG    | Last name is filled in
+
+15:29:01.469 | DEBUG    | Company field is presented
+
+15:29:01.497 | DEBUG    | Company is filled in
+
+15:29:01.503 | DEBUG    | Address 1 field is presented
+
+15:29:01.532 | DEBUG    | Address 1 is filled in
+
+15:29:01.539 | DEBUG    | Address 2 field is presented
+
+15:29:01.565 | DEBUG    | Address 2 is filled in
+
+15:29:01.603 | DEBUG    | State field is presented
+
+15:29:01.630 | DEBUG    | State is filled in
+
+15:29:01.636 | DEBUG    | City field is presented
+
+15:29:01.662 | DEBUG    | City is filled in
+
+15:29:01.668 | DEBUG    | Zipcode field is presented
+
+15:29:01.692 | DEBUG    | Zipcode is filled in
+
+15:29:01.697 | DEBUG    | Mobile number field is presented
+
+15:29:01.728 | DEBUG    | Mobile number is filled in
+
+15:29:05.141 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+15:29:05.157 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+15:29:05.157 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+15:29:05.161 | DEBUG    | Continue button is presented
+
+15:29:06.201 | DEBUG    | Username is correct Logged in as Tammy
+
+15:29:09.871 | DEBUG    | Product Blue Top added, quantity 1
+
+15:29:10.714 | DEBUG    | Product Blue Top added, quantity 2
+
+15:29:11.571 | DEBUG    | Product Men Tshirt added, quantity 1
+
+15:29:13.277 | DEBUG    | Product Men Tshirt added, quantity 2
+
+15:29:14.781 | DEBUG    | Proceed to checkout button clicked
+
+15:29:14.794 | DEBUG    | Name is correct in the delivery information: Mrs. Tammy Long
+
+15:29:14.805 | DEBUG    | Company name is correct in the delivery information: Sanchez-Jones
+
+15:29:14.816 | DEBUG    | Address 1 is correct in the delivery information: 4561 Nicole Shoal
+
+15:29:14.826 | DEBUG    | Address 2 is correct in the delivery information: Suite 659
+
+15:29:14.836 | DEBUG    | City is correct in the delivery information: Lake Kelli West Virginia 32196
+
+15:29:14.846 | DEBUG    | Country is correct in the delivery information: Australia
+
+15:29:14.856 | DEBUG    | Phone is correct in the delivery information: +1-595-352-0358x42043
+
+15:29:14.867 | DEBUG    | Name is correct in the billing information: Mrs. Tammy Long
+
+15:29:14.876 | DEBUG    | Company name is correct in the billing information: Sanchez-Jones
+
+15:29:14.887 | DEBUG    | Address 1 is correct in the billing information: 4561 Nicole Shoal
+
+15:29:14.899 | DEBUG    | Address 2 is correct in the billing information: Suite 659
+
+15:29:14.909 | DEBUG    | City is correct in the billing information: Lake Kelli West Virginia 32196
+
+15:29:14.919 | DEBUG    | Country is correct in the billing information: Australia
+
+15:29:14.929 | DEBUG    | Phone is correct in the billing information: +1-595-352-0358x42043
+
+15:29:14.937 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+15:29:14.952 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+15:29:14.958 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+15:29:14.967 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+15:29:14.967 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+15:29:14.984 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+15:29:14.993 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+15:29:15.010 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+15:29:15.019 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+15:29:15.067 | DEBUG    | Comment filled in with: Create present term develop firm under car.
+
+15:29:15.227 | DEBUG    | Place order button clicked
+
+15:29:15.262 | DEBUG    | Name on card filled in with: ****
+
+15:29:15.295 | DEBUG    | Card number filled in with: ****9106
+
+15:29:15.429 | DEBUG    | Pay and confirm button clicked
+
+15:29:16.748 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+15:29:16.933 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+15:29:16.933 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+15:29:16.933 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+15:29:17.878 | DEBUG    | Continue button clicked

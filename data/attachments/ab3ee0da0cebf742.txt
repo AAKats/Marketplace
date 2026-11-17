@@ -1,0 +1,39 @@
+15:27:20.190 | DEBUG    | Main title is presented
+
+15:27:20.207 | DEBUG    | Main title is correct: CONTACT US
+
+15:27:20.212 | DEBUG    | Second title is presented
+
+15:27:20.224 | DEBUG    | Second title is correct: GET IN TOUCH
+
+15:27:20.230 | DEBUG    | Name field is presented
+
+15:27:20.261 | DEBUG    | Name field filled in with: Jacqueline
+
+15:27:20.266 | DEBUG    | Email field is presented
+
+15:27:20.301 | DEBUG    | Email field filled in with: 17ae29dc_andre63@example.com
+
+15:27:20.308 | DEBUG    | Subject field is presented
+
+15:27:20.332 | DEBUG    | Subject field filled in with: Garden.
+
+15:27:20.339 | DEBUG    | Message field is presented
+
+15:27:20.391 | DEBUG    | Message field filled in with: Recent choose with year mind however suggest. Behavior most real respond plan.
+
+15:27:20.397 | DEBUG    | Upload field is presented
+
+15:27:20.409 | DEBUG    | File uploaded
+
+15:27:20.414 | DEBUG    | Submit button is presented
+
+15:27:20.508 | DEBUG    | Alert is presented
+
+15:27:20.529 | DEBUG    | Success message is presented
+
+15:27:20.529 | DEBUG    | Success message is correct
+
+15:27:20.533 | DEBUG    | Home button is presented
+
+15:27:21.401 | DEBUG    | Home button is clicked

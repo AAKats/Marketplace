@@ -1,0 +1,37 @@
+15:29:20.883 | DEBUG    | New user details:
+
+15:29:20.883 | DEBUG    |   name: Steven
+
+15:29:20.883 | DEBUG    |   email: a48f5bdb_bruce89@example.net
+
+15:29:20.883 | DEBUG    |   title: Mrs
+
+15:29:20.883 | DEBUG    |   birth_day: 10
+
+15:29:20.883 | DEBUG    |   birth_month: 4
+
+15:29:20.883 | DEBUG    |   birth_year: 1935
+
+15:29:20.883 | DEBUG    |   firstname: Steven
+
+15:29:20.883 | DEBUG    |   lastname: Smith
+
+15:29:20.883 | DEBUG    |   company: Manning, Porter and Fowler
+
+15:29:20.883 | DEBUG    |   address1: 15772 Gibson Views
+
+15:29:20.883 | DEBUG    |   address2: Suite 274
+
+15:29:20.883 | DEBUG    |   country: Singapore
+
+15:29:20.883 | DEBUG    |   state: Vermont
+
+15:29:20.883 | DEBUG    |   city: Howardville
+
+15:29:20.883 | DEBUG    |   zipcode: 53423
+
+15:29:21.824 | DEBUG    | Status code correct: 200
+
+15:29:21.824 | DEBUG    | ResponseCode correct: 201
+
+15:29:21.824 | DEBUG    | Response message correct: "User created!"

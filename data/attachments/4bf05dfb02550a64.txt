@@ -1,0 +1,79 @@
+15:28:41.107 | DEBUG    | New user Signup title is presented
+
+15:28:41.115 | DEBUG    | New user Signup title text is correct
+
+15:28:41.120 | DEBUG    | Signup email field is presented
+
+15:28:41.124 | DEBUG    | Signup name field is presented
+
+15:28:41.160 | DEBUG    | Email signup field filled
+
+15:28:41.186 | DEBUG    | Name signup field filled
+
+15:28:42.306 | DEBUG    | Signup button is clicked
+
+15:28:42.319 | DEBUG    | Account information title is presented
+
+15:28:42.326 | DEBUG    | Account information title text is correct
+
+15:28:42.346 | DEBUG    | Mr radiobutton is presented
+
+15:28:42.350 | DEBUG    | Mrs radiobutton is presented
+
+15:28:42.381 | DEBUG    | Selected MRS title
+
+15:28:42.386 | DEBUG    | Password field is presented
+
+15:28:42.412 | DEBUG    | Password is filled in
+
+15:28:42.419 | DEBUG    | Day of birth list is presented
+
+15:28:42.456 | DEBUG    | Day of birth selected
+
+15:28:42.461 | DEBUG    | Month of birth list is presented
+
+15:28:42.490 | DEBUG    | Month of birth selected
+
+15:28:42.495 | DEBUG    | Year of birth list is presented
+
+15:28:42.525 | DEBUG    | Year of birth selected
+
+15:28:42.557 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+15:28:42.557 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+15:28:42.562 | DEBUG    | First name field is presented
+
+15:28:42.587 | DEBUG    | First name is filled in
+
+15:28:42.592 | DEBUG    | Last name field is presented
+
+15:28:42.620 | DEBUG    | Last name is filled in
+
+15:28:42.625 | DEBUG    | Company field is presented
+
+15:28:42.657 | DEBUG    | Company is filled in
+
+15:28:42.662 | DEBUG    | Address 1 field is presented
+
+15:28:42.695 | DEBUG    | Address 1 is filled in
+
+15:28:42.701 | DEBUG    | Address 2 field is presented
+
+15:28:42.726 | DEBUG    | Address 2 is filled in
+
+15:28:42.762 | DEBUG    | State field is presented
+
+15:28:42.788 | DEBUG    | State is filled in
+
+15:28:42.793 | DEBUG    | City field is presented
+
+15:28:42.820 | DEBUG    | City is filled in
+
+15:28:42.825 | DEBUG    | Zipcode field is presented
+
+15:28:42.849 | DEBUG    | Zipcode is filled in
+
+15:28:42.855 | DEBUG    | Mobile number field is presented
+
+15:28:42.885 | DEBUG    | Mobile number is filled in
