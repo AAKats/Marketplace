@@ -1,0 +1,39 @@
+15:01:09.162 | DEBUG    | Main title is presented
+
+15:01:09.182 | DEBUG    | Main title is correct: CONTACT US
+
+15:01:09.187 | DEBUG    | Second title is presented
+
+15:01:09.201 | DEBUG    | Second title is correct: GET IN TOUCH
+
+15:01:09.208 | DEBUG    | Name field is presented
+
+15:01:09.240 | DEBUG    | Name field filled in with: Heather
+
+15:01:09.245 | DEBUG    | Email field is presented
+
+15:01:09.284 | DEBUG    | Email field filled in with: 335cee45_gentryderek@example.net
+
+15:01:09.291 | DEBUG    | Subject field is presented
+
+15:01:09.318 | DEBUG    | Subject field filled in with: Message.
+
+15:01:09.325 | DEBUG    | Message field is presented
+
+15:01:09.381 | DEBUG    | Message field filled in with: Help least write consider stage list magazine. Collection why us camera century.
+
+15:01:09.388 | DEBUG    | Upload field is presented
+
+15:01:09.411 | DEBUG    | File uploaded
+
+15:01:09.417 | DEBUG    | Submit button is presented
+
+15:01:09.471 | DEBUG    | Alert is presented
+
+15:01:09.500 | DEBUG    | Success message is presented
+
+15:01:09.500 | DEBUG    | Success message is correct
+
+15:01:09.505 | DEBUG    | Home button is presented
+
+15:01:10.457 | DEBUG    | Home button is clicked

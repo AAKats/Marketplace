@@ -1,0 +1,17 @@
+15:02:06.071 | DEBUG    | Scrolled to recommended items
+
+15:02:06.106 | DEBUG    | Recommended items title is correct: "RECOMMENDED ITEMS"
+
+15:02:06.770 | DEBUG    | Switched to next recommended items slide
+
+15:02:06.891 | DEBUG    | Found 6 recommended products
+
+15:02:06.923 | DEBUG    | Recommended product "Blue Top" added to cart, quantity 1
+
+15:02:07.893 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+15:02:07.902 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+15:02:07.916 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+15:02:07.934 | DEBUG    | Product Blue Top quantity in cart: 1 matches added quantity: 1

@@ -1,0 +1,43 @@
+15:02:33.533 | DEBUG    | New user details:
+
+15:02:33.533 | DEBUG    |   name: Juan
+
+15:02:33.534 | DEBUG    |   email: 1809e976_justinturner@example.com
+
+15:02:33.534 | DEBUG    |   title: Mrs
+
+15:02:33.534 | DEBUG    |   birth_day: 13
+
+15:02:33.534 | DEBUG    |   birth_month: 3
+
+15:02:33.534 | DEBUG    |   birth_year: 1913
+
+15:02:33.534 | DEBUG    |   firstname: Juan
+
+15:02:33.534 | DEBUG    |   lastname: Rogers
+
+15:02:33.534 | DEBUG    |   company: Levy, Hudson and Cline
+
+15:02:33.534 | DEBUG    |   address1: 6095 Parsons Branch
+
+15:02:33.534 | DEBUG    |   address2: Suite 355
+
+15:02:33.534 | DEBUG    |   country: New Zealand
+
+15:02:33.534 | DEBUG    |   state: Massachusetts
+
+15:02:33.534 | DEBUG    |   city: South Christina
+
+15:02:33.534 | DEBUG    |   zipcode: 06244
+
+15:02:33.979 | DEBUG    | Status code correct: 200
+
+15:02:33.979 | DEBUG    | ResponseCode correct: 201
+
+15:02:33.979 | DEBUG    | Response message correct: "User created!"
+
+15:02:34.262 | DEBUG    | Status code correct: 200
+
+15:02:34.262 | DEBUG    | ResponseCode correct: 200
+
+15:02:34.262 | DEBUG    | Response message correct: "Account deleted!"

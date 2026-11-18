@@ -1,0 +1,75 @@
+15:02:34.269 | DEBUG    | New user details:
+
+15:02:34.269 | DEBUG    |   name: Dylan
+
+15:02:34.269 | DEBUG    |   email: 8072000c_cassidypierce@example.net
+
+15:02:34.269 | DEBUG    |   title: Mr
+
+15:02:34.269 | DEBUG    |   birth_day: 8
+
+15:02:34.269 | DEBUG    |   birth_month: 8
+
+15:02:34.269 | DEBUG    |   birth_year: 1972
+
+15:02:34.269 | DEBUG    |   firstname: Dylan
+
+15:02:34.269 | DEBUG    |   lastname: Estrada
+
+15:02:34.269 | DEBUG    |   company: Huber Ltd
+
+15:02:34.269 | DEBUG    |   address1: 9549 John Summit
+
+15:02:34.269 | DEBUG    |   address2: Suite 447
+
+15:02:34.269 | DEBUG    |   country: India
+
+15:02:34.269 | DEBUG    |   state: Utah
+
+15:02:34.269 | DEBUG    |   city: Masonstad
+
+15:02:34.269 | DEBUG    |   zipcode: 32235
+
+15:02:34.394 | DEBUG    | Status code correct: 200
+
+15:02:34.394 | DEBUG    | ResponseCode correct: 201
+
+15:02:34.395 | DEBUG    | Response message correct: "User created!"
+
+15:02:34.395 | DEBUG    | Updated user details:
+
+15:02:34.395 | DEBUG    |   name: Dylan
+
+15:02:34.395 | DEBUG    |   email: 8072000c_cassidypierce@example.net
+
+15:02:34.395 | DEBUG    |   title: Mr
+
+15:02:34.395 | DEBUG    |   birth_day: 8
+
+15:02:34.395 | DEBUG    |   birth_month: 8
+
+15:02:34.395 | DEBUG    |   birth_year: 1972
+
+15:02:34.395 | DEBUG    |   firstname: Dylan
+
+15:02:34.395 | DEBUG    |   lastname: Estrada
+
+15:02:34.395 | DEBUG    |   company: Huber Ltd
+
+15:02:34.395 | DEBUG    |   address1: 9549 John Summit
+
+15:02:34.395 | DEBUG    |   address2: Suite 447
+
+15:02:34.395 | DEBUG    |   country: India
+
+15:02:34.395 | DEBUG    |   state: Utah
+
+15:02:34.395 | DEBUG    |   city: Masonstad
+
+15:02:34.396 | DEBUG    |   zipcode: 32235
+
+15:02:34.526 | DEBUG    | Status code correct: 200
+
+15:02:34.527 | DEBUG    | ResponseCode correct: 200
+
+15:02:34.527 | DEBUG    | Response message correct: "User updated!"

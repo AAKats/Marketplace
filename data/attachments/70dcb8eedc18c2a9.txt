@@ -1,0 +1,49 @@
+14:59:45.703 | DEBUG    | Search field is presented
+
+14:59:45.747 | DEBUG    | Search field is filled in with: "Beautiful Peacock Blue Cotton Linen Saree"
+
+14:59:45.754 | DEBUG    | Search button is presented
+
+14:59:46.032 | DEBUG    | Search button is clicked
+
+14:59:46.048 | DEBUG    | Title is presented
+
+14:59:46.048 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+14:59:46.053 | DEBUG    | 1 products found
+
+14:59:46.057 | DEBUG    | "Beautiful Peacock Blue Cotton Linen Saree" product found, and contains "Beautiful Peacock Blue Cotton Linen Saree"
+
+14:59:47.316 | DEBUG    | Product Beautiful Peacock Blue Cotton Linen Saree added, quantity 1
+
+14:59:47.601 | DEBUG    | Product: Beautiful Peacock Blue Cotton Linen Saree found in cart: Beautiful Peacock Blue Cotton Linen Saree
+
+14:59:47.619 | DEBUG    | Product Beautiful Peacock Blue Cotton Linen Saree price in cart: 5000 matches added price: 5000
+
+14:59:47.639 | DEBUG    | Product Beautiful Peacock Blue Cotton Linen Saree quantity in cart: 1 matches added quantity: 1
+
+14:59:47.656 | DEBUG    | Product Beautiful Peacock Blue Cotton Linen Saree total in cart: 5000 matches expected total: 5000
+
+14:59:47.805 | DEBUG    | Login email field is presented
+
+14:59:47.810 | DEBUG    | Password field is presented
+
+14:59:47.844 | DEBUG    | Email filled in
+
+14:59:47.873 | DEBUG    | Password filled in
+
+14:59:47.879 | DEBUG    | Login button is presented
+
+14:59:51.084 | DEBUG    | Login button is clicked
+
+14:59:51.826 | DEBUG    | Product: Beautiful Peacock Blue Cotton Linen Saree found in cart: Beautiful Peacock Blue Cotton Linen Saree
+
+14:59:51.842 | DEBUG    | Product Beautiful Peacock Blue Cotton Linen Saree price in cart: 5000 matches added price: 5000
+
+14:59:51.858 | DEBUG    | Product Beautiful Peacock Blue Cotton Linen Saree quantity in cart: 1 matches added quantity: 1
+
+14:59:51.873 | DEBUG    | Product Beautiful Peacock Blue Cotton Linen Saree total in cart: 5000 matches expected total: 5000
+
+14:59:56.479 | DEBUG    | All products deleted
+
+14:59:56.489 | DEBUG    | Empty cart text correct: Cart is empty!

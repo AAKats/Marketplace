@@ -1,0 +1,11 @@
+15:01:49.523 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+15:01:49.569 | DEBUG    | Review name field filled in with "Stephanie Rogers"
+
+15:01:49.613 | DEBUG    | Review email field filled in with "897826ca_angelaclark@example.org"
+
+15:01:49.679 | DEBUG    | Review message field filled in with "Knowledge read than call. Coach maintain move just method. More win step near yeah."
+
+15:01:49.719 | DEBUG    | Submit review button clicked
+
+15:01:49.739 | DEBUG    | Success review message is displayed
