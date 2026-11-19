@@ -1,0 +1,17 @@
+15:09:03.183 | DEBUG    | Login title is presented
+
+15:09:03.195 | DEBUG    | Login title text is correct
+
+15:09:03.203 | DEBUG    | Login email field is presented
+
+15:09:03.209 | DEBUG    | Password field is presented
+
+15:09:03.258 | DEBUG    | Email filled in
+
+15:09:03.295 | DEBUG    | Password filled in
+
+15:09:03.302 | DEBUG    | Login button is presented
+
+15:09:03.341 | DEBUG    | Login button is clicked
+
+15:09:06.605 | DEBUG    | Username is correct Logged in as Eric
