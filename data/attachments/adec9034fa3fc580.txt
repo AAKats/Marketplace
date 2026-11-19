@@ -1,0 +1,143 @@
+15:57:41.948 | DEBUG    | Product Blue Top added, quantity 1
+
+15:57:43.322 | DEBUG    | Product Blue Top added, quantity 2
+
+15:57:45.213 | DEBUG    | Product Men Tshirt added, quantity 1
+
+15:57:47.098 | DEBUG    | Product Men Tshirt added, quantity 2
+
+15:57:48.488 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+15:57:49.877 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+15:57:51.281 | DEBUG    | Product Stylish Dress added, quantity 1
+
+15:57:52.659 | DEBUG    | Product Stylish Dress added, quantity 2
+
+15:57:54.052 | DEBUG    | Product Winter Top added, quantity 1
+
+15:57:55.990 | DEBUG    | Product Winter Top added, quantity 2
+
+15:57:56.602 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+15:57:56.602 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+15:57:56.603 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+15:57:56.603 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+15:57:56.603 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+15:57:56.620 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+15:57:56.628 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+15:57:56.635 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+15:57:56.643 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+15:57:56.651 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+15:57:56.672 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+15:57:56.684 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+15:57:56.697 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+15:57:56.709 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+15:57:56.720 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+15:57:56.742 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+15:57:56.754 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+15:57:56.766 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+15:57:56.778 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+15:57:56.791 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+15:57:56.833 | DEBUG    | Proceed to checkout button clicked
+
+15:57:57.396 | DEBUG    | Register via modal button clicked
+
+15:57:57.408 | DEBUG    | New user Signup title is presented
+
+15:57:57.417 | DEBUG    | New user Signup title text is correct
+
+15:57:57.422 | DEBUG    | Signup email field is presented
+
+15:57:57.427 | DEBUG    | Signup name field is presented
+
+15:57:57.475 | DEBUG    | Email signup field filled
+
+15:57:57.508 | DEBUG    | Name signup field filled
+
+15:57:57.703 | DEBUG    | Signup button is clicked
+
+15:57:57.718 | DEBUG    | Account information title is presented
+
+15:57:57.726 | DEBUG    | Account information title text is correct
+
+15:57:57.751 | DEBUG    | Mr radiobutton is presented
+
+15:57:57.757 | DEBUG    | Mrs radiobutton is presented
+
+15:57:57.796 | DEBUG    | Selected MR title
+
+15:57:57.802 | DEBUG    | Password field is presented
+
+15:57:57.834 | DEBUG    | Password is filled in
+
+15:57:57.842 | DEBUG    | Day of birth list is presented
+
+15:57:57.892 | DEBUG    | Day of birth selected
+
+15:57:57.898 | DEBUG    | Month of birth list is presented
+
+15:57:57.934 | DEBUG    | Month of birth selected
+
+15:57:57.942 | DEBUG    | Year of birth list is presented
+
+15:57:57.977 | DEBUG    | Year of birth selected
+
+15:57:58.019 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+15:57:58.019 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+15:57:58.025 | DEBUG    | First name field is presented
+
+15:57:58.060 | DEBUG    | First name is filled in
+
+15:57:58.066 | DEBUG    | Last name field is presented
+
+15:57:58.102 | DEBUG    | Last name is filled in
+
+15:57:58.109 | DEBUG    | Company field is presented
+
+15:57:58.146 | DEBUG    | Company is filled in
+
+15:57:58.152 | DEBUG    | Address 1 field is presented
+
+15:57:58.193 | DEBUG    | Address 1 is filled in
+
+15:57:58.200 | DEBUG    | Address 2 field is presented
+
+15:57:58.233 | DEBUG    | Address 2 is filled in
+
+15:57:58.282 | DEBUG    | State field is presented
+
+15:57:58.317 | DEBUG    | State is filled in
+
+15:57:58.324 | DEBUG    | City field is presented
+
+15:57:58.361 | DEBUG    | City is filled in
+
+15:57:58.368 | DEBUG    | Zipcode field is presented
+
+15:57:58.400 | DEBUG    | Zipcode is filled in
+
+15:57:58.407 | DEBUG    | Mobile number field is presented
+
+15:57:58.443 | DEBUG    | Mobile number is filled in

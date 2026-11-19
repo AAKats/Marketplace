@@ -1,0 +1,39 @@
+15:58:27.439 | DEBUG    | Main title is presented
+
+15:58:27.460 | DEBUG    | Main title is correct: CONTACT US
+
+15:58:27.466 | DEBUG    | Second title is presented
+
+15:58:27.482 | DEBUG    | Second title is correct: GET IN TOUCH
+
+15:58:27.489 | DEBUG    | Name field is presented
+
+15:58:27.526 | DEBUG    | Name field filled in with: John
+
+15:58:27.533 | DEBUG    | Email field is presented
+
+15:58:27.578 | DEBUG    | Email field filled in with: 7d9de902_john32@example.org
+
+15:58:27.586 | DEBUG    | Subject field is presented
+
+15:58:27.619 | DEBUG    | Subject field filled in with: Small.
+
+15:58:27.627 | DEBUG    | Message field is presented
+
+15:58:27.706 | DEBUG    | Message field filled in with: Over product allow himself many themselves expect. Son probably chance cultural even everyone.
+
+15:58:27.712 | DEBUG    | Upload field is presented
+
+15:58:27.729 | DEBUG    | File uploaded
+
+15:58:27.735 | DEBUG    | Submit button is presented
+
+15:58:27.930 | DEBUG    | Alert is presented
+
+15:58:27.956 | DEBUG    | Success message is presented
+
+15:58:27.956 | DEBUG    | Success message is correct
+
+15:58:27.961 | DEBUG    | Home button is presented
+
+15:58:32.601 | DEBUG    | Home button is clicked

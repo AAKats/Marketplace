@@ -1,0 +1,67 @@
+15:59:13.960 | DEBUG    | Email filled in
+
+15:59:13.997 | DEBUG    | Password filled in
+
+15:59:14.004 | DEBUG    | Login button is presented
+
+15:59:14.041 | DEBUG    | Login button is clicked
+
+15:59:17.983 | DEBUG    | Username is correct Logged in as Alan
+
+15:59:19.414 | DEBUG    | Product Blue Top added, quantity 1
+
+15:59:20.290 | DEBUG    | Product Blue Top added, quantity 2
+
+15:59:23.171 | DEBUG    | Product Blue Top added, quantity 3
+
+15:59:25.765 | DEBUG    | Proceed to checkout button clicked
+
+15:59:25.781 | DEBUG    | Name is correct in the delivery information: Mr. Alan Salinas
+
+15:59:25.794 | DEBUG    | Company name is correct in the delivery information: Gilbert, Wood and Johnson
+
+15:59:25.806 | DEBUG    | Address 1 is correct in the delivery information: 72475 Ronald Crossroad
+
+15:59:25.819 | DEBUG    | Address 2 is correct in the delivery information: Apt. 043
+
+15:59:25.831 | DEBUG    | City is correct in the delivery information: Johnport Alaska 10133
+
+15:59:25.845 | DEBUG    | Country is correct in the delivery information: Israel
+
+15:59:25.857 | DEBUG    | Phone is correct in the delivery information: +1-350-969-5116x237
+
+15:59:25.870 | DEBUG    | Name is correct in the billing information: Mr. Alan Salinas
+
+15:59:25.882 | DEBUG    | Company name is correct in the billing information: Gilbert, Wood and Johnson
+
+15:59:25.894 | DEBUG    | Address 1 is correct in the billing information: 72475 Ronald Crossroad
+
+15:59:25.907 | DEBUG    | Address 2 is correct in the billing information: Apt. 043
+
+15:59:25.920 | DEBUG    | City is correct in the billing information: Johnport Alaska 10133
+
+15:59:25.932 | DEBUG    | Country is correct in the billing information: Israel
+
+15:59:25.945 | DEBUG    | Phone is correct in the billing information: +1-350-969-5116x237
+
+15:59:25.954 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+15:59:25.973 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+15:59:25.981 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+15:59:26.001 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+15:59:26.022 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+15:59:26.087 | DEBUG    | Comment filled in with: Gun include factor answer idea. Education bad explain western.
+
+15:59:26.400 | DEBUG    | Place order button clicked
+
+15:59:26.449 | DEBUG    | Name on card filled in with: ****
+
+15:59:26.493 | DEBUG    | Card number filled in with: ****0457
+
+15:59:26.779 | DEBUG    | Pay and confirm button clicked
+
+15:59:28.720 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

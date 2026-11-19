@@ -1,0 +1,87 @@
+16:01:11.718 | DEBUG    | New user Signup title is presented
+
+16:01:11.729 | DEBUG    | New user Signup title text is correct
+
+16:01:11.735 | DEBUG    | Signup email field is presented
+
+16:01:11.741 | DEBUG    | Signup name field is presented
+
+16:01:11.790 | DEBUG    | Email signup field filled
+
+16:01:11.824 | DEBUG    | Name signup field filled
+
+16:01:13.402 | DEBUG    | Signup button is clicked
+
+16:01:13.417 | DEBUG    | Account information title is presented
+
+16:01:13.425 | DEBUG    | Account information title text is correct
+
+16:01:13.450 | DEBUG    | Mr radiobutton is presented
+
+16:01:13.456 | DEBUG    | Mrs radiobutton is presented
+
+16:01:13.495 | DEBUG    | Selected MR title
+
+16:01:13.501 | DEBUG    | Password field is presented
+
+16:01:13.540 | DEBUG    | Password is filled in
+
+16:01:13.546 | DEBUG    | Day of birth list is presented
+
+16:01:13.592 | DEBUG    | Day of birth selected
+
+16:01:13.600 | DEBUG    | Month of birth list is presented
+
+16:01:13.638 | DEBUG    | Month of birth selected
+
+16:01:13.644 | DEBUG    | Year of birth list is presented
+
+16:01:13.683 | DEBUG    | Year of birth selected
+
+16:01:13.723 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+16:01:13.723 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+16:01:13.729 | DEBUG    | First name field is presented
+
+16:01:13.763 | DEBUG    | First name is filled in
+
+16:01:13.771 | DEBUG    | Last name field is presented
+
+16:01:13.805 | DEBUG    | Last name is filled in
+
+16:01:13.811 | DEBUG    | Company field is presented
+
+16:01:13.857 | DEBUG    | Company is filled in
+
+16:01:13.863 | DEBUG    | Address 1 field is presented
+
+16:01:13.907 | DEBUG    | Address 1 is filled in
+
+16:01:13.914 | DEBUG    | Address 2 field is presented
+
+16:01:13.949 | DEBUG    | Address 2 is filled in
+
+16:01:13.994 | DEBUG    | State field is presented
+
+16:01:14.028 | DEBUG    | State is filled in
+
+16:01:14.036 | DEBUG    | City field is presented
+
+16:01:14.075 | DEBUG    | City is filled in
+
+16:01:14.083 | DEBUG    | Zipcode field is presented
+
+16:01:14.115 | DEBUG    | Zipcode is filled in
+
+16:01:14.122 | DEBUG    | Mobile number field is presented
+
+16:01:14.157 | DEBUG    | Mobile number is filled in
+
+16:01:17.012 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+16:01:17.031 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+16:01:17.031 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+16:01:17.036 | DEBUG    | Continue button is presented

@@ -1,0 +1,169 @@
+15:56:16.314 | DEBUG    | Product Blue Top added, quantity 1
+
+15:56:17.181 | DEBUG    | Product Blue Top added, quantity 2
+
+15:56:18.574 | DEBUG    | Product Men Tshirt added, quantity 1
+
+15:56:21.467 | DEBUG    | Product Men Tshirt added, quantity 2
+
+15:56:23.018 | DEBUG    | Proceed to checkout button clicked
+
+15:56:23.548 | DEBUG    | Register via modal button clicked
+
+15:56:23.558 | DEBUG    | New user Signup title is presented
+
+15:56:23.566 | DEBUG    | New user Signup title text is correct
+
+15:56:23.572 | DEBUG    | Signup email field is presented
+
+15:56:23.577 | DEBUG    | Signup name field is presented
+
+15:56:23.629 | DEBUG    | Email signup field filled
+
+15:56:23.661 | DEBUG    | Name signup field filled
+
+15:56:23.700 | DEBUG    | Signup button is clicked
+
+15:56:25.257 | DEBUG    | Account information title is presented
+
+15:56:25.265 | DEBUG    | Account information title text is correct
+
+15:56:25.288 | DEBUG    | Mr radiobutton is presented
+
+15:56:25.293 | DEBUG    | Mrs radiobutton is presented
+
+15:56:25.331 | DEBUG    | Selected MR title
+
+15:56:25.337 | DEBUG    | Password field is presented
+
+15:56:25.372 | DEBUG    | Password is filled in
+
+15:56:25.379 | DEBUG    | Day of birth list is presented
+
+15:56:25.424 | DEBUG    | Day of birth selected
+
+15:56:25.432 | DEBUG    | Month of birth list is presented
+
+15:56:25.479 | DEBUG    | Month of birth selected
+
+15:56:25.486 | DEBUG    | Year of birth list is presented
+
+15:56:25.523 | DEBUG    | Year of birth selected
+
+15:56:25.523 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+15:56:25.569 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+15:56:25.599 | DEBUG    | First name field is presented
+
+15:56:25.634 | DEBUG    | First name is filled in
+
+15:56:25.641 | DEBUG    | Last name field is presented
+
+15:56:25.687 | DEBUG    | Last name is filled in
+
+15:56:25.696 | DEBUG    | Company field is presented
+
+15:56:25.757 | DEBUG    | Company is filled in
+
+15:56:25.769 | DEBUG    | Address 1 field is presented
+
+15:56:25.824 | DEBUG    | Address 1 is filled in
+
+15:56:25.832 | DEBUG    | Address 2 field is presented
+
+15:56:25.873 | DEBUG    | Address 2 is filled in
+
+15:56:25.906 | DEBUG    | State field is presented
+
+15:56:25.943 | DEBUG    | State is filled in
+
+15:56:25.951 | DEBUG    | City field is presented
+
+15:56:26.003 | DEBUG    | City is filled in
+
+15:56:26.012 | DEBUG    | Zipcode field is presented
+
+15:56:26.051 | DEBUG    | Zipcode is filled in
+
+15:56:26.058 | DEBUG    | Mobile number field is presented
+
+15:56:26.097 | DEBUG    | Mobile number is filled in
+
+15:56:29.444 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+15:56:29.467 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+15:56:29.467 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+15:56:29.473 | DEBUG    | Continue button is presented
+
+15:56:31.883 | DEBUG    | Username is correct Logged in as Paul
+
+15:56:35.081 | DEBUG    | Proceed to checkout button clicked
+
+15:56:35.097 | DEBUG    | Name is correct in the delivery information: Mr. Paul Moore
+
+15:56:35.110 | DEBUG    | Company name is correct in the delivery information: Robbins-Khan
+
+15:56:35.122 | DEBUG    | Address 1 is correct in the delivery information: 3677 Murphy Stream Suite 267
+
+15:56:35.135 | DEBUG    | Address 2 is correct in the delivery information: Suite 039
+
+15:56:35.148 | DEBUG    | City is correct in the delivery information: South Robertton Rhode Island 89108
+
+15:56:35.160 | DEBUG    | Country is correct in the delivery information: India
+
+15:56:35.172 | DEBUG    | Phone is correct in the delivery information: (539)338-1170
+
+15:56:35.184 | DEBUG    | Name is correct in the billing information: Mr. Paul Moore
+
+15:56:35.196 | DEBUG    | Company name is correct in the billing information: Robbins-Khan
+
+15:56:35.209 | DEBUG    | Address 1 is correct in the billing information: 3677 Murphy Stream Suite 267
+
+15:56:35.221 | DEBUG    | Address 2 is correct in the billing information: Suite 039
+
+15:56:35.233 | DEBUG    | City is correct in the billing information: South Robertton Rhode Island 89108
+
+15:56:35.246 | DEBUG    | Country is correct in the billing information: India
+
+15:56:35.258 | DEBUG    | Phone is correct in the billing information: (539)338-1170
+
+15:56:35.269 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+15:56:35.287 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+15:56:35.295 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+15:56:35.306 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+15:56:35.306 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+15:56:35.327 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+15:56:35.339 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+15:56:35.360 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+15:56:35.372 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+15:56:35.450 | DEBUG    | Comment filled in with: That age out city join significant true someone. Accept else paper likely represent beat.
+
+15:56:36.200 | DEBUG    | Place order button clicked
+
+15:56:36.246 | DEBUG    | Name on card filled in with: ****
+
+15:56:36.288 | DEBUG    | Card number filled in with: ****0034
+
+15:56:40.133 | DEBUG    | Pay and confirm button clicked
+
+15:56:40.163 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+15:56:41.430 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+15:56:41.431 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+15:56:41.431 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+15:56:44.203 | DEBUG    | Continue button clicked
