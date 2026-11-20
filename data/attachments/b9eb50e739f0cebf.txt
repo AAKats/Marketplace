@@ -1,0 +1,67 @@
+06:38:57.455 | DEBUG    | Email filled in
+
+06:38:57.482 | DEBUG    | Password filled in
+
+06:38:57.488 | DEBUG    | Login button is presented
+
+06:38:57.517 | DEBUG    | Login button is clicked
+
+06:38:59.414 | DEBUG    | Username is correct Logged in as Beth
+
+06:39:00.295 | DEBUG    | Product Blue Top added, quantity 1
+
+06:39:01.137 | DEBUG    | Product Blue Top added, quantity 2
+
+06:39:02.265 | DEBUG    | Product Blue Top added, quantity 3
+
+06:39:02.937 | DEBUG    | Proceed to checkout button clicked
+
+06:39:02.949 | DEBUG    | Name is correct in the delivery information: Mrs. Beth Jordan
+
+06:39:02.959 | DEBUG    | Company name is correct in the delivery information: Burton, Roberts and Smith
+
+06:39:02.968 | DEBUG    | Address 1 is correct in the delivery information: 814 Sharon Grove Apt. 256
+
+06:39:02.977 | DEBUG    | Address 2 is correct in the delivery information: Apt. 734
+
+06:39:02.987 | DEBUG    | City is correct in the delivery information: Donnaberg Georgia 76985
+
+06:39:02.997 | DEBUG    | Country is correct in the delivery information: Canada
+
+06:39:03.006 | DEBUG    | Phone is correct in the delivery information: 001-440-621-4515
+
+06:39:03.016 | DEBUG    | Name is correct in the billing information: Mrs. Beth Jordan
+
+06:39:03.027 | DEBUG    | Company name is correct in the billing information: Burton, Roberts and Smith
+
+06:39:03.037 | DEBUG    | Address 1 is correct in the billing information: 814 Sharon Grove Apt. 256
+
+06:39:03.047 | DEBUG    | Address 2 is correct in the billing information: Apt. 734
+
+06:39:03.057 | DEBUG    | City is correct in the billing information: Donnaberg Georgia 76985
+
+06:39:03.066 | DEBUG    | Country is correct in the billing information: Canada
+
+06:39:03.076 | DEBUG    | Phone is correct in the billing information: 001-440-621-4515
+
+06:39:03.083 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+06:39:03.097 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+06:39:03.103 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+06:39:03.119 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+06:39:03.134 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+06:39:03.194 | DEBUG    | Comment filled in with: City finally art seven opportunity special enjoy would. Wear two him attorney certainly.
+
+06:39:03.386 | DEBUG    | Place order button clicked
+
+06:39:03.436 | DEBUG    | Name on card filled in with: ****
+
+06:39:03.472 | DEBUG    | Card number filled in with: ****3360
+
+06:39:03.606 | DEBUG    | Pay and confirm button clicked
+
+06:39:04.982 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

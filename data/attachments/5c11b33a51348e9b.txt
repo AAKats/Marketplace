@@ -1,0 +1,249 @@
+06:38:11.798 | DEBUG    | Product Blue Top added, quantity 1
+
+06:38:13.144 | DEBUG    | Product Blue Top added, quantity 2
+
+06:38:14.005 | DEBUG    | Product Men Tshirt added, quantity 1
+
+06:38:14.853 | DEBUG    | Product Men Tshirt added, quantity 2
+
+06:38:15.702 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+06:38:16.555 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+06:38:17.400 | DEBUG    | Product Stylish Dress added, quantity 1
+
+06:38:18.253 | DEBUG    | Product Stylish Dress added, quantity 2
+
+06:38:19.101 | DEBUG    | Product Winter Top added, quantity 1
+
+06:38:20.464 | DEBUG    | Product Winter Top added, quantity 2
+
+06:38:21.416 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:38:21.416 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:38:21.416 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:38:21.416 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:38:21.416 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:38:21.429 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+06:38:21.435 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+06:38:21.442 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+06:38:21.448 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+06:38:21.454 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+06:38:21.470 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+06:38:21.479 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+06:38:21.489 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+06:38:21.498 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+06:38:21.507 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+06:38:21.523 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+06:38:21.533 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+06:38:21.543 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+06:38:21.551 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+06:38:21.561 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+06:38:21.593 | DEBUG    | Proceed to checkout button clicked
+
+06:38:21.838 | DEBUG    | Register via modal button clicked
+
+06:38:21.848 | DEBUG    | New user Signup title is presented
+
+06:38:21.855 | DEBUG    | New user Signup title text is correct
+
+06:38:21.860 | DEBUG    | Signup email field is presented
+
+06:38:21.864 | DEBUG    | Signup name field is presented
+
+06:38:21.914 | DEBUG    | Email signup field filled
+
+06:38:21.948 | DEBUG    | Name signup field filled
+
+06:38:22.168 | DEBUG    | Signup button is clicked
+
+06:38:22.183 | DEBUG    | Account information title is presented
+
+06:38:22.192 | DEBUG    | Account information title text is correct
+
+06:38:22.215 | DEBUG    | Mr radiobutton is presented
+
+06:38:22.219 | DEBUG    | Mrs radiobutton is presented
+
+06:38:22.254 | DEBUG    | Selected MR title
+
+06:38:22.259 | DEBUG    | Password field is presented
+
+06:38:22.294 | DEBUG    | Password is filled in
+
+06:38:22.300 | DEBUG    | Day of birth list is presented
+
+06:38:22.336 | DEBUG    | Day of birth selected
+
+06:38:22.342 | DEBUG    | Month of birth list is presented
+
+06:38:22.373 | DEBUG    | Month of birth selected
+
+06:38:22.378 | DEBUG    | Year of birth list is presented
+
+06:38:22.408 | DEBUG    | Year of birth selected
+
+06:38:22.408 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+06:38:22.408 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+06:38:22.415 | DEBUG    | First name field is presented
+
+06:38:22.444 | DEBUG    | First name is filled in
+
+06:38:22.449 | DEBUG    | Last name field is presented
+
+06:38:22.483 | DEBUG    | Last name is filled in
+
+06:38:22.490 | DEBUG    | Company field is presented
+
+06:38:22.523 | DEBUG    | Company is filled in
+
+06:38:22.528 | DEBUG    | Address 1 field is presented
+
+06:38:22.570 | DEBUG    | Address 1 is filled in
+
+06:38:22.576 | DEBUG    | Address 2 field is presented
+
+06:38:22.608 | DEBUG    | Address 2 is filled in
+
+06:38:22.648 | DEBUG    | State field is presented
+
+06:38:22.675 | DEBUG    | State is filled in
+
+06:38:22.680 | DEBUG    | City field is presented
+
+06:38:22.712 | DEBUG    | City is filled in
+
+06:38:22.717 | DEBUG    | Zipcode field is presented
+
+06:38:22.742 | DEBUG    | Zipcode is filled in
+
+06:38:22.747 | DEBUG    | Mobile number field is presented
+
+06:38:22.777 | DEBUG    | Mobile number is filled in
+
+06:38:23.551 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+06:38:23.566 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+06:38:23.566 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+06:38:23.570 | DEBUG    | Continue button is presented
+
+06:38:24.507 | DEBUG    | Username is correct Logged in as Teresa
+
+06:38:26.315 | DEBUG    | Proceed to checkout button clicked
+
+06:38:26.328 | DEBUG    | Name is correct in the delivery information: Mr. Teresa Mccarthy
+
+06:38:26.338 | DEBUG    | Company name is correct in the delivery information: Cooley-Bowen
+
+06:38:26.347 | DEBUG    | Address 1 is correct in the delivery information: 67905 Gwendolyn Causeway Apt. 291
+
+06:38:26.357 | DEBUG    | Address 2 is correct in the delivery information: Apt. 605
+
+06:38:26.366 | DEBUG    | City is correct in the delivery information: Velazquezmouth Minnesota 39390
+
+06:38:26.376 | DEBUG    | Country is correct in the delivery information: New Zealand
+
+06:38:26.387 | DEBUG    | Phone is correct in the delivery information: 896.697.8867x249
+
+06:38:26.397 | DEBUG    | Name is correct in the billing information: Mr. Teresa Mccarthy
+
+06:38:26.407 | DEBUG    | Company name is correct in the billing information: Cooley-Bowen
+
+06:38:26.416 | DEBUG    | Address 1 is correct in the billing information: 67905 Gwendolyn Causeway Apt. 291
+
+06:38:26.426 | DEBUG    | Address 2 is correct in the billing information: Apt. 605
+
+06:38:26.435 | DEBUG    | City is correct in the billing information: Velazquezmouth Minnesota 39390
+
+06:38:26.445 | DEBUG    | Country is correct in the billing information: New Zealand
+
+06:38:26.455 | DEBUG    | Phone is correct in the billing information: 896.697.8867x249
+
+06:38:26.474 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:38:26.474 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:38:26.474 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:38:26.474 | DEBUG    | Product: Stylish Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:38:26.474 | DEBUG    | Product: Winter Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress, Stylish Dress, Winter Top
+
+06:38:26.486 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+06:38:26.492 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+06:38:26.498 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+06:38:26.504 | DEBUG    | Product Stylish Dress price in cart: 1500 matches added price: 1500
+
+06:38:26.510 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+06:38:26.525 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+06:38:26.534 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+06:38:26.543 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+06:38:26.552 | DEBUG    | Product Stylish Dress quantity in cart: 2 matches added quantity: 2
+
+06:38:26.561 | DEBUG    | Product Winter Top quantity in cart: 2 matches added quantity: 2
+
+06:38:26.577 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+06:38:26.586 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+06:38:26.595 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+06:38:26.604 | DEBUG    | Product Stylish Dress total in cart: 3000 matches expected total: 3000
+
+06:38:26.613 | DEBUG    | Product Winter Top total in cart: 1200 matches expected total: 1200
+
+06:38:26.667 | DEBUG    | Comment filled in with: Despite example make message. War science other quality explain my appear.
+
+06:38:26.858 | DEBUG    | Place order button clicked
+
+06:38:26.897 | DEBUG    | Name on card filled in with: ****
+
+06:38:26.930 | DEBUG    | Card number filled in with: ****9727
+
+06:38:28.416 | DEBUG    | Pay and confirm button clicked
+
+06:38:28.601 | DEBUG    | Download invoice button clicked
+
+06:38:28.601 | DEBUG    | File downloaded: /home/runner/work/Marketplace/Marketplace/temp/.com.google.Chrome.LIE94D
+
+06:38:28.601 | DEBUG    | Invoice content is valid
+
+06:38:28.775 | DEBUG    | Continue button clicked
+
+06:38:29.037 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+06:38:29.037 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+06:38:29.037 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+06:38:29.707 | DEBUG    | Continue button clicked

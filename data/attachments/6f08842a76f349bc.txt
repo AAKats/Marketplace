@@ -1,0 +1,43 @@
+06:40:01.967 | DEBUG    | New user details:
+
+06:40:01.968 | DEBUG    |   name: Brenda
+
+06:40:01.968 | DEBUG    |   email: 96386f53_michael16@example.com
+
+06:40:01.968 | DEBUG    |   title: Mrs
+
+06:40:01.968 | DEBUG    |   birth_day: 23
+
+06:40:01.968 | DEBUG    |   birth_month: 11
+
+06:40:01.968 | DEBUG    |   birth_year: 2020
+
+06:40:01.968 | DEBUG    |   firstname: Brenda
+
+06:40:01.968 | DEBUG    |   lastname: Gay
+
+06:40:01.968 | DEBUG    |   company: Newman, Lang and Munoz
+
+06:40:01.968 | DEBUG    |   address1: 578 Campbell Coves Suite 469
+
+06:40:01.968 | DEBUG    |   address2: Apt. 077
+
+06:40:01.968 | DEBUG    |   country: Canada
+
+06:40:01.968 | DEBUG    |   state: North Dakota
+
+06:40:01.968 | DEBUG    |   city: West Christopher
+
+06:40:01.968 | DEBUG    |   zipcode: 09171
+
+06:40:02.209 | DEBUG    | Status code correct: 200
+
+06:40:02.209 | DEBUG    | ResponseCode correct: 201
+
+06:40:02.209 | DEBUG    | Response message correct: "User created!"
+
+06:40:02.444 | DEBUG    | Status code correct: 200
+
+06:40:02.445 | DEBUG    | ResponseCode correct: 200
+
+06:40:02.445 | DEBUG    | Response message correct: "Account deleted!"

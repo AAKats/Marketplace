@@ -1,0 +1,165 @@
+06:39:44.416 | DEBUG    | New user Signup title is presented
+
+06:39:44.425 | DEBUG    | New user Signup title text is correct
+
+06:39:44.431 | DEBUG    | Signup email field is presented
+
+06:39:44.435 | DEBUG    | Signup name field is presented
+
+06:39:44.473 | DEBUG    | Email signup field filled
+
+06:39:44.499 | DEBUG    | Name signup field filled
+
+06:39:44.531 | DEBUG    | Signup button is clicked
+
+06:39:45.458 | DEBUG    | Account information title is presented
+
+06:39:45.465 | DEBUG    | Account information title text is correct
+
+06:39:45.485 | DEBUG    | Mr radiobutton is presented
+
+06:39:45.489 | DEBUG    | Mrs radiobutton is presented
+
+06:39:45.519 | DEBUG    | Selected MR title
+
+06:39:45.524 | DEBUG    | Password field is presented
+
+06:39:45.554 | DEBUG    | Password is filled in
+
+06:39:45.560 | DEBUG    | Day of birth list is presented
+
+06:39:45.595 | DEBUG    | Day of birth selected
+
+06:39:45.601 | DEBUG    | Month of birth list is presented
+
+06:39:45.630 | DEBUG    | Month of birth selected
+
+06:39:45.636 | DEBUG    | Year of birth list is presented
+
+06:39:45.666 | DEBUG    | Year of birth selected
+
+06:39:45.700 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+06:39:45.701 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+06:39:45.706 | DEBUG    | First name field is presented
+
+06:39:45.731 | DEBUG    | First name is filled in
+
+06:39:45.737 | DEBUG    | Last name field is presented
+
+06:39:45.763 | DEBUG    | Last name is filled in
+
+06:39:45.769 | DEBUG    | Company field is presented
+
+06:39:45.795 | DEBUG    | Company is filled in
+
+06:39:45.801 | DEBUG    | Address 1 field is presented
+
+06:39:45.830 | DEBUG    | Address 1 is filled in
+
+06:39:45.836 | DEBUG    | Address 2 field is presented
+
+06:39:45.861 | DEBUG    | Address 2 is filled in
+
+06:39:45.885 | DEBUG    | State field is presented
+
+06:39:45.910 | DEBUG    | State is filled in
+
+06:39:45.915 | DEBUG    | City field is presented
+
+06:39:45.944 | DEBUG    | City is filled in
+
+06:39:45.951 | DEBUG    | Zipcode field is presented
+
+06:39:45.975 | DEBUG    | Zipcode is filled in
+
+06:39:45.980 | DEBUG    | Mobile number field is presented
+
+06:39:46.010 | DEBUG    | Mobile number is filled in
+
+06:39:49.536 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+06:39:49.552 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+06:39:49.552 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+06:39:49.556 | DEBUG    | Continue button is presented
+
+06:39:51.924 | DEBUG    | Username is correct Logged in as Megan
+
+06:39:53.673 | DEBUG    | Product Blue Top added, quantity 1
+
+06:39:54.514 | DEBUG    | Product Blue Top added, quantity 2
+
+06:39:55.362 | DEBUG    | Product Men Tshirt added, quantity 1
+
+06:39:56.526 | DEBUG    | Product Men Tshirt added, quantity 2
+
+06:39:57.181 | DEBUG    | Proceed to checkout button clicked
+
+06:39:57.195 | DEBUG    | Name is correct in the delivery information: Mr. Megan Molina
+
+06:39:57.207 | DEBUG    | Company name is correct in the delivery information: Morton-Davis
+
+06:39:57.218 | DEBUG    | Address 1 is correct in the delivery information: 8656 Hannah Square
+
+06:39:57.229 | DEBUG    | Address 2 is correct in the delivery information: Apt. 927
+
+06:39:57.240 | DEBUG    | City is correct in the delivery information: Michellestad Vermont 88098
+
+06:39:57.252 | DEBUG    | Country is correct in the delivery information: India
+
+06:39:57.263 | DEBUG    | Phone is correct in the delivery information: 312-564-2956x4764
+
+06:39:57.274 | DEBUG    | Name is correct in the billing information: Mr. Megan Molina
+
+06:39:57.283 | DEBUG    | Company name is correct in the billing information: Morton-Davis
+
+06:39:57.293 | DEBUG    | Address 1 is correct in the billing information: 8656 Hannah Square
+
+06:39:57.303 | DEBUG    | Address 2 is correct in the billing information: Apt. 927
+
+06:39:57.312 | DEBUG    | City is correct in the billing information: Michellestad Vermont 88098
+
+06:39:57.322 | DEBUG    | Country is correct in the billing information: India
+
+06:39:57.331 | DEBUG    | Phone is correct in the billing information: 312-564-2956x4764
+
+06:39:57.340 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+06:39:57.354 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+06:39:57.360 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+06:39:57.369 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+06:39:57.369 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+06:39:57.385 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+06:39:57.394 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+06:39:57.410 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+06:39:57.421 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+06:39:57.480 | DEBUG    | Comment filled in with: Middle often voice. Model would public. Character color number different wonder.
+
+06:39:57.664 | DEBUG    | Place order button clicked
+
+06:39:57.701 | DEBUG    | Name on card filled in with: ****
+
+06:39:57.735 | DEBUG    | Card number filled in with: ****9758
+
+06:39:57.860 | DEBUG    | Pay and confirm button clicked
+
+06:39:59.787 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+06:40:00.022 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+06:40:00.022 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+06:40:00.022 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+06:40:00.803 | DEBUG    | Continue button clicked

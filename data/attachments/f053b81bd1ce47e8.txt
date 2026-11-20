@@ -1,0 +1,5 @@
+06:40:01.407 | DEBUG    | Status code correct: 200
+
+06:40:01.407 | DEBUG    | ResponseCode correct: 400
+
+06:40:01.407 | DEBUG    | Response message correct: "Bad request, email or password parameter is missing in POST request."

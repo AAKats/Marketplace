@@ -1,0 +1,39 @@
+06:38:31.346 | DEBUG    | Main title is presented
+
+06:38:31.363 | DEBUG    | Main title is correct: CONTACT US
+
+06:38:31.367 | DEBUG    | Second title is presented
+
+06:38:31.380 | DEBUG    | Second title is correct: GET IN TOUCH
+
+06:38:31.385 | DEBUG    | Name field is presented
+
+06:38:31.414 | DEBUG    | Name field filled in with: Mary
+
+06:38:31.419 | DEBUG    | Email field is presented
+
+06:38:31.456 | DEBUG    | Email field filled in with: 9bedf30d_grichards@example.com
+
+06:38:31.462 | DEBUG    | Subject field is presented
+
+06:38:31.490 | DEBUG    | Subject field filled in with: Time send.
+
+06:38:31.496 | DEBUG    | Message field is presented
+
+06:38:31.559 | DEBUG    | Message field filled in with: But natural test begin professor home computer per. Prove single deal find perform five class.
+
+06:38:31.565 | DEBUG    | Upload field is presented
+
+06:38:31.578 | DEBUG    | File uploaded
+
+06:38:31.582 | DEBUG    | Submit button is presented
+
+06:38:31.635 | DEBUG    | Alert is presented
+
+06:38:31.661 | DEBUG    | Success message is presented
+
+06:38:31.661 | DEBUG    | Success message is correct
+
+06:38:31.666 | DEBUG    | Home button is presented
+
+06:38:32.539 | DEBUG    | Home button is clicked

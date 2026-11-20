@@ -1,0 +1,49 @@
+06:37:46.102 | DEBUG    | Search field is presented
+
+06:37:46.141 | DEBUG    | Search field is filled in with: "Sleeves Top and Short - Blue & Pink"
+
+06:37:46.147 | DEBUG    | Search button is presented
+
+06:37:47.818 | DEBUG    | Search button is clicked
+
+06:37:47.831 | DEBUG    | Title is presented
+
+06:37:47.831 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+06:37:47.834 | DEBUG    | 1 products found
+
+06:37:47.838 | DEBUG    | "Sleeves Top and Short - Blue & Pink" product found, and contains "Sleeves Top and Short - Blue & Pink"
+
+06:37:50.680 | DEBUG    | Product Sleeves Top and Short - Blue & Pink added, quantity 1
+
+06:37:51.032 | DEBUG    | Product: Sleeves Top and Short - Blue & Pink found in cart: Sleeves Top and Short - Blue & Pink
+
+06:37:51.045 | DEBUG    | Product Sleeves Top and Short - Blue & Pink price in cart: 478 matches added price: 478
+
+06:37:51.061 | DEBUG    | Product Sleeves Top and Short - Blue & Pink quantity in cart: 1 matches added quantity: 1
+
+06:37:51.077 | DEBUG    | Product Sleeves Top and Short - Blue & Pink total in cart: 478 matches expected total: 478
+
+06:37:51.269 | DEBUG    | Login email field is presented
+
+06:37:51.274 | DEBUG    | Password field is presented
+
+06:37:51.307 | DEBUG    | Email filled in
+
+06:37:51.334 | DEBUG    | Password filled in
+
+06:37:51.339 | DEBUG    | Login button is presented
+
+06:37:51.367 | DEBUG    | Login button is clicked
+
+06:37:52.801 | DEBUG    | Product: Sleeves Top and Short - Blue & Pink found in cart: Sleeves Top and Short - Blue & Pink
+
+06:37:52.814 | DEBUG    | Product Sleeves Top and Short - Blue & Pink price in cart: 478 matches added price: 478
+
+06:37:52.829 | DEBUG    | Product Sleeves Top and Short - Blue & Pink quantity in cart: 1 matches added quantity: 1
+
+06:37:52.844 | DEBUG    | Product Sleeves Top and Short - Blue & Pink total in cart: 478 matches expected total: 478
+
+06:37:57.439 | DEBUG    | All products deleted
+
+06:37:57.446 | DEBUG    | Empty cart text correct: Cart is empty!

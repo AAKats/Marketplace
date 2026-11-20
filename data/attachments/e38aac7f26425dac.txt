@@ -1,0 +1,97 @@
+06:39:32.409 | DEBUG    | New user Signup title is presented
+
+06:39:32.418 | DEBUG    | New user Signup title text is correct
+
+06:39:32.422 | DEBUG    | Signup email field is presented
+
+06:39:32.427 | DEBUG    | Signup name field is presented
+
+06:39:32.463 | DEBUG    | Email signup field filled
+
+06:39:32.489 | DEBUG    | Name signup field filled
+
+06:39:32.522 | DEBUG    | Signup button is clicked
+
+06:39:33.051 | DEBUG    | Account information title is presented
+
+06:39:33.057 | DEBUG    | Account information title text is correct
+
+06:39:33.077 | DEBUG    | Mr radiobutton is presented
+
+06:39:33.081 | DEBUG    | Mrs radiobutton is presented
+
+06:39:33.111 | DEBUG    | Selected MRS title
+
+06:39:33.116 | DEBUG    | Password field is presented
+
+06:39:33.141 | DEBUG    | Password is filled in
+
+06:39:33.146 | DEBUG    | Day of birth list is presented
+
+06:39:33.184 | DEBUG    | Day of birth selected
+
+06:39:33.190 | DEBUG    | Month of birth list is presented
+
+06:39:33.220 | DEBUG    | Month of birth selected
+
+06:39:33.225 | DEBUG    | Year of birth list is presented
+
+06:39:33.254 | DEBUG    | Year of birth selected
+
+06:39:33.255 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+06:39:33.255 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+06:39:33.260 | DEBUG    | First name field is presented
+
+06:39:33.288 | DEBUG    | First name is filled in
+
+06:39:33.293 | DEBUG    | Last name field is presented
+
+06:39:33.321 | DEBUG    | Last name is filled in
+
+06:39:33.326 | DEBUG    | Company field is presented
+
+06:39:33.361 | DEBUG    | Company is filled in
+
+06:39:33.367 | DEBUG    | Address 1 field is presented
+
+06:39:33.410 | DEBUG    | Address 1 is filled in
+
+06:39:33.415 | DEBUG    | Address 2 field is presented
+
+06:39:33.442 | DEBUG    | Address 2 is filled in
+
+06:39:33.479 | DEBUG    | State field is presented
+
+06:39:33.508 | DEBUG    | State is filled in
+
+06:39:33.513 | DEBUG    | City field is presented
+
+06:39:33.542 | DEBUG    | City is filled in
+
+06:39:33.548 | DEBUG    | Zipcode field is presented
+
+06:39:33.574 | DEBUG    | Zipcode is filled in
+
+06:39:33.579 | DEBUG    | Mobile number field is presented
+
+06:39:33.608 | DEBUG    | Mobile number is filled in
+
+06:39:34.461 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+06:39:34.478 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+06:39:34.478 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+06:39:34.482 | DEBUG    | Continue button is presented
+
+06:39:35.555 | DEBUG    | Username is correct Logged in as Michelle
+
+06:39:35.999 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+06:39:35.999 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+06:39:35.999 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+06:39:36.434 | DEBUG    | Continue button clicked

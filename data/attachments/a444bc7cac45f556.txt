@@ -1,0 +1,169 @@
+06:37:18.001 | DEBUG    | Product Blue Top added, quantity 1
+
+06:37:18.842 | DEBUG    | Product Blue Top added, quantity 2
+
+06:37:19.691 | DEBUG    | Product Men Tshirt added, quantity 1
+
+06:37:20.887 | DEBUG    | Product Men Tshirt added, quantity 2
+
+06:37:21.841 | DEBUG    | Proceed to checkout button clicked
+
+06:37:22.128 | DEBUG    | Register via modal button clicked
+
+06:37:22.137 | DEBUG    | New user Signup title is presented
+
+06:37:22.152 | DEBUG    | New user Signup title text is correct
+
+06:37:22.156 | DEBUG    | Signup email field is presented
+
+06:37:22.160 | DEBUG    | Signup name field is presented
+
+06:37:22.194 | DEBUG    | Email signup field filled
+
+06:37:22.218 | DEBUG    | Name signup field filled
+
+06:37:22.413 | DEBUG    | Signup button is clicked
+
+06:37:22.424 | DEBUG    | Account information title is presented
+
+06:37:22.431 | DEBUG    | Account information title text is correct
+
+06:37:22.454 | DEBUG    | Mr radiobutton is presented
+
+06:37:22.458 | DEBUG    | Mrs radiobutton is presented
+
+06:37:22.487 | DEBUG    | Selected MR title
+
+06:37:22.493 | DEBUG    | Password field is presented
+
+06:37:22.525 | DEBUG    | Password is filled in
+
+06:37:22.531 | DEBUG    | Day of birth list is presented
+
+06:37:22.568 | DEBUG    | Day of birth selected
+
+06:37:22.573 | DEBUG    | Month of birth list is presented
+
+06:37:22.602 | DEBUG    | Month of birth selected
+
+06:37:22.608 | DEBUG    | Year of birth list is presented
+
+06:37:22.637 | DEBUG    | Year of birth selected
+
+06:37:22.670 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+06:37:22.671 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+06:37:22.677 | DEBUG    | First name field is presented
+
+06:37:22.705 | DEBUG    | First name is filled in
+
+06:37:22.711 | DEBUG    | Last name field is presented
+
+06:37:22.734 | DEBUG    | Last name is filled in
+
+06:37:22.740 | DEBUG    | Company field is presented
+
+06:37:22.768 | DEBUG    | Company is filled in
+
+06:37:22.774 | DEBUG    | Address 1 field is presented
+
+06:37:22.803 | DEBUG    | Address 1 is filled in
+
+06:37:22.809 | DEBUG    | Address 2 field is presented
+
+06:37:22.834 | DEBUG    | Address 2 is filled in
+
+06:37:22.871 | DEBUG    | State field is presented
+
+06:37:22.898 | DEBUG    | State is filled in
+
+06:37:22.903 | DEBUG    | City field is presented
+
+06:37:22.932 | DEBUG    | City is filled in
+
+06:37:22.937 | DEBUG    | Zipcode field is presented
+
+06:37:22.963 | DEBUG    | Zipcode is filled in
+
+06:37:22.968 | DEBUG    | Mobile number field is presented
+
+06:37:22.997 | DEBUG    | Mobile number is filled in
+
+06:37:24.474 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+06:37:24.488 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+06:37:24.488 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+06:37:24.492 | DEBUG    | Continue button is presented
+
+06:37:26.104 | DEBUG    | Username is correct Logged in as Barry
+
+06:37:27.864 | DEBUG    | Proceed to checkout button clicked
+
+06:37:27.877 | DEBUG    | Name is correct in the delivery information: Mr. Barry Choi
+
+06:37:27.888 | DEBUG    | Company name is correct in the delivery information: Duncan Group
+
+06:37:27.899 | DEBUG    | Address 1 is correct in the delivery information: 9870 Jones Centers
+
+06:37:27.909 | DEBUG    | Address 2 is correct in the delivery information: Apt. 017
+
+06:37:27.919 | DEBUG    | City is correct in the delivery information: Jenniferfurt Wyoming 70466
+
+06:37:27.929 | DEBUG    | Country is correct in the delivery information: Singapore
+
+06:37:27.938 | DEBUG    | Phone is correct in the delivery information: (805)285-7883
+
+06:37:27.948 | DEBUG    | Name is correct in the billing information: Mr. Barry Choi
+
+06:37:27.959 | DEBUG    | Company name is correct in the billing information: Duncan Group
+
+06:37:27.971 | DEBUG    | Address 1 is correct in the billing information: 9870 Jones Centers
+
+06:37:27.983 | DEBUG    | Address 2 is correct in the billing information: Apt. 017
+
+06:37:27.994 | DEBUG    | City is correct in the billing information: Jenniferfurt Wyoming 70466
+
+06:37:28.007 | DEBUG    | Country is correct in the billing information: Singapore
+
+06:37:28.018 | DEBUG    | Phone is correct in the billing information: (805)285-7883
+
+06:37:28.027 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+06:37:28.043 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+06:37:28.050 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+06:37:28.062 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+06:37:28.062 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+06:37:28.081 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+06:37:28.091 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+06:37:28.109 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+06:37:28.120 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+06:37:28.178 | DEBUG    | Comment filled in with: Worker resource reality business hold point pass direction.
+
+06:37:28.367 | DEBUG    | Place order button clicked
+
+06:37:28.405 | DEBUG    | Name on card filled in with: ****
+
+06:37:28.438 | DEBUG    | Card number filled in with: ****6926
+
+06:37:29.959 | DEBUG    | Pay and confirm button clicked
+
+06:37:29.983 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+06:37:30.207 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+06:37:30.207 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+06:37:30.207 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+06:37:30.793 | DEBUG    | Continue button clicked

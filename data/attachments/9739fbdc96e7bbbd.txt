@@ -1,0 +1,13 @@
+06:37:14.226 | DEBUG    | Product "Winter Top" (ID: 5) opened
+
+06:37:14.279 | DEBUG    | Quantity = 3 selected
+
+06:37:14.315 | DEBUG    | Product was added to cart
+
+06:37:15.141 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+06:37:15.149 | DEBUG    | Product: Winter Top found in cart: Winter Top
+
+06:37:15.162 | DEBUG    | Product Winter Top price in cart: 600 matches added price: 600
+
+06:37:15.178 | DEBUG    | Product Winter Top quantity in cart: 3 matches added quantity: 3
