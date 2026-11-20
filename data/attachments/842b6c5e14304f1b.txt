@@ -1,0 +1,43 @@
+10:24:06.267 | DEBUG    | New user details:
+
+10:24:06.267 | DEBUG    |   name: Vicki
+
+10:24:06.267 | DEBUG    |   email: 10a2eb72_davidbowman@example.net
+
+10:24:06.267 | DEBUG    |   title: Mrs
+
+10:24:06.267 | DEBUG    |   birth_day: 22
+
+10:24:06.267 | DEBUG    |   birth_month: 2
+
+10:24:06.267 | DEBUG    |   birth_year: 1973
+
+10:24:06.267 | DEBUG    |   firstname: Vicki
+
+10:24:06.267 | DEBUG    |   lastname: Foster
+
+10:24:06.267 | DEBUG    |   company: Hobbs LLC
+
+10:24:06.267 | DEBUG    |   address1: 1290 Megan Lodge Apt. 078
+
+10:24:06.267 | DEBUG    |   address2: Apt. 618
+
+10:24:06.267 | DEBUG    |   country: Singapore
+
+10:24:06.267 | DEBUG    |   state: New Mexico
+
+10:24:06.267 | DEBUG    |   city: East Nathanton
+
+10:24:06.267 | DEBUG    |   zipcode: 53550
+
+10:24:06.580 | DEBUG    | Status code correct: 200
+
+10:24:06.580 | DEBUG    | ResponseCode correct: 201
+
+10:24:06.581 | DEBUG    | Response message correct: "User created!"
+
+10:24:06.887 | DEBUG    | Status code correct: 200
+
+10:24:06.887 | DEBUG    | ResponseCode correct: 200
+
+10:24:06.887 | DEBUG    | Response message correct: "Account deleted!"

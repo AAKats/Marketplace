@@ -1,0 +1,169 @@
+10:19:43.170 | DEBUG    | Product Blue Top added, quantity 1
+
+10:19:44.020 | DEBUG    | Product Blue Top added, quantity 2
+
+10:19:44.870 | DEBUG    | Product Men Tshirt added, quantity 1
+
+10:19:47.172 | DEBUG    | Product Men Tshirt added, quantity 2
+
+10:19:47.428 | DEBUG    | Proceed to checkout button clicked
+
+10:19:47.594 | DEBUG    | Register via modal button clicked
+
+10:19:47.602 | DEBUG    | New user Signup title is presented
+
+10:19:47.609 | DEBUG    | New user Signup title text is correct
+
+10:19:47.613 | DEBUG    | Signup email field is presented
+
+10:19:47.617 | DEBUG    | Signup name field is presented
+
+10:19:47.652 | DEBUG    | Email signup field filled
+
+10:19:47.678 | DEBUG    | Name signup field filled
+
+10:19:47.818 | DEBUG    | Signup button is clicked
+
+10:19:47.829 | DEBUG    | Account information title is presented
+
+10:19:47.835 | DEBUG    | Account information title text is correct
+
+10:19:47.855 | DEBUG    | Mr radiobutton is presented
+
+10:19:47.860 | DEBUG    | Mrs radiobutton is presented
+
+10:19:47.890 | DEBUG    | Selected MRS title
+
+10:19:47.894 | DEBUG    | Password field is presented
+
+10:19:47.922 | DEBUG    | Password is filled in
+
+10:19:47.927 | DEBUG    | Day of birth list is presented
+
+10:19:47.960 | DEBUG    | Day of birth selected
+
+10:19:47.965 | DEBUG    | Month of birth list is presented
+
+10:19:47.992 | DEBUG    | Month of birth selected
+
+10:19:47.996 | DEBUG    | Year of birth list is presented
+
+10:19:48.023 | DEBUG    | Year of birth selected
+
+10:19:48.023 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+10:19:48.051 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+10:19:48.057 | DEBUG    | First name field is presented
+
+10:19:48.081 | DEBUG    | First name is filled in
+
+10:19:48.085 | DEBUG    | Last name field is presented
+
+10:19:48.109 | DEBUG    | Last name is filled in
+
+10:19:48.114 | DEBUG    | Company field is presented
+
+10:19:48.144 | DEBUG    | Company is filled in
+
+10:19:48.148 | DEBUG    | Address 1 field is presented
+
+10:19:48.177 | DEBUG    | Address 1 is filled in
+
+10:19:48.182 | DEBUG    | Address 2 field is presented
+
+10:19:48.208 | DEBUG    | Address 2 is filled in
+
+10:19:48.241 | DEBUG    | State field is presented
+
+10:19:48.263 | DEBUG    | State is filled in
+
+10:19:48.268 | DEBUG    | City field is presented
+
+10:19:48.293 | DEBUG    | City is filled in
+
+10:19:48.298 | DEBUG    | Zipcode field is presented
+
+10:19:48.322 | DEBUG    | Zipcode is filled in
+
+10:19:48.327 | DEBUG    | Mobile number field is presented
+
+10:19:48.358 | DEBUG    | Mobile number is filled in
+
+10:19:51.007 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+10:19:51.025 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+10:19:51.026 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+10:19:51.030 | DEBUG    | Continue button is presented
+
+10:19:51.895 | DEBUG    | Username is correct Logged in as Jonathan
+
+10:19:52.796 | DEBUG    | Proceed to checkout button clicked
+
+10:19:52.809 | DEBUG    | Name is correct in the delivery information: Mrs. Jonathan Green
+
+10:19:52.820 | DEBUG    | Company name is correct in the delivery information: Evans, Jensen and Harris
+
+10:19:52.830 | DEBUG    | Address 1 is correct in the delivery information: 5402 Rhonda Circles
+
+10:19:52.839 | DEBUG    | Address 2 is correct in the delivery information: Suite 421
+
+10:19:52.849 | DEBUG    | City is correct in the delivery information: Averymouth Oregon 98583
+
+10:19:52.860 | DEBUG    | Country is correct in the delivery information: Canada
+
+10:19:52.870 | DEBUG    | Phone is correct in the delivery information: 001-475-997-8589
+
+10:19:52.879 | DEBUG    | Name is correct in the billing information: Mrs. Jonathan Green
+
+10:19:52.890 | DEBUG    | Company name is correct in the billing information: Evans, Jensen and Harris
+
+10:19:52.900 | DEBUG    | Address 1 is correct in the billing information: 5402 Rhonda Circles
+
+10:19:52.910 | DEBUG    | Address 2 is correct in the billing information: Suite 421
+
+10:19:52.920 | DEBUG    | City is correct in the billing information: Averymouth Oregon 98583
+
+10:19:52.931 | DEBUG    | Country is correct in the billing information: Canada
+
+10:19:52.941 | DEBUG    | Phone is correct in the billing information: 001-475-997-8589
+
+10:19:52.949 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+10:19:52.963 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+10:19:52.971 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+10:19:52.980 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+10:19:52.980 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+10:19:52.997 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+10:19:53.006 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+10:19:53.022 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+10:19:53.031 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+10:19:53.082 | DEBUG    | Comment filled in with: Market evidence free air. Wait thank else page difficult teacher report morning.
+
+10:19:53.223 | DEBUG    | Place order button clicked
+
+10:19:53.258 | DEBUG    | Name on card filled in with: ****
+
+10:19:53.288 | DEBUG    | Card number filled in with: ****0855
+
+10:19:55.307 | DEBUG    | Pay and confirm button clicked
+
+10:19:55.342 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+10:19:56.410 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+10:19:56.410 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+10:19:56.410 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+10:19:58.734 | DEBUG    | Continue button clicked

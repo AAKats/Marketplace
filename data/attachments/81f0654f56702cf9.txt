@@ -1,0 +1,67 @@
+10:21:56.833 | DEBUG    | Email filled in
+
+10:21:56.860 | DEBUG    | Password filled in
+
+10:21:56.864 | DEBUG    | Login button is presented
+
+10:21:56.892 | DEBUG    | Login button is clicked
+
+10:22:01.404 | DEBUG    | Username is correct Logged in as Chelsea
+
+10:22:03.310 | DEBUG    | Product Blue Top added, quantity 1
+
+10:22:05.186 | DEBUG    | Product Blue Top added, quantity 2
+
+10:22:08.873 | DEBUG    | Product Blue Top added, quantity 3
+
+10:22:13.290 | DEBUG    | Proceed to checkout button clicked
+
+10:22:13.302 | DEBUG    | Name is correct in the delivery information: Mrs. Chelsea Cunningham
+
+10:22:13.312 | DEBUG    | Company name is correct in the delivery information: Smith, Orr and Griffin
+
+10:22:13.322 | DEBUG    | Address 1 is correct in the delivery information: 4222 David Gardens Suite 559
+
+10:22:13.333 | DEBUG    | Address 2 is correct in the delivery information: Apt. 461
+
+10:22:13.344 | DEBUG    | City is correct in the delivery information: East Erikaville Alabama 22492
+
+10:22:13.354 | DEBUG    | Country is correct in the delivery information: Canada
+
+10:22:13.363 | DEBUG    | Phone is correct in the delivery information: 523.529.1547
+
+10:22:13.373 | DEBUG    | Name is correct in the billing information: Mrs. Chelsea Cunningham
+
+10:22:13.383 | DEBUG    | Company name is correct in the billing information: Smith, Orr and Griffin
+
+10:22:13.393 | DEBUG    | Address 1 is correct in the billing information: 4222 David Gardens Suite 559
+
+10:22:13.404 | DEBUG    | Address 2 is correct in the billing information: Apt. 461
+
+10:22:13.413 | DEBUG    | City is correct in the billing information: East Erikaville Alabama 22492
+
+10:22:13.424 | DEBUG    | Country is correct in the billing information: Canada
+
+10:22:13.435 | DEBUG    | Phone is correct in the billing information: 523.529.1547
+
+10:22:13.443 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+10:22:13.458 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+10:22:13.464 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+10:22:13.481 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+10:22:13.497 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+10:22:13.548 | DEBUG    | Comment filled in with: Note write these hair large lose. Food less opportunity feel. Wind apply mission.
+
+10:22:14.802 | DEBUG    | Place order button clicked
+
+10:22:14.837 | DEBUG    | Name on card filled in with: ****
+
+10:22:14.870 | DEBUG    | Card number filled in with: ****5956
+
+10:22:17.889 | DEBUG    | Pay and confirm button clicked
+
+10:22:17.914 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

@@ -1,0 +1,165 @@
+10:23:43.109 | DEBUG    | New user Signup title is presented
+
+10:23:43.118 | DEBUG    | New user Signup title text is correct
+
+10:23:43.123 | DEBUG    | Signup email field is presented
+
+10:23:43.128 | DEBUG    | Signup name field is presented
+
+10:23:43.165 | DEBUG    | Email signup field filled
+
+10:23:43.190 | DEBUG    | Name signup field filled
+
+10:23:43.223 | DEBUG    | Signup button is clicked
+
+10:23:44.029 | DEBUG    | Account information title is presented
+
+10:23:44.036 | DEBUG    | Account information title text is correct
+
+10:23:44.056 | DEBUG    | Mr radiobutton is presented
+
+10:23:44.061 | DEBUG    | Mrs radiobutton is presented
+
+10:23:44.091 | DEBUG    | Selected MRS title
+
+10:23:44.096 | DEBUG    | Password field is presented
+
+10:23:44.122 | DEBUG    | Password is filled in
+
+10:23:44.127 | DEBUG    | Day of birth list is presented
+
+10:23:44.169 | DEBUG    | Day of birth selected
+
+10:23:44.174 | DEBUG    | Month of birth list is presented
+
+10:23:44.204 | DEBUG    | Month of birth selected
+
+10:23:44.209 | DEBUG    | Year of birth list is presented
+
+10:23:44.239 | DEBUG    | Year of birth selected
+
+10:23:44.270 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+10:23:44.300 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+10:23:44.305 | DEBUG    | First name field is presented
+
+10:23:44.331 | DEBUG    | First name is filled in
+
+10:23:44.336 | DEBUG    | Last name field is presented
+
+10:23:44.361 | DEBUG    | Last name is filled in
+
+10:23:44.367 | DEBUG    | Company field is presented
+
+10:23:44.394 | DEBUG    | Company is filled in
+
+10:23:44.400 | DEBUG    | Address 1 field is presented
+
+10:23:44.433 | DEBUG    | Address 1 is filled in
+
+10:23:44.438 | DEBUG    | Address 2 field is presented
+
+10:23:44.465 | DEBUG    | Address 2 is filled in
+
+10:23:44.500 | DEBUG    | State field is presented
+
+10:23:44.524 | DEBUG    | State is filled in
+
+10:23:44.531 | DEBUG    | City field is presented
+
+10:23:44.559 | DEBUG    | City is filled in
+
+10:23:44.566 | DEBUG    | Zipcode field is presented
+
+10:23:44.590 | DEBUG    | Zipcode is filled in
+
+10:23:44.596 | DEBUG    | Mobile number field is presented
+
+10:23:44.621 | DEBUG    | Mobile number is filled in
+
+10:23:47.510 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+10:23:47.527 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+10:23:47.527 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+10:23:47.532 | DEBUG    | Continue button is presented
+
+10:23:49.696 | DEBUG    | Username is correct Logged in as Maria
+
+10:23:53.590 | DEBUG    | Product Blue Top added, quantity 1
+
+10:23:54.937 | DEBUG    | Product Blue Top added, quantity 2
+
+10:23:55.801 | DEBUG    | Product Men Tshirt added, quantity 1
+
+10:23:56.983 | DEBUG    | Product Men Tshirt added, quantity 2
+
+10:23:58.591 | DEBUG    | Proceed to checkout button clicked
+
+10:23:58.606 | DEBUG    | Name is correct in the delivery information: Mrs. Maria Hill
+
+10:23:58.617 | DEBUG    | Company name is correct in the delivery information: Singleton Group
+
+10:23:58.628 | DEBUG    | Address 1 is correct in the delivery information: 628 Mcbride Ranch Apt. 030
+
+10:23:58.639 | DEBUG    | Address 2 is correct in the delivery information: Suite 879
+
+10:23:58.649 | DEBUG    | City is correct in the delivery information: New Gabrielfurt Maryland 62530
+
+10:23:58.660 | DEBUG    | Country is correct in the delivery information: United States
+
+10:23:58.670 | DEBUG    | Phone is correct in the delivery information: 5484293309
+
+10:23:58.681 | DEBUG    | Name is correct in the billing information: Mrs. Maria Hill
+
+10:23:58.693 | DEBUG    | Company name is correct in the billing information: Singleton Group
+
+10:23:58.703 | DEBUG    | Address 1 is correct in the billing information: 628 Mcbride Ranch Apt. 030
+
+10:23:58.712 | DEBUG    | Address 2 is correct in the billing information: Suite 879
+
+10:23:58.723 | DEBUG    | City is correct in the billing information: New Gabrielfurt Maryland 62530
+
+10:23:58.733 | DEBUG    | Country is correct in the billing information: United States
+
+10:23:58.742 | DEBUG    | Phone is correct in the billing information: 5484293309
+
+10:23:58.750 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+10:23:58.764 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+10:23:58.771 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+10:23:58.780 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+10:23:58.780 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+10:23:58.797 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+10:23:58.807 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+10:23:58.824 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+10:23:58.834 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+10:23:58.882 | DEBUG    | Comment filled in with: Fact you certain walk surface product. Game skin wide we.
+
+10:23:59.512 | DEBUG    | Place order button clicked
+
+10:23:59.549 | DEBUG    | Name on card filled in with: ****
+
+10:23:59.585 | DEBUG    | Card number filled in with: ****5870
+
+10:23:59.719 | DEBUG    | Pay and confirm button clicked
+
+10:24:01.764 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+10:24:02.448 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+10:24:02.448 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+10:24:02.448 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+10:24:03.803 | DEBUG    | Continue button clicked

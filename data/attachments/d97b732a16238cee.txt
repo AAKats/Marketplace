@@ -1,0 +1,75 @@
+10:24:06.894 | DEBUG    | New user details:
+
+10:24:06.894 | DEBUG    |   name: Laurie
+
+10:24:06.894 | DEBUG    |   email: f1adb389_pamelacummings@example.org
+
+10:24:06.894 | DEBUG    |   title: Mrs
+
+10:24:06.894 | DEBUG    |   birth_day: 2
+
+10:24:06.894 | DEBUG    |   birth_month: 1
+
+10:24:06.894 | DEBUG    |   birth_year: 1969
+
+10:24:06.894 | DEBUG    |   firstname: Laurie
+
+10:24:06.894 | DEBUG    |   lastname: Mckee
+
+10:24:06.894 | DEBUG    |   company: Chavez Group
+
+10:24:06.894 | DEBUG    |   address1: 1141 Chad Motorway
+
+10:24:06.894 | DEBUG    |   address2: Apt. 093
+
+10:24:06.894 | DEBUG    |   country: Australia
+
+10:24:06.894 | DEBUG    |   state: North Carolina
+
+10:24:06.894 | DEBUG    |   city: Parkershire
+
+10:24:06.894 | DEBUG    |   zipcode: 04521
+
+10:24:07.089 | DEBUG    | Status code correct: 200
+
+10:24:07.089 | DEBUG    | ResponseCode correct: 201
+
+10:24:07.089 | DEBUG    | Response message correct: "User created!"
+
+10:24:07.089 | DEBUG    | Updated user details:
+
+10:24:07.089 | DEBUG    |   name: Laurie
+
+10:24:07.089 | DEBUG    |   email: f1adb389_pamelacummings@example.org
+
+10:24:07.089 | DEBUG    |   title: Mrs
+
+10:24:07.089 | DEBUG    |   birth_day: 2
+
+10:24:07.089 | DEBUG    |   birth_month: 1
+
+10:24:07.090 | DEBUG    |   birth_year: 1969
+
+10:24:07.090 | DEBUG    |   firstname: Laurie
+
+10:24:07.090 | DEBUG    |   lastname: Mckee
+
+10:24:07.090 | DEBUG    |   company: Chavez Group
+
+10:24:07.090 | DEBUG    |   address1: 1141 Chad Motorway
+
+10:24:07.090 | DEBUG    |   address2: Apt. 093
+
+10:24:07.090 | DEBUG    |   country: Australia
+
+10:24:07.090 | DEBUG    |   state: North Carolina
+
+10:24:07.090 | DEBUG    |   city: Parkershire
+
+10:24:07.091 | DEBUG    |   zipcode: 04521
+
+10:24:07.874 | DEBUG    | Status code correct: 200
+
+10:24:07.874 | DEBUG    | ResponseCode correct: 200
+
+10:24:07.874 | DEBUG    | Response message correct: "User updated!"
