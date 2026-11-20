@@ -1,0 +1,7 @@
+08:31:58.417 | DEBUG    | Text is correct: SUBSCRIPTION
+
+08:31:58.471 | DEBUG    | Email filled in with "90930257_melissa47@example.org"
+
+08:31:58.512 | DEBUG    | Subscribe button is clicked
+
+08:31:58.533 | DEBUG    | Text is correct: You have been successfully subscribed!

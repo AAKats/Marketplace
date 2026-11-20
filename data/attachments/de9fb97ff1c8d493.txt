@@ -1,0 +1,17 @@
+08:30:59.413 | DEBUG    | Login title is presented
+
+08:30:59.422 | DEBUG    | Login title text is correct
+
+08:30:59.428 | DEBUG    | Login email field is presented
+
+08:30:59.432 | DEBUG    | Password field is presented
+
+08:30:59.475 | DEBUG    | Email filled in
+
+08:30:59.502 | DEBUG    | Password filled in
+
+08:30:59.508 | DEBUG    | Login button is presented
+
+08:31:03.330 | DEBUG    | Login button is clicked
+
+08:31:03.346 | DEBUG    | Username is correct Logged in as Linda

@@ -1,0 +1,13 @@
+08:29:00.586 | DEBUG    | Product "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi" (ID: 23) opened
+
+08:29:00.646 | DEBUG    | Quantity = 3 selected
+
+08:29:00.685 | DEBUG    | Product was added to cart
+
+08:29:03.105 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+08:29:03.115 | DEBUG    | Product: Sleeveless Unicorn Print Fit & Flare Net Dress - Multi found in cart: Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+
+08:29:03.130 | DEBUG    | Product Sleeveless Unicorn Print Fit & Flare Net Dress - Multi price in cart: 1100 matches added price: 1100
+
+08:29:03.148 | DEBUG    | Product Sleeveless Unicorn Print Fit & Flare Net Dress - Multi quantity in cart: 3 matches added quantity: 3

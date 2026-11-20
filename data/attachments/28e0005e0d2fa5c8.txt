@@ -1,0 +1,49 @@
+08:29:57.297 | DEBUG    | Search field is presented
+
+08:29:57.345 | DEBUG    | Search field is filled in with: "GRAPHIC DESIGN MEN T SHIRT - BLUE"
+
+08:29:57.351 | DEBUG    | Search button is presented
+
+08:29:58.387 | DEBUG    | Search button is clicked
+
+08:29:58.404 | DEBUG    | Title is presented
+
+08:29:58.404 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+08:29:58.407 | DEBUG    | 1 products found
+
+08:29:58.412 | DEBUG    | "GRAPHIC DESIGN MEN T SHIRT - BLUE" product found, and contains "GRAPHIC DESIGN MEN T SHIRT - BLUE"
+
+08:30:00.194 | DEBUG    | Product GRAPHIC DESIGN MEN T SHIRT - BLUE added, quantity 1
+
+08:30:01.173 | DEBUG    | Product: GRAPHIC DESIGN MEN T SHIRT - BLUE found in cart: GRAPHIC DESIGN MEN T SHIRT - BLUE
+
+08:30:01.189 | DEBUG    | Product GRAPHIC DESIGN MEN T SHIRT - BLUE price in cart: 1389 matches added price: 1389
+
+08:30:01.209 | DEBUG    | Product GRAPHIC DESIGN MEN T SHIRT - BLUE quantity in cart: 1 matches added quantity: 1
+
+08:30:01.227 | DEBUG    | Product GRAPHIC DESIGN MEN T SHIRT - BLUE total in cart: 1389 matches expected total: 1389
+
+08:30:01.645 | DEBUG    | Login email field is presented
+
+08:30:01.650 | DEBUG    | Password field is presented
+
+08:30:01.688 | DEBUG    | Email filled in
+
+08:30:01.717 | DEBUG    | Password filled in
+
+08:30:01.723 | DEBUG    | Login button is presented
+
+08:30:01.755 | DEBUG    | Login button is clicked
+
+08:30:08.303 | DEBUG    | Product: GRAPHIC DESIGN MEN T SHIRT - BLUE found in cart: GRAPHIC DESIGN MEN T SHIRT - BLUE
+
+08:30:08.318 | DEBUG    | Product GRAPHIC DESIGN MEN T SHIRT - BLUE price in cart: 1389 matches added price: 1389
+
+08:30:08.335 | DEBUG    | Product GRAPHIC DESIGN MEN T SHIRT - BLUE quantity in cart: 1 matches added quantity: 1
+
+08:30:08.351 | DEBUG    | Product GRAPHIC DESIGN MEN T SHIRT - BLUE total in cart: 1389 matches expected total: 1389
+
+08:30:13.463 | DEBUG    | All products deleted
+
+08:30:13.470 | DEBUG    | Empty cart text correct: Cart is empty!

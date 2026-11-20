@@ -1,0 +1,5 @@
+08:31:53.903 | DEBUG    | Status code correct: 200
+
+08:31:53.903 | DEBUG    | ResponseCode correct: 405
+
+08:31:53.903 | DEBUG    | Response message correct: "This request method is not supported."

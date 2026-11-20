@@ -1,0 +1,19 @@
+08:32:09.496 | DEBUG    | Search field is presented
+
+08:32:09.532 | DEBUG    | Search field is filled in with: "Sleeveless"
+
+08:32:09.539 | DEBUG    | Search button is presented
+
+08:32:10.379 | DEBUG    | Search button is clicked
+
+08:32:10.397 | DEBUG    | Title is presented
+
+08:32:10.397 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+08:32:10.402 | DEBUG    | 3 products found
+
+08:32:10.406 | DEBUG    | "Sleeveless Dress" product found, and contains "Sleeveless"
+
+08:32:10.410 | DEBUG    | "Sleeveless Unicorn Patch Gown - Pink" product found, and contains "Sleeveless"
+
+08:32:10.414 | DEBUG    | "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi" product found, and contains "Sleeveless"

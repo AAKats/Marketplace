@@ -1,0 +1,7 @@
+08:31:33.584 | DEBUG    | Email filled in
+
+08:31:33.613 | DEBUG    | Password filled in
+
+08:31:33.618 | DEBUG    | Login button is presented
+
+08:31:36.450 | DEBUG    | Login button is clicked

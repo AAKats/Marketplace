@@ -1,0 +1,165 @@
+08:32:57.233 | DEBUG    | New user Signup title is presented
+
+08:32:57.244 | DEBUG    | New user Signup title text is correct
+
+08:32:57.249 | DEBUG    | Signup email field is presented
+
+08:32:57.255 | DEBUG    | Signup name field is presented
+
+08:32:57.299 | DEBUG    | Email signup field filled
+
+08:32:57.328 | DEBUG    | Name signup field filled
+
+08:32:58.002 | DEBUG    | Signup button is clicked
+
+08:32:58.018 | DEBUG    | Account information title is presented
+
+08:32:58.026 | DEBUG    | Account information title text is correct
+
+08:32:58.049 | DEBUG    | Mr radiobutton is presented
+
+08:32:58.054 | DEBUG    | Mrs radiobutton is presented
+
+08:32:58.086 | DEBUG    | Selected MR title
+
+08:32:58.092 | DEBUG    | Password field is presented
+
+08:32:58.126 | DEBUG    | Password is filled in
+
+08:32:58.132 | DEBUG    | Day of birth list is presented
+
+08:32:58.171 | DEBUG    | Day of birth selected
+
+08:32:58.176 | DEBUG    | Month of birth list is presented
+
+08:32:58.209 | DEBUG    | Month of birth selected
+
+08:32:58.214 | DEBUG    | Year of birth list is presented
+
+08:32:58.246 | DEBUG    | Year of birth selected
+
+08:32:58.246 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+08:32:58.281 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+08:32:58.287 | DEBUG    | First name field is presented
+
+08:32:58.314 | DEBUG    | First name is filled in
+
+08:32:58.321 | DEBUG    | Last name field is presented
+
+08:32:58.350 | DEBUG    | Last name is filled in
+
+08:32:58.356 | DEBUG    | Company field is presented
+
+08:32:58.386 | DEBUG    | Company is filled in
+
+08:32:58.391 | DEBUG    | Address 1 field is presented
+
+08:32:58.426 | DEBUG    | Address 1 is filled in
+
+08:32:58.432 | DEBUG    | Address 2 field is presented
+
+08:32:58.461 | DEBUG    | Address 2 is filled in
+
+08:32:58.502 | DEBUG    | State field is presented
+
+08:32:58.531 | DEBUG    | State is filled in
+
+08:32:58.537 | DEBUG    | City field is presented
+
+08:32:58.567 | DEBUG    | City is filled in
+
+08:32:58.573 | DEBUG    | Zipcode field is presented
+
+08:32:58.600 | DEBUG    | Zipcode is filled in
+
+08:32:58.606 | DEBUG    | Mobile number field is presented
+
+08:32:58.640 | DEBUG    | Mobile number is filled in
+
+08:33:00.623 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+08:33:00.641 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+08:33:00.641 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+08:33:00.646 | DEBUG    | Continue button is presented
+
+08:33:01.614 | DEBUG    | Username is correct Logged in as Harold
+
+08:33:04.998 | DEBUG    | Product Blue Top added, quantity 1
+
+08:33:05.866 | DEBUG    | Product Blue Top added, quantity 2
+
+08:33:06.730 | DEBUG    | Product Men Tshirt added, quantity 1
+
+08:33:08.092 | DEBUG    | Product Men Tshirt added, quantity 2
+
+08:33:08.975 | DEBUG    | Proceed to checkout button clicked
+
+08:33:08.991 | DEBUG    | Name is correct in the delivery information: Mr. Harold Mcdonald
+
+08:33:09.003 | DEBUG    | Company name is correct in the delivery information: Carter Ltd
+
+08:33:09.015 | DEBUG    | Address 1 is correct in the delivery information: 82727 Melinda Terrace
+
+08:33:09.027 | DEBUG    | Address 2 is correct in the delivery information: Suite 989
+
+08:33:09.039 | DEBUG    | City is correct in the delivery information: Port Sara North Dakota 51922
+
+08:33:09.049 | DEBUG    | Country is correct in the delivery information: Canada
+
+08:33:09.061 | DEBUG    | Phone is correct in the delivery information: 001-655-714-3168x328
+
+08:33:09.073 | DEBUG    | Name is correct in the billing information: Mr. Harold Mcdonald
+
+08:33:09.084 | DEBUG    | Company name is correct in the billing information: Carter Ltd
+
+08:33:09.095 | DEBUG    | Address 1 is correct in the billing information: 82727 Melinda Terrace
+
+08:33:09.106 | DEBUG    | Address 2 is correct in the billing information: Suite 989
+
+08:33:09.117 | DEBUG    | City is correct in the billing information: Port Sara North Dakota 51922
+
+08:33:09.130 | DEBUG    | Country is correct in the billing information: Canada
+
+08:33:09.141 | DEBUG    | Phone is correct in the billing information: 001-655-714-3168x328
+
+08:33:09.150 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+08:33:09.167 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+08:33:09.174 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+08:33:09.184 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+08:33:09.184 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+08:33:09.202 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+08:33:09.213 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+08:33:09.231 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+08:33:09.242 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+08:33:09.305 | DEBUG    | Comment filled in with: Accept account mission would follow. Gun special manage send full plant cost.
+
+08:33:09.520 | DEBUG    | Place order button clicked
+
+08:33:09.563 | DEBUG    | Name on card filled in with: ****
+
+08:33:09.600 | DEBUG    | Card number filled in with: ****3183
+
+08:33:11.315 | DEBUG    | Pay and confirm button clicked
+
+08:33:11.349 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+08:33:11.639 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+08:33:11.639 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+08:33:11.639 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+08:33:12.279 | DEBUG    | Continue button clicked
