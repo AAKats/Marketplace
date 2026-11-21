@@ -1,0 +1,15 @@
+12:20:56.302 | DEBUG    | Products list is presented
+
+12:20:56.718 | DEBUG    | View button for the 1 product from the start (id = 2) clicked
+
+12:20:56.730 | DEBUG    | Product name field is presented
+
+12:20:56.736 | DEBUG    | Category field is presented
+
+12:20:56.742 | DEBUG    | Price field is presented
+
+12:20:56.747 | DEBUG    | Availability field is presented
+
+12:20:56.753 | DEBUG    | Condition field is presented
+
+12:20:56.759 | DEBUG    | Brand field is presented

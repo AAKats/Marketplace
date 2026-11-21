@@ -1,0 +1,43 @@
+12:21:41.188 | DEBUG    | New user details:
+
+12:21:41.188 | DEBUG    |   name: George
+
+12:21:41.188 | DEBUG    |   email: 8e073883_kevin19@example.com
+
+12:21:41.188 | DEBUG    |   title: Mr
+
+12:21:41.188 | DEBUG    |   birth_day: 17
+
+12:21:41.188 | DEBUG    |   birth_month: 7
+
+12:21:41.188 | DEBUG    |   birth_year: 1981
+
+12:21:41.188 | DEBUG    |   firstname: George
+
+12:21:41.188 | DEBUG    |   lastname: Moss
+
+12:21:41.188 | DEBUG    |   company: Lee-Gutierrez
+
+12:21:41.188 | DEBUG    |   address1: 6853 Valdez Bypass Apt. 355
+
+12:21:41.188 | DEBUG    |   address2: Suite 312
+
+12:21:41.188 | DEBUG    |   country: United States
+
+12:21:41.188 | DEBUG    |   state: Iowa
+
+12:21:41.188 | DEBUG    |   city: New Anthony
+
+12:21:41.188 | DEBUG    |   zipcode: 91520
+
+12:21:41.518 | DEBUG    | Status code correct: 200
+
+12:21:41.518 | DEBUG    | ResponseCode correct: 201
+
+12:21:41.518 | DEBUG    | Response message correct: "User created!"
+
+12:21:42.096 | DEBUG    | Status code correct: 200
+
+12:21:42.096 | DEBUG    | ResponseCode correct: 200
+
+12:21:42.096 | DEBUG    | Response message correct: "Account deleted!"
