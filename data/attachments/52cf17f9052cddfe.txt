@@ -1,0 +1,169 @@
+00:43:55.840 | DEBUG    | Product Blue Top added, quantity 1
+
+00:43:56.720 | DEBUG    | Product Blue Top added, quantity 2
+
+00:43:57.622 | DEBUG    | Product Men Tshirt added, quantity 1
+
+00:43:58.682 | DEBUG    | Product Men Tshirt added, quantity 2
+
+00:43:58.957 | DEBUG    | Proceed to checkout button clicked
+
+00:43:59.156 | DEBUG    | Register via modal button clicked
+
+00:43:59.168 | DEBUG    | New user Signup title is presented
+
+00:43:59.177 | DEBUG    | New user Signup title text is correct
+
+00:43:59.183 | DEBUG    | Signup email field is presented
+
+00:43:59.189 | DEBUG    | Signup name field is presented
+
+00:43:59.249 | DEBUG    | Email signup field filled
+
+00:43:59.292 | DEBUG    | Name signup field filled
+
+00:43:59.475 | DEBUG    | Signup button is clicked
+
+00:43:59.491 | DEBUG    | Account information title is presented
+
+00:43:59.502 | DEBUG    | Account information title text is correct
+
+00:43:59.532 | DEBUG    | Mr radiobutton is presented
+
+00:43:59.539 | DEBUG    | Mrs radiobutton is presented
+
+00:43:59.585 | DEBUG    | Selected MRS title
+
+00:43:59.592 | DEBUG    | Password field is presented
+
+00:43:59.642 | DEBUG    | Password is filled in
+
+00:43:59.650 | DEBUG    | Day of birth list is presented
+
+00:43:59.706 | DEBUG    | Day of birth selected
+
+00:43:59.713 | DEBUG    | Month of birth list is presented
+
+00:43:59.758 | DEBUG    | Month of birth selected
+
+00:43:59.766 | DEBUG    | Year of birth list is presented
+
+00:43:59.809 | DEBUG    | Year of birth selected
+
+00:43:59.809 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+00:43:59.810 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+00:43:59.818 | DEBUG    | First name field is presented
+
+00:43:59.858 | DEBUG    | First name is filled in
+
+00:43:59.867 | DEBUG    | Last name field is presented
+
+00:43:59.911 | DEBUG    | Last name is filled in
+
+00:43:59.920 | DEBUG    | Company field is presented
+
+00:43:59.962 | DEBUG    | Company is filled in
+
+00:43:59.971 | DEBUG    | Address 1 field is presented
+
+00:44:00.022 | DEBUG    | Address 1 is filled in
+
+00:44:00.029 | DEBUG    | Address 2 field is presented
+
+00:44:00.072 | DEBUG    | Address 2 is filled in
+
+00:44:00.129 | DEBUG    | State field is presented
+
+00:44:00.169 | DEBUG    | State is filled in
+
+00:44:00.177 | DEBUG    | City field is presented
+
+00:44:00.217 | DEBUG    | City is filled in
+
+00:44:00.225 | DEBUG    | Zipcode field is presented
+
+00:44:00.261 | DEBUG    | Zipcode is filled in
+
+00:44:00.270 | DEBUG    | Mobile number field is presented
+
+00:44:00.313 | DEBUG    | Mobile number is filled in
+
+00:44:01.476 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+00:44:01.499 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+00:44:01.499 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+00:44:01.506 | DEBUG    | Continue button is presented
+
+00:44:02.103 | DEBUG    | Username is correct Logged in as Aaron
+
+00:44:02.826 | DEBUG    | Proceed to checkout button clicked
+
+00:44:02.845 | DEBUG    | Name is correct in the delivery information: Mrs. Aaron Walker
+
+00:44:02.861 | DEBUG    | Company name is correct in the delivery information: White-Johnson
+
+00:44:02.880 | DEBUG    | Address 1 is correct in the delivery information: 86296 Smith Trafficway
+
+00:44:02.897 | DEBUG    | Address 2 is correct in the delivery information: Suite 668
+
+00:44:02.913 | DEBUG    | City is correct in the delivery information: Paulshire Oklahoma 54637
+
+00:44:02.929 | DEBUG    | Country is correct in the delivery information: Singapore
+
+00:44:02.945 | DEBUG    | Phone is correct in the delivery information: +1-998-823-7528
+
+00:44:02.960 | DEBUG    | Name is correct in the billing information: Mrs. Aaron Walker
+
+00:44:02.976 | DEBUG    | Company name is correct in the billing information: White-Johnson
+
+00:44:02.992 | DEBUG    | Address 1 is correct in the billing information: 86296 Smith Trafficway
+
+00:44:03.008 | DEBUG    | Address 2 is correct in the billing information: Suite 668
+
+00:44:03.023 | DEBUG    | City is correct in the billing information: Paulshire Oklahoma 54637
+
+00:44:03.039 | DEBUG    | Country is correct in the billing information: Singapore
+
+00:44:03.055 | DEBUG    | Phone is correct in the billing information: +1-998-823-7528
+
+00:44:03.068 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+00:44:03.092 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+00:44:03.102 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+00:44:03.116 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+00:44:03.116 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+00:44:03.142 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+00:44:03.157 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+00:44:03.182 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+00:44:03.196 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+00:44:03.277 | DEBUG    | Comment filled in with: Play yet understand. We physical security weight. Its home program discussion.
+
+00:44:03.454 | DEBUG    | Place order button clicked
+
+00:44:03.511 | DEBUG    | Name on card filled in with: ****
+
+00:44:03.560 | DEBUG    | Card number filled in with: ****7070
+
+00:44:05.046 | DEBUG    | Pay and confirm button clicked
+
+00:44:05.095 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+00:44:05.366 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+00:44:05.366 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+00:44:05.366 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+00:44:05.910 | DEBUG    | Continue button clicked

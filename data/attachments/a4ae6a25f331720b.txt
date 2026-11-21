@@ -1,0 +1,75 @@
+00:46:28.077 | DEBUG    | New user details:
+
+00:46:28.077 | DEBUG    |   name: Alexandra
+
+00:46:28.077 | DEBUG    |   email: f3384565_jacksmith@example.com
+
+00:46:28.077 | DEBUG    |   title: Mr
+
+00:46:28.077 | DEBUG    |   birth_day: 23
+
+00:46:28.077 | DEBUG    |   birth_month: 3
+
+00:46:28.077 | DEBUG    |   birth_year: 2013
+
+00:46:28.077 | DEBUG    |   firstname: Alexandra
+
+00:46:28.077 | DEBUG    |   lastname: Spencer
+
+00:46:28.077 | DEBUG    |   company: Luna-Pitts
+
+00:46:28.077 | DEBUG    |   address1: 7380 Parker Expressway
+
+00:46:28.077 | DEBUG    |   address2: Suite 867
+
+00:46:28.077 | DEBUG    |   country: Australia
+
+00:46:28.077 | DEBUG    |   state: Tennessee
+
+00:46:28.077 | DEBUG    |   city: Colonmouth
+
+00:46:28.077 | DEBUG    |   zipcode: 74195
+
+00:46:28.157 | DEBUG    | Status code correct: 200
+
+00:46:28.157 | DEBUG    | ResponseCode correct: 201
+
+00:46:28.157 | DEBUG    | Response message correct: "User created!"
+
+00:46:28.157 | DEBUG    | Updated user details:
+
+00:46:28.157 | DEBUG    |   name: Alexandra
+
+00:46:28.157 | DEBUG    |   email: f3384565_jacksmith@example.com
+
+00:46:28.157 | DEBUG    |   title: Mr
+
+00:46:28.157 | DEBUG    |   birth_day: 23
+
+00:46:28.157 | DEBUG    |   birth_month: 3
+
+00:46:28.157 | DEBUG    |   birth_year: 2013
+
+00:46:28.157 | DEBUG    |   firstname: Alexandra
+
+00:46:28.157 | DEBUG    |   lastname: Spencer
+
+00:46:28.157 | DEBUG    |   company: Luna-Pitts
+
+00:46:28.157 | DEBUG    |   address1: 7380 Parker Expressway
+
+00:46:28.157 | DEBUG    |   address2: Suite 867
+
+00:46:28.157 | DEBUG    |   country: Australia
+
+00:46:28.157 | DEBUG    |   state: Tennessee
+
+00:46:28.157 | DEBUG    |   city: Colonmouth
+
+00:46:28.159 | DEBUG    |   zipcode: 74195
+
+00:46:28.252 | DEBUG    | Status code correct: 200
+
+00:46:28.253 | DEBUG    | ResponseCode correct: 200
+
+00:46:28.253 | DEBUG    | Response message correct: "User updated!"

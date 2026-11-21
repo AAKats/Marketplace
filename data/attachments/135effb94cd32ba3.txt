@@ -1,0 +1,163 @@
+00:44:28.978 | DEBUG    | New user Signup title is presented
+
+00:44:28.991 | DEBUG    | New user Signup title text is correct
+
+00:44:28.997 | DEBUG    | Signup email field is presented
+
+00:44:29.003 | DEBUG    | Signup name field is presented
+
+00:44:29.057 | DEBUG    | Email signup field filled
+
+00:44:29.095 | DEBUG    | Name signup field filled
+
+00:44:29.139 | DEBUG    | Signup button is clicked
+
+00:44:29.305 | DEBUG    | Account information title is presented
+
+00:44:29.315 | DEBUG    | Account information title text is correct
+
+00:44:29.346 | DEBUG    | Mr radiobutton is presented
+
+00:44:29.352 | DEBUG    | Mrs radiobutton is presented
+
+00:44:29.392 | DEBUG    | Selected MR title
+
+00:44:29.399 | DEBUG    | Password field is presented
+
+00:44:29.436 | DEBUG    | Password is filled in
+
+00:44:29.445 | DEBUG    | Day of birth list is presented
+
+00:44:29.494 | DEBUG    | Day of birth selected
+
+00:44:29.502 | DEBUG    | Month of birth list is presented
+
+00:44:29.542 | DEBUG    | Month of birth selected
+
+00:44:29.550 | DEBUG    | Year of birth list is presented
+
+00:44:29.591 | DEBUG    | Year of birth selected
+
+00:44:29.635 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+00:44:29.636 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+00:44:29.642 | DEBUG    | First name field is presented
+
+00:44:29.678 | DEBUG    | First name is filled in
+
+00:44:29.687 | DEBUG    | Last name field is presented
+
+00:44:29.722 | DEBUG    | Last name is filled in
+
+00:44:29.729 | DEBUG    | Company field is presented
+
+00:44:29.768 | DEBUG    | Company is filled in
+
+00:44:29.775 | DEBUG    | Address 1 field is presented
+
+00:44:29.821 | DEBUG    | Address 1 is filled in
+
+00:44:29.828 | DEBUG    | Address 2 field is presented
+
+00:44:29.867 | DEBUG    | Address 2 is filled in
+
+00:44:29.918 | DEBUG    | State field is presented
+
+00:44:29.955 | DEBUG    | State is filled in
+
+00:44:29.962 | DEBUG    | City field is presented
+
+00:44:30.004 | DEBUG    | City is filled in
+
+00:44:30.011 | DEBUG    | Zipcode field is presented
+
+00:44:30.045 | DEBUG    | Zipcode is filled in
+
+00:44:30.054 | DEBUG    | Mobile number field is presented
+
+00:44:30.096 | DEBUG    | Mobile number is filled in
+
+00:44:30.762 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+00:44:30.785 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+00:44:30.786 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+00:44:30.791 | DEBUG    | Continue button is presented
+
+00:44:31.486 | DEBUG    | Username is correct Logged in as Kimberly
+
+00:44:32.417 | DEBUG    | Product Blue Top added, quantity 1
+
+00:44:33.295 | DEBUG    | Product Blue Top added, quantity 2
+
+00:44:34.186 | DEBUG    | Product Men Tshirt added, quantity 1
+
+00:44:35.062 | DEBUG    | Product Men Tshirt added, quantity 2
+
+00:44:35.966 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+00:44:38.073 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+00:44:38.690 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+00:44:38.690 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+00:44:38.690 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+00:44:38.710 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+00:44:38.719 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+00:44:38.728 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+00:44:38.753 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+00:44:38.767 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+00:44:38.783 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+00:44:38.807 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+00:44:38.822 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+00:44:38.835 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+00:44:39.416 | DEBUG    | Proceed to checkout button clicked
+
+00:44:39.433 | DEBUG    | Name is correct in the delivery information: Mr. Kimberly James
+
+00:44:39.448 | DEBUG    | Company name is correct in the delivery information: Lyons Ltd
+
+00:44:39.462 | DEBUG    | Address 1 is correct in the delivery information: 65025 Parker Knolls
+
+00:44:39.476 | DEBUG    | Address 2 is correct in the delivery information: Suite 328
+
+00:44:39.491 | DEBUG    | City is correct in the delivery information: North Jimmyview Maine 57997
+
+00:44:39.506 | DEBUG    | Country is correct in the delivery information: United States
+
+00:44:39.521 | DEBUG    | Phone is correct in the delivery information: (904)757-6017x58454
+
+00:44:39.536 | DEBUG    | Name is correct in the billing information: Mr. Kimberly James
+
+00:44:39.550 | DEBUG    | Company name is correct in the billing information: Lyons Ltd
+
+00:44:39.565 | DEBUG    | Address 1 is correct in the billing information: 65025 Parker Knolls
+
+00:44:39.579 | DEBUG    | Address 2 is correct in the billing information: Suite 328
+
+00:44:39.594 | DEBUG    | City is correct in the billing information: North Jimmyview Maine 57997
+
+00:44:39.608 | DEBUG    | Country is correct in the billing information: United States
+
+00:44:39.623 | DEBUG    | Phone is correct in the billing information: (904)757-6017x58454
+
+00:44:40.202 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+00:44:40.202 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+00:44:40.202 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+00:44:41.875 | DEBUG    | Continue button clicked

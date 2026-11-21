@@ -1,0 +1,67 @@
+00:45:31.269 | DEBUG    | Email filled in
+
+00:45:31.310 | DEBUG    | Password filled in
+
+00:45:31.318 | DEBUG    | Login button is presented
+
+00:45:31.358 | DEBUG    | Login button is clicked
+
+00:45:33.526 | DEBUG    | Username is correct Logged in as Amy
+
+00:45:34.467 | DEBUG    | Product Blue Top added, quantity 1
+
+00:45:35.352 | DEBUG    | Product Blue Top added, quantity 2
+
+00:45:36.480 | DEBUG    | Product Blue Top added, quantity 3
+
+00:45:36.967 | DEBUG    | Proceed to checkout button clicked
+
+00:45:36.984 | DEBUG    | Name is correct in the delivery information: Mrs. Amy Olsen
+
+00:45:36.999 | DEBUG    | Company name is correct in the delivery information: Pierce, Taylor and Powell
+
+00:45:37.013 | DEBUG    | Address 1 is correct in the delivery information: 1670 Debbie Estates Suite 154
+
+00:45:37.026 | DEBUG    | Address 2 is correct in the delivery information: Suite 979
+
+00:45:37.040 | DEBUG    | City is correct in the delivery information: New William Florida 63916
+
+00:45:37.054 | DEBUG    | Country is correct in the delivery information: Canada
+
+00:45:37.068 | DEBUG    | Phone is correct in the delivery information: 901-302-8253
+
+00:45:37.081 | DEBUG    | Name is correct in the billing information: Mrs. Amy Olsen
+
+00:45:37.095 | DEBUG    | Company name is correct in the billing information: Pierce, Taylor and Powell
+
+00:45:37.109 | DEBUG    | Address 1 is correct in the billing information: 1670 Debbie Estates Suite 154
+
+00:45:37.123 | DEBUG    | Address 2 is correct in the billing information: Suite 979
+
+00:45:37.136 | DEBUG    | City is correct in the billing information: New William Florida 63916
+
+00:45:37.150 | DEBUG    | Country is correct in the billing information: Canada
+
+00:45:37.164 | DEBUG    | Phone is correct in the billing information: 901-302-8253
+
+00:45:37.174 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+00:45:37.194 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+00:45:37.203 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+00:45:37.225 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+00:45:37.248 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+00:45:37.320 | DEBUG    | Comment filled in with: Our loss new. Seat near suggest least newspaper large add.
+
+00:45:37.485 | DEBUG    | Place order button clicked
+
+00:45:37.536 | DEBUG    | Name on card filled in with: ****
+
+00:45:37.583 | DEBUG    | Card number filled in with: ****2596
+
+00:45:37.766 | DEBUG    | Pay and confirm button clicked
+
+00:45:39.048 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

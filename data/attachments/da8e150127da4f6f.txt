@@ -1,0 +1,39 @@
+00:45:02.834 | DEBUG    | Main title is presented
+
+00:45:02.861 | DEBUG    | Main title is correct: CONTACT US
+
+00:45:02.868 | DEBUG    | Second title is presented
+
+00:45:02.890 | DEBUG    | Second title is correct: GET IN TOUCH
+
+00:45:02.900 | DEBUG    | Name field is presented
+
+00:45:02.943 | DEBUG    | Name field filled in with: Leah
+
+00:45:02.954 | DEBUG    | Email field is presented
+
+00:45:03.004 | DEBUG    | Email field filled in with: fa3ff5d8_juan18@example.net
+
+00:45:03.014 | DEBUG    | Subject field is presented
+
+00:45:03.056 | DEBUG    | Subject field filled in with: Condition.
+
+00:45:03.067 | DEBUG    | Message field is presented
+
+00:45:03.150 | DEBUG    | Message field filled in with: Education something rate hospital fire. Middle suffer carry chair positive enter.
+
+00:45:03.158 | DEBUG    | Upload field is presented
+
+00:45:03.176 | DEBUG    | File uploaded
+
+00:45:03.183 | DEBUG    | Submit button is presented
+
+00:45:03.274 | DEBUG    | Alert is presented
+
+00:45:03.312 | DEBUG    | Success message is presented
+
+00:45:03.312 | DEBUG    | Success message is correct
+
+00:45:03.319 | DEBUG    | Home button is presented
+
+00:45:04.077 | DEBUG    | Home button is clicked

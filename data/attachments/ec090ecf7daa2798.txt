@@ -1,0 +1,13 @@
+00:43:51.287 | DEBUG    | Product "Pure Cotton V-Neck T-Shirt" (ID: 28) opened
+
+00:43:51.364 | DEBUG    | Quantity = 6 selected
+
+00:43:51.416 | DEBUG    | Product was added to cart
+
+00:43:52.331 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+00:43:52.343 | DEBUG    | Product: Pure Cotton V-Neck T-Shirt found in cart: Pure Cotton V-Neck T-Shirt
+
+00:43:52.363 | DEBUG    | Product Pure Cotton V-Neck T-Shirt price in cart: 1299 matches added price: 1299
+
+00:43:52.388 | DEBUG    | Product Pure Cotton V-Neck T-Shirt quantity in cart: 6 matches added quantity: 6

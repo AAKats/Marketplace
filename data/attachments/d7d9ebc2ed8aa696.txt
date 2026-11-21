@@ -1,0 +1,49 @@
+00:44:18.022 | DEBUG    | Search field is presented
+
+00:44:18.072 | DEBUG    | Search field is filled in with: "Lace Top For Women"
+
+00:44:18.079 | DEBUG    | Search button is presented
+
+00:44:18.337 | DEBUG    | Search button is clicked
+
+00:44:18.356 | DEBUG    | Title is presented
+
+00:44:18.356 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+00:44:18.362 | DEBUG    | 1 products found
+
+00:44:18.369 | DEBUG    | "Lace Top For Women" product found, and contains "Lace Top For Women"
+
+00:44:19.453 | DEBUG    | Product Lace Top For Women added, quantity 1
+
+00:44:19.675 | DEBUG    | Product: Lace Top For Women found in cart: Lace Top For Women
+
+00:44:19.697 | DEBUG    | Product Lace Top For Women price in cart: 1400 matches added price: 1400
+
+00:44:19.722 | DEBUG    | Product Lace Top For Women quantity in cart: 1 matches added quantity: 1
+
+00:44:19.748 | DEBUG    | Product Lace Top For Women total in cart: 1400 matches expected total: 1400
+
+00:44:19.904 | DEBUG    | Login email field is presented
+
+00:44:19.910 | DEBUG    | Password field is presented
+
+00:44:19.962 | DEBUG    | Email filled in
+
+00:44:20.004 | DEBUG    | Password filled in
+
+00:44:20.011 | DEBUG    | Login button is presented
+
+00:44:20.052 | DEBUG    | Login button is clicked
+
+00:44:22.929 | DEBUG    | Product: Lace Top For Women found in cart: Lace Top For Women
+
+00:44:22.951 | DEBUG    | Product Lace Top For Women price in cart: 1400 matches added price: 1400
+
+00:44:22.974 | DEBUG    | Product Lace Top For Women quantity in cart: 1 matches added quantity: 1
+
+00:44:22.997 | DEBUG    | Product Lace Top For Women total in cart: 1400 matches expected total: 1400
+
+00:44:27.629 | DEBUG    | All products deleted
+
+00:44:27.638 | DEBUG    | Empty cart text correct: Cart is empty!

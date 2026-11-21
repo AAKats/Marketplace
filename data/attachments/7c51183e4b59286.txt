@@ -1,0 +1,165 @@
+00:46:14.242 | DEBUG    | New user Signup title is presented
+
+00:46:14.257 | DEBUG    | New user Signup title text is correct
+
+00:46:14.264 | DEBUG    | Signup email field is presented
+
+00:46:14.271 | DEBUG    | Signup name field is presented
+
+00:46:14.330 | DEBUG    | Email signup field filled
+
+00:46:14.368 | DEBUG    | Name signup field filled
+
+00:46:14.413 | DEBUG    | Signup button is clicked
+
+00:46:14.955 | DEBUG    | Account information title is presented
+
+00:46:14.965 | DEBUG    | Account information title text is correct
+
+00:46:14.996 | DEBUG    | Mr radiobutton is presented
+
+00:46:15.003 | DEBUG    | Mrs radiobutton is presented
+
+00:46:15.047 | DEBUG    | Selected MRS title
+
+00:46:15.055 | DEBUG    | Password field is presented
+
+00:46:15.093 | DEBUG    | Password is filled in
+
+00:46:15.104 | DEBUG    | Day of birth list is presented
+
+00:46:15.156 | DEBUG    | Day of birth selected
+
+00:46:15.164 | DEBUG    | Month of birth list is presented
+
+00:46:15.208 | DEBUG    | Month of birth selected
+
+00:46:15.217 | DEBUG    | Year of birth list is presented
+
+00:46:15.262 | DEBUG    | Year of birth selected
+
+00:46:15.307 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+00:46:15.353 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+00:46:15.361 | DEBUG    | First name field is presented
+
+00:46:15.398 | DEBUG    | First name is filled in
+
+00:46:15.405 | DEBUG    | Last name field is presented
+
+00:46:15.443 | DEBUG    | Last name is filled in
+
+00:46:15.451 | DEBUG    | Company field is presented
+
+00:46:15.495 | DEBUG    | Company is filled in
+
+00:46:15.503 | DEBUG    | Address 1 field is presented
+
+00:46:15.559 | DEBUG    | Address 1 is filled in
+
+00:46:15.568 | DEBUG    | Address 2 field is presented
+
+00:46:15.607 | DEBUG    | Address 2 is filled in
+
+00:46:15.667 | DEBUG    | State field is presented
+
+00:46:15.708 | DEBUG    | State is filled in
+
+00:46:15.717 | DEBUG    | City field is presented
+
+00:46:15.758 | DEBUG    | City is filled in
+
+00:46:15.767 | DEBUG    | Zipcode field is presented
+
+00:46:15.804 | DEBUG    | Zipcode is filled in
+
+00:46:15.814 | DEBUG    | Mobile number field is presented
+
+00:46:15.854 | DEBUG    | Mobile number is filled in
+
+00:46:16.549 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+00:46:16.572 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+00:46:16.573 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+00:46:16.579 | DEBUG    | Continue button is presented
+
+00:46:17.403 | DEBUG    | Username is correct Logged in as Zachary
+
+00:46:19.078 | DEBUG    | Product Blue Top added, quantity 1
+
+00:46:19.959 | DEBUG    | Product Blue Top added, quantity 2
+
+00:46:20.872 | DEBUG    | Product Men Tshirt added, quantity 1
+
+00:46:22.460 | DEBUG    | Product Men Tshirt added, quantity 2
+
+00:46:22.964 | DEBUG    | Proceed to checkout button clicked
+
+00:46:22.983 | DEBUG    | Name is correct in the delivery information: Mrs. Zachary Herrera
+
+00:46:23.000 | DEBUG    | Company name is correct in the delivery information: Carson-Copeland
+
+00:46:23.016 | DEBUG    | Address 1 is correct in the delivery information: 40058 Morgan Valley Suite 399
+
+00:46:23.034 | DEBUG    | Address 2 is correct in the delivery information: Apt. 645
+
+00:46:23.051 | DEBUG    | City is correct in the delivery information: North Carol South Dakota 63906
+
+00:46:23.067 | DEBUG    | Country is correct in the delivery information: Australia
+
+00:46:23.084 | DEBUG    | Phone is correct in the delivery information: 471-556-7948
+
+00:46:23.102 | DEBUG    | Name is correct in the billing information: Mrs. Zachary Herrera
+
+00:46:23.119 | DEBUG    | Company name is correct in the billing information: Carson-Copeland
+
+00:46:23.138 | DEBUG    | Address 1 is correct in the billing information: 40058 Morgan Valley Suite 399
+
+00:46:23.153 | DEBUG    | Address 2 is correct in the billing information: Apt. 645
+
+00:46:23.170 | DEBUG    | City is correct in the billing information: North Carol South Dakota 63906
+
+00:46:23.186 | DEBUG    | Country is correct in the billing information: Australia
+
+00:46:23.203 | DEBUG    | Phone is correct in the billing information: 471-556-7948
+
+00:46:23.218 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+00:46:23.244 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+00:46:23.254 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+00:46:23.268 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+00:46:23.268 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+00:46:23.294 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+00:46:23.309 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+00:46:23.334 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+00:46:23.349 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+00:46:23.443 | DEBUG    | Comment filled in with: Against term newspaper direction. North lose successful. Whom capital call main since big my.
+
+00:46:23.623 | DEBUG    | Place order button clicked
+
+00:46:23.680 | DEBUG    | Name on card filled in with: ****
+
+00:46:23.730 | DEBUG    | Card number filled in with: ****6835
+
+00:46:25.306 | DEBUG    | Pay and confirm button clicked
+
+00:46:25.350 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+00:46:25.809 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+00:46:25.809 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+00:46:25.809 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+00:46:27.066 | DEBUG    | Continue button clicked
