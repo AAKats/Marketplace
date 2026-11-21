@@ -1,0 +1,19 @@
+23:47:39.648 | DEBUG    | Login title is presented
+
+23:47:39.658 | DEBUG    | Login title text is correct
+
+23:47:39.670 | DEBUG    | Login email field is presented
+
+23:47:39.675 | DEBUG    | Password field is presented
+
+23:47:39.708 | DEBUG    | Email filled in
+
+23:47:39.739 | DEBUG    | Password filled in
+
+23:47:39.745 | DEBUG    | Login button is presented
+
+23:47:39.775 | DEBUG    | Login button is clicked
+
+23:47:40.288 | DEBUG    | Error is presented
+
+23:47:40.295 | DEBUG    | Error message is correct: Your email or password is incorrect!

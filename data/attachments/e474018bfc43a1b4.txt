@@ -1,0 +1,75 @@
+23:48:31.998 | DEBUG    | New user details:
+
+23:48:31.998 | DEBUG    |   name: Kurt
+
+23:48:31.998 | DEBUG    |   email: c9ec0a29_johncastro@example.org
+
+23:48:31.998 | DEBUG    |   title: Mrs
+
+23:48:31.998 | DEBUG    |   birth_day: 5
+
+23:48:31.998 | DEBUG    |   birth_month: 2
+
+23:48:31.998 | DEBUG    |   birth_year: 2003
+
+23:48:31.998 | DEBUG    |   firstname: Kurt
+
+23:48:31.998 | DEBUG    |   lastname: Simon
+
+23:48:31.998 | DEBUG    |   company: Porter, Soto and Dennis
+
+23:48:31.998 | DEBUG    |   address1: 241 Hannah Curve
+
+23:48:31.998 | DEBUG    |   address2: Suite 079
+
+23:48:31.998 | DEBUG    |   country: India
+
+23:48:31.998 | DEBUG    |   state: Washington
+
+23:48:31.998 | DEBUG    |   city: West Phillipburgh
+
+23:48:31.998 | DEBUG    |   zipcode: 54106
+
+23:48:32.146 | DEBUG    | Status code correct: 200
+
+23:48:32.146 | DEBUG    | ResponseCode correct: 201
+
+23:48:32.146 | DEBUG    | Response message correct: "User created!"
+
+23:48:32.146 | DEBUG    | Updated user details:
+
+23:48:32.146 | DEBUG    |   name: Kurt
+
+23:48:32.146 | DEBUG    |   email: c9ec0a29_johncastro@example.org
+
+23:48:32.146 | DEBUG    |   title: Mrs
+
+23:48:32.146 | DEBUG    |   birth_day: 5
+
+23:48:32.146 | DEBUG    |   birth_month: 2
+
+23:48:32.146 | DEBUG    |   birth_year: 2003
+
+23:48:32.146 | DEBUG    |   firstname: Kurt
+
+23:48:32.146 | DEBUG    |   lastname: Simon
+
+23:48:32.146 | DEBUG    |   company: Porter, Soto and Dennis
+
+23:48:32.146 | DEBUG    |   address1: 241 Hannah Curve
+
+23:48:32.146 | DEBUG    |   address2: Suite 079
+
+23:48:32.146 | DEBUG    |   country: India
+
+23:48:32.146 | DEBUG    |   state: Washington
+
+23:48:32.146 | DEBUG    |   city: West Phillipburgh
+
+23:48:32.148 | DEBUG    |   zipcode: 54106
+
+23:48:32.277 | DEBUG    | Status code correct: 200
+
+23:48:32.277 | DEBUG    | ResponseCode correct: 200
+
+23:48:32.277 | DEBUG    | Response message correct: "User updated!"

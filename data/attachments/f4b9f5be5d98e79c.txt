@@ -1,0 +1,5 @@
+23:47:55.428 | DEBUG    | Status code correct: 200
+
+23:47:55.428 | DEBUG    | ResponseCode correct: 400
+
+23:47:55.428 | DEBUG    | Response message correct: "Bad request, search_product parameter is missing in POST request."

@@ -1,0 +1,11 @@
+23:47:53.820 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+23:47:53.864 | DEBUG    | Review name field filled in with "Jennifer Jones"
+
+23:47:53.906 | DEBUG    | Review email field filled in with "8ad97797_todd85@example.com"
+
+23:47:53.961 | DEBUG    | Review message field filled in with "Book child accept last blood movement. Case cut case off area."
+
+23:47:53.998 | DEBUG    | Submit review button clicked
+
+23:47:54.017 | DEBUG    | Success review message is displayed

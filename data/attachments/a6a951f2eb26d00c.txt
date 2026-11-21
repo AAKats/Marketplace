@@ -1,0 +1,13 @@
+23:46:12.396 | DEBUG    | Product "Summer White Top" (ID: 6) opened
+
+23:46:12.449 | DEBUG    | Quantity = 4 selected
+
+23:46:12.485 | DEBUG    | Product was added to cart
+
+23:46:13.447 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+23:46:13.455 | DEBUG    | Product: Summer White Top found in cart: Summer White Top
+
+23:46:13.467 | DEBUG    | Product Summer White Top price in cart: 400 matches added price: 400
+
+23:46:13.483 | DEBUG    | Product Summer White Top quantity in cart: 4 matches added quantity: 4

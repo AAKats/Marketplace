@@ -1,0 +1,37 @@
+23:48:31.567 | DEBUG    | New user details:
+
+23:48:31.567 | DEBUG    |   name: Gilbert
+
+23:48:31.567 | DEBUG    |   email: a948f471_wrightwendy@example.org
+
+23:48:31.567 | DEBUG    |   title: Mr
+
+23:48:31.567 | DEBUG    |   birth_day: 16
+
+23:48:31.567 | DEBUG    |   birth_month: 1
+
+23:48:31.567 | DEBUG    |   birth_year: 1914
+
+23:48:31.567 | DEBUG    |   firstname: Gilbert
+
+23:48:31.567 | DEBUG    |   lastname: Drake
+
+23:48:31.568 | DEBUG    |   company: Walker-Miller
+
+23:48:31.568 | DEBUG    |   address1: 5967 Strong Groves Apt. 785
+
+23:48:31.568 | DEBUG    |   address2: Suite 934
+
+23:48:31.568 | DEBUG    |   country: India
+
+23:48:31.568 | DEBUG    |   state: Arizona
+
+23:48:31.568 | DEBUG    |   city: Bakerfort
+
+23:48:31.568 | DEBUG    |   zipcode: 04973
+
+23:48:31.696 | DEBUG    | Status code correct: 200
+
+23:48:31.696 | DEBUG    | ResponseCode correct: 201
+
+23:48:31.696 | DEBUG    | Response message correct: "User created!"

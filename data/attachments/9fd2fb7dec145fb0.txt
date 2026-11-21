@@ -1,0 +1,169 @@
+23:46:16.468 | DEBUG    | Product Blue Top added, quantity 1
+
+23:46:17.306 | DEBUG    | Product Blue Top added, quantity 2
+
+23:46:18.156 | DEBUG    | Product Men Tshirt added, quantity 1
+
+23:46:19.258 | DEBUG    | Product Men Tshirt added, quantity 2
+
+23:46:19.581 | DEBUG    | Proceed to checkout button clicked
+
+23:46:19.780 | DEBUG    | Register via modal button clicked
+
+23:46:19.788 | DEBUG    | New user Signup title is presented
+
+23:46:19.794 | DEBUG    | New user Signup title text is correct
+
+23:46:19.798 | DEBUG    | Signup email field is presented
+
+23:46:19.802 | DEBUG    | Signup name field is presented
+
+23:46:19.852 | DEBUG    | Email signup field filled
+
+23:46:19.882 | DEBUG    | Name signup field filled
+
+23:46:20.079 | DEBUG    | Signup button is clicked
+
+23:46:20.090 | DEBUG    | Account information title is presented
+
+23:46:20.098 | DEBUG    | Account information title text is correct
+
+23:46:20.117 | DEBUG    | Mr radiobutton is presented
+
+23:46:20.121 | DEBUG    | Mrs radiobutton is presented
+
+23:46:20.153 | DEBUG    | Selected MR title
+
+23:46:20.159 | DEBUG    | Password field is presented
+
+23:46:20.206 | DEBUG    | Password is filled in
+
+23:46:20.212 | DEBUG    | Day of birth list is presented
+
+23:46:20.247 | DEBUG    | Day of birth selected
+
+23:46:20.252 | DEBUG    | Month of birth list is presented
+
+23:46:20.281 | DEBUG    | Month of birth selected
+
+23:46:20.286 | DEBUG    | Year of birth list is presented
+
+23:46:20.316 | DEBUG    | Year of birth selected
+
+23:46:20.316 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+23:46:20.348 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+23:46:20.353 | DEBUG    | First name field is presented
+
+23:46:20.383 | DEBUG    | First name is filled in
+
+23:46:20.387 | DEBUG    | Last name field is presented
+
+23:46:20.413 | DEBUG    | Last name is filled in
+
+23:46:20.419 | DEBUG    | Company field is presented
+
+23:46:20.447 | DEBUG    | Company is filled in
+
+23:46:20.452 | DEBUG    | Address 1 field is presented
+
+23:46:20.486 | DEBUG    | Address 1 is filled in
+
+23:46:20.492 | DEBUG    | Address 2 field is presented
+
+23:46:20.518 | DEBUG    | Address 2 is filled in
+
+23:46:20.555 | DEBUG    | State field is presented
+
+23:46:20.581 | DEBUG    | State is filled in
+
+23:46:20.586 | DEBUG    | City field is presented
+
+23:46:20.616 | DEBUG    | City is filled in
+
+23:46:20.621 | DEBUG    | Zipcode field is presented
+
+23:46:20.646 | DEBUG    | Zipcode is filled in
+
+23:46:20.651 | DEBUG    | Mobile number field is presented
+
+23:46:20.681 | DEBUG    | Mobile number is filled in
+
+23:46:22.033 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+23:46:22.048 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+23:46:22.048 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+23:46:22.052 | DEBUG    | Continue button is presented
+
+23:46:22.671 | DEBUG    | Username is correct Logged in as Nicole
+
+23:46:23.622 | DEBUG    | Proceed to checkout button clicked
+
+23:46:23.635 | DEBUG    | Name is correct in the delivery information: Mr. Nicole Ingram
+
+23:46:23.645 | DEBUG    | Company name is correct in the delivery information: Mathis Inc
+
+23:46:23.655 | DEBUG    | Address 1 is correct in the delivery information: 25108 Joseph Dale Apt. 020
+
+23:46:23.666 | DEBUG    | Address 2 is correct in the delivery information: Apt. 005
+
+23:46:23.675 | DEBUG    | City is correct in the delivery information: East Timothychester Delaware 91029
+
+23:46:23.685 | DEBUG    | Country is correct in the delivery information: Israel
+
+23:46:23.695 | DEBUG    | Phone is correct in the delivery information: +1-761-530-9304x458
+
+23:46:23.705 | DEBUG    | Name is correct in the billing information: Mr. Nicole Ingram
+
+23:46:23.715 | DEBUG    | Company name is correct in the billing information: Mathis Inc
+
+23:46:23.725 | DEBUG    | Address 1 is correct in the billing information: 25108 Joseph Dale Apt. 020
+
+23:46:23.735 | DEBUG    | Address 2 is correct in the billing information: Apt. 005
+
+23:46:23.746 | DEBUG    | City is correct in the billing information: East Timothychester Delaware 91029
+
+23:46:23.756 | DEBUG    | Country is correct in the billing information: Israel
+
+23:46:23.766 | DEBUG    | Phone is correct in the billing information: +1-761-530-9304x458
+
+23:46:23.774 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+23:46:23.789 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+23:46:23.795 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+23:46:23.804 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+23:46:23.804 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+23:46:23.823 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+23:46:23.832 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+23:46:23.848 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+23:46:23.858 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+23:46:23.915 | DEBUG    | Comment filled in with: Only card list instead eat. Thought effect artist skin course sister law.
+
+23:46:24.107 | DEBUG    | Place order button clicked
+
+23:46:24.144 | DEBUG    | Name on card filled in with: ****
+
+23:46:24.178 | DEBUG    | Card number filled in with: ****2048
+
+23:46:25.934 | DEBUG    | Pay and confirm button clicked
+
+23:46:25.962 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+23:46:26.342 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+23:46:26.342 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+23:46:26.342 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+23:46:27.105 | DEBUG    | Continue button clicked
