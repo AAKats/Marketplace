@@ -1,0 +1,11 @@
+11:31:06.621 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+11:31:06.675 | DEBUG    | Review name field filled in with "Lisa Moreno"
+
+11:31:06.730 | DEBUG    | Review email field filled in with "40b2b11b_jennifer84@example.org"
+
+11:31:06.814 | DEBUG    | Review message field filled in with "Win drug try skin. Home most save eat treatment yeah. Trip very have drug may respond."
+
+11:31:06.866 | DEBUG    | Submit review button clicked
+
+11:31:06.888 | DEBUG    | Success review message is displayed

@@ -1,7 +1,0 @@
-15:07:35.924 | DEBUG    | Product Blue Top added, quantity 1
-
-15:07:36.793 | DEBUG    | Product Blue Top added, quantity 2
-
-15:07:37.676 | DEBUG    | Product Men Tshirt added, quantity 1
-
-15:07:41.298 | DEBUG    | Product Men Tshirt added, quantity 2

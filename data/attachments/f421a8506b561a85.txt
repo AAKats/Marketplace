@@ -1,0 +1,169 @@
+11:29:34.445 | DEBUG    | Product Blue Top added, quantity 1
+
+11:29:35.328 | DEBUG    | Product Blue Top added, quantity 2
+
+11:29:36.209 | DEBUG    | Product Men Tshirt added, quantity 1
+
+11:29:37.471 | DEBUG    | Product Men Tshirt added, quantity 2
+
+11:29:37.758 | DEBUG    | Proceed to checkout button clicked
+
+11:29:37.933 | DEBUG    | Register via modal button clicked
+
+11:29:37.943 | DEBUG    | New user Signup title is presented
+
+11:29:37.952 | DEBUG    | New user Signup title text is correct
+
+11:29:37.957 | DEBUG    | Signup email field is presented
+
+11:29:37.962 | DEBUG    | Signup name field is presented
+
+11:29:38.022 | DEBUG    | Email signup field filled
+
+11:29:38.061 | DEBUG    | Name signup field filled
+
+11:29:38.102 | DEBUG    | Signup button is clicked
+
+11:29:38.638 | DEBUG    | Account information title is presented
+
+11:29:38.646 | DEBUG    | Account information title text is correct
+
+11:29:38.672 | DEBUG    | Mr radiobutton is presented
+
+11:29:38.677 | DEBUG    | Mrs radiobutton is presented
+
+11:29:38.717 | DEBUG    | Selected MRS title
+
+11:29:38.724 | DEBUG    | Password field is presented
+
+11:29:38.764 | DEBUG    | Password is filled in
+
+11:29:38.772 | DEBUG    | Day of birth list is presented
+
+11:29:38.818 | DEBUG    | Day of birth selected
+
+11:29:38.824 | DEBUG    | Month of birth list is presented
+
+11:29:38.862 | DEBUG    | Month of birth selected
+
+11:29:38.869 | DEBUG    | Year of birth list is presented
+
+11:29:38.907 | DEBUG    | Year of birth selected
+
+11:29:38.950 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+11:29:38.951 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+11:29:38.957 | DEBUG    | First name field is presented
+
+11:29:38.995 | DEBUG    | First name is filled in
+
+11:29:39.002 | DEBUG    | Last name field is presented
+
+11:29:39.036 | DEBUG    | Last name is filled in
+
+11:29:39.043 | DEBUG    | Company field is presented
+
+11:29:39.085 | DEBUG    | Company is filled in
+
+11:29:39.092 | DEBUG    | Address 1 field is presented
+
+11:29:39.140 | DEBUG    | Address 1 is filled in
+
+11:29:39.147 | DEBUG    | Address 2 field is presented
+
+11:29:39.185 | DEBUG    | Address 2 is filled in
+
+11:29:39.219 | DEBUG    | State field is presented
+
+11:29:39.253 | DEBUG    | State is filled in
+
+11:29:39.259 | DEBUG    | City field is presented
+
+11:29:39.298 | DEBUG    | City is filled in
+
+11:29:39.305 | DEBUG    | Zipcode field is presented
+
+11:29:39.340 | DEBUG    | Zipcode is filled in
+
+11:29:39.346 | DEBUG    | Mobile number field is presented
+
+11:29:39.390 | DEBUG    | Mobile number is filled in
+
+11:29:40.462 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+11:29:40.483 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+11:29:40.483 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+11:29:40.489 | DEBUG    | Continue button is presented
+
+11:29:41.519 | DEBUG    | Username is correct Logged in as Julie
+
+11:29:42.487 | DEBUG    | Proceed to checkout button clicked
+
+11:29:42.505 | DEBUG    | Name is correct in the delivery information: Mrs. Julie Kim
+
+11:29:42.519 | DEBUG    | Company name is correct in the delivery information: Patterson-Swanson
+
+11:29:42.532 | DEBUG    | Address 1 is correct in the delivery information: 085 Berger Square Suite 091
+
+11:29:42.546 | DEBUG    | Address 2 is correct in the delivery information: Suite 567
+
+11:29:42.560 | DEBUG    | City is correct in the delivery information: Spencerhaven Ohio 81872
+
+11:29:42.573 | DEBUG    | Country is correct in the delivery information: India
+
+11:29:42.586 | DEBUG    | Phone is correct in the delivery information: +1-278-751-8347x04640
+
+11:29:42.599 | DEBUG    | Name is correct in the billing information: Mrs. Julie Kim
+
+11:29:42.612 | DEBUG    | Company name is correct in the billing information: Patterson-Swanson
+
+11:29:42.624 | DEBUG    | Address 1 is correct in the billing information: 085 Berger Square Suite 091
+
+11:29:42.638 | DEBUG    | Address 2 is correct in the billing information: Suite 567
+
+11:29:42.651 | DEBUG    | City is correct in the billing information: Spencerhaven Ohio 81872
+
+11:29:42.663 | DEBUG    | Country is correct in the billing information: India
+
+11:29:42.676 | DEBUG    | Phone is correct in the billing information: +1-278-751-8347x04640
+
+11:29:42.687 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+11:29:42.706 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:29:42.714 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:29:42.726 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+11:29:42.726 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+11:29:42.749 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:29:42.762 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:29:42.783 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:29:42.796 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:29:42.867 | DEBUG    | Comment filled in with: Top team southern institution. Surface new bring argue produce.
+
+11:29:43.027 | DEBUG    | Place order button clicked
+
+11:29:43.075 | DEBUG    | Name on card filled in with: ****
+
+11:29:43.118 | DEBUG    | Card number filled in with: ****3548
+
+11:29:44.543 | DEBUG    | Pay and confirm button clicked
+
+11:29:44.589 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+11:29:44.795 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+11:29:44.795 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+11:29:44.795 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+11:29:45.202 | DEBUG    | Continue button clicked

@@ -1,0 +1,67 @@
+11:30:58.455 | DEBUG    | Email filled in
+
+11:30:58.491 | DEBUG    | Password filled in
+
+11:30:58.498 | DEBUG    | Login button is presented
+
+11:30:58.537 | DEBUG    | Login button is clicked
+
+11:31:00.006 | DEBUG    | Username is correct Logged in as Megan
+
+11:31:00.936 | DEBUG    | Product Blue Top added, quantity 1
+
+11:31:01.801 | DEBUG    | Product Blue Top added, quantity 2
+
+11:31:02.814 | DEBUG    | Product Blue Top added, quantity 3
+
+11:31:03.269 | DEBUG    | Proceed to checkout button clicked
+
+11:31:03.286 | DEBUG    | Name is correct in the delivery information: Mrs. Megan Logan
+
+11:31:03.299 | DEBUG    | Company name is correct in the delivery information: Walters, Edwards and Yates
+
+11:31:03.311 | DEBUG    | Address 1 is correct in the delivery information: 15353 Huang Road Suite 677
+
+11:31:03.323 | DEBUG    | Address 2 is correct in the delivery information: Suite 009
+
+11:31:03.336 | DEBUG    | City is correct in the delivery information: Bobbyfort North Carolina 75014
+
+11:31:03.349 | DEBUG    | Country is correct in the delivery information: Singapore
+
+11:31:03.361 | DEBUG    | Phone is correct in the delivery information: 563-344-4064x35872
+
+11:31:03.374 | DEBUG    | Name is correct in the billing information: Mrs. Megan Logan
+
+11:31:03.386 | DEBUG    | Company name is correct in the billing information: Walters, Edwards and Yates
+
+11:31:03.399 | DEBUG    | Address 1 is correct in the billing information: 15353 Huang Road Suite 677
+
+11:31:03.412 | DEBUG    | Address 2 is correct in the billing information: Suite 009
+
+11:31:03.424 | DEBUG    | City is correct in the billing information: Bobbyfort North Carolina 75014
+
+11:31:03.437 | DEBUG    | Country is correct in the billing information: Singapore
+
+11:31:03.449 | DEBUG    | Phone is correct in the billing information: 563-344-4064x35872
+
+11:31:03.459 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+11:31:03.477 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:31:03.485 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+11:31:03.505 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+11:31:03.525 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+11:31:03.606 | DEBUG    | Comment filled in with: Page man stuff daughter up man away. After you response process little special standard.
+
+11:31:03.755 | DEBUG    | Place order button clicked
+
+11:31:03.805 | DEBUG    | Name on card filled in with: ****
+
+11:31:03.859 | DEBUG    | Card number filled in with: ****1095
+
+11:31:04.035 | DEBUG    | Pay and confirm button clicked
+
+11:31:05.266 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

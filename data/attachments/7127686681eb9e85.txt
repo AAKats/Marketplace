@@ -1,0 +1,163 @@
+11:30:07.056 | DEBUG    | New user Signup title is presented
+
+11:30:07.068 | DEBUG    | New user Signup title text is correct
+
+11:30:07.074 | DEBUG    | Signup email field is presented
+
+11:30:07.079 | DEBUG    | Signup name field is presented
+
+11:30:07.131 | DEBUG    | Email signup field filled
+
+11:30:07.167 | DEBUG    | Name signup field filled
+
+11:30:07.211 | DEBUG    | Signup button is clicked
+
+11:30:07.396 | DEBUG    | Account information title is presented
+
+11:30:07.405 | DEBUG    | Account information title text is correct
+
+11:30:07.433 | DEBUG    | Mr radiobutton is presented
+
+11:30:07.438 | DEBUG    | Mrs radiobutton is presented
+
+11:30:07.479 | DEBUG    | Selected MRS title
+
+11:30:07.486 | DEBUG    | Password field is presented
+
+11:30:07.528 | DEBUG    | Password is filled in
+
+11:30:07.537 | DEBUG    | Day of birth list is presented
+
+11:30:07.585 | DEBUG    | Day of birth selected
+
+11:30:07.592 | DEBUG    | Month of birth list is presented
+
+11:30:07.633 | DEBUG    | Month of birth selected
+
+11:30:07.640 | DEBUG    | Year of birth list is presented
+
+11:30:07.679 | DEBUG    | Year of birth selected
+
+11:30:07.679 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+11:30:07.722 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+11:30:07.728 | DEBUG    | First name field is presented
+
+11:30:07.766 | DEBUG    | First name is filled in
+
+11:30:07.772 | DEBUG    | Last name field is presented
+
+11:30:07.807 | DEBUG    | Last name is filled in
+
+11:30:07.815 | DEBUG    | Company field is presented
+
+11:30:07.853 | DEBUG    | Company is filled in
+
+11:30:07.859 | DEBUG    | Address 1 field is presented
+
+11:30:07.903 | DEBUG    | Address 1 is filled in
+
+11:30:07.910 | DEBUG    | Address 2 field is presented
+
+11:30:07.947 | DEBUG    | Address 2 is filled in
+
+11:30:07.994 | DEBUG    | State field is presented
+
+11:30:08.031 | DEBUG    | State is filled in
+
+11:30:08.038 | DEBUG    | City field is presented
+
+11:30:08.074 | DEBUG    | City is filled in
+
+11:30:08.083 | DEBUG    | Zipcode field is presented
+
+11:30:08.118 | DEBUG    | Zipcode is filled in
+
+11:30:08.124 | DEBUG    | Mobile number field is presented
+
+11:30:08.168 | DEBUG    | Mobile number is filled in
+
+11:30:09.240 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+11:30:09.262 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+11:30:09.262 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+11:30:09.268 | DEBUG    | Continue button is presented
+
+11:30:10.650 | DEBUG    | Username is correct Logged in as Charles
+
+11:30:11.602 | DEBUG    | Product Blue Top added, quantity 1
+
+11:30:12.484 | DEBUG    | Product Blue Top added, quantity 2
+
+11:30:13.383 | DEBUG    | Product Men Tshirt added, quantity 1
+
+11:30:14.262 | DEBUG    | Product Men Tshirt added, quantity 2
+
+11:30:15.665 | DEBUG    | Product Sleeveless Dress added, quantity 1
+
+11:30:17.894 | DEBUG    | Product Sleeveless Dress added, quantity 2
+
+11:30:18.491 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+11:30:18.491 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+11:30:18.491 | DEBUG    | Product: Sleeveless Dress found in cart: Blue Top, Men Tshirt, Sleeveless Dress
+
+11:30:18.511 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+11:30:18.520 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+11:30:18.530 | DEBUG    | Product Sleeveless Dress price in cart: 1000 matches added price: 1000
+
+11:30:18.554 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+11:30:18.567 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+11:30:18.580 | DEBUG    | Product Sleeveless Dress quantity in cart: 2 matches added quantity: 2
+
+11:30:18.604 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+11:30:18.618 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+11:30:18.631 | DEBUG    | Product Sleeveless Dress total in cart: 2000 matches expected total: 2000
+
+11:30:19.284 | DEBUG    | Proceed to checkout button clicked
+
+11:30:19.301 | DEBUG    | Name is correct in the delivery information: Mrs. Charles Diaz
+
+11:30:19.315 | DEBUG    | Company name is correct in the delivery information: Lyons Group
+
+11:30:19.328 | DEBUG    | Address 1 is correct in the delivery information: 3812 Jamie Views
+
+11:30:19.342 | DEBUG    | Address 2 is correct in the delivery information: Apt. 577
+
+11:30:19.357 | DEBUG    | City is correct in the delivery information: Tomfurt New York 38882
+
+11:30:19.370 | DEBUG    | Country is correct in the delivery information: New Zealand
+
+11:30:19.384 | DEBUG    | Phone is correct in the delivery information: +1-312-522-2404x267
+
+11:30:19.397 | DEBUG    | Name is correct in the billing information: Mrs. Charles Diaz
+
+11:30:19.411 | DEBUG    | Company name is correct in the billing information: Lyons Group
+
+11:30:19.426 | DEBUG    | Address 1 is correct in the billing information: 3812 Jamie Views
+
+11:30:19.440 | DEBUG    | Address 2 is correct in the billing information: Apt. 577
+
+11:30:19.454 | DEBUG    | City is correct in the billing information: Tomfurt New York 38882
+
+11:30:19.468 | DEBUG    | Country is correct in the billing information: New Zealand
+
+11:30:19.482 | DEBUG    | Phone is correct in the billing information: +1-312-522-2404x267
+
+11:30:19.934 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+11:30:19.934 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+11:30:19.934 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+11:30:20.774 | DEBUG    | Continue button clicked

@@ -1,0 +1,17 @@
+11:30:36.543 | DEBUG    | Login title is presented
+
+11:30:36.555 | DEBUG    | Login title text is correct
+
+11:30:36.561 | DEBUG    | Login email field is presented
+
+11:30:36.567 | DEBUG    | Password field is presented
+
+11:30:36.617 | DEBUG    | Email filled in
+
+11:30:36.654 | DEBUG    | Password filled in
+
+11:30:36.661 | DEBUG    | Login button is presented
+
+11:30:36.703 | DEBUG    | Login button is clicked
+
+11:30:38.239 | DEBUG    | Username is correct Logged in as Megan
