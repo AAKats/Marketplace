@@ -1,0 +1,49 @@
+15:07:54.715 | DEBUG    | Search field is presented
+
+15:07:54.770 | DEBUG    | Search field is filled in with: "Full Sleeves Top Cherry - Pink"
+
+15:07:54.777 | DEBUG    | Search button is presented
+
+15:07:56.003 | DEBUG    | Search button is clicked
+
+15:07:56.019 | DEBUG    | Title is presented
+
+15:07:56.019 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+15:07:56.023 | DEBUG    | 1 products found
+
+15:07:56.028 | DEBUG    | "Full Sleeves Top Cherry - Pink" product found, and contains "Full Sleeves Top Cherry - Pink"
+
+15:07:57.223 | DEBUG    | Product Full Sleeves Top Cherry - Pink added, quantity 1
+
+15:07:57.719 | DEBUG    | Product: Full Sleeves Top Cherry - Pink found in cart: Full Sleeves Top Cherry - Pink
+
+15:07:57.736 | DEBUG    | Product Full Sleeves Top Cherry - Pink price in cart: 679 matches added price: 679
+
+15:07:57.757 | DEBUG    | Product Full Sleeves Top Cherry - Pink quantity in cart: 1 matches added quantity: 1
+
+15:07:57.778 | DEBUG    | Product Full Sleeves Top Cherry - Pink total in cart: 679 matches expected total: 679
+
+15:07:58.031 | DEBUG    | Login email field is presented
+
+15:07:58.038 | DEBUG    | Password field is presented
+
+15:07:58.083 | DEBUG    | Email filled in
+
+15:07:58.119 | DEBUG    | Password filled in
+
+15:07:58.125 | DEBUG    | Login button is presented
+
+15:07:58.162 | DEBUG    | Login button is clicked
+
+15:08:03.298 | DEBUG    | Product: Full Sleeves Top Cherry - Pink found in cart: Full Sleeves Top Cherry - Pink
+
+15:08:03.315 | DEBUG    | Product Full Sleeves Top Cherry - Pink price in cart: 679 matches added price: 679
+
+15:08:03.334 | DEBUG    | Product Full Sleeves Top Cherry - Pink quantity in cart: 1 matches added quantity: 1
+
+15:08:03.353 | DEBUG    | Product Full Sleeves Top Cherry - Pink total in cart: 679 matches expected total: 679
+
+15:08:07.970 | DEBUG    | All products deleted
+
+15:08:07.978 | DEBUG    | Empty cart text correct: Cart is empty!

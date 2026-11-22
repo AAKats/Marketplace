@@ -1,0 +1,43 @@
+15:10:38.601 | DEBUG    | New user details:
+
+15:10:38.601 | DEBUG    |   name: Brian
+
+15:10:38.601 | DEBUG    |   email: 39717077_frodriguez@example.net
+
+15:10:38.601 | DEBUG    |   title: Mr
+
+15:10:38.601 | DEBUG    |   birth_day: 11
+
+15:10:38.601 | DEBUG    |   birth_month: 1
+
+15:10:38.601 | DEBUG    |   birth_year: 1966
+
+15:10:38.601 | DEBUG    |   firstname: Brian
+
+15:10:38.601 | DEBUG    |   lastname: Fry
+
+15:10:38.601 | DEBUG    |   company: Peterson-Andrews
+
+15:10:38.601 | DEBUG    |   address1: 287 Brenda Tunnel Suite 615
+
+15:10:38.601 | DEBUG    |   address2: Suite 745
+
+15:10:38.601 | DEBUG    |   country: Singapore
+
+15:10:38.601 | DEBUG    |   state: West Virginia
+
+15:10:38.601 | DEBUG    |   city: Tracyhaven
+
+15:10:38.601 | DEBUG    |   zipcode: 01605
+
+15:10:38.762 | DEBUG    | Status code correct: 200
+
+15:10:38.762 | DEBUG    | ResponseCode correct: 201
+
+15:10:38.762 | DEBUG    | Response message correct: "User created!"
+
+15:10:38.894 | DEBUG    | Status code correct: 200
+
+15:10:38.894 | DEBUG    | ResponseCode correct: 200
+
+15:10:38.894 | DEBUG    | Response message correct: "Account deleted!"
