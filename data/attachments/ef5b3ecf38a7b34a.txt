@@ -1,0 +1,13 @@
+00:07:58.829 | DEBUG    | Product "Regular Fit Straight Jeans" (ID: 35) opened
+
+00:07:58.881 | DEBUG    | Quantity = 7 selected
+
+00:07:58.917 | DEBUG    | Product was added to cart
+
+00:07:59.743 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+00:07:59.756 | DEBUG    | Product: Regular Fit Straight Jeans found in cart: Regular Fit Straight Jeans
+
+00:07:59.771 | DEBUG    | Product Regular Fit Straight Jeans price in cart: 1200 matches added price: 1200
+
+00:07:59.788 | DEBUG    | Product Regular Fit Straight Jeans quantity in cart: 7 matches added quantity: 7

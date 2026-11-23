@@ -1,0 +1,17 @@
+00:09:09.724 | DEBUG    | Login title is presented
+
+00:09:09.734 | DEBUG    | Login title text is correct
+
+00:09:09.739 | DEBUG    | Login email field is presented
+
+00:09:09.743 | DEBUG    | Password field is presented
+
+00:09:09.779 | DEBUG    | Email filled in
+
+00:09:09.807 | DEBUG    | Password filled in
+
+00:09:09.812 | DEBUG    | Login button is presented
+
+00:09:11.036 | DEBUG    | Login button is clicked
+
+00:09:11.051 | DEBUG    | Username is correct Logged in as Derrick

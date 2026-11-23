@@ -1,0 +1,49 @@
+00:08:26.309 | DEBUG    | Search field is presented
+
+00:08:26.350 | DEBUG    | Search field is filled in with: "Green Side Placket Detail T-Shirt"
+
+00:08:26.357 | DEBUG    | Search button is presented
+
+00:08:26.844 | DEBUG    | Search button is clicked
+
+00:08:26.859 | DEBUG    | Title is presented
+
+00:08:26.859 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+00:08:26.863 | DEBUG    | 1 products found
+
+00:08:26.868 | DEBUG    | "Green Side Placket Detail T-Shirt" product found, and contains "Green Side Placket Detail T-Shirt"
+
+00:08:28.004 | DEBUG    | Product Green Side Placket Detail T-Shirt added, quantity 1
+
+00:08:28.499 | DEBUG    | Product: Green Side Placket Detail T-Shirt found in cart: Green Side Placket Detail T-Shirt
+
+00:08:28.513 | DEBUG    | Product Green Side Placket Detail T-Shirt price in cart: 1000 matches added price: 1000
+
+00:08:28.530 | DEBUG    | Product Green Side Placket Detail T-Shirt quantity in cart: 1 matches added quantity: 1
+
+00:08:28.546 | DEBUG    | Product Green Side Placket Detail T-Shirt total in cart: 1000 matches expected total: 1000
+
+00:08:28.753 | DEBUG    | Login email field is presented
+
+00:08:28.758 | DEBUG    | Password field is presented
+
+00:08:28.789 | DEBUG    | Email filled in
+
+00:08:28.816 | DEBUG    | Password filled in
+
+00:08:28.823 | DEBUG    | Login button is presented
+
+00:08:29.977 | DEBUG    | Login button is clicked
+
+00:08:30.342 | DEBUG    | Product: Green Side Placket Detail T-Shirt found in cart: Green Side Placket Detail T-Shirt
+
+00:08:30.358 | DEBUG    | Product Green Side Placket Detail T-Shirt price in cart: 1000 matches added price: 1000
+
+00:08:30.374 | DEBUG    | Product Green Side Placket Detail T-Shirt quantity in cart: 1 matches added quantity: 1
+
+00:08:30.390 | DEBUG    | Product Green Side Placket Detail T-Shirt total in cart: 1000 matches expected total: 1000
+
+00:08:34.991 | DEBUG    | All products deleted
+
+00:08:34.997 | DEBUG    | Empty cart text correct: Cart is empty!
