@@ -1,0 +1,165 @@
+04:18:27.503 | DEBUG    | New user Signup title is presented
+
+04:18:27.515 | DEBUG    | New user Signup title text is correct
+
+04:18:27.521 | DEBUG    | Signup email field is presented
+
+04:18:27.527 | DEBUG    | Signup name field is presented
+
+04:18:27.580 | DEBUG    | Email signup field filled
+
+04:18:27.614 | DEBUG    | Name signup field filled
+
+04:18:27.655 | DEBUG    | Signup button is clicked
+
+04:18:28.191 | DEBUG    | Account information title is presented
+
+04:18:28.199 | DEBUG    | Account information title text is correct
+
+04:18:28.223 | DEBUG    | Mr radiobutton is presented
+
+04:18:28.229 | DEBUG    | Mrs radiobutton is presented
+
+04:18:28.267 | DEBUG    | Selected MRS title
+
+04:18:28.274 | DEBUG    | Password field is presented
+
+04:18:28.312 | DEBUG    | Password is filled in
+
+04:18:28.319 | DEBUG    | Day of birth list is presented
+
+04:18:28.362 | DEBUG    | Day of birth selected
+
+04:18:28.370 | DEBUG    | Month of birth list is presented
+
+04:18:28.406 | DEBUG    | Month of birth selected
+
+04:18:28.412 | DEBUG    | Year of birth list is presented
+
+04:18:28.449 | DEBUG    | Year of birth selected
+
+04:18:28.492 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+04:18:28.531 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+04:18:28.538 | DEBUG    | First name field is presented
+
+04:18:28.570 | DEBUG    | First name is filled in
+
+04:18:28.577 | DEBUG    | Last name field is presented
+
+04:18:28.611 | DEBUG    | Last name is filled in
+
+04:18:28.618 | DEBUG    | Company field is presented
+
+04:18:28.655 | DEBUG    | Company is filled in
+
+04:18:28.661 | DEBUG    | Address 1 field is presented
+
+04:18:28.707 | DEBUG    | Address 1 is filled in
+
+04:18:28.713 | DEBUG    | Address 2 field is presented
+
+04:18:28.748 | DEBUG    | Address 2 is filled in
+
+04:18:28.794 | DEBUG    | State field is presented
+
+04:18:28.828 | DEBUG    | State is filled in
+
+04:18:28.835 | DEBUG    | City field is presented
+
+04:18:28.871 | DEBUG    | City is filled in
+
+04:18:28.878 | DEBUG    | Zipcode field is presented
+
+04:18:28.909 | DEBUG    | Zipcode is filled in
+
+04:18:28.915 | DEBUG    | Mobile number field is presented
+
+04:18:28.956 | DEBUG    | Mobile number is filled in
+
+04:18:29.654 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+04:18:29.675 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+04:18:29.675 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+04:18:29.680 | DEBUG    | Continue button is presented
+
+04:18:30.186 | DEBUG    | Username is correct Logged in as Brian
+
+04:18:31.604 | DEBUG    | Product Blue Top added, quantity 1
+
+04:18:32.475 | DEBUG    | Product Blue Top added, quantity 2
+
+04:18:33.360 | DEBUG    | Product Men Tshirt added, quantity 1
+
+04:18:34.454 | DEBUG    | Product Men Tshirt added, quantity 2
+
+04:18:35.107 | DEBUG    | Proceed to checkout button clicked
+
+04:18:35.123 | DEBUG    | Name is correct in the delivery information: Mrs. Brian Walker
+
+04:18:35.136 | DEBUG    | Company name is correct in the delivery information: Griffin-Mclean
+
+04:18:35.150 | DEBUG    | Address 1 is correct in the delivery information: 9869 April Canyon Suite 383
+
+04:18:35.163 | DEBUG    | Address 2 is correct in the delivery information: Apt. 900
+
+04:18:35.175 | DEBUG    | City is correct in the delivery information: Rebeccatown California 19554
+
+04:18:35.188 | DEBUG    | Country is correct in the delivery information: United States
+
+04:18:35.201 | DEBUG    | Phone is correct in the delivery information: (554)621-1583x7704
+
+04:18:35.214 | DEBUG    | Name is correct in the billing information: Mrs. Brian Walker
+
+04:18:35.226 | DEBUG    | Company name is correct in the billing information: Griffin-Mclean
+
+04:18:35.239 | DEBUG    | Address 1 is correct in the billing information: 9869 April Canyon Suite 383
+
+04:18:35.254 | DEBUG    | Address 2 is correct in the billing information: Apt. 900
+
+04:18:35.268 | DEBUG    | City is correct in the billing information: Rebeccatown California 19554
+
+04:18:35.281 | DEBUG    | Country is correct in the billing information: United States
+
+04:18:35.294 | DEBUG    | Phone is correct in the billing information: (554)621-1583x7704
+
+04:18:35.304 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+04:18:35.323 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+04:18:35.331 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+04:18:35.343 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+04:18:35.343 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+04:18:35.364 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+04:18:35.376 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+04:18:35.397 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+04:18:35.409 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+04:18:35.482 | DEBUG    | Comment filled in with: Thus enter choose option. Economy check day attack various audience.
+
+04:18:35.729 | DEBUG    | Place order button clicked
+
+04:18:35.777 | DEBUG    | Name on card filled in with: ****
+
+04:18:35.823 | DEBUG    | Card number filled in with: ****7819
+
+04:18:35.990 | DEBUG    | Pay and confirm button clicked
+
+04:18:37.466 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+04:18:37.681 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+04:18:37.681 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+04:18:37.681 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+04:18:38.141 | DEBUG    | Continue button clicked

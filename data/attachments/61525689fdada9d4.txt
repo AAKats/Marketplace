@@ -1,0 +1,75 @@
+04:18:39.537 | DEBUG    | New user details:
+
+04:18:39.537 | DEBUG    |   name: Matthew
+
+04:18:39.537 | DEBUG    |   email: 68cace8b_rogerskristen@example.org
+
+04:18:39.537 | DEBUG    |   title: Mr
+
+04:18:39.537 | DEBUG    |   birth_day: 18
+
+04:18:39.537 | DEBUG    |   birth_month: 12
+
+04:18:39.537 | DEBUG    |   birth_year: 2005
+
+04:18:39.537 | DEBUG    |   firstname: Matthew
+
+04:18:39.537 | DEBUG    |   lastname: Rodriguez
+
+04:18:39.537 | DEBUG    |   company: Green-Williams
+
+04:18:39.537 | DEBUG    |   address1: 1815 Patricia Stravenue Suite 733
+
+04:18:39.537 | DEBUG    |   address2: Apt. 488
+
+04:18:39.537 | DEBUG    |   country: India
+
+04:18:39.537 | DEBUG    |   state: New Mexico
+
+04:18:39.537 | DEBUG    |   city: Kimberlymouth
+
+04:18:39.537 | DEBUG    |   zipcode: 60399
+
+04:18:39.682 | DEBUG    | Status code correct: 200
+
+04:18:39.682 | DEBUG    | ResponseCode correct: 201
+
+04:18:39.682 | DEBUG    | Response message correct: "User created!"
+
+04:18:39.683 | DEBUG    | Updated user details:
+
+04:18:39.683 | DEBUG    |   name: Matthew
+
+04:18:39.683 | DEBUG    |   email: 68cace8b_rogerskristen@example.org
+
+04:18:39.683 | DEBUG    |   title: Mr
+
+04:18:39.683 | DEBUG    |   birth_day: 18
+
+04:18:39.683 | DEBUG    |   birth_month: 12
+
+04:18:39.683 | DEBUG    |   birth_year: 2005
+
+04:18:39.683 | DEBUG    |   firstname: Matthew
+
+04:18:39.683 | DEBUG    |   lastname: Rodriguez
+
+04:18:39.683 | DEBUG    |   company: Green-Williams
+
+04:18:39.683 | DEBUG    |   address1: 1815 Patricia Stravenue Suite 733
+
+04:18:39.683 | DEBUG    |   address2: Apt. 488
+
+04:18:39.683 | DEBUG    |   country: India
+
+04:18:39.683 | DEBUG    |   state: New Mexico
+
+04:18:39.683 | DEBUG    |   city: Kimberlymouth
+
+04:18:39.684 | DEBUG    |   zipcode: 60399
+
+04:18:39.828 | DEBUG    | Status code correct: 200
+
+04:18:39.828 | DEBUG    | ResponseCode correct: 200
+
+04:18:39.829 | DEBUG    | Response message correct: "User updated!"

@@ -1,0 +1,39 @@
+04:17:26.043 | DEBUG    | Main title is presented
+
+04:17:26.064 | DEBUG    | Main title is correct: CONTACT US
+
+04:17:26.070 | DEBUG    | Second title is presented
+
+04:17:26.087 | DEBUG    | Second title is correct: GET IN TOUCH
+
+04:17:26.093 | DEBUG    | Name field is presented
+
+04:17:26.130 | DEBUG    | Name field filled in with: Faith
+
+04:17:26.136 | DEBUG    | Email field is presented
+
+04:17:26.183 | DEBUG    | Email field filled in with: a34bc45b_jprice@example.net
+
+04:17:26.191 | DEBUG    | Subject field is presented
+
+04:17:26.224 | DEBUG    | Subject field filled in with: Safe.
+
+04:17:26.232 | DEBUG    | Message field is presented
+
+04:17:26.296 | DEBUG    | Message field filled in with: Future camera until option I. Ready fire tell air significant.
+
+04:17:26.304 | DEBUG    | Upload field is presented
+
+04:17:26.318 | DEBUG    | File uploaded
+
+04:17:26.325 | DEBUG    | Submit button is presented
+
+04:17:26.432 | DEBUG    | Alert is presented
+
+04:17:26.492 | DEBUG    | Success message is presented
+
+04:17:26.492 | DEBUG    | Success message is correct
+
+04:17:26.497 | DEBUG    | Home button is presented
+
+04:17:26.899 | DEBUG    | Home button is clicked

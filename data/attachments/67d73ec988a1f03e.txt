@@ -1,0 +1,11 @@
+04:17:59.034 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+04:17:59.093 | DEBUG    | Review name field filled in with "Michael Carrillo"
+
+04:17:59.149 | DEBUG    | Review email field filled in with "85a970e2_victoria09@example.net"
+
+04:17:59.242 | DEBUG    | Review message field filled in with "Rest part certain itself. Husband forget job analysis himself least. Seek part remember marriage."
+
+04:17:59.293 | DEBUG    | Submit review button clicked
+
+04:17:59.318 | DEBUG    | Success review message is displayed
