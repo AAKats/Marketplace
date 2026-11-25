@@ -1,0 +1,49 @@
+03:00:09.802 | DEBUG    | Search field is presented
+
+03:00:09.844 | DEBUG    | Search field is filled in with: "Men Tshirt"
+
+03:00:09.850 | DEBUG    | Search button is presented
+
+03:00:10.185 | DEBUG    | Search button is clicked
+
+03:00:10.202 | DEBUG    | Title is presented
+
+03:00:10.202 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+03:00:10.207 | DEBUG    | 1 products found
+
+03:00:10.211 | DEBUG    | "Men Tshirt" product found, and contains "Men Tshirt"
+
+03:00:11.895 | DEBUG    | Product Men Tshirt added, quantity 1
+
+03:00:12.318 | DEBUG    | Product: Men Tshirt found in cart: Men Tshirt
+
+03:00:12.338 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+03:00:12.361 | DEBUG    | Product Men Tshirt quantity in cart: 1 matches added quantity: 1
+
+03:00:12.384 | DEBUG    | Product Men Tshirt total in cart: 400 matches expected total: 400
+
+03:00:12.598 | DEBUG    | Login email field is presented
+
+03:00:12.604 | DEBUG    | Password field is presented
+
+03:00:12.652 | DEBUG    | Email filled in
+
+03:00:12.690 | DEBUG    | Password filled in
+
+03:00:12.696 | DEBUG    | Login button is presented
+
+03:00:12.734 | DEBUG    | Login button is clicked
+
+03:00:14.193 | DEBUG    | Product: Men Tshirt found in cart: Men Tshirt
+
+03:00:14.211 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+03:00:14.232 | DEBUG    | Product Men Tshirt quantity in cart: 1 matches added quantity: 1
+
+03:00:14.252 | DEBUG    | Product Men Tshirt total in cart: 400 matches expected total: 400
+
+03:00:18.881 | DEBUG    | All products deleted
+
+03:00:18.889 | DEBUG    | Empty cart text correct: Cart is empty!

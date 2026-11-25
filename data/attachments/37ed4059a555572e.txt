@@ -1,0 +1,97 @@
+03:01:51.640 | DEBUG    | New user Signup title is presented
+
+03:01:51.652 | DEBUG    | New user Signup title text is correct
+
+03:01:51.659 | DEBUG    | Signup email field is presented
+
+03:01:51.665 | DEBUG    | Signup name field is presented
+
+03:01:51.719 | DEBUG    | Email signup field filled
+
+03:01:51.754 | DEBUG    | Name signup field filled
+
+03:01:51.974 | DEBUG    | Signup button is clicked
+
+03:01:51.991 | DEBUG    | Account information title is presented
+
+03:01:52.003 | DEBUG    | Account information title text is correct
+
+03:01:52.029 | DEBUG    | Mr radiobutton is presented
+
+03:01:52.035 | DEBUG    | Mrs radiobutton is presented
+
+03:01:52.076 | DEBUG    | Selected MRS title
+
+03:01:52.083 | DEBUG    | Password field is presented
+
+03:01:52.122 | DEBUG    | Password is filled in
+
+03:01:52.130 | DEBUG    | Day of birth list is presented
+
+03:01:52.180 | DEBUG    | Day of birth selected
+
+03:01:52.189 | DEBUG    | Month of birth list is presented
+
+03:01:52.230 | DEBUG    | Month of birth selected
+
+03:01:52.237 | DEBUG    | Year of birth list is presented
+
+03:01:52.277 | DEBUG    | Year of birth selected
+
+03:01:52.321 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+03:01:52.363 | DEBUG    | Receive special offers from our partners! checkbox is selected
+
+03:01:52.371 | DEBUG    | First name field is presented
+
+03:01:52.407 | DEBUG    | First name is filled in
+
+03:01:52.414 | DEBUG    | Last name field is presented
+
+03:01:52.448 | DEBUG    | Last name is filled in
+
+03:01:52.455 | DEBUG    | Company field is presented
+
+03:01:52.494 | DEBUG    | Company is filled in
+
+03:01:52.502 | DEBUG    | Address 1 field is presented
+
+03:01:52.551 | DEBUG    | Address 1 is filled in
+
+03:01:52.558 | DEBUG    | Address 2 field is presented
+
+03:01:52.594 | DEBUG    | Address 2 is filled in
+
+03:01:52.645 | DEBUG    | State field is presented
+
+03:01:52.685 | DEBUG    | State is filled in
+
+03:01:52.691 | DEBUG    | City field is presented
+
+03:01:52.731 | DEBUG    | City is filled in
+
+03:01:52.739 | DEBUG    | Zipcode field is presented
+
+03:01:52.774 | DEBUG    | Zipcode is filled in
+
+03:01:52.780 | DEBUG    | Mobile number field is presented
+
+03:01:52.823 | DEBUG    | Mobile number is filled in
+
+03:01:53.680 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+03:01:53.703 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+03:01:53.703 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+03:01:53.708 | DEBUG    | Continue button is presented
+
+03:01:54.341 | DEBUG    | Username is correct Logged in as Andrew
+
+03:01:54.596 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+03:01:54.596 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+03:01:54.596 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+03:01:55.337 | DEBUG    | Continue button clicked

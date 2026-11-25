@@ -1,0 +1,43 @@
+03:02:11.336 | DEBUG    | New user details:
+
+03:02:11.337 | DEBUG    |   name: Kayla
+
+03:02:11.337 | DEBUG    |   email: db551ff8_danielruiz@example.org
+
+03:02:11.337 | DEBUG    |   title: Mr
+
+03:02:11.337 | DEBUG    |   birth_day: 15
+
+03:02:11.337 | DEBUG    |   birth_month: 3
+
+03:02:11.337 | DEBUG    |   birth_year: 1979
+
+03:02:11.337 | DEBUG    |   firstname: Kayla
+
+03:02:11.337 | DEBUG    |   lastname: Johnson
+
+03:02:11.337 | DEBUG    |   company: Brown Ltd
+
+03:02:11.337 | DEBUG    |   address1: 302 Sarah Corner Apt. 307
+
+03:02:11.337 | DEBUG    |   address2: Suite 850
+
+03:02:11.337 | DEBUG    |   country: Singapore
+
+03:02:11.337 | DEBUG    |   state: New Jersey
+
+03:02:11.337 | DEBUG    |   city: Port Matthewland
+
+03:02:11.337 | DEBUG    |   zipcode: 63847
+
+03:02:11.476 | DEBUG    | Status code correct: 200
+
+03:02:11.477 | DEBUG    | ResponseCode correct: 201
+
+03:02:11.477 | DEBUG    | Response message correct: "User created!"
+
+03:02:11.623 | DEBUG    | Status code correct: 200
+
+03:02:11.624 | DEBUG    | ResponseCode correct: 200
+
+03:02:11.624 | DEBUG    | Response message correct: "Account deleted!"

@@ -1,0 +1,37 @@
+03:02:11.188 | DEBUG    | New user details:
+
+03:02:11.188 | DEBUG    |   name: Suzanne
+
+03:02:11.188 | DEBUG    |   email: 2c57afe7_rgardner@example.org
+
+03:02:11.188 | DEBUG    |   title: Mr
+
+03:02:11.188 | DEBUG    |   birth_day: 25
+
+03:02:11.188 | DEBUG    |   birth_month: 5
+
+03:02:11.188 | DEBUG    |   birth_year: 2014
+
+03:02:11.188 | DEBUG    |   firstname: Suzanne
+
+03:02:11.188 | DEBUG    |   lastname: King
+
+03:02:11.188 | DEBUG    |   company: Jennings, Dixon and Day
+
+03:02:11.188 | DEBUG    |   address1: 3239 Jackson Rapid Apt. 857
+
+03:02:11.188 | DEBUG    |   address2: Suite 801
+
+03:02:11.188 | DEBUG    |   country: Australia
+
+03:02:11.188 | DEBUG    |   state: Utah
+
+03:02:11.188 | DEBUG    |   city: New Caitlinhaven
+
+03:02:11.188 | DEBUG    |   zipcode: 97397
+
+03:02:11.328 | DEBUG    | Status code correct: 200
+
+03:02:11.328 | DEBUG    | ResponseCode correct: 201
+
+03:02:11.328 | DEBUG    | Response message correct: "User created!"

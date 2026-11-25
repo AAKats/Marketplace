@@ -1,0 +1,17 @@
+03:00:55.244 | DEBUG    | Login title is presented
+
+03:00:55.259 | DEBUG    | Login title text is correct
+
+03:00:55.266 | DEBUG    | Login email field is presented
+
+03:00:55.274 | DEBUG    | Password field is presented
+
+03:00:55.333 | DEBUG    | Email filled in
+
+03:00:55.377 | DEBUG    | Password filled in
+
+03:00:55.385 | DEBUG    | Login button is presented
+
+03:00:55.432 | DEBUG    | Login button is clicked
+
+03:00:57.369 | DEBUG    | Username is correct Logged in as Tammy
