@@ -1,0 +1,169 @@
+02:07:53.026 | DEBUG    | Product Blue Top added, quantity 1
+
+02:07:53.863 | DEBUG    | Product Blue Top added, quantity 2
+
+02:07:54.713 | DEBUG    | Product Men Tshirt added, quantity 1
+
+02:07:55.779 | DEBUG    | Product Men Tshirt added, quantity 2
+
+02:07:56.059 | DEBUG    | Proceed to checkout button clicked
+
+02:07:56.237 | DEBUG    | Register via modal button clicked
+
+02:07:56.244 | DEBUG    | New user Signup title is presented
+
+02:07:56.251 | DEBUG    | New user Signup title text is correct
+
+02:07:56.255 | DEBUG    | Signup email field is presented
+
+02:07:56.259 | DEBUG    | Signup name field is presented
+
+02:07:56.310 | DEBUG    | Email signup field filled
+
+02:07:56.342 | DEBUG    | Name signup field filled
+
+02:07:56.373 | DEBUG    | Signup button is clicked
+
+02:07:56.901 | DEBUG    | Account information title is presented
+
+02:07:56.907 | DEBUG    | Account information title text is correct
+
+02:07:56.926 | DEBUG    | Mr radiobutton is presented
+
+02:07:56.930 | DEBUG    | Mrs radiobutton is presented
+
+02:07:56.958 | DEBUG    | Selected MR title
+
+02:07:56.963 | DEBUG    | Password field is presented
+
+02:07:56.995 | DEBUG    | Password is filled in
+
+02:07:57.001 | DEBUG    | Day of birth list is presented
+
+02:07:57.034 | DEBUG    | Day of birth selected
+
+02:07:57.039 | DEBUG    | Month of birth list is presented
+
+02:07:57.066 | DEBUG    | Month of birth selected
+
+02:07:57.071 | DEBUG    | Year of birth list is presented
+
+02:07:57.098 | DEBUG    | Year of birth selected
+
+02:07:57.098 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+02:07:57.098 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+02:07:57.103 | DEBUG    | First name field is presented
+
+02:07:57.128 | DEBUG    | First name is filled in
+
+02:07:57.135 | DEBUG    | Last name field is presented
+
+02:07:57.164 | DEBUG    | Last name is filled in
+
+02:07:57.171 | DEBUG    | Company field is presented
+
+02:07:57.197 | DEBUG    | Company is filled in
+
+02:07:57.202 | DEBUG    | Address 1 field is presented
+
+02:07:57.236 | DEBUG    | Address 1 is filled in
+
+02:07:57.242 | DEBUG    | Address 2 field is presented
+
+02:07:57.268 | DEBUG    | Address 2 is filled in
+
+02:07:57.304 | DEBUG    | State field is presented
+
+02:07:57.329 | DEBUG    | State is filled in
+
+02:07:57.335 | DEBUG    | City field is presented
+
+02:07:57.360 | DEBUG    | City is filled in
+
+02:07:57.365 | DEBUG    | Zipcode field is presented
+
+02:07:57.389 | DEBUG    | Zipcode is filled in
+
+02:07:57.393 | DEBUG    | Mobile number field is presented
+
+02:07:57.424 | DEBUG    | Mobile number is filled in
+
+02:07:58.197 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+02:07:58.216 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+02:07:58.216 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+02:07:58.220 | DEBUG    | Continue button is presented
+
+02:07:58.929 | DEBUG    | Username is correct Logged in as Brent
+
+02:07:59.658 | DEBUG    | Proceed to checkout button clicked
+
+02:07:59.671 | DEBUG    | Name is correct in the delivery information: Mr. Brent Sanchez
+
+02:07:59.681 | DEBUG    | Company name is correct in the delivery information: Torres Ltd
+
+02:07:59.692 | DEBUG    | Address 1 is correct in the delivery information: 482 Kenneth Common Suite 299
+
+02:07:59.702 | DEBUG    | Address 2 is correct in the delivery information: Apt. 747
+
+02:07:59.711 | DEBUG    | City is correct in the delivery information: Davidsonton Alaska 57686
+
+02:07:59.721 | DEBUG    | Country is correct in the delivery information: Israel
+
+02:07:59.731 | DEBUG    | Phone is correct in the delivery information: +1-881-363-2747x2290
+
+02:07:59.741 | DEBUG    | Name is correct in the billing information: Mr. Brent Sanchez
+
+02:07:59.750 | DEBUG    | Company name is correct in the billing information: Torres Ltd
+
+02:07:59.760 | DEBUG    | Address 1 is correct in the billing information: 482 Kenneth Common Suite 299
+
+02:07:59.770 | DEBUG    | Address 2 is correct in the billing information: Apt. 747
+
+02:07:59.780 | DEBUG    | City is correct in the billing information: Davidsonton Alaska 57686
+
+02:07:59.789 | DEBUG    | Country is correct in the billing information: Israel
+
+02:07:59.799 | DEBUG    | Phone is correct in the billing information: +1-881-363-2747x2290
+
+02:07:59.807 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+02:07:59.821 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+02:07:59.827 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+02:07:59.836 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+02:07:59.836 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+02:07:59.852 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+02:07:59.862 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+02:07:59.878 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+02:07:59.887 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+02:07:59.937 | DEBUG    | Comment filled in with: Both authority beat speech voice. Rest ground paper analysis.
+
+02:08:00.210 | DEBUG    | Place order button clicked
+
+02:08:00.246 | DEBUG    | Name on card filled in with: ****
+
+02:08:00.278 | DEBUG    | Card number filled in with: ****4736
+
+02:08:01.729 | DEBUG    | Pay and confirm button clicked
+
+02:08:01.753 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+02:08:01.960 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+02:08:01.960 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+02:08:01.960 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+02:08:02.489 | DEBUG    | Continue button clicked

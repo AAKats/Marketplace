@@ -1,0 +1,75 @@
+02:10:03.745 | DEBUG    | New user details:
+
+02:10:03.745 | DEBUG    |   name: Christian
+
+02:10:03.745 | DEBUG    |   email: 1d0368cf_baileypatrick@example.com
+
+02:10:03.745 | DEBUG    |   title: Mrs
+
+02:10:03.745 | DEBUG    |   birth_day: 6
+
+02:10:03.745 | DEBUG    |   birth_month: 8
+
+02:10:03.745 | DEBUG    |   birth_year: 1938
+
+02:10:03.745 | DEBUG    |   firstname: Christian
+
+02:10:03.745 | DEBUG    |   lastname: Lane
+
+02:10:03.745 | DEBUG    |   company: Pitts-Jones
+
+02:10:03.745 | DEBUG    |   address1: 7459 Rachel Village Suite 571
+
+02:10:03.745 | DEBUG    |   address2: Suite 145
+
+02:10:03.745 | DEBUG    |   country: United States
+
+02:10:03.745 | DEBUG    |   state: California
+
+02:10:03.745 | DEBUG    |   city: Port Craig
+
+02:10:03.745 | DEBUG    |   zipcode: 78054
+
+02:10:03.894 | DEBUG    | Status code correct: 200
+
+02:10:03.894 | DEBUG    | ResponseCode correct: 201
+
+02:10:03.894 | DEBUG    | Response message correct: "User created!"
+
+02:10:03.894 | DEBUG    | Updated user details:
+
+02:10:03.894 | DEBUG    |   name: Christian
+
+02:10:03.894 | DEBUG    |   email: 1d0368cf_baileypatrick@example.com
+
+02:10:03.894 | DEBUG    |   title: Mrs
+
+02:10:03.894 | DEBUG    |   birth_day: 6
+
+02:10:03.894 | DEBUG    |   birth_month: 8
+
+02:10:03.894 | DEBUG    |   birth_year: 1938
+
+02:10:03.894 | DEBUG    |   firstname: Christian
+
+02:10:03.894 | DEBUG    |   lastname: Lane
+
+02:10:03.894 | DEBUG    |   company: Pitts-Jones
+
+02:10:03.894 | DEBUG    |   address1: 7459 Rachel Village Suite 571
+
+02:10:03.894 | DEBUG    |   address2: Suite 145
+
+02:10:03.894 | DEBUG    |   country: United States
+
+02:10:03.894 | DEBUG    |   state: California
+
+02:10:03.894 | DEBUG    |   city: Port Craig
+
+02:10:03.896 | DEBUG    |   zipcode: 78054
+
+02:10:04.010 | DEBUG    | Status code correct: 200
+
+02:10:04.010 | DEBUG    | ResponseCode correct: 200
+
+02:10:04.010 | DEBUG    | Response message correct: "User updated!"

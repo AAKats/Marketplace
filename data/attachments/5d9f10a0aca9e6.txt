@@ -1,0 +1,13 @@
+02:07:49.427 | DEBUG    | Product "Fancy Green Top" (ID: 8) opened
+
+02:07:49.479 | DEBUG    | Quantity = 2 selected
+
+02:07:49.514 | DEBUG    | Product was added to cart
+
+02:07:50.298 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+02:07:50.308 | DEBUG    | Product: Fancy Green Top found in cart: Fancy Green Top
+
+02:07:50.320 | DEBUG    | Product Fancy Green Top price in cart: 700 matches added price: 700
+
+02:07:50.336 | DEBUG    | Product Fancy Green Top quantity in cart: 2 matches added quantity: 2

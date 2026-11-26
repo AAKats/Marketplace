@@ -1,0 +1,67 @@
+02:09:14.539 | DEBUG    | Email filled in
+
+02:09:14.567 | DEBUG    | Password filled in
+
+02:09:14.572 | DEBUG    | Login button is presented
+
+02:09:14.602 | DEBUG    | Login button is clicked
+
+02:09:15.859 | DEBUG    | Username is correct Logged in as Brittany
+
+02:09:16.736 | DEBUG    | Product Blue Top added, quantity 1
+
+02:09:17.577 | DEBUG    | Product Blue Top added, quantity 2
+
+02:09:18.627 | DEBUG    | Product Blue Top added, quantity 3
+
+02:09:19.175 | DEBUG    | Proceed to checkout button clicked
+
+02:09:19.187 | DEBUG    | Name is correct in the delivery information: Mr. Brittany Robinson
+
+02:09:19.197 | DEBUG    | Company name is correct in the delivery information: Jones, Swanson and Carter
+
+02:09:19.207 | DEBUG    | Address 1 is correct in the delivery information: 26267 Reeves Mill Apt. 645
+
+02:09:19.216 | DEBUG    | Address 2 is correct in the delivery information: Suite 388
+
+02:09:19.225 | DEBUG    | City is correct in the delivery information: Lake Andreabury New York 40633
+
+02:09:19.235 | DEBUG    | Country is correct in the delivery information: Israel
+
+02:09:19.245 | DEBUG    | Phone is correct in the delivery information: (744)661-1216
+
+02:09:19.255 | DEBUG    | Name is correct in the billing information: Mr. Brittany Robinson
+
+02:09:19.265 | DEBUG    | Company name is correct in the billing information: Jones, Swanson and Carter
+
+02:09:19.274 | DEBUG    | Address 1 is correct in the billing information: 26267 Reeves Mill Apt. 645
+
+02:09:19.284 | DEBUG    | Address 2 is correct in the billing information: Suite 388
+
+02:09:19.293 | DEBUG    | City is correct in the billing information: Lake Andreabury New York 40633
+
+02:09:19.302 | DEBUG    | Country is correct in the billing information: Israel
+
+02:09:19.312 | DEBUG    | Phone is correct in the billing information: (744)661-1216
+
+02:09:19.319 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+02:09:19.333 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+02:09:19.338 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+02:09:19.354 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+02:09:19.369 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+02:09:19.420 | DEBUG    | Comment filled in with: Peace last better usually. As detail eight dream rich where cover.
+
+02:09:19.587 | DEBUG    | Place order button clicked
+
+02:09:19.622 | DEBUG    | Name on card filled in with: ****
+
+02:09:19.655 | DEBUG    | Card number filled in with: ****9694
+
+02:09:19.801 | DEBUG    | Pay and confirm button clicked
+
+02:09:21.643 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
