@@ -1,0 +1,33 @@
+02:10:07.981 | DEBUG    | New user details:
+
+02:10:07.981 | DEBUG    |   name: Richard
+
+02:10:07.981 | DEBUG    |   email: b1d49886_hayesmichelle@example.org
+
+02:10:07.981 | DEBUG    |   title: Mrs
+
+02:10:07.981 | DEBUG    |   birth_day: 7
+
+02:10:07.982 | DEBUG    |   birth_month: 11
+
+02:10:07.982 | DEBUG    |   birth_year: 1998
+
+02:10:07.982 | DEBUG    |   firstname: Richard
+
+02:10:07.982 | DEBUG    |   lastname: Jordan
+
+02:10:07.982 | DEBUG    |   company: Jones-Bernard
+
+02:10:07.982 | DEBUG    |   address1: 249 Diane Wells Apt. 071
+
+02:10:07.982 | DEBUG    |   address2: Apt. 945
+
+02:10:07.982 | DEBUG    |   country: United States
+
+02:10:07.982 | DEBUG    |   state: North Carolina
+
+02:10:07.982 | DEBUG    |   city: Millerchester
+
+02:10:07.982 | DEBUG    |   zipcode: 31810
+
+02:10:08.114 | DEBUG    | Status code correct: 200
