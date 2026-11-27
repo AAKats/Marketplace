@@ -1,0 +1,39 @@
+13:37:39.952 | DEBUG    | Main title is presented
+
+13:37:39.973 | DEBUG    | Main title is correct: CONTACT US
+
+13:37:39.978 | DEBUG    | Second title is presented
+
+13:37:39.993 | DEBUG    | Second title is correct: GET IN TOUCH
+
+13:37:40.000 | DEBUG    | Name field is presented
+
+13:37:40.036 | DEBUG    | Name field filled in with: Robert
+
+13:37:40.041 | DEBUG    | Email field is presented
+
+13:37:40.079 | DEBUG    | Email field filled in with: 00d99636_ulee@example.org
+
+13:37:40.088 | DEBUG    | Subject field is presented
+
+13:37:40.119 | DEBUG    | Subject field filled in with: Another.
+
+13:37:40.126 | DEBUG    | Message field is presented
+
+13:37:40.184 | DEBUG    | Message field filled in with: Still money executive letter wonder. Whom loss instead century discover.
+
+13:37:40.190 | DEBUG    | Upload field is presented
+
+13:37:40.210 | DEBUG    | File uploaded
+
+13:37:40.216 | DEBUG    | Submit button is presented
+
+13:37:40.276 | DEBUG    | Alert is presented
+
+13:37:40.308 | DEBUG    | Success message is presented
+
+13:37:40.308 | DEBUG    | Success message is correct
+
+13:37:40.313 | DEBUG    | Home button is presented
+
+13:37:40.955 | DEBUG    | Home button is clicked

@@ -1,0 +1,75 @@
+13:38:48.466 | DEBUG    | New user details:
+
+13:38:48.466 | DEBUG    |   name: Alyssa
+
+13:38:48.466 | DEBUG    |   email: 45ac6c41_ftucker@example.org
+
+13:38:48.466 | DEBUG    |   title: Mr
+
+13:38:48.466 | DEBUG    |   birth_day: 22
+
+13:38:48.466 | DEBUG    |   birth_month: 8
+
+13:38:48.466 | DEBUG    |   birth_year: 2000
+
+13:38:48.466 | DEBUG    |   firstname: Alyssa
+
+13:38:48.466 | DEBUG    |   lastname: Harris
+
+13:38:48.466 | DEBUG    |   company: Gillespie-Thomas
+
+13:38:48.466 | DEBUG    |   address1: 54670 Williams Plains
+
+13:38:48.466 | DEBUG    |   address2: Apt. 513
+
+13:38:48.466 | DEBUG    |   country: India
+
+13:38:48.466 | DEBUG    |   state: Tennessee
+
+13:38:48.466 | DEBUG    |   city: New Billtown
+
+13:38:48.466 | DEBUG    |   zipcode: 77181
+
+13:38:48.558 | DEBUG    | Status code correct: 200
+
+13:38:48.558 | DEBUG    | ResponseCode correct: 201
+
+13:38:48.559 | DEBUG    | Response message correct: "User created!"
+
+13:38:48.559 | DEBUG    | Updated user details:
+
+13:38:48.559 | DEBUG    |   name: Alyssa
+
+13:38:48.559 | DEBUG    |   email: 45ac6c41_ftucker@example.org
+
+13:38:48.559 | DEBUG    |   title: Mr
+
+13:38:48.559 | DEBUG    |   birth_day: 22
+
+13:38:48.559 | DEBUG    |   birth_month: 8
+
+13:38:48.559 | DEBUG    |   birth_year: 2000
+
+13:38:48.559 | DEBUG    |   firstname: Alyssa
+
+13:38:48.559 | DEBUG    |   lastname: Harris
+
+13:38:48.559 | DEBUG    |   company: Gillespie-Thomas
+
+13:38:48.559 | DEBUG    |   address1: 54670 Williams Plains
+
+13:38:48.559 | DEBUG    |   address2: Apt. 513
+
+13:38:48.559 | DEBUG    |   country: India
+
+13:38:48.559 | DEBUG    |   state: Tennessee
+
+13:38:48.559 | DEBUG    |   city: New Billtown
+
+13:38:48.560 | DEBUG    |   zipcode: 77181
+
+13:38:48.651 | DEBUG    | Status code correct: 200
+
+13:38:48.651 | DEBUG    | ResponseCode correct: 200
+
+13:38:48.651 | DEBUG    | Response message correct: "User updated!"

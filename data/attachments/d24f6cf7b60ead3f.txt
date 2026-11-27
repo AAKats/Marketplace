@@ -1,0 +1,165 @@
+13:38:37.638 | DEBUG    | New user Signup title is presented
+
+13:38:37.649 | DEBUG    | New user Signup title text is correct
+
+13:38:37.655 | DEBUG    | Signup email field is presented
+
+13:38:37.661 | DEBUG    | Signup name field is presented
+
+13:38:37.709 | DEBUG    | Email signup field filled
+
+13:38:37.740 | DEBUG    | Name signup field filled
+
+13:38:37.904 | DEBUG    | Signup button is clicked
+
+13:38:37.919 | DEBUG    | Account information title is presented
+
+13:38:37.929 | DEBUG    | Account information title text is correct
+
+13:38:37.953 | DEBUG    | Mr radiobutton is presented
+
+13:38:37.958 | DEBUG    | Mrs radiobutton is presented
+
+13:38:37.994 | DEBUG    | Selected MRS title
+
+13:38:38.001 | DEBUG    | Password field is presented
+
+13:38:38.036 | DEBUG    | Password is filled in
+
+13:38:38.041 | DEBUG    | Day of birth list is presented
+
+13:38:38.087 | DEBUG    | Day of birth selected
+
+13:38:38.093 | DEBUG    | Month of birth list is presented
+
+13:38:38.127 | DEBUG    | Month of birth selected
+
+13:38:38.133 | DEBUG    | Year of birth list is presented
+
+13:38:38.169 | DEBUG    | Year of birth selected
+
+13:38:38.169 | DEBUG    | Sign up for our newsletter! checkbox is not selected
+
+13:38:38.169 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+13:38:38.175 | DEBUG    | First name field is presented
+
+13:38:38.207 | DEBUG    | First name is filled in
+
+13:38:38.214 | DEBUG    | Last name field is presented
+
+13:38:38.247 | DEBUG    | Last name is filled in
+
+13:38:38.252 | DEBUG    | Company field is presented
+
+13:38:38.283 | DEBUG    | Company is filled in
+
+13:38:38.289 | DEBUG    | Address 1 field is presented
+
+13:38:38.324 | DEBUG    | Address 1 is filled in
+
+13:38:38.331 | DEBUG    | Address 2 field is presented
+
+13:38:38.360 | DEBUG    | Address 2 is filled in
+
+13:38:38.403 | DEBUG    | State field is presented
+
+13:38:38.433 | DEBUG    | State is filled in
+
+13:38:38.438 | DEBUG    | City field is presented
+
+13:38:38.471 | DEBUG    | City is filled in
+
+13:38:38.478 | DEBUG    | Zipcode field is presented
+
+13:38:38.506 | DEBUG    | Zipcode is filled in
+
+13:38:38.513 | DEBUG    | Mobile number field is presented
+
+13:38:38.550 | DEBUG    | Mobile number is filled in
+
+13:38:39.521 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:38:39.539 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:38:39.539 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:38:39.545 | DEBUG    | Continue button is presented
+
+13:38:39.973 | DEBUG    | Username is correct Logged in as Laura
+
+13:38:41.606 | DEBUG    | Product Blue Top added, quantity 1
+
+13:38:42.483 | DEBUG    | Product Blue Top added, quantity 2
+
+13:38:43.359 | DEBUG    | Product Men Tshirt added, quantity 1
+
+13:38:44.414 | DEBUG    | Product Men Tshirt added, quantity 2
+
+13:38:45.127 | DEBUG    | Proceed to checkout button clicked
+
+13:38:45.142 | DEBUG    | Name is correct in the delivery information: Mrs. Laura Keller
+
+13:38:45.155 | DEBUG    | Company name is correct in the delivery information: Scott Inc
+
+13:38:45.167 | DEBUG    | Address 1 is correct in the delivery information: 43272 Deborah Land
+
+13:38:45.178 | DEBUG    | Address 2 is correct in the delivery information: Suite 576
+
+13:38:45.190 | DEBUG    | City is correct in the delivery information: Lake Justin Wyoming 17538
+
+13:38:45.202 | DEBUG    | Country is correct in the delivery information: United States
+
+13:38:45.214 | DEBUG    | Phone is correct in the delivery information: (394)627-8597x57569
+
+13:38:45.226 | DEBUG    | Name is correct in the billing information: Mrs. Laura Keller
+
+13:38:45.239 | DEBUG    | Company name is correct in the billing information: Scott Inc
+
+13:38:45.253 | DEBUG    | Address 1 is correct in the billing information: 43272 Deborah Land
+
+13:38:45.265 | DEBUG    | Address 2 is correct in the billing information: Suite 576
+
+13:38:45.276 | DEBUG    | City is correct in the billing information: Lake Justin Wyoming 17538
+
+13:38:45.288 | DEBUG    | Country is correct in the billing information: United States
+
+13:38:45.300 | DEBUG    | Phone is correct in the billing information: (394)627-8597x57569
+
+13:38:45.309 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+13:38:45.327 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:38:45.334 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:38:45.345 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+13:38:45.345 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+13:38:45.366 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:38:45.380 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:38:45.418 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:38:45.429 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:38:45.490 | DEBUG    | Comment filled in with: Its use near draw order. Green whatever maintain road rule.
+
+13:38:45.634 | DEBUG    | Place order button clicked
+
+13:38:45.674 | DEBUG    | Name on card filled in with: ****
+
+13:38:45.710 | DEBUG    | Card number filled in with: ****7374
+
+13:38:45.858 | DEBUG    | Pay and confirm button clicked
+
+13:38:47.116 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+13:38:47.289 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+13:38:47.289 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+13:38:47.289 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+13:38:47.642 | DEBUG    | Continue button clicked

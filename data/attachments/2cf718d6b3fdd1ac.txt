@@ -1,0 +1,43 @@
+13:38:48.279 | DEBUG    | New user details:
+
+13:38:48.279 | DEBUG    |   name: Jeremy
+
+13:38:48.279 | DEBUG    |   email: cdff83fe_cathyjimenez@example.org
+
+13:38:48.279 | DEBUG    |   title: Mrs
+
+13:38:48.279 | DEBUG    |   birth_day: 2
+
+13:38:48.279 | DEBUG    |   birth_month: 2
+
+13:38:48.279 | DEBUG    |   birth_year: 2011
+
+13:38:48.279 | DEBUG    |   firstname: Jeremy
+
+13:38:48.279 | DEBUG    |   lastname: Simmons
+
+13:38:48.279 | DEBUG    |   company: Kennedy-Huber
+
+13:38:48.279 | DEBUG    |   address1: 52361 Lucas Mission
+
+13:38:48.279 | DEBUG    |   address2: Apt. 690
+
+13:38:48.279 | DEBUG    |   country: New Zealand
+
+13:38:48.279 | DEBUG    |   state: Minnesota
+
+13:38:48.279 | DEBUG    |   city: Nicholston
+
+13:38:48.279 | DEBUG    |   zipcode: 34063
+
+13:38:48.372 | DEBUG    | Status code correct: 200
+
+13:38:48.372 | DEBUG    | ResponseCode correct: 201
+
+13:38:48.372 | DEBUG    | Response message correct: "User created!"
+
+13:38:48.458 | DEBUG    | Status code correct: 200
+
+13:38:48.458 | DEBUG    | ResponseCode correct: 200
+
+13:38:48.458 | DEBUG    | Response message correct: "Account deleted!"

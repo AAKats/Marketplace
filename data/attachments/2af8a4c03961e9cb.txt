@@ -1,0 +1,37 @@
+13:38:48.181 | DEBUG    | New user details:
+
+13:38:48.181 | DEBUG    |   name: Kenneth
+
+13:38:48.181 | DEBUG    |   email: 4064f9f8_caitlyn30@example.net
+
+13:38:48.182 | DEBUG    |   title: Mrs
+
+13:38:48.182 | DEBUG    |   birth_day: 13
+
+13:38:48.182 | DEBUG    |   birth_month: 12
+
+13:38:48.182 | DEBUG    |   birth_year: 1913
+
+13:38:48.182 | DEBUG    |   firstname: Kenneth
+
+13:38:48.182 | DEBUG    |   lastname: Williams
+
+13:38:48.182 | DEBUG    |   company: Hernandez LLC
+
+13:38:48.182 | DEBUG    |   address1: 17384 Miller Lane
+
+13:38:48.182 | DEBUG    |   address2: Suite 779
+
+13:38:48.182 | DEBUG    |   country: Australia
+
+13:38:48.182 | DEBUG    |   state: Rhode Island
+
+13:38:48.182 | DEBUG    |   city: Lanceview
+
+13:38:48.182 | DEBUG    |   zipcode: 41115
+
+13:38:48.271 | DEBUG    | Status code correct: 200
+
+13:38:48.271 | DEBUG    | ResponseCode correct: 201
+
+13:38:48.271 | DEBUG    | Response message correct: "User created!"
