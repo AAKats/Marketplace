@@ -1,0 +1,67 @@
+13:45:34.672 | DEBUG    | Email filled in
+
+13:45:34.715 | DEBUG    | Password filled in
+
+13:45:34.722 | DEBUG    | Login button is presented
+
+13:45:34.768 | DEBUG    | Login button is clicked
+
+13:45:36.298 | DEBUG    | Username is correct Logged in as Jason
+
+13:45:37.265 | DEBUG    | Product Blue Top added, quantity 1
+
+13:45:38.159 | DEBUG    | Product Blue Top added, quantity 2
+
+13:45:39.631 | DEBUG    | Product Blue Top added, quantity 3
+
+13:45:40.457 | DEBUG    | Proceed to checkout button clicked
+
+13:45:40.477 | DEBUG    | Name is correct in the delivery information: Mrs. Jason Morgan
+
+13:45:40.494 | DEBUG    | Company name is correct in the delivery information: Moreno LLC
+
+13:45:40.511 | DEBUG    | Address 1 is correct in the delivery information: 4965 Murphy Islands Apt. 345
+
+13:45:40.527 | DEBUG    | Address 2 is correct in the delivery information: Apt. 122
+
+13:45:40.545 | DEBUG    | City is correct in the delivery information: North Amyborough Minnesota 31623
+
+13:45:40.563 | DEBUG    | Country is correct in the delivery information: United States
+
+13:45:40.579 | DEBUG    | Phone is correct in the delivery information: 758.714.6755x0847
+
+13:45:40.597 | DEBUG    | Name is correct in the billing information: Mrs. Jason Morgan
+
+13:45:40.613 | DEBUG    | Company name is correct in the billing information: Moreno LLC
+
+13:45:40.629 | DEBUG    | Address 1 is correct in the billing information: 4965 Murphy Islands Apt. 345
+
+13:45:40.646 | DEBUG    | Address 2 is correct in the billing information: Apt. 122
+
+13:45:40.662 | DEBUG    | City is correct in the billing information: North Amyborough Minnesota 31623
+
+13:45:40.678 | DEBUG    | Country is correct in the billing information: United States
+
+13:45:40.694 | DEBUG    | Phone is correct in the billing information: 758.714.6755x0847
+
+13:45:40.707 | DEBUG    | Count of products in cart 1 is equal to count of added products 1
+
+13:45:40.732 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:45:40.742 | DEBUG    | Product: Blue Top found in cart: Blue Top
+
+13:45:40.769 | DEBUG    | Product Blue Top quantity in cart: 3 matches added quantity: 3
+
+13:45:40.797 | DEBUG    | Product Blue Top total in cart: 1500 matches expected total: 1500
+
+13:45:40.887 | DEBUG    | Comment filled in with: Picture goal respond hair. Else box office. Standard to sister result music half.
+
+13:45:41.297 | DEBUG    | Place order button clicked
+
+13:45:41.357 | DEBUG    | Name on card filled in with: ****
+
+13:45:41.411 | DEBUG    | Card number filled in with: ****2432
+
+13:45:42.871 | DEBUG    | Pay and confirm button clicked
+
+13:45:42.909 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"

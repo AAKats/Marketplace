@@ -1,0 +1,49 @@
+13:44:25.316 | DEBUG    | Search field is presented
+
+13:44:25.371 | DEBUG    | Search field is filled in with: "Madame Top For Women"
+
+13:44:25.379 | DEBUG    | Search button is presented
+
+13:44:25.660 | DEBUG    | Search button is clicked
+
+13:44:25.682 | DEBUG    | Title is presented
+
+13:44:25.683 | DEBUG    | Title SEARCHED PRODUCTS correct
+
+13:44:25.687 | DEBUG    | 1 products found
+
+13:44:25.693 | DEBUG    | "Madame Top For Women" product found, and contains "Madame Top For Women"
+
+13:44:26.757 | DEBUG    | Product Madame Top For Women added, quantity 1
+
+13:44:26.999 | DEBUG    | Product: Madame Top For Women found in cart: Madame Top For Women
+
+13:44:27.021 | DEBUG    | Product Madame Top For Women price in cart: 1000 matches added price: 1000
+
+13:44:27.050 | DEBUG    | Product Madame Top For Women quantity in cart: 1 matches added quantity: 1
+
+13:44:27.078 | DEBUG    | Product Madame Top For Women total in cart: 1000 matches expected total: 1000
+
+13:44:27.246 | DEBUG    | Login email field is presented
+
+13:44:27.254 | DEBUG    | Password field is presented
+
+13:44:27.307 | DEBUG    | Email filled in
+
+13:44:27.348 | DEBUG    | Password filled in
+
+13:44:27.356 | DEBUG    | Login button is presented
+
+13:44:28.588 | DEBUG    | Login button is clicked
+
+13:44:28.825 | DEBUG    | Product: Madame Top For Women found in cart: Madame Top For Women
+
+13:44:28.845 | DEBUG    | Product Madame Top For Women price in cart: 1000 matches added price: 1000
+
+13:44:28.871 | DEBUG    | Product Madame Top For Women quantity in cart: 1 matches added quantity: 1
+
+13:44:28.896 | DEBUG    | Product Madame Top For Women total in cart: 1000 matches expected total: 1000
+
+13:44:33.540 | DEBUG    | All products deleted
+
+13:44:33.549 | DEBUG    | Empty cart text correct: Cart is empty!

@@ -1,0 +1,169 @@
+13:44:03.438 | DEBUG    | Product Blue Top added, quantity 1
+
+13:44:04.341 | DEBUG    | Product Blue Top added, quantity 2
+
+13:44:05.262 | DEBUG    | Product Men Tshirt added, quantity 1
+
+13:44:06.310 | DEBUG    | Product Men Tshirt added, quantity 2
+
+13:44:06.577 | DEBUG    | Proceed to checkout button clicked
+
+13:44:06.812 | DEBUG    | Register via modal button clicked
+
+13:44:06.825 | DEBUG    | New user Signup title is presented
+
+13:44:06.836 | DEBUG    | New user Signup title text is correct
+
+13:44:06.843 | DEBUG    | Signup email field is presented
+
+13:44:06.850 | DEBUG    | Signup name field is presented
+
+13:44:06.911 | DEBUG    | Email signup field filled
+
+13:44:06.958 | DEBUG    | Name signup field filled
+
+13:44:07.007 | DEBUG    | Signup button is clicked
+
+13:44:07.246 | DEBUG    | Account information title is presented
+
+13:44:07.257 | DEBUG    | Account information title text is correct
+
+13:44:07.289 | DEBUG    | Mr radiobutton is presented
+
+13:44:07.296 | DEBUG    | Mrs radiobutton is presented
+
+13:44:07.352 | DEBUG    | Selected MRS title
+
+13:44:07.360 | DEBUG    | Password field is presented
+
+13:44:07.412 | DEBUG    | Password is filled in
+
+13:44:07.421 | DEBUG    | Day of birth list is presented
+
+13:44:07.483 | DEBUG    | Day of birth selected
+
+13:44:07.491 | DEBUG    | Month of birth list is presented
+
+13:44:07.537 | DEBUG    | Month of birth selected
+
+13:44:07.544 | DEBUG    | Year of birth list is presented
+
+13:44:07.590 | DEBUG    | Year of birth selected
+
+13:44:07.640 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+13:44:07.640 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+13:44:07.653 | DEBUG    | First name field is presented
+
+13:44:07.694 | DEBUG    | First name is filled in
+
+13:44:07.704 | DEBUG    | Last name field is presented
+
+13:44:07.747 | DEBUG    | Last name is filled in
+
+13:44:07.756 | DEBUG    | Company field is presented
+
+13:44:07.823 | DEBUG    | Company is filled in
+
+13:44:07.834 | DEBUG    | Address 1 field is presented
+
+13:44:07.890 | DEBUG    | Address 1 is filled in
+
+13:44:07.901 | DEBUG    | Address 2 field is presented
+
+13:44:07.946 | DEBUG    | Address 2 is filled in
+
+13:44:07.989 | DEBUG    | State field is presented
+
+13:44:08.031 | DEBUG    | State is filled in
+
+13:44:08.041 | DEBUG    | City field is presented
+
+13:44:08.090 | DEBUG    | City is filled in
+
+13:44:08.098 | DEBUG    | Zipcode field is presented
+
+13:44:08.144 | DEBUG    | Zipcode is filled in
+
+13:44:08.155 | DEBUG    | Mobile number field is presented
+
+13:44:08.200 | DEBUG    | Mobile number is filled in
+
+13:44:08.990 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:44:09.016 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:44:09.016 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:44:09.024 | DEBUG    | Continue button is presented
+
+13:44:09.411 | DEBUG    | Username is correct Logged in as Maxwell
+
+13:44:10.072 | DEBUG    | Proceed to checkout button clicked
+
+13:44:10.092 | DEBUG    | Name is correct in the delivery information: Mrs. Maxwell Schmitt
+
+13:44:10.110 | DEBUG    | Company name is correct in the delivery information: Nelson, Spears and Winters
+
+13:44:10.128 | DEBUG    | Address 1 is correct in the delivery information: 24087 Lee Pass Apt. 897
+
+13:44:10.146 | DEBUG    | Address 2 is correct in the delivery information: Suite 770
+
+13:44:10.164 | DEBUG    | City is correct in the delivery information: West Seanton Hawaii 80749
+
+13:44:10.181 | DEBUG    | Country is correct in the delivery information: India
+
+13:44:10.199 | DEBUG    | Phone is correct in the delivery information: (409)896-5604
+
+13:44:10.217 | DEBUG    | Name is correct in the billing information: Mrs. Maxwell Schmitt
+
+13:44:10.234 | DEBUG    | Company name is correct in the billing information: Nelson, Spears and Winters
+
+13:44:10.253 | DEBUG    | Address 1 is correct in the billing information: 24087 Lee Pass Apt. 897
+
+13:44:10.270 | DEBUG    | Address 2 is correct in the billing information: Suite 770
+
+13:44:10.288 | DEBUG    | City is correct in the billing information: West Seanton Hawaii 80749
+
+13:44:10.304 | DEBUG    | Country is correct in the billing information: India
+
+13:44:10.320 | DEBUG    | Phone is correct in the billing information: (409)896-5604
+
+13:44:10.334 | DEBUG    | Count of products in cart 2 is equal to count of added products 2
+
+13:44:10.359 | DEBUG    | Product Blue Top price in cart: 500 matches added price: 500
+
+13:44:10.369 | DEBUG    | Product Men Tshirt price in cart: 400 matches added price: 400
+
+13:44:10.384 | DEBUG    | Product: Blue Top found in cart: Blue Top, Men Tshirt
+
+13:44:10.384 | DEBUG    | Product: Men Tshirt found in cart: Blue Top, Men Tshirt
+
+13:44:10.413 | DEBUG    | Product Blue Top quantity in cart: 2 matches added quantity: 2
+
+13:44:10.429 | DEBUG    | Product Men Tshirt quantity in cart: 2 matches added quantity: 2
+
+13:44:10.456 | DEBUG    | Product Blue Top total in cart: 1000 matches expected total: 1000
+
+13:44:10.472 | DEBUG    | Product Men Tshirt total in cart: 800 matches expected total: 800
+
+13:44:10.568 | DEBUG    | Comment filled in with: Tonight can through detail science. People magazine born follow trial foot defense candidate.
+
+13:44:10.770 | DEBUG    | Place order button clicked
+
+13:44:10.829 | DEBUG    | Name on card filled in with: ****
+
+13:44:10.878 | DEBUG    | Card number filled in with: ****4859
+
+13:44:12.360 | DEBUG    | Pay and confirm button clicked
+
+13:44:12.399 | DEBUG    | Success message is correct: "ORDER PLACED!" / "Congratulations! Your order has been confirmed!"
+
+13:44:12.600 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+13:44:12.600 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+13:44:12.600 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+13:44:12.963 | DEBUG    | Continue button clicked

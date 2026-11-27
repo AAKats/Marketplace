@@ -1,0 +1,11 @@
+13:45:44.758 | DEBUG    | View button for the 11 product from the start (id = 14) clicked
+
+13:45:44.823 | DEBUG    | Review name field filled in with "Timothy Klein"
+
+13:45:44.885 | DEBUG    | Review email field filled in with "b4702efb_robert55@example.org"
+
+13:45:44.971 | DEBUG    | Review message field filled in with "Need drive community join. Yard quite store. Black child book dog subject."
+
+13:45:45.031 | DEBUG    | Submit review button clicked
+
+13:45:45.057 | DEBUG    | Success review message is displayed

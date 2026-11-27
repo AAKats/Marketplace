@@ -1,0 +1,97 @@
+13:46:06.064 | DEBUG    | New user Signup title is presented
+
+13:46:06.079 | DEBUG    | New user Signup title text is correct
+
+13:46:06.086 | DEBUG    | Signup email field is presented
+
+13:46:06.094 | DEBUG    | Signup name field is presented
+
+13:46:06.157 | DEBUG    | Email signup field filled
+
+13:46:06.197 | DEBUG    | Name signup field filled
+
+13:46:06.244 | DEBUG    | Signup button is clicked
+
+13:46:06.529 | DEBUG    | Account information title is presented
+
+13:46:06.539 | DEBUG    | Account information title text is correct
+
+13:46:06.571 | DEBUG    | Mr radiobutton is presented
+
+13:46:06.580 | DEBUG    | Mrs radiobutton is presented
+
+13:46:06.626 | DEBUG    | Selected MRS title
+
+13:46:06.635 | DEBUG    | Password field is presented
+
+13:46:06.681 | DEBUG    | Password is filled in
+
+13:46:06.689 | DEBUG    | Day of birth list is presented
+
+13:46:06.747 | DEBUG    | Day of birth selected
+
+13:46:06.755 | DEBUG    | Month of birth list is presented
+
+13:46:06.802 | DEBUG    | Month of birth selected
+
+13:46:06.809 | DEBUG    | Year of birth list is presented
+
+13:46:06.856 | DEBUG    | Year of birth selected
+
+13:46:06.906 | DEBUG    | Sign up for our newsletter! checkbox is selected
+
+13:46:06.906 | DEBUG    | Receive special offers from our partners! checkbox is not selected
+
+13:46:06.914 | DEBUG    | First name field is presented
+
+13:46:06.953 | DEBUG    | First name is filled in
+
+13:46:06.963 | DEBUG    | Last name field is presented
+
+13:46:07.011 | DEBUG    | Last name is filled in
+
+13:46:07.019 | DEBUG    | Company field is presented
+
+13:46:07.061 | DEBUG    | Company is filled in
+
+13:46:07.069 | DEBUG    | Address 1 field is presented
+
+13:46:07.125 | DEBUG    | Address 1 is filled in
+
+13:46:07.135 | DEBUG    | Address 2 field is presented
+
+13:46:07.174 | DEBUG    | Address 2 is filled in
+
+13:46:07.235 | DEBUG    | State field is presented
+
+13:46:07.279 | DEBUG    | State is filled in
+
+13:46:07.287 | DEBUG    | City field is presented
+
+13:46:07.332 | DEBUG    | City is filled in
+
+13:46:07.340 | DEBUG    | Zipcode field is presented
+
+13:46:07.380 | DEBUG    | Zipcode is filled in
+
+13:46:07.388 | DEBUG    | Mobile number field is presented
+
+13:46:07.436 | DEBUG    | Mobile number is filled in
+
+13:46:08.251 | DEBUG    | Title is correct ACCOUNT CREATED!
+
+13:46:08.276 | DEBUG    | Congratilations text 1 is correct: Congratulations! Your new account has been successfully created!
+
+13:46:08.276 | DEBUG    | Congratilations text 2 is correct: You can now take advantage of member privileges to enhance your online shopping experience with us.
+
+13:46:08.283 | DEBUG    | Continue button is presented
+
+13:46:09.299 | DEBUG    | Username is correct Logged in as Laura
+
+13:46:09.501 | DEBUG    | Delete title is correct ACCOUNT DELETED!
+
+13:46:09.501 | DEBUG    | Delete message 1 is correct Your account has been permanently deleted!
+
+13:46:09.501 | DEBUG    | Delete message 2 is correct You can create new account to take advantage of member privileges to enhance your online shopping experience with us.
+
+13:46:10.041 | DEBUG    | Continue button clicked
