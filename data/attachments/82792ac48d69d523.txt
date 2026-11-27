@@ -1,0 +1,33 @@
+13:10:11.507 | DEBUG    | New user details:
+
+13:10:11.507 | DEBUG    |   name: Evelyn
+
+13:10:11.507 | DEBUG    |   email: 6aab1cb7_kellywilliams@example.com
+
+13:10:11.507 | DEBUG    |   title: Mrs
+
+13:10:11.507 | DEBUG    |   birth_day: 28
+
+13:10:11.507 | DEBUG    |   birth_month: 9
+
+13:10:11.507 | DEBUG    |   birth_year: 2021
+
+13:10:11.507 | DEBUG    |   firstname: Evelyn
+
+13:10:11.507 | DEBUG    |   lastname: Townsend
+
+13:10:11.507 | DEBUG    |   company: Singleton Inc
+
+13:10:11.507 | DEBUG    |   address1: 9955 Laura Isle
+
+13:10:11.507 | DEBUG    |   address2: Apt. 741
+
+13:10:11.507 | DEBUG    |   country: United States
+
+13:10:11.507 | DEBUG    |   state: Louisiana
+
+13:10:11.507 | DEBUG    |   city: Dawsonmouth
+
+13:10:11.507 | DEBUG    |   zipcode: 09166
+
+13:10:11.595 | DEBUG    | Status code correct: 200

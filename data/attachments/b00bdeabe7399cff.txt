@@ -1,0 +1,33 @@
+13:10:11.381 | DEBUG    | New user details:
+
+13:10:11.381 | DEBUG    |   name: Thomas
+
+13:10:11.381 | DEBUG    |   email: f50de949_agonzalez@example.org
+
+13:10:11.382 | DEBUG    |   title: Mr
+
+13:10:11.382 | DEBUG    |   birth_day: 19
+
+13:10:11.382 | DEBUG    |   birth_month: 5
+
+13:10:11.382 | DEBUG    |   birth_year: 1961
+
+13:10:11.382 | DEBUG    |   firstname: Thomas
+
+13:10:11.382 | DEBUG    |   lastname: Vaughn
+
+13:10:11.382 | DEBUG    |   company: Miller-Charles
+
+13:10:11.382 | DEBUG    |   address1: 015 Lee Lakes Apt. 641
+
+13:10:11.382 | DEBUG    |   address2: Apt. 761
+
+13:10:11.382 | DEBUG    |   country: India
+
+13:10:11.382 | DEBUG    |   state: Massachusetts
+
+13:10:11.382 | DEBUG    |   city: West Kathybury
+
+13:10:11.382 | DEBUG    |   zipcode: 51237
+
+13:10:11.467 | DEBUG    | Status code correct: 200

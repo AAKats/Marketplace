@@ -1,0 +1,33 @@
+13:10:11.095 | DEBUG    | New user details:
+
+13:10:11.095 | DEBUG    |   name: Laura
+
+13:10:11.095 | DEBUG    |   email: c2c67e3d_shayden@example.net
+
+13:10:11.095 | DEBUG    |   title: Mrs
+
+13:10:11.095 | DEBUG    |   birth_day: 11
+
+13:10:11.095 | DEBUG    |   birth_month: 8
+
+13:10:11.095 | DEBUG    |   birth_year: 1995
+
+13:10:11.095 | DEBUG    |   firstname: Laura
+
+13:10:11.095 | DEBUG    |   lastname: Figueroa
+
+13:10:11.095 | DEBUG    |   company: Morris LLC
+
+13:10:11.095 | DEBUG    |   address1: 071 Brittany Valleys
+
+13:10:11.096 | DEBUG    |   address2: Apt. 060
+
+13:10:11.096 | DEBUG    |   country: Canada
+
+13:10:11.096 | DEBUG    |   state: Nevada
+
+13:10:11.096 | DEBUG    |   city: East Frankfort
+
+13:10:11.096 | DEBUG    |   zipcode: 85148
+
+13:10:11.184 | DEBUG    | Status code correct: 200
