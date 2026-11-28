@@ -1,0 +1,33 @@
+01:55:57.880 | DEBUG    | New user details:
+
+01:55:57.880 | DEBUG    |   name: Brian
+
+01:55:57.880 | DEBUG    |   email: 5a27c46a_douglas87@example.org
+
+01:55:57.880 | DEBUG    |   title: Mr
+
+01:55:57.880 | DEBUG    |   birth_day: 5
+
+01:55:57.880 | DEBUG    |   birth_month: 2
+
+01:55:57.880 | DEBUG    |   birth_year: 1930
+
+01:55:57.880 | DEBUG    |   firstname: Brian
+
+01:55:57.880 | DEBUG    |   lastname: Thompson
+
+01:55:57.880 | DEBUG    |   company: Watson-Travis
+
+01:55:57.880 | DEBUG    |   address1: 3855 Katie Meadow
+
+01:55:57.880 | DEBUG    |   address2: Suite 415
+
+01:55:57.880 | DEBUG    |   country: Australia
+
+01:55:57.880 | DEBUG    |   state: Florida
+
+01:55:57.880 | DEBUG    |   city: Maymouth
+
+01:55:57.880 | DEBUG    |   zipcode: 26990
+
+01:55:57.986 | DEBUG    | Status code correct: 200

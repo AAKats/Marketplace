@@ -1,0 +1,33 @@
+01:55:57.752 | DEBUG    | New user details:
+
+01:55:57.752 | DEBUG    |   name: Lisa
+
+01:55:57.752 | DEBUG    |   email: 72906b1f_donald84@example.org
+
+01:55:57.752 | DEBUG    |   title: Mr
+
+01:55:57.752 | DEBUG    |   birth_day: 17
+
+01:55:57.752 | DEBUG    |   birth_month: 6
+
+01:55:57.752 | DEBUG    |   birth_year: 1913
+
+01:55:57.752 | DEBUG    |   firstname: Lisa
+
+01:55:57.752 | DEBUG    |   lastname: Morgan
+
+01:55:57.752 | DEBUG    |   company: Benjamin, Flores and Carey
+
+01:55:57.752 | DEBUG    |   address1: 8043 Brown Crossroad
+
+01:55:57.752 | DEBUG    |   address2: Suite 290
+
+01:55:57.752 | DEBUG    |   country: India
+
+01:55:57.752 | DEBUG    |   state: New Mexico
+
+01:55:57.752 | DEBUG    |   city: Lake Raymondhaven
+
+01:55:57.752 | DEBUG    |   zipcode: 54432
+
+01:55:57.851 | DEBUG    | Status code correct: 200

@@ -1,0 +1,33 @@
+01:55:58.013 | DEBUG    | New user details:
+
+01:55:58.013 | DEBUG    |   name: Samantha
+
+01:55:58.013 | DEBUG    |   email: ad52e09b_mark38@example.com
+
+01:55:58.013 | DEBUG    |   title: Mr
+
+01:55:58.013 | DEBUG    |   birth_day: 11
+
+01:55:58.013 | DEBUG    |   birth_month: 2
+
+01:55:58.013 | DEBUG    |   birth_year: 1917
+
+01:55:58.013 | DEBUG    |   firstname: Samantha
+
+01:55:58.013 | DEBUG    |   lastname: Lawrence
+
+01:55:58.013 | DEBUG    |   company: Green, Fox and Rodgers
+
+01:55:58.013 | DEBUG    |   address1: 08703 Guzman Corners Apt. 997
+
+01:55:58.013 | DEBUG    |   address2: Suite 674
+
+01:55:58.013 | DEBUG    |   country: India
+
+01:55:58.013 | DEBUG    |   state: Illinois
+
+01:55:58.013 | DEBUG    |   city: Howellview
+
+01:55:58.013 | DEBUG    |   zipcode: 24020
+
+01:55:58.114 | DEBUG    | Status code correct: 200

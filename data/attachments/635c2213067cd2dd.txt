@@ -1,0 +1,33 @@
+01:55:58.142 | DEBUG    | New user details:
+
+01:55:58.142 | DEBUG    |   name: Charles
+
+01:55:58.142 | DEBUG    |   email: a4f10762_davenporterik@example.com
+
+01:55:58.142 | DEBUG    |   title: Mr
+
+01:55:58.142 | DEBUG    |   birth_day: 6
+
+01:55:58.142 | DEBUG    |   birth_month: 7
+
+01:55:58.142 | DEBUG    |   birth_year: 2006
+
+01:55:58.142 | DEBUG    |   firstname: Charles
+
+01:55:58.142 | DEBUG    |   lastname: Gomez
+
+01:55:58.142 | DEBUG    |   company: Dean-Hamilton
+
+01:55:58.142 | DEBUG    |   address1: 03278 Le Square Apt. 873
+
+01:55:58.142 | DEBUG    |   address2: Suite 359
+
+01:55:58.142 | DEBUG    |   country: Israel
+
+01:55:58.142 | DEBUG    |   state: Indiana
+
+01:55:58.142 | DEBUG    |   city: New Aaronburgh
+
+01:55:58.142 | DEBUG    |   zipcode: 00882
+
+01:55:58.243 | DEBUG    | Status code correct: 200
